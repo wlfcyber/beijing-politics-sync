@@ -1,0 +1,26 @@
+# Raw large source files. Keep these in Git LFS or a cloud/source folder.
+*.zip
+*.pdf
+*.pptx
+*.doc
+*.docx
+*.png
+*.jpg
+*.jpeg
+
+# Keep lightweight research outputs.
+!skills/**/*.md
+!skills/**/*.py
+!skills/**/agents/*.yaml
+!artifacts/**/*.md
+!reports/**/*.md
+!extracted_text/**/*.txt
+!scripts/**/*.py
+
+# Local/generated noise.
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
+.idea/
+.vscode/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beijing Politics Rubrics"
+  short_description: "Analyze Beijing politics rubrics and sync research."
+  default_prompt: "Use this skill to continue the Beijing Gaokao politics rubric research workflow from local papers, rubrics, answer keys, and synced Markdown artifacts."
