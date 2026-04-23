@@ -70,6 +70,12 @@ For every choice question processed:
    - other.
 4. Add reusable wrong expressions to `北京高考政治错肢库_持续更新版.md`.
 5. Merge surface variants into higher-level wrong-expression patterns.
+6. For philosophy-related choice questions, also take the correct option and write a stable trigger entry into `必修四哲学材料-知识触发总框架_持续更新版_v2.md` using:
+   - 材料信息
+   - 原理/方法论
+   - 逻辑链
+   - 来源套卷与题号
+7. Do not stop at wrong-option analysis only when a choice question contains stable 必修四 material triggers.
 
 Wrong-option library schema:
 
@@ -84,6 +90,11 @@ For every main question:
 3. Match every rubric scoring point with exact material information.
 4. Explain why the material triggers the point.
 5. Summarize reusable trigger conditions.
+6. Merge the result into the philosophy framework using the same durable chain:
+   - 材料信息
+   - 原理/方法论
+   - 逻辑链
+   - 来源套卷与题号
 
 For “是如何” questions, default output:
 

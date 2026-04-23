@@ -96,3 +96,45 @@
 ## 2026-04-23 User Clarification On 2026二模
 - status_correction: passed. The user clarified that 2026二模 has not been held yet, so this batch should not be tracked as a “missing folder/material” blocker at the current stage.
 - queue_adjustment: passed. Active work remains focused on already-held and already-downloaded batches such as 2025一模、2025期末/期中、2026期末/期中 and the remaining answer-key-confirmable suites.
+
+## 2026-04-23 2025西城一模选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025西城一模/2025北京西城高三一模政治（教师版）.pdf` with bundled `pypdf`; page 9 contains the objective answer table.
+- answer_key_check: passed. Cross-checked the teacher-version PDF and `细则-西城一模政治25.4.docx`; confirmed the 2025西城一模第1-15题答案为 `1A 2C 3A 4D 5D 6A 7C 8B 9C 10D 11B 12B 13D 14B 15C`.
+- choice_mapper: passed for 2025西城一模第1-15题. Added 33 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. The whole objective section is text-readable; no scan-only question in this suite was left without handling.
+- governor_decision: passed. This round remains objective-question work only and does not use ordinary reference answers as rubrics.
+
+## 2026-04-23 2025西城一模选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the answer table came from the teacher-version paper and the scoring-reference docx; no inferred objective answer was used.
+- no forbidden labels were introduced.
+
+## 2026-04-23 Workflow Clarification And Backfill Audit
+- workflow_rule_update: passed. User clarified that every processed suite must satisfy a dual requirement for choice questions: wrong-option analysis into the choice library, and philosophy-related correct-option chains into the philosophy framework using `材料信息 -> 原理/方法论 -> 逻辑链 -> 来源题号`.
+- main_question_rule_confirm: passed. User reaffirmed that every main question must still be handled by rubric-first evidence and merged into the philosophy framework with the same chain structure.
+- backlog_audit: passed. Comparison between the choice ledger and the philosophy framework shows that some earlier processed choice suites already had objective-question philosophy entries, but 2025延庆一模、2025东城一模、2025西城一模 had been written into the wrong-option library without corresponding philosophy-framework backfill.
+- pending_backlog: explicit. 2026一模已做客观题补充的若干套卷，仍需继续核查并补齐选择题正确项的哲学触发链；在这些旧账补完前，不开新的未处理套卷。
+
+## 2026-04-23 2025一模选择题哲学链回填（延庆/东城/西城）
+- framework_backfill: passed for three already processed suites. Added stable choice-question philosophy chains for 2025延庆一模、2025东城一模、2025西城一模 into the philosophy framework.
+- suite_2025_yanqing_check: passed. Backfilled 第2题“课间15分钟”到“量变与质变/适度原则”，第4题“长江生态保护”到“尊重客观规律与发挥主观能动性相结合”.
+- suite_2025_dongcheng_check: passed. Backfilled 第4题“遗产保护带动城市更新”到“联系观点”，第6题“草坪开放分歧”到“认识受主客观条件限制/认识发展原理”.
+- suite_2025_xicheng_check: passed. Backfilled 第1题“中央一号文件话语变化”到“社会存在与社会意识”，第2题“建设中华民族现代文明”到“辩证否定/守正创新”，第3题“树密度地图”到“认识发展原理”.
+- consistency_check: passed. The three suites now satisfy the updated dual requirement: wrong-option library + philosophy framework.
+
+## 2026-04-23 2026一模选择题哲学链回填（朝阳/延庆/石景山/门头沟/顺义）
+- framework_backfill: passed for five already processed suites. Added stable choice-question philosophy chains for 2026朝阳一模、2026延庆一模、2026石景山一模、2026门头沟一模、2026顺义一模 into the philosophy framework.
+- suite_2026_chaoyang_check: passed. Backfilled 第1题“实干口号与阶段任务”到“实事求是”，第2题“古意/古澹”到“价值观导向作用”，第3题“春节科普+非遗”到“辩证否定/守正创新”，第4题“中非人文交流年”到“联系观点”.
+- suite_2026_yanqing_check: passed. Backfilled 第2题“人工智能与劳动变革”到“主观能动性”，第3题“因地制宜乡村振兴”到“具体问题具体分析”，第4题“老墙微改造”到“辩证否定”.
+- suite_2026_shijingshan_check: passed. Backfilled 第2题“资源再利用与场景转化”到“发展观点”，第3题“AI写作不能替代原创思考”到“主观能动性”，第4题“唐诗之都”到“联系观点”.
+- suite_2026_mentougou_check: passed. Backfilled 第4题“两园一河文旅融合”到“联系观点”，第5题“能上楼的公交专线”到“辩证否定”，第7题“学农劳动体验”到“实践是认识的基础”.
+- suite_2026_shunyi_check: passed. Backfilled 第2题“北京题材新戏的现代表达”到“主观能动性”.
+- evidence_rule_check: passed. All five suites used only paper text plus official answer tables for the objective slice; no ordinary subjective reference answer was treated as a rubric.
+- consistency_check: passed. The five suites now satisfy the updated dual requirement: wrong-option library + philosophy framework + governor review.
+
+## 2026-04-23 2026东城一模选择题首轮哲学链回填
+- framework_backfill: passed. Added stable philosophy chains for the previously completed 2026东城一模 choice-question first slice into the philosophy framework.
+- suite_2026_dongcheng_check: passed. Backfilled 第1题“复杂环境下持续向优”到“实事求是”，第2题“隆福寺街区多要素融合”到“联系观点”，第5题“脑图表的规律性认识”到“认识发展原理”.
+- scope_control: passed. This suite originally contained philosophy-related objective entries only; the backfill stayed within the same philosophy boundary and did not force non-philosophy correct options into the framework.
+- evidence_rule_check: passed. Used only the teacher-version paper and its official answer table; no ordinary subjective reference answer was treated as a rubric.
+- consistency_check: passed. `2026一模选择题首轮` now satisfies the updated dual requirement: wrong-option library + philosophy framework + governor review.
