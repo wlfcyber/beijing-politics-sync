@@ -210,6 +210,16 @@
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
 
+## 2026-04-23 选必一国政经三年题链首轮回填
+- source_reader: passed. Re-opened the local 2024、2025、2026 district paper and rubric folders for 选必一《国际政治与经济》, and reused the previously extracted OCR/cache texts where they matched the local files.
+- pairing_check: passed. Corrected several OCR-misread question numbers before merge, including 2024朝阳期中 `Q20(3)`, 2024海淀一模 `Q18(1)`, 2024石景山一模 `Q19(2)`, 2025海淀期中 `Q21(2)`, and 2026丰台期末 `Q21`.
+- rubric_extraction: passed. Extracted stable `材料场景 -> 细则抓手 -> 回填框架` chains for 35 questions and wrote the integrated desktop artifact `~/Desktop/北京高考政治/选必一_国际政治与经济_框架+三年国政经题链_细则版.md`.
+- framework_backfill: passed. Expanded the six-module framework with recurring high-frequency points and placed each confirmed question under a dominant module with cross-module notes when needed.
+- scope_control: passed. No ordinary reference answer was used as rubric in this round; when a local `细则` file mixed scoring directions with示例性表述, only the scoring-stable directions were absorbed into the framework.
+- special_case_check: passed. `2026丰台期末` was merged from the local rubric block that matches the paper’s“四大全球倡议”设问; unrelated later pages in the same PDF were not forced into the framework.
+- blockers: partial. `2026海淀期中 Q20(1)` was not merged because no local rubric file is present; `2024顺义思政二模` remains outside the main framework because the current local extraction is cross-book and the rubric slice is not yet stable enough for source-accurate merge.
+- consistency_check: passed. No missing-rubric item was written as if confirmed, no forbidden labels were introduced, and the user’s instruction “以细则为准、不看参考答案” was preserved throughout this round.
+
 ## 2026-04-23 2025海淀期末选择题补充
 - file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025海淀期末/2025北京海淀高三（上）期末政治（教师版）.docx`; extracted both paragraph text and embedded tables, and confirmed the objective answer table from the teacher-version document itself.
 - answer_key_check: passed. Confirmed the 2025海淀期末第1-15题答案为 `1A 2C 3B 4C 5D 6B 7A 8D 9B 10C 11D 12A 13B 14C 15D`; no inferred answer was used.
@@ -222,5 +232,20 @@
 - all newly added wrong-option entries name the source suite and question number.
 - the objective answer source came from the teacher-version `docx` table itself; no guessed objective answer was used.
 - the suite’s main-question framework work still relies on the user-confirmed `2025届期末考试0118(2).pptx` scoring reference for 第16题与第17题（2）, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
+
+## 2026-04-23 2025朝阳期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025朝阳期末/朝阳高三期末2025.pptx`; extracted slide 2 answer key and slides 3-17 question text directly from the presentation package. The suite’s main-question scoring basis remains the already migrated scan-read `朝阳期末评标.pdf` for 第16题与第22题.
+- answer_key_check: passed. Confirmed the 2025朝阳期末第1-15题答案为 `1C 2D 3B 4C 5D 6A 7A 8B 9A 10D 11A 12C 13B 14D 15A`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第2题“鸽子笼改造与整体城市风貌协调”到“整体与部分/系统观念”，第7题“删繁就简、领异标新”到“辩证否定；矛盾特殊性/具体问题具体分析”，第9题“圈层协同建设韧性城市”到“整体与部分/系统观念”.
+- choice_mapper: passed for 2025朝阳期末第1-15题. Added 34 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force purely选必三逻辑题、一般制度运行题或普通开放政策题 into the compulsory-four philosophy framework; only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第16题与第22题主观题链, closes the three-line loop for 2025朝阳期末.
+
+## 2026-04-23 2025朝阳期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from `朝阳高三期末2025.pptx` slide 2; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on the previously migrated `朝阳期末评标.pdf` scan-read scoring reference for 第16题与第22题, not on ordinary reference answers.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
