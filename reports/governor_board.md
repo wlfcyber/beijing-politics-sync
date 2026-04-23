@@ -194,3 +194,18 @@
 - the suite’s main-question framework work still relies on the user-confirmed `2025。1东城讲评 修改.pdf` answer细则 section for 第16题, not on ordinary reference answers.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
+
+## 2026-04-23 2025西城期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025西城期末/2025北京西城高三（上）期末政治（教师版）.pdf` and `西城期末答案 解析.pdf` with bundled `pypdf`; both files are text-readable.
+- answer_key_check: passed. Confirmed the 2025西城期末第1-15题答案为 `1D 2B 3C 4D 5C 6A 7B 8C 9B 10A 11D 12B 13A 14B 15B`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第3题“外国游客通过亲身旅行修正刻板印象”到“实践是认识的基础”，第4题“从眼前收益转向长远视角与耐心资本”到“发展的观点”，第7题“抢位与错位、快与慢、同与异的统筹处理”到“矛盾就是对立统一”.
+- choice_mapper: passed for 2025西城期末第1-15题. Added 29 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force purely逻辑分类题、一般经济政策题或选必二程序题 into the compulsory-four philosophy framework; only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第18题主观题链, closes the three-line loop for 2025西城期末.
+
+## 2026-04-23 2025西城期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from the teacher-version paper and `西城期末答案 解析.pdf`; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on the user-confirmed `西城期末答案 解析.pdf` scoring reference for 第18题, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
