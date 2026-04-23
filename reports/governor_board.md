@@ -34,3 +34,35 @@
 - 2026一模朝阳、延庆、石景山、门头沟、顺义、海淀新增条目均标明来源套卷和题号.
 - 2026海淀一模试卷为扫描件，已使用渲染页读图核对客观题题干，并使用评分标准中的答案表；没有推测答案.
 - 2026丰台、房山、西城未发现客观题答案表，按用户要求不把参考材料或猜测答案写入错肢库.
+
+## 2026-04-23 Mac Migration Round
+- organizer: passed for Mac bootstrap. Created `~/GaokaoPolitics`, installed Command Line Tools, located the active private repo in the logged-in browser as `wlfcyber/beijing-politics-sync`, and placed the project at `~/GaokaoPolitics/beijing-politics-sync`.
+- sync_reader: passed; installed the local skill to `~/.codex/skills/beijing-gaokao-politics-rubric` and read `SKILL.md`, `references/operating-rules.md`, `references/current-state.md`, and `references/github-sync.md`.
+- artifact_check: passed; confirmed the three durable outputs exist at the Mac working paths:
+  - `~/GaokaoPolitics/beijing-politics-sync/artifacts/必修四哲学材料-知识触发总框架_持续更新版_v2.md`
+  - `~/GaokaoPolitics/beijing-politics-sync/artifacts/北京高考政治错肢库_持续更新版.md`
+  - `~/GaokaoPolitics/beijing-politics-sync/reports/governor_board.md`
+- source_inventory: failed on this Mac because the raw corpus content is still missing from the expected source paths.
+- skipped: no artifact content expansion was attempted in this migration round because raw source folders are not yet populated on the Mac.
+- governor_decision: passed with migration-only limitation. The Mac can resume from the synced artifacts and installed skill, but raw source content remains an open blocker.
+
+## 2026-04-23 Mac Seamless-Sync Check
+- source_locator: passed for local search coverage. Checked Desktop, Documents, Downloads, `~/GaokaoPolitics`, iCloud Drive container, and mounted volumes for `2025各区模拟题`, `2026各区模拟题`, and `哲学与文化  2026班课.pdf`.
+- source_locator_result: failed for raw-corpus availability. The required three raw source targets are still not populated on this Mac.
+- cloud_probe: passed; iCloud Drive is available on this Mac, but the located `一模` and `二模` folders currently contain score-report images such as `高三_政治正评_1.jpg` and `高三_政治正评_2.jpg`, not the expected Beijing politics source corpus folders for 2025/2026 district materials.
+- terminal_git_probe: passed after correction. Generated a dedicated Mac SSH key, added it to GitHub account `wlfcyber`, verified SSH authentication, and completed a true SSH clone from `git@github.com:wlfcyber/beijing-politics-sync.git`.
+- seamless_sync_decision: partial pass. GitHub artifact sync is now real and supports `pull/push`; raw source sync still requires copying the original corpus into the standardized iCloud-backed source paths.
+
+## 2026-04-23 Mac Source-Link Setup
+- source_path_builder: passed. Built an iCloud-backed raw-source root at `~/Library/Mobile Documents/com~apple~CloudDocs/GaokaoPoliticsSource`.
+- source_linker: passed for directory paths. Linked:
+  - `~/GaokaoPolitics/source/2025各区模拟题` -> `~/Library/Mobile Documents/com~apple~CloudDocs/GaokaoPoliticsSource/2025各区模拟题`
+  - `~/GaokaoPolitics/source/2026各区模拟题` -> `~/Library/Mobile Documents/com~apple~CloudDocs/GaokaoPoliticsSource/2026各区模拟题`
+- source_linker_pdf: passed as path reservation. Linked `~/GaokaoPolitics/source/哲学与文化  2026班课.pdf` to the iCloud target path so future placement uses one stable file name on both computers; the actual PDF content is still missing.
+- seamless_sync_gain: passed for Git repository continuity and partial for raw sources. Future artifact work can now use normal `git pull`/`git push`; raw source files should be synchronized into the iCloud-backed source root.
+
+## 2026-04-23 Mac Seamless-Sync Checks
+- no reference answer was treated as a rubric in this migration and sync round.
+- no raw source path was falsely marked as complete.
+- no local score-report image folder was misclassified as the 2025/2026 district source corpus.
+- no forbidden labels were introduced into the framework, wrong-option library, or governor board.
