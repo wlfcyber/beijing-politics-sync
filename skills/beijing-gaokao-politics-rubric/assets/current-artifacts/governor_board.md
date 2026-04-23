@@ -209,3 +209,18 @@
 - the suite’s main-question framework work still relies on the user-confirmed `西城期末答案 解析.pdf` scoring reference for 第18题, not on ordinary reference answers.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
+
+## 2026-04-23 2025海淀期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025海淀期末/2025北京海淀高三（上）期末政治（教师版）.docx`; extracted both paragraph text and embedded tables, and confirmed the objective answer table from the teacher-version document itself.
+- answer_key_check: passed. Confirmed the 2025海淀期末第1-15题答案为 `1A 2C 3B 4C 5D 6B 7A 8D 9B 10C 11D 12A 13B 14C 15D`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第2题“观光巴士把多种文化体验组织成整体场景”到“联系的观点”，第4题“AI歌曲仍由人的创作意图统摄”到“主观能动性”，第5题“40多年治沙最终锁边合龙”到“量变与质变”，第6题“胡克定律具有条件性并进入实践应用”到“真理观”，第7题“群众点单—人大定单—政府领单—群众验单”到“人民群众/群众路线”.
+- choice_mapper: passed for 2025海淀期末第1-15题. Added 33 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force纯文化赏析题、一般法律程序题或选必三创新思维题 into the compulsory-four philosophy framework; only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第16题与第17题（2）主观题链, closes the three-line loop for 2025海淀期末.
+
+## 2026-04-23 2025海淀期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from the teacher-version `docx` table itself; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on the user-confirmed `2025届期末考试0118(2).pptx` scoring reference for 第16题与第17题（2）, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
