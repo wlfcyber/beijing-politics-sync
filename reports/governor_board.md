@@ -164,3 +164,18 @@
 - framework_backfill: passed. Added stable philosophy chains for 2025朝阳二模第3题“香山大思政课多载体协同”到“联系多样性”，2025西城二模第2题“反对事务主义”到“认识发展原理”，2025西城二模第4题“小麦基因组图谱”到“认识对实践的反作用”.
 - scope_control: passed. For 2025东城二模第13题、2025丰台二模第6/13/14题、2025昌平二模第12题、2025朝阳二模第12题、2025西城二模第1题，虽然已完成错肢分析，但当前稳定落点偏向纯文化或选必三逻辑/思维模块，未强行塞入必修四哲学主框架。
 - consistency_check: passed. `2025二模选择题补充（首轮）` now satisfies the updated dual requirement: wrong-option library + philosophy framework + governor review.
+
+## 2026-04-23 2025朝阳一模选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025朝阳一模/2025北京朝阳高三一模政治（教师版）.pdf` with bundled `pypdf`; page 8 contains the objective answer table for 第1-15题.
+- answer_key_check: passed. Confirmed the 2025朝阳一模第1-15题答案为 `1C 2D 3C 4B 5D 6A 7C 8C 9B 10D 11D 12B 13A 14C 15B`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第1题“新时代作为发展新方位”到“量变与质变/发展的阶段性”，第4题“敌进我退、敌驻我扰”到“矛盾特殊性/具体问题具体分析”，第12题“林下经济要研究市场、防止一哄而上”到“实事求是”.
+- choice_mapper: passed for 2025朝阳一模第1-15题. Added 30 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force question branches leaning mainly toward教育政策口径、一般文化赏析或选必三关系分类争议 into the compulsory-four philosophy framework; only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement: wrong-option library + philosophy framework + governor review.
+
+## 2026-04-23 2025朝阳一模选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the answer table came from the teacher-version paper itself; no guessed objective answer was used.
+- no ordinary subjective reference answer was treated as a rubric in this suite.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
