@@ -26,17 +26,19 @@ GitHub sync copies:
 - 2025 philosophy main-question/rubric-trigger work is basically cleared for the local corpus, except explicitly excluded no-rubric cases.
 - 2026一模 main-question mapping has 16 source-labeled rubric-supported chains.
 - 2026朝阳一模第16题 rubric exists in the user-supplied docx and has been corrected into the framework.
-- 2026二模 folder/zip has not been found locally as of 2026-04-23.
+- 2026二模 is not a current blocker: the user clarified on 2026-04-23 that the exam has not been held yet, so this batch should stay out of the active queue for now.
 
 ### Choice-Question Wrong-Option Library
 
-Current wrong-option library total: 263 reusable patterns.
+Current wrong-option library total: 321 reusable patterns.
 
 Sections:
 
 - 2026一模选择题首轮: 12
 - 2025二模选择题补充（首轮）: 30
 - 2025海淀二模选择题补充: 29
+- 2025延庆一模选择题补充: 31
+- 2025东城一模选择题补充: 27
 - 2026朝阳一模选择题补充: 35
 - 2026延庆一模选择题补充: 33
 - 2026石景山一模选择题补充: 28
@@ -66,8 +68,8 @@ Important resolved item:
 
 ## Next Work
 
-1. Continue 2025一模选择题补充.
+1. Continue 2025一模选择题补充; 延庆、东城已完成，继续朝阳、海淀、西城、顺义、门头沟、石景山、房山、丰台.
 2. Continue 2025期末/期中选择题补充 when paper plus answer table can be confirmed.
 3. Continue 2026期末/期中选择题补充.
-4. When 2026二模 materials appear, automatically scan and process them.
+4. After 2026二模 is actually held and the materials arrive, scan and process them under the same rules.
 5. Keep committing/pushing after each substantial update.

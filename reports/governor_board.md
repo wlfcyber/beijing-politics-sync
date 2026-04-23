@@ -20,7 +20,7 @@
 ## Remaining Blockers
 - 2025海淀期中: no usable 必修四哲学 rubric found; not merged into the main framework.
 - 2026一模丰台、房山、西城客观题: local files searched; no reliable objective answer table has been found, so no inferred answers were written into the wrong-option library.
-- 2026二模: no local folder or zip found under `C:\Users\Administrator\Desktop` or `C:\Users\Administrator\Desktop\2026各区模拟题`.
+- 2026二模: user clarified on 2026-04-23 that the exam has not been held yet, so it is removed from the current blocker list.
 
 ## Checks
 - no unresolved scan-only or hard-to-read file was left without tool handling in this slice.
@@ -66,3 +66,33 @@
 - no raw source path was falsely marked as complete.
 - no local score-report image folder was misclassified as the 2025/2026 district source corpus.
 - no forbidden labels were introduced into the framework, wrong-option library, or governor board.
+
+## 2026-04-23 2025延庆一模选择题补充
+- source_locator: passed. Found the newly downloaded raw corpora at `~/GaokaoPolitics/2024各区模拟题`, `~/GaokaoPolitics/2025各区模拟题`, and `~/GaokaoPolitics/2026各区模拟题`; the active processing slice in this round used `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025延庆一模`.
+- file_reader: passed. Read the teacher-version paper `2025北京延庆高三一模政治（教师版）.pdf` with bundled `pypdf`, and converted `2025延庆区一模政治 答案.docx` with `textutil` to confirm the objective answer table.
+- answer_key_check: passed with one explicit correction. The teacher-version PDF text layer on page 9 showed a single ambiguous extraction at 第9题; the docx answer table plus option-content logic confirm 第9题答案为A, and no guessed answer was used.
+- choice_mapper: passed for 2025延庆一模第1-15题. Added 31 reusable wrong-option patterns into the cumulative library.
+- blocker_scan: corrected by user clarification. 2026二模 is not a local-missing blocker in this round because the exam has not been held yet.
+- governor_decision: passed. This round expands the choice-question library only; no ordinary reference answer was treated as a rubric for main-question work.
+
+## 2026-04-23 2025延庆一模选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- no missing-answer suite was inferred into the library.
+- no scan-only file in this slice was left unread after available local tools were checked.
+- no forbidden labels were introduced.
+
+## 2026-04-23 2025东城一模选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025东城一模/2025北京东城高三一模政治（教师版）.pdf` with bundled `pypdf`; the teacher-version PDF itself contains the objective answer table on page 8.
+- answer_key_check: passed. Confirmed the 2025东城一模第1-15题答案为 `1A 2B 3A 4B 5C 6C 7A 8C 9C 10B 11A 12D 13D 14B 15D`.
+- choice_mapper: passed for 2025东城一模第1-15题. Added 27 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Question 5 depends on the accompanying漫画寓意呈现，当前回合未机械增补该题表述； only stable, reusable wrong expressions were merged.
+- governor_decision: passed. This round remains choice-question work only and does not use ordinary reference answers as rubrics.
+
+## 2026-04-23 2025东城一模选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the answer table came from the teacher-version paper itself; no inferred objective answer was used.
+- no forbidden labels were introduced.
+
+## 2026-04-23 User Clarification On 2026二模
+- status_correction: passed. The user clarified that 2026二模 has not been held yet, so this batch should not be tracked as a “missing folder/material” blocker at the current stage.
+- queue_adjustment: passed. Active work remains focused on already-held and already-downloaded batches such as 2025一模、2025期末/期中、2026期末/期中 and the remaining answer-key-confirmable suites.
