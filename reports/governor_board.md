@@ -179,3 +179,18 @@
 - no ordinary subjective reference answer was treated as a rubric in this suite.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
+
+## 2026-04-23 2025东城期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025东城期末/2025北京东城高三（上）期末政治（教师版）.pdf` with bundled `pypdf`; the teacher-version paper contains the answer解析页 for 第1-15题.
+- answer_key_check: passed. Confirmed the 2025东城期末第1-15题答案为 `1D 2D 3B 4A 5C 6C 7B 8B 9A 10C 11C 12A 13B 14D 15B`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第4题“汉字笔画在差异与协调中呈现结构之美”到“矛盾就是对立统一”，第5题“社区公园圆角改造统筹安全、绿地与休闲体验”到“整体与部分/系统观念”.
+- choice_mapper: passed for 2025东城期末第1-15题. Added 29 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force一般文化功能题、宏观经济传导题或选必三假言推理争议项进入必修四哲学主框架； only stable 哲学 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第16题主观题链, closes the three-line loop for 2025东城期末.
+
+## 2026-04-23 2025东城期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the answer source came from the teacher-version paper’s own解析页; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on the user-confirmed `2025。1东城讲评 修改.pdf` answer细则 section for 第16题, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
