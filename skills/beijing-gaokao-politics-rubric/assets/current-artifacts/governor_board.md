@@ -249,3 +249,18 @@
 - the suite’s main-question framework work still relies on the previously migrated `朝阳期末评标.pdf` scan-read scoring reference for 第16题与第22题, not on ordinary reference answers.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
+
+## 2026-04-23 2025丰台期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025丰台期末/2025北京丰台高三（上）期末政治（教师版）.pdf` with bundled `pypdf`; extracted question pages 1-6 and reference-answer pages 9-13 directly from the teacher-version file. The suite’s main-question scoring basis remains `丰台期末细则.pptx` for 第16题与第17题.
+- answer_key_check: passed. Confirmed the 2025丰台期末第1-15题答案为 `1B 2D 3B 4A 5A 6A 7C 8D 9D 10B 11D 12B 13C 14C 15A`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第4题“在为国尽责、为民服务中实现价值”到“实现人生价值”，第7题“把握当下、从实际出发减少迷茫”到“一切从实际出发/实事求是”.
+- choice_mapper: passed for 2025丰台期末第1-15题. Added 31 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force纯选必三推理题、一般养老服务供给题或普通外贸图表题 into the compulsory-four philosophy framework; only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第16题与第17题主观题链, closes the three-line loop for 2025丰台期末.
+
+## 2026-04-23 2025丰台期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from the teacher-version PDF’s own reference-answer pages 9-13; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on `丰台期末细则.pptx` for 第16题与第17题, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
