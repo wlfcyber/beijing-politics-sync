@@ -250,6 +250,13 @@
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
 
+## 2026-04-23 选必一国政经题目肢解格式重构
+- formatter: passed. Reworked the previously merged 选必一国政经 framework into a per-question `材料 -> 细则` split artifact at `~/Desktop/北京高考政治/选必一_国际政治与经济_题目肢解版_材料-细则.md`.
+- structure_check: passed. All confirmed questions remain grouped under the user’s six module titles: 时代背景、理论、经济全球化、政治多极化、联合国、中国.
+- repeat_counter: passed. Added repeated-point counts only for reused rubric points, using one global count table across the current 35 confirmed questions.
+- scope_control: passed. This round was a formatting and counting rewrite only; no new ordinary reference answer was introduced as rubric, and the two earlier blockers stayed outside the main body.
+- blockers_preserved: passed. `2026海淀期中 Q20(1)` and `2024顺义思政二模` remain explicitly marked as pending rather than being forced into the split framework.
+
 ## 2026-04-23 2025丰台期末选择题补充
 - file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025丰台期末/2025北京丰台高三（上）期末政治（教师版）.pdf` with bundled `pypdf`; extracted question pages 1-6 and reference-answer pages 9-13 directly from the teacher-version file. The suite’s main-question scoring basis remains `丰台期末细则.pptx` for 第16题与第17题.
 - answer_key_check: passed. Confirmed the 2025丰台期末第1-15题答案为 `1B 2D 3B 4A 5A 6A 7C 8D 9D 10B 11D 12B 13C 14C 15A`; no inferred answer was used.
@@ -262,5 +269,20 @@
 - all newly added wrong-option entries name the source suite and question number.
 - the objective answer source came from the teacher-version PDF’s own reference-answer pages 9-13; no guessed objective answer was used.
 - the suite’s main-question framework work still relies on `丰台期末细则.pptx` for 第16题与第17题, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
+
+## 2026-04-23 2026东城期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026东城期末/2026北京东城高三（上）期末政治（教师版）.pdf` with bundled `pypdf`; extracted question pages 1-7 and answer page 8. Also re-opened `东城期末.pptx` to校核高频错项讲评。
+- answer_key_check: passed. Confirmed the 2026东城期末第1-15题答案为 `1D 2C 3B 4D 5A 6B 7A 8B 9A 10D 11C 12B 13C 14D 15C`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第3题“安全卫生与人文需求之间的矛盾推动精细化治理”到“矛盾就是对立统一”，第4题“核糖核酸与氨基酸的自在联系可能是生命起源关键”到“联系的客观性/自在联系”.
+- choice_mapper: passed for 2026东城期末第1-15题. Added 35 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force纯条件推理题、一般人大履职题或普通开放政策题 into the compulsory-four philosophy framework; only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第16题主观题链, closes the three-line loop for 2026东城期末.
+
+## 2026-04-23 2026东城期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from the teacher-version PDF’s own answer page 8; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on the user-provided评分页截图 for 第16题, not on ordinary reference answers.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.

@@ -30,7 +30,7 @@ GitHub sync copies:
 
 ### Choice-Question Wrong-Option Library
 
-Current wrong-option library total: 540 reusable patterns.
+Current wrong-option library total: 575 reusable patterns.
 
 Sections:
 
@@ -46,6 +46,7 @@ Sections:
 - 2025海淀期末选择题补充: 33
 - 2025朝阳期末选择题补充: 34
 - 2025丰台期末选择题补充: 31
+- 2026东城期末选择题补充: 35
 - 2026朝阳一模选择题补充: 35
 - 2026延庆一模选择题补充: 33
 - 2026石景山一模选择题补充: 28
@@ -55,7 +56,7 @@ Sections:
 
 Dual-output backfill status:
 
-- Already satisfies `错肢库 + 哲学框架` for processed choice suites: 2025二模选择题首轮、2025延庆一模、2025东城一模、2025朝阳一模、2025西城一模、2025东城期末、2025西城期末、2025海淀期末、2025朝阳期末、2025丰台期末、2025海淀二模、2026东城一模选择题首轮、2026朝阳一模、2026延庆一模、2026石景山一模、2026门头沟一模、2026顺义一模、2026海淀一模.
+- Already satisfies `错肢库 + 哲学框架` for processed choice suites: 2025二模选择题首轮、2025延庆一模、2025东城一模、2025朝阳一模、2025西城一模、2025东城期末、2025西城期末、2025海淀期末、2025朝阳期末、2025丰台期末、2025海淀二模、2026东城一模选择题首轮、2026东城期末、2026朝阳一模、2026延庆一模、2026石景山一模、2026门头沟一模、2026顺义一模、2026海淀一模.
 - Remaining framework-backfill backlog among already processed choice batches: none at this stage.
 
 2026一模 remaining choice-question blockers:
@@ -67,6 +68,7 @@ Dual-output backfill status:
 Important resolved item:
 
 - 2026海淀一模 paper is scan-only, but rendered pages were read visually and paired with the scoring-standard answer key, so its choice questions were entered without inferred answers.
+- 2025海淀期中 local answer key exists in the accompanying `docx`, but the suite still has no stable 必修四 choice-material trigger and no usable philosophy rubric, so it remains honestly excluded instead of being forced into closure.
 
 ## Operating Rules To Preserve
 
@@ -83,7 +85,7 @@ Important resolved item:
 ## Next Work
 
 1. Continue 2025期末/期中 choice-question supplementation by checking whether `海淀期中` has any confirmable objective answer source and stable philosophy-related choice material; if not, keep it honestly excluded.
-2. Continue 2026期末/期中 choice-question supplementation for answer-key-confirmable suites such as `东城、朝阳、海淀、西城期末` and `朝阳期中`.
+2. Continue 2026期末/期中 choice-question supplementation for answer-key-confirmable suites such as `朝阳期中、海淀期末、西城期末、朝阳期末`.
 3. Continue 2025一模 choice-question supplementation for the remaining suites `海淀、顺义、门头沟、石景山、房山、丰台`, only after each finished suite has both outputs: wrong-option library + philosophy framework chain.
 4. For 2026丰台、房山、西城一模 choice questions, use the user-authorized `北京题库` fallback only if a reliable paper-with-answer version can be confirmed.
 5. After 2026二模 is actually held and the materials arrive, scan and process them under the same rules.
