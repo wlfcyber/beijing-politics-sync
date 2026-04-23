@@ -138,3 +138,29 @@
 - scope_control: passed. This suite originally contained philosophy-related objective entries only; the backfill stayed within the same philosophy boundary and did not force non-philosophy correct options into the framework.
 - evidence_rule_check: passed. Used only the teacher-version paper and its official answer table; no ordinary subjective reference answer was treated as a rubric.
 - consistency_check: passed. `2026一模选择题首轮` now satisfies the updated dual requirement: wrong-option library + philosophy framework + governor review.
+
+## 2026-04-23 User Authorization On 北京题库 Objective-Answer Fallback
+- source_rule_update: passed. The user explicitly authorized `北京题库` as a fallback source when a local objective answer table is missing.
+- scope_guard: passed. This authorization is restricted to downloading or confirming paper-with-answer versions for choice-question answer-key verification only.
+- rubric_boundary: passed. Subjective answers or ordinary解析 from `北京题库` still do not count as rubrics or marking rules unless the user later gives explicit confirmation.
+
+## 2026-04-23 2026海淀一模选择题哲学链回填
+- file_reader: passed. The paper is scan-only; used local macOS `Swift + PDFKit + Vision` OCR to read the objective-question pages, and paired them with `26海淀一模政治评分标准.pdf` for the official answer table.
+- answer_key_check: passed. Confirmed the 2026海淀一模第1-15题答案为 `1C 2B 3A 4B 5D 6B 7D 8A 9B 10D 11C 12C 13D 14A 15C`; no guessed answer was used.
+- framework_backfill: passed. Backfilled stable philosophy chains for 第1题“重走长征路”到“价值观导向作用”，第2题“传统插花审美创造”到“主观能动性”，第4题“三条文化带统筹”到“整体与部分”，第5题“数字游民与乡村蝶变”到“联系多样性”，第7题“健康第一校园治理”到“价值观导向作用”，第8题“正确政绩观与调查研究”到“实事求是”.
+- evidence_rule_check: passed. This round used only scan-paper OCR plus the official scoring-standard answer key for the objective slice; no ordinary subjective reference answer was treated as a rubric.
+- consistency_check: passed. `2026海淀一模选择题补充` now satisfies the updated dual requirement: wrong-option library + philosophy framework + governor review.
+
+## 2026-04-23 2025海淀二模选择题哲学链回填与错标纠正
+- file_reader: passed. Re-opened the local scan paper with macOS `Swift + PDFKit + Vision` OCR, and re-read the answer page from the public answer image `2025北京海淀高三二模政治_页面_09.jpg`.
+- answer_key_check: passed. Confirmed the 2025海淀二模第1-15题答案为 `1C 2B 3A 4B 5D 6B 7A 8C 9A 10D 11C 12D 13C 14B 15A`; no guessed answer was used in this correction round.
+- source_alignment_check: passed after correction. The older framework entries labeled `2025北京海淀高三二模 第2题` and `第4题` did not match the locally reopened paper text, so they were removed instead of being carried forward as bad labels.
+- framework_backfill: passed. Backfilled verified philosophy chains for 第9题“工业旅游+”到“联系客观性”，第10题“真理性须经实践检验”到“实践是认识的基础/实践检验标准”，第12题“耐心资本”到“矛盾对立统一”.
+- scope_control: passed. Did not force non-philosophy or current-framework-outside items into the philosophy table; the suite was closed only with stable 必修四 triggers.
+- consistency_check: passed. `2025海淀二模选择题补充` now satisfies the updated dual requirement: wrong-option library + philosophy framework + governor review.
+
+## 2026-04-23 2025二模选择题首轮哲学链回填收口
+- answer_key_check: passed. Re-used teacher-version answer tables for 2025东城、丰台、昌平、朝阳、西城二模; newly re-opened 朝阳和西城教师版答案页再次核对无误。
+- framework_backfill: passed. Added stable philosophy chains for 2025朝阳二模第3题“香山大思政课多载体协同”到“联系多样性”，2025西城二模第2题“反对事务主义”到“认识发展原理”，2025西城二模第4题“小麦基因组图谱”到“认识对实践的反作用”.
+- scope_control: passed. For 2025东城二模第13题、2025丰台二模第6/13/14题、2025昌平二模第12题、2025朝阳二模第12题、2025西城二模第1题，虽然已完成错肢分析，但当前稳定落点偏向纯文化或选必三逻辑/思维模块，未强行塞入必修四哲学主框架。
+- consistency_check: passed. `2025二模选择题补充（首轮）` now satisfies the updated dual requirement: wrong-option library + philosophy framework + governor review.

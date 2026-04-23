@@ -19,11 +19,13 @@ Use this source hierarchy:
 2. User-provided screenshots or pasted rubrics.
 3. Teacher/reference answers only when the user explicitly confirms they are usable for scoring-rule work.
 4. For choice questions only, paper questions plus official answer keys may be used to identify wrong options.
+5. If a reliable local objective answer key is missing, the user-authorized `北京题库` paper-with-answer version may be used only as a fallback channel for choice-question answer-key verification.
 
 Never:
 
 - invent a rubric;
 - silently use a reference answer as a rubric;
+- silently upgrade a `北京题库` subjective answer or ordinary reference answer into a rubric;
 - hide uncertainty;
 - pretend a missing rubric has been found.
 

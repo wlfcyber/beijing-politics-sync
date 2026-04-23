@@ -49,8 +49,8 @@ Sections:
 
 Dual-output backfill status:
 
-- Already satisfies `错肢库 + 哲学框架` for processed choice suites: 2025延庆一模、2025东城一模、2025西城一模、2026东城一模选择题首轮、2026朝阳一模、2026延庆一模、2026石景山一模、2026门头沟一模、2026顺义一模.
-- Remaining framework-backfill backlog among already processed choice batches: 2026海淀一模、2025二模选择题首轮、2025海淀二模.
+- Already satisfies `错肢库 + 哲学框架` for processed choice suites: 2025二模选择题首轮、2025延庆一模、2025东城一模、2025西城一模、2025海淀二模、2026东城一模选择题首轮、2026朝阳一模、2026延庆一模、2026石景山一模、2026门头沟一模、2026顺义一模、2026海淀一模.
+- Remaining framework-backfill backlog among already processed choice batches: none at this stage.
 
 2026一模 remaining choice-question blockers:
 
@@ -68,6 +68,7 @@ Important resolved item:
 - 选择题可以用试题加官方答案表分析错肢。
 - 选择题中的哲学相关正确项，不能只停留在错肢库；还必须按“材料信息—原理/方法论—逻辑链—来源题号”回填到哲学总框架。
 - 没有答案表的选择题不推测入库。
+- 本地缺失客观题答案表时，可用用户授权的“北京题库”补找带答案版本，但仅限客观题答案核对，不把其主观题答案冒充细则。
 - 扫描件、图片PDF、旧版Word要自动渲染、转换或读图核查，不能只登记不处理。
 - 禁止使用“可替代”“反向筛查”“教学提醒”作为栏目。
 - 每条新增错肢或材料触发必须标明来源套卷和题号。
@@ -75,9 +76,9 @@ Important resolved item:
 
 ## Next Work
 
-1. Continue backfilling the remaining already-processed choice batches that still lack philosophy-framework chains: 2026海淀一模、2025二模选择题首轮、2025海淀二模.
-2. Continue 2025一模 choice-question supplementation only after each finished suite has both outputs: wrong-option library + philosophy framework chain.
-3. Continue 2025期末/期中选择题补充 when paper plus answer table can be confirmed.
-4. Continue 2026期末/期中选择题补充.
+1. Continue 2025一模 choice-question supplementation only after each finished suite has both outputs: wrong-option library + philosophy framework chain.
+2. Continue 2025期末/期中选择题补充 when paper plus answer table can be confirmed.
+3. Continue 2026期末/期中选择题补充.
+4. For 2026丰台、房山、西城一模 choice questions, use the user-authorized `北京题库` fallback only if a reliable paper-with-answer version can be confirmed.
 5. After 2026二模 is actually held and the materials arrive, scan and process them under the same rules.
 6. Keep committing/pushing after each substantial update.
