@@ -593,3 +593,58 @@
 - no non-philosophy question was silently absorbed into the 必修四 framework.
 - current wrong-option library total is now `890` reusable patterns.
 - remaining main-question framework-first backlog for 2025-2026 local corpus: none within the current evidence boundary; next framework-first work should move to the `2024` high-evidence bucket.
+
+## 2026-04-24 哲学双线协同督工口径
+- supervisor_decision: active. User clarified that the main supervisor task is now to coordinate two `哲学与文化/必修四` threads so they do not duplicate work: one proceeds from the front/current blocker side, the other proceeds backward from the end of the source list, and they should eventually converge.
+- front_line_boundary: `019db91f-5d73-78d3-afca-49bd7492a610` / continuous runner `019dbe5b-dbeb-7fe3-82f0-4132c5c0cd76` is handling `2026朝阳期末` objective-answer fallback, OCR, wrong-option processing, and suite closure. It should not independently take over the reverse-line declared objects unless the shared progress says they are released.
+- reverse_line_boundary: `019dbe59-6286-7c60-8235-48969e2cb049` is working backward from the source-list tail. Its current declared object is `2026通州期末` full 第1-15题 choice wrong-option closure. It should not process `2026朝阳期末`.
+- overlap_check: passed for the current checkpoint. Shared progress already records the split, both relevant rollouts updated around `2026-04-24 15:44 CST`, and no evidence currently shows both lines writing the same suite.
+- next_supervisor_action: on every heartbeat, read state sqlite, rollouts, this governor board, and `reports/continuous_jobs/哲学必修四_三线闭环穷尽满分课/PROGRESS.md`; if one line stalls, resume it with explicit instructions to read the shared progress and choose the next unfinished non-overlapping suite.
+
+## 2026-04-24 2026通州期末选择题全量闭环（倒序协作）
+- coordination_check: passed. 本线按用户要求倒序推进，只处理 `2026通州期末`；`2026朝阳期末` 保持交给朝阳/正向线，避免双线重复写同一套卷。
+- file_reader: passed. 复核 `2026北京通州高三（上）期末政治（教师版）.pdf` 文本层和第9页答案表；第10题图示文本层缺失部分已用本机渲染页图读图核定。
+- answer_key_check: passed. 第1-15题答案核为 `1A 2D 3B 4D 5C 6A 7B 8D 9D 10B 11C 12A 13C 14A 15B`，第10题答案 B 对应 ①③。
+- choice_mapper: passed. 将 `2026通州期末哲学相关选择题补充` 扩展为 `2026通州期末选择题补充`，累计 `35` 条可复用错肢范式；本轮新增 `26` 条，覆盖第1-4、6、10-15题并保留原第5、7、8、9题哲学相关错肢。
+- framework_backfill: passed. 第5、7、8、9题哲学/文化正确项和第16、21题主观评分链已在主表中；本轮只补全非稳定哲学正确项的错肢线，不强行把必修二、必修三、选必二、选必三、当代国际政治题目并入哲学主表。
+- ledger_and_source_list: passed. `choice_question_processing_ledger.md` 改为第1-15题全量闭环；题源穷尽清单将 `2026通州期末` 更新为 `已闭环`，总计变为 `已闭环 17 / 待补证据 38 / 明确排除 1`。
+- governor_decision: passed. `2026通州期末` 三线闭环完成；错肢库累计进入 `916` 条可复用范式。
+
+## 2026-04-24 2026通州期末选择题全量闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- 第10题图示没有依赖猜测，已用渲染页图确认四个判断与答案。
+- no ordinary subjective reference answer was upgraded into a rubric.
+- no non-philosophy correct item was silently absorbed into the 必修四哲学 framework.
+- shared continuous progress now marks the reverse-line object as complete and keeps `2026朝阳期末` assigned away from this line.
+
+## 2026-04-24 2024东城一模知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/2024东城一模/北京市东城区2023-2024学年度第二学期高三综合练习（一）思想政治试卷(1).pdf` and answer PDF; both are scan-only and were rendered into page images. Extracted `2024东城一模政治评标1.pptx` slide text for scoring directions.
+- answer_key_check: partial pass. Scanned answer PDF confirms 第1-15题答案为 `1C 2B 3A 4A 5D 6D 7A 8D 9B 10C 11A 12B 13D 14C 15C`; this round only processed philosophy-related choice questions 第1、2、3、15题 and did not claim full 第1-15题 closure.
+- choice_mapper: partial pass. Added `8` reusable wrong-option patterns under `2024东城一模哲学相关选择题补充`.
+- framework_backfill: passed. Added choice-framework chains for 第1、2、3、15题 and main-question chains for 第16题文明交流、第18（1）新质生产力 and 第21题首都都市圈.
+- source_hierarchy: passed. 第16题 and 第21题 use local评标PPT scoring text; 第18（1） uses answer PDF plus评标PPT试题分析. Ordinary answer text was not upgraded into a detailed rubric.
+- boundary_control: passed. 第17、19 are law questions, 第20 is economic policy, and 第18（3） explicitly asks for《逻辑与思维》; they were not forced into the 必修四哲学 framework.
+- governor_decision: passed for the framework-first slice. `2024东城一模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
+
+## 2026-04-24 2024东城一模知识触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- scan-only paper and answer pages were rendered and visually checked instead of being left pending.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- current wrong-option library total is now `924` reusable patterns.
+
+## 2026-04-24 2026朝阳期末选择题三线闭环
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026朝阳期末/2026北京朝阳高三（上）期末政治.pdf` and `2026朝阳期末细则.pdf`; the paper is scan-only, so question pages were re-checked with local `PDFKit + Vision OCR`.
+- answer_key_check: passed. 高考直通车公开答案页及其同页自动汇编答案 PDF 双重核对第1-15题，确认答案为 `1B 2C 3A 4D 5A 6D 7A 8B 9B 10C 11B 12C 13B 14C 15D`。
+- choice_mapper: passed. Added `30` reusable wrong-option patterns under `2026朝阳期末选择题补充`.
+- framework_backfill: passed. Added `3` stable choice-framework chains for 第2题“整体与部分/系统观念”、第3题“认识发展原理”、第4题“主观能动性/意识的能动作用”; the existing 第16题 rubric-supported chain stays in place.
+- source_hierarchy: passed. Public answer material was used only for objective-question verification. 第16题主观题仍以本地 `2026朝阳期末细则.pdf` 的扫描评分口径为准，没有把公开主观题示例答案当作细则。
+- ledger_and_source_list: passed. `choice_question_processing_ledger.md` 新增套卷级台账行；`必修四哲学_2024-2026题源穷尽清单.md` 将 `2026朝阳期末` 更新为 `已闭环`；当前滚动总表为 `已闭环 18 / 待补证据 37 / 明确排除 1`。
+- governor_decision: passed. `2026朝阳期末` 现已完成选择题错肢线、选择题框架线与既有主观题框架线闭环。剩余直接客观题答案源阻塞为 `2026丰台一模、2026房山一模、2026西城一模、2026丰台期末`。
+
+## 2026-04-24 2026朝阳期末选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- scan-only question pages were rendered and OCR-checked instead of being left pending.
+- no ordinary subjective reference answer was upgraded into a rubric.
+- current wrong-option library total is now `954` reusable patterns.
