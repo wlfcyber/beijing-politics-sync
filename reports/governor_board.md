@@ -436,3 +436,20 @@
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - old `.doc` scoring file was converted and used for主观题细则核定; no guessed rubric point was added.
 - remaining STEP_03 direct choice backlog: `2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
+
+## 2026-04-24 2025顺义一模选择题三线闭环（STEP_03第五套）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025顺义一模/2025北京顺义高三一模政治（教师版）.pdf` with bundled `pypdf`; extracted 第1-15题题面、答案表和详解。Rendered 第9页答案表为 PNG and visually confirmed 第6题答案为 `A`. Re-opened `顺义区2025届高三第一次模拟考试参考答案—评分细则.docx` for 第16题评分口径。
+- answer_key_check: passed with correction note. Confirmed 第1-15题答案为 `1A 2C 3B 4D 5B 6A 7A 8C 9B 10A 11D 12C 13B 14D 15A`. The docx opening answer list says 第6题为 `C`, but the teacher-version PDF image answer table and 第6题详解 both say `A`; this round uses the visually confirmed PDF answer and records the conflict.
+- choice_mapper: passed. Added `31` reusable wrong-option patterns under `2025顺义一模选择题补充`.
+- framework_backfill: passed. Added stable choice-framework chains for 第2题社区微花园具体问题具体分析/群众观点、第3题冰雪文化交流联系观点、第4题时间利用价值判断与价值选择、第12题农业传感器实践认识/从实际出发。
+- main_question_line: passed with boundary control. 第16题按本地评分细则补入辩证否定、发展观点、具体问题具体分析、价值观导向和联系观点链；第21题仅见教师版普通参考答案，未在评分细则 docx 中找到给分口径，因此未作为主观题细则迁入。
+- source_hierarchy: passed. 第16题使用本地评分细则 docx；第21题普通参考答案没有被升级为细则；选择题使用教师版PDF题面、图像答案表和详解。
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2025顺义一模` now closes all three lines within confirmed evidence boundary: 选择题错肢线、选择题框架线、第16题主观题框架线。题源清单已从 `待补证据` 更新为 `已闭环`。
+
+## 2026-04-24 2025顺义一模选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- answer-key conflict was resolved by rendering and visually checking the teacher-version PDF answer table; no guessed answer was used.
+- no ordinary reference answer was used as rubric for 第21题.
+- remaining STEP_03 direct choice backlog: `2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
