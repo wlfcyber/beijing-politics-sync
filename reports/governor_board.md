@@ -561,3 +561,17 @@
 - partial-choice boundary is explicit; no full-suite closure was claimed.
 - no non-philosophy main question was silently absorbed into the 必修四 framework.
 - current wrong-option library total is now `882` reusable patterns.
+
+## 2026-04-24 2026海淀期中第22题评分细则链补强（备课优先）
+- file_reader: passed. Converted the teacher-version docx to text to locate 第22题题面, then rendered the scan-only `期中讲评20251106.pdf` into page images and located 第93-96页; 第94页 is the 第22（2）问评分细则.
+- rubric_boundary: passed. Teacher-version docx ordinary reference answer was not used by itself as a rubric. The framework addition relies on the lecture PDF page labeled `评分细则`, including logic, comprehensive-use, problem-breaking, and explanation requirements.
+- framework_backfill: passed. Added `4` chains for 第22（2）: 发展观点/社会历史规律, 人民群众/党的领导/实践观点, 社会意识反作用/上层建筑, and 联系/系统/价值判断.
+- source_hierarchy: passed. This was a main-question scoring-chain update only; no choice answers or wrong-option patterns were inferred.
+- governor_decision: passed for the main-question framework line. `2026海淀期中` remains suite-level `待补证据` because the full 第1-15题 wrong-option line and other possible main-question slices are not yet fully closed.
+
+## 2026-04-24 2026海淀期中第22题评分细则链补强 Checks
+- scan-only lecture PDF was rendered and visually inspected; it was not left pending.
+- every new framework chain names source suite and question number.
+- every new framework chain includes material information, principle/methodology, and logic chain.
+- no ordinary reference answer was silently upgraded into a rubric.
+- remaining main-question candidate after this pass: `2026石景山期末` only if a stable scoring carrier can be found; otherwise start the `2024` high-evidence bucket.
