@@ -775,6 +775,23 @@
 - no non-philosophy question was silently absorbed into the 必修四 framework.
 - current wrong-option library table row count is now `1071`.
 
+## 2026-04-24 2024石景山一模选择题错肢线闭环
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and re-checked that the same file contains the full 第1-15题题面 plus the objective answer table; no scan-only blocker remained.
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1C 2B 3D 4A 5C 6A 7B 8B 9C 10A 11D 12D 13B 14C 15C`; no choice answer was inferred.
+- choice_mapper: passed. Expanded the suite from the earlier philosophy-first slice to full 第1-15题 closure, keeping the existing 第2、3、4、5题 entries and adding `18` new reusable wrong-option patterns for 第1、6-15题 under `2024石景山一模选择题补充`, for a suite total of `26`.
+- framework_backfill: passed with no new stable choice trigger. Re-checked 第1、6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第2、3、4、5题; the 第16题 and 第20题 rubric-supported chains remain valid.
+- source_hierarchy: passed. Objective answers came only from the local教师版带答案docx; 第16题 and 第20题 continue to rely on the already recorded local评标/讲评PPT scoring-direction evidence. No ordinary reference answer was promoted into a new subjective rubric.
+- boundary_control: passed. 第1题仍归政治建军，第6、7、13偏逻辑，第8、9归政治与法治，第10、11归法律，第12归经济，第14、15归当代国际政治与经济；they were processed only for wrong-option closure and were not forced into the 必修四 framework.
+- governor_decision: passed. `2024石景山一模` now completes its choice wrong-option line and, together with the existing choice-framework and 第16、20题 chains, reaches suite-level `已闭环`.
+
+## 2026-04-24 2024石景山一模选择题错肢线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- no unreliable answer source was used; the same教师版带答案docx was re-checked for both题面 and答案.
+- no new non-philosophy question was silently merged into the 必修四 framework.
+- durable artifacts were updated together: wrong-option library, ledger, inventory, current state, governor, and progress.
+- current wrong-option library table row count is now `1109`.
+- source list now records `已闭环 22 / 待补证据 33 / 明确排除 1`.
+
 ## 2026-04-24 必修四文化框架用户校正
 - framework_correction: passed. 已将文化线最高层级调整为用户给出的 `0载体 / 1特点 / 2作用 / 3横向 / 4纵向 / 5建设文化强国与文化自信 / 6民族精神 / 7坚持习近平文化思想`，并同步到文化框架、文化题源清单和文化连续任务进度。
 - term_bank: superseded by stricter review below. 当时把文化遗产、公共文化空间、文明交流互鉴、科技赋能、守正创新、中华民族现代文明、红色基因、新的文化使命等归入词库；后续按用户要求重分为给分术语与材料识别词。
@@ -812,3 +829,34 @@
 - local docx evidence was parsed directly; no convertible file was left pending.
 - no non-philosophy question was silently absorbed into the 必修四 framework.
 - current wrong-option library table row count is now `1091`.
+
+## 2026-04-24 2024石景山一模选择题错肢线闭环
+- file_reader: passed. Re-used `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and `2024年石景山一模.pptx`; the teacher-version docx directly provides full 第1-15题 and answer key.
+- answer_key_check: passed. Reconfirmed 第1-15题答案为 `1C 2B 3D 4A 5C 6A 7B 8B 9C 10A 11D 12D 13B 14C 15C`.
+- choice_mapper: passed. Expanded from the earlier philosophy-first slice to full 第1-15题 closure, keeping the existing 第2、3、4、5题 entries and adding `18` new reusable wrong-option patterns for 第1、6-15题 under `2024石景山一模选择题补充`, for a suite total of `26`.
+- framework_backfill: passed with no new stable choice trigger. Re-checked 第1、6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第2、3、4、5题; 第16、20题 rubric/lecture-supported chains remain valid.
+- governor_decision: passed. `2024石景山一模` now completes its choice wrong-option line and, together with the existing choice-framework and 第16、20题 chains, reaches suite-level `已闭环`.
+
+## 2026-04-24 2024朝阳二模知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/2024朝阳二模/003202405朝阳高三二模政治试题.pdf`、`004202405朝阳高三政治质量检测二参考答案（以PDF为准）.docx`、`2024年朝阳二模主观题阅卷总结.pdf`; the two PDFs have readable text layers and the answer docx contains the objective answer table.
+- answer_key_check: partial pass. Confirmed 第1-15题答案为 `1B 2C 3B 4A 5D 6C 7D 8A 9D 10C 11B 12C 13B 14D 15D`; this round processed philosophy/culture-related choice questions 第1、2、4、6题 and did not claim full 第1-15题 closure.
+- choice_mapper: partial pass. Added `8` reusable wrong-option patterns under `2024朝阳二模哲学相关选择题补充`.
+- framework_backfill: passed. Added choice-framework chains for 第1、2、4、6题 and rubric-supported main-question chains for 第16（2）题“人与人工智能相互塑造”、第19（3）题“中华优秀传统文化赋予中国式现代化深厚底蕴”.
+- source_hierarchy: passed. 第16（2） and 第19（3） used the local主观题阅卷总结 PDF scoring rules, including specific point allocation and answer logic. Ordinary answer text was not used by itself as a rubric.
+- boundary_control: passed. 第7、11、12、19（1）（2）偏逻辑/法律，第8、9、10、18偏政治与法治，第5、15偏经济，第20偏当代国际政治与经济, so they were not forced into the 必修四 framework.
+- governor_decision: passed for the framework-first slice. `2024朝阳二模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
+
+## 2026-04-24 2024朝阳二模知识触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- readable PDFs and docx evidence were parsed directly; no scan-only file was left pending.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- current wrong-option library table row count is now `1117`.
+
+## 2026-04-24 全量漏载复查第一批修复
+- audit_scope: partial pass. 本轮先复查已纳入哲学框架且本地有细则/评标/阅卷报告的题目，重点对照“细则明示角度是否全部落入主框架”。仍处于 `待逐题筛` 的套卷不视为通过，只列入风险队列。
+- confirmed_omissions: passed. 已确认并修复 `2025东城二模 第16题` 在 `物质决定意识`、`一切从实际出发` 下的漏载；本轮继续确认 `2026西城期末 第16（2）问` 在追求真理、正确对待矛盾、群众观点、正确价值观下漏载，`2026西城期末 第21题` 在实事求是、发展观点下漏载，`2026东城一模 第20题` 在人民立场、上层建筑反作用经济基础下漏载。
+- framework_backfill: passed. `必修四哲学材料-知识触发总框架_持续更新版_v2.md` 已按来源题号新增或扩展上述触发链，并同步修正 `2026一模已处理映射` 中东城一模第20题的触发知识列。
+- source_hierarchy: passed. 本轮新增依据来自本地 `西城高三期末评标.pptx`、`东城一模评标细则（勿传）/20.pptx`、东城二模阅卷报告等给分口径文件；普通参考答案只用于辅助理解材料，不作为新增细则依据。
+- boundary_control: passed. `2024西城一模 第17题` 抽查后已覆盖细则主要哲学点，未作重复补丁。`2024东城二模 第16题` 虽已检出丰富哲学信号，但该套仍在 `待逐题筛`，本轮不伪装为已完成，只列为下一步高优先级复核对象。
+- governor_decision: passed for first repair batch. 当前判断不是单点个案，而是框架回填过程中存在“细则多角度、框架少挂点”的系统性风险；后续必须继续按套卷清单推进未筛题源，尤其是 2024 二模高证据材料。
