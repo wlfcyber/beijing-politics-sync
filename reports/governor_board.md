@@ -453,3 +453,82 @@
 - answer-key conflict was resolved by rendering and visually checking the teacher-version PDF answer table; no guessed answer was used.
 - no ordinary reference answer was used as rubric for 第21题.
 - remaining STEP_03 direct choice backlog: `2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
+
+## 2026-04-24 2025丰台一模选择题闭环筛定（STEP_03第六套）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025丰台一模/2025北京丰台高三一模政治（教师版）.pdf` with bundled `pypdf`; extracted 第1-15题题面与第9页答案表。Used `textutil` to convert `丰台高三一模阅卷细则 2025.docx` and re-check 第16题 evidence boundary.
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1A 2B 3C 4A 5D 6A 7D 8D 9B 10B 11C 12B 13C 14C 15A`; no inferred objective answer was used.
+- choice_mapper: passed. Added `31` reusable wrong-option patterns under `2025丰台一模选择题补充`. 第13题为图示逻辑题，文本抽取无法稳定保留全部示意细节，本轮只收可稳定复用的错肢，不机械搬运不稳表述。
+- framework_backfill: passed. Added stable choice-framework chains for 第2题书法中的“虚实相生”到矛盾对立统一、第4题再生水厂湿地公园设计到尊重客观规律与发挥主观能动性/联系客观性。
+- main_question_boundary: passed. 第16题按 `丰台高三一模阅卷细则 2025.docx` 复核后仍为纯文化主观题；没有把它强塞进必修四哲学主表，也没有把普通文化答案升级为哲学细则。
+- source_hierarchy: passed. 选择题仅使用教师版PDF题面和答案表；主观题边界仅使用本地阅卷细则docx复核。
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2025丰台一模` now closes the philosophy-scope lines honestly: 选择题错肢线、选择题框架线完成，第16题因纯文化边界明确排除在哲学主观题线之外；题源清单已从 `待补证据` 更新为 `已闭环`。
+
+## 2026-04-24 2025丰台一模选择题闭环筛定 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no guessed answer and no ordinary answer-as-rubric upgrade were used.
+- pure-culture 第16题 stayed outside the philosophy framework after rubric re-check.
+- remaining STEP_03 direct choice backlog: `2026朝阳期末、2026西城期末`.
+
+## 2026-04-24 新督工接管与四线程督工状态复查
+
+### Passed
+
+- Codex App 心跳自动化 `四线程督工` 已从旧督工线程迁移到当前线程，当前目标线程为 `019dbe09-cc94-73b0-9c5c-f982409d8dfd`。
+- 已复查本地督工状态、连续任务进度、自动化配置和哲学 runner 进程。
+- `选必一` 已按严格新标准补验通过，抽题为 `2024朝阳二模 Q20`、`2025西城二模 Q19(2)`、`2026延庆一模 Q19(2)`。
+- `选必二` 已按严格新标准补验通过，抽题为 `2024朝阳二模 Q17`、`2025西城二模 Q18`、`2026延庆一模 Q18(1)`。
+- `选必三` 维持此前返修后严格复验通过状态。
+
+### Passed Checks
+
+- 本轮补验没有重复使用旧验收题作为新通过证据。
+- 本轮先按最终成品中的模块、触发词和模板独立组织答案，再对照答案/细则判分。
+- `选必一`、`选必二` 的三题抽检均能完成审题、搭框架和细则点覆盖。
+- 未把普通参考答案冒充为主观题细则；用于判分的题目均有本地答案/细则或评分参考可对照。
+
+### Failed Or Skipped
+
+- `哲学/必修四` 未验收，因为连续 job 仍未完成最终课稿与三线闭环验收。
+- 本轮不重启 `哲学/必修四`，因为进程核查显示连续 runner 仍在执行 `STEP_03`。
+
+### Why Skipped
+
+- 督工规则要求只有工作流明确产出最终教学稿或最终 markdown 成品后才进入验收；`哲学/必修四` 当前还在清账阶段。
+
+### Next Blockers
+
+- 继续监控 `哲学/必修四_三线闭环穷尽满分课` runner，若无后台进展或停在等待确认状态，应立即续推。
+- 待 `哲学/必修四` 产出最终课稿后，按同一严格标准抽取 2024/2025/2026 各一道未被成品逐题直接讲过的新题进行满分验收。
+
+## 2026-04-24 2026西城期末选择题三线闭环（STEP_03第七套）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026西城期末/2026北京西城高三（上）期末政治（教师版）.pdf`; extracted 第10页答案表 with bundled `pypdf`. The question pages are image-based, so this round rendered and OCR-read 第1-9页 with local `PDFKit + Vision OCR` to recover the 第1-15题题面 and options.
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1C 2B 3A 4D 5C 6C 7D 8B 9D 10B 11A 12C 13D 14C 15A`; no inferred objective answer was used.
+- choice_mapper: passed. Added `32` reusable wrong-option patterns under `2026西城期末选择题补充`.
+- framework_backfill: passed. Added stable choice-framework chains for 第3题虚拟人药物模拟到实践是认识的基础、第4题古诗词江豚线索到矛盾普遍性和特殊性、第5题G20主题到联系观点；retained the existing rubric-supported 第16（2） chain in the framework.
+- main_question_line: passed by continuity check. The suite already had a stable philosophy main-question chain at 第16（2） from the user-supplied scoring-page correction; this round did not upgrade ordinary reference answers into rubrics and did not expand beyond the confirmed evidence boundary.
+- source_hierarchy: passed. Choice work used only the teacher-version PDF answer page plus OCR-recovered question pages; the main-question line continues to rely on the user-confirmed scoring-page evidence and `西城高三期末评标.pptx`.
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2026西城期末` now closes all three lines within the confirmed philosophy boundary: 选择题错肢线、选择题框架线、主观题框架线。题源清单已从 `待补证据` 更新为 `已闭环`.
+
+## 2026-04-24 2026西城期末选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- image-based question pages were not left pending after text extraction failed; local OCR was used to finish the suite.
+- no ordinary reference answer was treated as a rubric for 第16（2）.
+- remaining STEP_03 direct choice backlog: `2026朝阳期末`.
+
+## 2026-04-24 2025丰台二模主观题知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区二模/2025丰台二模/2025北京丰台高三二模政治（教师版）.pdf` and the分题评标 files `16.(1).doc`、`16.(2).docx`、`17题.docx`、`18题 .docx`、`19.(1).docx`、`19.(2).docx`、`20题.docx`、`21题.docx`.
+- rubric_boundary: passed. 第16（1）问 and 第21题 contain stable 必修四哲学触发；第16（2）问 is a 三段论 structure question, 第17题法治政府, 第18题经济, 第19题逻辑/法律, 第20题国政经, so they were not forced into the 必修四哲学 framework.
+- framework_backfill: passed. Added `7` lecture-ready material-to-knowledge chains into `必修四哲学材料-知识触发总框架_持续更新版_v2.md`: 第16（1）问实践与认识、联系/发展/辩证否定、价值观导向；第21题规律与主观能动性、发展/矛盾/实践、社会意识反作用/价值观导向、联系/系统/辩证思维.
+- source_hierarchy: passed. The main-question additions use local分题评标材料 and the teacher-version paper; no ordinary reference answer was upgraded into scoring rules.
+- governor_decision: passed. `2025丰台二模` is now closed within the 必修四哲学 boundary. 题源清单 updated from `待补证据` to `已闭环`; rolling inventory is now `已闭环 16 / 待补证据 39 / 明确排除 1`.
+
+## 2026-04-24 2025丰台二模主观题知识触发补强 Checks
+- every new framework chain names source suite and question number.
+- every new framework chain includes material information, principle/methodology, and logic chain.
+- non-philosophy questions in the same suite were explicitly excluded rather than silently absorbed.
+- no forbidden labels were introduced.
+- remaining direct choice blocker: `2026朝阳期末` lacks a reliable full objective answer table locally; 北京题库 preview only exposed 第1题 and full answer download requires login, so no guessed choice answers were written.
