@@ -546,3 +546,18 @@
 - scan-only paper pages were rendered and visually checked instead of being left pending.
 - no non-philosophy question was silently absorbed into the 必修四 framework.
 - remaining framework-first targets: `2026海淀期中、2026通州期末` or the `2024` high-evidence bucket.
+
+## 2026-04-24 2026通州期末哲学相关选择题与主观题触发补强（备课优先）
+- file_reader: passed. Re-opened `2026北京通州高三（上）期末政治（教师版）.pdf`; its text layer and 第9页答案表 are readable. Extracted `2026通州期末试卷讲评.pptx` slides and confirmed 第16题、第21题评分口径.
+- answer_key_check: passed for the processed choice slice. Teacher-version PDF gives 第1-15题答案 `1A 2D 3B 4D 5C 6A 7B 8D 9D 10B 11C 12A 13C 14A 15B`; this round only processed philosophy-related choice questions 第5、7、8、9题.
+- choice_mapper: partial pass. Added `9` reusable wrong-option patterns under `2026通州期末哲学相关选择题补充`; did not claim the full 第1-15题 choice line is closed.
+- framework_backfill: passed. Added choice-framework chains for 第5、7、8、9题 and main-question chains for 第16题“都江堰治水智慧”、第21题“十四五规划”.
+- source_hierarchy: passed. Main-question chains use the local讲评PPT scoring pages; choice work uses the teacher-version paper and answer table. No ordinary answer was upgraded into a rubric.
+- governor_decision: passed for the framework-first slice. `2026通州期末` remains suite-level `待补证据` until the full 第1-15题 wrong-option line is completed.
+
+## 2026-04-24 2026通州期末哲学相关选择题与主观题触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- partial-choice boundary is explicit; no full-suite closure was claimed.
+- no non-philosophy main question was silently absorbed into the 必修四 framework.
+- current wrong-option library total is now `882` reusable patterns.
