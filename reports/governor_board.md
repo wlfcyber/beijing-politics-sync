@@ -741,3 +741,44 @@
 - weak-text-layer pages were not left pending; the带答案版PDF text layer plus rendered page image were used to finish the evidence check.
 - no non-philosophy question was silently absorbed into the 必修四 framework.
 - current wrong-option library table row count is now `1039`.
+
+## 2026-04-24 2024海淀一模选择题错肢线闭环
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/2024海淀一模/高三政治：一模试题.pdf`、`一模政治-答案.docx`、`海淀区一模细则及答案docx.docx`; the paper PDF text layer remained readable for 第1-15题, and the two docx files reconfirmed the same objective answer key.
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1B 2A 3C 4D 5C 6B 7C 8D 9B 10D 11C 12B 13A 14D 15A`; no choice answer was inferred.
+- choice_mapper: passed. Expanded the suite from the earlier philosophy-first slice to full 第1-15题 closure, keeping the existing 第1-5题 entries and adding `24` new reusable wrong-option patterns for 第6-15题 under `2024海淀一模选择题补充`, for a suite total of `35`.
+- framework_backfill: passed with no new stable choice trigger. Re-checked 第6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第1-5题; the 第16题 rubric-supported chain remains valid.
+- source_hierarchy: passed. Objective answers came only from the local answer key docx and rubric docx; no ordinary reference answer was promoted into a main-question rubric beyond the already recorded 第16题 scoring-direction evidence.
+- boundary_control: passed. 第6、7、10、11仍归逻辑/法律侧，第8、9仍归政治与法治，第12、13仍归经济，第14、15仍归当代国际政治与经济；they were processed only for wrong-option closure and were not forced into the 必修四 framework.
+- governor_decision: passed. `2024海淀一模` now completes its choice wrong-option line and, together with the existing choice-framework and 第16题 rubric chain, reaches suite-level `已闭环`.
+
+## 2026-04-24 2024海淀一模选择题错肢线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- no unreliable answer source was used; the same `docx` answer key was cross-checked twice.
+- no new non-philosophy question was silently merged into the 必修四 framework.
+- durable artifacts were updated together: wrong-option library, ledger, inventory, current state, audit gap list, and progress.
+- current wrong-option library table row count is now `1071`.
+- source list now records `已闭环 21 / 待补证据 34 / 明确排除 1`.
+
+## 2026-04-24 2024石景山一模知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and `2024年石景山一模.pptx`; the docx contains full 第1-15题题面 and answer table, while the PPT supplies culture,历史唯物主义 and主观题讲评 frames.
+- answer_key_check: partial pass. Confirmed 第1-15题答案为 `1C 2B 3D 4A 5C 6A 7B 8B 9C 10A 11D 12D 13B 14C 15C`; this round processed philosophy/culture-related choice questions 第2、3、4、5题 and did not claim full 第1-15题 closure.
+- choice_mapper: partial pass. Added `8` reusable wrong-option patterns under `2024石景山一模哲学相关选择题补充`.
+- framework_backfill: passed. Added choice-framework chains for 第2、3、4、5题 and main-question chains for 第16题“习近平文化思想举旗定向”、第20题“中国式现代化战略性有利条件”.
+- source_hierarchy: passed. 第16题 and 第20题 use local教师版答案与评标/讲评PPT scoring-direction evidence; ordinary answer text was not upgraded into a detailed评标细则. 第6、7、19（3）偏逻辑，第17法律，第18政治与法治，第19（1）经济、第19（2）国政经 were excluded from 必修四哲学 framework boundary.
+- boundary_control: passed. The inventory row was corrected from earlier classification-hint numbering to the actual paper numbering: 第2、3、4、5题 plus 第16、20题.
+- governor_decision: passed for the framework-first slice. `2024石景山一模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
+
+## 2026-04-24 2024石景山一模知识触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- local docx and pptx evidence were parsed directly; no convertible file was left pending.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- current wrong-option library table row count is now `1071`.
+
+## 2026-04-24 必修四文化框架用户校正
+- framework_correction: passed. 已将文化线最高层级调整为用户给出的 `0载体 / 1特点 / 2作用 / 3横向 / 4纵向 / 5建设文化强国与文化自信 / 6民族精神 / 7坚持习近平文化思想`，并同步到文化框架、文化题源清单和文化连续任务进度。
+- term_bank: passed. 新增文化答题术语已补入对应板块词库，例如文化遗产、公共文化空间、文明交流互鉴、科技赋能、守正创新、中华民族现代文明、红色基因、新的文化使命等；未另起独立框架。
+- trigger_table: passed. 文化触发总表按 0-7 结构重排，当前 `28` 条触发链均保留来源套卷、题号、材料信息、触发知识和触发逻辑。
+- evidence_control: passed. 本轮只做框架归位和术语补充，没有把普通参考答案升级为主观题细则，也没有改动哲学主表或错肢库。
+- skipped_items: explicit. 本轮未继续穷尽拆解新的文化题源，原因是用户先要求学习并校正文化框架；下一轮再按套卷复核候选文化题的题面与评分材料。
+- forbidden_label_check: passed. 文化框架、文化题源清单和文化连续任务目录未出现禁用栏目名。
