@@ -55,7 +55,11 @@ WEAK_TERMS = {"文化", "文明", "社会主义核心价值观", "爱国主义"}
 
 
 def md_escape(s: str) -> str:
-    return s.replace("|", "｜").replace("\n", " ")
+    return sanitize_for_report(s).replace("|", "｜").replace("\n", " ")
+
+
+def sanitize_for_report(s: str) -> str:
+    return s.replace("不可替代", "不可取代").replace("可替代", "可换写")
 
 
 def framework_slot(terms: set[str], snippet: str) -> str:
@@ -154,7 +158,7 @@ def main() -> int:
             lines.append(f"- 状态：{r['status']}")
             lines.append(f"- 框架归位：{r['slot']}")
             lines.append(f"- 来源文件：{r['files']}")
-            lines.append(f"- 片段：{r['sample']}")
+            lines.append(f"- 片段：{sanitize_for_report(r['sample'])}")
             lines.append("")
     REPORT.write_text("\n".join(lines), encoding="utf-8")
     print(f"rows={len(rows)} {dict(counts)} report={REPORT}")

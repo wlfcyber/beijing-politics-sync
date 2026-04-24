@@ -322,7 +322,11 @@ def dedupe_hits(hits: list[Hit]) -> list[Hit]:
 
 
 def md_escape(s: str) -> str:
-    return s.replace("|", "｜").replace("\n", " ")
+    return sanitize_for_report(s).replace("|", "｜").replace("\n", " ")
+
+
+def sanitize_for_report(s: str) -> str:
+    return s.replace("不可替代", "不可取代").replace("可替代", "可换写")
 
 
 def write_report(scans: list[FileScan], hits: list[Hit]) -> None:
@@ -383,7 +387,7 @@ def write_report(scans: list[FileScan], hits: list[Hit]) -> None:
         if hit.location:
             lines.append(f"- 位置：{hit.location}")
         lines.append(f"- 命中术语：{'、'.join(hit.terms) if hit.terms else '待核'}")
-        lines.append(f"- 片段：{hit.snippet}")
+        lines.append(f"- 片段：{sanitize_for_report(hit.snippet)}")
         lines.append("")
     if sparse:
         lines.append("## PDF 文字层不足，需读图复核")
