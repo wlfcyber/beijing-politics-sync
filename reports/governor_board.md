@@ -257,6 +257,12 @@
 - scope_control: passed. This round was a formatting and counting rewrite only; no new ordinary reference answer was introduced as rubric, and the two earlier blockers stayed outside the main body.
 - blockers_preserved: passed. `2026海淀期中 Q20(1)` and `2024顺义思政二模` remain explicitly marked as pending rather than being forced into the split framework.
 
+## 2026-04-23 选必一国政经课堂压缩版
+- distiller: passed. Built a second-stage teaching artifact at `~/Desktop/北京高考政治/选必一_国际政治与经济_课堂压缩版_高频细则点.md` from the already confirmed split framework.
+- frequency_summary: passed. Kept the six-module structure and reassembled repeated rubric points into `高频细则点 + 常见材料入口 + 常见搭配链条`, preserving the same global repeat counts used in the split framework.
+- scope_control: passed. This round did not add any new source suite, rubric point, or inferred content; it only compressed already confirmed points for classroom use.
+- consistency_check: passed. The strongest recurrent points were preserved consistently across both desktop artifacts: `构建人类命运共同体`、`高水平对外开放`、`推动经济全球化朝更加开放、包容、普惠、平衡、共赢方向发展`、`共同利益是国家间合作的基础`.
+
 ## 2026-04-23 2025丰台期末选择题补充
 - file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区期末/2025丰台期末/2025北京丰台高三（上）期末政治（教师版）.pdf` with bundled `pypdf`; extracted question pages 1-6 and reference-answer pages 9-13 directly from the teacher-version file. The suite’s main-question scoring basis remains `丰台期末细则.pptx` for 第16题与第17题.
 - answer_key_check: passed. Confirmed the 2025丰台期末第1-15题答案为 `1B 2D 3B 4A 5A 6A 7C 8D 9D 10B 11D 12B 13C 14C 15A`; no inferred answer was used.
@@ -286,3 +292,99 @@
 - the suite’s main-question framework work still relies on the user-provided评分页截图 for 第16题, not on ordinary reference answers.
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no forbidden labels were introduced.
+
+## 2026-04-23 2026朝阳期中选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026朝阳期中/2025北京朝阳高三（上）期中政治（教师版）.pdf` with bundled `pypdf`; extracted question pages 1-7 and answer page 8. Also re-opened `2025.11朝阳期中政治评标.docx` and `2025.11朝阳高三政治期中阅卷细则.docx` to校核第18题与第20题主观题给分口径。
+- answer_key_check: passed. Confirmed the 2026朝阳期中第1-15题答案为 `1A 2C 3C 4A 5B 6B 7D 8D 9C 10C 11A 12B 13D 14B 15D`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第4题“全球治理要把多种原则、多重关系统筹起来”到“联系的多样性”，第7题“前门商圈立足自身资源禀赋走内涵式发展”到“一切从实际出发/实事求是”，第8题“科学家故事引导青年把个人理想融入国家事业”到“实现人生价值”；同时把第20题“机遇与挑战”按本地 `docx` 细则补入主观题框架，对应“矛盾分析法、分析与综合、量变质变/发展观点/动态性思维”。第18题原有细则链保持不变。
+- choice_mapper: passed for 2026朝阳期中第1-15题. Added 34 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force第19题这种文化占主导的卷首语题进入当前哲学主表，也没有把第11-15题中的纯选必三逻辑项硬塞进哲学框架；只把稳定必修四触发回填进主框架。
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the rubric-supported 第18题与第20题主观题链, closes the three-line loop for 2026朝阳期中。
+
+## 2026-04-23 2026朝阳期中选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from the teacher-version PDF’s own answer page 8; no guessed objective answer was used.
+- the suite’s main-question framework work relies on the local `docx` marking files for 第18题与第20题, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
+
+## 2026-04-23 选必一国政经三年全量补扫
+- rescanner: passed. Re-scanned the 2024/2025/2026 district-paper corpus beyond the first 35 confirmed题链, and re-opened all plausible rubric carriers in the same suites, including `docx` rubrics, `pptx` 评标 files, scan PDFs, and lecture/讲评 PDFs with explicit scoring standards.
+- ocr_reader: passed. Used local OCR/PDF extraction to recover scan-only or weak-text-layer suites, especially `2025海淀二模`、`2025昌平二模`、`2026丰台一模`、`2026朝阳期末`、`2026海淀期中讲评20251106.pdf`. No suite was left pending merely because initial text extraction was weak.
+- framework_backfill: passed. Expanded `~/Desktop/北京高考政治/选必一_国际政治与经济_题目肢解版_材料-细则.md` from 35 to 45 confirmed题目. Newly merged稳定题包括：`2024东城二模 Q20`、`2024丰台二模 Q19`、`2024顺义思政二模 Q19(2)[跨书综合]`、`2025海淀二模 Q21`、`2025昌平二模 Q21`、`2025西城一模 Q21`、`2026海淀一模 Q20`、`2026丰台一模 Q19`、`2026海淀期中 Q22(1)`、`2026朝阳期末 Q20`.
+- correction_check: passed. Corrected one earlier suite mislabel: the existing “新中国外交的‘变’与‘不变’” entry is `2024海淀期中 Q21(2)`, not `2025海淀期中`. Also corrected the former pending label for 海淀期中: the usable国政经主问 came from `2026海淀期中 Q22(1)` and was recovered from the local讲评评分细则, not `Q20(1)`.
+- repeat_counter: passed. Recomputed global duplicate counts after the full sweep. Current top recurrent点为：`构建人类命运共同体(16)`、`高水平对外开放(13)`、`推动经济全球化朝更加开放、包容、普惠、平衡、共赢方向发展(12)`、`共同利益是国家间合作的基础(9)`、`贡献中国智慧和中国方案(9)`、`促进贸易投资自由化便利化(8)`、`共商共建共享的全球治理观(8)`.
+- classroom_sync: passed. Synced the updated repeat counts back into `~/Desktop/北京高考政治/选必一_国际政治与经济_课堂压缩版_高频细则点.md`, and fixed the one shorthand residual count for “两个市场、两种资源”.
+- source_hierarchy: passed. This round used only local files stored in suite `细则/`、`评标/`、`阅卷总结/`、`讲评` paths as scoring evidence. No ordinary standalone reference answer was silently upgraded into rubric evidence.
+- exclusion_check: passed. Checked additional suspect suites such as `2024东城一模`、`2025海淀期末`、`2026西城期末`; no stable 选必一主观题 scoring chain was found there for this thread, so they were not forced into the final framework.
+- governor_decision: passed. The current desktop split-framework artifact now has no remaining explicit pending item for this 选必一国政经三年 sweep.
+
+## 2026-04-23 选必一国政经监管复查
+- auditor: passed. Re-reviewed the two desktop artifacts `选必一_国际政治与经济_题目肢解版_材料-细则.md` and `选必一_国际政治与经济_课堂压缩版_高频细则点.md` from the governor perspective rather than the production perspective.
+- structure_check: passed. Confirmed the split artifact currently contains `45`题, all under the user’s six-module frame, and every题目 has `4-5`条 `材料 -> 细则` bullets. All bullet lines carry repeat counts and all titles carry year-plus-question identifiers.
+- consistency_check: passed. Recomputed point frequencies from the split artifact and compared them against the classroom-compressed artifact. No count mismatches remain after fixing the shorthand occurrence for “两个市场、两种资源”.
+- candidate_coverage: passed with archive caveat. The earlier machine candidate list had `32` entries; `28` now align directly. The remaining `4` were checked and judged to be OCR misnumbering or duplicate-storage issues rather than real漏题: `2024朝阳期中 Q10` vs actual `Q20(3)`, `石景山一模 Q12` vs actual `Q19(2)`, `2025东城期末 Q11` vs actual `Q20`, and the duplicated `海淀期中` storage path.
+- source_purity: partial pass. Most merged items rest on local `细则 / 评标 / 阅卷总结 / 讲评` files with explicit scoring language. However, `2026海淀一模 Q20` relies on a page inside `细则.pdf` whose page header is `高三思想政治参考答案`; it sits in a `细则` path but the visible evidence on that page is answer-like rather than a fully展开的分点评分细则.
+- scope_purity: partial pass. `2024顺义思政二模 Q19(2)` was merged as a stable国政经维度 from a跨书综合题. This is usable for the user’s broad题点提炼目标, but if a later pass wants a“纯选必一主问版”, this item should be demoted to a补充区 rather than treated as equal to pure选必一主问.
+- archive_hygiene: needs note. `海淀期中` exists twice in local storage (`2024模拟题/2024海淀期中` and `2025模拟题/2025海淀期中`) with overlapping “变与不变” content, so the current naming is usable but local archive normalization is still recommended.
+- rating: `A-` overall (`89/100`). Subscores: structure `A`, coverage `A`, consistency `A`, rubric-purity `B+`.
+
+
+## 2026-04-23 选必一国政经穷尽复扫与备课总稿
+- rescanner: passed. Re-ran a stricter all-suite sweep against every local 2024/2025/2026 paper folder instead of trusting the earlier 45题 stop line. This round explicitly checked the previously excluded suites `2024西城一模`、`2024西城二模`、`2025西城期末`、`2025海淀期中`、`2026房山一模`、`2026海淀期末`、`2026西城期末` and re-opened their `docx` / `pdf` / `pptx` scoring carriers with bundled `pypdf` + `python-docx` + OOXML slide extraction.
+- framework_backfill: passed. Expanded `~/Desktop/北京高考政治/选必一_国际政治与经济_题目肢解版_材料-细则.md` from `45` to `49` stable题目. Newly merged题为：`2024西城一模 Q19(6)`、`2024西城二模 Q19`、`2025西城期末 Q20(2)`、`2026房山一模 Q19`.
+- repeat_counter: passed. Recomputed global duplicate counts after the second exhaustive pass. New top recurrent点为：`构建人类命运共同体(17)`、`高水平对外开放(14)`、`推动经济全球化朝更加开放、包容、普惠、平衡、共赢方向发展(13)`、`促进贸易投资自由化便利化(9)`、`共同利益是国家间合作的基础(9)`.
+- classroom_sync: passed. Synced the new counts into `~/Desktop/北京高考政治/选必一_国际政治与经济_课堂压缩版_高频细则点.md`, and added the newly浮出的稳定课堂抓手 `形成国际竞争新优势` 与 `充分运用国际规则，维护自身合法权益`.
+- prep_compiler: passed. Built a third-stage teaching artifact `~/Desktop/北京高考政治/选必一_国际政治与经济_备课总稿_六模块穷尽版.md`, reorganizing the full corpus into `考题分类 + 高频主点 + 补充点 + 备课链条`, still under the user’s six-module frame.
+- source_hierarchy: passed with one preserved exclusion. `2025海淀期中` still was not merged this round because the local `细则.docx` reads as answer-style text rather than a stable expanded scoring rubric. The round did not silently upgrade it into rubric evidence.
+- exclusion_check: passed. `2024东城一模` was re-opened again and its评标 `pptx`确有开放口径，但 the original paper-question number still could not be stably pinned from the local text layer, so it remains outside the main artifact rather than being hard-inferred. `2026海淀期末` and `2026西城期末` also remain excluded because no stable 选必一主问 scoring chain was found.
+- governor_decision: passed. The current desktop stack now has three synced layers for this thread: full split corpus, classroom compressed points, and the six-module prep master draft; all remain within source-hierarchy constraints and avoid forbidden labels.
+
+## 2026-04-23 2026海淀期末选择题补充
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026海淀期末/2026北京海淀高三（上）期末政治（教师版）.pdf`. Because the question pages are scan-only, rendered pages 1-8 to local PNG images and read pages 1-4 with local Vision OCR; then rendered teacher-version answer pages 9-10 and re-opened `2025-2026海淀期末政治评分标准(1).pdf` to校核第16题与第17题评分口径。
+- answer_key_check: passed. Confirmed the 2026海淀期末第1-15题答案为 `1B 2A 3A 4C 5D 6C 7D 8A 9D 10B 11B 12C 13C 14B 15D`; no inferred answer was used.
+- framework_backfill: passed. Added stable philosophy chains for 第1题“圭表测影、定节气、定方位”到“实践是认识的基础/实践的社会历史性”，第3题“新技术帮助识别戏剧艺术新特征”到“认识发展原理”，第14题“鸡蛋研究结论受对象与条件制约”到“具体问题具体分析”，第15题“统一预约平台全链条整合资源”到“联系的观点/整体性思维”。第16题原有评分标准链保持不变。
+- choice_mapper: passed for 2026海淀期末第1-15题. Added 36 reusable wrong-option patterns into the cumulative library.
+- scope_control: passed. Did not force第6-10题中的一般法律程序题、第11-13题中的纯选必三逻辑题，或第5题这类文化经济融合题的非稳定哲学角度进入主框架； only stable 必修四 triggers were merged.
+- governor_decision: passed. This suite now satisfies the dual requirement for choice questions and, together with the already completed 第16题主观题链, closes the three-line loop for 2026海淀期末。
+
+## 2026-04-23 2026海淀期末选择题补充 Checks
+- all newly added wrong-option entries name the source suite and question number.
+- the objective answer source came from the teacher-version PDF’s own answer page 9; no guessed objective answer was used.
+- the suite’s main-question framework work still relies on `2025-2026海淀期末政治评分标准(1).pdf` for 第16题与第17题, not on ordinary reference answers.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no forbidden labels were introduced.
+
+## 2026-04-24 必修四哲学题源穷尽总表（STEP_01）
+- inventory_scanner: passed. Re-opened the local `2024/2025/2026各区模拟题` directory tree, matched suite folders with paper / answer / rubric carriers, and re-used the existing philosophy framework, wrong-option library, ledger, and governor evidence to avoid re-inventing already confirmed question numbers.
+- source_table_builder: passed. Built `~/GaokaoPolitics/beijing-politics-sync/reports/必修四哲学_2024-2026题源穷尽清单.md` with `56` suite-level entries. Current status split is `8` 已闭环, `47` 待补证据, `1` 明确排除.
+- boundary_check: passed. Kept `2025海淀期中` as an honest exclusion because the local material still provides only reference-answer-level support and no usable philosophy rubric. Kept `2026丰台一模 / 房山一模 / 西城一模` choice slices pending because no reliable objective answer table has been confirmed locally.
+- archive_caveat: passed with explicit note. Preserved `2024门头沟一模` as a compilation-only clue from `2024届各区一模试题分类汇编必修4.docx`; it was not upgraded into a fake “fully landed” suite.
+- source_hierarchy: passed. This round did not upgrade ordinary answers into rubrics, did not mark any unresolved suite as closed, and kept all uncertain 2024 slices under `待补证据` rather than forcing closure.
+- governor_decision: passed. STEP_01 inventory work is complete and can now feed STEP_02 artifact-audit work without hidden漏题 state in the local suite inventory.
+
+## 2026-04-24 必修四哲学核心产物审计（STEP_02）
+- auditor: passed. Compared the `56` suite rows in `reports/必修四哲学_2024-2026题源穷尽清单.md` against the philosophy framework, wrong-option library/ledger, governor board, and `current-state.md`, using suite-level rather than batch-only closure as the audit boundary.
+- gap_list_builder: passed. Created `~/GaokaoPolitics/beijing-politics-sync/reports/必修四哲学_STEP_02核心产物审计缺口清单.md` and split the `47` pending suites into `16` suites pending only final acceptance, `11` suites with open choice-question lines, `5` suites with open main-question rubric-chain work, and `15` 2024 suites that are inventoried but not yet durably landed in the core artifacts.
+- framework_backfill_check: passed. Re-checked the already processed choice batches and did not find any remaining “wrong-option library done but philosophy correct-option chain missing” backlog. The current choice gap is now on unprocessed suites or answer-key-blocked suites, not on already processed batches.
+- consistency_check: partial pass. Found one artifact-granularity gap: `choice_question_processing_ledger.md` still records `2025二模选择题补充（首轮）` and `2026一模选择题首轮` as batch rows rather than suite rows, so the ledger cannot yet serve as the final suite-level acceptance checklist by itself.
+- archive_gap_check: partial pass. All `15` 2024 suite entries are now visible in the source-inventory table, but none has yet been promoted into the same durable philosophy-artifact layer as the 2025-2026 processed suites; this is an explicit backlog, not hidden completion.
+- skipped: no new choice-question content or rubric chains were merged in this round because STEP_02 scope is audit and gap enumeration only.
+- source_hierarchy: passed. The audit did not upgrade any ordinary reference answer into rubric evidence and did not rewrite any pending suite as if it were closed.
+- governor_decision: passed. STEP_02 is complete because the missing-work map is now explicit, source-constrained, and ready to hand off to STEP_03 without hidden ambiguity.
+
+## 2026-04-24 2025房山一模选择题三线闭环（STEP_03首轮）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025房山一模/2025北京房山高三一模政治（教师版）.pdf` with bundled `pypdf`; extracted question pages and teacher-version answer explanations from the same PDF.
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1B 2D 3D 4C 5A 6B 7B 8C 9A 10A 11C 12C 13D 14D 15A`; no inferred objective answer was used.
+- choice_mapper: passed. Added `37` reusable wrong-option patterns under `2025房山一模选择题补充`, covering all wrong options with reusable or pure-knowledge error value.
+- framework_backfill: passed. Added `5` choice-question framework chains into `必修四哲学材料-知识触发总框架_持续更新版_v2.md`: 第1题科技创新与生产力、第2题整体与部分/系统观念、第3题矛盾斗争性、第4题矛盾普遍性和特殊性、第5题辩证否定/守正创新。
+- main_question_line: passed. 第16（1）主观题原已在框架中以“教师版 + 参考答案细则”迁入“矛盾就是对立统一 / 一分为二看问题”，本轮未把普通选择题解析升级为主观题细则。
+- source_hierarchy: passed. 选择题仅使用题面和教师版客观题答案解析；主观题仍沿用已有参考答案细则边界。未新增无依据的细则点。
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2025房山一模` now closes all three lines: 选择题错肢线、选择题框架线、主观题框架线。题源清单已从 `待补证据` 更新为 `已闭环`。
+
+## 2026-04-24 2025房山一模选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new choice-framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no guessed answer, no ordinary answer-as-rubric upgrade, and no forced inclusion of pure non-philosophy items into the philosophy framework.
+- remaining STEP_03 direct choice backlog: `2025海淀一模、2025石景山一模、2025门头沟一模、2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
