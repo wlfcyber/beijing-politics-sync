@@ -95,6 +95,13 @@ Dual-output backfill status:
 - 2026房山一模: no reliable objective answer table found locally.
 - 2026丰台期末: no reliable objective answer table found locally.
 
+Rubric-source correction from the user on 2026-04-25:
+
+- Use the organized desktop corpus as source of truth: `C:\Users\Administrator\Desktop\2024各区模拟题`, `C:\Users\Administrator\Desktop\2025各区模拟题`, and `C:\Users\Administrator\Desktop\2026各区模拟题`.
+- Except `2026石景山期末`, every suite should be treated as having rubric/marking-rule evidence until the corresponding desktop `细则` folder has been checked directly.
+- The three remaining 2026 blockers above are objective-answer-table blockers only; they are not main-question rubric blockers. Desktop checks show `2026丰台一模细则.pptx`, `2026房山一模细则.docx`, and `2026丰台期末细则.pdf` exist in the organized corpus.
+- `2026石景山期末` is the sole no-detailed-rubric exception. Its PDF has `答案及评分参考`, but that must be described as scoring-direction/reference evidence, not detailed评标细则.
+
 Important resolved item:
 
 - 2026西城一模 now closes at suite level: the objective answer source is `2026北京西城高三一模政治.pdf` page 10, titled “思想政治答案及评分参考”, visually verified by the governor; 第1-15题答案为 `1B 2C 3B 4D 5C 6D 7B 8C 9A 10D 11D 12B 13A 14A 15D`; 34 reusable wrong-option patterns were added and 第1、5、6、7题 stable 必修四 correct-option chains were backfilled.
@@ -103,7 +110,7 @@ Important resolved item:
 - 2024朝阳期中 now closes at suite level: local paper PDF and `阅卷细则总.rtf` were rechecked; 第1-15题答案为 `1B 2D 3D 4C 5A 6C 7B 8D 9B 10D 11C 12C 13C 14A 15B`; 35 reusable wrong-option patterns were added, 第1、2、3、4、5、6、10题 stable 必修四/文化 correct-option chains were backfilled, and existing 第16、17题 rubric-supported main-question chains remain valid.
 - 2024西城一模 now closes at suite level: local paper docx, answer docx and adjusted rubric docx were rechecked; 第1-15题答案为 `1C 2A 3D 4B 5B 6C 7A 8D 9D 10A 11B 12C 13B 14A 15C`; 16 reusable wrong-option patterns were added for 第5、6、7、8、11、13、14题, making 36 total with the existing philosophy/culture slice. No additional stable 必修四 correct-option chain was found in those newly closed questions; existing 第1、2、3、4、9、10、12、15题 chains and 第17题 rubric chain remain valid.
 - 2026海淀一模 paper is scan-only, but rendered pages were read visually and paired with the scoring-standard answer key, so its choice questions were entered without inferred answers.
-- 2025海淀期中 local answer key exists in the accompanying `docx`, but the suite still has no stable 必修四 choice-material trigger and no usable philosophy rubric, so it remains honestly excluded instead of being forced into closure.
+- 2025海淀期中 local answer key exists in the accompanying `docx`, and the organized desktop folder now confirms `2025海淀期中细则.docx` exists. The older “no usable philosophy rubric” wording is withdrawn. It remains tentatively excluded only on the earlier module-boundary judgment that no stable 必修四 choice-material trigger or usable philosophy item was found; final acceptance must re-check the rubric before preserving that exclusion.
 - 2025丰台一模 now closes within the philosophy boundary: the teacher-version PDF answer key supports 第1-15题 choice processing, two stable philosophy choice chains were merged, and 第16题 was re-checked against `丰台高三一模阅卷细则 2025.docx` as a pure-culture main question that stays outside the philosophy framework.
 
 ## Operating Rules To Preserve
@@ -179,6 +186,16 @@ Important resolved item:
 - Philosophy framework now includes `2024丰台二模套卷级三线闭环`, with 第1、10、11、12、13题 correct-option trigger chains and the prior rubric-supported 第18（2）、20、21 main-question chains preserved.
 - Source inventory now reads `已闭环 33 / 待补证据 22 / 明确排除 1`; STEP_02 choice-answer-source blockers are now only `2026丰台一模 / 2026房山一模 / 2026丰台期末`.
 - `哲学/必修四` remains on `STEP_03`; do not validate, do not create the final full-score teaching manuscript, and do not mark `TASK_COMPLETE` until the remaining three answer-source blockers are resolved or honestly closed as blockers and strict acceptance passes.
+
+## 2026-04-25 User Rubric-Source Correction
+
+- User clarified: except `2026石景山期末`, all suites have rubrics/marking rules. Future work must not conclude “no rubric” until the organized desktop three-year mock folders have been checked.
+- The authoritative local source roots are now the organized folders on Desktop:
+  - `C:\Users\Administrator\Desktop\2024各区模拟题`
+  - `C:\Users\Administrator\Desktop\2025各区模拟题`
+  - `C:\Users\Administrator\Desktop\2026各区模拟题`
+- Verified immediately after the correction: `2026丰台一模`, `2026房山一模`, `2026丰台期末`, `2025海淀期中`, `2024顺义二模`, and `2024海淀期中` all have `细则` files in those organized folders. Their remaining blockers are answer-table/OCR/逐题迁入/module-boundary issues, not rubric existence.
+- Verified exception: `2026石景山期末` has an empty `细则` folder and only the paper PDF with `答案及评分参考`; keep it as the only no-detailed-rubric exception.
 
 ## 2026-04-24 Culture-Line Parallel State
 

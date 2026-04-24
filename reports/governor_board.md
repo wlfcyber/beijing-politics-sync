@@ -358,7 +358,7 @@
 ## 2026-04-24 必修四哲学题源穷尽总表（STEP_01）
 - inventory_scanner: passed. Re-opened the local `2024/2025/2026各区模拟题` directory tree, matched suite folders with paper / answer / rubric carriers, and re-used the existing philosophy framework, wrong-option library, ledger, and governor evidence to avoid re-inventing already confirmed question numbers.
 - source_table_builder: passed. Built `~/GaokaoPolitics/beijing-politics-sync/reports/必修四哲学_2024-2026题源穷尽清单.md` with `56` suite-level entries. Current status split is `8` 已闭环, `47` 待补证据, `1` 明确排除.
-- boundary_check: passed. Kept `2025海淀期中` as an honest exclusion because the local material still provides only reference-answer-level support and no usable philosophy rubric. Kept `2026丰台一模 / 房山一模 / 西城一模` choice slices pending because no reliable objective answer table has been confirmed locally.
+- boundary_check: passed at the time, later corrected. Kept `2025海淀期中` as an honest exclusion because the local material was then believed to provide only reference-answer-level support and no usable philosophy rubric; this rubric-missing reason is superseded by the 2026-04-25 user correction confirming `2025海淀期中细则.docx` exists. Kept `2026丰台一模 / 房山一模 / 西城一模` choice slices pending because no reliable objective answer table had been confirmed locally.
 - archive_caveat: passed with explicit note. Preserved `2024门头沟一模` as a compilation-only clue from `2024届各区一模试题分类汇编必修4.docx`; it was not upgraded into a fake “fully landed” suite.
 - source_hierarchy: passed. This round did not upgrade ordinary answers into rubrics, did not mark any unresolved suite as closed, and kept all uncertain 2024 slices under `待补证据` rather than forcing closure.
 - governor_decision: passed. STEP_01 inventory work is complete and can now feed STEP_02 artifact-audit work without hidden漏题 state in the local suite inventory.
@@ -1037,3 +1037,10 @@
 - main_question_line: passed. 第18（2）问继续以本地评标 docx 中“具体问题具体分析、尊重规律、一切从实际出发”等哲学角度为依据；第20题继续沿用联系、矛盾、认识发展等级题口径；第21题继续沿用整体部分、量变质变、价值观导向、人生价值综合链。第16政治与法治，第17法律，第18（1）逻辑，第18（3）经济，第19国政经不并入必修四哲学主表。
 - source_list_update: passed. 题源清单更新为 `已闭环 33 / 待补证据 22 / 明确排除 1`；STEP_02 选择题线/客观答案源缺口收窄为 `3` 套，剩余 `2026丰台一模、2026房山一模、2026丰台期末`。
 - governor_decision: passed for this suite only. `2024丰台二模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四/文化正确项回填、主观细则链和台账同步，判定为套卷级三线闭环。总体 `STEP_03` 仍不通过最终验收，因为仍有三套 2026 客观答案源缺口；不得标记任务完成。
+
+## 2026-04-25 用户细则口径修正
+- source_authority: passed. 用户明确要求以后以桌面整理版三年模拟题为准：`C:\Users\Administrator\Desktop\2024各区模拟题`、`C:\Users\Administrator\Desktop\2025各区模拟题`、`C:\Users\Administrator\Desktop\2026各区模拟题`。这些目录是此前由 Codex 整理过的版本，更适合作为查找试卷和细则的第一来源。
+- rubric_rule_update: passed. 用户明确：除 `2026石景山期末` 没有细则外，其他全部都有细则。后续不得在未查桌面整理目录对应 `细则` 文件夹前，把任何套卷定性为“无细则”。
+- local_check: passed. 已核到 `2026丰台一模\细则\2026丰台一模细则.pptx`、`2026房山一模\细则\2026房山一模细则.docx`、`2026丰台期末\细则\2026丰台期末细则.pdf`、`2025海淀期中\细则\2025海淀期中细则.docx`、`2024顺义思政二模\细则\2024顺义思政二模细则.docx`、`2024海淀期中\细则\2024海淀期中细则.pdf`。
+- exception_check: passed. `2026石景山期末` 的 `细则` 文件夹为空，仅见试卷 PDF；该 PDF 中的 `答案及评分参考` 只能作为方向性/评分参考证据，不能称为详细评标细则。
+- governor_decision: passed for state correction. 当前 `2026丰台一模、2026房山一模、2026丰台期末` 的剩余缺口只限客观答案表，不再表述为主观细则缺失；`2025海淀期中` 不能再以“无细则”为理由排除，只能按题目模块边界复核；`2024顺义二模`、`2024海淀期中` 的缺口也应改为逐题筛查/OCR/迁入，而不是细则待补。

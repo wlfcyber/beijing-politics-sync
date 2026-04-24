@@ -68,6 +68,16 @@ C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beiji
 ## Current Do-Not-Repeat Items
 
 - `2024丰台一模` 已作为正向线和倒序线交汇点合并闭环，不要再开两线重复做。
-- `2024朝阳期中` 已闭环并上传，错肢库新增 35 条，当前总行数 `1395`。
-- 哲学剩余选择题答案源缺口只剩：`2026丰台一模`、`2026房山一模`、`2026丰台期末`、`2024丰台二模`。
+- `2024朝阳期中` 已闭环；`2024丰台二模` 已在主机续工中完成客观答案核验和整套选择题闭环。当前错肢库总行数 `1429`。
+- 哲学剩余选择题答案源缺口只剩：`2026丰台一模`、`2026房山一模`、`2026丰台期末`。
 - 选必一、选必二、选必三已经通过严格验收，除非明确要求返工，否则不要重启。
+
+## 2026-04-25 Source Correction
+
+- Use the organized desktop corpus as the first source of truth:
+  - `C:\Users\Administrator\Desktop\2024各区模拟题`
+  - `C:\Users\Administrator\Desktop\2025各区模拟题`
+  - `C:\Users\Administrator\Desktop\2026各区模拟题`
+- User clarified that, except `2026石景山期末`, all suites have rubrics/marking rules in those organized folders.
+- `2026丰台一模`、`2026房山一模`、`2026丰台期末` remain objective-answer-source blockers only; do not describe them as rubric blockers.
+- `2026石景山期末` has no detailed评标细则. Its paper PDF has `答案及评分参考`, which can be used only as scoring-direction/reference evidence.
