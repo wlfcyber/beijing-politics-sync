@@ -420,3 +420,19 @@
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - old `.doc` scoring file was converted and used for主观题细则核定; no guessed rubric point was added.
 - remaining STEP_03 direct choice backlog: `2025门头沟一模、2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
+
+## 2026-04-24 2025门头沟一模选择题三线闭环（STEP_03第四套）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025门头沟一模/2025北京门头沟高三一模政治（教师版）.pdf` with bundled `pypdf`; extracted 第1-15题题面与第9页答案表。Used `textutil` to convert `门头沟一模细则.doc` and verify 第16题、第21题评分口径。
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1C 2A 3B 4A 5D 6C 7C 8B 9A 10A 11B 12B 13B 14D 15D`; no inferred objective answer was used.
+- choice_mapper: passed. Added `33` reusable wrong-option patterns under `2025门头沟一模选择题补充`.
+- framework_backfill: passed. Added stable choice-framework chains for 第5题灯会文化传承与发展、第6题AI著作权认识主体差异、第7题黄旭华人生价值；also expanded 第16题 from the existing联系观点 line to development, 对立统一, and 价值判断与价值选择 chains.
+- main_question_line: passed with correction. 第21题按本地 `.doc` 评分细则补入高质量发展哲学链，覆盖辩证否定/发展观点/系统观念、尊重规律与发挥主观能动性、主观与客观具体历史统一、正确价值判断与价值选择、主观能动性、联系观点与人民立场。
+- source_hierarchy: passed. 第16题、第21题使用本地评分细则转换文本；选择题仅使用教师版PDF题面和答案表。No ordinary reference answer was upgraded into a rubric.
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2025门头沟一模` now closes all three lines: 选择题错肢线、选择题框架线、主观题框架线。题源清单已从 `待补证据` 更新为 `已闭环`。
+
+## 2026-04-24 2025门头沟一模选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- old `.doc` scoring file was converted and used for主观题细则核定; no guessed rubric point was added.
+- remaining STEP_03 direct choice backlog: `2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
