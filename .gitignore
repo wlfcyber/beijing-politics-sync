@@ -1,0 +1,6 @@
+*.env
+*.env.local
+.california-proxy.env
+*.log
+__pycache__/
+.DS_Store
