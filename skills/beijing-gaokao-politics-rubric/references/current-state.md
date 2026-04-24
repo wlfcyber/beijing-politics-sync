@@ -31,7 +31,7 @@ GitHub sync copies:
 
 ### Choice-Question Wrong-Option Library
 
-Current wrong-option library table row count: 1395 reusable patterns.
+Current wrong-option library table row count: 1429 reusable patterns.
 
 Sections:
 
@@ -89,10 +89,11 @@ Dual-output backfill status:
 - Already satisfies `错肢库 + 哲学框架` for processed choice suites/slices: 2025二模选择题首轮、2025延庆一模、2025东城一模、2025朝阳一模、2025西城一模、2025丰台一模、2025房山一模、2025海淀一模、2025石景山一模、2025门头沟一模、2025顺义一模、2025东城期末、2025西城期末、2025海淀期末、2025朝阳期末、2025丰台期末、2025海淀二模、2026东城一模选择题首轮、2026东城期末、2026朝阳期中、2026朝阳期末、2026海淀期中、2026海淀期末、2026石景山期末、2026西城期末、2026通州期末、2026西城一模、2026朝阳一模、2026延庆一模、2026石景山一模、2026门头沟一模、2026顺义一模、2026海淀一模、2024东城一模、2024朝阳一模、2024海淀一模、2024丰台一模、2024石景山一模、2024西城一模、2024朝阳期中、2024朝阳二模、2024海淀二模、2024西城二模.
 - Remaining framework-backfill backlog among already processed choice batches: none at this stage.
 
-2026一模 remaining choice-question blockers:
+2026一模 / 2026期末 remaining choice-question blockers:
 
 - 2026丰台一模: no reliable objective answer table found locally.
 - 2026房山一模: no reliable objective answer table found locally.
+- 2026丰台期末: no reliable objective answer table found locally.
 
 Important resolved item:
 
@@ -130,7 +131,7 @@ Important resolved item:
 - Created `reports/必修四哲学_2024-2026题源穷尽清单.md` as the first full local inventory table for the current philosophy closure task.
 - The table currently records `56` suite-level entries: `32` 已闭环, `23` 待补证据, `1` 明确排除.
 - `2025海淀期中` remains the only explicit exclusion in the local philosophy queue.
-- `2026丰台一模 / 房山一模 / 丰台期末` and `2024丰台二模` are still blocked on reliable objective answer keys for the choice-question line; `2026西城一模` has been unblocked by the PDF page 10 answer-and-scoring-reference source.
+- `2026丰台一模 / 房山一模 / 丰台期末` are still blocked on reliable objective answer keys for the choice-question line; `2024丰台二模` has been unblocked by the saved evidence PDF page 8 objective-answer source, and `2026西城一模` has been unblocked by the PDF page 10 answer-and-scoring-reference source.
 - The next blocker is no longer “find the corpus”, but “audit every unresolved suite against the four durable artifacts and produce the missing-work gap list” for STEP_02.
 
 ## 2026-04-24 STEP_02 Audit Update
@@ -138,11 +139,11 @@ Important resolved item:
 - Created `reports/必修四哲学_STEP_02核心产物审计缺口清单.md` as the first suite-level missing-work map after the inventory pass.
 - The rolling open suite backlog after the latest STEP_03 closure is split into four actionable buckets:
   - `16` suites: content basically present, pending suite-level acceptance closure only
-  - `4` suites: choice-question line still open or lacks reliable objective answer source
+  - `3` suites: choice-question line still open or lacks reliable objective answer source
   - `0` suites: main-question rubric-chain work still open
   - `3` suites: 2024 entries are inventoried but not yet durably landed in the core philosophy artifacts
 - Re-check confirmed that there is currently no remaining backlog of the form “choice wrong-option batch already processed but philosophy correct-option framework chain still missing”.
-- The explicit choice-answer-key blockers remain `2026丰台一模 / 房山一模 / 丰台期末 / 2024丰台二模`; these should still use reliable objective-answer verification only, without turning ordinary main-question references into rubrics.
+- The explicit choice-answer-key blockers remain `2026丰台一模 / 房山一模 / 丰台期末`; these should still use reliable objective-answer verification only, without turning ordinary main-question references into rubrics. `2024丰台二模` has been unblocked by the saved objective-answer evidence PDF.
 - `2026通州期末` now has full 第1-15题 wrong-option closure, with 35 reusable patterns and suite-level `已闭环`.
 - `2026海淀期中` now has full 第1-15题 wrong-option closure with 31 reusable patterns, no additional stable 必修四 choice trigger requiring merge, and suite-level `已闭环` on the strength of the existing 第22（2） scoring-chain entry.
 - `2026石景山期末` now has full 第1-15题 wrong-option closure, with 34 reusable patterns and suite-level `已闭环`; the framework includes 第1、2、6、8、9题 philosophy/culture choice chains and main-question chains for 第18（1）“乡村非遗漫游” and 第20题“永定河治理”.
@@ -156,20 +157,28 @@ Important resolved item:
 - `2024海淀二模` is now suite-level closed. 试题 docx/PDF 与两份答案 docx 已核；第1-15题答案为 `1C 2D 3C 4B 5A 6C 7D 8B 9D 10B 11A 12B 13A 14C 15D`。The framework includes 第1、2、3、4、15题 choice correct-option chains, 第16题“以调频促同频”、第17题调查研究认识链、第21题“循新出发”；the wrong-option library adds 36 reusable patterns.
 - `2024西城二模` is now suite-level closed. 本地试卷 docx、答案 docx 与答案细则 docx 已核；第1-15题答案为 `1B 2D 3D 4D 5C 6D 7A 8C 9B 10B 11B 12A 13C 14A 15C`；wrong-option library adds 35 reusable patterns. The framework includes 第1、2、7、8、9题 choice correct-option chains, plus rubric-supported main-question chains for 第17题社会基本矛盾/改革 and 第18（4）题规律能动性、矛盾特殊性、系统优化、人民群众、价值判断与价值选择.
 - `2024朝阳期中` is now suite-level closed. `阅卷细则总.rtf` 文末客观答案表确认第1-15题答案为 `1B 2D 3D 4C 5A 6C 7B 8D 9B 10D 11C 12C 13C 14A 15B`; wrong-option library adds 35 reusable patterns; the framework includes 第1、2、3、4、5、6、10题 choice correct-option chains and rubric-supported 第16、17题 main-question chains. 第18-20题按逻辑、创新思维、经济/国政经边界排除。
-- `2024丰台二模` has now completed framework-first main-question backfill. 第18（2）问在选必三科学思维题中补入从实际出发/具体问题具体分析/尊重规律，第20题补入联系、矛盾、认识发展，第21题补入整体部分、量变质变、价值观导向、人生价值；第16、17、18（1）、18（3）、19按模块边界排除。The objective answer key still needs verification, so the suite stays `待补证据`.
+- `2024丰台二模` now closes at suite level after the 2026-04-25 host-computer continuation. The objective answer key was verified from the saved evidence PDF `reports/evidence_2024_fengtai_ermo_answer.pdf` page 8: `1D 2B 3A 4C 5A 6B 7B 8C 9D 10C 11C 12B 13D 14D 15A`; 34 reusable wrong-option patterns were added, and 第1、10、11、12、13题 stable 必修四/文化 correct-option chains were backfilled. Its earlier framework-first main-question chains remain: 第18（2）从实际出发/具体问题具体分析/尊重规律，第20题联系、矛盾、认识发展，第21题整体部分、量变质变、价值观导向、人生价值；第16、17、18（1）、18（3）、19按模块边界排除.
 - `2024西城一模` is now suite-level closed. The framework keeps philosophy/culture choice chains for 第1、2、3、4、9、10、12、15题 and the rubric-supported main-question chain for 第17题“避免人类中心主义”; the full 第1-15题 wrong-option line has been completed with 36 reusable patterns across the 20-row philosophy/culture slice and the 16-row whole-suite closure; 第5、6、7、8、11、13、14题 were reviewed with no additional stable 必修四 correct-option trigger.
 - `2024朝阳二模` is now suite-level closed. The framework keeps philosophy/culture choice chains for 第1、2、4、6题 and rubric-supported main-question chains for 第16（2）题“人与人工智能相互塑造”、第19（3）题“中华优秀传统文化赋予中国式现代化深厚底蕴”. The full 第1-15题 wrong-option line is complete with 34 reusable patterns across the 8-row philosophy slice and the 26-row whole-suite closure; 第3、5、7-15题 were reviewed with no additional stable 必修四 correct-option trigger.
 - A consistency caveat is now explicit: `choice_question_processing_ledger.md` still uses batch rows for `2025二模选择题补充（首轮）` and `2026一模选择题首轮`, so final suite-level acceptance will need either suite-mapped ledger notes or the acceptance checklist to absorb that mapping.
 
 ## Updated Next Work
 
-1. Continue STEP_03 by closing remaining evidence gaps without overlap: `2024丰台一模` and `2024朝阳期中` are closed and must not be reopened by either line. `2024丰台二模` stays in the answer-source blocker group until its objective answer key is confirmed. `2024东城一模`、`2024朝阳一模`、`2024海淀一模`、`2024丰台一模`、`2024石景山一模`、`2024西城一模`、`2024朝阳期中`、`2024东城二模`、`2024海淀二模`、`2024朝阳二模`、`2024西城二模`、`2026海淀期中`、`2026朝阳期末`、`2026石景山期末` and `2026西城一模` are now suite-level closed.
-2. For `2026丰台一模 / 房山一模 / 丰台期末 / 2024丰台二模`, only use the fallback path or other reliable source to confirm objective answers; keep the main-question evidence boundary unchanged.
+1. Continue STEP_03 by closing remaining evidence gaps without overlap: `2024丰台一模`, `2024朝阳期中`, and `2024丰台二模` are closed and must not be reopened by either line. `2024东城一模`、`2024朝阳一模`、`2024海淀一模`、`2024丰台一模`、`2024石景山一模`、`2024西城一模`、`2024朝阳期中`、`2024东城二模`、`2024海淀二模`、`2024丰台二模`、`2024朝阳二模`、`2024西城二模`、`2026海淀期中`、`2026朝阳期末`、`2026石景山期末` and `2026西城一模` are now suite-level closed.
+2. For `2026丰台一模 / 房山一模 / 丰台期末`, only use the fallback path or other reliable source to confirm objective answers; keep the main-question evidence boundary unchanged.
 3. `2026丰台期末` now has rubric-supported framework chains for 第16题“留白”和第22题“五年规划”; it remains a choice-question blocker only because no reliable objective answer table has been found locally.
 4. `2026通州期末` now has full 第1-15题 choice wrong-option closure plus rubric-supported framework chains for 第16题“都江堰治水智慧”和 第21题“十四五规划”; it is suite-level `已闭环`.
 5. `2026海淀期中` now has full 第1-15题 wrong-option closure plus the rubric-supported 第22（2）“中华民族伟大复兴势不可挡” chain; the teacher-version ordinary reference answer was not used by itself as a rubric.
 6. Main-question framework-first backlog is now cleared for the 2025-2026 local corpus within the current evidence boundary.
 7. Do not let the forward and reverse lines duplicate work; they have met at `2024丰台一模`, so the merged closeout is the final shared state for that suite. Continue any remaining work with one line only.
+
+## 2026-04-25 Host Continuation Update
+
+- `2024丰台二模` is now suite-level closed, not a remaining answer-source blocker. The saved evidence PDF `reports/evidence_2024_fengtai_ermo_answer.pdf` page 8 provided the objective answer table `1D 2B 3A 4C 5A 6B 7B 8C 9D 10C 11C 12B 13D 14D 15A`.
+- Wrong-option library count is now `1429` reusable rows after adding the 34-row `2024丰台二模选择题补充` batch.
+- Philosophy framework now includes `2024丰台二模套卷级三线闭环`, with 第1、10、11、12、13题 correct-option trigger chains and the prior rubric-supported 第18（2）、20、21 main-question chains preserved.
+- Source inventory now reads `已闭环 33 / 待补证据 22 / 明确排除 1`; STEP_02 choice-answer-source blockers are now only `2026丰台一模 / 2026房山一模 / 2026丰台期末`.
+- `哲学/必修四` remains on `STEP_03`; do not validate, do not create the final full-score teaching manuscript, and do not mark `TASK_COMPLETE` until the remaining three answer-source blockers are resolved or honestly closed as blockers and strict acceptance passes.
 
 ## 2026-04-24 Culture-Line Parallel State
 
