@@ -153,6 +153,12 @@ Then start Codex and say:
 Use the beijing-gaokao-politics-rubric skill. Continue from references/current-state.md and the synced artifacts.
 ```
 
+For a full handoff on a new computer, paste the prompt in:
+
+- `skills/beijing-gaokao-politics-rubric/references/new-computer-absorb-prompt.md`
+
+That prompt makes the new Codex session read the project skill, operating rules, continuous-task controller, current state, GitHub sync rules, and governor board before it resumes work.
+
 ## Conflict Rules
 
 If both devices edited the same Markdown file:

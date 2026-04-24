@@ -193,3 +193,10 @@ Important resolved item:
 - `选必一`、`选必二`、`选必三` are preserved as completed/revalidated artifacts under `artifacts/`, with their job notes under `reports/continuous_jobs/`.
 - The latest durable philosophy artifacts remain in the sync repository, not the older desktop root copies: `artifacts/必修四哲学材料-知识触发总框架_持续更新版_v2.md`, `artifacts/北京高考政治错肢库_持续更新版.md`, `reports/governor_board.md`, and matching `skills/.../assets/current-artifacts/` copies.
 - A local process check at `2026-04-24 20:18 CST` did not find a live continuous runner. On the next computer, continue `哲学/必修四` from `reports/continuous_jobs/哲学必修四_三线闭环穷尽满分课/PROGRESS.md`, currently `STEP_03`, before final validation.
+
+## 2026-04-24 Continuous-Control Handoff Update
+
+- The user's reusable long-task prompts have been consolidated into `skills/beijing-gaokao-politics-rubric/references/continuous-codex-control.md`.
+- The new-computer absorption prompt is stored at `skills/beijing-gaokao-politics-rubric/references/new-computer-absorb-prompt.md`.
+- `SKILL.md` now instructs Codex to read the continuous-control protocol before long-running, resumed, multi-step, delegated, or governor-supervised work.
+- The current local Codex skill should be refreshed from the synced `skills/beijing-gaokao-politics-rubric` folder after pulling on any device.

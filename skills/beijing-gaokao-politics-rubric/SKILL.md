@@ -17,7 +17,7 @@ Always preserve three durable outputs:
 - `北京高考政治错肢库_持续更新版.md`
 - `beijing_politics_research/data/reports/governor_board.md`
 
-Read `references/operating-rules.md` before substantial analysis. Read `references/current-state.md` when resuming the project or migrating devices. Read `references/github-sync.md` when setting up or using Windows/Mac sync.
+Read `references/operating-rules.md` before substantial analysis. Read `references/continuous-codex-control.md` before any long-running, multi-step, resumed, delegated, or governor-supervised work. Read `references/current-state.md` when resuming the project or migrating devices. Read `references/github-sync.md` when setting up or using Windows/Mac sync.
 
 ## Non-Negotiable Rules
 
@@ -29,6 +29,7 @@ Read `references/operating-rules.md` before substantial analysis. Read `referenc
 - Every material trigger must include the logic chain from material information to knowledge point.
 - Do not add sections or labels named `可替代`, `反向筛查`, or `教学提醒`.
 - After each work round, update the governor board with what passed, what failed, what was skipped, and why.
+- For long tasks, use the continuous-task control protocol: plan/progress documents must align, each round must complete one minimal real step before marking progress, and final completion requires objective validation rather than self-report.
 
 ## Standard Workflow
 
@@ -58,6 +59,10 @@ Read `references/operating-rules.md` before substantial analysis. Read `referenc
    - Check source/rubric validity, source question numbers, logic-chain quality, skipped files, and forbidden labels.
    - Update `governor_board.md`.
    - Report remaining blockers explicitly.
+
+6. For continuous tasks, enforce the controller.
+   - Use a task brief, development plan, progress document, governor board, and final acceptance checklist.
+   - Stop only when the plan and progress records align and the deliverables pass the strict acceptance standard in `references/continuous-codex-control.md`.
 
 ## Output Forms
 
@@ -105,3 +110,7 @@ cp -R beijing-gaokao-politics-rubric ~/.codex/skills/
 ```
 
 Then clone or pull the private research repository, point Codex to the local corpus paths, and continue from `references/current-state.md`.
+
+For another computer to absorb the current working protocol, use:
+
+- `references/new-computer-absorb-prompt.md`
