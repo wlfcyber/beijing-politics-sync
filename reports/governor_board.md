@@ -777,8 +777,38 @@
 
 ## 2026-04-24 必修四文化框架用户校正
 - framework_correction: passed. 已将文化线最高层级调整为用户给出的 `0载体 / 1特点 / 2作用 / 3横向 / 4纵向 / 5建设文化强国与文化自信 / 6民族精神 / 7坚持习近平文化思想`，并同步到文化框架、文化题源清单和文化连续任务进度。
-- term_bank: passed. 新增文化答题术语已补入对应板块词库，例如文化遗产、公共文化空间、文明交流互鉴、科技赋能、守正创新、中华民族现代文明、红色基因、新的文化使命等；未另起独立框架。
+- term_bank: superseded by stricter review below. 当时把文化遗产、公共文化空间、文明交流互鉴、科技赋能、守正创新、中华民族现代文明、红色基因、新的文化使命等归入词库；后续按用户要求重分为给分术语与材料识别词。
 - trigger_table: passed. 文化触发总表按 0-7 结构重排，当前 `28` 条触发链均保留来源套卷、题号、材料信息、触发知识和触发逻辑。
 - evidence_control: passed. 本轮只做框架归位和术语补充，没有把普通参考答案升级为主观题细则，也没有改动哲学主表或错肢库。
 - skipped_items: explicit. 本轮未继续穷尽拆解新的文化题源，原因是用户先要求学习并校正文化框架；下一轮再按套卷复核候选文化题的题面与评分材料。
 - forbidden_label_check: passed. 文化框架、文化题源清单和文化连续任务目录未出现禁用栏目名。
+
+## 2026-04-24 必修四文化术语给分口径收紧
+- user_correction: passed. 用户指出文化术语必须确认“写上有分”，不能把参考答案、材料词或泛化表达当成细则答题点；本轮已按该要求重修文化词库。
+- term_bank_reclassification: passed. 文化词库拆为 `逐点标分术语`、`等级细则支持术语`、`材料识别词` 三类。只有逐点标分术语称为“写上并结合材料就有分”的答题点；等级细则支持术语只称为作答角度；材料识别词不再称为已补答题点。
+- score_evidence: partial pass. 已核到逐点标分的样本包括 `2025门头沟一模 第16题`（文化关键词任一 1 分，文化角度最高 4 分）和 `2024东城一模 第16题`（文化多样性、文化交流交融、文化自信/中华文化立场等进入评标分值）。等级细则支持样本包括 `2025丰台一模 第16题`、`2026丰台期末 第16题`、`2026通州期末 第16题`、`2025顺义一模 第16题`、`2025海淀期末 第16题`、`2026石景山期末 第18（1）题`。
+- correction_of_previous_round: passed. 上一轮列出的文化遗产、公共文化空间、科技赋能、红色基因、新的文化使命等泛化术语已降为材料识别词，除非后续逐题核到明确给分口径，否则不得当作“写上有分”的答题点。
+- skipped_items: explicit. `2025朝阳期末 第16题` 和 `2026朝阳期末 第16题` 的扫描细则尚未完成逐点分值复核，本轮不把其术语列入逐点标分库。
+
+## 2026-04-24 2025东城二模第16题唯物论漏载修复
+- issue_check: passed. Re-opened `2025各区二模/2025东城二模/试卷/试卷.pdf` and `细则/细则.pdf`; 第16题阅卷报告“本题标准和变通”明确给出 `物质决定意识，要求我们一切从实际出发`，并对应“科技水平、社会需求、技术现状、应用场景、潜在风险”等材料抓手。
+- omission_judgment: passed. 既有哲学框架已把该题写入主观能动性、尊重规律与发挥主观能动性、发展观点等栏目，但没有把细则第一条落入 `物质决定意识` 和 `一切从实际出发 / 实事求是`，判定为框架回填遗漏，不是证据不足。
+- framework_backfill: passed. `必修四哲学材料-知识触发总框架_持续更新版_v2.md` 已新增两条源题号明确的触发链：`2025北京东城高三二模 第16题 -> 物质决定意识`，以及 `2025北京东城高三二模 第16题 -> 一切从实际出发 / 实事求是`。
+- source_hierarchy: passed. 本轮依据为用户确认可用的东城二模阅卷报告给分口径，没有把普通参考答案冒充细则。
+- governor_decision: passed. 此次为定点补丁，不改变套卷级闭环状态；后续若做 2025东城二模套卷验收，应把这两条纳入已补证据。
+
+## 2026-04-24 2024西城一模知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/西城一模/2024.4高三统一测试思想政治试卷.docx`、`2024.4高三统一测试思想政治答案.docx`、`2024.4西城高三统一测试思想政治答案 阅卷细则（调整）.docx`; three files were parsed directly from OOXML with no scan/OCR blocker.
+- answer_key_check: partial pass. Confirmed 第1-15题答案为 `1C 2A 3D 4B 5B 6C 7A 8D 9D 10A 11B 12C 13B 14A 15C`; this round processed philosophy/culture-related choice questions 第1、2、3、4、9、10、12、15题 and did not claim full 第1-15题 closure.
+- choice_mapper: partial pass. Added `20` reusable wrong-option patterns under `2024西城一模哲学相关选择题补充`.
+- framework_backfill: passed. Added choice-framework chains for 第1、2、3、4、9、10、12、15题 and rubric-supported main-question chains for 第17题“避免人类中心主义”.
+- source_hierarchy: passed. 第17题 used the local阅卷细则调整版, including the attached scoring notes on 3 knowledge points, “是/为/怎”层面, and value-view requirement. Ordinary answer text was not upgraded beyond the available scoring-rule file.
+- boundary_control: passed. 第5、6、7、8、18偏法律，第11、13偏逻辑，第14偏国政经，第16政治与法治，第19（5）虽出现实践/矛盾词但设问为《逻辑与思维》，均未强行并入必修四哲学主表.
+- governor_decision: passed for the framework-first slice. `2024西城一模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
+
+## 2026-04-24 2024西城一模知识触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- local docx evidence was parsed directly; no convertible file was left pending.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- current wrong-option library table row count is now `1091`.
