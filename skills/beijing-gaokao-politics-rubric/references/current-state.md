@@ -108,7 +108,7 @@ Important resolved item:
 - Created `reports/必修四哲学_2024-2026题源穷尽清单.md` as the first full local inventory table for the current philosophy closure task.
 - The table currently records `56` suite-level entries: `16` 已闭环, `39` 待补证据, `1` 明确排除.
 - `2025海淀期中` remains the only explicit exclusion in the local philosophy queue.
-- `2026丰台一模 / 房山一模 / 西城一模` are still blocked only on reliable objective answer keys for the choice-question line.
+- `2026丰台一模 / 房山一模 / 西城一模 / 丰台期末 / 朝阳期末` are still blocked only on reliable objective answer keys for the choice-question line.
 - The next blocker is no longer “find the corpus”, but “audit every unresolved suite against the four durable artifacts and produce the missing-work gap list” for STEP_02.
 
 ## 2026-04-24 STEP_02 Audit Update
@@ -120,15 +120,16 @@ Important resolved item:
   - `5` suites: main-question rubric-chain work still open
   - `15` suites: 2024 entries are inventoried but not yet durably landed in the core philosophy artifacts
 - Re-check confirmed that there is currently no remaining backlog of the form “choice wrong-option batch already processed but philosophy correct-option framework chain still missing”.
-- The explicit choice-answer-key blockers remain `2026丰台一模 / 房山一模 / 西城一模`; these should still use the user-authorized `北京题库` fallback only for objective-answer verification if a reliable paper-with-answer version can be confirmed.
+- The explicit choice-answer-key blockers remain `2026丰台一模 / 房山一模 / 西城一模 / 丰台期末 / 朝阳期末`; these should still use the user-authorized `北京题库` fallback only for objective-answer verification if a reliable paper-with-answer version can be confirmed.
 - A consistency caveat is now explicit: `choice_question_processing_ledger.md` still uses batch rows for `2025二模选择题补充（首轮）` and `2026一模选择题首轮`, so final suite-level acceptance will need either suite-mapped ledger notes or the acceptance checklist to absorb that mapping.
 
 ## Updated Next Work
 
 1. Continue STEP_03 by closing the remaining answer-key-confirmable choice suite `2026朝阳期末` if a reliable objective answer table can be obtained. `2026西城期末` is now closed with 32 wrong-option patterns, 3 choice-framework chains, the existing 第16（2） rubric-supported chain kept in place, and governor review; `2025丰台一模` is now closed with 31 wrong-option patterns, 2 choice-framework chains, a pure-culture 第16题 exclusion re-check, and governor review; `2025丰台二模` is now closed for the philosophy framework with 第16（1）大思政课实践育人链 and 第21题“势”的智慧综合哲学链, while 第16（2）三段论、17法治、18经济、19逻辑/法律、20国政经 remain outside 必修四哲学; `2025房山一模` is now closed with 37 wrong-option patterns, 5 choice-framework chains, and governor review; `2025海淀一模` is now closed with 32 wrong-option patterns, 4 choice-framework chains, 第22题系统观念主观链, and governor review; `2025石景山一模` is now closed with 32 wrong-option patterns, 4 choice-framework chains, 第21题破立关系主观链, and governor review; `2025门头沟一模` is now closed with 33 wrong-option patterns, 12 framework chains, 第16题扩展细则链 and 第21题高质量发展哲学链, and governor review; `2025顺义一模` is now closed with 31 wrong-option patterns, 9 framework chains, 第16题评分细则链, and governor review.
-2. For `2026丰台一模 / 房山一模 / 西城一模`, only use the fallback path to confirm objective answers; keep the main-question evidence boundary unchanged.
-3. Next framework-first targets are `2026丰台期末、2026海淀期中、2026通州期末` if local scoring carriers contain stable 必修四给分口径; otherwise move into the `2024` high-evidence bucket.
-4. For `2024`, start with the high-evidence bucket first: `东城一模、朝阳一模、海淀一模、丰台一模、石景山一模、西城一模、朝阳二模、东城二模、海淀二模、西城二模`.
+2. For `2026丰台一模 / 房山一模 / 西城一模 / 丰台期末 / 朝阳期末`, only use the fallback path to confirm objective answers; keep the main-question evidence boundary unchanged.
+3. `2026丰台期末` now has rubric-supported framework chains for 第16题“留白”和第22题“五年规划”; it remains a choice-question blocker only because no reliable objective answer table has been found locally.
+4. Next framework-first targets are `2026海淀期中、2026通州期末` if local scoring carriers contain stable 必修四给分口径; otherwise move into the `2024` high-evidence bucket.
+5. For `2024`, start with the high-evidence bucket first: `东城一模、朝阳一模、海淀一模、丰台一模、石景山一模、西城一模、朝阳二模、东城二模、海淀二模、西城二模`.
 
 ## 2026-04-24 Supervisor Migration Update
 

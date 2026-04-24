@@ -532,3 +532,17 @@
 - non-philosophy questions in the same suite were explicitly excluded rather than silently absorbed.
 - no forbidden labels were introduced.
 - remaining direct choice blocker: `2026朝阳期末` lacks a reliable full objective answer table locally; 北京题库 preview only exposed 第1题 and full answer download requires login, so no guessed choice answers were written.
+
+## 2026-04-24 2026丰台期末主观题知识触发补强（备课优先）
+- file_reader: passed. The paper PDF has no text layer, so the question pages were split and rendered with local tools; 第16题 and 第22题 were visually checked from rendered pages. Re-opened `丰台高三期末主观题评标.pdf` and used its 第16题、第22题 scoring materials.
+- rubric_boundary: passed. 第16题 is a `哲学与文化` question on “留白”; 第22题 is a综合题 with stable philosophy hooks around 五年规划. 第17题政治与法治、第18题法律与生活、第20题逻辑与思维、第21题当代国际政治与经济 were not merged into the 必修四哲学 framework.
+- framework_backfill: passed. Added `7` lecture-ready chains into `必修四哲学材料-知识触发总框架_持续更新版_v2.md`: 第16题矛盾/适度、联系/整体、规律与能动性、中华优秀传统文化；第22题发展/规律与能动性、联系/系统/人民群众、上层建筑/社会意识/正确认识.
+- source_hierarchy: passed. Main-question additions use local scoring/评标 material; ordinary answer text was not upgraded into a rubric.
+- governor_decision: passed for the main-question framework line. `2026丰台期末` remains suite-level `待补证据` only because the objective-answer table is still missing, so no choice-question answers or wrong-option patterns were guessed.
+
+## 2026-04-24 2026丰台期末主观题知识触发补强 Checks
+- every new framework chain names source suite and question number.
+- every new framework chain includes material information, principle/methodology, and logic chain.
+- scan-only paper pages were rendered and visually checked instead of being left pending.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- remaining framework-first targets: `2026海淀期中、2026通州期末` or the `2024` high-evidence bucket.
