@@ -388,3 +388,19 @@
 - every new choice-framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no guessed answer, no ordinary answer-as-rubric upgrade, and no forced inclusion of pure non-philosophy items into the philosophy framework.
 - remaining STEP_03 direct choice backlog: `2025海淀一模、2025石景山一模、2025门头沟一模、2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
+
+## 2026-04-24 2025海淀一模选择题三线闭环（STEP_03第二套）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025海淀一模/2025北京海淀高三一模政治（教师版）.pdf` with bundled `pypdf`; extracted 第1-15题题面与第8页答案表。同步 re-opened `一模评分细则.docx` for 第22题系统观念评分提示。
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1B 2D 3D 4A 5C 6B 7D 8A 9D 10C 11A 12C 13B 14D 15B`; no inferred objective answer was used.
+- choice_mapper: passed. Added `32` reusable wrong-option patterns under `2025海淀一模选择题补充`.
+- framework_backfill: passed. Added stable choice-framework chains for 第2题尊重规律与发挥主观能动性、第4题整体与部分/系统观念、第5题矛盾运动/动态性思维、第8题养老服务系统协同。
+- main_question_line: passed with correction. Existing 第16题 MBTI 哲学链保持有效；本轮额外补入第22题“系统观念是具有基础性的思想和工作方法”两条评分链，分别对应“全面依法治国是系统工程”和“完整、准确、全面贯彻新发展理念必须坚持系统观念”。
+- source_hierarchy: passed. 第22题使用本地 `一模评分细则.docx` 的评分提示，不把教师版普通答案直接冒充细则；第16题沿用既有评分标准链。
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2025海淀一模` now closes all three lines: 选择题错肢线、选择题框架线、主观题框架线。题源清单已从 `待补证据` 更新为 `已闭环`。
+
+## 2026-04-24 2025海淀一模选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no guessed answer and no ordinary reference-answer upgrade.
+- remaining STEP_03 direct choice backlog: `2025石景山一模、2025门头沟一模、2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
