@@ -733,7 +733,7 @@
 - framework_backfill: passed. Added choice-framework chains for 第1、2、8、9题 and main-question chains for 第18（1）“新质生产力”、第21题“全人类共同价值”.
 - source_hierarchy: passed. 第18（1） and 第21题 use local评标细则docx scoring-direction evidence; ordinary reference answers were not upgraded into detailed rubrics. 第16政治与法治、第17法律、第18（2）经济、第19逻辑、第20国政经 were excluded from the 必修四哲学 framework boundary.
 - boundary_control: passed. The inventory row was corrected from earlier classification-hint numbering to the actual paper numbering: 第1、2、8、9题 plus 第18（1）、21题.
-- governor_decision: passed for the framework-first slice. `2024丰台一模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
+- governor_decision: passed for the framework-first slice. `2024丰台一模` 在该节点已具备备课优先知识触发 chains；后续整套第1-15题 wrong-option closure 与套卷级 acceptance 已完成，当前状态见本文件后续“2024丰台一模套卷级三线闭环”。
 
 ## 2026-04-24 2024丰台一模知识触发补强 Checks
 - every new wrong-option entry names source suite and question number.
@@ -997,3 +997,23 @@
 - main_question_line: passed. 第17题“避免人类中心主义”继续以本地阅卷细则调整版为依据，覆盖生态价值观、人与自然生命共同体、规律与能动性、联系发展、对立统一、否定之否定等角度；第16、18、19按模块边界排除。
 - source_list_update: passed. 题源清单更新为 `已闭环 30 / 待补证据 25 / 明确排除 1`；STEP_02 缺口清单将选择题线/答案源缺口收窄为 `6` 套，仍剩 `2024丰台一模` 有答案表但整套未闭合，`2024朝阳期中` 答案表待精核，以及 `2026丰台一模、2026房山一模、2026丰台期末、2024丰台二模` 四套缺可靠客观题答案源。
 - governor_decision: passed. `2024西城一模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四正确项复核、主观细则链和台账同步，判定为套卷级三线闭环。下一倒序目标转为 `2024丰台一模`。
+
+## 2026-04-24 2024丰台一模交汇合并套卷级三线闭环
+- coordination_control: passed. 正向线与倒序线在 `2024丰台一模` 交汇；本轮由督工收口并暂停并行推进，不再允许两线重复处理该套卷。
+- scope_control: passed. 本轮只补 `2024丰台一模` 第3、4、5、6、7、10、11、12、13、14、15题选择题错肢线；既有第1、2、8、9题哲学/文化选择链和第18（1）、21题主观细则链不重复写入。
+- file_reader: passed. 使用 `~/GaokaoPolitics/2024各区模拟题/丰台一模/丰台高三一模政治试卷终版.pdf`、`2024北京丰台高三一模政治试题及答案.pdf` 与 `丰台一模评标细则汇总.docx`；带答案版 PDF 可核第1-15题客观答案，评标细则 docx 支撑第18（1）、21题主观哲学链。
+- answer_key_check: passed. 第1-15题答案由带答案版 PDF 确认为 `1B 2D 3D 4C 5D 6B 7C 8D 9C 10A 11D 12A 13B 14B 15A`；本轮没有推测客观题答案。
+- choice_line: passed. `北京高考政治错肢库_持续更新版.md` 新增“2024丰台一模选择题补充（整套收口）”26条可复用错肢；与既有9条哲学/文化相关错肢合计35条，覆盖整套第1-15题稳定错误表达。
+- framework_backfill: passed. `必修四哲学材料-知识触发总框架_持续更新版_v2.md` 已补写三线闭环说明；第3、4、5、6、7、10-15题按政治与法治、法律与生活、逻辑与思维、经济与社会、当代国际政治与经济等模块边界不强行迁入必修四哲学主表，既有第1、2、8、9题选择正确项链和第18（1）、21题主观细则链保持有效。
+- source_list_update: passed. 题源清单更新为 `已闭环 31 / 待补证据 24 / 明确排除 1`；STEP_02 缺口清单将选择题线/答案源缺口收窄为 `5` 套，仍剩 `2024朝阳期中` 答案表待精核，以及 `2026丰台一模、2026房山一模、2026丰台期末、2024丰台二模` 四套缺可靠客观题答案源。
+- governor_decision: passed. `2024丰台一模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四正确项复核、主观细则链和台账同步，判定为套卷级三线闭环。后续不得再让正向线或倒序线重复处理该套卷；下一步若继续 STEP_03，应单线处理 `2024朝阳期中` 客观答案精核或客观答案源阻塞项。
+
+## 2026-04-24 2024丰台一模套卷级三线闭环
+- scope_control: passed. 本轮只补 `2024丰台一模` 第3、4、5、6、7、10、11、12、13、14、15题选择题错肢线；既有第1、2、8、9题哲学/文化选择链和第18（1）、21题主观细则链不重复写入。
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/丰台一模/丰台高三一模政治试卷终版.pdf`、`2024北京丰台高三一模政治试题及答案.pdf`、`丰台一模评标细则汇总.docx`; 原试卷 PDF 文本层较弱，带答案版 PDF 可直接抽取第1-15题题面和答案表，评标细则 docx 可读。
+- answer_key_check: passed. 第1-15题答案由带答案版 PDF 第8页“参考答案”确认，为 `1B 2D 3D 4C 5D 6B 7C 8D 9C 10A 11D 12A 13B 14B 15A`；本轮没有推测客观题答案。
+- choice_line: passed. `北京高考政治错肢库_持续更新版.md` 新增“2024丰台一模选择题补充（整套收口）”26条可复用错肢；与既有9条哲学/文化相关错肢合计35条，覆盖整套第1-15题稳定错误表达。
+- framework_backfill: passed. `必修四哲学材料-知识触发总框架_持续更新版_v2.md` 已补写三线闭环说明；第3、4、5、6、7、10、11、12、13、14、15题按政治、法律、逻辑、经济、国政经边界不强行迁入必修四哲学主表，既有第1、2、8、9题选择正确项链和第18（1）、21题主观细则链保持有效。
+- main_question_line: passed. 第18（1）“新质生产力”和第21题“全人类共同价值”继续以本地评标细则汇总 docx 为依据；第16、17、18（2）、19、20按模块边界排除。
+- source_list_update: passed. 题源清单更新为 `已闭环 31 / 待补证据 24 / 明确排除 1`；STEP_02 缺口清单将选择题线/答案源缺口收窄为 `5` 套，仍剩 `2024朝阳期中` 答案表待精核，以及 `2026丰台一模、2026房山一模、2026丰台期末、2024丰台二模` 四套缺可靠客观题答案源。
+- governor_decision: passed. `2024丰台一模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四正确项复核、主观细则链和台账同步，判定为套卷级三线闭环。下一倒序目标转为 `2024朝阳期中` 客观答案表精核。
