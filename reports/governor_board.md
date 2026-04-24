@@ -404,3 +404,19 @@
 - every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
 - no guessed answer and no ordinary reference-answer upgrade.
 - remaining STEP_03 direct choice backlog: `2025石景山一模、2025门头沟一模、2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
+
+## 2026-04-24 2025石景山一模选择题三线闭环（STEP_03第三套）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2025各区模拟题/2025各区一模/2025石景山一模/2025北京石景山高三一模政治（教师版）.pdf` with bundled `pypdf`; extracted 第1-15题题面与答案表。Used `textutil` to convert `石景山 高三政治评分细则.doc` and verify 第16题、第21题主观评分口径。
+- answer_key_check: passed. Confirmed 第1-15题答案为 `1B 2C 3A 4D 5B 6C 7A 8C 9D 10C 11B 12B 13D 14A 15C`; no inferred objective answer was used.
+- choice_mapper: passed. Added `32` reusable wrong-option patterns under `2025石景山一模选择题补充`.
+- framework_backfill: passed. Added stable choice-framework chains for 第2题非遗源自群众实践、第3题“法宝”接受实践检验、第4题改革坚持实事求是和适度原则、第10题土地制度改革调整生产关系。
+- main_question_line: passed with correction. Existing 第16题哲学与文化链保持有效；本轮额外补入第21题“统筹破立关系”三条评分链，对应辩证否定/破立统一、社会基本矛盾和改革实质、党的领导与人民立场。
+- source_hierarchy: passed. 第21题使用本地旧版 `.doc` 评分细则转换文本，不把教师版普通答案直接冒充细则。
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed. `2025石景山一模` now closes all three lines: 选择题错肢线、选择题框架线、主观题框架线。题源清单已从 `待补证据` 更新为 `已闭环`。
+
+## 2026-04-24 2025石景山一模选择题三线闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- old `.doc` scoring file was converted and used for主观题细则核定; no guessed rubric point was added.
+- remaining STEP_03 direct choice backlog: `2025门头沟一模、2025顺义一模、2026朝阳期末、2026西城期末` plus the separate `2025丰台一模` screening task.
