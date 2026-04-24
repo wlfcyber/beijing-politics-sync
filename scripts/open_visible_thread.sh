@@ -3,6 +3,7 @@ set -euo pipefail
 
 role="${1:-supervisor}"
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+codex_model="${CODEX_MODEL:-gpt-5.4}"
 
 case "$role" in
   supervisor)
@@ -44,4 +45,4 @@ esac
 cd "$repo_root"
 git pull --ff-only
 
-exec codex -C "$repo_root" resume --all --include-non-interactive "$thread_id"
+exec codex -m "$codex_model" -C "$repo_root" resume --all --include-non-interactive "$thread_id"
