@@ -575,3 +575,21 @@
 - every new framework chain includes material information, principle/methodology, and logic chain.
 - no ordinary reference answer was silently upgraded into a rubric.
 - remaining main-question candidate after this pass: `2026石景山期末` only if a stable scoring carrier can be found; otherwise start the `2024` high-evidence bucket.
+
+## 2026-04-24 2026石景山期末知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026石景山期末/2026北京石景山高三（上）期末政治.pdf`; 第1-8页扫描题面已渲染读图，第9-10页可抽取文本并确认含 `答案及评分参考`。
+- answer_key_check: partial pass. Confirmed 第1-15题答案表为 `1C 2A 3D 4C 5A 6B 7B 8D 9A 10D 11B 12A 13C 14D 15C`; this round only processed philosophy-related choice questions 第2、6、8、9题 and did not claim full 第1-15题 closure.
+- choice_mapper: partial pass. Added `8` reusable wrong-option patterns under `2026石景山期末哲学相关选择题补充`.
+- framework_backfill: passed. Added choice-framework chains for 第2、6、8、9题 and main-question chains for 第18（1）“乡村非遗漫游” and 第20题“永定河治理”.
+- rubric_boundary: passed. 第18（1） and 第20题 use local `答案及评分参考` as scoring-direction evidence. 第18（2） is 分析与综合思维方法 and was not forced into the 必修四哲学 framework.
+- source_hierarchy: passed. No ordinary reference-only subjective answer was upgraded into a detailed rubric; the wording records the evidence as `答案及评分参考` rather than pretending it is a full评标细则.
+- forbidden_label_check: passed. No forbidden labels were introduced.
+- governor_decision: passed for the framework-first slice. `2026石景山期末` no longer belongs to the main-question scoring-chain backlog; it remains suite-level `待补证据` only because full 第1-15题 wrong-option closure is still open.
+
+## 2026-04-24 2026石景山期末知识触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- scan-only question pages were rendered and visually checked instead of being left pending.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- current wrong-option library total is now `890` reusable patterns.
+- remaining main-question framework-first backlog for 2025-2026 local corpus: none within the current evidence boundary; next framework-first work should move to the `2024` high-evidence bucket.

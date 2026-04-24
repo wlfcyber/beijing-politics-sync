@@ -31,7 +31,7 @@ GitHub sync copies:
 
 ### Choice-Question Wrong-Option Library
 
-Current wrong-option library total: 882 reusable patterns.
+Current wrong-option library total: 890 reusable patterns.
 
 Sections:
 
@@ -52,6 +52,7 @@ Sections:
 - 2026海淀期末选择题补充: 36
 - 2026西城期末选择题补充: 32
 - 2026通州期末哲学相关选择题补充: 9
+- 2026石景山期末哲学相关选择题补充: 8
 - 2025房山一模选择题补充: 37
 - 2025海淀一模选择题补充: 32
 - 2025石景山一模选择题补充: 32
@@ -96,13 +97,11 @@ Important resolved item:
 
 ## Next Work
 
-1. Continue 2025期末/期中 choice-question supplementation by checking whether `海淀期中` has any confirmable objective answer source and stable philosophy-related choice material; if not, keep it honestly excluded.
-2. Continue 2026期末/期中 choice-question supplementation for the only remaining answer-key-confirmable suite `朝阳期末`.
-3. Continue 2025一模 choice-question supplementation for the remaining suite `丰台`, only after each finished suite has both outputs: wrong-option library + philosophy framework chain.
-4. For 2026丰台、房山、西城一模 choice questions, use the user-authorized `北京题库` fallback only if a reliable paper-with-answer version can be confirmed.
-5. Start 2024 suite inventory and closure after the remaining 2025-2026 answer-key-confirmable batches, prioritizing suites that already have both objective answers and usable rubric files.
-6. After 2026二模 is actually held and the materials arrive, scan and process them under the same rules.
-7. Keep committing/pushing after each substantial update.
+1. Start the `2024` high-evidence framework-first bucket: `东城一模、朝阳一模、海淀一模、丰台一模、石景山一模、西城一模、朝阳二模、东城二模、海淀二模、西城二模`.
+2. Continue full choice-line closure where answer sources exist: `2026通州期末、2026海淀期中、2026石景山期末`.
+3. For `2026丰台一模 / 房山一模 / 西城一模 / 丰台期末 / 朝阳期末`, only use the fallback path to confirm objective answers; keep the main-question evidence boundary unchanged.
+4. After 2026二模 is actually held and the materials arrive, scan and process them under the same rules.
+5. Keep committing/pushing after each substantial update.
 
 ## 2026-04-24 Inventory Update
 
@@ -117,13 +116,14 @@ Important resolved item:
 - Created `reports/必修四哲学_STEP_02核心产物审计缺口清单.md` as the first suite-level missing-work map after the inventory pass.
 - The rolling open suite backlog after the latest STEP_03 framework-first closure is split into four actionable buckets:
   - `16` suites: content basically present, pending suite-level acceptance closure only
-  - `7` suites: choice-question line still open
-  - `1` suite: main-question rubric-chain work still open
+  - `8` suites: choice-question line still open
+  - `0` suites: main-question rubric-chain work still open
   - `15` suites: 2024 entries are inventoried but not yet durably landed in the core philosophy artifacts
 - Re-check confirmed that there is currently no remaining backlog of the form “choice wrong-option batch already processed but philosophy correct-option framework chain still missing”.
 - The explicit choice-answer-key blockers remain `2026丰台一模 / 房山一模 / 西城一模 / 丰台期末 / 朝阳期末`; these should still use the user-authorized `北京题库` fallback only for objective-answer verification if a reliable paper-with-answer version can be confirmed.
 - `2026通州期末` is not an answer-key blocker, but its full 第1-15题 wrong-option line remains open because this round only processed the philosophy-related choice slice.
 - `2026海淀期中` now has a confirmed 第22（2） scoring-chain entry, but its full 第1-15题 wrong-option line remains open.
+- `2026石景山期末` now has confirmed local `答案及评分参考` on pages 9-10. The framework now includes philosophy-related choice chains for 第2、6、8、9题 and main-question chains for 第18（1）“乡村非遗漫游” and 第20题“永定河治理”. The full 第1-15题 wrong-option line remains open.
 - A consistency caveat is now explicit: `choice_question_processing_ledger.md` still uses batch rows for `2025二模选择题补充（首轮）` and `2026一模选择题首轮`, so final suite-level acceptance will need either suite-mapped ledger notes or the acceptance checklist to absorb that mapping.
 
 ## Updated Next Work
@@ -133,8 +133,8 @@ Important resolved item:
 3. `2026丰台期末` now has rubric-supported framework chains for 第16题“留白”和第22题“五年规划”; it remains a choice-question blocker only because no reliable objective answer table has been found locally.
 4. `2026通州期末` now has philosophy-related choice backfill for 第5、7、8、9题 plus rubric-supported framework chains for 第16题“都江堰治水智慧”和 第21题“十四五规划”; it remains suite-level pending because only the philosophy-related choice slice, not the full 第1-15题 wrong-option line, has been processed.
 5. `2026海淀期中` now has a rubric-supported framework chain for 第22（2）“中华民族伟大复兴势不可挡”; the teacher-version ordinary reference answer was not used by itself as a rubric.
-6. Next framework-first target is `2026石景山期末` only if a stable scoring carrier can be located; otherwise move into the `2024` high-evidence bucket.
-7. For `2024`, start with the high-evidence bucket first: `东城一模、朝阳一模、海淀一模、丰台一模、石景山一模、西城一模、朝阳二模、东城二模、海淀二模、西城二模`.
+6. Main-question framework-first backlog is now cleared for the 2025-2026 local corpus within the current evidence boundary.
+7. Next framework-first target is the `2024` high-evidence bucket: `东城一模、朝阳一模、海淀一模、丰台一模、石景山一模、西城一模、朝阳二模、东城二模、海淀二模、西城二模`.
 
 ## 2026-04-24 Supervisor Migration Update
 

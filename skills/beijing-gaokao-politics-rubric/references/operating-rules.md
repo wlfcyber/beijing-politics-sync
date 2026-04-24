@@ -48,7 +48,7 @@ When receiving a zip or folder:
 
 Specific user-confirmed handling:
 
-- 石景山期末: user confirmed no rubric; skip directly in future.
+- 石景山期末: earlier note said to skip for lack of rubric, but the local `2026北京石景山高三（上）期末政治.pdf` has now been confirmed to include `答案及评分参考` on pages 9-10. Use it only as scoring-direction evidence, not as a detailed评标细则.
 - 海淀期中: user confirmed no philosophy question in one earlier context; for 2025海淀期中, only reference answer was found and no usable 必修四哲学 rubric, so do not merge.
 - 延庆一模: user said directly use it.
 - User-confirmed marking reports/lecture scoring files are usable when they contain scoring standards, e.g. `本题标准和变通`, `评分细则`, `答案变通说明`.
