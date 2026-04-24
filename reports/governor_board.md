@@ -639,7 +639,7 @@
 - choice_mapper: passed. Added `30` reusable wrong-option patterns under `2026朝阳期末选择题补充`.
 - framework_backfill: passed. Added `3` stable choice-framework chains for 第2题“整体与部分/系统观念”、第3题“认识发展原理”、第4题“主观能动性/意识的能动作用”; the existing 第16题 rubric-supported chain stays in place.
 - source_hierarchy: passed. Public answer material was used only for objective-question verification. 第16题主观题仍以本地 `2026朝阳期末细则.pdf` 的扫描评分口径为准，没有把公开主观题示例答案当作细则。
-- ledger_and_source_list: passed. `choice_question_processing_ledger.md` 新增套卷级台账行；`必修四哲学_2024-2026题源穷尽清单.md` 将 `2026朝阳期末` 更新为 `已闭环`；当前滚动总表为 `已闭环 18 / 待补证据 37 / 明确排除 1`。
+- ledger_and_source_list: passed. `choice_question_processing_ledger.md` 新增套卷级台账行；`必修四哲学_2024-2026题源穷尽清单.md` 将 `2026朝阳期末` 更新为 `已闭环`；结合同日已收口的 `2026石景山期末`，当前滚动总表为 `已闭环 19 / 待补证据 36 / 明确排除 1`。
 - governor_decision: passed. `2026朝阳期末` 现已完成选择题错肢线、选择题框架线与既有主观题框架线闭环。剩余直接客观题答案源阻塞为 `2026丰台一模、2026房山一模、2026西城一模、2026丰台期末`。
 
 ## 2026-04-24 2026朝阳期末选择题三线闭环 Checks
@@ -648,3 +648,35 @@
 - scan-only question pages were rendered and OCR-checked instead of being left pending.
 - no ordinary subjective reference answer was upgraded into a rubric.
 - current wrong-option library total is now `954` reusable patterns.
+
+## 2026-04-24 2026石景山期末选择题全量闭环（倒序协作）
+- coordination_check: passed. 本线在 `2026通州期末` 完成后继续倒序接管 `2026石景山期末`，未触碰朝阳/正向线负责的 `2026朝阳期末`；共享进度已写明石景山由倒序线处理。
+- file_reader: passed. 复核本地 `2026北京石景山高三（上）期末政治.pdf`；第1-8页扫描题面使用既有渲染页图并经本机 Vision OCR 核题，第9页答案表可抽取文本。
+- answer_key_check: passed. 第1-15题答案核为 `1C 2A 3D 4C 5A 6B 7B 8D 9A 10D 11B 12A 13C 14D 15C`。
+- choice_mapper: passed. 将 `2026石景山期末哲学相关选择题补充` 扩展为 `2026石景山期末选择题补充`，累计 `34` 条可复用错肢范式；本轮新增 `26` 条，覆盖第1、3、4、5、7、10-15题并保留原第2、6、8、9题哲学相关错肢。
+- framework_backfill: passed. 在既有第2、6、8、9题和第18（1）、20题链条基础上，新增第1题“抗战精神/民族精神/党的领导与人民力量”触发链；第10-15题主要属于法律与生活、逻辑与思维，不强行并入必修四哲学主表。
+- ledger_and_source_list: passed. `choice_question_processing_ledger.md` 改为第1-15题全量闭环；题源穷尽清单将 `2026石景山期末` 更新为 `已闭环`，滚动总表变为 `已闭环 19 / 待补证据 36 / 明确排除 1`。
+- governor_decision: passed. `2026石景山期末` 三线闭环完成；错肢库累计进入 `980` 条可复用范式。
+
+## 2026-04-24 2026石景山期末选择题全量闭环 Checks
+- every new wrong-option entry names source suite and question number.
+- scan-only question pages were OCR/read-image checked; no answer was inferred without the official answer table.
+- no ordinary subjective reference answer was upgraded into a rubric.
+- no non-philosophy correct item was silently absorbed into the 必修四哲学 framework.
+- shared progress now removes `2026石景山期末` from the “有答案表但整套未闭环” group.
+
+## 2026-04-24 2024朝阳一模知识触发补强（备课优先）
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/2024朝阳一模/202404朝阳高三一模试题.pdf`、`202404朝阳高三政治质量检测一参考答案 上交版.docx`、`2024朝阳一模政治评标.pptx`; 试题 PDF 文本层可抽取，答案 docx 表格已解析，评标 PPT 已抽取第16题与第18（2）问评分/讲评口径。
+- answer_key_check: partial pass. Confirmed 第1-15题答案为 `1B 2C 3B 4A 5A 6B 7C 8D 9D 10C 11B 12C 13D 14A 15C`; this round processed philosophy/culture-related choice questions 第1、2、3、4、5、9题 and did not claim full 第1-15题 closure.
+- choice_mapper: partial pass. Added `14` reusable wrong-option patterns under `2024朝阳一模哲学相关选择题补充`.
+- framework_backfill: passed. Added choice-framework chains for 第1、2、3、4、5、9题 and main-question chains for 第16题“接受人民监督与勇于自我革命”关系、第18（2）“科学普及与科技创新两翼齐飞”.
+- source_hierarchy: passed. 第16题 and 第18（2） use local评标PPT scoring/讲评 text. Reference-answer docx is used for objective answer-key confirmation and supporting cross-check only; ordinary subjective answer text was not upgraded into a detailed rubric.
+- boundary_control: passed. 第6、7、10、11、12 are logic/law-heavy questions, 第13、14、15 are economy/当代国际政治-heavy questions, 第17、18（1）、19、20、21 are outside the current 必修四哲学重点 or lack relevant philosophy scoring need in this pass; they were not forced into the framework.
+- governor_decision: passed for the framework-first slice. `2024朝阳一模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
+
+## 2026-04-24 2024朝阳一模知识触发补强 Checks
+- every new wrong-option entry names source suite and question number.
+- every new framework chain includes source suite, question number, material trigger, knowledge point, and logic chain.
+- no scan-only or malformed file was left pending; available PDF/docx/PPT sources were parsed directly.
+- no non-philosophy question was silently absorbed into the 必修四 framework.
+- current wrong-option library total is now `994` reusable patterns.
