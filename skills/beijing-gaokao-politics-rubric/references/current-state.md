@@ -175,4 +175,11 @@ Important resolved item:
 - `选必一` strict revalidation is now passed under the corrected standard, using `2024朝阳二模 Q20`, `2025西城二模 Q19(2)`, and `2026延庆一模 Q19(2)`.
 - `选必二` strict revalidation is now passed under the corrected standard, using `2024朝阳二模 Q17`, `2025西城二模 Q18`, and `2026延庆一模 Q18(1)`.
 - `选必三` remains passed after the earlier targeted correction and revalidation.
-- `哲学/必修四` remains the only unfinished workflow. Its continuous runner is active on `STEP_03`, so it should not be validated yet.
+- `哲学/必修四` remains the only unfinished workflow. It is still on `STEP_03`, so it should not be validated yet.
+
+## 2026-04-24 GitHub Handoff Update
+
+- This sync round is for continuing on the home computer. The lightweight Markdown artifacts, skill state, governor records, and continuous-job progress have been staged for GitHub.
+- `选必一`、`选必二`、`选必三` are preserved as completed/revalidated artifacts under `artifacts/`, with their job notes under `reports/continuous_jobs/`.
+- The latest durable philosophy artifacts remain in the sync repository, not the older desktop root copies: `artifacts/必修四哲学材料-知识触发总框架_持续更新版_v2.md`, `artifacts/北京高考政治错肢库_持续更新版.md`, `reports/governor_board.md`, and matching `skills/.../assets/current-artifacts/` copies.
+- A local process check at `2026-04-24 20:18 CST` did not find a live continuous runner. On the next computer, continue `哲学/必修四` from `reports/continuous_jobs/哲学必修四_三线闭环穷尽满分课/PROGRESS.md`, currently `STEP_03`, before final validation.
