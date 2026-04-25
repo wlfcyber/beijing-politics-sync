@@ -796,11 +796,11 @@
 - source list now records `已闭环 21 / 待补证据 34 / 明确排除 1`.
 
 ## 2026-04-24 2024石景山一模知识触发补强（备课优先）
-- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and `2024年石景山一模.pptx`; the docx contains full 第1-15题题面 and answer table, while the PPT supplies culture,历史唯物主义 and主观题讲评 frames.
+- file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and `2024年石景山一模.pptx`; the docx contains full 第1-15题题面 and answer table, while the PPT supplies culture,历史唯物主义 and主观题讲评 frames. 2026-04-25 strict audit later downgraded these 第16、20题 sources to 教师版参考答案/讲评PPT, not formal逐点评分细则.
 - answer_key_check: partial pass. Confirmed 第1-15题答案为 `1C 2B 3D 4A 5C 6A 7B 8B 9C 10A 11D 12D 13B 14C 15C`; this round processed philosophy/culture-related choice questions 第2、3、4、5题 and did not claim full 第1-15题 closure.
 - choice_mapper: partial pass. Added `8` reusable wrong-option patterns under `2024石景山一模哲学相关选择题补充`.
 - framework_backfill: passed. Added choice-framework chains for 第2、3、4、5题 and main-question chains for 第16题“习近平文化思想举旗定向”、第20题“中国式现代化战略性有利条件”.
-- source_hierarchy: passed. 第16题 and 第20题 use local教师版答案与评标/讲评PPT scoring-direction evidence; ordinary answer text was not upgraded into a detailed评标细则. 第6、7、19（3）偏逻辑，第17法律，第18政治与法治，第19（1）经济、第19（2）国政经 were excluded from 必修四哲学 framework boundary.
+- source_hierarchy: revised after strict audit. 第16题 and 第20题 use local教师版参考答案与讲评PPT答题方向参考；ordinary answer text is not treated as a detailed评标细则. 第6、7、19（3）偏逻辑，第17法律，第18政治与法治，第19（1）经济、第19（2）国政经 were excluded from 必修四哲学 framework boundary.
 - boundary_control: passed. The inventory row was corrected from earlier classification-hint numbering to the actual paper numbering: 第2、3、4、5题 plus 第16、20题.
 - governor_decision: passed for the framework-first slice. `2024石景山一模` now has备课优先知识触发 chains, but remains suite-level `待补证据` until full 第1-15题 wrong-option closure and suite-level acceptance are completed.
 
@@ -815,8 +815,8 @@
 - file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and re-checked that the same file contains the full 第1-15题题面 plus the objective answer table; no scan-only blocker remained.
 - answer_key_check: passed. Confirmed 第1-15题答案为 `1C 2B 3D 4A 5C 6A 7B 8B 9C 10A 11D 12D 13B 14C 15C`; no choice answer was inferred.
 - choice_mapper: passed. Expanded the suite from the earlier philosophy-first slice to full 第1-15题 closure, keeping the existing 第2、3、4、5题 entries and adding `18` new reusable wrong-option patterns for 第1、6-15题 under `2024石景山一模选择题补充`, for a suite total of `26`.
-- framework_backfill: passed with no new stable choice trigger. Re-checked 第1、6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第2、3、4、5题; the 第16题 and 第20题 rubric-supported chains remain valid.
-- source_hierarchy: passed. Objective answers came only from the local教师版带答案docx; 第16题 and 第20题 continue to rely on the already recorded local评标/讲评PPT scoring-direction evidence. No ordinary reference answer was promoted into a new subjective rubric.
+- framework_backfill: revised after strict audit. Re-checked 第1、6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第2、3、4、5题; the 第16题 and 第20题 remain as 教师版参考答案/讲评PPT答题方向参考 chains, not formal逐点评分细则 chains.
+- source_hierarchy: revised after strict audit. Objective answers came only from the local教师版带答案docx; 第16题 and 第20题 continue to rely on教师版参考答案与讲评PPT答题方向参考. No ordinary reference answer was promoted into a detailed subjective rubric.
 - boundary_control: passed. 第1题仍归政治建军，第6、7、13偏逻辑，第8、9归政治与法治，第10、11归法律，第12归经济，第14、15归当代国际政治与经济；they were processed only for wrong-option closure and were not forced into the 必修四 framework.
 - governor_decision: passed. `2024石景山一模` now completes its choice wrong-option line and, together with the existing choice-framework and 第16、20题 chains, reaches suite-level `已闭环`.
 
@@ -870,8 +870,8 @@
 - file_reader: passed. Re-used `~/GaokaoPolitics/2024各区模拟题/石景山一模/2024北京石景山高三一模政治（教师版带答案）.docx` and `2024年石景山一模.pptx`; the teacher-version docx directly provides full 第1-15题 and answer key.
 - answer_key_check: passed. Reconfirmed 第1-15题答案为 `1C 2B 3D 4A 5C 6A 7B 8B 9C 10A 11D 12D 13B 14C 15C`.
 - choice_mapper: passed. Expanded from the earlier philosophy-first slice to full 第1-15题 closure, keeping the existing 第2、3、4、5题 entries and adding `18` new reusable wrong-option patterns for 第1、6-15题 under `2024石景山一模选择题补充`, for a suite total of `26`.
-- framework_backfill: passed with no new stable choice trigger. Re-checked 第1、6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第2、3、4、5题; 第16、20题 rubric/lecture-supported chains remain valid.
-- governor_decision: passed. `2024石景山一模` now completes its choice wrong-option line and, together with the existing choice-framework and 第16、20题 chains, reaches suite-level `已闭环`.
+- framework_backfill: revised after strict audit. Re-checked 第1、6-15题 after full closure and did not find additional stable 必修四 choice-correct-option chains beyond the existing 第2、3、4、5题; 第16、20题 are retained only as 教师版参考答案/讲评PPT答题方向参考 chains, not detailed rubric-supported chains.
+- governor_decision: passed for choice wrong-option closure; subjective 第16、20题 evidence grade revised. `2024石景山一模` completes its choice wrong-option line and keeps 第16、20题 as参考答案/讲评PPT边界内的答题方向参考，不再标成正式评分细则支持。
 
 ## 2026-04-24 2024朝阳二模知识触发补强（备课优先）
 - file_reader: passed. Re-opened `~/GaokaoPolitics/2024各区模拟题/2024朝阳二模/003202405朝阳高三二模政治试题.pdf`、`004202405朝阳高三政治质量检测二参考答案（以PDF为准）.docx`、`2024年朝阳二模主观题阅卷总结.pdf`; the two PDFs have readable text layers and the answer docx contains the objective answer table.

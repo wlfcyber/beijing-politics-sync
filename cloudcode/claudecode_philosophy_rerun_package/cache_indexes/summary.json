@@ -1,0 +1,12 @@
+{
+  "output_root": "C:\\Users\\Administrator\\Desktop\\beijing_politics_research\\data\\preprocessed_corpus",
+  "manifest": "C:\\Users\\Administrator\\Desktop\\beijing_politics_research\\data\\preprocessed_corpus\\manifest.csv",
+  "jsonl": "C:\\Users\\Administrator\\Desktop\\beijing_politics_research\\data\\preprocessed_corpus\\manifest.jsonl",
+  "rows": 173,
+  "processed": 1,
+  "skipped_existing": 172,
+  "status_counts": {
+    "text-extracted": 153,
+    "rendered-ocr-needed": 20
+  }
+}
