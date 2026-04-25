@@ -18,8 +18,9 @@
 - none for the corrected 2026朝阳一模第16题 slice.
 
 ## Remaining Blockers
-- 2025海淀期中: no usable 必修四哲学 rubric found; not merged into the main framework.
-- 2026一模丰台、房山、西城客观题: local files searched; no reliable objective answer table has been found, so no inferred answers were written into the wrong-option library.
+- Current strict blockers: 16 suites still need suite-level acceptance closure; `2024门头沟一模` still has only objective-answer evidence plus reference-answer/level-description main-question material; `2024顺义二模` still needs whole-suite choice-line and remaining-question review; culture line still needs final acceptance sync.
+- `2025海淀期中` and `2024海淀期中` are excluded by module boundary after rubric/source recheck, not by missing-rubric reasoning.
+- `2026丰台一模`, `2026房山一模`, and `2026丰台期末` are no longer blockers: external objective answer evidence, scan-rendered question review, wrong-option expansion, ledger rows, framework backfill, and suite-level governor PASS are now complete.
 - 2026二模: user clarified on 2026-04-23 that the exam has not been held yet, so it is removed from the current blocker list.
 
 ## Checks
@@ -31,9 +32,27 @@
 - 2025二模 and 2025海淀二模 new wrong-option entries all include source suite and question number.
 - 2025海淀二模客观题 blocker is withdrawn: the user-supplied teacher-version PDF contains the answer key `1C 2B 3A 4B 5D 6B 7A 8C 9A 10D 11C 12D 13C 14B 15A`.
 - 2025海淀二模客观题 used the paper plus official teacher-version answer key only; no subjective reference answer was treated as a rubric.
-- 2026一模朝阳、延庆、石景山、门头沟、顺义、海淀新增条目均标明来源套卷和题号.
+- 2026一模朝阳、延庆、石景山、门头沟、顺义、海淀、丰台、房山新增条目均标明来源套卷和题号.
 - 2026海淀一模试卷为扫描件，已使用渲染页读图核对客观题题干，并使用评分标准中的答案表；没有推测答案.
-- 2026丰台、房山、西城未发现客观题答案表，按用户要求不把参考材料或猜测答案写入错肢库.
+- 历史记录：早期本地检索未发现 2026丰台、房山、西城客观题答案表，当时按用户要求未把参考材料或猜测答案写入错肢库；其中 2026西城一模、2026丰台一模、2026房山一模均已后续闭环，2026丰台期末也已在 2026-04-25 外部答案版 PDF 补证后转正.
+
+## 2026-04-25 三套2026补证选择题转正
+- file_reader: passed. Re-opened rendered scan pages for `2026丰台一模`, `2026房山一模`, and `2026丰台期末`; text layers were empty, so the choice-question stems and options were read from page images instead of inferred from answer letters.
+- answer_key_check: passed. Objective answer evidence came from saved external answer PDFs recorded in `reports/overnight_2026-04-25/objective_answer_source_closure.md`:
+  - `2026丰台一模`: `1B 2A 3D 4A 5A 6D 7B 8C 9D 10C 11D 12B 13A 14A 15C`
+  - `2026房山一模`: `1C 2D 3B 4A 5C 6D 7B 8A 9D 10B 11D 12C 13B 14C 15A`
+  - `2026丰台期末`: `1B 2C 3A 4B 5C 6A 7B 8D 9C 10D 11D 12A 13C 14B 15D`
+- choice_mapper: passed. Added `30 + 34 + 32 = 96` reusable wrong-option rows to `artifacts/北京高考政治错肢库_持续更新版.md`.
+- framework_backfill: passed. Backfilled stable 必修四/文化 correct-option chains for `2026丰台一模` 第4、5、6题, `2026房山一模` 第2、4、6题, and `2026丰台期末` 第1、2、4、6题. Non-必修四 stable answers were explicitly kept outside the philosophy framework by module boundary.
+- ledger_sync: passed. Added formal suite-level rows to `reports/choice_question_processing_ledger.md` and changed the previous strict补证状态 from “待逐题扩写” to “已转正”.
+- inventory_sync: passed. Updated `reports/必修四哲学_2024-2026题源穷尽清单.md` to `已闭环 36 / 待补证据 18 / 明确排除 2`; the three suites are now `已闭环`.
+- governor_decision: PASS for these three suites only. This is not a final all-corpus PASS because `16` suites still need suite-level验收收口, while `2024门头沟一模` and `2024顺义二模` remain pending.
+
+## 2026-04-25 三套2026补证选择题转正 Checks
+- no ordinary subjective reference answer was treated as a main-question rubric.
+- no answer letter was used without question stem and option review.
+- every new wrong-option row names source suite and question number.
+- existing closed suites such as `2024丰台一模`, `2024朝阳期中`, and `2024丰台二模` were not reopened or duplicated.
 
 ## 2026-04-23 Mac Migration Round
 - organizer: passed for Mac bootstrap. Created `~/GaokaoPolitics`, installed Command Line Tools, located the active private repo in the logged-in browser as `wlfcyber/beijing-politics-sync`, and placed the project at `~/GaokaoPolitics/beijing-politics-sync`.
@@ -358,7 +377,7 @@
 ## 2026-04-24 必修四哲学题源穷尽总表（STEP_01）
 - inventory_scanner: passed. Re-opened the local `2024/2025/2026各区模拟题` directory tree, matched suite folders with paper / answer / rubric carriers, and re-used the existing philosophy framework, wrong-option library, ledger, and governor evidence to avoid re-inventing already confirmed question numbers.
 - source_table_builder: passed. Built `~/GaokaoPolitics/beijing-politics-sync/reports/必修四哲学_2024-2026题源穷尽清单.md` with `56` suite-level entries. Current status split is `8` 已闭环, `47` 待补证据, `1` 明确排除.
-- boundary_check: passed at the time, later corrected. Kept `2025海淀期中` as an honest exclusion because the local material was then believed to provide only reference-answer-level support and no usable philosophy rubric; this rubric-missing reason is superseded by the 2026-04-25 user correction confirming `2025海淀期中细则.docx` exists. Kept `2026丰台一模 / 房山一模 / 西城一模` choice slices pending because no reliable objective answer table had been confirmed locally.
+- boundary_check: passed at the time, later corrected. Kept `2025海淀期中` as an honest exclusion because the local material was then believed to provide only reference-answer-level support and no usable philosophy rubric; this rubric-missing reason is superseded by the 2026-04-25 user correction confirming `2025海淀期中细则.docx` exists. Kept `2026丰台一模 / 房山一模 / 西城一模` choice slices pending because the objective answer table had not yet been confirmed locally at that time; this is superseded, and all three have since been closed.
 - archive_caveat: passed with explicit note. Preserved `2024门头沟一模` as a compilation-only clue from `2024届各区一模试题分类汇编必修4.docx`; it was not upgraded into a fake “fully landed” suite.
 - source_hierarchy: passed. This round did not upgrade ordinary answers into rubrics, did not mark any unresolved suite as closed, and kept all uncertain 2024 slices under `待补证据` rather than forcing closure.
 - governor_decision: passed. STEP_01 inventory work is complete and can now feed STEP_02 artifact-audit work without hidden漏题 state in the local suite inventory.
@@ -1035,20 +1054,20 @@
 - choice_line: passed. `北京高考政治错肢库_持续更新版.md` 新增“2024丰台二模选择题补充”34条可复用错肢，覆盖整套第1-15题稳定错误表达；当前错肢库表格行计数为 `1429`。
 - framework_backfill: passed. `必修四哲学材料-知识触发总框架_持续更新版_v2.md` 已新增 `2024丰台二模套卷级三线闭环` 说明，并将第1、10、11、12、13题稳定必修四/文化正确项回填为材料信息、触发知识和逻辑链。第2-9、14、15题按政治、经济、法律、逻辑、国政经等模块边界不强行迁入主表。
 - main_question_line: passed. 第18（2）问继续以本地评标 docx 中“具体问题具体分析、尊重规律、一切从实际出发”等哲学角度为依据；第20题继续沿用联系、矛盾、认识发展等级题口径；第21题继续沿用整体部分、量变质变、价值观导向、人生价值综合链。第16政治与法治，第17法律，第18（1）逻辑，第18（3）经济，第19国政经不并入必修四哲学主表。
-- source_list_update: passed at the time, later superseded. 题源清单当时更新为 `已闭环 33 / 待补证据 22 / 明确排除 1`；2026-04-25 严格同步审计后已改为 `已闭环 33 / 待补证据 21 / 明确排除 2`，并把三套 2026 从“缺客观答案源”改为“答案源已补证但错肢未逐题闭环”。
-- governor_decision: passed for this suite only. `2024丰台二模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四/文化正确项回填、主观细则链和台账同步，判定为套卷级三线闭环。总体 `STEP_03` 仍不通过最终验收；严格同步后阻塞已转为三套 2026 逐题错肢扩写与套卷级 PASS，不得标记任务完成。
+- source_list_update: passed at the time, later superseded. 题源清单当时更新为 `已闭环 33 / 待补证据 22 / 明确排除 1`；2026-04-25 严格同步审计后改为 `已闭环 33 / 待补证据 21 / 明确排除 2`；同日三套 2026 补证选择题转正后已更新为 `已闭环 36 / 待补证据 18 / 明确排除 2`。
+- governor_decision: passed for this suite only. `2024丰台二模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四/文化正确项回填、主观细则链和台账同步，判定为套卷级三线闭环。总体 `STEP_03` 仍不通过最终验收；最新阻塞转为 16 套套卷级验收收口、2024门头沟一模、2024顺义二模和文化线最终总审，不得标记任务完成。
 
 ## 2026-04-25 用户细则口径修正
 - source_authority: passed. 用户明确要求以后以桌面整理版三年模拟题为准：`C:\Users\Administrator\Desktop\2024各区模拟题`、`C:\Users\Administrator\Desktop\2025各区模拟题`、`C:\Users\Administrator\Desktop\2026各区模拟题`。这些目录是此前由 Codex 整理过的版本，更适合作为查找试卷和细则的第一来源。
 - rubric_rule_update: passed. 用户明确：除 `2026石景山期末` 没有细则外，其他全部都有细则。后续不得在未查桌面整理目录对应 `细则` 文件夹前，把任何套卷定性为“无细则”。
 - local_check: passed. 已核到 `2026丰台一模\细则\2026丰台一模细则.pptx`、`2026房山一模\细则\2026房山一模细则.docx`、`2026丰台期末\细则\2026丰台期末细则.pdf`、`2025海淀期中\细则\2025海淀期中细则.docx`、`2024顺义思政二模\细则\2024顺义思政二模细则.docx`、`2024海淀期中\细则\2024海淀期中细则.pdf`。
 - exception_check: passed. `2026石景山期末` 的 `细则` 文件夹为空，仅见试卷 PDF；该 PDF 中的 `答案及评分参考` 只能作为方向性/评分参考证据，不能称为详细评标细则。
-- governor_decision: passed for state correction, later narrowed by strict sync. 当时 `2026丰台一模、2026房山一模、2026丰台期末` 的剩余缺口表述为客观答案表；2026-04-25 严格同步后，三套客观答案源已补证，但仍缺逐题错肢扩写与套卷级 PASS。`2025海淀期中` 不能再以“无细则”为理由排除，只能按题目模块边界复核；`2024顺义二模` 仍需逐题总审，`2024海淀期中` 已按模块边界排除于必修四主观框架。
+- governor_decision: passed for state correction, later narrowed by strict sync and then updated by 三套2026补证转正. 当时 `2026丰台一模、2026房山一模、2026丰台期末` 的剩余缺口表述为客观答案表；2026-04-25 严格同步后先补证答案源，同日又完成逐题错肢扩写与套卷级 PASS。`2025海淀期中` 不能再以“无细则”为理由排除，只能按题目模块边界复核；`2024顺义二模` 仍需逐题总审，`2024海淀期中` 已按模块边界排除于必修四主观框架。
 
 ## 2026-04-25 严格同步审计补丁
 - sync_scope: passed. 已审查 `reports/overnight_2026-04-25/` 中的夜间补证记录，并把有效结论同步回 `reports/必修四哲学_2024-2026题源穷尽清单.md`、`reports/必修四哲学_STEP_02核心产物审计缺口清单.md`、`reports/choice_question_processing_ledger.md`、文化复核文件和 `current-state.md`。
-- objective_answer_boundary: partial pass. `2026丰台一模`、`2026房山一模`、`2026丰台期末` 已补得外部答案版 PDF，分别核定第1-15题答案；但仅完成客观答案源补证，未完成逐题错肢扩写、ledger 正式批次行和套卷级 governor PASS，故三套仍保持 `待补证据`。
+- objective_answer_boundary: passed and later promoted. `2026丰台一模`、`2026房山一模`、`2026丰台期末` 已补得外部答案版 PDF，分别核定第1-15题答案；随后已完成逐题错肢扩写、ledger 正式批次行、哲学框架回填和套卷级 governor PASS，三套已转 `已闭环`。
 - 2024_boundary_repair: partial pass. `2024顺义二模` 第16（1）题三条哲学链已写入框架，但整套仍未闭环；`2024门头沟一模` 已补客观答案源，但主观部分只是参考答案/等级描述，不能升格为细则；`2024海淀期中` 已按细则第3页模块分布排除于必修四主观框架。
 - exclusion_recheck: passed. `2025海淀期中` 的旧理由“无可用细则”作废；已重开本地细则 docx，主观题模块不属于必修四哲学/文化主观框架，继续以模块边界而非缺细则作为排除理由。
 - culture_sync: partial pass. 夜间新增的 `2026东城一模16` 一材多点文化漏载，以及 `2024朝阳二模19（3）`、`2025海淀二模17`、`2025西城一模16`、`2025石景山一模16` 已写回文化框架，并同步补入文化题源清单和逐题复核表；文化线仍不得宣称全量最终 PASS。
-- governor_decision: NOT PASS for strict all-question exhaustion. 当前可签的是“夜间发现已正式同步、错误 PASS 已撤销”；不能签“全部试卷已穷尽”。下一步若继续完成，必须对三套 2026 和 2024门头沟逐题做错肢扩写，对 2024顺义二模做整套总审，之后再重跑 governor。
+- governor_decision: NOT PASS for strict all-question exhaustion. 当前可签的是“三套 2026 补证选择题已转正，夜间错误 PASS 已撤销”；不能签“全部试卷已穷尽”。下一步若继续完成，必须处理 16 套套卷级验收收口、2024门头沟一模、2024顺义二模和文化线最终总审，之后再重跑 governor。
