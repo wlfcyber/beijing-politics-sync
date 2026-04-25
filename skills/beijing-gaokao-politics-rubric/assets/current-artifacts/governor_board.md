@@ -1,5 +1,22 @@
 # Governor Board
 
+## 2026-04-25 18项待补证据并行清理总验收
+
+- organizer: passed. The former 18 philosophy source-list pending items were split across real worker reports in `reports/parallel_closure_2026-04-25/`.
+- choice_mapper: passed. Added formal wrong-option batches for `2024门头沟一模` (23 data rows) and `2024顺义二模` (35 data rows), each with source suite and question number.
+- framework_backfill: passed. Added stable/candidate correct-option chains for `2024门头沟一模` 第2、5、9、15题 and `2024顺义二模` 第2、3、4、5、20（2）题; kept low-strength/non-module items outside the framework.
+- ledger_sync: passed. Added suite-level rows for the two 2024 batches and corrected historical ledger count drift: `2026一模选择题首轮 12→11`, `2025海淀二模 29→28`, `2026朝阳一模 35→34`, `2026延庆一模 33→32`, `2026海淀一模 33→32`, `2026石景山一模 28→27`, `2026门头沟一模 30→29`, `2026顺义一模 33→32`.
+- inventory_sync: passed. `reports/必修四哲学_2024-2026题源穷尽清单.md` now records `已闭环 54 / 待补证据 0 / 明确排除 2`.
+- governor_decision: PASS for philosophy source-list pending clearance. This is not a final all-system PASS: culture-line final acceptance and regenerated/rendered Word deliverables remain separate gates.
+
+## 2026-04-25 18项待补证据并行清理 Checks
+
+- `2024门头沟一模` subjective material remains reference-only; no ordinary answer or level description was promoted into a rubric chain.
+- `2024顺义二模` 第16（1） three philosophy chains remain supported by local rubric; 第16（2）-20/21 boundary review is recorded.
+- The 16 acceptance-only suites are closed by suite-level reports, not by silently assuming earlier batch rows.
+- Existing closed suites such as `2024丰台一模`, `2024朝阳期中`, and `2024丰台二模` were not reopened or duplicated.
+- Remaining blocker label is now limited to culture-line final acceptance / Word regeneration / whole-system final PASS, not philosophy source-list evidence.
+
 ## Current Status
 - organizer: passed for 2026 one-model main-question slice, 2025二模 choice-question follow-up, the newly supplied 2025海淀二模教师版客观题补齐, and 2026一模客观题补充.
 - file_reader: passed; re-opened the user-supplied 2026朝阳一模主观题阅卷细则docx with raw OOXML extraction and confirmed 第16题 is present at the start of the file without a numeric heading.
@@ -18,7 +35,7 @@
 - none for the corrected 2026朝阳一模第16题 slice.
 
 ## Remaining Blockers
-- Current strict blockers: 16 suites still need suite-level acceptance closure; `2024门头沟一模` still has only objective-answer evidence plus reference-answer/level-description main-question material; `2024顺义二模` still needs whole-suite choice-line and remaining-question review; culture line still needs final acceptance sync.
+- Current strict blockers: philosophy source-list evidence blockers are cleared (`已闭环 54 / 待补证据 0 / 明确排除 2`). Remaining strict gates are culture-line final acceptance, regenerated/rendered Word deliverables, and whole-system final PASS.
 - `2025海淀期中` and `2024海淀期中` are excluded by module boundary after rubric/source recheck, not by missing-rubric reasoning.
 - `2026丰台一模`, `2026房山一模`, and `2026丰台期末` are no longer blockers: external objective answer evidence, scan-rendered question review, wrong-option expansion, ledger rows, framework backfill, and suite-level governor PASS are now complete.
 - 2026二模: user clarified on 2026-04-23 that the exam has not been held yet, so it is removed from the current blocker list.
@@ -45,8 +62,8 @@
 - choice_mapper: passed. Added `30 + 34 + 32 = 96` reusable wrong-option rows to `artifacts/北京高考政治错肢库_持续更新版.md`.
 - framework_backfill: passed. Backfilled stable 必修四/文化 correct-option chains for `2026丰台一模` 第4、5、6题, `2026房山一模` 第2、4、6题, and `2026丰台期末` 第1、2、4、6题. Non-必修四 stable answers were explicitly kept outside the philosophy framework by module boundary.
 - ledger_sync: passed. Added formal suite-level rows to `reports/choice_question_processing_ledger.md` and changed the previous strict补证状态 from “待逐题扩写” to “已转正”.
-- inventory_sync: passed. Updated `reports/必修四哲学_2024-2026题源穷尽清单.md` to `已闭环 36 / 待补证据 18 / 明确排除 2`; the three suites are now `已闭环`.
-- governor_decision: PASS for these three suites only. This is not a final all-corpus PASS because `16` suites still need suite-level验收收口, while `2024门头沟一模` and `2024顺义二模` remain pending.
+- inventory_sync: superseded. This three-suite record was later absorbed by the 18项并行清理总验收, and the philosophy inventory now reads `已闭环 54 / 待补证据 0 / 明确排除 2`.
+- governor_decision: superseded. These three suites passed first; the later 18项并行清理总验收 cleared the philosophy source-list pending bucket. Full-system PASS still waits on culture-line/Word gates.
 
 ## 2026-04-25 三套2026补证选择题转正 Checks
 - no ordinary subjective reference answer was treated as a main-question rubric.
@@ -1054,8 +1071,8 @@
 - choice_line: passed. `北京高考政治错肢库_持续更新版.md` 新增“2024丰台二模选择题补充”34条可复用错肢，覆盖整套第1-15题稳定错误表达；当前错肢库表格行计数为 `1429`。
 - framework_backfill: passed. `必修四哲学材料-知识触发总框架_持续更新版_v2.md` 已新增 `2024丰台二模套卷级三线闭环` 说明，并将第1、10、11、12、13题稳定必修四/文化正确项回填为材料信息、触发知识和逻辑链。第2-9、14、15题按政治、经济、法律、逻辑、国政经等模块边界不强行迁入主表。
 - main_question_line: passed. 第18（2）问继续以本地评标 docx 中“具体问题具体分析、尊重规律、一切从实际出发”等哲学角度为依据；第20题继续沿用联系、矛盾、认识发展等级题口径；第21题继续沿用整体部分、量变质变、价值观导向、人生价值综合链。第16政治与法治，第17法律，第18（1）逻辑，第18（3）经济，第19国政经不并入必修四哲学主表。
-- source_list_update: passed at the time, later superseded. 题源清单当时更新为 `已闭环 33 / 待补证据 22 / 明确排除 1`；2026-04-25 严格同步审计后改为 `已闭环 33 / 待补证据 21 / 明确排除 2`；同日三套 2026 补证选择题转正后已更新为 `已闭环 36 / 待补证据 18 / 明确排除 2`。
-- governor_decision: passed for this suite only. `2024丰台二模` 已满足题面、可靠客观答案源、错肢库整套收口、稳定必修四/文化正确项回填、主观细则链和台账同步，判定为套卷级三线闭环。总体 `STEP_03` 仍不通过最终验收；最新阻塞转为 16 套套卷级验收收口、2024门头沟一模、2024顺义二模和文化线最终总审，不得标记任务完成。
+- source_list_update: passed at the time, later superseded. 题源清单先后经历初建、严格同步审计、三套 2026 补证选择题转正三个中间状态；18项并行清理总验收后最终更新为 `已闭环 54 / 待补证据 0 / 明确排除 2`。
+- governor_decision: superseded. `2024丰台二模` 当时只签该套卷；后续 18项并行清理总验收已清空哲学题源待补证据。当前不得标记全体系完成的原因只剩文化线最终 acceptance、Word 重生成/渲染和全体系最终 PASS 门。
 
 ## 2026-04-25 用户细则口径修正
 - source_authority: passed. 用户明确要求以后以桌面整理版三年模拟题为准：`C:\Users\Administrator\Desktop\2024各区模拟题`、`C:\Users\Administrator\Desktop\2025各区模拟题`、`C:\Users\Administrator\Desktop\2026各区模拟题`。这些目录是此前由 Codex 整理过的版本，更适合作为查找试卷和细则的第一来源。
@@ -1067,7 +1084,7 @@
 ## 2026-04-25 严格同步审计补丁
 - sync_scope: passed. 已审查 `reports/overnight_2026-04-25/` 中的夜间补证记录，并把有效结论同步回 `reports/必修四哲学_2024-2026题源穷尽清单.md`、`reports/必修四哲学_STEP_02核心产物审计缺口清单.md`、`reports/choice_question_processing_ledger.md`、文化复核文件和 `current-state.md`。
 - objective_answer_boundary: passed and later promoted. `2026丰台一模`、`2026房山一模`、`2026丰台期末` 已补得外部答案版 PDF，分别核定第1-15题答案；随后已完成逐题错肢扩写、ledger 正式批次行、哲学框架回填和套卷级 governor PASS，三套已转 `已闭环`。
-- 2024_boundary_repair: partial pass. `2024顺义二模` 第16（1）题三条哲学链已写入框架，但整套仍未闭环；`2024门头沟一模` 已补客观答案源，但主观部分只是参考答案/等级描述，不能升格为细则；`2024海淀期中` 已按细则第3页模块分布排除于必修四主观框架。
+- 2024_boundary_repair: superseded by the 18项并行清理总验收. `2024顺义二模` 第16（1）题三条哲学链已写入框架，整套选择题和边界审结已完成；`2024门头沟一模` 已完成选择题转正，主观部分仍只按 reference-only 边界记录，不能升格为细则；`2024海淀期中` 已按细则第3页模块分布排除于必修四主观框架。
 - exclusion_recheck: passed. `2025海淀期中` 的旧理由“无可用细则”作废；已重开本地细则 docx，主观题模块不属于必修四哲学/文化主观框架，继续以模块边界而非缺细则作为排除理由。
 - culture_sync: partial pass. 夜间新增的 `2026东城一模16` 一材多点文化漏载，以及 `2024朝阳二模19（3）`、`2025海淀二模17`、`2025西城一模16`、`2025石景山一模16` 已写回文化框架，并同步补入文化题源清单和逐题复核表；文化线仍不得宣称全量最终 PASS。
-- governor_decision: NOT PASS for strict all-question exhaustion. 当前可签的是“三套 2026 补证选择题已转正，夜间错误 PASS 已撤销”；不能签“全部试卷已穷尽”。下一步若继续完成，必须处理 16 套套卷级验收收口、2024门头沟一模、2024顺义二模和文化线最终总审，之后再重跑 governor。
+- governor_decision: superseded. 当时不能签“全部试卷已穷尽”；后续 18项并行清理总验收已经清空哲学题源清单待补证据。完整全体系 PASS 仍需文化线最终总审、Word 重生成和渲染验收。

@@ -2,6 +2,15 @@
 
 This file preserves the Windows working state so a Mac Codex session can resume without losing context.
 
+## 2026-04-25 18项待补证据清零更新
+
+- 哲学题源清单：`56` 条，当前为 `已闭环 54 / 待补证据 0 / 明确排除 2`。
+- 错肢库正文 9 字段表格数据行计数：`1585`。
+- 新增正式批次：`2024门头沟一模选择题补充（补证转正）` 23 条，`2024顺义二模选择题补充` 35 条。
+- 16 套验收型条目已由 `reports/parallel_closure_2026-04-25/worker_*.md` 并行报告转为套卷级已闭环。
+- `2024门头沟一模` 主观题仍为 reference-only，不升格细则；`2024顺义二模` 第16（1）三链保持，其余题号边界已审结。
+- 本更新只签哲学题源待补证据清零；文化线最终 acceptance、Word 成品重生成和全体系最终 PASS 仍是独立后续门。
+
 ## Main Artifacts
 
 Windows originals:
@@ -31,13 +40,13 @@ GitHub sync copies:
 
 ### Choice-Question Wrong-Option Library
 
-Current wrong-option library table row count: 1525 reusable patterns.
+Current wrong-option library table data-row count: 1585 reusable patterns.
 
 Sections:
 
-- 2026一模选择题首轮: 12
+- 2026一模选择题首轮: 11
 - 2025二模选择题补充（首轮）: 30
-- 2025海淀二模选择题补充: 29
+- 2025海淀二模选择题补充: 28
 - 2025延庆一模选择题补充: 31
 - 2025东城一模选择题补充: 27
 - 2025朝阳一模选择题补充: 30
@@ -76,12 +85,12 @@ Sections:
 - 2025门头沟一模选择题补充: 33
 - 2025顺义一模选择题补充: 31
 - 2025丰台一模选择题补充: 31
-- 2026朝阳一模选择题补充: 35
-- 2026延庆一模选择题补充: 33
-- 2026石景山一模选择题补充: 28
-- 2026门头沟一模选择题补充: 30
-- 2026顺义一模选择题补充: 33
-- 2026海淀一模选择题补充: 33
+- 2026朝阳一模选择题补充: 34
+- 2026延庆一模选择题补充: 32
+- 2026石景山一模选择题补充: 27
+- 2026门头沟一模选择题补充: 29
+- 2026顺义一模选择题补充: 32
+- 2026海淀一模选择题补充: 32
 - 2026西城一模选择题补充: 34
 - 2026丰台一模选择题补充（补证转正）: 30
 - 2026房山一模选择题补充（补证转正）: 34
@@ -132,7 +141,7 @@ Important resolved item:
 ## Next Work
 
 1. Forward and reverse philosophy lines met at `2024丰台一模`; the merged closeout is now recorded, so neither line should reopen that suite.
-2. Continue STEP_03 only on remaining real blockers: `16` suites pending suite-level acceptance closure, `2024门头沟一模`, `2024顺义二模`, and final culture-line acceptance.
+2. Philosophy STEP_03 source-list evidence blockers are cleared; continue only on culture-line final acceptance, Word regeneration/render QA, and whole-system final PASS.
 3. `2026丰台一模 / 房山一模 / 丰台期末` are now closed after fallback answer verification, scan-rendered page reading, wrong-option expansion, ledger sync, framework backfill, and governor PASS; do not reopen those choice lines.
 4. After 2026二模 is actually held and the materials arrive, scan and process them under the same rules.
 5. Keep committing/pushing after each substantial update.
@@ -140,7 +149,7 @@ Important resolved item:
 ## 2026-04-24 Inventory Update
 
 - Created `reports/必修四哲学_2024-2026题源穷尽清单.md` as the first full local inventory table for the current philosophy closure task.
-- The latest table records `56` suite-level entries: `36` 已闭环, `18` 待补证据, `2` 明确排除.
+- The latest table records `56` suite-level entries: `54` 已闭环, `0` 待补证据, `2` 明确排除.
 - `2025海淀期中` remains the only explicit exclusion in the local philosophy queue.
 - `2026丰台一模 / 房山一模 / 丰台期末` were later unblocked by saved external answer PDFs and closed by the 2026-04-25补证转正 batch; `2024丰台二模` has been unblocked by the saved evidence PDF page 8 objective-answer source, and `2026西城一模` has been unblocked by the PDF page 10 answer-and-scoring-reference source.
 - The next blocker is no longer “find the corpus”, but “audit every unresolved suite against the four durable artifacts and produce the missing-work gap list” for STEP_02.
@@ -152,7 +161,7 @@ Important resolved item:
   - `16` suites: content basically present, pending suite-level acceptance closure only
   - `0` suites: direct choice-question line still open or lacking reliable objective answer source
   - `0` suites: main-question rubric-chain work still open
-  - `2` suites: 2024 secondary blockers remain (`2024门头沟一模`, `2024顺义二模`)
+  - `0` suites: 2024 secondary blockers remain after the 18项并行清理总验收
 - Re-check confirmed that there is currently no remaining backlog of the form “choice wrong-option batch already processed but philosophy correct-option framework chain still missing”.
 - The former explicit choice-answer-key blockers `2026丰台一模 / 房山一模 / 丰台期末` have been closed by reliable objective-answer verification plus scan-rendered page review; ordinary main-question references were not turned into rubrics. `2024丰台二模` has been unblocked by the saved objective-answer evidence PDF.
 - `2026通州期末` now has full 第1-15题 wrong-option closure, with 35 reusable patterns and suite-level `已闭环`.
@@ -177,7 +186,7 @@ Important resolved item:
 ## Updated Next Work
 
 1. Continue STEP_03 by closing remaining evidence gaps without overlap: `2024丰台一模`, `2024朝阳期中`, `2024丰台二模`, `2026丰台一模`, `2026房山一模`, and `2026丰台期末` are closed and must not be reopened by either line. `2024东城一模`、`2024朝阳一模`、`2024海淀一模`、`2024丰台一模`、`2024石景山一模`、`2024西城一模`、`2024朝阳期中`、`2024东城二模`、`2024海淀二模`、`2024丰台二模`、`2024朝阳二模`、`2024西城二模`、`2026海淀期中`、`2026朝阳期末`、`2026石景山期末`, `2026西城一模`, `2026丰台一模`, `2026房山一模`, and `2026丰台期末` are now suite-level closed.
-2. Remaining STEP_03 work: finish `16` suite-level acceptance closures, `2024门头沟一模`, `2024顺义二模`, and culture-line final acceptance sync.
+2. Remaining work after philosophy STEP_03: culture-line final acceptance sync, Word regeneration/render QA, and whole-system final PASS gate.
 3. `2026丰台期末` now has rubric-supported framework chains for 第16题“留白”和第22题“五年规划”; its choice-question closure is also complete after the 2026-04-25补证转正 batch.
 4. `2026通州期末` now has full 第1-15题 choice wrong-option closure plus rubric-supported framework chains for 第16题“都江堰治水智慧”和 第21题“十四五规划”; it is suite-level `已闭环`.
 5. `2026海淀期中` now has full 第1-15题 wrong-option closure plus the rubric-supported 第22（2）“中华民族伟大复兴势不可挡” chain; the teacher-version ordinary reference answer was not used by itself as a rubric.
@@ -189,8 +198,8 @@ Important resolved item:
 - `2024丰台二模` is now suite-level closed, not a remaining answer-source blocker. The saved evidence PDF `reports/evidence_2024_fengtai_ermo_answer.pdf` page 8 provided the objective answer table `1D 2B 3A 4C 5A 6B 7B 8C 9D 10C 11C 12B 13D 14D 15A`.
 - Wrong-option library count was `1429` reusable rows after adding the 34-row `2024丰台二模选择题补充` batch; it is now `1525` after the 2026-04-25三套2026补证转正 batch.
 - Philosophy framework now includes `2024丰台二模套卷级三线闭环`, with 第1、10、11、12、13题 correct-option trigger chains and the prior rubric-supported 第18（2）、20、21 main-question chains preserved.
-- This host-continuation count was later superseded twice: strict sync audit first moved source inventory to `已闭环 33 / 待补证据 21 / 明确排除 2`; the 2026-04-25三套2026补证转正 batch then moved it to `已闭环 36 / 待补证据 18 / 明确排除 2`.
-- `哲学/必修四` remains on `STEP_03`; do not validate, do not create the final full-score teaching manuscript, and do not mark `TASK_COMPLETE` until the remaining 16 suite-level acceptance closures, `2024门头沟一模`, `2024顺义二模`, and culture-line final acceptance are resolved or honestly closed as blockers and strict acceptance passes.
+- This host-continuation count was later superseded by strict sync audit, the three-suite 2026 choice promotion, and finally the 18项并行清理总验收. The current source inventory is `已闭环 54 / 待补证据 0 / 明确排除 2`.
+- `哲学/必修四` STEP_03 is closed for philosophy source-list evidence. Do not mark whole-system `TASK_COMPLETE` until culture-line final acceptance and regenerated/rendered Word deliverables pass.
 
 ## 2026-04-25 User Rubric-Source Correction
 
@@ -199,21 +208,21 @@ Important resolved item:
   - `C:\Users\Administrator\Desktop\2024各区模拟题`
   - `C:\Users\Administrator\Desktop\2025各区模拟题`
   - `C:\Users\Administrator\Desktop\2026各区模拟题`
-- Verified immediately after the correction: `2026丰台一模`, `2026房山一模`, `2026丰台期末`, `2025海淀期中`, `2024顺义二模`, and `2024海淀期中` all have `细则` files in those organized folders. The three 2026 suites are now closed for the choice line; the remaining blockers are acceptance closure/OCR/逐题迁入/module-boundary issues, not rubric existence.
+- Verified immediately after the correction: `2026丰台一模`, `2026房山一模`, `2026丰台期末`, `2025海淀期中`, `2024顺义二模`, and `2024海淀期中` all have `细则` files in those organized folders. The three 2026 suites and `2024顺义二模` are now closed within philosophy source-list evidence; `2025海淀期中` and `2024海淀期中` are module-boundary exclusions, not missing-rubric cases.
 - Verified exception: `2026石景山期末` has an empty `细则` folder and only the paper PDF with `答案及评分参考`; keep it as the only no-detailed-rubric exception.
 
 ## 2026-04-25 Strict Sync Audit Patch
 
 - The overnight thread did not reach strict “all questions exhausted” acceptance. It generated useful findings and Word drafts, but the formal repo state still needed synchronization.
-- The formal philosophy inventory is now updated to `已闭环 36 / 待补证据 18 / 明确排除 2` after the three 2026 suites were promoted from answer-source evidence to formal choice-line closure. `2024海淀期中` moved from pending OCR to module-boundary exclusion after rechecking rubric page 3; `2025海淀期中` remains excluded only by module boundary, not by missing-rubric reasoning.
+- The formal philosophy inventory is now updated to `已闭环 54 / 待补证据 0 / 明确排除 2` after the 18项并行清理总验收. `2024海淀期中` and `2025海淀期中` remain excluded only by module boundary, not by missing-rubric reasoning.
 - `2026丰台一模 / 2026房山一模 / 2026丰台期末` now have objective-answer evidence from saved external answer PDFs:
   - `2026丰台一模`: `1B 2A 3D 4A 5A 6D 7B 8C 9D 10C 11D 12B 13A 14A 15C`
   - `2026房山一模`: `1C 2D 3B 4A 5C 6D 7B 8A 9D 10B 11D 12C 13B 14C 15A`
   - `2026丰台期末`: `1B 2C 3A 4B 5C 6A 7B 8D 9C 10D 11D 12A 13C 14B 15D`
 - These three suites were then closed in the 2026-04-25补证转正 batch: question-stem/options/answer synchronized review, wrong-option rows, ledger rows, framework backfill, and governor PASS are now complete for them.
-- `2024门头沟一模` has objective-answer evidence (`1B 2C 3A 4C 5B 6C 7B 8D 9A 10D 11C 12C 13B 14C 15A`), but the main-question material is ordinary reference answer/level description, not a rubric; keep it pending for wrong-option expansion and rubric-boundary work.
-- `2024顺义二模` has three 第16（1） philosophy chains merged into the framework, but the suite remains pending until full choice-line and remaining-question review is done.
-- Governor status: strict all-question exhaustion is still `NOT PASS`. The next worker must not use the existing Word files as final acceptance proof; they are drafts plus synced findings until the remaining 16 suite-level acceptance closures, `2024门头沟一模`, `2024顺义二模`, and culture-line final acceptance are closed.
+- `2024门头沟一模` is closed for philosophy source-list evidence: objective line has 23 wrong-option data rows and correct-option candidates; main-question material remains ordinary reference answer/level description, recorded as reference-only rather than promoted into a rubric.
+- `2024顺义二模` is closed for philosophy source-list evidence: 35 wrong-option data rows, correct-option candidates, three 第16（1） philosophy chains, and remaining-question boundary review are recorded.
+- Governor status: philosophy source-list pending clearance is `PASS`; strict whole-system acceptance is still not signed until culture-line final acceptance and regenerated/rendered Word deliverables pass.
 
 ## 2026-04-24 Culture-Line Parallel State
 
