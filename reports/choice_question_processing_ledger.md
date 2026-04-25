@@ -1,6 +1,19 @@
 # 选择题处理台账
 
-**最后更新**：2026-04-24
+**最后更新**：2026-04-25
+
+## 2026-04-25 严格补证记录（答案源已补，尚未逐题入库）
+
+本节只登记客观答案源补证，不计入“已入库批次”。这些套卷不得仅凭答案字母生成错肢，必须在题面、选项、答案三者同步核查后，才能新增错肢库正文行并转入套卷级闭环。
+
+| 套卷 | 第1-15题答案源 | 答案表 | 当前处理状态 |
+|---|---|---|---|
+| 2026丰台一模 | `reports/overnight_2026-04-25/objective_answer_source_closure.md`；外部答案版 PDF 已本地保存 | `1B 2A 3D 4A 5A 6D 7B 8C 9D 10C 11D 12B 13A 14A 15C` | 客观答案源已补；待逐题错肢扩写、ledger 正式批次行、governor 套卷级 PASS |
+| 2026房山一模 | `reports/overnight_2026-04-25/objective_answer_source_closure.md`；外部答案版 PDF 已本地保存 | `1C 2D 3B 4A 5C 6D 7B 8A 9D 10B 11D 12C 13B 14C 15A` | 客观答案源已补；待逐题错肢扩写、ledger 正式批次行、governor 套卷级 PASS |
+| 2026丰台期末 | `reports/overnight_2026-04-25/objective_answer_source_closure.md`；外部答案版 PDF 已本地保存 | `1B 2C 3A 4B 5C 6A 7B 8D 9C 10D 11D 12A 13C 14B 15D` | 客观答案源已补；待逐题错肢扩写、ledger 正式批次行、governor 套卷级 PASS |
+| 2024门头沟一模 | `reports/overnight_2026-04-25/objective_answer_source_closure.md`；外部答案版 PDF 已本地保存 | `1B 2C 3A 4C 5B 6C 7B 8D 9A 10D 11C 12C 13B 14C 15A` | 客观答案源已补；本地仍无独立正式套卷目录，主观部分仅参考答案/等级描述，待逐题错肢扩写和细则边界收口 |
+
+历史数量差异：错肢库正文实测为 `1429` 条，旧 ledger 汇总曾出现 `1445` 口径；本表在完成套卷级批次复核前，不用补证记录抵消该差异。
 
 ## 已入库批次
 

@@ -184,8 +184,8 @@ Important resolved item:
 - `2024丰台二模` is now suite-level closed, not a remaining answer-source blocker. The saved evidence PDF `reports/evidence_2024_fengtai_ermo_answer.pdf` page 8 provided the objective answer table `1D 2B 3A 4C 5A 6B 7B 8C 9D 10C 11C 12B 13D 14D 15A`.
 - Wrong-option library count is now `1429` reusable rows after adding the 34-row `2024丰台二模选择题补充` batch.
 - Philosophy framework now includes `2024丰台二模套卷级三线闭环`, with 第1、10、11、12、13题 correct-option trigger chains and the prior rubric-supported 第18（2）、20、21 main-question chains preserved.
-- Source inventory now reads `已闭环 33 / 待补证据 22 / 明确排除 1`; STEP_02 choice-answer-source blockers are now only `2026丰台一模 / 2026房山一模 / 2026丰台期末`.
-- `哲学/必修四` remains on `STEP_03`; do not validate, do not create the final full-score teaching manuscript, and do not mark `TASK_COMPLETE` until the remaining three answer-source blockers are resolved or honestly closed as blockers and strict acceptance passes.
+- This host-continuation count was later superseded by the strict sync audit: source inventory now reads `已闭环 33 / 待补证据 21 / 明确排除 2`; `2026丰台一模 / 2026房山一模 / 2026丰台期末` now have objective-answer evidence but remain open for wrong-option expansion and suite-level PASS.
+- `哲学/必修四` remains on `STEP_03`; do not validate, do not create the final full-score teaching manuscript, and do not mark `TASK_COMPLETE` until the remaining wrong-option/suite-level blockers are resolved or honestly closed as blockers and strict acceptance passes.
 
 ## 2026-04-25 User Rubric-Source Correction
 
@@ -196,6 +196,19 @@ Important resolved item:
   - `C:\Users\Administrator\Desktop\2026各区模拟题`
 - Verified immediately after the correction: `2026丰台一模`, `2026房山一模`, `2026丰台期末`, `2025海淀期中`, `2024顺义二模`, and `2024海淀期中` all have `细则` files in those organized folders. Their remaining blockers are answer-table/OCR/逐题迁入/module-boundary issues, not rubric existence.
 - Verified exception: `2026石景山期末` has an empty `细则` folder and only the paper PDF with `答案及评分参考`; keep it as the only no-detailed-rubric exception.
+
+## 2026-04-25 Strict Sync Audit Patch
+
+- The overnight thread did not reach strict “all questions exhausted” acceptance. It generated useful findings and Word drafts, but the formal repo state still needed synchronization.
+- The formal philosophy inventory is now updated to `已闭环 33 / 待补证据 21 / 明确排除 2`. `2024海淀期中` moved from pending OCR to module-boundary exclusion after rechecking rubric page 3; `2025海淀期中` remains excluded only by module boundary, not by missing-rubric reasoning.
+- `2026丰台一模 / 2026房山一模 / 2026丰台期末` now have objective-answer evidence from saved external answer PDFs:
+  - `2026丰台一模`: `1B 2A 3D 4A 5A 6D 7B 8C 9D 10C 11D 12B 13A 14A 15C`
+  - `2026房山一模`: `1C 2D 3B 4A 5C 6D 7B 8A 9D 10B 11D 12C 13B 14C 15A`
+  - `2026丰台期末`: `1B 2C 3A 4B 5C 6A 7B 8D 9C 10D 11D 12A 13C 14B 15D`
+- These three suites are still not suite-level closed: objective answers alone do not create wrong-option analysis. They need question-stem/options/answer synchronized review, wrong-option rows, ledger rows, and governor PASS.
+- `2024门头沟一模` has objective-answer evidence (`1B 2C 3A 4C 5B 6C 7B 8D 9A 10D 11C 12C 13B 14C 15A`), but the main-question material is ordinary reference answer/level description, not a rubric; keep it pending for wrong-option expansion and rubric-boundary work.
+- `2024顺义二模` has three 第16（1） philosophy chains merged into the framework, but the suite remains pending until full choice-line and remaining-question review is done.
+- Governor status: strict all-question exhaustion is `NOT PASS`. The next worker must not use the existing Word files as final acceptance proof; they are drafts plus synced findings until the above suite-level blockers are closed.
 
 ## 2026-04-24 Culture-Line Parallel State
 
