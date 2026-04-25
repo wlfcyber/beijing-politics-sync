@@ -1,0 +1,5 @@
+suite_id,year,district,stage,file_path,file_type,source_type,question_range,status,notes
+LAW_LIFE_COURSEWARE_2025,user-provided,mixed,student-courseware,C:\Users\Administrator\Desktop\班课进度选必二法律与生活 原文件学生版 拷贝.pdf,pdf,lecture-file,p01-p35,reference-only,用户给定旧课件/学生版拷贝；用于保留和诊断旧框架；不是官方套卷或官方评分细则库
+LAW_LIFE_COURSEWARE_TEXT_2025,user-provided,mixed,derived-text,C:\Users\Administrator\Desktop\飞哥的政治庄园\reports\law_life_framework_2026-04-25_1407\sources\pdf_text_by_page.md,markdown,extracted-text,p01-p35,ocr-needed,PyMuPDF抽取文本；多页低文本或错字；关键页以渲染图核对为准
+LAW_LIFE_COURSEWARE_IMAGES_2025,user-provided,mixed,derived-images,C:\Users\Administrator\Desktop\飞哥的政治庄园\reports\law_life_framework_2026-04-25_1407\sources\page_images,png,page-render,p01-p35,included,35张页面渲染图；用于核对手写批注和低文本页
+LAW_LIFE_COURSEWARE_CONTACT_2025,user-provided,mixed,derived-overview,C:\Users\Administrator\Desktop\飞哥的政治庄园\reports\law_life_framework_2026-04-25_1407\sources\contact_sheets,png,page-overview,p01-p35,included,2张缩略总览图；用于页级结构复核

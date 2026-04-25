@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞哥的政治庄园"
+  short_description: "从我的框架出发，跑北京高考政治试卷、评分细则、错肢和模块研究的多角色工作流。"
+  default_prompt: "Use $feige-politics-garden to continue 飞哥的政治庄园 for Beijing Gaokao politics rubric research, corpus analysis, book/module workflows, and strict governor review."
+
+policy:
+  allow_implicit_invocation: true

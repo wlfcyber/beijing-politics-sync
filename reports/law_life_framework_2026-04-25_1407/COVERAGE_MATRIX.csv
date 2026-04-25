@@ -1,0 +1,36 @@
+suite_id,question,book_module,question_type,evidence_source,status,artifact_location,decision_reason,next_action
+LAW_LIFE_COURSEWARE_2025,p01,法律与生活,考情分析,PDF page image and extracted text,reference-only,USER_FRAMEWORK.md A; 新版教学框架 总论,2024北京高考开场题用于呈现考法；不是完整官方题源,后续用原题和官方答案验证
+LAW_LIFE_COURSEWARE_2025,p02,法律与生活,考情分析,PDF page image and extracted text,reference-only,USER_FRAMEWORK.md A,2025/2024海淀期末题例用于考情观察；不是完整套卷,后续补正式题源
+LAW_LIFE_COURSEWARE_2025,p03,法律与生活,考情分析,PDF page image and extracted text,reference-only,USER_FRAMEWORK.md A,东城/西城/海淀题例汇总页；答案以对应后页为准,作为题例线索保留
+LAW_LIFE_COURSEWARE_2025,p04,法律与生活,考情分析,PDF page image only,reference-only,USER_FRAMEWORK.md A,抽取文本为空但页图显示题目材料；缺答案页,不入正式触发链
+LAW_LIFE_COURSEWARE_2025,p05,法律与生活,总论方法,PDF page image and extracted text,included,USER_FRAMEWORK.md A; 新版教学框架 总论,总判断为法条基础加法治意义,作为新版框架总轴
+LAW_LIFE_COURSEWARE_2025,p06,法律与生活,备考建议,PDF page image and extracted text,included,USER_FRAMEWORK.md A; 旧框架诊断,提出认真读教材和掌握法律学科语言等建议,保留为方法前提
+LAW_LIFE_COURSEWARE_2025,p07,法律与生活,法治意义,PDF page image and extracted text,included,USER_FRAMEWORK.md B; 新版教学框架 法治意义库,经济社会实际意义模板,拆入事实触发式意义库
+LAW_LIFE_COURSEWARE_2025,p08,法律与生活,法治意义,PDF page image and extracted text,included,USER_FRAMEWORK.md B; 新版教学框架 法治意义库,权利平衡法治社原公德上位意义,拆入事实触发式意义库
+LAW_LIFE_COURSEWARE_2025,p09,民法总论,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md C; 新版教学框架 第一单元,民事法律关系主体客体内容,重构为法律关系定位层
+LAW_LIFE_COURSEWARE_2025,p10,民事权利体系,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md C; 新版教学框架 第一单元,人身权财产权知识产权等权利体系,重构为权利义务定位层
+LAW_LIFE_COURSEWARE_2025,p11,合同与个人信息,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md C; 新版教学框架 第一单元,合同成立生效履行和个人信息原则,重构为行为评价链
+LAW_LIFE_COURSEWARE_2025,p12,知识产权,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md C; 新版教学框架 第一单元,著作权专利商标保护期,保留为易混专题
+LAW_LIFE_COURSEWARE_2025,p13,合同责任,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md C; 新版教学框架 第一单元,合同变更违约责任免责,保留为合同纠纷处理链
+LAW_LIFE_COURSEWARE_2025,p14,合同纠纷,主观题示范,PDF page image,reference-only,USER_FRAMEWORK.md C; 新版教学框架 案例触发表,东城二模起诉状和仓储费材料；课件样例非官方细则,后续补原卷和权威答案
+LAW_LIFE_COURSEWARE_2025,p15,合同纠纷,课堂批注,PDF page image,reference-only,USER_FRAMEWORK.md C,学生作答和批改页；用于诊断材料触发方式,以p16打印答案样式为主
+LAW_LIFE_COURSEWARE_2025,p16,消费者权益,主观题示范与细则片段,PDF page image,reference-only,USER_FRAMEWORK.md C; 新版教学框架 案例触发表,食品安全/合同答案样式；不能升级为官方细则,后续补原卷和评分依据
+LAW_LIFE_COURSEWARE_2025,p17,侵权责任,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md D; 新版教学框架 第一单元,侵权构成和归责分类,重构为责任判断链
+LAW_LIFE_COURSEWARE_2025,p18,侵权责任,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md D; 新版教学框架 第一单元,无过错责任专题,保留为特殊归责节点
+LAW_LIFE_COURSEWARE_2025,p19,侵权责任,课堂批注,PDF page image,reference-only,USER_FRAMEWORK.md D,低文本页但页图有归责批注,用于疑难点线索
+LAW_LIFE_COURSEWARE_2025,p20,侵权责任,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md D; 新版教学框架 第一单元,举证责任倒置和侵权责任承担方式,重构为责任后果链
+LAW_LIFE_COURSEWARE_2025,p21,权利边界,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md D; 新版教学框架 第一单元,名誉权边界和相邻关系,保留为边界型题目节点
+LAW_LIFE_COURSEWARE_2025,p22,环境侵权,主观题示范与细则片段,PDF page image,reference-only,USER_FRAMEWORK.md D; 新版教学框架 案例触发表,西城期末环境污染和举证倒置示例；课件内细则样式,后续补官方来源验证
+LAW_LIFE_COURSEWARE_2025,p23,侵权责任,破题示范,PDF page image and extracted text,reference-only,USER_FRAMEWORK.md D; 新版教学框架 案例触发表,东城期末滑梯案；用于法内法外触发链,后续补权威来源
+LAW_LIFE_COURSEWARE_2025,p24,家庭继承,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md E; 新版教学框架 第二单元,父母子女和继承规则,重构为家庭身份关系链
+LAW_LIFE_COURSEWARE_2025,p25,老年人权益,主观题示范与细则片段,PDF page image,reference-only,USER_FRAMEWORK.md E; 新版教学框架 案例触发表,老有颐养法治助力材料；答案页不完整,后续补原题答案
+LAW_LIFE_COURSEWARE_2025,p26,家庭与诉讼,课堂批注,PDF page image and extracted text,reference-only,USER_FRAMEWORK.md E; 新版教学框架 案例触发表,赡养义务和模拟庭审角色；课件答案样式,后续补权威来源
+LAW_LIFE_COURSEWARE_2025,p27,夫妻财产,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md E; 新版教学框架 第二单元,夫妻共同财产和个人财产,保留为易混专题
+LAW_LIFE_COURSEWARE_2025,p28,劳动争议,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md F; 新版教学框架 第三单元,企业与劳动者维权路径,重构为主体维权路径
+LAW_LIFE_COURSEWARE_2025,p29,消费者与竞争,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md F; 新版教学框架 第三单元,消费者权利和不正当竞争,重构为市场秩序链
+LAW_LIFE_COURSEWARE_2025,p30,知识产权与竞争,主观题示范与细则片段,PDF page image,reference-only,USER_FRAMEWORK.md F; 新版教学框架 案例触发表,虚拟数字人著作权商标权不正当竞争；课件内表格,后续补官方来源
+LAW_LIFE_COURSEWARE_2025,p31,基层治理,主观题示范与细则片段,PDF page image,reference-only,USER_FRAMEWORK.md F; 新版教学框架 案例触发表,食品安全/惩罚性赔偿边界与消费者权益；课件答案样式,后续补权威来源
+LAW_LIFE_COURSEWARE_2025,p32,纠纷解决,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md G; 新版教学框架 第四单元,调解仲裁诉讼基层群众自治,重构为纠纷解决路径
+LAW_LIFE_COURSEWARE_2025,p33,仲裁诉讼,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md G; 新版教学框架 第四单元,仲裁适用范围和诉讼特点,保留为选择题易混节点
+LAW_LIFE_COURSEWARE_2025,p34,诉讼程序,法条知识,PDF page image and extracted text,included,USER_FRAMEWORK.md G; 新版教学框架 第四单元,三大诉讼和期限,保留为程序法易混节点
+LAW_LIFE_COURSEWARE_2025,p35,侵权与法治意义,主观题示范与细则片段,PDF page image,reference-only,USER_FRAMEWORK.md D; 新版教学框架 案例触发表,法内法外案例和因果关系；课件内表格,后续补权威来源
