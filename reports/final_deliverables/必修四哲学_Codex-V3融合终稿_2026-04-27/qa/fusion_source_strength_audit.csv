@@ -1,0 +1,234 @@
+line,source,trigger,v3_audit_id,v3_final_grade,v3_final_status,retained_grade,tag,recommended_action
+50,2025北京东城高三二模 第16题（`东城区25届高三政治二模统测阅卷报告 5.9.pdf`）,物质决定意识，意识是对客观存在的反映,V3-FW-0001,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+54,2026北京西城高三（上）期末 第16题第（2）问（教师版参考答案，答案源已入缓存）,物质决定意识，意识是对客观存在的反映,V3-FW-0002,E,E_user_supplement_not_in_workspace,B,【证据：B教师版/评标答案源，V3原E已由缓存答案源补强；材料链为整理者解释】,needs-user-supplement-or-downgrade
+58,2024北京朝阳高三二模 第16题（2）（`2024年朝阳二模主观题阅卷总结.pdf`）,物质与意识的辩证关系 / 意识对物质具有能动作用,V3-FW-0003,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+63,2026北京海淀高三一模 第16题（`26海淀一模政治评分标准.pdf`；评分标准第16题明列“社会存在与社会意识”，此处按总唯物论近邻补挂）,物质决定意识，意识对物质具有能动作用（近邻口径：社会存在与社会意识）,V3-FW-0252,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+69,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,一切从实际出发 / 实事求是,V3-FW-0004,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+73,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,一切从实际出发 / 实事求是,V3-FW-0005,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+77,2025北京丰台高三（上）期末 第7题（教师版答案解析）,一切从实际出发 / 实事求是,V3-FW-0010,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+82,2025北京东城高三二模 第16题（`东城区25届高三政治二模统测阅卷报告 5.9.pdf`）,一切从实际出发 / 实事求是,V3-FW-0012,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+86,2026北京西城高三（上）期末 第21题（`西城高三期末评标.pptx`）,一切从实际出发 / 实事求是,V3-FW-0013,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+90,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,一切从实际出发 / 实事求是,V3-FW-0014,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+94,2025北京门头沟高三一模 第21题第（2）问（`门头沟一模细则.doc`）,主观与客观、认识与实践具体的历史的统一,V3-FW-0015,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+98,2024北京丰台高三二模 第18题第（2）问（`丰台政治二模阅卷评标.docx`）,一切从实际出发 / 具体问题具体分析 / 尊重客观规律,V3-FW-0017,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+103,2024北京顺义高三二模 第20（2）题（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,一切从实际出发 / 实事求是,V3-FW-0241,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+108,2026北京房山高三一模 第16（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,一切从实际出发 / 实事求是,V3-FW-0250,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+114,2025北京东城高三二模 第16题（`东城区25届高三政治二模统测阅卷报告 5.9.pdf`）,主观能动性 / 意识的能动作用,V3-FW-0021,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+118,2026北京朝阳高三（上）期中 第18题（用户提供正式阅卷细则）,主观能动性 / 意识依赖于物质,V3-FW-0022,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+122,2026北京海淀高三（上）期末 第16题（评分标准）,意识的能动作用 / 主观能动性,V3-FW-0023,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+126,2025北京东城高三（上）期末 第16题（`2025。1东城讲评 修改.pdf`答案细则，缓存核验）,主观能动性 / 意识的能动作用,V3-FW-0024,E,E_user_supplement_not_in_workspace,A,【证据：A讲评PDF答案细则缓存核验，V3原E已补强】,needs-user-supplement-or-downgrade
+130,2025北京海淀高三（上）期末 第16题（用户确认PPT给分口径）,主观能动性 / 意识的能动作用,V3-FW-0025,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+134,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,主观能动性 / 意识的能动作用,V3-FW-0026,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+138,2024北京顺义高三二模 第2题③④（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,主观能动性 / 意识的能动作用,V3-FW-0237,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+143,2026北京西城高三一模 第1题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,主观能动性 / 意识的能动作用,V3-FW-0261,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+148,2026北京西城高三一模 第5题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,主观能动性 / 意识的能动作用,V3-FW-0262,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+153,2026北京西城高三一模 第7题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,主观能动性 / 意识的能动作用,V3-FW-0264,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+159,2025北京东城高三二模 第16题（`东城区25届高三政治二模统测阅卷报告 5.9.pdf`）,尊重客观规律与发挥主观能动性相结合,V3-FW-0033,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+163,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,尊重客观规律与发挥主观能动性相结合,V3-FW-0034,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+167,2024北京朝阳高三二模 第16题（2）（`2024年朝阳二模主观题阅卷总结.pdf`）,尊重客观规律与发挥主观能动性相结合,V3-FW-0036,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+171,2025北京西城高三二模 第16题第（1）问（`讨论定稿-答案细则 -25.5西城高三政治二模-1.docx`）,尊重客观规律与发挥主观能动性相结合,V3-FW-0037,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+175,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,尊重客观规律与发挥主观能动性相结合,V3-FW-0038,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+179,2024北京西城高三二模 第18题第（4）问（`高三模拟测试思想政治答案细则.docx`）,按客观规律办事和发挥主观能动性,V3-FW-0039,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+183,2024北京朝阳高三期中 第17题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,尊重客观规律与发挥主观能动性相结合,V3-FW-0040,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+188,2024北京顺义高三二模 第16（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0243,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+193,2026北京朝阳高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0247,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+198,2026北京丰台高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0248,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+203,2026北京房山高三一模 第16（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0250,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+208,2026北京西城高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0255,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+213,2026北京门头沟高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0258,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+218,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,尊重客观规律与发挥主观能动性相结合,V3-FW-0149,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+224,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,规律的客观性,V3-FW-0041,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+228,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,规律的客观性,V3-FW-0042,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+235,2025北京顺义高三一模 第16题（教师版 + 评分细则）,联系的观点,V3-FW-0045,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+239,2025北京门头沟高三一模 第16题（教师版 + 门头沟一模细则）,联系的观点,V3-FW-0046,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+243,2025北京东城高三（上）期末 第16题（`2025。1东城讲评 修改.pdf`答案细则，缓存核验）,联系的观点,V3-FW-0048,E,E_user_supplement_not_in_workspace,A,【证据：A讲评PDF答案细则缓存核验，V3原E已补强】,needs-user-supplement-or-downgrade
+247,2025北京海淀高三（上）期末 第16题（用户确认PPT给分口径）,联系的观点,V3-FW-0049,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+251,2026北京海淀高三（上）期末 第16题（评分标准）,联系的观点,V3-FW-0050,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+255,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,联系的观点,V3-FW-0051,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+259,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,联系的观点,V3-FW-0052,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+263,2024北京西城高三二模 第18题第（4）问（`高三模拟测试思想政治答案细则.docx`）,联系的观点 / 整体与部分 / 系统优化,V3-FW-0061,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+267,2024北京丰台高三二模 第20题（`丰台政治二模阅卷评标.docx`）,联系的观点 / 系统观念,V3-FW-0062,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+275,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,整体与部分 / 系统观念,V3-FW-0071,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+279,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,整体与部分 / 系统观念,V3-FW-0072,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+283,2025北京朝阳高三（上）期末 第2题（教师版答案源）,整体与部分 / 系统观念,V3-FW-0075,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+287,2025北京朝阳高三（上）期末 第9题（教师版答案源）,整体与部分 / 系统观念,V3-FW-0076,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+291,2025北京海淀高三二模 第16题（`2025届二模考试讲评0510.pdf`）,联系的观点 / 整体与部分 / 系统优化,V3-FW-0078,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+295,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,联系的观点 / 整体与部分 / 系统优化,V3-FW-0079,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+299,2024北京丰台高三二模 第21题（`丰台政治二模阅卷评标.docx`）,整体与部分 / 个人与国家的联系,V3-FW-0080,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+304,2026北京东城高三一模 第16题（由“2026一模已处理映射（细则支持）”已证映射反向拆回）,联系观点,V3-FW-0242,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+309,2026北京朝阳高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点 / 整体与部分 / 系统优化,V3-FW-0247,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+314,2026北京丰台高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点 / 整体与部分 / 系统观念,V3-FW-0248,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+319,2026北京延庆高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点,V3-FW-0249,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+324,2026北京房山高三一模 第16（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点 / 整体与部分 / 系统观念,V3-FW-0250,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+329,2026北京房山高三一模 第18（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点 / 整体与部分 / 系统优化,V3-FW-0251,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+334,2026北京石景山高三一模 第17（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点 / 整体与部分 / 系统优化,V3-FW-0253,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+339,2026北京西城高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点,V3-FW-0254,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+344,2026北京门头沟高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点,V3-FW-0256,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+349,2026北京门头沟高三一模 第18（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点,V3-FW-0257,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+354,2026北京顺义高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,联系观点 / 系统优化,V3-FW-0259,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+359,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,整体与部分 / 系统优化,V3-FW-0260,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+364,2026北京西城高三一模 第6题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,联系观点 / 系统观念,V3-FW-0263,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+371,2025北京东城高三二模 第16题（`东城区25届高三政治二模统测阅卷报告 5.9.pdf`）,发展的观点,V3-FW-0081,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+375,2025北京东城高三（上）期末 第16题（`2025。1东城讲评 修改.pdf`答案细则，缓存核验）,发展的观点,V3-FW-0083,E,E_user_supplement_not_in_workspace,A,【证据：A讲评PDF答案细则缓存核验，V3原E已补强】,needs-user-supplement-or-downgrade
+379,2025北京海淀高三（上）期末 第16题（用户确认PPT给分口径）,发展的观点,V3-FW-0084,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+383,2025北京西城高三（上）期末 第18题（用户确认答案解析可用）,新事物发展 / 发展的观点,V3-FW-0085,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+387,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,发展的观点,V3-FW-0086,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+391,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,发展的观点,V3-FW-0087,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+395,2025北京西城高三（上）期末 第4题（答案及评分参考）,发展的观点 / 用长远眼光看问题,V3-FW-0089,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+399,2026北京西城高三（上）期末 第21题（`西城高三期末评标.pptx`）,发展的观点,V3-FW-0090,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+403,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,发展的观点,V3-FW-0091,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+408,2025北京海淀高三（上）期末 第17题（2）（用户确认PPT给分口径）,量变与质变,V3-FW-0095,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+412,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,量变与质变 / 适度原则,V3-FW-0096,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+416,2025北京朝阳高三一模 第1题（教师版答案表）,量变与质变 / 发展的阶段性,V3-FW-0098,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+420,2024北京丰台高三二模 第21题（`丰台政治二模阅卷评标.docx`）,量变与质变,V3-FW-0100,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+426,2025北京海淀高三（上）期末 第17题（2）（用户确认PPT给分口径）,事物发展是前进性与曲折性的统一,V3-FW-0101,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+432,2026北京朝阳高三（上）期中 第18题（用户提供正式阅卷细则）,辩证否定观,V3-FW-0103,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+436,2025北京海淀高三（上）期末 第16题（用户确认PPT给分口径）,辩证否定,V3-FW-0104,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+440,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,辩证否定,V3-FW-0105,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+444,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,辩证否定 / 守正创新,V3-FW-0106,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+448,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,辩证否定 / 守正创新,V3-FW-0107,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+452,2025北京东城高三一模 第16题（教师版 + 东城阅卷报告）,辩证否定,V3-FW-0108,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+456,2024北京朝阳高三期中 第17题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,辩证否定 / 守正创新,V3-FW-0115,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+461,2026北京丰台高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,辩证否定,V3-FW-0248,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+466,2026北京延庆高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点 / 辩证否定,V3-FW-0249,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+471,2026北京房山高三一模 第18（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点 / 量变质变,V3-FW-0251,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+476,2026北京海淀高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点,V3-FW-0252,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+481,2026北京石景山高三一模 第17（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点,V3-FW-0253,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+486,2026北京西城高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点,V3-FW-0254,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+491,2026北京西城高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点,V3-FW-0255,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+496,2026北京门头沟高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点 / 辩证否定,V3-FW-0256,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+501,2026北京顺义高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,量变质变 / 适度原则,V3-FW-0259,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+506,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,量变质变,V3-FW-0260,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+513,2026北京朝阳高三（上）期中 第18题（用户提供正式阅卷细则）,矛盾就是对立统一 / 一分为二 / 全面观点,V3-FW-0116,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+517,2026北京海淀高三（上）期末 第16题（评分标准）,矛盾就是对立统一 / 一分为二,V3-FW-0118,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+521,2025北京西城高三（上）期末 第18题（用户确认答案解析可用）,矛盾就是对立统一 / 一分为二看问题,V3-FW-0119,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+525,2025北京西城高三（上）期末 第7题（答案及评分参考）,矛盾就是对立统一 / 全面观点,V3-FW-0121,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+529,2026北京西城高三（上）期末 第16题第（2）问（`西城高三期末评标.pptx`）,矛盾就是对立统一 / 全面观点,V3-FW-0123,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+533,2025北京延庆高三一模 第16题（教师版 + 答案细则合并文件）,矛盾就是对立统一 / 一分为二看问题,V3-FW-0124,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+537,2025北京房山高三一模 第16题第（1）问（教师版 + 参考答案细则）,矛盾就是对立统一 / 一分为二看问题,V3-FW-0125,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+541,2025北京海淀高三一模 第16题（教师版 + 评分标准）,矛盾就是对立统一 / 一分为二看问题,V3-FW-0126,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+545,2026北京东城高三（上）期末 第16题（`2026东城期末细则.txt`缓存核验）,矛盾就是对立统一,V3-FW-0127,E,E_user_supplement_not_in_workspace,A,【证据：A期末细则缓存核验，V3原E已补强】,needs-user-supplement-or-downgrade
+549,2024北京丰台高三二模 第20题（`丰台政治二模阅卷评标.docx`）,矛盾就是对立统一 / 全面观点,V3-FW-0130,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+553,2024北京朝阳高三期中 第17题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,矛盾就是对立统一 / 全面观点,V3-FW-0131,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+559,2025北京西城高三（上）期末 第18题（用户确认答案解析可用）,矛盾的普遍性 / 承认矛盾,V3-FW-0132,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+565,2026北京朝阳高三（上）期中 第18题（正式阅卷细则）,具体问题具体分析,V3-FW-0133,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+569,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,矛盾的特殊性 / 具体问题具体分析,V3-FW-0134,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+573,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,矛盾的特殊性 / 具体问题具体分析,V3-FW-0135,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+577,2025北京西城高三二模 第16题第（1）问（`讨论定稿-答案细则 -25.5西城高三政治二模-1.docx`）,矛盾的特殊性 / 具体问题具体分析,V3-FW-0138,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+581,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,具体问题具体分析,V3-FW-0139,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+585,2024北京西城高三二模 第18题第（4）问（`高三模拟测试思想政治答案细则.docx`）,矛盾的特殊性 / 具体问题具体分析,V3-FW-0140,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+589,2024北京朝阳高三期中 第17题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,矛盾的特殊性 / 具体问题具体分析,V3-FW-0141,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+594,2025北京石景山高三一模 第16题（教师版 + 评分细则）,矛盾的普遍性和特殊性,V3-FW-0144,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+598,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,矛盾的普遍性和特殊性,V3-FW-0146,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+602,2026北京西城高三（上）期末 第4题（教师版参考答案）,矛盾的普遍性和特殊性,V3-FW-0147,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+620,2024北京朝阳高三一模 第16题（`2024朝阳一模政治评标.pptx`）,内外因 / 矛盾分析法,V3-FW-0148,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+624,2026北京顺义高三一模 第21题（`2026年顺义一模  细则.pptx`）,内外因 / 矛盾分析法,V3-FW-0149,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+630,2024北京顺义高三二模 第3题②③（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,具体问题具体分析,V3-FW-0238,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+635,2026北京东城高三一模 第16题（由“2026一模已处理映射（细则支持）”已证映射反向拆回）,矛盾主次方面,V3-FW-0242,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+640,2024北京顺义高三二模 第16（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾普遍性与特殊性 / 具体问题具体分析,V3-FW-0243,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+645,2026北京朝阳高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾对立统一,V3-FW-0247,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+650,2026北京丰台高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾对立统一,V3-FW-0248,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+655,2026北京延庆高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾分析法,V3-FW-0249,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+660,2026北京房山高三一模 第16（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾分析法,V3-FW-0250,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+665,2026北京房山高三一模 第18（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,具体问题具体分析,V3-FW-0251,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+670,2026北京石景山高三一模 第17（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾对立统一 / 具体问题具体分析,V3-FW-0253,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+675,2026北京西城高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾分析法,V3-FW-0255,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+680,2026北京门头沟高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾对立统一,V3-FW-0256,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+685,2026北京门头沟高三一模 第18（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,全面观点,V3-FW-0257,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+690,2026北京顺义高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,矛盾分析法,V3-FW-0259,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+696,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,实践与认识,V3-FW-0150,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+700,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,实践与认识,V3-FW-0151,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+704,2026北京海淀高三（上）期末 第16题（评分标准）,实践的观点,V3-FW-0152,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+708,2026北京朝阳高三（上）期中 第18题（用户提供正式阅卷细则）,实践的观点,V3-FW-0153,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+712,2025北京西城高三一模 第16题（教师版 + 细则）,实践与认识,V3-FW-0154,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+716,2024北京顺义高三二模 第20（2）题（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,实践与认识 / 实践观点,V3-FW-0241,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+721,2024北京顺义高三二模 第16（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践与认识 / 实践观点,V3-FW-0244,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+726,2026北京房山高三一模 第18（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践与认识 / 实践观点,V3-FW-0251,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+731,2026北京西城高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践与认识 / 实践观点,V3-FW-0255,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+736,2026北京门头沟高三一模 第18（2）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践与认识 / 实践观点,V3-FW-0257,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+741,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践与认识 / 实践观点,V3-FW-0260,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+747,2025北京海淀高三（上）期末 第17题（2）（用户确认PPT给分口径）,实践是认识的基础 / 实践是认识发展的动力 / 实践是检验认识真理性的唯一标准,V3-FW-0156,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+751,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,实践是认识的基础,V3-FW-0159,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+755,2024北京门头沟高三一模 第2题③（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,实践是认识的基础 / 实践检验认识,V3-FW-0231,C,C_verified_by_worker_report,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source-with-worker-boundary
+760,2024北京门头沟高三一模 第9题①（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,实践是认识的基础 / 实践检验认识,V3-FW-0234,C,C_verified_by_worker_report,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source-with-worker-boundary
+765,2026北京东城高三一模 第20题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践是认识的基础 / 实践检验认识,V3-FW-0246,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+770,2026北京朝阳高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,实践是认识的基础 / 实践检验认识,V3-FW-0247,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+777,2025北京海淀高三（上）期末 第17题（2）（用户确认PPT给分口径）,认识具有反复性 / 无限性 / 上升性,V3-FW-0166,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+781,2025北京西城高三（上）期末 第18题（用户确认答案解析可用）,认识发展原理 / 认识受条件限制,V3-FW-0167,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+785,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,认识发展原理,V3-FW-0169,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+789,2024北京丰台高三二模 第20题（`丰台政治二模阅卷评标.docx`）,认识发展原理 / 实践推动认识深化,V3-FW-0176,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+794,2026北京东城高三一模 第20题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,认识发展 / 认识上升性,V3-FW-0246,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+800,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,认识对实践的反作用,V3-FW-0178,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+804,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,认识对实践的反作用,V3-FW-0179,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+809,2026北京东城高三一模 第20题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,认识对实践的反作用,V3-FW-0246,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+814,2026北京朝阳高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,认识对实践的反作用,V3-FW-0247,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+820,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,真理观,V3-FW-0180,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+824,2026北京西城高三（上）期末 第16题第（2）问（`西城高三期末评标.pptx`）,追求真理 / 真理是主观与客观相符合,V3-FW-0182,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+830,2024北京门头沟高三一模 第2题③（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,真理在实践中检验和发展,V3-FW-0231,C,C_verified_by_worker_report,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source-with-worker-boundary
+835,2026北京东城高三一模 第20题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,真理在实践中检验和发展,V3-FW-0246,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+841,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,社会存在决定社会意识 / 社会意识具有相对独立性,V3-FW-0183,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+845,2024北京朝阳高三期中 第16题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,社会存在决定社会意识 / 社会存在变化决定社会意识变化,V3-FW-0185,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+850,2026北京海淀高三一模 第16题（`26海淀一模政治评分标准.pdf`）,社会存在与社会意识 / 社会存在决定社会意识 / 社会意识具有反作用,V3-FW-0252,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+855,2026北京东城高三一模 第16题（由“2026一模已处理映射（细则支持）”已证映射反向拆回）,社会存在与社会意识,V3-FW-0242,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+860,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,社会存在与社会意识,V3-FW-0260,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+865,2026北京西城高三一模 第1题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,社会存在与社会意识,V3-FW-0261,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+871,2026北京东城高三一模 第20题（`东城一模评标细则（勿传）/20.pptx`）,上层建筑反作用于经济基础 / 社会基本矛盾运动,V3-FW-0186,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+875,2024北京西城高三二模 第17题（`高三模拟测试思想政治答案细则.docx`）,生产力与生产关系 / 经济基础与上层建筑 / 社会基本矛盾运动,V3-FW-0187,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+879,2024北京朝阳高三期中 第16题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,生产力与生产关系 / 经济基础与上层建筑 / 社会基本矛盾运动,V3-FW-0188,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+885,2025北京石景山高三一模 第21题（`石景山 高三政治评分细则.doc`）,改革的实质 / 社会基本矛盾运动,V3-FW-0189,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+889,2024北京东城高三一模 第18题第（1）问（`2024东城一模政治评标1.pptx`）,改革 / 生产关系适应生产力 / 上层建筑反作用,V3-FW-0190,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+893,2024北京西城高三二模 第17题（`高三模拟测试思想政治答案细则.docx`）,改革 / 改革的实质 / 生产关系适应生产力,V3-FW-0191,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+897,2024北京朝阳高三期中 第16题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,改革是社会主义社会发展的直接动力 / 社会主义制度自我完善和发展,V3-FW-0192,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+903,2025北京丰台高三（上）期末 第17题（`丰台期末细则.pptx`）,人民群众是历史的创造者 / 群众观点,V3-FW-0193,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+907,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,人民群众 / 群众观点,V3-FW-0194,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+911,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,人民群众 / 人民立场,V3-FW-0195,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+915,2026北京东城高三一模 第20题（`东城一模评标细则（勿传）/20.pptx`）,人民群众 / 人民立场,V3-FW-0197,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+919,2026北京西城高三（上）期末 第16题第（2）问（`西城高三期末评标.pptx`）,人民群众 / 群众观点,V3-FW-0198,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+923,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,人民群众 / 群众观点,V3-FW-0199,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+927,2024北京西城高三二模 第18题第（4）问（`高三模拟测试思想政治答案细则.docx`）,人民群众的历史作用 / 群众观点,V3-FW-0200,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+931,2024北京朝阳高三期中 第16题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,人民群众是社会历史的主体和创造者 / 群众观点和群众路线,V3-FW-0201,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+937,2026北京东城高三一模 第16题（由“2026一模已处理映射（细则支持）”已证映射反向拆回）,人民群众,V3-FW-0242,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+942,2026北京延庆高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,人民群众,V3-FW-0249,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+947,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,人民群众,V3-FW-0260,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+952,2026北京西城高三一模 第5题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,人民群众,V3-FW-0262,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+958,2026北京海淀高三（上）期末 第16题（评分标准）,价值观的导向作用,V3-FW-0202,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+962,2025北京西城高三（上）期末 第18题（用户确认答案解析可用）,价值观的导向作用,V3-FW-0203,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+966,2026北京朝阳高三（上）期中 第18题（正式阅卷细则）,价值观的导向作用,V3-FW-0207,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+970,2025北京丰台高三（上）期末 第16题（`丰台期末细则.pptx`）,价值观的导向作用,V3-FW-0211,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+974,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,价值观的导向作用,V3-FW-0212,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+978,2025北京朝阳高三（上）期末 第22题（`朝阳期末评标.pdf`扫描页读图核定）,价值观的导向作用,V3-FW-0213,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+982,2026北京西城高三（上）期末 第16题第（2）问（`西城高三期末评标.pptx`）,价值观的导向作用,V3-FW-0214,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+986,2025北京西城高三二模 第16题第（1）问（`讨论定稿-答案细则 -25.5西城高三政治二模-1.docx`）,价值观的导向作用 / 生态价值观,V3-FW-0215,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+990,2024北京东城高三二模 第16题（`阅卷总结/16题/16题二模阅卷总结.docx`、`16题评分细则.pptx`）,价值观的导向作用 / 正确价值观,V3-FW-0216,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+994,2024北京丰台高三二模 第21题（`丰台政治二模阅卷评标.docx`）,价值观的导向作用 / 理想信念,V3-FW-0217,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+998,2024北京朝阳高三期中 第17题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,价值观的导向作用,V3-FW-0218,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+1003,2024北京顺义高三二模 第20（2）题（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,价值观的导向作用,V3-FW-0241,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1008,2026北京东城高三一模 第16题（由“2026一模已处理映射（细则支持）”已证映射反向拆回）,价值观的导向作用,V3-FW-0242,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1013,2024北京顺义高三二模 第16（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值观的导向作用,V3-FW-0243,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1018,2026北京丰台高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值观的导向作用,V3-FW-0248,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1023,2026北京海淀高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值观的导向作用,V3-FW-0252,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+1028,2026北京石景山高三一模 第17（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值观的导向作用,V3-FW-0253,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1033,2026北京西城高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值观的导向作用,V3-FW-0254,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+1038,2026北京顺义高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值观的导向作用,V3-FW-0259,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1044,2026北京朝阳高三（上）期中 第18题（正式阅卷细则）,价值判断与价值选择,V3-FW-0219,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+1048,2025北京西城高三（上）期末 第18题（用户确认答案解析可用）,价值判断与价值选择,V3-FW-0220,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1052,2025北京朝阳高三（上）期末 第16题（`朝阳期末评标.pdf`扫描页读图核定）,价值判断与价值选择,V3-FW-0221,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1056,2026北京海淀高三（上）期末 第16题（`2025-2026海淀期末政治评分标准(1).pdf`）,价值判断与价值选择,V3-FW-0222,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+1060,2024北京西城高三二模 第18题第（4）问（`高三模拟测试思想政治答案细则.docx`）,价值判断与价值选择,V3-FW-0223,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+1064,2024北京朝阳高三期中 第17题（`2024.11期中政治朝阳评标docx.docx`、`阅卷细则总.rtf`）,价值判断与价值选择,V3-FW-0224,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+1069,2026北京东城高三一模 第16题（由“2026一模已处理映射（细则支持）”已证映射反向拆回）,价值判断与价值选择,V3-FW-0242,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1074,2024北京顺义高三二模 第16（1）题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值判断与价值选择,V3-FW-0245,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1079,2026北京丰台高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值判断与价值选择,V3-FW-0248,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1084,2026北京顺义高三一模 第21题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,价值判断与价值选择,V3-FW-0260,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1089,2026北京西城高三一模 第7题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,价值判断与价值选择,V3-FW-0264,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+1095,2025北京丰台高三（上）期末 第4题（教师版答案解析）,实现人生价值,V3-FW-0228,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+1100,2024北京丰台高三二模 第21题（`丰台政治二模阅卷评标.docx`）,实现人生价值 / 个人与社会统一,V3-FW-0230,A,A_scoring_source_trigger_not_text_matched,A,【证据：A细则/阅卷来源；触发词非逐字命中，材料链按题面人工保留】,keep-source-but-chain-needs-human-check
+1104,2026北京西城高三一模 第1题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,实现人生价值,V3-FW-0261,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
+1112,2024北京门头沟高三一模 第5题①（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,文化功能,V3-FW-0232,C,C_verified_by_worker_report,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source-with-worker-boundary
+1117,2024北京门头沟高三一模 第5题④（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,以人民为中心发展文化 / 满足美好生活需要,V3-FW-0233,C,C_verified_by_worker_report,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source-with-worker-boundary
+1122,2024北京顺义高三二模 第2题③④（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,意识活动的能动创造性 / 文化符号表达,V3-FW-0237,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+1127,2024北京顺义高三二模 第3题②③（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,文化与经济交融 / 具体问题具体分析,V3-FW-0238,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+1132,2024北京顺义高三二模 第4题①③（由“2024门头沟一模与顺义二模选择题正确项补充（补证转正）”已证映射反向拆回）,文化多样性 / 民族性与世界性 / 文明交流互鉴,V3-FW-0239,C,C_verified_choice_source,C,【证据：C选择题正确项；有可靠答案源】,keep-choice-source
+1137,2026北京海淀高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,发展观点；社会存在与社会意识；价值观导向；文化功能,V3-FW-0252,A,A_verified_scoring_source,A,【证据：A细则/阅卷/评分标准直接支持】,keep-formal-chain
+1142,2026北京顺义高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回）,量变质变；适度原则；矛盾转化；联系观点；系统优化；价值观导向；文化功能,V3-FW-0259,B,B_angle_or_scoring_source,B,【证据：B评标/讲评角度清单；材料链为整理者解释】,keep-as-angle-list-or-organizer-chain
+1147,2026北京西城高三一模 第5题（由“2026西城一模选择题正确项补充（答案源支持）”已证映射反向拆回）,人民群众；文化创造；意识活动的目的性和创造性,V3-FW-0262,E,E_choice_key_or_stem_not_confirmed,C,【证据：C选择题正确项；答案源为PDF第10页“答案及评分参考”，经督工视觉核验】,needs-choice-answer-key
