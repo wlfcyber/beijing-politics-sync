@@ -101,6 +101,7 @@ section,audit_id,source,trigger,evidence_grade,content_verdict,origin,signal_ori
 矛盾就是对立统一,V3-FW-0256,2026北京门头沟高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回） 【证据：B评标/讲评角度清单；材料链为整理者解释】,矛盾对立统一,B,SUPPORTED_DIRECT_RUBRIC,Codex-V3融合终稿,material,同一套卷同一栏目同一触发点重复，保留证据更直接的一条
 改革 / 改革的实质,V3-FW-0300,2025北京石景山高三一模 第21题,社会基本矛盾 / 改革的实质 / 上层建筑和生产关系调整,A,SUPPORTED_DIRECT_RUBRIC,V3直接支持补入,paper_excerpt,同一套卷同一栏目同一触发点重复，保留证据更直接的一条
 价值观的导向作用,V3-FW-0254,2026北京西城高三一模 第16题（由“2026-04-25 夜间监管补丁”已证映射反向拆回） 【证据：A细则/阅卷/评分标准直接支持】,价值观的导向作用,A,SUPPORTED_DIRECT_RUBRIC,Codex-V3融合终稿,manual-paper-signal,同一套卷同一栏目同一触发点重复，保留证据更直接的一条
+主观能动性 / 意识的能动作用,V3-FW-0403,2024北京海淀高三一模 第16题,民族精神 / 文化自信 / 意识能动作用,B,SUPPORTED_DIRECT_RUBRIC,V3直接支持补入,manual-paper-signal,同一套卷同一栏目同一触发点重复，保留证据更直接的一条
 主观能动性 / 意识的能动作用,V3-FW-0022,2026北京朝阳高三（上）期中 第18题（用户提供正式阅卷细则） 【证据：A细则/阅卷/评分标准直接支持】,主观能动性 / 意识依赖于物质,A,SUPPORTED_DIRECT_RUBRIC,Codex-V3融合终稿,paper_excerpt,学生可读性复查未通过：含 `反对理由示例`，说明触发点仍不够直接
 辩证否定 / 守正创新,V3-FW-0103,2026北京朝阳高三（上）期中 第18题（用户提供正式阅卷细则） 【证据：A细则/阅卷/评分标准直接支持】,辩证否定观,A,SUPPORTED_DIRECT_RUBRIC,Codex-V3融合终稿,paper_excerpt,学生可读性复查未通过：含 `如何做部分`，说明触发点仍不够直接
 矛盾就是对立统一,V3-FW-0123,2026北京西城高三（上）期末 第16题第（2）问（`西城高三期末评标.pptx`） 【证据：B评标/讲评角度清单；材料链为整理者解释】,矛盾就是对立统一 / 全面观点,B,SUPPORTED_DIRECT_RUBRIC,Codex-V3融合终稿,paper_excerpt,学生可读性复查未通过：材料未直接呈现对立双方及其统一关系
