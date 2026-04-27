@@ -1,7 +1,6 @@
 section,audit_id,source,trigger,evidence_grade,content_verdict
 一切从实际出发 / 实事求是,V3-FW-0007,2026北京东城高三一模 第1题,一切从实际出发 / 实事求是,C,SUPPORTED_DIRECT_CHOICE_TEXT
 一切从实际出发 / 实事求是,V3-FW-0011,2026北京朝阳高三（上）期中 第7题,一切从实际出发 / 实事求是,C,SUPPORTED_DIRECT_CHOICE_TEXT
-一切从实际出发 / 实事求是,V3-FW-0015,2025北京门头沟高三一模 第21题第（2）问（门头沟一模细则.doc）,主观与客观、认识与实践具体的历史的统一,A,SUPPORTED_DIRECT_RUBRIC
 主观能动性 / 意识的能动作用,V3-FW-0028,2026北京石景山高三一模 第3题,主观能动性 / 意识的能动作用,C,SUPPORTED_DIRECT_CHOICE_TEXT
 主观能动性 / 意识的能动作用,V3-FW-0031,2025北京海淀高三（上）期末 第4题,主观能动性 / 意识的能动作用,C,SUPPORTED_DIRECT_CHOICE_TEXT
 尊重客观规律与发挥主观能动性相结合,V3-FW-0035,2025北京延庆高三一模 第4题,尊重客观规律与发挥主观能动性相结合,C,SUPPORTED_DIRECT_CHOICE_TEXT
@@ -37,8 +36,6 @@ section,audit_id,source,trigger,evidence_grade,content_verdict
 矛盾的特殊性 / 具体问题具体分析,V3-FW-0136,2026北京延庆高三一模 第3题,矛盾的特殊性 / 具体问题具体分析；整体与部分,C,SUPPORTED_DIRECT_CHOICE_TEXT
 矛盾的特殊性 / 具体问题具体分析,V3-FW-0142,2025北京西城高三二模 第16题第（3）问,具体问题具体分析,B,SUPPORTED_DIRECT_RUBRIC
 矛盾的普遍性和特殊性,V3-FW-0145,2025北京朝阳高三二模 第2题,矛盾的普遍性和特殊性,C,SUPPORTED_DIRECT_CHOICE_TEXT
-矛盾就是对立统一,V3-FW-0148,2024北京朝阳高三一模 第16题（2024朝阳一模政治评标.pptx）,内外因 / 矛盾分析法,B,SUPPORTED_DIRECT_RUBRIC
-矛盾就是对立统一,V3-FW-0149,2026北京顺义高三一模 第21题（2026年顺义一模 细则.pptx）,内外因 / 矛盾分析法,B,SUPPORTED_DIRECT_RUBRIC
 实践与认识,V3-FW-0155,2025北京朝阳高三二模 第16题,实践与认识,A,SUPPORTED_DIRECT_RUBRIC
 实践是认识的基础,V3-FW-0160,2026北京门头沟高三一模 第7题,实践是认识的基础 / 实践第一观点,C,SUPPORTED_DIRECT_CHOICE_TEXT
 实践与认识,V3-FW-0165,2025北京海淀高三二模 第16题,认识是主体对客体的能动反映,A,SUPPORTED_DIRECT_RUBRIC
@@ -50,14 +47,14 @@ section,audit_id,source,trigger,evidence_grade,content_verdict
 价值观的导向作用,V3-FW-0210,2025北京丰台高三二模 第16题第（1）问,价值观的导向作用,A,SUPPORTED_DIRECT_RUBRIC
 实现人生价值,V3-FW-0225,2025北京昌平高三二模 第16题,实现人生价值,B,SUPPORTED_DIRECT_RUBRIC
 主观能动性 / 意识的能动作用,V3-FW-0237,2024北京顺义高三二模 第2题③④,意识活动的能动创造性 / 文化符号表达,C,SUPPORTED_DIRECT_CHOICE_TEXT
-人民群众,V3-FW-0242,2026北京东城高三一模 第16题,人民群众；矛盾主次方面；价值观导向；价值判断与价值选择；社会意识反作用；系统观点,B,SUPPORTED_DIRECT_RUBRIC
+矛盾的主要方面和次要方面,V3-FW-0242,2026北京东城高三一模 第16题,人民群众；矛盾主次方面；价值观导向；价值判断与价值选择；社会意识反作用；系统观点,B,SUPPORTED_DIRECT_RUBRIC
 社会发展的两大基本规律和基本矛盾,V3-FW-0246,2026北京东城高三一模 第20题,实践决定认识；认识反作用于实践；真理在实践中检验和发展；认识上升性；发展观；人民群众/人民立场；上层建筑反作用经济基础,B,SUPPORTED_DIRECT_RUBRIC
 尊重客观规律与发挥主观能动性相结合,V3-FW-0247,2026北京朝阳高三一模 第16题,尊重客观规律与发挥主观能动性；联系观点；整体与部分/系统优化；实践是认识的基础；认识反作用于实践；矛盾对立统一,A,SUPPORTED_DIRECT_RUBRIC
 尊重客观规律与发挥主观能动性相结合,V3-FW-0248,2026北京丰台高三一模 第16题,矛盾对立统一；两点论与重点论；联系观点；整体与部分/系统观念；价值观导向；价值判断与价值选择；尊重规律与发挥主观能动性；辩证否定,B,SUPPORTED_DIRECT_RUBRIC
 矛盾的特殊性 / 具体问题具体分析,V3-FW-0249,2026北京延庆高三一模 第16题,矛盾观；矛盾特殊性；群众观点；辩证否定观；联系观点；发展观点,A,SUPPORTED_DIRECT_RUBRIC
 价值观的导向作用,V3-FW-0254,2026北京西城高三一模 第16题,联系观点；发展观点；正确意识的促进作用；价值观导向；辩证思维；超前思维,A,SUPPORTED_DIRECT_RUBRIC
 主观能动性 / 意识的能动作用,V3-FW-0255,2026北京西城高三一模 第21题,实践观；矛盾观；发展观；规律客观性与主观能动性；辩证思维；创新思维,A,SUPPORTED_DIRECT_RUBRIC
-辩证否定 / 守正创新,V3-FW-0256,2026北京门头沟高三一模 第16题,发展观点；矛盾对立统一；辩证否定观；联系观点,B,SUPPORTED_DIRECT_RUBRIC
+矛盾就是对立统一,V3-FW-0256,2026北京门头沟高三一模 第16题,发展观点；矛盾对立统一；辩证否定观；联系观点,B,SUPPORTED_DIRECT_RUBRIC
 尊重客观规律与发挥主观能动性相结合,V3-FW-0258,2026北京门头沟高三一模 第21题,尊重规律与发挥主观能动性；辩证思维；系统思维,B,SUPPORTED_DIRECT_RUBRIC
 尊重客观规律与发挥主观能动性相结合,V3-FW-0260,2026北京顺义高三一模 第21题,尊重客观规律与发挥主观能动性；社会存在与社会意识；实践与认识；矛盾观；整体与部分/系统优化；量变质变；内外因；人民群众；价值判断与价值选择,B,SUPPORTED_DIRECT_RUBRIC
 矛盾的普遍性,V3-FW-0265,2026北京朝阳高三（上）期中 第18题,矛盾普遍性 / 对立统一 / 一分为二 / 全面观点,A,SUPPORTED_DIRECT_RUBRIC
@@ -111,8 +108,8 @@ section,audit_id,source,trigger,evidence_grade,content_verdict
 辩证否定 / 守正创新,V3-FW-0326,2025北京丰台高三二模 第16题（1）,联系观点 / 发展观点 / 辩证否定,A,SUPPORTED_DIRECT_RUBRIC
 价值判断与价值选择,V3-FW-0327,2025北京丰台高三二模 第16题（1）,价值观的导向作用 / 价值判断与价值选择,A,SUPPORTED_DIRECT_RUBRIC
 尊重客观规律与发挥主观能动性相结合,V3-FW-0328,2025北京丰台高三二模 第21题,尊重客观规律与发挥主观能动性,A,SUPPORTED_DIRECT_RUBRIC
-发展的观点 / 发展的普遍性,V3-FW-0329,2025北京丰台高三二模 第21题,发展观点 / 矛盾分析法 / 实践观点,A,SUPPORTED_DIRECT_RUBRIC
-量变与质变 / 适度原则,V3-FW-0332,2026北京丰台高三（上）期末 第16题,矛盾对立统一 / 适度原则 / 量变质变,B,SUPPORTED_DIRECT_RUBRIC
+矛盾就是对立统一,V3-FW-0329,2025北京丰台高三二模 第21题,发展观点 / 矛盾分析法 / 实践观点,A,SUPPORTED_DIRECT_RUBRIC
+矛盾就是对立统一,V3-FW-0332,2026北京丰台高三（上）期末 第16题,矛盾对立统一 / 适度原则 / 量变质变,B,SUPPORTED_DIRECT_RUBRIC
 整体与部分 / 系统观念,V3-FW-0333,2026北京丰台高三（上）期末 第16题,联系观点 / 整体与部分 / 系统观念,B,SUPPORTED_DIRECT_RUBRIC
 尊重客观规律与发挥主观能动性相结合,V3-FW-0334,2026北京丰台高三（上）期末 第16题,尊重客观规律与发挥主观能动性,B,SUPPORTED_DIRECT_RUBRIC
 文化触发补充,V3-FW-0335,2026北京丰台高三（上）期末 第16题,中华优秀传统文化 / 文化自信 / 文化功能,B,SUPPORTED_DIRECT_RUBRIC
@@ -120,13 +117,13 @@ section,audit_id,source,trigger,evidence_grade,content_verdict
 整体与部分 / 系统观念,V3-FW-0337,2026北京丰台高三（上）期末 第22题,联系观点 / 系统观念 / 人民群众,B,SUPPORTED_DIRECT_RUBRIC
 社会发展的两大基本规律和基本矛盾,V3-FW-0338,2026北京丰台高三（上）期末 第22题,上层建筑适应经济基础 / 社会意识的反作用 / 正确认识指导实践,B,SUPPORTED_DIRECT_RUBRIC
 整体与部分 / 系统观念,V3-FW-0339,2026北京通州高三（上）期末 第5题,群众观点 / 系统观念 / 辩证思维,C,SUPPORTED_DIRECT_CHOICE_TEXT
-联系的普遍性 / 联系的观点（总）,V3-FW-0341,2026北京通州高三（上）期末 第8题,人为事物联系 / 矛盾对立统一 / 个体与整体,C,SUPPORTED_DIRECT_CHOICE_TEXT
+矛盾就是对立统一,V3-FW-0341,2026北京通州高三（上）期末 第8题,人为事物联系 / 矛盾对立统一 / 个体与整体,C,SUPPORTED_DIRECT_CHOICE_TEXT
 整体与部分 / 系统观念,V3-FW-0342,2026北京通州高三（上）期末 第9题,系统观念 / 联系观点 / 数字化治理,C,SUPPORTED_DIRECT_CHOICE_TEXT
 一切从实际出发 / 实事求是,V3-FW-0343,2026北京通州高三（上）期末 第16题,一切从实际出发 / 尊重客观规律与发挥主观能动性,B,SUPPORTED_DIRECT_RUBRIC
 整体与部分 / 系统观念,V3-FW-0344,2026北京通州高三（上）期末 第16题,联系观点 / 整体与部分 / 系统观念,B,SUPPORTED_DIRECT_RUBRIC
 辩证否定 / 守正创新,V3-FW-0345,2026北京通州高三（上）期末 第16题,发展观点 / 辩证否定 / 守正创新,B,SUPPORTED_DIRECT_RUBRIC
 人民群众,V3-FW-0346,2026北京通州高三（上）期末 第16题,人民群众 / 价值观导向 / 中华优秀传统文化,B,SUPPORTED_DIRECT_RUBRIC
-实践与认识,V3-FW-0347,2026北京通州高三（上）期末 第21题,社会意识的反作用 / 正确认识指导实践 / 党的领导,B,SUPPORTED_DIRECT_RUBRIC
+社会存在与社会意识,V3-FW-0347,2026北京通州高三（上）期末 第21题,社会意识的反作用 / 正确认识指导实践 / 党的领导,B,SUPPORTED_DIRECT_RUBRIC
 价值判断与价值选择,V3-FW-0348,2026北京通州高三（上）期末 第21题,发展观点 / 联系观点 / 价值判断与价值选择 / 人民立场,B,SUPPORTED_DIRECT_RUBRIC
 量变与质变 / 适度原则,V3-FW-0349,2026北京通州高三（上）期末 第21题,发展观点 / 系统观念 / 量变质变,B,SUPPORTED_DIRECT_RUBRIC
 矛盾的普遍性和特殊性,V3-FW-0371,2024北京东城高三一模 第16题,矛盾普遍性与特殊性 / 文化多样性 / 联系观点,B,SUPPORTED_DIRECT_RUBRIC
@@ -161,7 +158,7 @@ section,audit_id,source,trigger,evidence_grade,content_verdict
 人民群众,V3-FW-0415,2024北京丰台高三一模 第21题,人民群众 / 价值观导向 / 人类命运共同体,B,SUPPORTED_DIRECT_RUBRIC
 整体与部分 / 系统观念,V3-FW-0416,2024北京丰台高三一模 第21题,整体与部分 / 系统观念 / 实践路径,B,SUPPORTED_DIRECT_RUBRIC
 发展的观点 / 发展的普遍性,V3-FW-0417,2024北京石景山高三一模 第2题,实践具有历史性 / 科技创新推动生产力发展,C,SUPPORTED_DIRECT_CHOICE_TEXT
-价值观的导向作用,V3-FW-0418,2024北京石景山高三一模 第3题,社会意识 / 文化精神 / 价值观导向,C,SUPPORTED_DIRECT_CHOICE_TEXT
+社会存在与社会意识,V3-FW-0418,2024北京石景山高三一模 第3题,社会意识 / 文化精神 / 价值观导向,C,SUPPORTED_DIRECT_CHOICE_TEXT
 文化触发补充,V3-FW-0419,2024北京石景山高三一模 第4题,中华优秀传统文化 / 文化交流互鉴 / 文化自信,C,SUPPORTED_DIRECT_CHOICE_TEXT
 一切从实际出发 / 实事求是,V3-FW-0429,2024北京西城高三一模 第2题,实践观点 / 群众观点 / 实事求是,C,SUPPORTED_DIRECT_CHOICE_TEXT
 文化触发补充,V3-FW-0431,2024北京西城高三一模 第4题,文化功能 / 群众文化 / 基层治理,C,SUPPORTED_DIRECT_CHOICE_TEXT
@@ -185,7 +182,7 @@ section,audit_id,source,trigger,evidence_grade,content_verdict
 一切从实际出发 / 实事求是,V3-FW-0458,2024北京东城高三二模 第21题,联系观点 / 系统观念 / 意识能动作用 / 从实际出发和遵循社会发展规律,A,SUPPORTED_DIRECT_RUBRIC
 一切从实际出发 / 实事求是,V3-FW-0462,2024北京海淀高三二模 第4题,一切从实际出发 / 实事求是 / 具体问题具体分析,C,SUPPORTED_DIRECT_CHOICE_TEXT
 联系的普遍性 / 联系的观点（总）,V3-FW-0463,2024北京海淀高三二模 第15题,联系观点 / 文化交流互鉴 / 人类命运共同体,C,SUPPORTED_DIRECT_CHOICE_TEXT
-实现人生价值,V3-FW-0464,2024北京海淀高三二模 第16题,联系普遍性 / 矛盾对立统一 / 价值观导向 / 人生价值,B,SUPPORTED_DIRECT_RUBRIC
+矛盾就是对立统一,V3-FW-0464,2024北京海淀高三二模 第16题,联系普遍性 / 矛盾对立统一 / 价值观导向 / 人生价值,B,SUPPORTED_DIRECT_RUBRIC
 矛盾的特殊性 / 具体问题具体分析,V3-FW-0465,2024北京海淀高三二模 第17题（1）,整体与部分 / 系统优化 / 矛盾分析法 / 具体问题具体分析,B,SUPPORTED_DIRECT_RUBRIC
 认识发展原理,V3-FW-0466,2024北京海淀高三二模 第17题（2）,实践决定认识 / 认识发展 / 感性认识到理性认识,B,SUPPORTED_DIRECT_RUBRIC
 整体与部分 / 系统观念,V3-FW-0469,2024北京海淀高三二模 第21题,系统观念 / 文化自信 / 创新意识,B,SUPPORTED_DIRECT_RUBRIC
