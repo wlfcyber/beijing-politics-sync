@@ -36,6 +36,7 @@ Preserve durable outputs:
 Load only the reference needed for the current task:
 
 - `references/operating-rules.md`: substantial rubric or answer analysis.
+- `references/philosophy-trigger-standards.md`: 必修四哲学材料触发链、答案落点、学生稿/审计稿分离、Claude Code 重跑监督硬标准.
 - `references/workspace-and-artifacts.md`: artifact map for the local research repo.
 - `references/continuous-codex-control.md`: long-running, resumed, delegated, or governor-supervised work.
 - `references/artifact-contracts.md`: exact control-file schemas, status vocabulary, and final gates for book/module runs.
@@ -55,6 +56,11 @@ Load only the reference needed for the current task:
 - If no rubric or scoring source is found, say so plainly and do not force a reference answer into the rubric framework.
 - Every trigger or wrong-option pattern must cite source suite and question number.
 - Every main-question trigger must explain the logic chain from material information to knowledge point, subject action, or scoring measure.
+- For 必修四哲学 trigger work, every main-question trigger must also state the concrete answer landing: how the principle/method answers this exact question. Do not write meta-instructions such as "respond to the question", "serve the question", or "turn the principle into a method"; write the actual answer sentence or answer direction.
+- For student-facing 必修四 philosophy artifacts, keep source paths, line ids, file ids, slide ids, OCR/debug notes, and audit-only provenance out of the final document. Put them in a separate audit evidence file.
+- Main-question excerpts in student-facing artifacts must preserve the full question prompt. Materials may be excerpted only around the words, relations, actions, or conflicts that trigger the principle.
+- Organize final 必修四 philosophy teaching artifacts by the user's original principle/method framework nodes, not by suite or question order.
+- Use cache-assisted repair for already audited suites when the issue is wording/formatting cleanup. Re-run Claude Code only for missing evidence, failed calls, OCR gaps, or materially flawed source judgments.
 - Preserve the user's framework over generic category systems. If content cannot fit cleanly, state the closest existing framework location instead of changing the framework logic.
 - Do not add sections or labels named `可替代`, `反向筛查`, or `教学提醒`.
 - After each substantial work round, update the governor board with what passed, what failed, what was skipped, and why.

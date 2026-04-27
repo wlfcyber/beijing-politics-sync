@@ -149,6 +149,13 @@ User correction:
 - Delete/avoid `教学提醒`.
 - Material triggers must explain the logic chain.
 - Every new trigger must include the source suite and question number.
+- Student-facing philosophy artifacts must be organized by the user's original principle/method framework nodes, not by question order.
+- The full main-question prompt must be preserved; material excerpts may be shortened only around the words, relations, actions, or conflicts that trigger the principle.
+- Student-facing artifacts must be clean: no source paths, line ids, file ids, slide ids, entry ids, OCR/debug notes, or audit provenance.
+- `trigger_logic` must not say "the rubric mentioned this, so it enters the framework." Rubric mentions are accuracy checks and belong in evidence fields.
+- `trigger_logic` must end in a concrete answer landing: how this principle/method answers the exact question. Do not write meta-instructions such as "respond to the question", "serve the question", or "turn the principle into a method".
+- Prefer the explicit form `答案落点：...`, with a sentence that could be placed into a student answer.
+- For already audited suites, use cache-assisted repair for wording/format cleanup; re-run Claude Code only for source gaps, failed calls, OCR blockers, wrong framework placement, missing full question prompts, or trigger logic that cannot be repaired from cached fields.
 
 ## 7. New Question Prediction
 
