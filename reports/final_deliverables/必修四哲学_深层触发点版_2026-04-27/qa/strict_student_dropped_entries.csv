@@ -129,4 +129,3 @@ section,audit_id,source,trigger,evidence_grade,content_verdict,origin,signal_ori
 主观能动性 / 意识的能动作用,V3-FW-0397,2024北京海淀高三一模 第2题,联系观点 / 主观能动性 / 科技实践,C,SUPPORTED_DIRECT_CHOICE_TEXT,V3直接支持补入,choice-key-signal,学生可读性复查未通过：含 `材料写到主体设定目标`，说明触发点仍不够直接
 辩证否定 / 守正创新,V3-FW-0438,2024北京西城高三一模 第17题,发展观点 / 辩证否定 / 生态价值观,A,SUPPORTED_DIRECT_RUBRIC,V3直接支持补入,paper_excerpt,学生可读性复查未通过：材料未直接呈现保留与更新、继承与创新关系
 尊重客观规律与发挥主观能动性相结合,V3-FW-0444,2024北京朝阳高三二模 第16题（2）,实践观点 / 发展观点 / 联系观点 / 物质与意识辩证关系 / 尊重规律与发挥主观能动性,A,SUPPORTED_DIRECT_RUBRIC,V3直接支持补入,material,学生可读性复查未通过：没有同时呈现规律/条件和主体能动作为
-一切从实际出发 / 实事求是,V3-FW-0458,2024北京东城高三二模 第21题,联系观点 / 系统观念 / 意识能动作用 / 从实际出发和遵循社会发展规律,A,SUPPORTED_DIRECT_RUBRIC,V3直接支持补入,material,用户回源复核：2024东城二模21题末尾细则没有把“一切从实际出发”列为本题稳定给分点；此前条目还串用了16题桑基鱼塘细则摘录，必须下沉QA。
