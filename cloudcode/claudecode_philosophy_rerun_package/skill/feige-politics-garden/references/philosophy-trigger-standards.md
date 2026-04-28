@@ -50,7 +50,31 @@ Forbidden trigger logic:
 
 Rubric mentions are accuracy checks, not teaching logic. Put them in `rubric_excerpt`, `boundary_note`, or the audit evidence file.
 
-## 4. Answer Landing Requirement
+## 4. Material-To-Principle Writing Method
+
+The user's 2026-04-27/28 correction established a durable teaching-writing method. Apply it to every 必修四哲学 main-question entry.
+
+Use this sequence:
+
+1. **材料信号**：quote or summarize the exact material word, phrase, action, relation, contradiction, process, condition, or value orientation that makes the knowledge point visible.
+2. **知识触发**：explain in knowledge terms why that signal belongs to the principle/method. Do not cite the rubric as the reason.
+3. **设问指向**：identify what the question is asking the student to prove, explain, evaluate, or propose.
+4. **答案落点**：turn the principle into a concrete answer sentence for this exact question.
+
+Good trigger logic should read like a student's thinking path:
+
+`材料中 A 主体在 B 条件下做了 C，说明这里不是泛泛谈 D，而是在处理 E 关系；因此应调用 F 原理。答案落点：因为 F，所以 A 应/能够/需要 G，从而回答设问中的 H。`
+
+Bad trigger logic:
+
+- `细则提到 F，所以这里可以放 F。`
+- `这个原理可以回应设问。`
+- `材料体现了这个原理。`
+- `用这个原理分析即可。`
+
+Rubric excerpts are still required, but they only verify accuracy and scoring boundary. They do not replace the teaching chain.
+
+## 5. Answer Landing Requirement
 
 Every main-question `trigger_logic` must contain a concrete answer landing. The preferred wording is:
 
@@ -81,14 +105,14 @@ For relation questions:
 - State how the two sides are distinct, connected, mutually promoted, mutually constrained, or jointly produce the result asked by the question.
 - Good: "答案落点：接受人民监督侧重外部约束，自我革命侧重党内自我净化；二者既区别又相互促进，共同服务于跳出历史周期率，所以应以对立统一概括两者关系。"
 
-## 5. Choice Question Standard
+## 6. Choice Question Standard
 
 - Choice-question rows require both question text and a reliable answer key.
 - Correct-option logic must explain which material signal makes the correct option fit the principle.
 - Wrong-option notes must explain each wrong option's error type and boundary: condition inflation, subject mismatch, cause-purpose swap, scope mismatch, material inference boundary, legal relation mismatch, over-absolute wording, or module-boundary error.
 - Do not enter choice-question patterns that are only one-off context reading unless they expose reusable wrong-expression logic.
 
-## 6. Cache And Re-Run Policy
+## 7. Cache And Re-Run Policy
 
 - Use cache-assisted repair when a suite has already been source-audited and the problem is final-document wording, format cleanup, removal of provenance, or conversion from rubric-based phrasing to student-facing answer landing.
 - Distinguish source-derived cache from old conclusions. Converted source text, suite bundles, manifest rows, and rendered page images are first-read source cache; old framework entries, old CSV judgments, old candidate JSON, and old model summaries are conclusions and cannot be used as evidence.
@@ -104,7 +128,7 @@ For relation questions:
 - For Claude Code reruns, prefer Opus 4.7 with adaptive/max effort when available. If the CLI exposes only `--model opus --effort max`, use that and verify the stream reports the intended Opus model.
 - If a suite stalls, judge with process and log data: process alive, stream/debug log growth, file mtime changes, tool calls, and network/auth errors. Do not kill a run merely because it has been thinking for a while. If restarting is necessary, restart the same suite; do not skip forward silently and do not narrow the task by feeding it only the answer fragments.
 
-## 7. Cross-Model Review And Merge
+## 8. Cross-Model Review And Merge
 
 - Preserve a comparison lane between Claude Code output and Codex output.
 - Entries independently placed by both models under the same principle/method node, with matching source suite, question number, question prompt, material trigger, and rubric boundary, receive higher confidence but still require source evidence.
@@ -112,7 +136,7 @@ For relation questions:
 - For differing placements, decide by the local source evidence and the user's framework, then list remaining disagreements for user review.
 - When Claude Code's explanation chain is clearer but Codex catches a missing source, merge the strengths: keep the verified source placement and rewrite the student-facing chain so a zero-baseline senior student can understand how to move from material to principle to answer.
 
-## 8. Governor Checks
+## 9. Governor Checks
 
 Reject a batch if:
 
