@@ -9,6 +9,7 @@
 - 当前 Mac 上没有 ClaudeCode CLI 后台任务在运行；S001 尚未重新启动。
 - 已停止一轮错误倾向的 S001 运行：那轮把“不能吃旧结论”误扩大成“不能吃已转换的一手来源缓存”，这是不对的。
 - 正确口径：旧分析结论、旧框架条目、旧 CSV 推断不能当证据；但从原始试卷、答案、细则转换出来的 txt、suite bundle、render 图片，属于一手来源缓存，必须优先使用。
+- 项目根目录 `CLAUDE.md` 已在本机修正为 2026-04-28 cache-first 接管规则。旧版“禁止读缓存/同步仓库”的表述只保留为“禁止引用旧结论”的安全提醒。
 - S001 的 cache-first 指令已经写好：
   `/Users/wanglifei/Desktop/claude_bixiu4_independent_rerun_2026-04-27/outputs_v4/CLAUDE_OCR_RERUN_S001_CACHE_FIRST_PROMPT.md`
 - 同一份完整 prompt 已同步进 Git 仓库：
@@ -121,6 +122,42 @@ cd /Users/wanglifei/Desktop/claude_bixiu4_independent_rerun_2026-04-27
 如果新电脑没有本机 `outputs_v4/CLAUDE_OCR_RERUN_S001_CACHE_FIRST_PROMPT.md`，可直接使用本仓库里的：
 
 `reports/claude_ocr_rerun_s001_cache_first_prompt_2026-04-28.md`
+
+## 5A. ClaudeCode 记忆迁移包
+
+已在本机桌面生成一个不含账号登录态/token 的 ClaudeCode 记忆迁移包：
+
+`/Users/wanglifei/Desktop/claudecode_memory_transfer_2026-04-28.tar.gz`
+
+SHA256：
+
+`39a859bfb23a5dd5a044e05b9b6f1323641746c1dd971867e99e8f9373a7f0fa`
+
+包内含：
+
+- 本项目 `~/.claude/projects/.../*.jsonl` raw session；
+- S042/S001 的 stream-json、debug log、visible run；
+- Claude prompts、S001 cache-first prompt、final Word prompt；
+- Codex/Claude 双版本比对材料；
+- OCR-needed 控制清单和已渲染页面；
+- 最新 skill 规则与项目级 `CLAUDE.md`。
+
+包内不含：
+
+- `~/.claude.json`
+- `~/.claude/backups`
+- `~/.claude/cache`
+- Claude 登录态、token、auth
+
+新电脑若要恢复 raw ClaudeCode 会话历史，可解压后执行：
+
+```zsh
+mkdir -p ~/.claude/projects/-Users-wanglifei-Desktop-claude-bixiu4-independent-rerun-2026-04-27
+rsync -a claudecode_memory_transfer_2026-04-28/claude_raw_project_sessions/ \
+  ~/.claude/projects/-Users-wanglifei-Desktop-claude-bixiu4-independent-rerun-2026-04-27/
+```
+
+这一步是 best-effort：ClaudeCode 是否在界面里直接显示旧会话，取决于新电脑 ClaudeCode 版本和项目路径识别；即使不显示，jsonl 也能作为完整历史查证。真正无缝继续仍以本 handoff、S001 prompt、skill 规则和输出产物为准。
 
 ## 6. 监督标准
 
