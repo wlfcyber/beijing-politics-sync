@@ -159,6 +159,38 @@ For a full handoff on a new computer, paste the prompt in:
 
 That prompt makes the new Codex session read the project skill, operating rules, continuous-task controller, current state, GitHub sync rules, and governor board before it resumes work.
 
+## Cross-Computer Migration Checklist
+
+When the user asks to move work to another computer, do not assume that a prompt or a commit is enough. Before saying the other computer can continue, verify and transfer the five-part handoff set:
+
+1. **Final artifacts**: the actual student-facing deliverables, including Markdown, Word/PDF when requested, and any structured CSV/JSON tables needed to regenerate or audit them.
+2. **Process evidence**: run config, prompts, user corrections, progress notes, coverage audits, comparison reports, OCR-needed lists, and visible run logs when they materially explain the current state.
+3. **Operating rules**: the relevant skill files and references, especially any newly learned standards or user corrections from the latest work session.
+4. **Boundaries and gaps**: source-missing, OCR-needed, needs-followup, excluded/module-boundary items, and known incorrect or disputed model judgments.
+5. **Runnable continuation entry**: a short prompt or script that tells the next computer exactly what to read first and what the next action is.
+
+For teaching-document runs, final artifacts must include both the polished student version and the audit/evidence version when both exist. If a Word file is the user's real deliverable, explicitly check whether it is tracked; `.gitignore` often excludes `*.docx`.
+
+Before the final handoff answer, run checks equivalent to:
+
+```bash
+git status --short --branch
+git ls-files | rg '<artifact-or-run-folder>'
+git check-ignore -v <critical-docx-or-png> || true
+git log --oneline -5
+```
+
+If a critical deliverable is intentionally ignored by `.gitignore` but small enough and safe to sync, use `git add -f <file>` and record why. If it is too large or should not be in GitHub, create a separate transfer package and say clearly that GitHub alone is not enough.
+
+Never answer "it is synced" only because a handoff document names a local path. Confirm that the file itself is either tracked in GitHub or explicitly included in a separate transfer package.
+
+When a new user correction changes how future artifacts should be written, update both:
+
+- the active skill/reference file used by this computer;
+- the GitHub skill copy that the other computer will pull.
+
+Then verify the other computer's first prompt includes the new standard.
+
 ## Conflict Rules
 
 If both devices edited the same Markdown file:

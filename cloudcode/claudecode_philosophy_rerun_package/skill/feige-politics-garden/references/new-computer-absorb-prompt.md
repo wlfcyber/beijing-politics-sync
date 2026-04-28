@@ -91,6 +91,34 @@ Use the feige-politics-garden skill.
 请先报告你读到的当前状态、未完成任务、下一步应该推进的 STEP_ID，以及你会遵守的停止条件。不要跳过 governor，不要提前验收。
 ```
 
+## Migration Self-Check Prompt
+
+Use this when the previous computer says it has synced a completed round or final artifact:
+
+```text
+Use the feige-politics-garden skill.
+
+请不要只相信上一台电脑的口头说明。先做双机迁移自检：
+
+1. 读取 `skills/feige-politics-garden/references/github-sync.md` 中的 Cross-Computer Migration Checklist。
+2. 检查 GitHub 仓库里是否真的有五件套：
+   - final artifacts：学生最终版、Word/PDF、审计版、结构化表；
+   - process evidence：运行配置、prompt、用户修正、覆盖审计、比对报告；
+   - operating rules：最新 skill 和用户刚训练出的写作规则；
+   - boundaries and gaps：OCR-needed、source-missing、needs-followup、争议项；
+   - runnable continuation entry：下一步要读什么、跑什么。
+3. 特别检查 `.docx`、`.png`、`.pdf` 是否被 `.gitignore` 挡住。不要因为 handoff 里写了本地路径，就认为文件已经同步。
+4. 用 `git ls-files` 确认关键最终文件是否被跟踪。
+5. 如果发现缺文件，先列出缺口并要求上一台电脑补同步；不要直接开始改最终稿。
+
+请先输出：
+- 已确认同步到本机的最终成果路径；
+- 已确认同步到本机的过程/审计材料路径；
+- 已确认同步到本机的最新写作规则；
+- 仍缺什么；
+- 下一步应该继续哪个任务。
+```
+
 ## Short Resume Prompt
 
 Use this only after the skill is installed and the repository has been pulled:
