@@ -11,6 +11,8 @@
 - 正确口径：旧分析结论、旧框架条目、旧 CSV 推断不能当证据；但从原始试卷、答案、细则转换出来的 txt、suite bundle、render 图片，属于一手来源缓存，必须优先使用。
 - S001 的 cache-first 指令已经写好：
   `/Users/wanglifei/Desktop/claude_bixiu4_independent_rerun_2026-04-27/outputs_v4/CLAUDE_OCR_RERUN_S001_CACHE_FIRST_PROMPT.md`
+- 同一份完整 prompt 已同步进 Git 仓库：
+  `reports/claude_ocr_rerun_s001_cache_first_prompt_2026-04-28.md`
 
 ## 1. 当前项目路径
 
@@ -115,6 +117,10 @@ cd /Users/wanglifei/Desktop/claude_bixiu4_independent_rerun_2026-04-27
 ```
 
 如果新电脑路径不同，把 prompt 里的路径先整体改成新电脑实际路径；但不能改变工作原则。
+
+如果新电脑没有本机 `outputs_v4/CLAUDE_OCR_RERUN_S001_CACHE_FIRST_PROMPT.md`，可直接使用本仓库里的：
+
+`reports/claude_ocr_rerun_s001_cache_first_prompt_2026-04-28.md`
 
 ## 6. 监督标准
 
