@@ -1,0 +1,12 @@
+{
+  "roster_count": 56,
+  "coverage_count": 56,
+  "assigned_counts": {
+    "worker-2024": 15,
+    "worker-2025A": 16,
+    "worker-2025B": 6,
+    "worker-2026A": 10,
+    "worker-2026B": 9
+  },
+  "issues": []
+}

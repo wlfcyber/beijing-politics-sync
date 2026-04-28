@@ -1,0 +1,156 @@
+{
+  "dropped_entries": [
+    {
+      "node_code": "3.1",
+      "node_title": "联系观·普遍性、客观性、多样性·整体与部分·系统优化",
+      "entry_title": "2026房山一模 第20题",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "3.3",
+      "node_title": "矛盾观·对立统一·普特·主次·两点重点·具体问题具体分析",
+      "entry_title": "2026丰台一模 第17题（8分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "3.3",
+      "node_title": "矛盾观·对立统一·普特·主次·两点重点·具体问题具体分析",
+      "entry_title": "2026房山一模 第18题",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "3.3",
+      "node_title": "矛盾观·对立统一·普特·主次·两点重点·具体问题具体分析",
+      "entry_title": "2026房山一模 第20题",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "4.1",
+      "node_title": "社会存在与社会意识·社会基本矛盾·改革",
+      "entry_title": "2026海淀一模 第16题（8分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "4.2",
+      "node_title": "人民群众是历史创造者·群众观点群众路线·以人民为中心",
+      "entry_title": "2024朝阳期中 第16题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "4.2",
+      "node_title": "人民群众是历史创造者·群众观点群众路线·以人民为中心",
+      "entry_title": "2025朝阳一模 第21题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "4.2",
+      "node_title": "人民群众是历史创造者·群众观点群众路线·以人民为中心",
+      "entry_title": "2026丰台期中 第20题（8分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "4.3",
+      "node_title": "价值观·价值判断与价值选择·在劳动和奉献中创造价值",
+      "entry_title": "2024丰台一模 第21题（8分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "4.3",
+      "node_title": "价值观·价值判断与价值选择·在劳动和奉献中创造价值",
+      "entry_title": "2025东城一模 第19题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "4.3",
+      "node_title": "价值观·价值判断与价值选择·在劳动和奉献中创造价值",
+      "entry_title": "2026丰台一模 第17题（8分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "5.2",
+      "node_title": "文化的继承、发展与创新·创造性转化创新性发展",
+      "entry_title": "2024石景山一模 第16题（6分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "5.4",
+      "node_title": "发展中国特色社会主义文化·文化自信·文化强国",
+      "entry_title": "2025东城一模 第19题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.4",
+      "node_title": "发展中国特色社会主义文化·文化自信·文化强国",
+      "entry_title": "2025朝阳一模 第16题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.4",
+      "node_title": "发展中国特色社会主义文化·文化自信·文化强国",
+      "entry_title": "2026顺义一模 第21题",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "5.4",
+      "node_title": "发展中国特色社会主义文化·文化自信·文化强国",
+      "entry_title": "2026西城期中 第16题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2024丰台一模 第21题（8分）",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2025海淀二模 第20题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2025丰台二模 第21题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2025东城期末 第21题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2025朝阳期末 第16题",
+      "reason": "missing/placeholder answer chain"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2026顺义一模 第21题",
+      "reason": "missing/short complete prompt"
+    },
+    {
+      "node_code": "5.5",
+      "node_title": "中华文明新形态·命运共同体·讲好中国故事",
+      "entry_title": "2026丰台期中 第20题（8分）",
+      "reason": "missing/short complete prompt"
+    }
+  ],
+  "kept_entries_per_node": {
+    "1.2": 1,
+    "2.1": 1,
+    "3.1": 7,
+    "3.2": 3,
+    "3.3": 13,
+    "4.1": 4,
+    "4.2": 7,
+    "4.3": 10,
+    "5.1": 4,
+    "5.2": 7,
+    "5.4": 6,
+    "5.5": 14
+  }
+}

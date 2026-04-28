@@ -1,0 +1,90 @@
+V8 DECODE CLEANLINESS SCAN
+==========================
+Scope: student-facing markdown deliverables only.
+Pass criterion: zero hits on any forbidden engineering pattern AND zero hits on any mojibake byte pattern.
+
+[学生版MD] C:\bp_sync_visible\reports\final_56_v8_decode_claudecode_2026-04-29\outputs\2026北京高考政治哲学宝典---三年模拟全触发全链条_v8_decode版_学生版.md
+  total chars: 93093
+  total lines: 3569
+  forbidden engineering patterns:
+    literal_C_drive_path: 0
+    source_path_token: 0
+    hash_token: 0
+    sha256_token: 0
+    page_pattern_underscore: 0
+    OCR_uppercase: 0
+    debug_token: 0
+    visible_runs_token: 0
+    crops_underscore: 0
+    F_two_digits: 0
+    L_two_digits: 0
+    slide_token: 0
+    pdf_token: 0
+    pptx_token: 0
+    docx_token: 0
+    jsonl_extension: 0
+    v6_label: 0
+  forbidden audit residues:
+    audit_细则边界: 0
+    audit_阅卷前: 0
+    audit_阅卷中: 0
+    audit_评分细则: 0
+    audit_参考答案: 0
+    audit_政治与法治: 0
+    audit_法律与生活: 0
+    audit_逻辑与思维: 0
+    audit_优秀试卷: 0
+    audit_存在问题: 0
+    audit_学生问题及建议: 0
+    audit_复练试题: 0
+    audit_典型示例: 0
+    audit_教学启示: 0
+    audit_知识板块: 0
+    audit_能力板块: 0
+    audit_采分点: 0
+  mojibake patterns: 0
+  result: PASS
+
+[错肢总结MD] C:\bp_sync_visible\reports\final_56_v8_decode_claudecode_2026-04-29\outputs\北京高考政治选择题错肢总结_v8_decode版.md
+  total chars: 5459
+  total lines: 196
+  forbidden engineering patterns:
+    literal_C_drive_path: 0
+    source_path_token: 0
+    hash_token: 0
+    sha256_token: 0
+    page_pattern_underscore: 0
+    OCR_uppercase: 0
+    debug_token: 0
+    visible_runs_token: 0
+    crops_underscore: 0
+    F_two_digits: 0
+    L_two_digits: 0
+    slide_token: 0
+    pdf_token: 0
+    pptx_token: 0
+    docx_token: 0
+    jsonl_extension: 0
+    v6_label: 0
+  forbidden audit residues:
+    audit_细则边界: 0
+    audit_阅卷前: 0
+    audit_阅卷中: 0
+    audit_评分细则: 0
+    audit_参考答案: 0
+    audit_政治与法治: 2
+    audit_法律与生活: 1
+    audit_逻辑与思维: 2
+    audit_优秀试卷: 0
+    audit_存在问题: 0
+    audit_学生问题及建议: 0
+    audit_复练试题: 0
+    audit_典型示例: 0
+    audit_教学启示: 0
+    audit_知识板块: 0
+    audit_能力板块: 0
+    audit_采分点: 0
+  mojibake patterns: 0
+  result: PASS
+
+OVERALL: PASS
