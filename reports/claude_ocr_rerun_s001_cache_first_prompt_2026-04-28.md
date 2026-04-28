@@ -2,11 +2,11 @@
 
 # 模型与工作方式
 
-- 你当前由外部用 Opus 4.7 / max effort 启动。
+- 你当前应由外部用 Opus 4.7 / adaptive 或 max effort 启动；如果 CLI 只能传 `--model opus --effort max`，请在运行日志里确认真实模型为 Opus 系列。
 - 本轮唯一任务是 `S001 / 2024东城一模`，不得跳卷，不得处理下一套。
 - 必须 cache-first：先读已有可读缓存、bundle、render 页面；只有缓存缺失、不完整或无法支持证据判断时，才回到原始 PDF/PPT/Office 文件。
 - 不得沿用旧版 v2/v3/v4 的分析结论、旧 candidate json、旧框架条目、旧 CSV 推断作为证据。它们最多只能作为“可能需要复核的线索”。
-- 如果长时间卡住，优先重启同一套卷或写 checkpoint，不要把任务改成只处理别人摘好的片段。
+- 如果长时间卡住，先根据进程状态、stream-json 增量、debug log、输出文件 mtime、tool call、网络/auth 错误判断是否真卡住；不要因为可见正文停顿就自我终止。确实需要重启时，优先重启同一套完整卷或写 checkpoint，不要把任务改成只处理别人摘好的片段，也不得绕过 S001 跳下一套。
 
 # S001 已确认的一手来源缓存
 

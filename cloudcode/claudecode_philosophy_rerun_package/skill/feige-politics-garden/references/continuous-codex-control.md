@@ -136,6 +136,8 @@ Pair it with status checks:
 - if logs are growing and processes are alive, do not restart blindly;
 - if logs stop growing, the runner exits, or the agent waits for confirmation, resume immediately;
 - if final artifacts are missing, do not validate.
+- for Claude Code, judge stalls from data: process state, elapsed time, stream-json growth, debug log growth, output file mtimes, tool calls, and auth/network errors. Do not kill a run only because there is a pause in visible prose.
+- if a Claude Code suite must be restarted, restart the same suite with the same source scope. Do not bypass the suite, skip to the next one, or feed only preselected answer fragments unless the user explicitly asks for that narrow rescue.
 
 ## Parallel-Line Boundary Rules
 
@@ -143,6 +145,8 @@ When multiple Codex lines work in parallel:
 
 - each line must declare its current suite or module boundary;
 - no two lines should process the same suite unless one is explicitly reviewing the other's completed output;
+- when splitting a large suite queue, it is acceptable to run multiple Claude/Codex lines from different thirds of the queue, for example one line from the front, one from the middle, and one from the end backward, as long as each line has a disjoint suite range and records writes separately;
+- if one line works backward from the end, its outputs must still merge into the same framework-node final structure rather than preserving reverse suite order;
 - if two lines meet at the same remaining suite or adjacent unavoidable overlap, stop both workers after the latest complete write;
 - a governor then merges artifacts, resolves ledger/framework/governor/current-state consistency, and runs final acceptance.
 
@@ -172,4 +176,3 @@ For any new long Codex job in this project:
 只有当开发计划中的全部 STEP_ID 都在进度文档中完成，且交付物、监管记录、验收清单互相一致时，任务才允许停止。
 最后一行只输出 STEP_DONE: STEP_XX 或 TASK_COMPLETE。
 ```
-
