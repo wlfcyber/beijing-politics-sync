@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞哥政治庄园-选必一"
+  short_description: "处理《当代国际政治与经济》主观题细则术语、完整设问、细则位置和材料触发积累。"
+  default_prompt: "Use $feige-politics-garden-xuanbiyi for 选必一《当代国际政治与经济》 main-question rubric-term accumulation with exact 细则位置 and non-fake material triggers."
+
+policy:
+  allow_implicit_invocation: true

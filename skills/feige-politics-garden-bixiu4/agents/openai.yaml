@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞哥政治庄园-必修四"
+  short_description: "按用户既有框架处理必修四哲学与文化的材料触发、错肢库、细则链和长线验收。"
+  default_prompt: "Use $feige-politics-garden-bixiu4 for 必修四 philosophy/culture Beijing politics rubric research, material trigger frameworks, wrong-option patterns, and governor-reviewed deliverables."
+
+policy:
+  allow_implicit_invocation: true

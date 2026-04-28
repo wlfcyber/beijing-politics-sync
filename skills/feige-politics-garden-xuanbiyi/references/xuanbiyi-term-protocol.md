@@ -1,0 +1,226 @@
+# 选必一细则术语积累协议
+
+Use this reference for 选择性必修一《当代国际政治与经济》主观题. The user wants a cumulative scoring-term document, not a normal answer explanation.
+
+## 1. Source Hierarchy
+
+Use sources in this order:
+
+1. 正式评分细则、评标、阅卷细则、阅卷总结.
+2. 明确讲分、标分、替换词、必答点的讲评材料.
+3. User-confirmed scoring material.
+4. Ordinary teacher reference answers only as support, never as `细则位置` unless confirmed.
+
+If no scoring source is found, keep the question out of the main term table and record the blocker. Do not promote reference-answer wording into a scoring term.
+
+## 2. Entry Format
+
+Use this exact unit for every term:
+
+```markdown
+## <top-level bucket>
+### <second-level heading, only if needed>
+#### <third-level summary, only if needed>
+
+**术语：<rubric original phrase(s)>**
+
+- 完整设问：<copy the full question prompt>
+- 细则位置：<year district exam + question + scoring section + exact point + score + required/optional status>
+- 来源：<year district exam + question>
+- 材料触发：<trigger logic>
+- 答案句：<answer sentence>
+```
+
+Required fields: `完整设问`, `细则位置`, `来源`, `材料触发`, `答案句`.
+
+Forbidden field: `真题规律`.
+
+## 3. What Counts As 术语
+
+`术语：` records scoring-rule wording:
+
+- Red/marked scoring terms.
+- Rubric point terms.
+- Explicit replacements or acceptable synonyms in the scoring source.
+- Required theoretical statements in the marking rules.
+
+`术语：` must not record:
+
+- Your own summary.
+- A material fact.
+- A reference-answer landing if it is not the marked scoring term.
+- A broad textbook phrase from another module.
+
+Example:
+
+- Correct: `术语：当前国际竞争的实质是以经济和科技实力为基础的综合国力较量；坚持创新驱动发展战略`
+- Incorrect: `术语：全球产业链供应链稳定`
+
+`全球产业链供应链稳定` can appear in `答案句` as the result, but it is not the accumulated term when the rubric marks `坚持创新驱动发展战略`.
+
+## 4. Merge Rules
+
+Merge entries when all are true:
+
+- Same suite and question.
+- Same scoring section or scoring point.
+- Same score layer.
+- Same answer function.
+- Same framework placement.
+
+Do not split parallel rubric phrases that form one scoring point. For example:
+
+```markdown
+**术语：中国作为联合国创始会员国 / 安理会常任理事国；世界上最大的发展中国家 / 国际政治经济格局中的重要力量**
+```
+
+This is one term entry if the rubric places all phrases under the same `中国的地位` point.
+
+Second-level and third-level headings are only containers. Create them only when they prevent confusion. If a phrase such as `中国的联合国身份与国际格局地位` is useful, put it as a third-level heading, not after `术语：`.
+
+## 5. 材料触发 Rules
+
+`材料触发` must answer: why does this question require this scoring term?
+
+Write the logic in this order:
+
+1. What the prompt asks: reason, deep logic, measure, meaning, role, relation, or evaluation.
+2. What relation the material sets up: cooperation, competition, opening, governance, UN-China relation, development, security, etc.
+3. Why that relation triggers the term.
+
+Do not merely rewrite the material and append "therefore use this term."
+
+Example for `共同利益`:
+
+- Good: `设问问“南南合作典范的深层逻辑”，实质是在问合作为什么能够成立、为什么能够持续。回答合作成立的原因时，必须先写国家间共同利益是合作的基础，再把科技小院满足全球南方农业发展需求接上。`
+- Bad: `材料写科技小院走向多个全球南方国家，帮助当地农业治理、绿色发展和人才培养，所以体现共同利益。`
+
+## 6. Framework Placement
+
+### 时代背景
+
+Put broad world conditions here:
+
+- 和平与发展仍是时代主题.
+- 经济全球化、世界多极化深入发展 as background.
+- 霸权主义、强权政治、单边主义、贸易保护主义、逆全球化.
+- Global governance challenges when the rubric uses them as the situation.
+
+### 理论
+
+Put explanatory principles about international relations here:
+
+- 国家利益、国家安全.
+- 共同利益是国家合作的基础.
+- 国际竞争的实质是以经济和科技实力为基础的综合国力较量.
+- 综合国力、科技实力、经济实力.
+- 国际合作、合作共赢、互利共赢 when used as why cooperation works.
+
+If the phrase answers "why competition/cooperation happens", place it in `理论`.
+
+### 经济全球化
+
+Put mechanisms of global economic operation here:
+
+- 贸易和投资自由化便利化.
+- 商品、服务、资本、技术、人员等生产要素跨国流动.
+- 两个市场两种资源.
+- 国际分工与协作.
+- 推动经济全球化朝着开放、包容、普惠、平衡、共赢方向发展.
+
+If the phrase answers "how international economic circulation, opening, or resource allocation works", place it here.
+
+### 政治多极化
+
+Put international order and governance-orientation terms here:
+
+- 构建新型国际关系.
+- 共商共建共享的全球治理观.
+- 国际关系民主化.
+- 反对单边主义、霸权主义、强权政治.
+- 推动构建人类命运共同体 when the emphasis is global political order.
+
+### 中国
+
+Use existing second-level headings:
+
+- 政策
+- 智慧
+- 责任
+
+Add reluctant second-level headings only when needed:
+
+- 地位: China identity, status, and weight in the international system.
+
+### 联合国
+
+Use for:
+
+- 联合国地位和作用.
+- 《联合国宪章》宗旨和原则.
+- 实践多边主义的最佳场所.
+- 以联合国为核心的国际体系.
+- 联合国成为中国开展多边合作的主要舞台.
+- 中国与联合国相互需要的 relation terms.
+
+## 7. Module Boundary
+
+Do not put these 必修二 terms in the 选必一 main table:
+
+- 扩大国际市场.
+- 推进高水平对外开放.
+- 落实开放发展理念.
+- 新发展理念、高质量发展、现代化产业体系 when the scoring source is clearly 必修二.
+
+If a mixed question contains them, record them outside the 选必一 main table as `模块边界：必修二`.
+
+## 8. Sample Entries
+
+### A. 2025海淀二模第21题
+
+## 中国
+### 地位
+#### 中国的联合国身份与国际格局地位
+
+**术语：中国作为联合国创始会员国 / 安理会常任理事国；世界上最大的发展中国家 / 国际政治经济格局中的重要力量**
+
+- 完整设问：结合材料，运用《当代国际政治与经济》知识，阐释“中国需要联合国，联合国也需要中国”。
+- 细则位置：2025海淀二模第21题，“联合国需要中国”部分，第1点“中国的地位”，1分。
+- 来源：2025海淀二模 第21题
+- 材料触发：设问要求论证“联合国也需要中国”，不是只说明中国参与了联合国事务，而是要先说明中国为什么有资格、有分量成为联合国事业的重要力量；所以同一采分点要合并写中国在联合国中的身份和国际格局中的地位。
+- 答案句：中国作为联合国创始会员国和安理会常任理事国，同时是世界上最大的发展中国家、国际政治经济格局中的重要力量，能够为联合国事业和全球治理提供重要支持。
+
+### B. 2026朝阳一模第20题
+
+## 理论
+
+**术语：当前国际竞争的实质是以经济和科技实力为基础的综合国力较量；坚持创新驱动战略**
+
+- 完整设问：结合材料，运用《当代国际政治与经济》知识，阐述中国为什么能为全球发展注入稳定性和正能量。
+- 细则位置：2026朝阳一模第20题阅卷细则，第①点，2分（1+1），标注为必答点。
+- 来源：2026朝阳一模 第20题
+- 材料触发：设问问“中国为什么能”提供稳定性和正能量，需要回答能力来源；材料呈现中国科技创新和产业能力时，触发的是国际竞争实质与中国创新驱动带来的综合国力支撑，而不是把“全球产业链供应链稳定”当作要积累的细则术语。
+- 答案句：当前国际竞争的实质是以经济和科技实力为基础的综合国力较量，中国坚持创新驱动战略，科技实力日益增强，因而能够为全球产业链供应链稳定和全球发展提供支撑。
+
+### C. 2026顺义一模第20题
+
+## 理论
+
+**术语：共同利益**
+
+- 完整设问：结合材料，运用《当代国际政治与经济》知识，阐述科技小院成为南南合作典范的深层逻辑。
+- 细则位置：2026顺义一模第20题评标，“共同利益”，1分，标注为必答。
+- 来源：2026顺义一模 第20题
+- 材料触发：设问问“南南合作典范的深层逻辑”，实质是在问合作为什么能够成立、为什么能够持续；回答合作成立原因时，必须写共同利益这一理论基础，再结合科技小院回应全球南方国家农业发展和可持续发展需求。
+- 答案句：国家间共同利益是国家合作的基础，科技小院契合全球南方国家提升农业生产、培养人才和实现可持续发展的共同需求，因此能够成为南南合作典范。
+
+## 9. Batch Acceptance Checklist
+
+Before a batch is accepted:
+
+- No entry lacks `细则位置`.
+- No `术语：` phrase is invented.
+- Same scoring point has not been split into multiple entries.
+- No 必修二 term has entered the 选必一 main table.
+- `材料触发` is question-driven, not material-summary-driven.
+- Every repeated term accumulates multiple source-trigger cases under one term when the scoring function is genuinely the same.

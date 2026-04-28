@@ -1,6 +1,6 @@
 # 2026-04-29 GitHub Upload Scope
 
-This sync round preserves the portable project state produced during the 2026-04-28 to 2026-04-29 reruns.
+This sync round preserves the portable project state produced during the 2026-04-28 to 2026-04-29 reruns, plus the 2026-04-29 xuanbiyi overnight rebuild and skill split.
 
 ## Included
 
@@ -20,6 +20,14 @@ This sync round preserves the portable project state produced during the 2026-04
 - Desktop culture deliverables mirrored into
   `artifacts/desktop_exports_2026-04-29/4.29文化线56套重跑结果/`,
   including the final Word files, merged Markdown/CSV outputs, audit report, process logs, and render QA PNG pages.
+- Desktop xuanbiyi deliverables mirrored into
+  `artifacts/desktop_exports_2026-04-29/4.29飞哥政治庄园选必一凌晨v1版本/`,
+  including the final `.docx` and `.md`, the rebuild script, evidence bundle/digest files, and 22 render QA PNG pages.
+- Skill mirrors updated under
+  `skills/feige-politics-garden/`,
+  `skills/feige-politics-garden-bixiu4/`,
+  `skills/feige-politics-garden-xuanbiyi/`
+  so the visible sync repo preserves the new router plus split 必修四/选必一 workflow definitions.
 
 ## Excluded
 
