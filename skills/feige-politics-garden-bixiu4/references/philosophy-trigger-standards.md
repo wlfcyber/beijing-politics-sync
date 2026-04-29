@@ -68,6 +68,12 @@ Every main-question `trigger_logic` must contain a concrete answer landing. The 
 
 The answer landing must be something a student could put into an answer or use to build an answer sentence.
 
+For compound framework headings:
+
+- Do not let the heading supply unsupported content. If a heading says `物质决定意识，意识对物质具有能动作用` but the rubric only supports `物质决定意识` under a `必要性` subtask, the student-facing chain must only explain the necessity: the objective reality or objective condition determines why this answer direction is required.
+- Do not add `意识反作用于物质`, `意识反作用`, or similar phrases unless the rubric/source explicitly supports that half of the principle for that question.
+- If the same rubric separately supports `主观能动性`, add a separate entry under `主观能动性 / 意识的能动作用`; do not hide it inside the compound material-determines-consciousness entry.
+
 For "为什么/何以/为何/意义/原因" questions:
 
 - Write why the material fact, through the principle, proves the reason, value, or necessity asked by the question.

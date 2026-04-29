@@ -204,6 +204,24 @@ BAD_FINAL_PATTERNS = [
     r"本条为框架近邻迁入或人工保留，非细则逐字同名",
 ]
 
+META_ARTIFACT_TERMS = [
+    "评标",
+    "参考答案",
+    "答案写",
+    "答案/补充",
+    "答案核",
+    "答案提示",
+    "答案明确",
+    "答案及评分参考",
+    "阅卷",
+    "细则",
+    "评分",
+    "讲评",
+    "报告明确",
+]
+
+ANGLE_LIST_RE = re.compile(r"(?:可从|可以从|能够从|哲学角度可从|文化角度可从)[^。！？；]{0,120}角度作答")
+
 
 def clean_text(text: str) -> str:
     if not text:
@@ -217,7 +235,9 @@ def clean_text(text: str) -> str:
     text = re.sub(r"/Users/[^，。；\s]+", "", text)
     text = re.sub(r"C:\\[^，。；\s]+", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    text = re.sub(r"[^。！？；]*(?:阅卷|细则|评分|讲评|答案键|答案及评分参考|报告明确)[^。！？；]*[。！？；]?", "", text)
+    meta_terms_re = "|".join(re.escape(t) for t in META_ARTIFACT_TERMS + ["答案键"])
+    text = re.sub(rf"[^。！？；]*(?:{meta_terms_re})[^。！？；]*[。！？；]?", "", text)
+    text = re.sub(r"[^。！？；]*(?:可从|可以从|能够从|哲学角度可从|文化角度可从)[^。！？；]{0,120}角度作答[^。！？；]*[。！？；]?", "", text)
     text = text.replace("因此“", "因此可想到“")
     text = text.replace("因此稳定", "因此")
     text = text.replace("稳定给分", "正确项对应")
@@ -235,6 +255,14 @@ def clean_text(text: str) -> str:
     if not text or is_bad_scalar(text):
         return ""
     return text + ("。" if text[-1] not in "。！？；" else "")
+
+
+def contains_final_artifact_language(text: str) -> bool:
+    """Student-facing fields must not expose source-check or answer-key wording."""
+    text = str(text or "")
+    if not text:
+        return False
+    return any(term in text for term in META_ARTIFACT_TERMS) or bool(ANGLE_LIST_RE.search(text))
 
 
 QUESTION_CUES = [
@@ -740,6 +768,47 @@ def manual_2024_east_supplements():
     ]
 
 
+def manual_2026_haidian_q16_user_correction():
+    """User-verified correction for 2026海淀一模 Q16 detailed rubric split."""
+    prompt = (
+        "纵观整个人类发展史，凡是社会大发展、大变革的时代，也是人文学科推陈出新的时代，比如我国春秋战国时期的百家争鸣、西方的文艺复兴等。"
+        "当前，面对技术进步带来的社会巨变，人们迫切需要为这个充满机遇与挑战的时代注入新的思想活力。人工智能可以完成写作、翻译、分析信息等工作，"
+        "人文学科能教人如何辨析价值冲突。技术再进步，“人何以为人”的思考永不过时。技术可以模拟语言，却未必理解语言背后的情感；"
+        "算法可以识别图像，却无法体验图像所承载的历史记忆。当我们拥有足够的历史意识、伦理意识和文化理解时，技术才能真正成为文明进步的工具，"
+        "而不是新的风险来源。人工智能为我们赋能，人文学科为人工智能赋魂。有人说，人文学科在人工智能时代具有不可替代的价值。"
+        "结合材料，运用《哲学与文化》知识，谈谈对这一观点的认识。"
+    )
+    base = {
+        "origin": "user-verified-rubric-correction-2026-04-29",
+        "source": "2026海淀一模 第16题",
+        "source_key": normalize_source_key("2026海淀一模 第16题"),
+        "full_prompt": prompt,
+        "rubric": "用户人工复核：细则在“必要性”中列物质决定意识并解释；细则另有主观能动性；细则不含“意识反作用于物质”。本地 pypdf 缓存只抽到简版角度清单，按用户核验的完整细分口径修正。",
+    }
+    return [
+        {
+            **base,
+            "section": "唯物论",
+            "title": "物质决定意识：人工智能时代的客观现实决定人文学科不可替代的必要性",
+            "knowledge": "物质决定意识",
+            "material": "面对技术进步带来的社会巨变，人工智能可以完成写作、翻译、分析信息等工作，但技术无法真正理解情感、价值冲突和历史记忆。",
+            "trigger": "材料把人文学科的价值放在人工智能快速发展的客观时代背景中说明：不是主观想保留人文学科，而是技术进步、社会巨变和人工智能局限共同构成了客观现实。",
+            "why": "设问问“人文学科为什么不可替代”，关键是先看人工智能时代的客观现实：技术条件和社会生活方式已经发生变化，人工智能能处理信息却不能处理价值、情感和历史理解。正是这些客观变化和客观局限，决定了人们必须重新认识并需要人文学科。",
+            "landing": "因为物质决定意识，人工智能时代的客观技术变革、社会巨变和技术局限，决定人们需要人文学科来辨析价值冲突、理解情感和历史记忆；所以人文学科在人工智能时代不是可有可无，而具有不可替代的必要性。",
+        },
+        {
+            **base,
+            "section": "唯物论",
+            "title": "主观能动性 / 意识的能动作用：人要主动辨析价值冲突、理解技术边界",
+            "knowledge": "主观能动性 / 意识的能动作用",
+            "material": "人文学科能教人如何辨析价值冲突；技术再进步，“人何以为人”的思考永不过时；历史意识、伦理意识和文化理解是人工智能不能替代的。",
+            "trigger": "材料把“辨析价值冲突”“人何以为人”“历史意识、伦理意识和文化理解”交给人来完成，说明面对人工智能不能只被动接受技术结果，而要发挥人的能动思考和价值判断能力。",
+            "why": "主观能动性强调人能够有目的、有意识地认识世界、作出判断并选择行动方向。人工智能可以处理信息，但不能替人完成价值判断、伦理反思和文化理解；人文学科训练的正是人在技术时代主动思考、主动判断、主动把握方向的能力。",
+            "landing": "说明人文学科不可替代，还要写人必须发挥主观能动性：面对人工智能，人不能把价值判断和伦理选择完全交给技术，而要主动辨析价值冲突、理解技术边界和“人何以为人”的问题，这正是人文学科不可替代的价值。",
+        },
+    ]
+
+
 def manual_gap_coverage_supplements():
     """Quality backfills for suites exposed by the no-empty-logic validator."""
     hd2024_prompt = (
@@ -764,6 +833,14 @@ def manual_gap_coverage_supplements():
         "同时创新放水节文化表达，以情景剧演绎“李冰治水”故事，增设游客互动体验项目，让治水文化可触可感，为都江堰世界文化遗产的可持续发展注入智慧力量。"
         "结合材料，运用《哲学与文化》知识，阐释都江堰跨越千年的治水智慧。"
     )
+    xc2024_prompt = (
+        "在中国，有这样一个城市公园，没有精心筛选的观赏植物，没有大片修剪整齐的绿地，也没有平整规矩的健身步道。"
+        "园林设计师们从城市各个角落搜集了不同的土壤将公园填满，然后将种植权完全交给自然，让风来种，让鸟来种，让昆虫来种，让土壤里的种子自己萌发。"
+        "各种植物野蛮生长，那些常被园丁斩草除根的野草、野花和野树，成了这里的主人。这个完全信任自然、由自然意志主宰的公园如今枝繁叶茂、郁郁葱葱，"
+        "有各种各样的鸟类、昆虫、浮游生物、底栖动物，甚至出现了以往踪迹难觅的国家一级重点保护动物。这个公园向久居水泥森林的都市人，展现出自然界真正的物竞天择、景观春秋。"
+        "从哲学角度，说明处理人与自然的关系，应避免陷入人类中心主义。"
+    )
+    hd2026_q16_prompt = "结合材料，谈谈你对数字化世界中青年应如何对待信息工具的理解。"
     return [
         {
             "origin": "current-thread-gap-closure",
@@ -834,6 +911,34 @@ def manual_gap_coverage_supplements():
             "why": "辩证否定的实质是扬弃，既保留合理内核，又克服旧形式的局限。都江堰跨越千年，靠的正是守住因势利导、天人合一的智慧，并在新时代用科技和文化创新继续发展。",
             "landing": "阐释都江堰跨越千年的治水智慧，要写它在守正创新中实现扬弃：守住顺势治水、人与自然和谐共生的核心智慧，又通过现代科技保护和文化传播创新，使古代工程持续焕发生命力。",
             "rubric": "",
+        },
+        {
+            "origin": "current-thread-post-clean-coverage",
+            "section": "辩证法",
+            "title": "联系的普遍性 / 联系的观点：城市公园是自然要素相互作用的生命网络",
+            "source": "2024西城一模 第17题",
+            "source_key": normalize_source_key("2024西城一模 第17题"),
+            "full_prompt": xc2024_prompt,
+            "material": "城市公园把不同土壤、风、鸟、昆虫、土壤里的种子、野草野花野树以及鸟类和底栖动物放在同一生态过程里，呈现出自然界自己的相互作用。",
+            "trigger": "材料不是只写某一种植物，而是写土壤、种子、风鸟昆虫、植物和动物之间彼此影响、共同生成公园生态。",
+            "knowledge": "联系的普遍性 / 联系的观点",
+            "why": "联系的观点强调事物不是孤立存在的。题目要求说明为什么要避免人类中心主义，关键就在于自然界本身有复杂联系，人不能把自然只当作任意摆布的对象。",
+            "landing": "处理人与自然关系，应看到自然要素之间、人与自然之间都处在普遍联系中；尊重这些生态联系，才能让城市公园形成生物多样性和自然恢复力，避免用人类中心主义割裂自然自身的联系。",
+            "rubric": "2024西城一模第17题补充材料提到联系与发展、客观规律与主观能动性等角度；本条只保留学生可读的联系链。",
+        },
+        {
+            "origin": "current-thread-post-clean-coverage",
+            "section": "价值观",
+            "title": "价值观的导向作用：把信息工具放回辅助位置，培养独立思考",
+            "source": "2026海淀期末 第16题",
+            "source_key": normalize_source_key("2026海淀期末 第16题"),
+            "full_prompt": hd2026_q16_prompt,
+            "material": "数字化世界中的青年既享受信息工具的便利，也面对工具滥用、直接依赖工具替代自己思考的风险。",
+            "trigger": "材料把“如何对待信息工具”的问题落到青年自身的判断和选择上，说明关键不只是工具强不强，而是人用什么价值取向支配工具使用。",
+            "knowledge": "价值观的导向作用",
+            "why": "价值观会影响人们认识和改造世界的方向。面对数字化工具，青年如果把工具当作直接主体，就会削弱独立思考；如果树立正确价值观，就会把工具作为辅助，在使用中提升自身能力。",
+            "landing": "回答青年如何对待信息工具，要写正确价值观的导向作用：青年应警惕工具滥用和过度依赖，把信息工具作为辅助而不是替代自己思考的主体，在数字化世界中培养辨别、判断和自主学习能力。",
+            "rubric": "2026海淀期末第16题评分材料列价值观导向和正确价值观促进作用；本条转写为学生可读链条。",
         },
     ]
 
@@ -958,10 +1063,11 @@ def student_why(row):
     text = clean_text(row.get("why", ""))
     if not text:
         return ""
-    text = re.sub(r"[^。！？]*(?:阅卷|细则|评分|讲评)[^。！？]*[。！？]", "", text)
+    meta_terms_re = "|".join(re.escape(t) for t in META_ARTIFACT_TERMS)
+    text = re.sub(rf"[^。！？]*(?:{meta_terms_re})[^。！？]*[。！？]", "", text)
     text = re.sub(r"因此[^。！？]*(?:补入|栏目|该题不能)[^。！？]*[。！？]?", "", text)
     text = re.sub(r"因此[^。！？]*(?:课堂整理链|归入|放进|纳入)[^。！？]*[。！？]?", "", text)
-    meta_terms = ["阅卷", "细则", "评分", "讲评", "补入", "该题不能", "栏目", "课堂整理链", "归入"]
+    meta_terms = META_ARTIFACT_TERMS + ["补入", "该题不能", "栏目", "课堂整理链", "归入"]
     parts = [p.strip() for p in re.split(r"(?<=[。！？])", text) if p.strip()]
     kept = [p for p in parts if not any(t in p for t in meta_terms)]
     return clean_text("".join(kept) or text)
@@ -975,13 +1081,13 @@ def logic_only(row):
 
 
 def make_landing(row):
-    bad_landing_terms = ["选择题中要把", "不能只看话题相似", "作答时要把材料", "这一原理的运用", "该题不能", "补入", "归入", "课堂整理链", "可想到"]
+    bad_landing_terms = META_ARTIFACT_TERMS + ["选择题中要把", "不能只看话题相似", "作答时要把材料", "这一原理的运用", "该题不能", "补入", "归入", "课堂整理链", "可想到"]
     landing = clean_text(row.get("landing", ""))
-    if landing and not any(t in landing for t in bad_landing_terms):
+    if landing and not any(t in landing for t in bad_landing_terms) and not ANGLE_LIST_RE.search(landing):
         return landing
     why = row.get("why", "")
     # Use the last substantial non-meta sentence as a concrete answer direction.
-    meta_terms = ["触发", "补入", "该题", "栏目", "细则", "阅卷", "评分", "材料链", "作答时", "学生", "归入", "课堂整理链", "可想到"]
+    meta_terms = META_ARTIFACT_TERMS + ["触发", "补入", "该题", "栏目", "材料链", "作答时", "学生", "归入", "课堂整理链", "可想到"]
     parts = [p.strip() for p in re.split(r"[。！？]", why) if len(p.strip()) > 8]
     parts = [p for p in parts if not any(t in p for t in meta_terms)] or parts
     if parts:
@@ -1005,6 +1111,7 @@ def enrich_rows():
     )
     manual = manual_supplements()
     manual += manual_2024_east_supplements()
+    manual += manual_2026_haidian_q16_user_correction()
     manual += manual_gap_coverage_supplements()
 
     # Current-thread supplements often contain the full prompt for OCR-repaired suites
@@ -1047,6 +1154,11 @@ def enrich_rows():
         if not any(t in c.get("knowledge", "") for t in ["物质决定意识", "物质与意识", "意识对物质"]):
             continue
         key = c.get("source_key")
+        if key == ("2026", "海淀", "一模", "16", ""):
+            # User-verified detailed rubric correction is injected below via
+            # manual_2026_haidian_q16_user_correction(); avoid keeping the old
+            # compound-node wording that added unsupported "意识反作用于物质".
+            continue
         c["full_prompt"] = prompt_by_key.get(key) or prompt_by_key.get(same_source_key_loose(key), "")
         if c["full_prompt"]:
             if key == ("2026", "海淀", "一模", "16", ""):
@@ -1081,7 +1193,13 @@ def enrich_rows():
         if not r.get("full_prompt"):
             key = r.get("source_key")
             r["full_prompt"] = prompt_by_key.get(key) or prompt_by_key.get(same_source_key_loose(key), "")
-        if not (student_trigger(r) and student_why(r) and clean_text(r.get("landing", ""))):
+        final_trigger = student_trigger(r)
+        final_prompt = question_prompt(r.get("full_prompt") or r.get("material") or "")
+        final_why = student_why(r)
+        final_landing = clean_text(r.get("landing", ""))
+        if not (final_trigger and final_why and final_landing):
+            continue
+        if any(contains_final_artifact_language(x) for x in [final_trigger, final_prompt, final_why, final_landing]):
             continue
         # Only de-duplicate very close repeats; keep same question under different principles.
         sig = (r.get("source"), module, node, re.sub(r"\W+", "", r.get("knowledge", ""))[:18], re.sub(r"\W+", "", r.get("title", ""))[:18])
@@ -1255,7 +1373,7 @@ def write_audit(rows):
     audit_path = AUDIT / "Codex宝典补全版_审计索引.csv"
     fields = ["module", "node", "source", "question_type", "title", "knowledge", "origin", "has_full_prompt", "has_landing", "has_image"]
     with audit_path.open("w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fields)
+        w = csv.DictWriter(f, fields, lineterminator="\n")
         w.writeheader()
         for r in rows:
             w.writerow(
@@ -1316,7 +1434,7 @@ def write_coverage(rows):
                 )
     if out_rows:
         with coverage_path.open("w", encoding="utf-8-sig", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=list(out_rows[0].keys()))
+            w = csv.DictWriter(f, fieldnames=list(out_rows[0].keys()), lineterminator="\n")
             w.writeheader()
             w.writerows(out_rows)
     passed = sum(1 for r in out_rows if r["status"] == "PASS_3PLUS")
@@ -1358,6 +1476,8 @@ def main():
                 "- 当前线程已独立回源补做 2026海淀一模、2026丰台一模、2026房山一模、2025朝阳一模等同类漏项，并覆盖到对应原理节点。",
                 "- 2026-04-29 晚间修订：按用户母版恢复五大哲学模块和具体原理节点；字段顺序改为“材料触发点 → 设问 → 为什么能想到 → 答案落点”；同节点内按主观题优先、海淀/西城/东城/朝阳/丰台优先排序；去掉彩色卡片式排版；漫画题嵌入图片。",
                 "- 2026-04-29 覆盖补齐：合并 late objective closure、S040 样稿、worker audit CSV，并对合并漏项做定点 backfill；56 套全部达到至少 3 个触发点。",
+                "- 2026-04-29 海淀一模第16题修正：物质决定意识节点只写“必要性”，不写意识反作用；同题另在主观能动性节点单独成条；本地 pypdf 缓存只含简版角度清单，按用户人工核验的完整细分口径修正。",
+                "- 2026-04-29 最终正文清洗：`评标`、`参考答案`、`答案写`、`答案/补充`、`答案核`、`可从……角度作答` 等审计话术不得进入学生版；清洗后对 2024西城一模、2026海淀期末做了学生可读链条补齐。",
                 "- 学生版已清理路径、行号、文件名、OCR/debug/log 信息；审计索引单独存放。",
                 "",
                 f"- Markdown：{md_path}",
