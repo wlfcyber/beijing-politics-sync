@@ -14,6 +14,13 @@ Use this reference for 必修四哲学 material-to-knowledge framework work, esp
 
 - Student-facing final documents are organized by the user's original principle/method framework nodes, not by suite or question order.
 - Preserve the user's exact philosophy framework granularity. In 唯物论, do not merge distinct nodes: `物质决定意识，意识对物质具有能动作用`, `一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一`, `主观能动性 / 意识的能动作用`, `尊重客观规律与发挥主观能动性相结合`, and `规律的客观性` must remain separate headings. The same rule applies to the user's 辩证法、认识论、历史唯物主义、价值观/人生观 subnodes.
+- This "do not merge" rule applies to every later framework too, not only 唯物论. Required minimum student-facing nodes:
+  - 辩证法: `联系的普遍性 / 联系的观点（总）`, `整体与部分 / 系统观念 / 系统优化`, `发展的观点 / 发展的普遍性`, `量变与质变 / 适度原则`, `事物发展是前进性与曲折性的统一`, `辩证否定 / 守正创新`, `矛盾就是对立统一`, `矛盾的普遍性`, `矛盾的特殊性 / 具体问题具体分析`, `矛盾的普遍性和特殊性`, `两点论与重点论`, `内因与外因`.
+  - 认识论: `实践与认识（总）`, `实践是认识的基础`, `认识对实践的反作用`, `认识发展原理`, `真理观`.
+  - 历史唯物主义: `社会存在与社会意识`, `社会发展的两大基本规律和基本矛盾`, `改革 / 改革的实质`, `人民群众`.
+  - 价值观 / 人生观: `价值观的导向作用`, `价值判断与价值选择`, `实现人生价值`.
+  - 文化线若进入同一产物，必须单独标明为必修四文化线，并拆成文化功能、优秀传统文化传承与双创、民族精神/文化自信、社会主义核心价值观等节点，不得混入哲学主框架。
+- Before every 必修四宝典 generation or repair, reread the project notebook `00_飞哥必修四宝典硬性要求记事本.md` when present; otherwise apply this section as the notebook of record. New user requirements must be appended to the notebook/skill, not allowed to overwrite older requirements in memory only.
 - Inside each principle/method node, order entries by student usefulness: main questions before choice questions; within the same type, prioritize districts in this order: 海淀、 西城、 东城、 朝阳、 丰台, then other districts.
 - The required title for the final student-facing Word document is `2026北京高考政治哲学宝典---三年模拟全触发全链条`.
 - The cover page should be clean, atmospheric, and student-facing: show only the title and a large signature `飞哥正志讲堂`. Remove subtitles, process notes, source notes, logs, and explanatory clutter from the cover.
