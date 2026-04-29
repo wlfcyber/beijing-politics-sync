@@ -237,6 +237,104 @@ def clean_text(text: str) -> str:
     return text + ("。" if text[-1] not in "。！？；" else "")
 
 
+QUESTION_CUES = [
+    "结合材料",
+    "综合运用",
+    "运用《",
+    "运用所学",
+    "从哲学角度",
+    "从哲学与文化角度",
+    "谈谈",
+    "说明",
+    "分析",
+    "阐释",
+    "评价",
+    "认识",
+    "理解",
+    "为什么",
+    "为何",
+    "如何",
+    "应如何",
+    "请你",
+]
+
+QUESTION_LEADIN_CUES = [
+    "有人说",
+    "有人认为",
+    "有观点",
+    "社会上有人",
+    "网友认为",
+    "也有人认为",
+    "这一观点",
+    "该观点",
+    "上述观点",
+    "这句话",
+    "这一问题",
+    "这一时代命题",
+]
+
+
+def sentence_split(text: str):
+    return re.findall(r"[^。！？]+[。！？]?", str(text or ""))
+
+
+def is_question_sentence(sentence: str) -> bool:
+    s = str(sentence or "").strip()
+    return any(cue in s for cue in QUESTION_CUES) or bool(re.search(r"[？?]\s*$", s))
+
+
+def is_question_leadin(sentence: str) -> bool:
+    s = str(sentence or "").strip()
+    if len(s) > 160:
+        return False
+    return any(cue in s for cue in QUESTION_LEADIN_CUES)
+
+
+def trim_inline_material_before_question(text: str) -> str:
+    """If material and question sit in one sentence, cut at the real question cue."""
+    text = str(text or "").strip()
+    for cue in ["结合材料", "综合运用", "运用《", "运用所学"]:
+        idx = text.rfind(cue)
+        if idx <= 0:
+            continue
+        lead = text[:idx].strip(" ，；。")
+        tail = text[idx:].strip()
+        if len(lead) <= 160 and is_question_leadin(lead):
+            return clean_text(lead + "。" + tail)
+        m = re.search(r"([^。！？]{0,160}(?:有人说|有人认为|有观点|社会上有人|网友认为|“[^”]{1,120}”)[^。！？]*)$", lead)
+        if m:
+            return clean_text(m.group(1).strip(" ，；。") + "。" + tail)
+        return clean_text(tail)
+    return clean_text(text)
+
+
+def question_prompt(text: str) -> str:
+    """Return only the exam question prompt, not the whole material body."""
+    text = clean_text(text)
+    if not text:
+        return ""
+    sentences = [s.strip() for s in sentence_split(text) if s.strip()]
+    if len(text) <= 180:
+        return text
+    q_idx = None
+    for i in range(len(sentences) - 1, -1, -1):
+        if is_question_sentence(sentences[i]):
+            q_idx = i
+            break
+    if q_idx is None:
+        return text
+
+    start = q_idx
+    while start > 0 and is_question_leadin(sentences[start - 1]):
+        start -= 1
+    candidate = clean_text("".join(sentences[start:]))
+    if len(candidate) > 220:
+        candidate = trim_inline_material_before_question(candidate)
+    if candidate:
+        return candidate
+    return text
+
+
 def short_source(text: str) -> str:
     text = clean_text(text)
     text = re.sub(r"（[^）]*(?:pdf|docx|pptx|缓存|答案源|评分标准|细则|阅卷)[^）]*）", "", text, flags=re.I)
@@ -326,7 +424,7 @@ def parse_v6_prompts_and_entries():
             if title.startswith(("一、", "二、")) or "学生版条目" in title:
                 continue
             source = field(block, "**来源题目**")
-            full_prompt = field(block, "**完整设问**") or field(block, "**完整题干**")
+            full_prompt = question_prompt(field(block, "**完整设问**") or field(block, "**完整题干**"))
             if full_prompt == "同上。" and last_prompt:
                 full_prompt = last_prompt
             elif full_prompt:
@@ -747,13 +845,14 @@ def bracket_field(block: str, label: str) -> str:
 
 def parse_supplement_block(section: str, title: str, block: str):
     source = bracket_field(block, "来源题目")
+    full_prompt = question_prompt(bracket_field(block, "材料与设问"))
     return {
         "origin": "current-thread-supplement",
         "section": section,
         "title": title,
         "source": short_source(source),
         "source_key": normalize_source_key(source),
-        "full_prompt": bracket_field(block, "材料与设问"),
+        "full_prompt": full_prompt,
         "material": bracket_field(block, "材料触发点"),
         "trigger": bracket_field(block, "材料触发点"),
         "knowledge": title.split("：")[0],
@@ -913,7 +1012,7 @@ def enrich_rows():
     # valid Codex framework rows such as 2026海淀一模/物质决定意识 get filtered out.
     for prompt_row in supplements + csv_backfills + manual:
         key = prompt_row.get("source_key")
-        full_prompt = prompt_row.get("full_prompt")
+        full_prompt = question_prompt(prompt_row.get("full_prompt"))
         if key and full_prompt:
             prompt_by_key.setdefault(key, full_prompt)
             prompt_by_key.setdefault(same_source_key_loose(key), full_prompt)
@@ -1024,8 +1123,8 @@ def build_markdown(rows):
                 if r.get("image_path"):
                     lines.append(f"![漫画]({student_image_ref(r['image_path'])})")
                     lines.append("")
-                mat_prompt = r.get("full_prompt") or r.get("material") or ""
-                lines.append(f"【设问】 {clean_text(mat_prompt)}")
+                mat_prompt = question_prompt(r.get("full_prompt") or r.get("material") or "")
+                lines.append(f"【设问】 {mat_prompt}")
                 lines.append("")
                 lines.append(f"【为什么能想到】 {student_why(r)}")
                 lines.append("")
