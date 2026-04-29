@@ -13,17 +13,19 @@ Use this reference for 必修四哲学 material-to-knowledge framework work, esp
 ## 2. Final Artifact Shape
 
 - Student-facing final documents are organized by the user's original principle/method framework nodes, not by suite or question order.
+- Preserve the user's exact philosophy framework granularity. In 唯物论, do not merge distinct nodes: `物质决定意识，意识对物质具有能动作用`, `一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一`, `主观能动性 / 意识的能动作用`, `尊重客观规律与发挥主观能动性相结合`, and `规律的客观性` must remain separate headings. The same rule applies to the user's 辩证法、认识论、历史唯物主义、价值观/人生观 subnodes.
+- Inside each principle/method node, order entries by student usefulness: main questions before choice questions; within the same type, prioritize districts in this order: 海淀、 西城、 东城、 朝阳、 丰台, then other districts.
 - The required title for the final student-facing Word document is `2026北京高考政治哲学宝典---三年模拟全触发全链条`.
 - The cover page should be clean, atmospheric, and student-facing: show only the title and a large signature `飞哥正志讲堂`. Remove subtitles, process notes, source notes, logs, and explanatory clutter from the cover.
 - Page 2 should reserve a foreword section for the user to write later. Do not fill it with work logs or generated process explanation.
+- Use a clean, simple classroom layout for the final Word artifact. Avoid colorful card-style blocks, decorative color bands, and noisy visual styling. Use typography and spacing rather than colored boxes to separate entries.
+- Comic/cartoon questions must include the actual comic/cartoon image in the student-facing Word document when the source page image is available. The image should be embedded, not represented only by a text description or a local source path.
 - Claude Code may design the Word layout according to its own aesthetic judgment, but it must not change the verified content, framework organization, or evidence boundaries.
 - Each main-question entry must include:
-  - knowledge point;
-  - material trigger point;
-  - why this material triggers the principle and how the principle answers the question;
-  - material/question excerpt with the full question prompt;
-  - rubric/scoring correspondence;
-  - necessary boundary notes only when they help avoid misuse.
+  - material trigger point first, written as at least one complete sentence;
+  - the full question prompt;
+  - why this material makes a student think of this principle/method, stated in knowledge terms rather than source-filing terms;
+  - the concrete answer landing.
 - The full question prompt is mandatory. Do not reduce it to a question number or half prompt.
 - Materials may be excerpted only around the trigger words, relations, actions, conflicts, subject, or process.
 - Student-facing documents must not display source paths, line ids, file ids, slide ids, entry ids, OCR/debug notes, or audit provenance such as `L24`, `F04`, `slide3`, `S015_F01`, `/Users/...`, `pdf`, `docx`, `pptx`.
