@@ -15,7 +15,7 @@ Use this reference for 必修四哲学 material-to-knowledge framework work, esp
 - Student-facing final documents are organized by the user's original principle/method framework nodes, not by suite or question order.
 - Preserve the user's exact philosophy framework granularity. In 唯物论, do not merge distinct nodes: `物质决定意识，意识对物质具有能动作用`, `一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一`, `主观能动性 / 意识的能动作用`, `尊重客观规律与发挥主观能动性相结合`, and `规律的客观性` must remain separate headings. The same rule applies to the user's 辩证法、认识论、历史唯物主义、价值观/人生观 subnodes.
 - This "do not merge" rule applies to every later framework too, not only 唯物论. Required minimum student-facing nodes:
-  - 辩证法: `联系的普遍性 / 联系的观点（总）`, `整体与部分 / 系统观念 / 系统优化`, `发展的观点 / 发展的普遍性`, `量变与质变 / 适度原则`, `事物发展是前进性与曲折性的统一`, `辩证否定 / 守正创新`, `矛盾就是对立统一`, `矛盾的普遍性`, `矛盾的特殊性 / 具体问题具体分析`, `矛盾的普遍性和特殊性`, `两点论与重点论`, `内因与外因`.
+  - 辩证法: `联系的普遍性 / 联系的观点（总）`, `联系的客观性`, `根据固有联系建立新的具体联系`, `联系的多样性`, `整体与部分`, `系统观念 / 系统优化`, `发展的观点 / 发展的普遍性`, `量变与质变 / 适度原则`, `事物发展是前进性与曲折性的统一`, `辩证否定 / 守正创新`, `矛盾就是对立统一`, `矛盾的普遍性`, `矛盾的特殊性 / 具体问题具体分析`, `矛盾的普遍性和特殊性`, `两点论与重点论`, `内因与外因`.
   - 认识论: `实践与认识（总）`, `实践是认识的基础`, `认识对实践的反作用`, `认识发展原理`, `真理观`.
   - 历史唯物主义: `社会存在与社会意识`, `社会发展的两大基本规律和基本矛盾`, `改革 / 改革的实质`, `人民群众`.
   - 价值观 / 人生观: `价值观的导向作用`, `价值判断与价值选择`, `实现人生价值`.
@@ -36,6 +36,7 @@ Use this reference for 必修四哲学 material-to-knowledge framework work, esp
 - The full question prompt is mandatory. Do not reduce it to a question number or half prompt.
 - Materials may be excerpted only around the trigger words, relations, actions, conflicts, subject, or process.
 - Student-facing documents must not display source paths, line ids, file ids, slide ids, entry ids, OCR/debug notes, or audit provenance such as `L24`, `F04`, `slide3`, `S015_F01`, `/Users/...`, `pdf`, `docx`, `pptx`.
+- Student-facing answer landings must never be status fields such as `yes`, `pass`, `filled`, `included`, `correct_option_chain`, or `PASS_OBJECTIVE`; if any such token appears as an answer landing, the final artifact fails validation.
 - Keep provenance, source paths, line numbers, blockers, and verification notes in a separate audit evidence file.
 - The final student-facing document must contain no work log appendix. Work logs, OCR trails, path evidence, comparison tables, and unresolved evidence notes belong in audit files only.
 
