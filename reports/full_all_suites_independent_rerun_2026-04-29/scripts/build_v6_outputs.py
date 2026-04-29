@@ -1,9 +1,18 @@
-﻿import csv, re, shutil
+﻿import csv, os, re, shutil
 from pathlib import Path
 from datetime import datetime
 
-RUN = Path(r'C:\bp_sync_visible\reports\full_all_suites_independent_rerun_2026-04-29')
-DESKTOP = Path(r'C:\Users\Administrator\Desktop\4.29凌晨跑完的结果v6')
+SCRIPT_DIR = Path(__file__).resolve().parent
+LOCAL_RUN = SCRIPT_DIR.parent
+DEFAULT_RUN = Path(r'C:\bp_sync_visible\reports\full_all_suites_independent_rerun_2026-04-29')
+DEFAULT_DESKTOP = (
+    Path.home() / 'Desktop' / '4.29凌晨跑完的结果v6'
+    if os.name != 'nt'
+    else Path(r'C:\Users\Administrator\Desktop\4.29凌晨跑完的结果v6')
+)
+
+RUN = Path(os.environ.get('V6_RUN_DIR') or (LOCAL_RUN if LOCAL_RUN.exists() else DEFAULT_RUN))
+DESKTOP = Path(os.environ.get('V6_OUTPUT_DIR') or DEFAULT_DESKTOP)
 STUDENT = DESKTOP / '01_学生版Word'
 AUDIT = DESKTOP / '02_审计证据'
 CSVOUT = DESKTOP / '03_结构化CSV'
@@ -42,6 +51,8 @@ def sanitize_student_text(text):
         'suite | q | answer | module | correct-option chain': '套卷｜题号｜答案｜模块｜正确项链条',
         'bundle text': '资料包文本',
         '文本识别记录': '技术记录',
+        '文本识别 记录': '技术记录',
+        'source id': '证据编号',
         'correct_and_wrong_option_chain': '正确项/错肢链',
         'correct_option_chain': '正确项链',
         'choice_chain': '选择题链',
@@ -55,6 +66,14 @@ def sanitize_student_text(text):
     text = text.replace('`', '')
     text = text.replace('这里不放路径、行号、文件号、文本识别记录；证据路径放在审计样稿和 CSV 里。',
                         '这里不放证据路径和技术记录；证据细节放在审计样稿和 CSV 里。')
+    text = text.replace('这里不放路径、行号、文件号、技术记录；证据路径放在审计样稿和 CSV 里。',
+                        '这里不放证据路径和技术记录；证据细节放在审计样稿和 CSV 里。')
+    text = text.replace('这里不放路径、行号、技术记录、证据编号。证据边界见审计 CSV。',
+                        '这里不放证据路径和技术记录；证据边界见审计 CSV。')
+    text = text.replace('这里不放路径、行号、文本识别、证据编号。证据边界见审计 CSV。',
+                        '这里不放证据路径和技术记录；证据边界见审计 CSV。')
+    text = text.replace('说明：本文件不放路径、行号、文本识别、证据编号。证据边界见审计 CSV。',
+                        '说明：本文件不放证据路径和技术记录；证据边界见审计 CSV。')
     return text
 
 sample_student = read_text(RUN / 'sample_outputs' / 'S040_2026东城一模_student_facing_sample.md')
