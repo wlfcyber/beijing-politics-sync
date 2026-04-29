@@ -13,20 +13,23 @@ Use this reference for 必修四哲学 material-to-knowledge framework work, esp
 ## 2. Final Artifact Shape
 
 - Student-facing final documents are organized by the user's original principle/method framework nodes, not by suite or question order.
+- Preserve the user's framework granularity. In 唯物论, keep `物质决定意识`, `一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一`, `主观能动性 / 意识的能动作用`, `尊重客观规律与发挥主观能动性相结合`, and `规律的客观性` as separate nodes. Do not mix `物质决定意识` with `意识能动作用/意识反作用`; if a source separately supports human initiative or value judgment, create a separate entry under `主观能动性 / 意识的能动作用`.
+- The same no-merge rule applies to 辩证法、认识论、历史唯物主义、价值观/人生观 and the optional culture line; do not collapse later frameworks into broad buckets.
 - The required title for the final student-facing Word document is `2026北京高考政治哲学宝典---三年模拟全触发全链条`.
 - The cover page should be clean, atmospheric, and student-facing: show only the title and a large signature `飞哥正志讲堂`. Remove subtitles, process notes, source notes, logs, and explanatory clutter from the cover.
 - Page 2 should reserve a foreword section for the user to write later. Do not fill it with work logs or generated process explanation.
 - Claude Code may design the Word layout according to its own aesthetic judgment, but it must not change the verified content, framework organization, or evidence boundaries.
 - Each main-question entry must include:
-  - knowledge point;
-  - material trigger point;
-  - why this material triggers the principle and how the principle answers the question;
-  - material/question excerpt with the full question prompt;
-  - rubric/scoring correspondence;
-  - necessary boundary notes only when they help avoid misuse.
+  - material trigger point first, written as at least one complete sentence;
+  - the full question prompt;
+  - why this material makes a student think of this principle/method, stated in knowledge terms rather than source-filing terms;
+  - the concrete answer landing.
+- The student-facing field order is fixed: `材料触发点 -> 设问 -> 为什么能想到 -> 答案落点`. The question field must contain only the real question prompt; material text belongs in the trigger field.
 - The full question prompt is mandatory. Do not reduce it to a question number or half prompt.
 - Materials may be excerpted only around the trigger words, relations, actions, conflicts, subject, or process.
 - Student-facing documents must not display source paths, line ids, file ids, slide ids, entry ids, OCR/debug notes, or audit provenance such as `L24`, `F04`, `slide3`, `S015_F01`, `/Users/...`, `pdf`, `docx`, `pptx`.
+- Student-facing final text must not expose audit/checking language such as `正确项链`, `错肢`, `错项`, `第n题答案`, `参考示例`, `9分标准`, `评标`, `参考答案`, `答案写`, `答案核`, or `可从……角度作答`. Keep those in audit files only.
+- Student-facing answer landings must never be status fields such as `yes`, `pass`, `filled`, `included`, `correct_option_chain`, or `PASS_OBJECTIVE`; if any such token appears as an answer landing, the final artifact fails validation.
 - Keep provenance, source paths, line numbers, blockers, and verification notes in a separate audit evidence file.
 - The final student-facing document must contain no work log appendix. Work logs, OCR trails, path evidence, comparison tables, and unresolved evidence notes belong in audit files only.
 
@@ -39,6 +42,8 @@ It must include:
 1. Material signal: the exact material word, phrase, relation, subject action, contradiction, process, value orientation, or condition.
 2. Knowledge trigger: why that signal fits a specific principle/method, stated in knowledge terms.
 3. Answer landing: how that principle/method answers the exact question.
+
+The `为什么能想到` part must name a concrete material signal that a student can see in the paper. It fails validation if it merely starts with generic process language such as "材料强调...", "题目不是...", "这类题要...", or "可从某角度..." without explaining the material-to-principle knowledge relation. It also fails if it simply repeats the material trigger sentence or is too short to teach the chain.
 
 Forbidden trigger logic:
 
@@ -81,6 +86,12 @@ Every main-question `trigger_logic` must contain a concrete answer landing. The 
 `答案落点：...`
 
 The answer landing must be something a student could put into an answer or use to build an answer sentence.
+
+For compound or legacy framework headings:
+
+- Do not let a broad heading supply unsupported content. If the rubric only supports `物质决定意识` under a `必要性` subtask, the student-facing chain must only explain the necessity: the objective reality or objective condition determines why this answer direction is required.
+- Do not add `意识反作用于物质`, `意识反作用`, or similar phrases unless the rubric/source explicitly supports that half of the principle for that question.
+- If the same rubric separately supports `主观能动性`, add a separate entry under `主观能动性 / 意识的能动作用`; do not hide it inside the material-determines-consciousness entry.
 
 For "为什么/何以/为何/意义/原因" questions:
 
@@ -143,6 +154,7 @@ Reject a batch if:
 - final student entries are organized by questions rather than framework nodes;
 - trigger logic merely says the rubric mentioned a point;
 - answer landing is a meta-instruction rather than a concrete answer sentence;
+- `为什么能想到` simply repeats the trigger, is too short, uses audit wording, or uses generic process language instead of a material-to-principle explanation;
 - source paths or line/file/slide ids appear in the student-facing document;
 - full question prompts are missing;
 - ordinary reference answers are treated as rubrics;
