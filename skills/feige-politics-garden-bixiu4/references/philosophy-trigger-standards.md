@@ -20,7 +20,7 @@ Use this reference for 必修四哲学 material-to-knowledge framework work, esp
   - 历史唯物主义: `社会存在与社会意识`, `社会发展的两大基本规律和基本矛盾`, `改革 / 改革的实质`, `人民群众`.
   - 价值观 / 人生观: `价值观的导向作用`, `价值判断与价值选择`, `实现人生价值`.
   - 文化线若进入同一产物，必须单独标明为必修四文化线，并拆成文化功能、优秀传统文化传承与双创、民族精神/文化自信、社会主义核心价值观等节点，不得混入哲学主框架。
-- Before every 必修四宝典 generation or repair, reread the project notebook `00_飞哥必修四宝典硬性要求记事本.md` when present; otherwise apply this section as the notebook of record. New user requirements must be appended to the notebook/skill, not allowed to overwrite older requirements in memory only.
+- Before every 必修四宝典 generation or repair, reread the project notebook `00_飞哥必修四宝典硬性要求记事本.md` when present, and the repo copy `references/baodian-hard-rules-notebook.md` when working from GitHub. New user requirements must be appended to the notebook/skill, not allowed to overwrite older requirements in memory only.
 - Inside each principle/method node, order entries by student usefulness: main questions before choice questions; within the same type, prioritize districts in this order: 海淀、 西城、 东城、 朝阳、 丰台, then other districts.
 - The required title for the final student-facing Word document is `2026北京高考政治哲学宝典---三年模拟全触发全链条`.
 - The cover page should be clean, atmospheric, and student-facing: show only the title and a large signature `飞哥正志讲堂`. Remove subtitles, process notes, source notes, logs, and explanatory clutter from the cover.
