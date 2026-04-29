@@ -36,8 +36,8 @@ FRAMEWORK_STRUCTURE = OrderedDict(
             "一、唯物论",
             [
                 (
-                    "物质决定意识，意识对物质具有能动作用",
-                    ["物质决定意识", "物质与意识", "意识对物质", "意识是对客观存在", "意识依赖于物质"],
+                    "物质决定意识",
+                    ["物质决定意识", "物质与意识", "意识是对客观存在", "意识依赖于物质"],
                 ),
                 (
                     "一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一",
@@ -45,7 +45,7 @@ FRAMEWORK_STRUCTURE = OrderedDict(
                 ),
                 (
                     "主观能动性 / 意识的能动作用",
-                    ["主观能动性", "意识的能动作用", "意识能动作用", "能动创造性", "发挥主观能动性"],
+                    ["主观能动性", "意识的能动作用", "意识能动作用", "意识对物质", "能动创造性", "发挥主观能动性"],
                 ),
                 (
                     "尊重客观规律与发挥主观能动性相结合",
@@ -122,7 +122,7 @@ SUBNODE_ORDER = [(module, subnode, keys) for module, children in FRAMEWORK_STRUC
 SUBNODE_INDEX = {(module, subnode): i for i, (module, subnode, _) in enumerate(SUBNODE_ORDER)}
 
 CLASSIFICATION_PRIORITY = [
-    ("一、唯物论", "物质决定意识，意识对物质具有能动作用"),
+    ("一、唯物论", "物质决定意识"),
     ("一、唯物论", "尊重客观规律与发挥主观能动性相结合"),
     ("一、唯物论", "一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一"),
     ("一、唯物论", "主观能动性 / 意识的能动作用"),
@@ -263,6 +263,134 @@ def contains_final_artifact_language(text: str) -> bool:
     if not text:
         return False
     return any(term in text for term in META_ARTIFACT_TERMS) or bool(ANGLE_LIST_RE.search(text))
+
+
+STUDENT_ARTIFACT_RE = re.compile(
+    r"(正确项链|错肢|错项|第\s*\d+\s*题答案|参考示例|9分标准|可读页图|示例写|迁入正确项|迁入[①②③④0-9、 ]+正确项|答案：|答案\s*[A-D]\b|哲学角度含|文化角度含)"
+)
+
+
+def scrub_student_language(text: str) -> str:
+    """Turn audit/checking language into classroom-facing wording."""
+    text = clean_text(text)
+    if not text:
+        return ""
+    text = re.sub(r"第\s*\d+\s*题答案\s*[A-D]?\s*[；;]?", "", text)
+    text = re.sub(r"答案\s*[A-D]\s*[；;。]?", "", text)
+    text = re.sub(r"正确项链[：:]?", "题干信号：", text)
+    text = re.sub(r"错肢[：:]?", "易错边界：", text)
+    text = re.sub(r"错项", "易错说法", text)
+    text = text.replace("参考示例要求", "材料要求")
+    text = text.replace("参考示例", "材料")
+    text = text.replace("9分标准必采", "题目要求写出")
+    text = re.sub(r"可读页图显示[：:]?", "", text)
+    text = text.replace("示例写", "材料呈现")
+    text = re.sub(r"迁入正确项[：:]?[①②③④0-9、 ]+[；;]?", "", text)
+    text = re.sub(r"迁入[①②③④0-9、 ]+正确项[；;]?", "", text)
+    text = text.replace("正确项", "符合题意的说法")
+    text = text.replace("答案：", "")
+    text = text.replace("哲学角度含", "从哲学上看，材料涉及")
+    text = text.replace("文化角度含", "从文化上看，材料涉及")
+    text = text.replace("发挥正确意识和正确价值观的导向作用", "发挥人的能动思考和正确价值观的导向作用")
+    text = text.replace("正确意识", "正确认识")
+    text = re.sub(r"\s+", " ", text).strip(" ；，。")
+    return text + ("。" if text and text[-1] not in "。！？；" else "")
+
+
+def evidence_fragment(row):
+    text = scrub_student_language(row.get("material") or row.get("trigger") or row.get("full_prompt") or "")
+    text = re.sub(r"!\[[^\]]*\]\([^)]+\)", "", text).strip()
+    quoted = re.findall(r"[“《]([^”》]{2,28})[”》]", text)
+    if quoted:
+        return "、".join(quoted[:3])
+    sentence = sentence_split(text)[0].strip() if sentence_split(text) else text
+    return sentence[:110].rstrip("，；。") + ("..." if len(sentence) > 110 else "")
+
+
+NODE_BRIDGES = {
+    "物质决定意识": "先有客观条件、现实变化或时代问题，再产生相应认识和价值判断，符合物质决定意识。",
+    "一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一": "材料先给出具体地点、对象、条件或问题，说明方案和判断必须从这些实际出发。",
+    "主观能动性 / 意识的能动作用": "材料突出人在认识、判断、设计、选择或表达中的主动作用，所以能想到人的意识活动具有能动性。",
+    "尊重客观规律与发挥主观能动性相结合": "材料一边有客观条件和规律，一边有人主动设计、调控和实践，说明要在尊重规律基础上发挥主观能动性。",
+    "规律的客观性": "材料中的规律、条件或边界不是由人的愿望决定的，人只能认识和利用规律，不能随意改造规律本身。",
+    "联系的普遍性 / 联系的观点（总）": "材料把多个主体、要素或环节放在相互影响中呈现，说明不能孤立看问题，要用联系观点理解。",
+    "联系的客观性": "材料中的联系来自事物自身属性、空间关系或功能关系，不是人主观任意编造出来的。",
+    "根据固有联系建立新的具体联系": "材料不是凭空拼接，而是根据事物已有属性、功能和条件重新组合，建立新的具体联系。",
+    "联系的多样性": "材料呈现不同时间、地点、条件、主体或因素的差异，说明联系具有多样性，要分析条件。",
+    "整体与部分": "材料同时涉及局部环节和整体效果，说明部分影响整体，整体也统摄部分。",
+    "系统观念 / 系统优化": "材料把多个部分、层级或环节组织成一个结构，强调协同配合和整体效能。",
+    "发展的观点 / 发展的普遍性": "材料出现新旧变化、历史演进或当代转化，说明事物不是静止的，而是在变化发展中展开。",
+    "量变与质变 / 适度原则": "材料出现持续积累、阶段推进、度的把握或由积累到突破的过程，触发量变质变或适度原则。",
+    "事物发展是前进性与曲折性的统一": "材料同时写到目标、成果、困难或反复，说明发展前途向前但道路并不平直。",
+    "辩证否定 / 守正创新": "材料不是全盘抛弃旧事物，也不是原样复制，而是在保留合理内核中克服旧形式、实现创新发展。",
+    "矛盾就是对立统一": "材料同时呈现相反因素或两种力量的相互依存、相互制约，触发对立统一。",
+    "矛盾的普遍性": "材料把同一对象的积极面和风险面、优势和问题同时呈现，说明矛盾普遍存在，要一分为二看。",
+    "矛盾的特殊性 / 具体问题具体分析": "材料给出特定对象、群体或场景的特殊问题，说明不能套用统一方案，要具体问题具体分析。",
+    "矛盾的普遍性和特殊性": "材料同时出现可借鉴的共性和具体情境的个性，触发共性与个性相统一。",
+    "两点论与重点论": "材料既要求全面看到两方面，又提示关键短板或主要方向，说明要两点论和重点论统一。",
+    "内因与外因": "材料同时呈现内部动力和外部条件，说明发展要把内因与外因结合起来分析。",
+    "实践与认识（总）": "材料把认识、学习、体验、应用或解决问题连在一起，说明认识离不开实践并服务实践。",
+    "实践是认识的基础": "材料中的认识来自调查、实验、体验、使用或治理实践，说明实践是认识的来源、动力或检验标准。",
+    "认识对实践的反作用": "材料显示理念、图谱、判断或方案反过来指导行动，说明正确认识能够推动实践。",
+    "认识发展原理": "材料呈现认识从未知到已知、从粗浅到深化的过程，说明认识具有反复性、无限性和上升性。",
+    "真理观": "材料强调认识要经由实践证明或检验，说明真理性不能只靠主观确信。",
+    "社会存在与社会意识": "材料把社会条件、技术变革或现实生活变化同观念更新联系起来，说明社会存在决定社会意识。",
+    "社会发展的两大基本规律和基本矛盾": "材料涉及生产力、生产关系、经济基础或上层建筑的调整，说明社会发展由基本矛盾运动推动。",
+    "改革 / 改革的实质": "材料出现破旧立新、制度完善或体制机制调整，说明改革是社会主义制度的自我完善和发展。",
+    "人民群众": "材料呈现群众参与、群众需要、群众智慧或群众评价，说明人民群众是社会历史主体。",
+    "价值观的导向作用": "材料把行为选择同价值取向、生态理念或公共利益联系起来，说明价值观会引导实践方向。",
+    "价值判断与价值选择": "材料要求在不同利益、长短期目标或价值方向之间作判断和选择，触发价值判断与价值选择。",
+    "实现人生价值": "材料把个人奋斗、责任担当同社会需要联系起来，说明人生价值要在个人与社会统一中实现。",
+    "文化的功能 / 文化与经济政治": "材料呈现文化对人的精神、社会治理、经济发展或价值共识的作用，说明文化具有功能和影响。",
+    "中华优秀传统文化创造性转化、创新性发展 / 文化传承": "材料把传统资源同当代技术、审美、生活或传播方式结合，说明传统文化要创造性转化、创新性发展。",
+    "中华民族精神 / 文化自信": "材料呈现民族精神、家国情怀、历史记忆或文化认同，说明文化能凝聚精神力量、增强文化自信。",
+    "社会主义核心价值观 / 文化强国": "材料把文化实践同价值引领、思想道德或文化强国目标联系起来，说明要用核心价值观引领文化建设。",
+}
+
+
+def weak_why_reasons(row, text):
+    text = scrub_student_language(text)
+    reasons = []
+    material = scrub_student_language(row.get("material") or row.get("trigger") or "")
+    if not text:
+        return ["empty"]
+    if material and text.strip("。") == material.strip("。"):
+        reasons.append("copy_of_material")
+    if len(text) < 45:
+        reasons.append("too_short")
+    if STUDENT_ARTIFACT_RE.search(row.get("why", "")):
+        reasons.append("artifact_language")
+    if re.match(r"^(题目不是|设问要求|这类题|材料不是|材料强调|材料把|材料直接|材料连续|不是单纯|当材料|看到|只要|可从)", text):
+        reasons.append("generic_start")
+    return reasons
+
+
+def repair_weak_why(row, text):
+    evidence = evidence_fragment(row)
+    node = row.get("node") or classify(row)[1]
+    bridge = NODE_BRIDGES.get(node, "材料中的具体信息能够和该原理的核心要求对应起来。")
+    if not evidence:
+        return scrub_student_language(text)
+    return clean_text(f"能想到这个原理，是因为材料中的“{evidence}”给出了直接信号：{bridge}")
+
+
+def student_landing(row):
+    landing = scrub_student_language(row.get("landing", ""))
+    evidence = evidence_fragment(row)
+    node = row.get("node") or classify(row)[1]
+    if not landing or len(landing) < 40 or STUDENT_ARTIFACT_RE.search(row.get("landing", "")):
+        if evidence:
+            bridge = NODE_BRIDGES.get(node, "材料事实说明该原理能够解释题中现象。")
+            landing = f"答案可以落在：材料中的“{evidence}”说明，{bridge}"
+    return clean_text(landing)
+
+
+def student_question_prompt(row):
+    prompt = scrub_student_language(question_prompt(row.get("full_prompt") or row.get("material") or ""))
+    if question_type_rank(row):
+        if STUDENT_ARTIFACT_RE.search(row.get("full_prompt", "") + row.get("material", "")) or not any(c in prompt for c in QUESTION_CUES):
+            return "选择题：根据题干材料，判断最符合题意的一项。"
+    return prompt
 
 
 QUESTION_CUES = [
@@ -703,7 +831,7 @@ def manual_supplements():
             "knowledge": "正确价值观的导向作用；正确价值判断和价值选择",
             "material": "设问直接说“做困难而正确的事”，细则强调“科学、坚持真理、尊重规律、正确价值观”。",
             "trigger": "“正确”不是难易判断，而是价值判断；“困难而正确”说明行动选择要受真理、规律和长远价值引导，而不是被短期利益牵着走。",
-            "why": "材料把长期主义同短期主义区分开来，关键就在价值取向：短期主义只看眼前收益，长期主义把国家发展、民族复兴和人民长远利益放在更高位置，所以触发正确价值观与价值选择。",
+            "why": "能想到正确价值观，是因为材料中的“做困难而正确的事”不是在比较事情难不难，而是在说明行动选择要受真理、规律和长远利益引导；长期主义把国家发展、民族复兴和人民长远利益放在更高位置，这正是价值观在引导人们作出正确价值判断和价值选择。",
             "landing": "作答时要写，长期主义之所以值得坚持，是因为它坚持正确价值导向，把眼前利益与长远利益统一起来，选择对国家发展和民族复兴真正有价值的方向，即使困难也要坚定推进。",
         },
         {
@@ -1051,16 +1179,16 @@ def student_image_ref(image_path: str):
 
 def student_trigger(row):
     choices = [row.get("material", ""), row.get("trigger", "")]
-    best = max((clean_text(c) for c in choices if c), key=len, default="")
+    best = max((scrub_student_language(c) for c in choices if c), key=len, default="")
     if len(best) < 24 and row.get("full_prompt"):
-        prompt = clean_text(row["full_prompt"])
+        prompt = scrub_student_language(row["full_prompt"])
         if len(prompt) > len(best):
             best = prompt[:120].rstrip("，；。") + "。"
-    return clean_text(best)
+    return scrub_student_language(best)
 
 
 def student_why(row):
-    text = clean_text(row.get("why", ""))
+    text = scrub_student_language(row.get("why", ""))
     if not text:
         return ""
     meta_terms_re = "|".join(re.escape(t) for t in META_ARTIFACT_TERMS)
@@ -1070,7 +1198,10 @@ def student_why(row):
     meta_terms = META_ARTIFACT_TERMS + ["补入", "该题不能", "栏目", "课堂整理链", "归入"]
     parts = [p.strip() for p in re.split(r"(?<=[。！？])", text) if p.strip()]
     kept = [p for p in parts if not any(t in p for t in meta_terms)]
-    return clean_text("".join(kept) or text)
+    cleaned = scrub_student_language("".join(kept) or text)
+    if weak_why_reasons(row, cleaned):
+        return repair_weak_why(row, cleaned)
+    return cleaned
 
 
 def logic_only(row):
@@ -1161,16 +1292,6 @@ def enrich_rows():
             continue
         c["full_prompt"] = prompt_by_key.get(key) or prompt_by_key.get(same_source_key_loose(key), "")
         if c["full_prompt"]:
-            if key == ("2026", "海淀", "一模", "16", ""):
-                c["source"] = "2026海淀一模 第16题"
-                c["knowledge"] = "物质决定意识，意识对物质具有能动作用"
-                c["why"] = (
-                    "材料一方面写“技术进步带来的社会巨变”和人工智能可以完成写作、翻译、分析信息等任务，说明人文学科价值被重新强调，根源在于客观技术条件和社会生活方式发生了变化；"
-                    "另一方面，材料又写历史意识、伦理意识和文化理解能够使技术成为文明进步工具，说明正确意识能够反过来引导人工智能的使用方向。"
-                )
-                c["landing"] = (
-                    "人工智能时代的客观技术变革决定了人们必须重新认识人文学科的价值；人文学科形成的历史意识、伦理意识和文化理解又能反过来引导人工智能服务文明进步、防止技术风险，所以人文学科具有不可替代价值。"
-                )
             rows.append(c)
 
     # Add all current-thread supplements last; they override duplicates from the same source and title cluster.
@@ -1194,12 +1315,14 @@ def enrich_rows():
             key = r.get("source_key")
             r["full_prompt"] = prompt_by_key.get(key) or prompt_by_key.get(same_source_key_loose(key), "")
         final_trigger = student_trigger(r)
-        final_prompt = question_prompt(r.get("full_prompt") or r.get("material") or "")
+        final_prompt = student_question_prompt(r)
         final_why = student_why(r)
-        final_landing = clean_text(r.get("landing", ""))
+        final_landing = student_landing(r)
         if not (final_trigger and final_why and final_landing):
             continue
         if any(contains_final_artifact_language(x) for x in [final_trigger, final_prompt, final_why, final_landing]):
+            continue
+        if any(STUDENT_ARTIFACT_RE.search(x) for x in [final_trigger, final_prompt, final_why, final_landing]):
             continue
         # Only de-duplicate very close repeats; keep same question under different principles.
         sig = (r.get("source"), module, node, re.sub(r"\W+", "", r.get("knowledge", ""))[:18], re.sub(r"\W+", "", r.get("title", ""))[:18])
@@ -1241,12 +1364,12 @@ def build_markdown(rows):
                 if r.get("image_path"):
                     lines.append(f"![漫画]({student_image_ref(r['image_path'])})")
                     lines.append("")
-                mat_prompt = question_prompt(r.get("full_prompt") or r.get("material") or "")
+                mat_prompt = student_question_prompt(r)
                 lines.append(f"【设问】 {mat_prompt}")
                 lines.append("")
                 lines.append(f"【为什么能想到】 {student_why(r)}")
                 lines.append("")
-                lines.append(f"【答案落点】 {clean_text(r['landing']).removeprefix('答案落点：')}")
+                lines.append(f"【答案落点】 {student_landing(r).removeprefix('答案落点：')}")
                 lines.append("")
     return "\n".join(lines)
 
@@ -1261,6 +1384,10 @@ def set_cell_shading(paragraph, color="F2F6F8"):
 def add_page_break(doc):
     p = doc.add_paragraph()
     p.add_run().add_break(WD_BREAK.PAGE)
+
+
+def add_new_page_section(doc):
+    doc.add_section(WD_SECTION_START.NEW_PAGE)
 
 
 def configure_styles(doc):
@@ -1300,19 +1427,18 @@ def build_docx(markdown_text: str, docx_path: Path):
     sec.left_margin = Cm(2.2)
     sec.right_margin = Cm(2.2)
 
-    # Cover: only title and signature.
-    for _ in range(7):
-        doc.add_paragraph()
+    # Cover: only title and signature. Use paragraph spacing rather than many
+    # blank paragraphs so the foreword cannot leak onto the first page.
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.space_before = Pt(220)
+    p.paragraph_format.space_after = Pt(90)
     r = p.add_run(TITLE)
     r.bold = True
     r.font.name = "PingFang SC"
     r._element.rPr.rFonts.set(qn("w:eastAsia"), "PingFang SC")
     r.font.size = Pt(25)
     r.font.color.rgb = RGBColor(0, 0, 0)
-    for _ in range(4):
-        doc.add_paragraph()
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = p.add_run(SIGNATURE)
@@ -1321,16 +1447,14 @@ def build_docx(markdown_text: str, docx_path: Path):
     r._element.rPr.rFonts.set(qn("w:eastAsia"), "PingFang SC")
     r.font.size = Pt(22)
     r.font.color.rgb = RGBColor(0, 0, 0)
-    for _ in range(10):
-        doc.add_paragraph()
-    add_page_break(doc)
+    add_new_page_section(doc)
 
     # Foreword page.
     h = doc.add_heading("前言", level=1)
     h.alignment = WD_ALIGN_PARAGRAPH.CENTER
     for _ in range(16):
         doc.add_paragraph()
-    add_page_break(doc)
+    add_new_page_section(doc)
 
     in_content = False
     for line in markdown_text.splitlines():
@@ -1478,6 +1602,8 @@ def main():
                 "- 2026-04-29 覆盖补齐：合并 late objective closure、S040 样稿、worker audit CSV，并对合并漏项做定点 backfill；56 套全部达到至少 3 个触发点。",
                 "- 2026-04-29 海淀一模第16题修正：物质决定意识节点只写“必要性”，不写意识反作用；同题另在主观能动性节点单独成条；本地 pypdf 缓存只含简版角度清单，按用户人工核验的完整细分口径修正。",
                 "- 2026-04-29 最终正文清洗：`评标`、`参考答案`、`答案写`、`答案/补充`、`答案核`、`可从……角度作答` 等审计话术不得进入学生版；清洗后对 2024西城一模、2026海淀期末做了学生可读链条补齐。",
+                "- 2026-04-30 同类问题全局复查：清除 `正确项链`、`错肢`、`第n题答案`、`参考示例`、`9分标准` 等核验话术；所有“为什么能想到”必须从材料信号进入知识解释链，不能整句复制、过短或用抽象程序话替代。",
+                "- 2026-04-30 框架追修：唯物论第一节点改回单独 `物质决定意识`，意识能动作用相关内容进入 `主观能动性 / 意识的能动作用`。",
                 "- 学生版已清理路径、行号、文件名、OCR/debug/log 信息；审计索引单独存放。",
                 "",
                 f"- Markdown：{md_path}",
