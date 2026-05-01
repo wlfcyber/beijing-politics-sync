@@ -45,6 +45,8 @@ It must include:
 
 The `为什么能想到` part must name a concrete material signal that a student can see in the paper. It fails validation if it merely starts with generic process language such as "材料强调...", "题目不是...", "这类题要...", or "可从某角度..." without explaining the material-to-principle knowledge relation. It also fails if it simply repeats the material trigger sentence or is too short to teach the chain.
 
+Reject pseudo-triggers. Do not pick a convenient but weakly related material phrase just to place a principle. The trigger must be the real source-material word, example, relation, subject action, contradiction, condition, or process that supports that principle. If the true trigger is hidden in specific examples, like the 2026海淀一模 Q16 chain from 春秋战国百家争鸣 / 文艺复兴 to 社会大发展、大变革, use those examples rather than a vague model-inferred background.
+
 Forbidden trigger logic:
 
 - "The rubric mentions this principle, so it can be placed here."
@@ -64,6 +66,8 @@ Every main-question `trigger_logic` must contain a concrete answer landing. The 
 The answer landing must be something a student could put into an answer or use to build an answer sentence.
 
 For compound or legacy framework headings:
+
+Every answer landing should naturally combine three parts: the material trigger, the principle/method, and a direct response to the question. Prefer answer-like sentences such as "材料中...说明...；因为/这体现...原理，所以..." Do not use meta language such as "答案可以落在", "connect the material to the principle", or "support the question requirement".
 
 - Do not let a broad heading supply unsupported content. If the rubric only supports `物质决定意识` under a `必要性` subtask, the student-facing chain must only explain the necessity: the objective reality or objective condition determines why this answer direction is required.
 - Do not add `意识反作用于物质`, `意识反作用`, or similar phrases unless the rubric/source explicitly supports that half of the principle for that question.
@@ -131,6 +135,8 @@ Reject a batch if:
 - trigger logic merely says the rubric mentioned a point;
 - answer landing is a meta-instruction rather than a concrete answer sentence;
 - `为什么能想到` simply repeats the trigger, is too short, uses audit wording, or uses generic process language instead of a material-to-principle explanation;
+- the material trigger is pseudo-triggered: it is a generic model summary rather than the actual source phrase/example/relation that supports the principle;
+- coverage is asserted only by "three entries per suite" without cross-checking the suite list, question list, final entry index, and multi-principle triggers for each relevant question;
 - source paths or line/file/slide ids appear in the student-facing document;
 - full question prompts are missing;
 - ordinary reference answers are treated as rubrics;
