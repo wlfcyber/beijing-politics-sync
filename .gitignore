@@ -24,3 +24,5 @@ __pycache__/
 .venv/
 .idea/
 .vscode/
+# Local working clones kept off Git; clean copies live in external-skill-snapshots/.
+/external-skills/

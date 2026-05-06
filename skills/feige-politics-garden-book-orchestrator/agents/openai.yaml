@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞哥政治庄园-整本书三线总控"
+  short_description: "Codex总控、Codex自跑生产线、ClaudeCode独立复跑线一起跑完整本书并做终极Word验收"
+  default_prompt: "选择一本政治教材，按我的框架和考题逻辑，组织三线跑完：Codex当总控，Codex自己也跑一条生产线，ClaudeCode独立复跑；请GPT和Claude分别指导，并用Confucius从0验收生成最终文档。"

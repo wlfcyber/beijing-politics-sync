@@ -1,7 +1,7 @@
 interface:
-  display_name: "飞哥政治庄园"
-  short_description: "北京高考政治研究总入口，按任务路由到必修四或选必一分支。"
-  default_prompt: "Use $feige-politics-garden to route the Beijing Gaokao politics task to the correct branch skill: 必修四 or 选必一."
+  display_name: "飞哥政治庄园/讲堂"
+  short_description: "北京高考政治研究总入口；/飞哥政治讲堂 后面随性说，也按任务路由到整本书三线总控或各教材分支。"
+  default_prompt: "Use $feige-politics-garden whenever the user says /飞哥政治庄园 or /飞哥政治讲堂. Infer casual intent, then route to the correct branch skill. For whole-book overnight work, route to the three-lane book orchestrator: Codex leader, Codex production, and ClaudeCode independent rerun."
 
 policy:
   allow_implicit_invocation: true

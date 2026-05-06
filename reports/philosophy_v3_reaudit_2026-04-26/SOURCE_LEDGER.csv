@@ -1,0 +1,19 @@
+suite_id,year,district,stage,file_path,file_type,source_type,question_range,status,notes
+v2_framework_freeze,2026,project,v3-freeze,freeze/必修四哲学材料-知识触发总框架_持续更新版_v2.md,md,old-artifact,all,inventory-only,sha256=5cd317ae263fbb51d68039898ae0ed2127e63f4c699610185ce7591357ee835e; 旧框架冻结件
+wrong_option_library_freeze,2026,project,v3-freeze,freeze/北京高考政治错肢库_持续更新版.md,md,old-artifact,all,inventory-only,sha256=28d3e5509194b0d95bb799f1fc25c3bf5bb66f19626d8ff05dc811045b3f5cca; 旧错肢库冻结件
+source_inventory_freeze,2026,project,v3-freeze,freeze/必修四哲学_2024-2026题源穷尽清单.md,md,old-artifact,all,inventory-only,sha256=f2cf175164d1e4d8941cad2e8258b008210da6a097a2ac76d955300969c9675b; 旧题源清单冻结件
+governor_freeze,2026,project,v3-freeze,freeze/governor_board.md,md,old-artifact,all,inventory-only,sha256=270b106a2067ab8e8bc3dbb0056643f874fddce513d1489f5df98b27a5742919; 旧监管板冻结件
+choice_ledger_freeze,2026,project,v3-freeze,freeze/choice_question_processing_ledger.md,md,old-artifact,all,inventory-only,sha256=78c835674348d0f78be19c39daafe643bbae1a53151775d2624221915b6c007b; 旧选择题台账冻结件
+codex_claude_diff_report,2026,project,audit,reports/哲学触发总表_重跑差异与来源抽查_2026-04-26.md,md,audit-report,all,included,用于确认 ClaudeCode v2 正文不是独立重跑
+claudecode_v2_final,2026,project,audit,reports/philosophy_rerun_claudecode_v2_2026-04-25_2316/FINAL_ACCEPTANCE_REPORT.md,md,control-report,all,objective-key-only,只作控制层证据; 不作独立正文核验
+2026_xicheng_qimo_phi_report,2026,西城,期末,reports/overnight_2026-04-25/raw_4.25凌晨政治庄园/02_过程产物/PHI-01R_2026西城东城朝阳哲学.md,md,worker-report,16(2);21,included,评标 PPTX 角度清单支持; 材料链需标整理者解释
+2026_shijingshan_qimo_bundle,2026,石景山,期末,data/preprocessed_corpus/gpt_suite_bundles/2026各区模拟题__2026各区期末和期中__2026石景山期末.md,md,cache-suite-bundle,18(1);20,reference-only,只有答案及评分参考; 无详细评标细则
+2024_shijingshan_yimo_framework,2024,石景山,一模,artifacts/必修四哲学材料-知识触发总框架_持续更新版_v2.md,md,old-framework-section,16;20,reference-only,教师版参考答案与讲评 PPT; 非逐点评分细则
+2024_mentougou_yimo_worker,2024,门头沟,一模,reports/parallel_closure_2026-04-25/worker_2024_mentougou_yimo.md,md,worker-report,16-21,reference-only,主观题全部维持 reference-only; 不得入正式主观细则链
+v3_framework_inventory,2026,project,v3-audit,artifacts/framework_entry_inventory.csv,csv,generated-audit,496 entries,source-reviewed,从冻结旧框架抽取全部触发条目并分配 audit_id
+v3_framework_source_review,2026,project,v3-audit,artifacts/all_framework_entry_source_reaudit.csv,csv,generated-audit,496 entries,source-reviewed,框架来源层复核完成; A126 B143 C186 D12 E29
+v3_wrong_option_source_review,2026,project,v3-audit,artifacts/wrong_option_source_reaudit.csv,csv,generated-audit,1583 rows,source-reviewed,错肢库来源层复核完成; 126 行缺答案键
+v3_suite_inventory_review,2026,project,v3-audit,artifacts/suite_inventory_reaudit.csv,csv,generated-audit,56 rows,source-reviewed,旧题源清单闭环口径复核完成; 8 行不得无条件称闭环
+v3_boundary_gap_report,2026,project,v3-audit,artifacts/全来源复核_边界与缺口清单.md,md,generated-audit,D/E and boundaries,blocked,正式 v3 草案必须按此清单删除/降级/补证
+v3_content_backtrace_review,2026,project,v3-audit,artifacts/content_backtrace_review.csv,csv,generated-audit,496 entries,content-reviewed,从 V2 来源回到原题/细则片段; 277 条直接支撑; 219 条非直接支撑
+v3_content_backtrace_non_direct,2026,project,v3-audit,artifacts/content_backtrace_non_direct_full.md,md,generated-audit,219 entries,blocked,非直接支撑完整清单; v3 正文不得自动继承

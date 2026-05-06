@@ -1088,3 +1088,20 @@
 - exclusion_recheck: passed. `2025海淀期中` 的旧理由“无可用细则”作废；已重开本地细则 docx，主观题模块不属于必修四哲学/文化主观框架，继续以模块边界而非缺细则作为排除理由。
 - culture_sync: partial pass. 夜间新增的 `2026东城一模16` 一材多点文化漏载，以及 `2024朝阳二模19（3）`、`2025海淀二模17`、`2025西城一模16`、`2025石景山一模16` 已写回文化框架，并同步补入文化题源清单和逐题复核表；文化线仍不得宣称全量最终 PASS。
 - governor_decision: superseded. 当时不能签“全部试卷已穷尽”；后续 18项并行清理总验收已经清空哲学题源清单待补证据。完整全体系 PASS 仍需文化线最终总审、Word 重生成和渲染验收。
+
+## 2026-04-26 必修四哲学 v3 全来源复核
+- scope_control: passed. 本轮只做 v3 来源层复核，不覆盖正式 `必修四哲学材料-知识触发总框架_持续更新版_v2.md`、错肢库或题源清单正文；所有产物落在 `reports/philosophy_v3_reaudit_2026-04-26/`。
+- frozen_artifacts: passed. 已冻结旧框架、旧错肢库、旧题源清单、旧 governor 和选择题 ledger；旧 `已闭环 54 / 待补证据 0 / 明确排除 2` 只作为待核线索，不作为 v3 事实。
+- framework_source_review: passed with boundaries. 旧框架 496 条触发条目全部分类，310 个来源键全部给出 v3 状态；最终等级 A 126、B 143、C 186、D 12、E 29。
+- wrong_option_source_review: passed with boundaries. 错肢库 1583 条来源行全部分类：C_verified_choice_source 1434、C_worker_report_source 23、E_choice_key_not_detected 126。
+- suite_inventory_review: passed with boundaries. 旧题源清单 56 行全部复核：source-reviewed 20、closed-with-angle-boundary 23、closed-with-reference-boundary 3、old-closed-needs-boundary-or-evidence 8、confirmed-excluded 2。
+- evidence_hierarchy: passed. 本轮未把普通参考答案、答案及评分参考、扫描缺 OCR、缺答案键或用户补充未原件化材料升级为正式主观细则；D/E 均写入 `artifacts/全来源复核_边界与缺口清单.md`。
+- known_blockers: recorded. `2026朝阳期末` 仍需 OCR/答案键补证；`2026西城一模`、`2026丰台期末`、`2025海淀二模` 的选择题答案键当前未在 bundle/本机来源中独立检测到；用户补充截图/PDF 未原件化的条目继续标 E。
+- governor_decision: passed for source review only. v3 来源层复核已经覆盖全部来源行；v3 正文修订未完成，不得写 `TASK_COMPLETE`，下一步只能按 CSV 和边界清单生成 diffable draft。
+
+## 2026-04-27 必修四哲学 v3 内容回源复核
+- scope_control: passed. 用户明确要求从 V2 各栏目下每条来源出发，回到对应原题/细则，判断该来源是否真的支撑所挂哲学原理方法论；本轮按此口径补做 `STEP_06A`。
+- method_control: passed. 判定不再只看来源存在或证据等级，而是要求原题/细则片段直接出现该原理或等价给分表述；仅由 V2 材料链解释推出的条目降为 weak/manual，不自动入正文。
+- content_backtrace: passed with strict boundary. V2 框架 496 条均已生成内容回源记录：SUPPORTED_DIRECT_RUBRIC 202、SUPPORTED_DIRECT_CHOICE_TEXT 75、WEAK_INFERRED_FROM_MATERIAL 97、NEEDS_HUMAN_CONTENT_CHECK 75、BLOCKED_SOURCE_GAP 29、WEAK_REFERENCE_ONLY 12、BLOCKED_NO_CHOICE_KEY 6。
+- artifact_outputs: passed. 已生成 `reports/philosophy_v3_reaudit_2026-04-26/artifacts/content_backtrace_review.csv`、`content_backtrace_summary.md`、`content_backtrace_non_direct_full.md`。
+- governor_decision: passed for content review gate. 只有 277 条可视为直接内容支撑；其余 219 条不得自动继承到 v3 正文，必须删除、降级、补证或人工复看。v3 正文修订仍未完成，不得写 `TASK_COMPLETE`。
