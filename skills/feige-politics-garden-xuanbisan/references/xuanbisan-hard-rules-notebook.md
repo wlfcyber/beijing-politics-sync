@@ -215,3 +215,13 @@
 - 推理部分也必须按题型框架组织：题型/规则口令/常见陷阱/解题动作/对应模拟题；不得按试卷题号流水账。
 - 同一题若能训练多个框架节点，可以像哲学宝典一样重复挂载，但每次挂载都要服务当前节点，不得只复制题目来源清单。
 - 后续验收必须检查：最终学生正文的二级/三级标题是否是框架节点而非地区时间；每个核心节点下面是否至少有模拟题；是否还存在大段“按题目单位展开”的主体结构。
+
+## 二十二、2026-05-06 哲学宝典成功复盘：ClaudeCode 厚内容优先
+
+- 用户已确认哲学终稿是 `哲学宝典最终版 5.2双终极融合版_目录页码美化版.docx`，其成功链路不是 Codex 单跑，而是 ClaudeCode 先从 0 跑出更厚内容，Codex 再做终极融合、证据裁决、格式清洗和 Word 验收。
+- 实话实说结论必须写成硬规则：在那次哲学宝典任务里，相同大方向指令下，ClaudeCode 的内容矿比 Codex 更厚，材料触发链和答案落点更充实；Codex 的优势在总控、融合、审稿、硬样本、学生版清洗和 Word 交付。
+- 选必三全量重跑必须复刻这个分工：ClaudeCode 先作为 B 线厚内容矿生产者跑完整源材料，Codex A 线同步生产但不得用自己的薄稿当主稿，最终由 Codex 融合、审计、回源核验、清洗和交付。
+- ClaudeCode 不能只做 reviewer 或抽查。它必须交出可融合的 thick body、entries、framework node matrix、coverage/blocker/fusion candidates，并且每个核心框架节点下面有真实模拟题。
+- Codex 不能因为自己的稿件更干净、更易排版，就压掉 ClaudeCode 的有效厚内容。融合时默认保留 ClaudeCode 的内容密度；只有证据不合格、框架错挂、学生表达污染或与硬样本冲突时才拒绝/改写。
+- 选必三失败预警：如果正文变成 Codex 先写的小包、77 条或 29 条候选、按大题单位流水账展开、或者只在前面罗列题目来源而没有按“思维类型/小方法”挂题，直接判 `HARD_FAIL_DID_NOT_REPLICATE_PHILOSOPHY_WORKFLOW`。
+- 给另一台设备/新线程的最低启动规则：先读本小本本和 `feige-politics-garden-book-orchestrator/references/claudecode-first-fusion-workflow.md`，再开 ClaudeCode 厚内容矿，不得先由 Codex 生成薄正文再补救。

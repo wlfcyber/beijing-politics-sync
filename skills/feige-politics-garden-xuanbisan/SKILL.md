@@ -9,6 +9,16 @@ This branch handles 选择性必修三《逻辑与思维》的思维部分. Its 
 
 If the final artifact is `.docx`, also use the `documents` skill and render every DOCX before delivery.
 
+## 2026-05-06 Production Stance
+
+For full 选必三 book/module runs, follow the successful 必修四哲学宝典 production pattern:
+
+- ClaudeCode must be the thick-content mining lane first, not a lightweight reviewer. In the 2026-05-02 philosophy run, ClaudeCode's source-backed body was materially fuller than Codex's thin candidate; the final accepted artifact depended on importing and replacing many Codex rows with ClaudeCode rows.
+- Codex must still run its own production lane, but its main responsibility is total control, evidence judgment, framework normalization, conflict resolution, student/audit cleanup, external-review digestion, Governor/Confucius gates, and Word/PDF validation.
+- Do not let Codex's thinner candidate become the main student body merely because it is cleaner or easier to format. If ClaudeCode produces source-backed fuller entries, fusion should preserve that content density unless local evidence or the user's framework rejects it.
+- For 选必三 specifically, the final body must be framework-first: `思维类型 -> 三性/三新/子方法 -> 对应模拟题` for 思维部分, and `推理题型树 -> 全部对应题` for 推理部分. Paper-order or district-order bodies are audit tools, not the final student-book structure.
+- Before Word/PDF, run a ClaudeCode-thick-content gate: every evidence/control row is body/index/blocked, every core framework node has real question挂载 or a blocker, choice questions have full options, reasoning questions have logical forms, and the body is not a small representative packet.
+
 ## Load First
 
 Before any 选必三 work, read:
