@@ -1,0 +1,289 @@
+question_id,suite_id,question_type,stable_locator,section_scope,blocker_reason,blocker_group,student_permission,excluded_from_opus_input,retention_note
+Q-2024朝阳一模-1,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-10,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-11,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-12,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-13,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-14,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-15,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-16,S-2024朝阳一模,主观题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q16,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-17,S-2024朝阳一模,主观题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q17,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-18-1,S-2024朝阳一模,主观题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q18(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-18-2,S-2024朝阳一模,主观题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q18(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-19,S-2024朝阳一模,主观题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q19,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-2,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-21,S-2024朝阳一模,主观题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q21,推理,scope_out=当代国际政治与经济(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-3,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-4,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-5,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-6,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q6,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳一模-8,S-2024朝阳一模,选择题,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-1,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q1,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-10,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-11,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-12,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-13,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-14,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-15,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-16-1,S-2024朝阳二模,主观题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q16(1),推理,scope_out=经济与社会(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-16-2,S-2024朝阳二模,主观题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q16(2),推理,scope_out=哲学(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-17,S-2024朝阳二模,主观题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q17,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-18,S-2024朝阳二模,主观题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q18,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-19-3,S-2024朝阳二模,主观题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q19(3),交叉,scope_out=哲学与文化/必修3模块,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-2,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-20,S-2024朝阳二模,主观题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-3,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-4,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-5,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-8,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳二模-9,S-2024朝阳二模,选择题,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-1,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q1,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-10,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-12,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-13,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-14,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-15,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-16,S-2024朝阳期中,主观题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q16,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-17,S-2024朝阳期中,主观题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q17,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-2,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-20-1,S-2024朝阳期中,主观题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q20(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-20-2,S-2024朝阳期中,主观题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q20(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-20-3,S-2024朝阳期中,主观题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q20(3),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-3,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-4,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-5,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q5,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024朝阳期中-6,S-2024朝阳期中,选择题,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q6,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-1,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-10,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-11,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-12,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-13,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-14,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q14,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-15,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-16,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q16,推理,scope_out=哲学(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-18-1,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q18(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-18-2,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q18(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-19-1,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q19(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-19-2,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q19(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-2,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-20,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-21,S-2024海淀二模,主观题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q21,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-3,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-4,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q4,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-5,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-7,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q7,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-8,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q8,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024海淀二模-9,S-2024海淀二模,选择题,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-1,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q1,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-10,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q10,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-12,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-14,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q14,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-15,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q15,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-16,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q16,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-17,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q17,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-18-1,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q18(1),待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-18-2,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q18(2),待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-18-3,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q18(3),待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-19-1,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(1),推理,no,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-19-4,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(4),推理,scope_out=政治+经济(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-19-6,S-2024西城一模,主观题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(6),推理,scope_out=经济与社会(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-2,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q2,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-3,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q3,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-4,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-5,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-6,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q6,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-7,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q7,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-8,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q8,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2024西城一模-9,S-2024西城一模,选择题,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-1,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q1,思维,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-10,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-11,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-12,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-16,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q16,边界,scope_out=哲学与文化(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-17,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q17,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-18-1,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q18(1),交叉,scope_out=经济与社会(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-19-1,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q19(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-19-2,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q19(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-19-3,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q19(3),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-2,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q2,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-20,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q20,边界,scope_out=当代国际政治与经济(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-21,S-2025东城期末,主观题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q21,推理,scope_out=综合所学非选必三task(党+人民+法治为主),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-3,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-4,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-6,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q6,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-7,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q7,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-8,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q8,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025东城期末-9,S-2025东城期末,选择题,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q9,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-1,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-11,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-12,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-13,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-14,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-15,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-16,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q16,交叉,scope_out=哲学(非选必三逻辑与思维primary task);但量变质变可fusion-only attach,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-17,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q17,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-18-2,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q18(2),推理,scope_out=经济与社会(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-18-3,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q18(3),推理,scope_out=政治与法治(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-19,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q19,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-2,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-20,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-21,S-2025丰台期末,主观题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q21,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-3,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-4,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-5,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025丰台期末-6,S-2025丰台期末,选择题,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q6,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀二模-UNPARSED-PAPER,S-2025海淀二模,suite_visual_blocker,008_Desktop_2025模拟题_2025各区二模_2025海淀二模_试卷_试卷.pdf::paper_text_blank_all_render_pages,missing,paper PDF text layer is blank/thin; full question list must be recovered from rendered pages before coverage PASS,visual_missing,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-1,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q1,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-10,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-11,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q11,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-12,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q12,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-13,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q13,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-14,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q14,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-15,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-16,S-2025海淀期末,主观题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q16,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-17-2,S-2025海淀期末,主观题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q17(2),思维,scope_out=哲学(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-19,S-2025海淀期末,主观题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q19,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-20,S-2025海淀期末,主观题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q20,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-21,S-2025海淀期末,主观题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q21,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-22,S-2025海淀期末,主观题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q22,思维,scope_out=综合所学(非选必三逻辑与思维primary);但质量互变可fusion-only attach,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-3,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q3,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-4,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-5,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q5,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-6,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q6,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-7,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q7,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025海淀期末-9,S-2025海淀期末,选择题,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-1,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q1,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-10,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q10,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-11,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q11,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-12,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q12,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-13,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q13,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-14,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-15,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q15,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-16-1,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q16(1),推理,scope_out=哲学(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-17-1,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q17(1),推理,scope_out=经济与社会(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-17-2,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q17(2),推理,scope_out=政治与法治(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-18,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q18,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-19-1,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q19(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-19-2,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q19(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-2,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q2,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-20,S-2025西城二模,主观题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q20,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-3,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q3,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-4,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-5,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q5,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-6,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q6,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-8,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q8,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025西城二模-9,S-2025西城二模,选择题,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q9,待判,choice options not fully detected in text,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-1,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-10,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q10,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-11,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-12,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-13,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-14,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-15,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-16,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q16,边界,scope_out=哲学与文化(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-17-2,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q17(2),推理,scope_out=经济与社会(政府主体)(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-18,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q18,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-19-1,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q19(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-19-2,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q19(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-2,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-20,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-21,S-2025顺义一模,主观题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q21,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-3,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q3,思维,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-4,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q4,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-8,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2025顺义一模-9,S-2025顺义一模,选择题,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-1,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-10,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-11,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-12,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q12,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-13,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-14,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-15,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-16,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q16,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-17,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q17,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-18,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q18,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-19-1,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(1),思维,scope_out=研究方法补题(非选必三逻辑与思维核心task),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-19-2,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(2),思维,scope_out=经济与社会(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-19-3,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(3),思维,scope_out=当代国际政治与经济(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-2,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q2,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-20,S-2026东城一模,主观题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q20,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-3,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-4,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-5,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-7,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q7,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-8,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城一模-9,S-2026东城一模,选择题,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-1,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-10,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-11,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-12,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-13,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-14,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q14,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-15,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-16,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q16,边界,queue_split_error_cleaned: Q16原卷与细则均为单题；哲学与文化，非选必三逻辑与思维,scope_rejected,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-17-1,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q17(1),推理,no,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-18-1,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q18(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-18-2,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q18(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-19,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q19,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-2,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-20,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-21,S-2026东城期末,主观题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q21,思维,scope_out=综合所学(非选必三逻辑与思维primary);系统观念可fusion-only attach,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-3,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q3,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-4,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q4,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-5,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q5,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-8,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026东城期末-9,S-2026东城期末,选择题,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026丰台一模-UNPARSED-PAPER,S-2026丰台一模,suite_visual_blocker,042_Desktop_2026模拟题_2026各区一模_2026丰台一模_试卷_试卷.pdf::paper_text_blank_all_render_pages,missing,paper PDF text layer is blank/thin; full question list must be recovered from rendered pages before coverage PASS,visual_missing,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-1,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q1,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-10,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-16,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q16,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-17,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q17,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-18,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q18,推理,scope_out=哲学(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-19,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q19,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-19-1,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q19(1),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-19-2,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q19(2),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-19-3,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q19(3),边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-2,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-21-1,S-2026朝阳期中,主观题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q21(1),思维,scope_out=经济与社会+文化(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-3,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-4,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-5,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q5,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-6,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q6,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-7,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q7,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-8,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026朝阳期中-9,S-2026朝阳期中,选择题,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q9,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-1,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-10,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-12,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-13,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-14,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-15,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-16,S-2026通州期末,主观题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q16,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-17,S-2026通州期末,主观题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q17,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-18,S-2026通州期末,主观题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q18,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-19-1,S-2026通州期末,主观题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q19(1),推理,scope_out=法律与生活(非选必三逻辑与思维),out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-2,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-20,S-2026通州期末,主观题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-21,S-2026通州期末,主观题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q21,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-3,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q3,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-4,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q4,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-6,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q6,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026通州期末-7,S-2026通州期末,选择题,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q7,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-1,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q1,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-10,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q10,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-11,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q11,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-12,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q12,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-13,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q13,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-14,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q14,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-15,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q15,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-16,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q16,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-17,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q17,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-18,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q18,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-19-3,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q19(3),交叉,no,source_or_locator_issue,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-2,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q2,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-20,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q20,边界,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-21,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q21,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-22,S-2026顺义一模,主观题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q22,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-7,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q7,推理,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-8,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q8,待判,scope pending or boundary row,boundary_closed,no,yes,retained_for_audit_not_student_or_opus_input
+Q-2026顺义一模-9,S-2026顺义一模,选择题,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q9,思维,scope_out_other_book,out_of_scope,no,yes,retained_for_audit_not_student_or_opus_input

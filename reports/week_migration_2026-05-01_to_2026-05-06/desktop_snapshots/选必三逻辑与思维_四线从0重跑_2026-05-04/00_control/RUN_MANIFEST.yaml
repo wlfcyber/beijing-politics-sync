@@ -1,0 +1,21 @@
+run_id: 选必三逻辑与思维_四线从0重跑_2026-05-04
+book_or_module: 选必三逻辑与思维
+scope: 思维部分+推理部分_四线从0重跑
+mode:
+start_type:
+source_range: 2024-2026 Beijing district papers unless narrowed
+skill_route:
+notebooks_required:
+master_requirements_version:
+evidence_priority_rule: P0 scoring/marking rules > P1 reference answers > P2 lecture/analysis > P3 paper text > P4 AI/advisor drafts
+student_doc_goal: material trigger -> why this principle/term -> answer landing
+deliverables:
+  - Markdown
+  - Word
+  - acceptance_report
+created_at: 2026-05-04
+controller: Codex
+codex_line_status: not_started
+claudecode_line_status: not_started
+governor_status: not_started
+confucius_status: not_started

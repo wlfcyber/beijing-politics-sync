@@ -1,0 +1,17 @@
+atom_id,suite,question,segment,points,evidence_tier,bucket_hint,term_short,term_full,boundary_flag,promotion_status
+ATOM-SJS2026-Q20-01,2026石景山一模,Q20,学科用语-共同角度对位,4分(关键词×4 cap内),P0_scoring_docx_guarded,共商共建共享,共商共建共享,共商共建共享(共同维度学科用语;示例段对位"共同角度"),guarded-学科用语清单+示例段双重对位-需关键词绑定方可计4分,candidate_for_fusion_guarded
+ATOM-SJS2026-Q20-02,2026石景山一模,Q20,学科用语-全维度可用,4分(关键词×4 cap内),P0_scoring_docx_guarded,人类命运共同体,人类命运共同体,人类命运共同体(可选角度清单内通用学科用语;示例段未点名),guarded-仅角度清单明示-示例未对位-学生稿可作合规通用学科用语,candidate_for_fusion_guarded
+ATOM-SJS2026-Q20-03,2026石景山一模,Q20,学科用语-包容角度对位,4分(关键词×4 cap内),P0_scoring_docx_guarded,经济全球化,经济全球化(更加包容更可持续更好惠及全体人民),经济全球化原形+后缀更加包容更可持续更好惠及全体人民(包容维度学科用语;示例段对位"包容角度"),guarded-学科用语清单+示例段双重对位-后缀建议保形,candidate_for_fusion_guarded
+ATOM-SJS2026-Q20-04,2026石景山一模,Q20,学科用语-开放角度对位,4分(关键词×4 cap内),P0_scoring_docx_guarded,和平发展合作共赢,和平发展合作共赢(深化合作共赢/多边主义/开放型区域经济环境/世贸组织基本原则/破除贸易壁垒),和平发展合作共赢核心+多边主义/开放型区域经济环境/世贸组织基本原则/破除贸易壁垒/深化合作共赢配料链(开放维度学科用语;示例段对位"开放角度"),guarded-学科用语清单+示例段双重对位-开放配料链建议挂材料句,candidate_for_fusion_guarded
+ATOM-SJS2026-Q20-05,2026石景山一模,Q20,学科用语-共同角度落点,4分(关键词×4 cap内),P0_scoring_docx_guarded,维护共同利益,维护共同利益(亚太各国共同利益),维护共同利益(共同维度学科用语;示例段末句"维护了亚太各国共同利益"对位),guarded-学科用语清单+示例段共同角度末句对位-与ATOM-01共同维度互为搭档,candidate_for_fusion_guarded
+ATOM-SJS2026-Q20-06,2026石景山一模,Q20,赋分公式元数据(关键词×4封顶8),0分(scoring-formula meta),P0_scoring_docx_guarded,1关键词×4分=2关键词8分封顶,1关键词=1学科用语+合理分析=4分;2关键词=8分封顶,细则原文:从1个关键词出发使用1个学科用语+合理分析得4分从2个关键词出发最高8分,scoring-formula元数据-不独立赋分仅约束ATOM-01..05合计上限,scoring_formula_meta
+ATOM-SJS2026-Q20-07,2026石景山一模,Q20,等级赋分元数据(4级等级表),0分(level-table meta),P0_scoring_docx_guarded,水平4(7-8)/水平3(4-6)/水平2(1-3)/水平1(0),四级等级描述表,水平4观点鲜明紧扣问题综合运用逻辑严密7-8/水平3观点比较明确逻辑较强4-6/水平2观点不明确罗列知识1-3/水平1无关或重复或无应答0,level-table元数据-不独立赋分作为定档辅助裁定信号,level_table_meta
+ATOM-SJS2026-Q20-08,2026石景山一模,Q20,示例段修辞-共同角度展开,0分(boundary),P0_scoring_docx_guarded,共同维护共同推进共享繁荣,致力于共同维护、共同推进、共享繁荣,示例段共同角度修辞展开-承担合理分析配料,boundary_only_expression-与ATOM-01搭配挂句不独立赋分,boundary_only_expression
+ATOM-SJS2026-Q20-09,2026石景山一模,Q20,示例段修辞-开放角度展开链,0分(boundary),P0_scoring_docx_guarded,多边主义/开放型区域经济环境/世贸组织基本原则/破除贸易壁垒,多边主义 / 共同营造开放型区域经济环境 / 坚持世贸组织基本原则 / 破除贸易壁垒,示例段开放角度修辞展开链-承担合理分析配料链,boundary_only_expression-与ATOM-04搭配挂链不独立赋分,boundary_only_expression
+ATOM-SJS2026-Q20-10,2026石景山一模,Q20,示例段修辞-包容角度展开链,0分(boundary),P0_scoring_docx_guarded,解决发展不平衡问题/维护发展中国家正当权益,着力解决发展不平衡问题 / 维护发展中国家正当权益(更加包容更可持续更好惠及全体人民已并入ATOM-03后缀),示例段包容角度修辞展开链-承担合理分析配料,boundary_only_expression-与ATOM-03搭配挂链不独立赋分,boundary_only_expression
+ATOM-SJS2026-Q20-11,2026石景山一模,Q20,题面三关键词hard-cap,0分(hard-cap meta),P0_scoring_docx_guarded,共同/开放/包容(任选2),三关键词共同开放包容任选两个绑定到学科用语,题面任选两个关键词硬约束-写3个不加分-必须显式绑定关键词到学科用语,question_hard_cap_meta-与ATOM-06公式叠加,question_hard_cap_meta
+EXCL-SJS2026-Q16,2026石景山一模,Q16,经济与社会(必修二),N/A,N/A,N/A,N/A,N/A,模块外(必修二:发挥市场决定性作用/更好发挥政府作用/新需求牵引新供给/产业政策/基础设施),excluded
+EXCL-SJS2026-Q17,2026石景山一模,Q17,哲学+创新思维(必修四+选必三),N/A,N/A,N/A,N/A,N/A,模块外(必修四:规律/联系/发展/矛盾/文化传承+选必三:发散与聚合思维/超前思维-中医药文化示例),excluded
+EXCL-SJS2026-Q18,2026石景山一模,Q18,法律与生活(选必二),N/A,N/A,N/A,N/A,N/A,模块外(选必二:行政诉讼/民事诉讼/谁主张谁举证/举证责任倒置/过错推定),excluded
+EXCL-SJS2026-Q19,2026石景山一模,Q19,政治与法治(必修三),N/A,N/A,N/A,N/A,N/A,模块外(必修三:以人民为中心立法/法治社会/共建共治共享社会治理格局-注意社会治理格局术语≠选必一共商共建共享全球治理观),excluded
+EXCL-SJS2026-Q21,2026石景山一模,Q21,复合-必修一/三/四+选必三,N/A,N/A,N/A,N/A,N/A,模块外(必修一新发展理念+必修三党的领导/科学立法/人大制度+必修四系统优化/辩证分合/发展观+选必三辩证思维-即使含中国智慧中国方案修辞也不在选必一赋分槽),excluded

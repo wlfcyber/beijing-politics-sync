@@ -1,0 +1,354 @@
+[
+  {
+    "test_id": "T01",
+    "expected_node": "物质决定意识",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T02",
+    "expected_node": "一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T03",
+    "expected_node": "主观能动性 / 意识的能动作用",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T04",
+    "expected_node": "尊重客观规律与发挥主观能动性相结合",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T05",
+    "expected_node": "规律的客观性",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T06",
+    "expected_node": "联系的普遍性 / 联系的观点（总）",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T07",
+    "expected_node": "联系的客观性",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T08",
+    "expected_node": "根据固有联系建立新的具体联系",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T09",
+    "expected_node": "联系的多样性",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T10",
+    "expected_node": "整体与部分",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T11",
+    "expected_node": "系统观念 / 系统优化",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T12",
+    "expected_node": "发展的观点 / 发展的普遍性",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T13",
+    "expected_node": "量变与质变 / 适度原则",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T14",
+    "expected_node": "事物发展是前进性与曲折性的统一",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T15",
+    "expected_node": "辩证否定 / 守正创新",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T16",
+    "expected_node": "矛盾就是对立统一",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T17",
+    "expected_node": "矛盾的普遍性",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T18",
+    "expected_node": "矛盾的特殊性 / 具体问题具体分析",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T19",
+    "expected_node": "矛盾的普遍性和特殊性",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T20",
+    "expected_node": "两点论与重点论",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T21",
+    "expected_node": "内因与外因",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T22",
+    "expected_node": "实践与认识（总）",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T23",
+    "expected_node": "实践是认识的基础",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T24",
+    "expected_node": "认识对实践的反作用",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T25",
+    "expected_node": "认识发展原理",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T26",
+    "expected_node": "真理观",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T27",
+    "expected_node": "社会存在与社会意识",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T28",
+    "expected_node": "社会发展的两大基本规律和基本矛盾",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T29",
+    "expected_node": "改革 / 改革的实质",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T30",
+    "expected_node": "人民群众",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T31",
+    "expected_node": "价值观的导向作用",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T32",
+    "expected_node": "价值判断与价值选择",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T33",
+    "expected_node": "实现人生价值",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T34",
+    "expected_node": "主观能动性 / 意识的能动作用",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T35",
+    "expected_node": "尊重客观规律与发挥主观能动性相结合",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T36",
+    "expected_node": "系统观念 / 系统优化",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T37",
+    "expected_node": "发展的观点 / 发展的普遍性",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T38",
+    "expected_node": "发展的观点 / 发展的普遍性",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T39",
+    "expected_node": "辩证否定 / 守正创新",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T40",
+    "expected_node": "矛盾就是对立统一",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T41",
+    "expected_node": "实践是认识的基础",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  },
+  {
+    "test_id": "T42",
+    "expected_node": "社会存在与社会意识",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T43",
+    "expected_node": "人民群众",
+    "node_hit": true,
+    "chain_hit": false,
+    "landing_hit": true,
+    "status": "FAIL"
+  },
+  {
+    "test_id": "T44",
+    "expected_node": "价值观的导向作用",
+    "node_hit": true,
+    "chain_hit": true,
+    "landing_hit": true,
+    "status": "PASS"
+  }
+]

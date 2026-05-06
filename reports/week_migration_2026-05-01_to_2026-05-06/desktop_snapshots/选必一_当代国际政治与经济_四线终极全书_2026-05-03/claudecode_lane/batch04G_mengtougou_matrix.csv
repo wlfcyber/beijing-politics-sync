@@ -1,0 +1,8 @@
+suite,question,module_from_rubric,classification,scoring_source_type,evidence_level,angles_count,points_total,bucket_placement,merge_flag,notes
+2025门头沟一模,Q16,文化/哲学,excluded,细则（非选必一）,P0,N/A,N/A,N/A,N/A,文化传承与哲学角度；全部排除
+2025门头沟一模,Q17,政治与法治,excluded,细则（非选必一）,P0,N/A,N/A,N/A,N/A,全过程人民民主/民主集中制/政协；全部排除
+2025门头沟一模,Q18,经济与社会,excluded,细则（非选必一）,P0,N/A,N/A,N/A,N/A,必修二民营经济；全部排除
+2025门头沟一模,Q19,当代国际政治与经济,in_scope,P0正式细则,P0,4,8,经济全球化+中国（责任/智慧）+政治多极化,MT01-MT04，见entries.md,中国做赋能型大国的世界意义；四角度×2分；充分利用两个市场两种资源不给分；只答中国意义不给分；国家关系民主化/世界多极化/多边主义单独写不给分
+2025门头沟一模,Q20,法律与生活,excluded,细则（非选必一）,P0,N/A,N/A,N/A,N/A,劳动合同法/侵权；全部排除
+2025门头沟一模,Q21(1),逻辑与思维,excluded,细则（非选必一）,P0,N/A,N/A,N/A,N/A,辩证思维/创新思维；全部排除
+2025门头沟一模,Q21(2),经济与社会/综合,excluded,细则（非选必一）,P0,N/A,N/A,N/A,N/A,中国式现代化/经济与社会模块为主；全部排除

@@ -1,0 +1,131 @@
+[
+  {
+    "entry_id": "2024_东城_一模__Q16__联系与实践",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_东城_一模.jsonl",
+    "line": 4
+  },
+  {
+    "entry_id": "2024_丰台_一模__Q18_(1)__联系的观点",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_丰台_一模.jsonl",
+    "line": 2
+  },
+  {
+    "entry_id": "2024_丰台_一模__Q18_(1)__矛盾分析",
+    "reason": "unmapped",
+    "note": "unmapped node 矛盾的观点 / 矛盾分析方法",
+    "target_node_path": "辩证法/矛盾的观点 / 矛盾分析方法",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_丰台_一模.jsonl",
+    "line": 4
+  },
+  {
+    "entry_id": "2024_丰台_一模__Q21__联系的观点",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_丰台_一模.jsonl",
+    "line": 6
+  },
+  {
+    "entry_id": "2024_朝阳_一模__Q4__联系的观点",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_朝阳_一模.jsonl",
+    "line": 2
+  },
+  {
+    "entry_id": "2024_海淀_一模__Q16__联系的观点",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_海淀_一模.jsonl",
+    "line": 5
+  },
+  {
+    "entry_id": "2024_石景山_一模__Q16__联系的观点",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_石景山_一模.jsonl",
+    "line": 4
+  },
+  {
+    "entry_id": "2024_西城_一模__Q10__价值与人的需要",
+    "reason": "unmapped",
+    "note": "unmapped node 人生观/价值的客观性",
+    "target_node_path": "价值观 / 人生观/价值的客观性",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2024_西城_一模.jsonl",
+    "line": 2
+  },
+  {
+    "entry_id": "2025_东城_二模__Q16__价值观导向作用",
+    "reason": "awareness-material-reaction-outside-initiative-node",
+    "target_node_path": "价值观 / 人生观/价值观的导向作用",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_东城_二模.jsonl",
+    "line": 3
+  },
+  {
+    "entry_id": "2025_丰台_期末__Q4__人生价值的实现",
+    "reason": "reference-only",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_丰台_期末.jsonl",
+    "line": 1
+  },
+  {
+    "entry_id": "2025_丰台_期末__Q7__一切从实际出发",
+    "reason": "reference-only",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_丰台_期末.jsonl",
+    "line": 2
+  },
+  {
+    "entry_id": "2025_朝阳_一模__Q16__价值的创造与实现",
+    "reason": "unmapped",
+    "note": "unmapped node 人生观/价值的创造与实现",
+    "target_node_path": "价值观 / 人生观/价值的创造与实现",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_朝阳_一模.jsonl",
+    "line": 4
+  },
+  {
+    "entry_id": "2025_朝阳_一模__Q21__价值的创造与实现",
+    "reason": "unmapped",
+    "note": "unmapped node 人生观/价值的创造与实现",
+    "target_node_path": "价值观 / 人生观/价值的创造与实现",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_朝阳_一模.jsonl",
+    "line": 7
+  },
+  {
+    "entry_id": "2025_朝阳_期末__Q2__联系的观点",
+    "reason": "reference-only",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_朝阳_期末.jsonl",
+    "line": 1
+  },
+  {
+    "entry_id": "2025_朝阳_期末__Q22__辩证法",
+    "reason": "reject-generic-contradiction",
+    "note": "generic contradiction bucket lacks enough specificity",
+    "target_node_path": "辩证法/矛盾的观点",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_朝阳_期末.jsonl",
+    "line": 10
+  },
+  {
+    "entry_id": "2025_石景山_一模__Q21__社会发展普遍规律",
+    "reason": "unmapped",
+    "note": "unmapped node 社会发展的规律",
+    "target_node_path": "历史唯物主义/社会发展的规律",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2025_石景山_一模.jsonl",
+    "line": 5
+  },
+  {
+    "entry_id": "2026_通州_期末__Q16__联系观点",
+    "reason": "unmapped",
+    "note": "unmapped node 联系的观点 / 普遍联系",
+    "target_node_path": "辩证法/联系的观点 / 普遍联系",
+    "path": "/Users/wanglifei/Desktop/北京高考政治/必修四从0重跑_ClaudeCode_2026-05-02/audit/entries/2026_通州_期末.jsonl",
+    "line": 3
+  }
+]

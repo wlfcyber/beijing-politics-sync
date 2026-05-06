@@ -52,6 +52,7 @@ Load only the reference needed for the current task:
 - Do not invent rubrics, answer keys, or source files.
 - Do not bulk-convert raw Word/PDF/PPT files before checking `beijing_politics_research\data\preprocessed_corpus`. Use the cache first for all new political teaching/research work and all resumed threads.
 - Do not treat ordinary reference answers as rubrics unless the user explicitly confirms that file is usable.
+- 2026石景山期末：用户逐题复核确认没有可用评分细则；所有书、所有模块都不再处理这套试卷，可从后续补题范围中删除。除非用户明确提供新的评分细则来源，不得再使用该套卷的答案及评分参考补入任何主链。
 - If a file is scan-only, image-based, old `.doc`, malformed, or hard to parse, automatically render, OCR/read image, convert, or extract text with available tools. Do not leave it in a lazy pending bucket.
 - If no rubric or scoring source is found, say so plainly and do not force a reference answer into the rubric framework.
 - Every trigger or wrong-option pattern must cite source suite and question number.

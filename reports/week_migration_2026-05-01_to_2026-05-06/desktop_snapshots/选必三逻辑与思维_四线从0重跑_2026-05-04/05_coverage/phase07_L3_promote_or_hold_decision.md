@@ -1,0 +1,76 @@
+# Phase07 L3 Promote Or Hold Decision
+
+All 70 L3 rows are explicitly decided. This prevents feeding all L3 rows to Opus by default.
+
+|question_id|module|decision|reason|student_permission|opus_permission|
+|---|---|---|---|---|---|
+|Q-2024朝阳一模-20-1|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳一模-20-2|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳一模-7|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳一模-9|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳二模-19-1|交叉|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳二模-19-2|交叉|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳二模-6|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024朝阳二模-7|交叉|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024朝阳期中-11|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024朝阳期中-18|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024朝阳期中-19|交叉|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024朝阳期中-7|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024朝阳期中-8|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024朝阳期中-9|交叉|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024海淀二模-17-1|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024海淀二模-17-2|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024海淀二模-6|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024西城一模-11|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2024西城一模-13|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2024西城一模-19-2|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024西城一模-19-3|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2024西城一模-19-5|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2025东城期末-13|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2025东城期末-14|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025东城期末-15|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025东城期末-18-2|交叉|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025东城期末-5|思维|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2025丰台期末-10|交叉|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025丰台期末-18-1|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025丰台期末-7|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2025丰台期末-8|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2025丰台期末-9|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025海淀期末-17-1|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2025海淀期末-18|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2025海淀期末-2|思维|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2025海淀期末-8|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025西城二模-7|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025顺义一模-17-1|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025顺义一模-5|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025顺义一模-6|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2025顺义一模-7|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026东城一模-19-4|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026东城一模-6|交叉|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026东城期末-17-2|推理|hold_reasoning_form_risk|missing_reasoning=same_type_question_ids|no|no_opus_input_yet|
+|Q-2026东城期末-6|推理|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026东城期末-7|推理|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026朝阳期中-11|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026朝阳期中-12|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026朝阳期中-13|交叉|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026朝阳期中-14|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026朝阳期中-15|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026朝阳期中-20|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026朝阳期中-21-2|思维|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026通州期末-11|交叉|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026通州期末-19-2|推理|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026通州期末-5|思维|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026通州期末-8|思维|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026通州期末-9|思维|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026顺义一模-19-1|交叉|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026顺义一模-19-2|交叉|include_as_packet_candidate|critical_fields_passed|no|packet_only|
+|Q-2026顺义一模-3|思维|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026顺义一模-4|推理|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026顺义一模-5|交叉|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026顺义一模-6|思维|hold_answer_locator_risk|L3 paired_candidate must be upgraded before Opus packet|no|no_opus_input_yet|
+|Q-2026丰台一模-4|思维|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026丰台一模-7|思维|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026丰台一模-8|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2026丰台一模-9|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2025海淀二模-12|思维|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|
+|Q-2025海淀二模-13|推理|hold_answer_locator_risk|L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet|no|no_opus_input_yet|

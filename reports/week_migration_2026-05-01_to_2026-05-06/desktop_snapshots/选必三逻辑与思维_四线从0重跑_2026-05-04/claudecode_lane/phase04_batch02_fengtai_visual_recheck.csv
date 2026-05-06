@@ -1,0 +1,23 @@
+suite,qno,laneB_visual_status,answer_verified,selected3_candidate,section_scope,node,can_enter_fusion,conflict_with_codexA,notes
+2026丰台一模,1,CONFIRMED_NOT_SELECTED3,B,no,边界,时政/中国特色社会主义,no,none,答案B；非选必三
+2026丰台一模,2,CONFIRMED_NOT_SELECTED3,A,no,边界,政治与法治/人民陪审员制度,no,none,答案A；非选必三
+2026丰台一模,3,CONFIRMED_NOT_SELECTED3,D,no,边界,政治与法治/协同立法,no,none,答案D；非选必三
+2026丰台一模,4,CONFIRMED_SELECTED3,A,yes,思维,综合思维；实践积淀,yes,none,答案A=①②；②明确含"综合思维"；①实践积淀为边界项但在答案中；④时序倒置错；③全新重构错
+2026丰台一模,5,CONFIRMED_NOT_SELECTED3,A,no,边界,量子通信/联系的建立（哲学）,no,none,答案A；联系的建立是哲学模块不是选必三；boundary_note=on_edge
+2026丰台一模,6,CONFIRMED_NOT_SELECTED3,D,no,边界,系统/联系与文化/颐和园借景（哲学）,no,none,答案D；借景/系统优化属哲学与文化；boundary_note=on_edge
+2026丰台一模,7,CONFIRMED_SELECTED3,B,yes,思维,发散思维与聚合思维；超前思维,yes,none,答案B=①④；①发散聚合诊治方案；④超前思维诊疗预判；②"必然联系用充分条件"错；③完全归纳不现实
+2026丰台一模,8,CONFIRMED_SELECTED3,C,yes,推理,充分条件假言推理；存在量词推论,yes,none,答案C=②③；②否定后件modus tollens有效；③存在量词推论有效（P非空）；①否定前件无效；④肯定后件无效
+2026丰台一模,9,CONFIRMED_SELECTED3,D,yes,推理,概念外延关系；联言判断,yes,none,答案D；D=联言判断（兼具=同时断定）；A全同关系错；B属种vs整体部分错；C OCR残缺
+2026丰台一模,10,CONFIRMED_NOT_SELECTED3,C,no,边界,法律与生活/相邻权,no,none,答案C；法律与生活模块
+2026丰台一模,11,CONFIRMED_NOT_SELECTED3,D,no,边界,法律与生活/录用通知书/要约,no,none,答案D；法律与生活模块
+2026丰台一模,12,CONFIRMED_NOT_SELECTED3,B,no,边界,经济与社会/智能经济传导,no,none,答案B；经济与社会模块
+2026丰台一模,13,CONFIRMED_NOT_SELECTED3,A,no,边界,经济与社会/互联网平台价格规则,no,none,答案A；经济与社会模块
+2026丰台一模,14,CONFIRMED_NOT_SELECTED3,A,no,边界,当代国际政治与经济/中非关系,no,none,答案A；当代国际政治与经济模块
+2026丰台一模,15,CONFIRMED_NOT_SELECTED3,C,no,边界,当代国际政治与经济/APEC,no,none,答案C；当代国际政治与经济模块
+2026丰台一模,16,CONFIRMED_NOT_SELECTED3,subjective,no,边界,哲学与文化/人工智能哲学思考,no,none,主观题；哲学与文化模块；非选必三
+2026丰台一模,17,CONFIRMED_NOT_SELECTED3,subjective,no,边界,政治与法治/生态环境法典立法,no,none,主观题；政治与法治模块；非选必三
+2026丰台一模,18(1),CONFIRMED_NOT_SELECTED3,subjective,no,边界,经济与社会/消费政策,no,none,主观题；经济与社会模块；非选必三
+2026丰台一模,18(2),ALREADY_L4,subjective,yes,推理,必要条件假言推理；三段论大项不当扩大,yes_LOCKED_FOR_FUSION,none,已L4_LOCKED_FOR_FUSION（Phase03已确认）；甲=必要条件假言推理肯定后件有效；乙=三段论大项不当扩大错误
+2026丰台一模,19,CONFIRMED_NOT_SELECTED3,subjective,no,边界,当代国际政治与经济/中国可持续发展,no,none,主观题；当代国际政治与经济模块；非选必三
+2026丰台一模,20,CONFIRMED_NOT_SELECTED3,subjective,no,边界,法律与生活/安全保障义务,no,none,主观题；法律与生活模块；非选必三
+2026丰台一模,21,CONFIRMED_NOT_SELECTED3_BOUNDARY,subjective,no,边界,综合/识变应变求变（党领导哲学边界）,no,none,主观题；综合运用；提及"系统思维"但设问不限定选必三；boundary_only；非选必三mainline

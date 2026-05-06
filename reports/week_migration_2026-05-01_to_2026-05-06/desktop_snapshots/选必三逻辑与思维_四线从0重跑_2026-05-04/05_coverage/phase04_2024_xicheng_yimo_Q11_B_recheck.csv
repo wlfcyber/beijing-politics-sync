@@ -1,0 +1,2 @@
+target_id,suite,qno,codexA_status,answer_status,required_laneB_action,can_enter_fusion_before_laneB
+Q-2024西城一模-11,2024西城一模,11,Word XML textbox options recovered; answer B from 025/026,answer_confirmed_B_from_key,independently extract DOCX XML textbox or render DOCX and confirm all four options plus answer pairing,no

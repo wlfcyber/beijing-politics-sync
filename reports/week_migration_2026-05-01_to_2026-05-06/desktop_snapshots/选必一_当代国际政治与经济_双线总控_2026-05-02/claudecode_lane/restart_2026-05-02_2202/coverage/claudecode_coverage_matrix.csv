@@ -1,0 +1,19 @@
+suite,question,claudecode_status,evidence_source_read,entries_in_claudecode_lane,agree_with_codex,notes
+2026通州期末,Q20,verified,SRC_b66cc2d35877_试卷.txt + SRC_35ef9424281a_细则.txt,6,yes,六点细则与用户硬规则一致；与 Codex 完全一致。
+2026朝阳期中,Q17,verified,SRC_763b7470b96b_细则.txt,9,partial,与 Codex 总体一致；将第二层分说之二（高质量发展系列）从经济全球化主桶降为模块边界：必修二，详见 conflicts_for_codex C1。
+2025海淀期中,Q16(2)+Q21(2),reference_answer_verified,SRC_cda046c2d36d_细则.txt,7,partial,DOCX 内仅含参考答案；用户确认 Q21(2) 另有图片表格形式细则，本 lane 未独立看图，详见 conflicts_for_codex C5。
+2025海淀期末,Q22,verified,SRC_61b68f14212d_细则.txt slide 60-62,2,yes,选必一可选角度：人类命运共同体、中国智慧中国方案；与 Codex 一致。
+2024东城一模,Q16+Q20,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,本次未独立读取 PPTX；建议 Codex 在 fusion 时贴 PPT 角度原文以便 ClaudeCode 复核。
+2025海淀二模,Q21,partial,SRC_5b0f1d77d036_2025年海淀二模评标实录.txt,0,unknown,实录确认 Q21 为联合国80周年题，"中国需要联合国，联合国也需要中国"；细则.docx 本次未单独读取。
+2026东城期末,Q20,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,需 Codex 提供 PPTX 关键页转录以核对四大全球倡议+体系实践分层。
+2026朝阳一模,Q20,verified,SRC_ebbe85a1ee6f_细则.txt,7,partial,Q20 必答点+第②点+第③点逐条核对通过；扩大高水平对外开放进入边界条目，详见 conflicts_for_codex C2。
+2026顺义一模,Q20,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,共同利益必答点已被 xuanbiyi-term-protocol 引用；建议 Codex 在 fusion 时贴 PPT 原文。
+2026丰台一模,Q19,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,人类命运共同体/真正的多边主义/合作共赢/共商共建共享/正确义利观/联合国宪章宗旨原则等术语已由 Codex 视觉读取。
+2026延庆一模,Q19(2),not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,理论逻辑+价值意蕴分层由 Codex 视觉读取后起草。
+2026石景山一模,Q20,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,DOC rubric+PDF paper Codex 已读；ClaudeCode 未再读。
+2026西城一模,Q20(2),not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,中国—东盟自贸区3.0 标准/规则/产业链层 Codex 起草；ClaudeCode 未独立复核。
+2026门头沟一模,Q20,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,海南自贸港封关相关；ClaudeCode 未独立复核。
+2026西城期末,Q20,blocked_missing_full_prompt,SRC_751bc9aaa01f_高三思想政治参考答案.txt + SRC_060b7ec32fe4_西城高三期末评标.txt,0,yes,完整试卷文件不在源目录；与 Codex blocker 结论一致。详见 blockers/。
+2026石景山期末,__suite__,excluded_user_hard_rule,N/A,0,yes,用户硬规则全模块排除。本次未发现新评分细则；保持排除。
+2026海淀期末,__suite__,excluded_user_hard_rule,N/A,0,yes,用户确认无选必一；保持排除。
+2025丰台期末,Q20,not_independently_re_extracted,relied_on_codex_extracted_text,0,unknown,中非战略性共识 Codex 已起草。

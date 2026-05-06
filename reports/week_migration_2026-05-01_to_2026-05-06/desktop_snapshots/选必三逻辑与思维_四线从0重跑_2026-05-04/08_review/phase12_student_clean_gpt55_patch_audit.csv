@@ -1,0 +1,12 @@
+issue_id,priority,item,file_or_area,gpt_finding,local_resolution,status,evidence
+MF1,P0,2024西城一模第11题,student_clean_body,"正确项字母、组合项、错项陷阱互相冲突","按本地官方锁定统一为 B=①③；选项改为 A=①②/B=①③/C=②④/D=③④；正确项写 B，①③",CLOSED,"06_conflicts/phase04_2024_xicheng_yimo_Q11_pairing_lock.md; phase12_student_clean_candidate.md"
+MF2,P0,2026丰台一模第18题第(2)问,student_clean_body,"主观题缺材料信号、设问、为什么能想到","补入材料信号、真实设问、为什么能想到；甲按必要条件假言推理，乙按三段论大项不当扩大",CLOSED,"supplemental_answer_sources/2026北京丰台高三一模政治试题有答案_北京高考在线.txt; 043_...丰台一模_细则.pptx.txt; phase12_student_clean_candidate.md"
+MF3,P0,2025东城期末第13题,reasoning_index,"索引误写小项不当扩大","改为 ①③中项不周延；②大项不当扩大；④四概念；三段论谬误辨析",CLOSED,"phase12_reasoning_typology_index_STUDENT_CLEAN_CANDIDATE.md"
+MF4,P0,2024朝阳二模第19题第(2)问,thinking_index,"形式逻辑联言判断误挂为辩证思维正例","从思维索引辩证思维/分析与综合节点移除，仅保留在推理索引联言判断与联言推理",CLOSED,"phase12_thinking_method_index_STUDENT_CLEAN_CANDIDATE.md; phase12_reasoning_typology_index_STUDENT_CLEAN_CANDIDATE.md"
+MF5,P0,2025海淀二模第20题,student_clean_body,"同类题索引混入 2024朝阳二模19(2)","删除 2024朝阳二模19(2)，保留 2024朝阳二模19(1)",CLOSED,"phase12_student_clean_candidate.md"
+SF1,P1,2026丰台一模第8题,student_clean_body+reasoning_index,"③限制换位理由偏弱，索引位置偏辅助","补入限制换位链条；推理索引移入充分条件假言推理的易混选择题",CLOSED,"phase12_student_clean_candidate.md; phase12_reasoning_typology_index_STUDENT_CLEAN_CANDIDATE.md"
+SF2,P1,2026东城期末第7题,student_clean_body,"真值推演解析过薄","补 R/D/C/T 形式化表达，并说明 A 为什么必然破坏只有一个真，其余项仍可满足",CLOSED,"phase12_student_clean_candidate.md"
+SF3,P1,全局双索引,indexes,"标签略带复审口吻","学生索引统一改为 可正用例/相关检索/易混选择题/边界提醒",CLOSED,"phase12_reasoning_typology_index_STUDENT_CLEAN_CANDIDATE.md; phase12_thinking_method_index_STUDENT_CLEAN_CANDIDATE.md"
+SCAN1,P0,学生正文与双索引,student_clean_candidate+indexes,"internal marker scan required","REVIEW_ONLY/source_pool/phase12_decision/manual_lock/question_id/qid/候选稿/NEEDS_* 在学生正文与双索引中 0 命中；双索引标签已学生化。正文中的“边界陷阱”属于课堂内容词，不按审计标签计",PASS,"rg scan 2026-05-05 23:04 CST"
+SCAN2,P0,题量与字段,student_clean_candidate,"coverage recount required","77 entries; 50/50 complete options; 50/50 correct item; 50/50 wrong-trap; 27 non-choice entries retained",PASS,"local count script 2026-05-05 23:04 CST"
+GPT2_LABEL,P1,2026丰台一模第18题第(2)问,reasoning_index,"GPT post-patch recheck found [交叉题次挂载] label still present in student clean reasoning index","Changed to [可正用例] and patched rebuild script plus review indexes/mounts",CLOSED,"phase12_reasoning_typology_index_STUDENT_CLEAN_CANDIDATE.md:24; phase12_student_clean_post_gpt_patch_label_resolution.md"

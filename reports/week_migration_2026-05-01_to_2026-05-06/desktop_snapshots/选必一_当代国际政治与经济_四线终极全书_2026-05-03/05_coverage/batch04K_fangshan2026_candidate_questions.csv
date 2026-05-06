@@ -1,0 +1,5 @@
+suite,question_guess,source_id,evidence_guess,extract_status,hit_terms,relative_path,cache_path,question_anchors
+2026房山一模,19,SRC_7301f6d3c6e2,P0_formal_scoring_rule_docx,checked_in_scope,制度型开放;两个市场;两种资源;贸易自由化便利化;投资自由化便利化;全球产业分工和合作;中国方案,2026各区一模/2026房山一模/细则/细则.docx,,细则19明确海南自贸港封关助力国际循环的四组2分结构
+2026房山一模,19,SRC_0e98e571e5b0,P3_visual_prompt_support,visual_checked,海南自由贸易港;国际循环;封关,2026各区一模/2026房山一模/试卷/试卷.pdf,02_extraction/visual_renders/batch04K_fangshan2026_paper/page_10.png,视觉核读第10页确认Q19完整设问和表格材料
+2026房山一模,16(1),SRC_7301f6d3c6e2,P0_mixed_module_boundary,checked_boundary,贸易自由化便利化;一带一路;高水平对外开放,2026各区一模/2026房山一模/细则/细则.docx,,"经济与社会"题；含开放表述但主问题为因地制宜服务大局；只作边界记录
+2026房山一模,20,SRC_7301f6d3c6e2,P0_composite_boundary,checked_boundary,中国智慧;中国方案,2026各区一模/2026房山一模/细则/细则.docx,,综合等级题；世界意义可写中国智慧中国方案但非选必一点位细则；只作边界记录

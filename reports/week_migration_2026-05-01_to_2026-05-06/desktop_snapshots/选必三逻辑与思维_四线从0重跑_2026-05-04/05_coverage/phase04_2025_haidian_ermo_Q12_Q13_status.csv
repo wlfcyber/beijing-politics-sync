@@ -1,0 +1,3 @@
+target_id,suite,qno,options_status,answer_status,section_scope,node,can_enter_fusion_before_laneB,required_action
+Q-2025海淀二模-12,2025海淀二模,12,visual_options_recovered_from_008_page04,answer_confirmed_D_from_supplemental_key,思维,超前思维;风险收益平衡;长期发展,no,Lane B independently verifies supplemental answer source and visual options; no logic-derived answer
+Q-2025海淀二模-13,2025海淀二模,13,visual_options_recovered_from_008_page04,answer_confirmed_C_from_supplemental_key,推理,三段论;概念划分;选言判断,no,Lane B independently verifies supplemental answer source and visual options; no logic-derived answer

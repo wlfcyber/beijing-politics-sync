@@ -28,12 +28,14 @@ Use this exact unit for every term:
 - 细则位置：<year district exam + question + scoring section + exact point + score + required/optional status>
 - 来源：<year district exam + question>
 - 材料触发：<trigger logic>
-- 答案句：<answer sentence>
+- 答案句：<candidate answer-sheet sentence: scoring term + material fact + reasoning/result>
 ```
 
 Required fields: `完整设问`, `细则位置`, `来源`, `材料触发`, `答案句`.
 
 Forbidden field: `真题规律`.
+
+`答案句` is not an explanation of how to answer. It is the sentence a candidate would write on the exam paper. It must include the scoring term, a concrete material fact from that question, and the causal/result link. Reject answers that only say a title "顺应时代潮流" or merely repeat the term.
 
 ## 3. What Counts As 术语
 
@@ -67,6 +69,28 @@ Merge entries when all are true:
 - Same score layer.
 - Same answer function.
 - Same framework placement.
+
+For student-facing six-bucket indexes, merge more aggressively by scoring core:
+
+- Same textbook core, same scoring function, or same answer role must appear as one core point.
+- Different wording from different questions becomes `表述积累`, not separate rows.
+- Keep source and trigger differences under the merged point.
+- Do not let tiny wording differences create fake new terms.
+- The merged `核心采分点` name must preserve the highest-information scoring wording. Do not collapse it into a vague container label. For example, use `推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展`, not merely `经济全球化正确方向`.
+
+Examples:
+
+- `时代主题`, `和平与发展`, `和平与发展仍是时代主题`, and `中国做法符合和平与发展时代主题` are one core point: `和平与发展仍是时代主题`. The other phrases are expression variants.
+- `推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展` and `经济全球化方向：普惠、平衡、共赢` are one core point, and the core point name should preserve `开放、包容、普惠、平衡、共赢`.
+- `合作共赢的新型国际关系`, `推动建设合作共赢的新型国际关系`, and `体现合作共赢、互利共赢、共享发展成果` should be归并 under the same `新型国际关系/合作共赢` core when their answer function is the same.
+
+Preferred student-facing merged unit:
+
+```markdown
+| 核心采分点 | 来源题目 | 表述积累 | 迁移用法 |
+|---|---|---|---|
+| 和平与发展仍是时代主题 | 2026通州Q20；2026顺义Q20；2026朝阳一模Q20 | 和平与发展仍是时代主题；顺应和平与发展的世界大势；中国做法符合和平与发展时代主题 | 遇到倡议、合作、中国方案为什么正当或能成立，先判断是否需要写时代背景。 |
+```
 
 Do not split parallel rubric phrases that form one scoring point. For example:
 
@@ -221,6 +245,8 @@ Before a batch is accepted:
 - No entry lacks `细则位置`.
 - No `术语：` phrase is invented.
 - Same scoring point has not been split into multiple entries.
+- Same scoring core across questions has been merged, with wording variants kept as expression accumulation.
 - No 必修二 term has entered the 选必一 main table.
 - `材料触发` is question-driven, not material-summary-driven.
+- `答案句` is answer-sheet prose, not backstage prose. It must not contain `设问`, `细则`, `证据层级`, `v7`, `本题需要`, `采分点`, or similar production/audit wording.
 - Every repeated term accumulates multiple source-trigger cases under one term when the scoring function is genuinely the same.

@@ -1,0 +1,12 @@
+check_id,scope,result,severity,details
+G01,packet_rows,PASS,INFO,rows=74
+G02,include_hold_counts,PASS,INFO,"counts={'include_as_packet_candidate': 25, 'hold_reasoning_form_risk': 20, 'hold_answer_locator_risk': 25, 'include': 4}"
+G03,L3_hold,PASS,INFO,L3_rows=70 hold=45
+G04,L0_exclude,PASS,INFO,L0=288
+G05,hard_locks,PASS,INFO,hard locks pass
+G06,cross_policy,PASS,INFO,cross=13
+G07,permissions,PASS,INFO,packet rows no/packet_only
+C01,thinking_chain,PASS,INFO,thinking_input_rows=18
+C02,reasoning_action,PASS,INFO,reasoning_input_rows=16
+C03,no_answer_letter_only,PASS,INFO,no action-only answer letters
+C04,phase07_laneB_P3_placeholders,PASS,INFO,W01/W02 placeholder classes repaired; packet answer locators are source-shaped

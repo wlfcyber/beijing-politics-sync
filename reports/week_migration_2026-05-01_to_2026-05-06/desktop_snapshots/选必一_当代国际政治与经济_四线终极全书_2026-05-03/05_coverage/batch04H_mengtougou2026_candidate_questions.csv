@@ -1,0 +1,5 @@
+suite,question_guess,source_id,evidence_guess,extract_status,hit_terms,relative_path,cache_path,question_anchors
+2026门头沟一模,20,SRC_f6e59c8eee71,P0_formal_scoring_rule_docx,checked_in_scope,对外开放;互利共赢;经济全球化;高水平对外开放;贸易自由化便利化;制度型开放;开放型世界经济;两种市场;两种资源,2026各区一模/2026门头沟一模/细则/细则.docx,,海南自贸港全岛封关；为什么=原因+意义；中国新动能2分；世界新活力2分；逻辑1分
+2026门头沟一模,20,SRC_e34a259c7765,P3_paper_text_support,checked_in_scope,对外开放;零关税;贸易自由化;开放型世界经济;国内国际双循环,2026各区一模/2026门头沟一模/试卷/试卷.pdf,,试卷第8页Q20题面；海南自贸港封关材料；评分权威仍为细则.docx
+2026门头沟一模,21,SRC_f6e59c8eee71,P0_composite_level_scoring_boundary,checked_boundary,大国担当;互利共赢的开放战略;人类命运共同体,2026各区一模/2026门头沟一模/细则/细则.docx,,综合运用所学谈中国为何能为世界提供确定性；材料三选必一4分块；仅边界/表述积累
+2026门头沟一模,21,SRC_e34a259c7765,P3_paper_text_support,checked_boundary,共享机遇;主要贸易伙伴;第二大进口市场;对外投资,2026各区一模/2026门头沟一模/试卷/试卷.pdf,,试卷第8页Q21题面和材料三；综合题不直接提升频次

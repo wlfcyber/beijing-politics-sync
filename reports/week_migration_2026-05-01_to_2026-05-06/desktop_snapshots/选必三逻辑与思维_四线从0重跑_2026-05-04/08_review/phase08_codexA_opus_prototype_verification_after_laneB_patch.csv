@@ -1,0 +1,17 @@
+check_id,severity,status,evidence
+P0_csv_rows,P0,PASS,prototype CSV has 29 data rows after rebuild
+P0_md_blocks,P0,PASS,prototype Markdown has 29 question blocks
+P0_id_set_equals_freeze,P0,PASS,prototype CSV question_id set equals phase08 freeze question_id set
+P0_duplicate_ids,P0,PASS,duplicate question IDs = 0
+P0_module_counts,P0,PASS,思维=13;推理=11;交叉=5
+P0_status_counts,P0,PASS,L3_candidate=25;L4=4
+P0_generated_text_cleanliness,P0,PASS,0 hits for phase07/Phase07/primary_reasoning_type/rule_slogan/细则31/细则022/cross_reference_policy/reduce repetitive wording/source locator/framework_node/LOCKED_FOR_FUSION/A-formal/B-choice-signal/Governor/Confucius/packet/final terms in generated_text
+P0_hard_absent_Q11,P0,PASS,Q-2024西城一模-11 row_count=0
+P0_hard_absent_Q12,P0,PASS,Q-2025海淀二模-12 row_count=0
+P0_hard_absent_Q13,P0,PASS,Q-2025海淀二模-13 row_count=0
+P0_hard_absent_SY_Q3,P0,PASS,Q-2026顺义一模-3 row_count=0
+P1_choice_answer_letter_Q7,P1,PASS,Q-2024朝阳一模-7 generated_text contains 正确选项 C(②③)
+P1_choice_answer_letter_Q9,P1,PASS,Q-2024朝阳一模-9 generated_text contains 正确选项 D(③④)
+P1_laneB_warnings_patched,P1,PASS,F-LB08-01 through F-LB08-11 patched; F-LB08-12 audit-column-only no action required
+P1_csv_recovery,P1,PASS,CSV rebuilt from cleaned Markdown plus Phase08 freeze; corrupt backup preserved
+P2_no_student_promotion,P2,PASS,still review-only; no student稿/Word/PDF/final PASS authorization

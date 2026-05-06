@@ -1,0 +1,9 @@
+check_id,status,detail
+body_entries,PASS,77
+subjective_entries,PASS,27
+choice_entries,PASS,50
+complete_option_blocks,PASS,50
+choice_correct_blocks,PASS,50
+choice_trap_blocks,PASS,50
+traceability_rows,PASS,77
+internal_marker_hits,PASS,0

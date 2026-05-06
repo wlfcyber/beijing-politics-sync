@@ -1,0 +1,17 @@
+atom_id,suite,question,segment,points,evidence_tier,bucket_hint,term_short,term_full,boundary_flag,promotion_status
+ATOM-MTG2026-Q20-01,2026门头沟一模,Q20,原因/学科术语,2,P0,对外开放/全球化,四术语并列,对外开放基本国策+互利共赢战略+经济全球化+高水平对外开放,要求综合运用四术语,candidate_for_fusion
+ATOM-MTG2026-Q20-02,2026门头沟一模,Q20,意义-中国侧①,1of2,P0,高水平开放/自贸区,贸易自由化便利化,扩大零关税商品范围降低企业成本促进贸易自由化便利化,保留完整术语不可压缩,candidate_for_fusion
+ATOM-MTG2026-Q20-03,2026门头沟一模,Q20,意义-中国侧②,1of2,P0,产业升级/新质生产力,产业链升级新质生产力,加工增值政策吸引产业集聚推动产业链升级催生新质生产力,海南加工增值材料触发,candidate_for_fusion
+ATOM-MTG2026-Q20-04,2026门头沟一模,Q20,意义-中国侧③,1of2,P0,营商环境,营商环境,优化口岸管理压缩通关时间提升营商环境,海南口岸材料触发,candidate_for_fusion
+ATOM-MTG2026-Q20-05,2026门头沟一模,Q20,意义-中国侧④,1of2,P0,双循环/开放型经济,双循环联动,增强国内国际双循环联动构建新发展格局国内国际两种市场两种资源联动培育开放型经济新优势,中国侧正向使用与2025Q19世界侧排除不冲突,candidate_for_fusion
+ATOM-MTG2026-Q20-06,2026门头沟一模,Q20,意义-世界侧①,1of2,P0,经济全球化/中国市场,世界市场空间,扩大市场准入为世界提供更大市场空间,与2025Q19ATOM-MT01同核心,candidate_for_fusion
+ATOM-MTG2026-Q20-07,2026门头沟一模,Q20,意义-世界侧②,1of2,P0,制度型开放,制度型开放新范例,推动制度型开放为全球提供高水平开放新范例,新高信息量表述,candidate_for_fusion
+ATOM-MTG2026-Q20-08,2026门头沟一模,Q20,意义-世界侧③,1of2,P0,全球化/产业链,产业链供应链稳定,促进全球产业链供应链稳定畅通,系统已有核心,candidate_for_fusion
+ATOM-MTG2026-Q20-09,2026门头沟一模,Q20,意义-世界侧④,1of2,P0,国际分工/开放型世界经济,开放型世界经济,深化国际分工与合作推动建设开放型世界经济,保留完整术语不可压缩,candidate_for_fusion
+ATOM-MTG2026-Q20-10,2026门头沟一模,Q20,逻辑结构,1,P0,体例/答题骨架,分角度作答,分角度作答原因+中国意义+世界意义逻辑连贯,非术语原子仅作答题骨架提示,candidate_for_fusion
+BOUNDARY-MTG2026-Q21-W,2026门头沟一模,Q21材料三块,4分等级水平,4,P0-等级,边界证据登记,大国担当/互利共赢的开放战略/构建人类命运共同体,等级水平+关键词举例无可审计子点,boundary_only
+EXCL-MTG2026-Q16,2026门头沟一模,Q16,哲学+文化,8,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-MTG2026-Q17,2026门头沟一模,Q17,政治与法治,8,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-MTG2026-Q18-1,2026门头沟一模,Q18(1),法律与生活,8,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-MTG2026-Q18-2,2026门头沟一模,Q18(2),逻辑与思维,7,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-MTG2026-Q19,2026门头沟一模,Q19,经济与社会,7,N/A,N/A,N/A,N/A,N/A,excluded

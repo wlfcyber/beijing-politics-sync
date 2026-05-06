@@ -1,0 +1,27 @@
+question_id,label,question_type,codex_a_include_status,codex_a_evidence_type,codex_a_rubric_source,laneb_finding,laneb_rubric_status,laneb_action
+2024_海淀_二模_010_Q11,2024 海淀 二模 海淀二模 第11题,choice,included,unknown,试卷/补充材料/高三二模：政治试题（以PDF为准）(1).docx,evidence_type=unknown 实为试题正文，无答案表/讲评/细则锚点,rubric_match_pending,Codex 应回扫细则.docx 与答案附件确认是否漏匹
+2024_石景山_一模_011_Q11,2024 石景山 一模 石景山一模 第11题,choice,included,paper_source,试卷/试卷.docx,paper_source 即试题本身，未匹配 PPT 细则中的对应题号块,rubric_match_pending,需对 细则.pptx 做按题号 OCR 切块重匹
+2025_丰台_一模_016_Q11,2025 丰台 一模 2025丰台一模 第11题,choice,included,paper_source,试卷/试卷.pdf,无答案表/讲评匹配,rubric_match_pending,需复扫细则.docx 与讲评 PPT
+2025_朝阳_一模_019_Q10,2025 朝阳 一模 2025朝阳一模 第10题,choice,included,paper_source,试卷/试卷.pdf,无答案表/讲评匹配,rubric_match_pending,需复扫朝阳一模讲评 PPT/答案
+2025_海淀_一模_020_Q18,2025 海淀 一模 2025海淀一模 第18题,subjective,included,unknown,试卷/补充材料/EDU_*.pdf,主观题正式细则未识别为正式来源,rubric_match_pending,需复扫海淀一模细则.docx 第18题块
+2025_石景山_一模_021_Q8,2025 石景山 一模 2025石景山一模 第8题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,需复扫石景山一模评标
+2025_石景山_一模_021_Q11,2025 石景山 一模 2025石景山一模 第11题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,同上
+2025_东城_二模_025_Q10,2025 东城 二模 2025东城二模 第10题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,需复扫东城二模分题阅卷总结
+2025_东城_二模_025_Q11,2025 东城 二模 2025东城二模 第11题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,同上
+2025_东城_二模_025_Q12,2025 东城 二模 2025东城二模 第12题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,同上
+2025_丰台_二模_026_Q9,2025 丰台 二模 2025丰台二模 第9题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,需复扫丰台二模细则
+2025_丰台_二模_026_Q10,2025 丰台 二模 2025丰台二模 第10题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,同上
+2025_丰台_二模_026_Q12,2025 丰台 二模 2025丰台二模 第12题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,同上
+2025_昌平_二模_027_Q14,2025 昌平 二模 2025昌平二模 第14题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,需复扫昌平二模评标
+2025_朝阳_二模_028_Q10,2025 朝阳 二模 2025朝阳二模 第10题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,需复扫朝阳二模讲评
+2025_东城_期末_031_Q11,2025 东城 期末 2025东城期末 第11题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,需复扫东城期末答案/细则
+2025_东城_期末_031_Q12,2025 东城 期末 2025东城期末 第12题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,同上
+2025_丰台_期末_032_Q11,2025 丰台 期末 2025丰台期末 第11题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,需复扫丰台期末答案
+2025_丰台_期末_032_Q12,2025 丰台 期末 2025丰台期末 第12题,choice,included,paper_source,试卷/试卷.pdf,同上,rubric_match_pending,同上
+2025_海淀_期末_035_Q11,2025 海淀 期末 2025海淀期末 第11题,choice,included,paper_source,试卷/试卷.docx,无答案/讲评匹配,rubric_match_pending,需复扫海淀期末答案附件
+2025_海淀_期末_035_Q12,2025 海淀 期末 2025海淀期末 第12题,choice,included,paper_source,试卷/试卷.docx,同上,rubric_match_pending,同上
+2025_海淀_期末_035_Q14,2025 海淀 期末 2025海淀期末 第14题,choice,included,paper_source,试卷/试卷.docx,同上,rubric_match_pending,同上
+2025_海淀_期末_035_Q15,2025 海淀 期末 2025海淀期末 第15题,choice,included,paper_source,试卷/试卷.docx,同上,rubric_match_pending,同上
+2026_东城_一模_037_Q10,2026 东城 一模 2026东城一模 第10题,choice,included,unknown,2026东城一模 原卷扫描版.pdf,扫描件未做按题号 OCR；evidence_type=unknown,rubric_match_pending,需对原卷扫描件做 vision OCR 按题号切块再匹细则
+2026_东城_一模_037_Q11,2026 东城 一模 2026东城一模 第11题,choice,included,unknown,2026东城一模 原卷扫描版.pdf,同上,rubric_match_pending,同上
+2026_朝阳_一模_041_Q11,2026 朝阳 一模 2026朝阳一模 第11题,choice,included,paper_source,试卷/试卷.pdf,无答案/讲评匹配,rubric_match_pending,需复扫朝阳一模评标

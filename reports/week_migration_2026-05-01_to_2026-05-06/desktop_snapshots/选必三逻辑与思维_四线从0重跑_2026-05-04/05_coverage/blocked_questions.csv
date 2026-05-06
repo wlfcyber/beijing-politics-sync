@@ -1,0 +1,2 @@
+question_id,suite,question,reason,source_path,required_action,status,notes
+BLOCK_2026_ERM_ALL,2026二模,ALL,source_not_found_in_scanned_roots,,user_provide_or_rescan_later,blocked,Do not claim coverage

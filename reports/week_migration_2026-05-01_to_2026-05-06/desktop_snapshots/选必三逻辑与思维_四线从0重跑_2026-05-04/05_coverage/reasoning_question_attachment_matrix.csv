@@ -1,0 +1,4 @@
+suite,question,part,question_type,full_stem_status,full_options_status,answer_key_status,rubric_status,locked_knowledge_or_rule,entry_status,next_action
+2026通州期末,Q11,思维选择题,感性具体-思维抽象-思维具体,text_locked,text_locked,key_locked,answer_key_only,C; 感性具体到思维抽象再到思维具体,phase02_codex_locked_pending_b_lane,ClaudeCode cross-check then add choice-trap explanation
+2026东城期末,Q17(2),推理主观题,形式逻辑综合,text_locked,not_applicable,not_applicable,rubric_locked,矛盾律; 充分条件假言推理误用; 三段论中项不周延,phase02_codex_locked_pending_b_lane,ClaudeCode cross-check then add typology chapter entry
+2026东城期末,Q6,推理选择题,三段论补前提,text_locked,text_locked,rubric_analysis_locked,rubric_locked,加入大前提使三段论保真; 中项周延; 不犯四概念,side_hit_not_yet_in_hard_sample,return to source and include in reasoning typology if full answer table confirms

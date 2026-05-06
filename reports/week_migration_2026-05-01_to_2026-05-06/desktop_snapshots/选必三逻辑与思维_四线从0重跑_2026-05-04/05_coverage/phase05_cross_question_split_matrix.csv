@@ -1,0 +1,14 @@
+question_id,thinking_component,reasoning_component,primary_archive_destination,secondary_archive_destination,是否双挂载,risk_note
+Q-2024朝阳二模-19-1,辩证思维；动态性,假言；联言；类比；判断；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,"①填错为整体性/质量互变会丢分;②类比变通""无变通""严格"
+Q-2024朝阳二模-19-2,辩证思维；动态性,假言；联言；类比；判断；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,"错别字""连言判断""不给分;表述为""充分/必要条件联言判断""不给分"
+Q-2024朝阳二模-7,科学思维,三段论；假言；归纳；判断；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,A小项不当周延/小项扩大（娱乐工具在前提中不周延，结论中周延）;B归纳推理结论确定性夸大;C必要条件假言推理误用
+Q-2024朝阳期中-19,科学思维；辩证思维；创新思维；分析与综合；发散；聚合；联想；逆向；超前；迁移,概念；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,只把2思维写全但材料不匹配只1分;只1思维0分
+Q-2024朝阳期中-9,思维抽象；思维具体,归纳；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,A演绎推理结构错;C求异法误用且必然性夸大;D假如式想象未发生_是科学实验
+Q-2025东城期末-18-2,创新思维；发散；聚合；联想；超前；迁移,三段论,thinking_archive_and_reasoning_archive,same_type_index,yes,只列思维无材料分析丢分;混淆联想/发散/聚合归属丢分
+Q-2025丰台期末-10,思维抽象；思维具体；感性具体,假言；归纳；类比；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,②同地摔倒非演绎推理责任_错位;③闻一知十非思维抽象到具体_错位
+Q-2026东城一模-6,辩证否定,换质；换位；判断；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,A辩证否定误用_联结非否定;B抽象思维误标_应为形象思维;C有些S是P不能必推有些S不是P
+Q-2026朝阳期中-13,联想；感性具体,类比；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,②类比推理是推理部分（诱惑项非答案）；①哲学常识层面
+Q-2026通州期末-11,辩证思维；迁移；思维抽象；思维具体；感性具体,类比；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,A迁移飞跃错位;B分析综合普遍特殊普遍非该题进阶;D类比推理与系统整合错位
+Q-2026顺义一模-19-1,科学思维,三段论；判断；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,只判断对错不分析理由扣分;漏前提真假/结构正确两条件扣分
+Q-2026顺义一模-19-2,科学思维,三段论；判断；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,只列特征无材料分析丢分;混淆三特征扣分;漏特征扣分
+Q-2026顺义一模-5,发散,判断；周延；推理,thinking_archive_and_reasoning_archive,same_type_index,yes,A性质判断错_是比喻;B发散误为聚合;C关系判断主项谓项错位

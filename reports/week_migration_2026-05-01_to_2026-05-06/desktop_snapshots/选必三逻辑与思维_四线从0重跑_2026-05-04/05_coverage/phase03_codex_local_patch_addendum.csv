@@ -1,0 +1,10 @@
+question_id,suite,原始题号,部分归属,题型,证据等级,source_locator,answer_or_scoring,rule_or_thinking_node,patch_status,notes
+Q-2025西城二模-16-2,2025西城二模,16(2),推理,主观题,A-formal,"037 lines 186-191; 038 lines 18-19","无法确定一定有岩松鼠行动；充分条件假言判断后件真不能确定前件真","充分条件假言推理：肯定后件无效",PATCH_READY_FOR_MATRIX,"A/B conflict resolved by sub-question split; 16(2) is reasoning"
+Q-2025西城二模-16-3,2025西城二模,16(3),思维,主观题,A-formal,"037 lines 192-193; 038 line 22","调整种植结构等，运用创新思维改变创造条件、建立新的具体联系","创新思维：改变创造条件、建立新联系以解决矛盾",PATCH_READY_FOR_MATRIX,"A/B conflict resolved by sub-question split; 16(3) is thinking/innovation"
+Q-2026朝阳期中-11,2026朝阳期中,11,推理,选择题,B-choice-signal,"003 lines 130-136; 003 lines 297-326","A","三段论补大前提",PATCH_READY_FOR_MATRIX,"paper answer table paired; still not formal rubric"
+Q-2026朝阳期中-12,2026朝阳期中,12,推理,选择题,B-choice-signal,"003 Q12 text; 003 lines 297-326","B","逻辑规则：选言判断/划分规则/矛盾表达",PATCH_READY_FOR_MATRIX,"ClaudeCode Batch01 found Q12 missing from in-scope index; Codex control row existed as 待判 and is now patched to 推理"
+Q-2026朝阳期中-13,2026朝阳期中,13,交叉,选择题,B-choice-signal,"003 lines 148-158; 003 lines 297-326","D","联想思维/类比推理/感性具体边界",PATCH_READY_FOR_MATRIX,"paper answer table paired; classify as boundary/cross until trap extraction"
+Q-2026朝阳期中-14,2026朝阳期中,14,推理,选择题,B-choice-signal,"003 lines 159-168; 003 lines 297-326","B","不完全归纳/或然性",PATCH_READY_FOR_MATRIX,"paper answer table paired"
+Q-2026朝阳期中-15,2026朝阳期中,15,推理,选择题,B-choice-signal,"003 lines 169-175; 003 lines 297-326","D","联言判断否定：否定一个联言支即否定整个联言判断",PATCH_READY_FOR_MATRIX,"paper answer table paired"
+Q-2024西城一模-11,2024西城一模,11,推理,选择题,A-formal,"024 docx/document.xml textboxes around Q11; 025/026 answer key lines 1-6","B","推理选择题：枚举归纳/类关系替换；错误项含反向泛化与不当推出",PATCH_READY_FOR_MATRIX,"normal docx extraction missed textbox options; Codex recovered all four options from Word XML; needs Lane B targeted verification before locked fusion"
+Q-2025西城二模-7,2025西城二模,7,推理,选择题,A-formal,"037 full paper text Q7; 038 answer key lines 1-6","C","必要条件假言推理否定前件陷阱；求异法/归纳或然性；类比可信度",PATCH_READY_FOR_MATRIX,"full options and answer recovered by Codex; needs Lane B targeted verification before locked fusion"

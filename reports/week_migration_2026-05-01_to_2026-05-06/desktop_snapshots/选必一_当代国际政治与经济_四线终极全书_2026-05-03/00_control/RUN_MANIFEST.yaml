@@ -1,0 +1,29 @@
+run_id: 选必一_当代国际政治与经济_四线终极全书_2026-05-03
+book_or_module: 选必一
+scope: 当代国际政治与经济_四线终极全书
+mode: one_hour_deep_start_then_continue
+start_type: independent_new_run_keep_old_artifacts
+source_range: 2024-2026 Beijing district papers unless narrowed
+skill_route: feige-politics-garden -> feige-politics-garden-book-orchestrator -> feige-politics-garden-xuanbiyi
+notebooks_required:
+  - /Users/wanglifei/Desktop/北京高考政治/选必一复查_2026-04-29/选必一_交付要求记事本.md
+  - /Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/references/current-user-requirements.md
+  - /Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/references/xuanbiyi-term-protocol.md
+master_requirements_version: 2026-05-03Tstart
+evidence_priority_rule: P0 scoring/marking rules > P1 reference answers > P2 lecture/analysis > P3 paper text > P4 AI/advisor drafts
+student_doc_goal: material trigger -> why this principle/term -> answer landing
+deliverables:
+  - Markdown
+  - Word
+  - PDF
+  - term_frequency_statistics
+  - acceptance_report
+created_at: 2026-05-03
+controller: Codex
+codex_line_status: running
+codex_internal_agents_status: bootstrapping
+claudecode_line_status: bootstrapping
+opus_status: queued_after_evidence_lock
+gpt55_status: queued_outline_and_section_review
+governor_status: pending
+confucius_status: pending

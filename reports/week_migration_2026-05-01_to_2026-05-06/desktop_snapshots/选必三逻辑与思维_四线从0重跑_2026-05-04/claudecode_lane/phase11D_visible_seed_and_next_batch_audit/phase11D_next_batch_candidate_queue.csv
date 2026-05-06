@@ -1,0 +1,19 @@
+rank,question_id,title,type,priority_reason,source_stability,expected_four_element_risk,do_not_promote_reason_if_any
+1,Q-2026朝阳期中-20,2026 朝阳期中第20题,主观题_思维_辩证思维,phase11A_PATCHED 已标记 source-verified，题型与 phase11D 种子稿互补（辩证思维多维同题），可作为辩证思维节点首发，cluster_anchor,STABLE_phase11A_evidence_pool_74,LOW_node_specific_easy_机遇与挑战+整体性+动态性+质量互变,
+2,Q-2026东城一模-19-4,2026 东城一模第19题第(4)问,主观题_思维_系统观念+创新思维,phase11A_PATCHED 已锁定;Phase10.5 P1 索引簇 5 引用,STABLE_phase11A_evidence_pool_74,LOW_系统观念整体性+创新思维链式扩展,
+3,Q-2025海淀期末-17-1,2025 海淀期末第17题第(1)问,主观题_思维_科学思维客观性,phase11A_PATCHED 已锁定;永动机违反客观规律是清晰 A-formal 样本,STABLE_phase11A_evidence_pool_74,LOW_客观性单一维度,
+4,Q-2026朝阳期中-21-2,2026 朝阳期中第21题第(2)问,主观题_思维_创新思维子方法,phase11A_PATCHED 已锁定;Phase10.5 P1 索引簇 5 引用_同集群与种子 18-2/海淀期末-18 互补,STABLE_phase11A_evidence_pool_74,MED_联想+发散聚合+逆向+超前 多支需逐点落答案句,
+5,Q-2025西城二模-16-3,2025 西城二模第16题第(3)问,主观题_思维_创新思维改造条件,phase11A_PATCHED 已锁定;同集群与种子 18-2/海淀期末-18 互补_鹿叫村废井改造_新具体联系,STABLE_phase11A_evidence_pool_74,LOW_改变与创造条件+建立新具体联系,
+6,Q-2024朝阳一模-9,2024 朝阳一模第9题,选择题_思维_系统观念整体性,phase11A_PATCHED 已锁定;Phase10.5 同类题索引 anchor_对模拟政协活动多主体协同_是 P2 集群常引节点,STABLE_phase11A_evidence_pool_74,LOW_选择题正项③④+错项①②+陷阱_拔高/偏离,
+7,Q-2024朝阳一模-20-1,2024 朝阳一模第20题第(1)问,主观题_推理_充分条件假言推理_否定后件式,phase11A_PATCHED 已锁定;推理章节充分条件假言基石样本_含古代竹子炭化推断真实题材,STABLE_phase11A_evidence_pool_74,LOW_前真后必真+否定后件 标准卷面句,
+8,Q-2024朝阳一模-20-2,2024 朝阳一模第20题第(2)问,主观题_推理_必要条件假言推理_肯定后件式,phase11A_PATCHED 已锁定;与 20-1 同源_补充必要条件假言式,STABLE_phase11A_evidence_pool_74,LOW_肯定后件可肯定前件 标准卷面句_注意"古代/当时"时间限定,
+9,Q-2025顺义一模-7,2025 顺义一模第7题,选择题_推理_三段论谬误判断纠错,phase11A_PATCHED 已锁定;phase10.5 同类题索引 anchor_配 2025东城期末13_构建三段论谬误库,STABLE_phase11A_evidence_pool_74,LOW_选 A_大项不当扩大被错命名为小项不当扩大_标准逆向选择,
+10,Q-2025东城期末-13,2025 东城期末第13题,选择题_推理_三段论谬误,phase11A_PATCHED 已锁定;选项①③ 中项不周延_经典样本_配 2025顺义一模-7 互证,STABLE_phase11A_evidence_pool_74,LOW_选项 B①③+错项②④ 解释_中项不周延+四概念错位,
+NA,Q-2025海淀二模-20,2025 海淀二模第20题,主观题_思维_辩证思维角度池,DECISION_LOG 标 LOCKED_PENDING_VISUAL/HS02_phase11A 仍按 A- pending_visual 状态_phase11C 报告也以 BLOCKED_NEEDS_SOURCE 处理,UNSTABLE_locked_pending_visual,N/A,DO_NOT_PROMOTE 直到 visual confirmation 关闭
+NA,Q-2026顺义一模-3,2026 顺义一模第3题,选择题_思维,Phase10.5 P0 PROTECTED HOLD,FROZEN_P0,N/A,DO_NOT_PROMOTE_P0_protected_hard_lock
+NA,Q-2025海淀二模-12,2025 海淀二模第12题,选择题_思维,Phase10.5 P0 PROTECTED HOLD,FROZEN_P0,N/A,DO_NOT_PROMOTE_P0_protected_hard_lock
+NA,Q-2024西城一模-11,2024 西城一模第11题,选择题_推理,Phase10.5 P0 PROTECTED HOLD,FROZEN_P0,N/A,DO_NOT_PROMOTE_P0_protected_hard_lock
+NA,Q-2025海淀二模-13,2025 海淀二模第13题,选择题_推理,Phase10.5 P0 PROTECTED HOLD,FROZEN_P0,N/A,DO_NOT_PROMOTE_P0_protected_hard_lock
+NA,Q-2026丰台一模-18-2,2026 丰台一模第18题第(2)问,主观题_推理,phase11A 已写但 phase10.5 P5 RECHECK_CHOICE_REASONING_FORM 关联子问需 reasoning-form 复核,UNSTABLE_pending_recheck,N/A,DO_NOT_PROMOTE_until_reasoning_form_recheck_closed
+NA,Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,主观题_推理,Phase10.5 P4 RECHECK_SUBJECTIVE_REASONING_FORM_xuanbisan-hard-rules-notebook.md 第十三边界硬样本,UNSTABLE_pending_reasoning_form_recheck,N/A,DO_NOT_PROMOTE_until_reasoning_form_recheck_closed_并明确归思维主链还是推理主链
+NA,2026石景山期末-ALL,2026 石景山期末整套,套卷,xuanbisan-hard-rules-notebook.md 与 SKILL.md 用户已逐题确认无可用评分细则,EXCLUDED_module_wide,N/A,DO_NOT_PROMOTE_user_excluded

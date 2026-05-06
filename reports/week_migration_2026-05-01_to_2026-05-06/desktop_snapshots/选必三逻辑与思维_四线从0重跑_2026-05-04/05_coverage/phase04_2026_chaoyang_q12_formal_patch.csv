@@ -1,0 +1,2 @@
+target_id,suite,qno,source_locator,section_scope,answer_status,verification_level,current_phase04_level,required_laneB_action,notes
+Q-2026朝阳期中-12,S-2026朝阳期中,12,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q12,推理,paired_answer_table_B_choice_signal,B-choice-signal,L3_A_PLUS_B_TARGET_CONFIRMED,write formal Batch02 results CSV row and confirm can_enter_fusion decision,GPT P0-1: Q12 was corrected from Codex 待判 by Lane B; control count must remain 120 and the B result row must become machine-readable.

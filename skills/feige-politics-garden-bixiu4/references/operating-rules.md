@@ -53,7 +53,7 @@ Specific user-confirmed handling:
   - `C:\Users\Administrator\Desktop\2025各区模拟题`
   - `C:\Users\Administrator\Desktop\2026各区模拟题`
   These folders were previously organized by Codex and are easier to search. Except `2026石景山期末`, every suite should be assumed to have a rubric/marking-rule file somewhere in this organized corpus until the relevant `细则` folder has been checked directly.
-- 石景山期末: user clarified that `2026石景山期末` has no detailed评标细则. The local `2026北京石景山高三（上）期末政治.pdf` includes `答案及评分参考` on pages 9-10, but use it only as scoring-direction evidence, not as a detailed评标细则.
+- 石景山期末: user re-checked and clarified that `2026石景山期末` has no usable评分细则. All books/modules should stop processing this suite and may delete/exclude it from future补题. Do not use its `答案及评分参考` as scoring-direction evidence for any main-chain artifact unless the user explicitly provides a new scoring-rubric source.
 - 2025海淀期中: an earlier context said no philosophy question, so do not force a merge. However, the 2026-04-25 user correction overrides the old “no rubric found” wording: the organized desktop folder contains `2025海淀期中细则.docx`. If reopened, inspect that rubric and exclude only by module/question boundary, not by claiming the suite lacks a rubric.
 - 延庆一模: user said directly use it.
 - User-confirmed marking reports/lecture scoring files are usable when they contain scoring standards, e.g. `本题标准和变通`, `评分细则`, `答案变通说明`.

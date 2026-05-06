@@ -1,0 +1,5 @@
+suite,question_guess,source_id,evidence_guess,extract_status,hit_terms,relative_path,cache_path,question_anchors
+2026延庆一模,19(2),SRC_5bf6b7387198,P0_formal_scoring_rule_docx,checked_in_scope,共同利益;正确义利观;时代主题;经济全球化;共商共建共享;全球治理;新型国际关系;人类命运共同体,2026各区一模/2026延庆一模/细则/细则.docx,,细则19(2)明确理论逻辑4分和值得意蕴4分；正式采分框架可用
+2026延庆一模,19(2),SRC_944b03f9c3be,P3_visual_prompt_support,visual_checked,绿色能源国际合作;一带一路;全球能源治理;可持续发展,2026各区一模/2026延庆一模/试卷/试卷.pdf,02_extraction/visual_renders/batch04J_yanqing2026_paper/page_06.png;02_extraction/visual_renders/batch04J_yanqing2026_paper/page_07.png,视觉核读第6-7页确认材料二与完整设问；PDF文本抽取跨页断句不单独作为设问依据
+2026延庆一模,19(1),SRC_5bf6b7387198,P0_no_xuanbiyi_boundary,checked_no_xuanbiyi,党的领导;国有经济;市场;新发展理念,2026各区一模/2026延庆一模/细则/细则.docx,,Q19(1)经济与社会；源穷尽边界记录
+2026延庆一模,18(2),SRC_5bf6b7387198,P0_no_xuanbiyi_boundary,checked_no_xuanbiyi,辩证思维;适度原则;创新思维,2026各区一模/2026延庆一模/细则/细则.docx,,Q18(2)逻辑与思维；源穷尽边界记录

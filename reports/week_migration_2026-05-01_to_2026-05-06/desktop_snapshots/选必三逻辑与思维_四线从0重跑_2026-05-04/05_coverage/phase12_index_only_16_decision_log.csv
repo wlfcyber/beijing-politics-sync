@@ -1,0 +1,17 @@
+question_id,visible_title,module,question_type,why_not_body_before,phase12_decision,specific_blocker_or_repair,needs_source_repair,needs_reasoning_form_repair,enter_index
+Q-2024朝阳二模-7,2024 朝阳二模第7题,交叉,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,yes
+Q-2024朝阳期中-19,2024 朝阳期中第19题,交叉,主观题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,yes
+Q-2024西城一模-11,2024 西城一模第11题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,交叉,主观题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,yes
+Q-2025东城期末-5,2025 东城期末第5题,思维,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2025海淀期末-2,2025 海淀期末第2题,思维,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026朝阳期中-11,2026 朝阳期中第11题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026朝阳期中-14,2026 朝阳期中第14题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026通州期末-11,2026 通州期末第11题,交叉,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026通州期末-5,2026 通州期末第5题,思维,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026通州期末-8,2026 通州期末第8题,思维,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026通州期末-9,2026 通州期末第9题,思维,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026顺义一模-3,2026 顺义一模第3题,思维,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026顺义一模-5,2026 顺义一模第5题,交叉,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2026丰台一模-8,2026 丰台一模第8题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes
+Q-2025海淀二模-12,2025 海淀二模第12题,思维,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,yes

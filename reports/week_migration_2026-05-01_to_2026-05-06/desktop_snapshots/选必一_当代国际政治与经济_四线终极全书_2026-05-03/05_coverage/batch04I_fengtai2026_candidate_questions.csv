@@ -1,0 +1,5 @@
+suite,question_guess,source_id,evidence_guess,extract_status,hit_terms,relative_path,cache_path,question_anchors
+2026丰台一模,19,SRC_44f3b42c2caf,P0_scoring_pptx_reference_answer_guarded,checked_in_scope,人类命运共同体;联合国;联合国宪章;正确义利观;真正的多边主义;合作共赢;共商共建共享;全球治理,2026各区一模/2026丰台一模/细则/细则.pptx,,PPTX slide 41试题分析；slide 42 Q19 8分参考答案；无逐点赋分细则
+2026丰台一模,19,SRC_31e84e4e2ec2,P3_visual_prompt_support,visual_checked,全球可持续发展;大国情怀与担当;联合国2030年可持续发展议程,2026各区一模/2026丰台一模/试卷/试卷.pdf,02_extraction/visual_renders/batch04I_fengtai2026_paper/page_08.png,视觉核读试卷第8页Q19完整设问；PDF文本不可抽
+2026丰台一模,18,SRC_44f3b42c2caf,P0_scoring_pptx_no_xuanbiyi_boundary,checked_no_xuanbiyi,消费;推理,2026各区一模/2026丰台一模/细则/细则.pptx,,Q18(1)经济与社会；Q18(2)逻辑与思维；不入选必一
+2026丰台一模,20,SRC_31e84e4e2ec2,P3_visual_no_xuanbiyi_boundary,visual_checked,法律与生活,2026各区一模/2026丰台一模/试卷/试卷.pdf,02_extraction/visual_renders/batch04I_fengtai2026_paper/page_09.png,Q20以案释法明理释义；法律与生活模块；不入选必一

@@ -1,0 +1,8 @@
+item,status,blocks_governor,blocks_final_clean,notes
+SP1_anti_template,closed,no,no,Generic subjective teaching phrases replaced with question-specific exam actions traps and concrete same-type references
+SP2_shunyi_yimo_7_question_dedup,closed,no,no,Q-2025顺义一模-7 keeps ABCD only in full options and the question stem only in the question field
+SP3_chaoyang_yimo_20_1_field_merge,closed,no,no,Specific sufficient-conditional口令 merged into exam action and standalone 考场口令 removed
+SP4_style_normalization,closed_in_clean_candidate,no,no,8 inline choice rows normalized to explicit correct-item and wrong-option-trap fields before student-clean candidate build
+SP5_internal_metadata_removal,deferred_to_final_clean,no,yes,Remove manual_lock phase06 external_forced_check SCIENCE_ONLY and other internal metadata from clean indexes
+SP6_boundary_trap_visual_hint,deferred_to_final_clean,no,yes,Add student-readable boundary-trap reminders in clean body or index without changing judgments
+SP7_student_layer_hard_judgments,deferred_to_final_clean,no,yes,Add remaining口诀 or hard-judgment polish where useful in final clean pass

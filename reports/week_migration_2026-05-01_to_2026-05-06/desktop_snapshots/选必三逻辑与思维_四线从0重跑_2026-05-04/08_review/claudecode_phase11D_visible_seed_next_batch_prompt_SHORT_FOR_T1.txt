@@ -1,0 +1,1 @@
+主任务，不是 /btw。请现在执行 08_review/claudecode_phase11D_visible_seed_next_batch_prompt.md。你是 T1 Terminal ClaudeCode 主线程，必须使用 Read/Write/Bash 等工具真实写入 claudecode_lane/phase11D_visible_seed_and_next_batch_audit/。禁止改 09_student_draft，禁止 Word/PDF/final，禁止写 VSCode lane。完成后最后一行输出 T1_PHASE11D_VISIBLE_OUTPUTS_WRITTEN_NO_STUDENT_MERGE_NO_WORD。

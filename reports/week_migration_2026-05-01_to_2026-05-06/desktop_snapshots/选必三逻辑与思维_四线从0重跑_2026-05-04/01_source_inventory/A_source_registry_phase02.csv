@@ -1,0 +1,14 @@
+source_id,suite,question,source_role,path,file_type,method,status,notes
+FW_THINKING,user_framework,,framework,/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04/00_source_pdfs/逻辑与思维_思维部分_原文件.pdf,pdf,pymupdf_render_plus_visual_digest,processed,framework learning only not exam evidence
+FW_REASONING,user_framework,,framework,/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04/00_source_pdfs/逻辑与思维_推理部分_原文件.pdf,pdf,pymupdf_render_plus_visual_digest,processed,framework learning only not exam evidence
+HS01_PAPER,2026顺义一模,Q19(2),paper,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026顺义一模/试卷/试卷.pdf,pdf,pymupdf_text_plus_render,processed,phase02 hard sample
+HS01_RUBRIC,2026顺义一模,Q19(2),rubric,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026顺义一模/细则/细则.pptx,pptx,python_pptx_text,processed,phase02 hard sample
+HS02_PAPER,2025海淀二模,Q20,paper,/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/试卷/试卷.pdf,pdf,pymupdf_render_visual_review,needs_second_visual_check,text layer weak
+HS02_RUBRIC,2025海淀二模,Q20,rubric,/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/细则/补充材料/2025年海淀二模评标实录.docx,docx,python_docx_text,processed,phase02 hard sample
+HS03_PAPER,2026朝阳期中,Q21(2),paper,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期中/试卷/试卷.pdf,pdf,pymupdf_text_plus_render,processed,phase02 hard sample
+HS03_RUBRIC,2026朝阳期中,Q21(2),rubric,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期中/细则/细则.docx,docx,python_docx_text,processed,phase02 hard sample
+HS03_RUBRIC_SUPP,2026朝阳期中,Q21(2),rubric_supplement,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期中/细则/补充材料/细则.docx,docx,python_docx_text,processed,phase02 hard sample
+HS04_PAPER,2026通州期末,Q11,paper,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026通州期末/试卷/试卷.pdf,pdf,pymupdf_text_plus_render,processed,phase02 hard sample
+HS04_RUBRIC,2026通州期末,Q11,rubric,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026通州期末/细则/细则.pptx,pptx,python_pptx_text,processed,phase02 hard sample
+HS05_PAPER,2026东城期末,Q17(2),paper,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026东城期末/试卷/试卷.pdf,pdf,pymupdf_text_plus_render,processed,phase02 hard sample
+HS05_RUBRIC,2026东城期末,Q17(2),rubric,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026东城期末/细则/细则.pptx,pptx,python_pptx_text,processed,phase02 hard sample

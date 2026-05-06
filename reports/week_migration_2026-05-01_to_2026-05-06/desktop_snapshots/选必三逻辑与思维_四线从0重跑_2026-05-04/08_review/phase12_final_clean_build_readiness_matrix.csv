@@ -1,0 +1,11 @@
+check_id,status,detail
+C01_body_entry_count,PASS,entry_headings=77
+C02_control_and_sort_count,PASS,control_rows=77; sort_rows=77
+C03_qid_anchor_count,PASS_REVIEW_ONLY_STRIP_LATER,qid_comments=77; final student build must strip all HTML comments
+C04_choice_section_count,PASS,choice_sections=1
+C05_choice_option_visibility,PASS,choice-option repair queue is 0
+C06_external_gpt55_77row,HOLD_EXTERNAL_PENDING,08_review/gpt_phase_advice/phase_12_77body_gpt55_raw.md
+C07_visible_claudecode_77row,HOLD_EXTERNAL_PENDING,claudecode_lane/phase12_visible_77row_audit
+C08_opus47_77row,HOLD_EXTERNAL_PENDING,08_review/opus_writer/phase_12_77body_opus47_adaptive_raw.md
+C09_mixed_entry_style,NORMALIZE_DURING_FINAL_CLEAN_BUILD,bracket_style_blocks=33; bullet_style_blocks=2; answer_landing_blocks=35; choice_correct_blocks=42
+C10_option_block_presence,PASS_REVIEW_ONLY,option_or_statement_blocks_detected=29; authoritative audit is C05

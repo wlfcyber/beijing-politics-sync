@@ -1,0 +1,24 @@
+run_id: 选必一_当代国际政治与经济_双线总控_2026-05-02
+book_or_module: 选择性必修一《当代国际政治与经济》
+scope: 主观题细则术语积累与零基础学生版
+mode: 三线总控
+start_type: 续跑但从源头重新核；既有 entries 只作为待审草稿
+source_range: 2024-2026 Beijing district papers unless narrowed
+skill_route: feige-politics-garden -> feige-politics-garden-book-orchestrator -> feige-politics-garden-xuanbiyi
+notebooks_required:
+  - /Users/wanglifei/Desktop/北京高考政治/选必一复查_2026-04-29/选必一_交付要求记事本.md
+  - /Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/references/current-user-requirements.md
+  - /Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/references/xuanbiyi-term-protocol.md
+master_requirements_version: 2026-05-02-2202-router-restart
+evidence_priority_rule: P0 scoring/marking rules > P1 reference answers > P2 lecture/analysis > P3 paper text > P4 AI/advisor drafts
+student_doc_goal: material trigger -> why this principle/term -> answer landing
+deliverables:
+  - Markdown
+  - Word
+  - acceptance_report
+created_at: 2026-05-02
+controller: Codex
+codex_line_status: in_progress
+claudecode_line_status: budget_stopped_partial_after_restart
+governor_status: in_progress
+confucius_status: not_started

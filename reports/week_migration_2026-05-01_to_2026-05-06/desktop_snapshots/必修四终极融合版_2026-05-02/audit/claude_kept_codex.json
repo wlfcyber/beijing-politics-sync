@@ -1,0 +1,192 @@
+[
+  {
+    "key": "('一、唯物论', '一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一', '2026通州期末', '16', '主观题')",
+    "claude": "2026_通州_期末__Q16__一切从实际出发",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 102
+  },
+  {
+    "key": "('一、唯物论', '主观能动性 / 意识的能动作用', '2024顺义二模', '2', '选择题')",
+    "claude": "2024_顺义_二模__Q2__意识的能动作用",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": -79
+  },
+  {
+    "key": "('一、唯物论', '主观能动性 / 意识的能动作用', '2026海淀一模', '16', '主观题')",
+    "claude": "2026_海淀_一模__Q16__主观能动性",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('一、唯物论', '尊重客观规律与发挥主观能动性相结合', '2024西城一模', '17', '主观题')",
+    "claude": "2024_西城_一模__Q17__客观规律与主观能动性",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": -52
+  },
+  {
+    "key": "('一、唯物论', '尊重客观规律与发挥主观能动性相结合', '2026丰台期末', '16', '主观题')",
+    "claude": "2026_丰台_期末__Q16__规律与能动性",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('一、唯物论', '物质决定意识', '2026海淀一模', '16', '主观题')",
+    "claude": "2026_海淀_一模__Q16__物质决定意识",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('三、认识论', '实践是认识的基础', '2024朝阳二模', '16(2)', '主观题')",
+    "claude": "2024_朝阳_二模__Q16_2__实践与认识",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '事物发展是前进性与曲折性的统一', '2025海淀期末', '17(2)', '主观题')",
+    "claude": "2025_海淀_期末__Q17_2__前进性与曲折性",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '发展的观点 / 发展的普遍性', '2026海淀一模', '16', '主观题')",
+    "claude": "2026_海淀_一模__Q16__发展的观点",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '发展的观点 / 发展的普遍性', '2026通州期末', '16', '主观题')",
+    "claude": "2026_通州_期末__Q16__发展的观点",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('二、辩证法', '整体与部分', '2026丰台期末', '16', '主观题')",
+    "claude": "2026_丰台_期末__Q16__整体与部分联系",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('二、辩证法', '矛盾就是对立统一', '2024朝阳二模', '16(2)', '主观题')",
+    "claude": "2024_朝阳_二模__Q16_2__矛盾对立统一",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '矛盾就是对立统一', '2024西城一模', '17', '主观题')",
+    "claude": "2024_西城_一模__Q17__对立统一",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 39
+  },
+  {
+    "key": "('二、辩证法', '矛盾就是对立统一', '2025房山一模', '16(1)', '主观题')",
+    "claude": "2025_房山_一模__Q16-1__矛盾分析法",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 160
+  },
+  {
+    "key": "('二、辩证法', '矛盾就是对立统一', '2025西城期末', '18', '主观题')",
+    "claude": "2025_西城_期末__Q18__矛盾的观点",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 145
+  },
+  {
+    "key": "('二、辩证法', '矛盾就是对立统一', '2026丰台期末', '16', '主观题')",
+    "claude": "2026_丰台_期末__Q16__矛盾对立统一",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('二、辩证法', '矛盾就是对立统一', '2026朝阳期中', '18', '主观题')",
+    "claude": "2026_朝阳_期中__Q18__矛盾对立统一",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('二、辩证法', '矛盾的普遍性和特殊性', '2025海淀期末', '16', '主观题')",
+    "claude": "2025_海淀_期末__Q16__矛盾普遍性特殊性",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '矛盾的特殊性 / 具体问题具体分析', '2026朝阳期中', '18', '主观题')",
+    "claude": "2026_朝阳_期中__Q18__具体问题具体分析",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('二、辩证法', '联系的多样性', '2026朝阳期中', '4', '选择题')",
+    "claude": "2026_朝阳_期中__Q4__联系多样性",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('二、辩证法', '辩证否定 / 守正创新', '2024东城一模', '18(3)', '主观题')",
+    "claude": "2024_东城_一模__Q18_(3)__辩证否定_守正创新",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '辩证否定 / 守正创新', '2025海淀期末', '16', '主观题')",
+    "claude": "2025_海淀_期末__Q16__发展的观点",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '辩证否定 / 守正创新', '2026通州期末', '16', '主观题')",
+    "claude": "2026_通州_期末__Q16__辩证否定守正创新",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 69
+  },
+  {
+    "key": "('二、辩证法', '量变与质变 / 适度原则', '2025丰台期末', '16', '主观题')",
+    "claude": "2025_丰台_期末__Q16__量变与质变",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 100
+  },
+  {
+    "key": "('二、辩证法', '量变与质变 / 适度原则', '2025海淀期末', '17(2)', '主观题')",
+    "claude": "2025_海淀_期末__Q17_2__量变是质变的前提和必要准备",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('二、辩证法', '量变与质变 / 适度原则', '2026丰台期末', '16', '主观题')",
+    "claude": "2026_丰台_期末__Q16__量变质变适度",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 0
+  },
+  {
+    "key": "('五、价值观 / 人生观', '价值判断与价值选择', '2025房山一模', '16(1)', '主观题')",
+    "claude": "2025_房山_一模__Q16-1__价值判断与价值选择",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 83
+  },
+  {
+    "key": "('五、价值观 / 人生观', '价值判断与价值选择', '2025门头沟一模', '21(2)', '主观题')",
+    "claude": "2025_门头沟_一模__Q21-2__价值判断与价值选择",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 52
+  },
+  {
+    "key": "('五、价值观 / 人生观', '价值观的导向作用', '2024朝阳二模', '16(2)', '主观题')",
+    "claude": "2024_朝阳_二模__Q16_2__价值观",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('五、价值观 / 人生观', '实现人生价值', '2024朝阳一模', '3', '选择题')",
+    "claude": "2024_朝阳_一模__Q3__价值实现",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": -10
+  },
+  {
+    "key": "('四、历史唯物主义', '人民群众', '2025海淀期末', '17(2)', '主观题')",
+    "claude": "2025_海淀_期末__Q17_2__人民群众是历史的创造者",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('四、历史唯物主义', '人民群众', '2026通州期末', '16', '主观题')",
+    "claude": "2026_通州_期末__Q16__人民群众",
+    "reason": "codex safer or quality delta insufficient",
+    "score_delta": 103
+  },
+  {
+    "key": "('四、历史唯物主义', '社会存在与社会意识', '2024朝阳二模', '16(2)', '主观题')",
+    "claude": "2024_朝阳_二模__Q16_2__社会存在与社会意识",
+    "reason": "protected-hard-sample-or-user-critical"
+  },
+  {
+    "key": "('四、历史唯物主义', '社会存在与社会意识', '2026海淀一模', '16', '主观题')",
+    "claude": "2026_海淀_一模__Q16__社会存在与社会意识",
+    "reason": "protected-hard-sample-or-user-critical"
+  }
+]

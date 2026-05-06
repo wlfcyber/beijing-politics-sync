@@ -1,0 +1,23 @@
+suite,qno,render_locator,answer,selected3_candidate,section_scope,node,status,notes
+2026丰台一模,1,042 renders/contact sheet + supplemental text,B,no,边界,中国特色社会主义/时政,not_selected3,
+2026丰台一模,2,042 renders/contact sheet + supplemental text,A,no,边界,政治与法治,not_selected3,
+2026丰台一模,3,042 renders/contact sheet + supplemental text,D,no,边界,政治与法治,not_selected3,
+2026丰台一模,4,042 renders/contact sheet + supplemental text,A,yes,思维,综合思维,new_candidate_batch02,Original control base had only Q18(2) plus UNPARSED-PAPER for this suite; Q4 must be added to in-scope candidate pool.
+2026丰台一模,5,042 renders/contact sheet + supplemental text,A,boundary,边界,联系/认识哲学边界,not_selected3_mainline,
+2026丰台一模,6,042 renders/contact sheet + supplemental text,D,boundary,边界,系统/联系与文化边界,not_selected3_mainline,
+2026丰台一模,7,042 renders/contact sheet + supplemental text,B,yes,思维,发散聚合;超前思维,new_candidate_batch02,Answer B=①④. This is a direct 思维方法 choice question and must not remain hidden under suite visual blocker.
+2026丰台一模,8,042 renders/contact sheet + supplemental text,C,yes,推理,充分条件假言推理,new_candidate_batch02,"Official supplemental key gives Q8=C=②③. Because ③ has existential presupposition risk, this row especially needs B-line reasoning audit."
+2026丰台一模,9,042 renders/contact sheet + supplemental text,D,yes,推理,概念外延关系;联言判断,new_candidate_batch02,Answer D. This is a direct formal-logic choice question.
+2026丰台一模,10,042 renders/contact sheet + supplemental text,C,no,边界,法律与生活,not_selected3,
+2026丰台一模,11,042 renders/contact sheet + supplemental text,D,no,边界,法律与生活,not_selected3,
+2026丰台一模,12,042 renders/contact sheet + supplemental text,B,no,边界,经济与社会路径,not_selected3,
+2026丰台一模,13,042 renders/contact sheet + supplemental text,A,no,边界,经济监管,not_selected3,
+2026丰台一模,14,042 renders/contact sheet + supplemental text,A,no,边界,当代国际政治与经济,not_selected3,
+2026丰台一模,15,042 renders/contact sheet + supplemental text,C,no,边界,当代国际政治与经济,not_selected3,
+2026丰台一模,16,042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,no,边界,哲学与文化,not_selected3,
+2026丰台一模,17,042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,no,边界,政治与法治,not_selected3,
+2026丰台一模,18(1),042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,no,边界,经济与社会,not_selected3,
+2026丰台一模,18(2),042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,yes,推理,必要条件假言推理;三段论大项不当扩大,already_L4,
+2026丰台一模,19,042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,no,边界,当代国际政治与经济,not_selected3,
+2026丰台一模,20,042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,no,边界,法律与生活,not_selected3,
+2026丰台一模,21,042 renders/contact sheet + supplemental text,subjective_or_no_choice_key,boundary,边界,党领导/哲学边界,not_selected3_mainline,

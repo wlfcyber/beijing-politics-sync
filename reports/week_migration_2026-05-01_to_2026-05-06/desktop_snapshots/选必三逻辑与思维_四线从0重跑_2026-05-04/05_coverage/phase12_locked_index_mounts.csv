@@ -1,0 +1,157 @@
+index_kind,node,label,question_id,visible_title,body_order,question_type_group,module,source_basis
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2024西城一模-19-5,2024 西城一模第19题第(5)问,10,主观题,推理,phase06_logical_form_locked:实践调研+矛盾分析+推理想象+超前思维
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,13,主观题,交叉,phase06_logical_form_locked:联想思维+发散思维+聚合思维(登月服设计)
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2024朝阳期中-19,2024 朝阳期中第19题,21,主观题,交叉,phase06_logical_form_locked:创新思维(三新+发散+聚合+联想)
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2026顺义一模-19-2,2026 顺义一模第19题第(2)问,25,主观题,交叉,phase06_logical_form_locked:科学思维三特征(客观性+预见性+可检验性)
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2025西城二模-6,2025 西城二模第6题,33,选择题,推理,no_phase06_locked_reasoning_row
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2024西城一模-13,2024 西城一模第13题,36,选择题,推理,phase06_logical_form_locked:联想_非逻辑制约的畅想性
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2026东城一模-6,2026 东城一模第6题,37,选择题,交叉,phase06_logical_form_locked:换质换位法;性质判断推理
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2024朝阳一模-6,2024 朝阳一模第6题,49,选择题,推理,no_phase06_locked_reasoning_row
+reasoning,充分条件假言推理,选择题陷阱,Q-2026丰台一模-8,2026 丰台一模第8题,60,选择题,推理,manual_lock:P→Q; 否定后件可否前; 肯定后件无效; 限制换位链条
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2026通州期末-10,2026 通州期末第10题,66,选择题,推理,no_phase06_locked_reasoning_row
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2026顺义一模-5,2026 顺义一模第5题,69,选择题,交叉,phase06_logical_form_locked:性质判断;关系判断;发散思维;认识论_感知表象
+reasoning,NEEDS_TYPE_CONFIRMATION,辅助挂载,Q-2026通州期末-11,2026 通州期末第11题,74,选择题,交叉,phase06_logical_form_locked:辩证思维_从感性具体到思维抽象再到思维具体
+reasoning,三段论周延规则 / 大项不当扩大 / 谬误名称纠错,选择题陷阱,Q-2025顺义一模-7,2025 顺义一模第7题,77,选择题,推理,manual_lock:真实错误=大项不当扩大; 小项不当扩大仅为A项错误命名陷阱
+reasoning,三段论结构题,正文正例,Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,12,主观题,推理,manual_lock:主张3_中项不周延
+reasoning,三段论结构题,正文正例,Q-2026丰台一模-18-2,2026 丰台一模第18题第(2)问,22,主观题,推理,manual_lock:乙_三段论大项不当扩大; external_forced_check
+reasoning,三段论结构题,正文正例,Q-2026顺义一模-19-1,2026 顺义一模第19题第(1)问,24,主观题,交叉,phase06_logical_form_locked:三段论(前提真实性+结构正确性)
+reasoning,三段论结构题,选择题陷阱,Q-2025海淀二模-13,2025 海淀二模第13题,29,选择题,推理,phase06_logical_form_locked:三段论有效式；概念外延关系辨析；相容/不相容选言区分
+reasoning,三段论结构题,选择题陷阱,Q-2025东城期末-13,2025 东城期末第13题,41,选择题,推理,manual_lock:①③中项不周延; ②大项不当扩大; ④四概念; 三段论谬误辨析
+reasoning,三段论结构题,选择题陷阱,Q-2025东城期末-14,2025 东城期末第14题,42,选择题,推理,phase06_logical_form_locked:概念外延关系+周延判断+关系判断
+reasoning,三段论结构题,选择题陷阱,Q-2026朝阳期中-11,2026 朝阳期中第11题,44,选择题,推理,phase06_logical_form_locked:三段论补大前提
+reasoning,三段论结构题,选择题陷阱,Q-2024朝阳二模-7,2024 朝阳二模第7题,53,选择题,交叉,manual_lock:A项小项扩大_小项娱乐工具前提不周延结论扩大; not_middle_term
+reasoning,三段论结构题,选择题陷阱,Q-2024朝阳期中-7,2024 朝阳期中第7题,54,选择题,推理,phase06_logical_form_locked:三段论_大前提小前提结论
+reasoning,三段论结构题,选择题陷阱,Q-2024朝阳期中-11,2024 朝阳期中第11题,57,选择题,推理,phase06_logical_form_locked:关系判断;假言推理;三段论;矛盾律
+reasoning,三段论结构题,选择题陷阱,Q-2025顺义一模-7,2025 顺义一模第7题,77,选择题,推理,manual_lock:三段论周延规则; 真实错误=大项不当扩大; A项误称小项不当扩大; 谬误名称纠错
+reasoning,不相容选言推理,选择题陷阱,Q-2025海淀二模-13,2025 海淀二模第13题,29,选择题,推理,phase06_logical_form_locked:三段论有效式；概念外延关系辨析；相容/不相容选言区分
+reasoning,充分条件假言推理,正文正例,Q-2025西城二模-16-2,2025 西城二模第16题第(2)问,6,主观题,推理,manual_lock:充分条件假言推理_肯定后件无效; external_forced_check
+reasoning,充分条件假言推理,正文正例,Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,12,主观题,推理,manual_lock:主张2_肯定后件误推
+reasoning,充分条件假言推理,正文正例,Q-2024朝阳一模-20-1,2024 朝阳一模第20题第(1)问,16,主观题,推理,manual_lock:充分条件假言推理_否定后件式; external_forced_check
+reasoning,充分条件假言推理,正文正例,Q-2026通州期末-19-2,2026 通州期末第19题第(2)问,26,主观题,推理,manual_lock:推理1充分条件肯定前件有效; external_forced_check
+reasoning,充分条件假言推理,正文正例,Q-2025顺义一模-17-1,2025 顺义一模第17题第(1)问,27,主观题,推理,phase06_logical_form_locked:充分条件假言+必要条件假言+相容选言判断
+reasoning,充分条件假言推理,选择题陷阱,Q-2026东城期末-7,2026 东城期末第7题,39,选择题,推理,phase06_logical_form_locked:假言推理_充分条件+复合命题真值表
+reasoning,充分条件假言推理,选择题陷阱,Q-2025东城期末-15,2025 东城期末第15题,43,选择题,推理,phase06_logical_form_locked:假言推理_充分条件+联言+选言
+reasoning,充分条件假言推理,选择题陷阱,Q-2025丰台期末-9,2025 丰台期末第9题,64,选择题,推理,phase06_logical_form_locked:联言推理;选言推理;假言推理_充分条件
+reasoning,归纳推理,正文正例,Q-2024朝阳期中-18,2024 朝阳期中第18题,20,主观题,推理,phase06_logical_form_locked:不完全归纳推理(楚王)+类比推理(晏子)
+reasoning,归纳推理,选择题陷阱,Q-2025西城二模-7,2025 西城二模第7题,34,选择题,推理,manual_lock:求异法_归纳结论或然
+reasoning,归纳推理,选择题陷阱,Q-2024西城一模-11,2024 西城一模第11题,35,选择题,推理,phase06_logical_form_locked:完全归纳推理：枚举全部对象推出全称结论
+reasoning,归纳推理,选择题陷阱,Q-2026朝阳期中-14,2026 朝阳期中第14题,47,选择题,推理,phase06_logical_form_locked:不完全归纳推理→结论或然性
+reasoning,归纳推理,选择题陷阱,Q-2024朝阳二模-7,2024 朝阳二模第7题,53,选择题,交叉,manual_lock:B项归纳结论确定性夸大
+reasoning,归纳推理,选择题陷阱,Q-2024朝阳期中-9,2024 朝阳期中第9题,56,选择题,交叉,phase06_logical_form_locked:归纳推理_共变法
+reasoning,归纳推理,选择题陷阱,Q-2025丰台期末-10,2025 丰台期末第10题,65,选择题,交叉,phase06_logical_form_locked:归纳推理+演绎推理+思维抽象具体+类比推理
+reasoning,归纳推理,选择题陷阱,Q-2026顺义一模-4,2026 顺义一模第4题,68,选择题,推理,phase06_logical_form_locked:类比推理+完全归纳推理+定义方法
+reasoning,必要条件假言推理,正文正例,Q-2024朝阳一模-20-2,2024 朝阳一模第20题第(2)问,17,主观题,推理,manual_lock:必要条件假言推理_肯定后件式; external_forced_check
+reasoning,必要条件假言推理,正文正例,Q-2026丰台一模-18-2,2026 丰台一模第18题第(2)问,22,主观题,推理,manual_lock:甲_必要条件假言推理_肯定后件式; external_forced_check
+reasoning,必要条件假言推理,正文正例,Q-2025丰台期末-18-1,2025 丰台期末第18题第(1)问,23,主观题,推理,phase06_logical_form_locked:必要条件假言判断+联言判断及保真条件
+reasoning,必要条件假言推理,正文正例,Q-2026通州期末-19-2,2026 通州期末第19题第(2)问,26,主观题,推理,manual_lock:推理2必要条件仅肯定前件不能肯定后件; external_forced_check
+reasoning,必要条件假言推理,正文正例,Q-2025顺义一模-17-1,2025 顺义一模第17题第(1)问,27,主观题,推理,phase06_logical_form_locked:充分条件假言+必要条件假言+相容选言判断
+reasoning,必要条件假言推理,选择题陷阱,Q-2026东城期末-6,2026 东城期末第6题,38,选择题,推理,phase06_logical_form_locked:假言推理_必要条件_前提补充
+reasoning,必要条件假言推理,选择题陷阱,Q-2024朝阳二模-7,2024 朝阳二模第7题,53,选择题,交叉,manual_lock:C项必要条件误用
+reasoning,必要条件假言推理,选择题陷阱,Q-2024朝阳期中-8,2024 朝阳期中第8题,55,选择题,推理,phase06_logical_form_locked:假言推理_必要条件+联言推理
+reasoning,概念外延关系,正文正例,Q-2024西城一模-19-2,2024 西城一模第19题第(2)问,8,主观题,推理,phase06_logical_form_locked:定义结构=被定义项+联结词+种差+邻近属
+reasoning,概念外延关系,正文正例,Q-2024西城一模-19-3,2024 西城一模第19题第(3)问,9,主观题,推理,phase06_logical_form_locked:概念外延关系(相容/属种)
+reasoning,概念外延关系,选择题陷阱,Q-2025海淀二模-13,2025 海淀二模第13题,29,选择题,推理,phase06_logical_form_locked:三段论有效式；概念外延关系辨析；相容/不相容选言区分
+reasoning,概念外延关系,选择题陷阱,Q-2024海淀二模-6,2024 海淀二模第6题,32,选择题,推理,phase06_logical_form_locked:概念外延关系+换位推理
+reasoning,概念外延关系,选择题陷阱,Q-2025东城期末-14,2025 东城期末第14题,42,选择题,推理,phase06_logical_form_locked:概念外延关系+周延判断+关系判断
+reasoning,概念外延关系,选择题陷阱,Q-2024朝阳二模-6,2024 朝阳二模第6题,52,选择题,推理,phase06_logical_form_locked:概念外延关系+哲学渐进性飞跃性
+reasoning,概念外延关系,选择题陷阱,Q-2026丰台一模-9,2026 丰台一模第9题,61,选择题,推理,"phase06_logical_form_locked:外延关系看范围；联言判断看""兼""/""同时断定"""
+reasoning,概念外延关系,选择题陷阱,Q-2026顺义一模-4,2026 顺义一模第4题,68,选择题,推理,phase06_logical_form_locked:类比推理+完全归纳推理+定义方法
+reasoning,概念外延关系,选择题陷阱,Q-2025顺义一模-6,2025 顺义一模第6题,76,选择题,推理,phase06_logical_form_locked:概念主项+联言判断+概念划分+关系判断对称性
+reasoning,演绎推理与前提真实性,选择题陷阱,Q-2025西城二模-7,2025 西城二模第7题,34,选择题,推理,manual_lock:演绎强度比较_结构正确还要前提真实
+reasoning,相容选言推理,正文正例,Q-2025顺义一模-17-1,2025 顺义一模第17题第(1)问,27,主观题,推理,phase06_logical_form_locked:充分条件假言+必要条件假言+相容选言判断
+reasoning,相容选言推理,选择题陷阱,Q-2025海淀期末-8,2025 海淀期末第8题,31,选择题,推理,phase06_logical_form_locked:选言推理_不相容+相容选言关系
+reasoning,相容选言推理,选择题陷阱,Q-2025东城期末-15,2025 东城期末第15题,43,选择题,推理,phase06_logical_form_locked:假言推理_充分条件+联言+选言
+reasoning,相容选言推理,选择题陷阱,Q-2026朝阳期中-12,2026 朝阳期中第12题,45,选择题,推理,phase06_logical_form_locked:相容选言判断；分类规则；矛盾律
+reasoning,相容选言推理,选择题陷阱,Q-2025丰台期末-9,2025 丰台期末第9题,64,选择题,推理,phase06_logical_form_locked:联言推理;选言推理;假言推理_充分条件
+reasoning,类比推理,正文正例,Q-2024朝阳二模-19-1,2024 朝阳二模第19题第(1)问,18,主观题,交叉,phase06_logical_form_locked:辩证思维动态性+类比推理
+reasoning,类比推理,正文正例,Q-2024朝阳期中-18,2024 朝阳期中第18题,20,主观题,推理,phase06_logical_form_locked:不完全归纳推理(楚王)+类比推理(晏子)
+reasoning,类比推理,选择题陷阱,Q-2025西城二模-7,2025 西城二模第7题,34,选择题,推理,manual_lock:类比可信度低于演绎与求异法
+reasoning,类比推理,选择题陷阱,Q-2026朝阳期中-13,2026 朝阳期中第13题,46,选择题,交叉,phase06_logical_form_locked:联想思维/类比推理/感性具体边界
+reasoning,类比推理,选择题陷阱,Q-2025丰台期末-10,2025 丰台期末第10题,65,选择题,交叉,phase06_logical_form_locked:归纳推理+演绎推理+思维抽象具体+类比推理
+reasoning,类比推理,选择题陷阱,Q-2026顺义一模-4,2026 顺义一模第4题,68,选择题,推理,phase06_logical_form_locked:类比推理+完全归纳推理+定义方法
+reasoning,联言判断与联言推理,正文正例,Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,12,主观题,推理,manual_lock:主张1_联言支不能同真
+reasoning,联言判断与联言推理,正文正例,Q-2024朝阳二模-19-2,2024 朝阳二模第19题第(2)问,19,主观题,交叉,phase06_logical_form_locked:联言判断及其保真条件
+reasoning,联言判断与联言推理,正文正例,Q-2025丰台期末-18-1,2025 丰台期末第18题第(1)问,23,主观题,推理,phase06_logical_form_locked:必要条件假言判断+联言判断及保真条件
+reasoning,联言判断与联言推理,选择题陷阱,Q-2025东城期末-15,2025 东城期末第15题,43,选择题,推理,phase06_logical_form_locked:假言推理_充分条件+联言+选言
+reasoning,联言判断与联言推理,选择题陷阱,Q-2026朝阳期中-15,2026 朝阳期中第15题,48,选择题,推理,phase06_logical_form_locked:联言判断否定一个联言支即否定整个判断
+reasoning,联言判断与联言推理,选择题陷阱,Q-2024朝阳期中-8,2024 朝阳期中第8题,55,选择题,推理,phase06_logical_form_locked:假言推理_必要条件+联言推理
+reasoning,联言判断与联言推理,选择题陷阱,Q-2026丰台一模-9,2026 丰台一模第9题,61,选择题,推理,"phase06_logical_form_locked:外延关系看范围；联言判断看""兼""/""同时断定"""
+reasoning,联言判断与联言推理,选择题陷阱,Q-2025丰台期末-9,2025 丰台期末第9题,64,选择题,推理,phase06_logical_form_locked:联言推理;选言推理;假言推理_充分条件
+reasoning,联言判断与联言推理,选择题陷阱,Q-2025顺义一模-5,2025 顺义一模第5题,75,选择题,推理,phase06_logical_form_locked:联言判断_矛盾命题
+reasoning,联言判断与联言推理,选择题陷阱,Q-2025顺义一模-6,2025 顺义一模第6题,76,选择题,推理,phase06_logical_form_locked:概念主项+联言判断+概念划分+关系判断对称性
+reasoning,逻辑三律,正文正例,Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,12,主观题,推理,manual_lock:主张1_矛盾律_联言判断
+reasoning,逻辑三律,选择题陷阱,Q-2026朝阳期中-12,2026 朝阳期中第12题,45,选择题,推理,phase06_logical_form_locked:相容选言判断；分类规则；矛盾律
+reasoning,逻辑三律,选择题陷阱,Q-2024朝阳期中-11,2024 朝阳期中第11题,57,选择题,推理,phase06_logical_form_locked:关系判断;假言推理;三段论;矛盾律
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2025西城二模-16-3,2025 西城二模第16题第(3)问,7,主观题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026顺义一模-19-1,2026 顺义一模第19题第(1)问,24,主观题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2025海淀期末-2,2025 海淀期末第2题,30,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026东城一模-6,2026 东城一模第6题,37,选择题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2025东城期末-5,2025 东城期末第5题,40,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026朝阳期中-13,2026 朝阳期中第13题,46,选择题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2024朝阳一模-9,2024 朝阳一模第9题,51,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2024朝阳二模-7,2024 朝阳二模第7题,53,选择题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2024朝阳期中-9,2024 朝阳期中第9题,56,选择题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026丰台一模-4,2026 丰台一模第4题,58,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026丰台一模-7,2026 丰台一模第7题,59,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2025丰台期末-8,2025 丰台期末第8题,63,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2025丰台期末-10,2025 丰台期末第10题,65,选择题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026顺义一模-3,2026 顺义一模第3题,67,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026顺义一模-5,2026 顺义一模第5题,69,选择题,交叉,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026顺义一模-6,2026 顺义一模第6题,70,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026通州期末-5,2026 通州期末第5题,71,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,NEEDS_METHOD_CONFIRMATION,辅助挂载,Q-2026通州期末-8,2026 通州期末第8题,72,选择题,思维,no_manual_positive_mount_after_MUST_FIX_CONTENT; kept out of positive nodes
+thinking,创新思维,正文正例,Q-2025海淀期末-18,2025 海淀期末第18题,3,主观题,思维,manual_lock:城市图书馆创新服务
+thinking,创新思维,正文正例,Q-2026东城一模-19-4,2026 东城一模第19题第(4)问,11,主观题,思维,manual_lock:从0到1再把1拉长
+thinking,创新思维,正文正例,Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,13,主观题,交叉,manual_lock:登月服设计
+thinking,创新思维,正文正例,Q-2026朝阳期中-21-2,2026 朝阳期中第21题第(2)问,15,主观题,思维,manual_lock:工业城市文旅转型
+thinking,创新思维,正文正例,Q-2024朝阳期中-19,2024 朝阳期中第19题,21,主观题,交叉,manual_lock:文旅或方案创新
+thinking,创新思维,选择题陷阱,Q-2024朝阳一模-7,2024 朝阳一模第7题,50,选择题,思维,manual_lock:开放创新与继承借鉴_choice_signal
+thinking,创新思维：发散思维与聚合思维,正文正例,Q-2026东城一模-19-4,2026 东城一模第19题第(4)问,11,主观题,思维,manual_lock:拓展场景并聚合产业链资源
+thinking,创新思维：发散思维与聚合思维,正文正例,Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,13,主观题,交叉,manual_lock:任务需求发散并聚焦方案
+thinking,创新思维：发散思维与聚合思维,正文正例,Q-2026朝阳期中-21-2,2026 朝阳期中第21题第(2)问,15,主观题,思维,manual_lock:多角度挖潜后聚焦融合街区
+thinking,创新思维：发散思维与聚合思维,辅助挂载,Q-2024朝阳期中-19,2024 朝阳期中第19题,21,主观题,交叉,manual_lock:方案生成与收束
+thinking,创新思维：思路新方法新结果新,正文正例,Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,13,主观题,交叉,manual_lock:文化表达任务适配技术防护
+thinking,创新思维：联想思维,正文正例,Q-2025海淀期末-18,2025 海淀期末第18题,3,主观题,思维,manual_lock:赤印意象迁移到建筑设计
+thinking,创新思维：联想思维,正文正例,Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,13,主观题,交叉,manual_lock:传统文化火箭形象登月服联结
+thinking,创新思维：联想思维,正文正例,Q-2026朝阳期中-21-2,2026 朝阳期中第21题第(2)问,15,主观题,思维,manual_lock:冰雪音乐文化叙事联结
+thinking,创新思维：联想思维,辅助挂载,Q-2024朝阳期中-19,2024 朝阳期中第19题,21,主观题,交叉,manual_lock:要素联结
+thinking,创新思维：超前思维,辅助挂载,Q-2026东城一模-19-4,2026 东城一模第19题第(4)问,11,主观题,思维,manual_lock:制度机制提前完善
+thinking,创新思维：超前思维,正文正例,Q-2026朝阳期中-21-2,2026 朝阳期中第21题第(2)问,15,主观题,思维,manual_lock:预测消费趋势和旅游期待
+thinking,创新思维：超前思维,辅助挂载,Q-2024朝阳期中-19,2024 朝阳期中第19题,21,主观题,交叉,manual_lock:趋势预判
+thinking,创新思维：超前思维,选择题陷阱,Q-2025海淀二模-12,2025 海淀二模第12题,28,选择题,思维,manual_lock:耐心资本长期趋势_source_locked_D
+thinking,创新思维：逆向思维,正文正例,Q-2025海淀期末-18,2025 海淀期末第18题,3,主观题,思维,manual_lock:人找书到书找人
+thinking,创新思维：逆向思维,正文正例,Q-2026朝阳期中-21-2,2026 朝阳期中第21题第(2)问,15,主观题,思维,manual_lock:冷资源转化为热经济
+thinking,科学思维,正文正例,Q-2025海淀期末-17-1,2025 海淀期末第17题第(1)问,2,主观题,思维,manual_lock:永动机_客观规律
+thinking,科学思维,正文正例,Q-2024海淀二模-17-1,2024 海淀二模第17题第(1)问,4,主观题,思维,manual_lock:SCIENCE_ONLY_SOURCE_SUPPORTED
+thinking,科学思维,正文正例,Q-2026顺义一模-19-2,2026 顺义一模第19题第(2)问,25,主观题,交叉,manual_lock:scientific_thinking_primary
+thinking,科学思维：可检验性,正文正例,Q-2026顺义一模-19-2,2026 顺义一模第19题第(2)问,25,主观题,交叉,manual_lock:多轮测试打磨迭代
+thinking,科学思维：客观性,正文正例,Q-2025海淀期末-17-1,2025 海淀期末第17题第(1)问,2,主观题,思维,manual_lock:从实际出发_如实反映对象
+thinking,科学思维：客观性,正文正例,Q-2024海淀二模-17-1,2024 海淀二模第17题第(1)问,4,主观题,思维,manual_lock:全面真实准确_客观反映生活模式
+thinking,科学思维：客观性,正文正例,Q-2026顺义一模-19-2,2026 顺义一模第19题第(2)问,25,主观题,交叉,manual_lock:真实生活习惯与养老需求
+thinking,科学思维：探索性与方法更新,正文正例,Q-2024海淀二模-17-1,2024 海淀二模第17题第(1)问,4,主观题,思维,manual_lock:范围对象采集方式分类方式更新_答案源支持
+thinking,科学思维：整体安排,正文正例,Q-2024海淀二模-17-1,2024 海淀二模第17题第(1)问,4,主观题,思维,manual_lock:分阶段实施任务明确_答案源支持
+thinking,科学思维：预见性,正文正例,Q-2026顺义一模-19-2,2026 顺义一模第19题第(2)问,25,主观题,交叉,manual_lock:老龄化趋势与市场潜力
+thinking,类比推理,辅助挂载,Q-2024朝阳二模-19-1,2024 朝阳二模第19题第(1)问,18,主观题,交叉,manual_lock:如正文涉及类比则辅助挂载
+thinking,系统观念,正文正例,Q-2026东城一模-19-4,2026 东城一模第19题第(4)问,11,主观题,思维,manual_lock:基础研究研发转化应用整体统筹
+thinking,认识发展历程,正文正例,Q-2024海淀二模-17-2,2024 海淀二模第17题第(2)问,5,主观题,思维,manual_lock:调查了解到分析研究
+thinking,认识发展历程,选择题陷阱,Q-2026通州期末-11,2026 通州期末第11题,74,选择题,交叉,manual_lock:感性具体到思维抽象再到思维具体
+thinking,认识发展历程：思维具体,正文正例,Q-2024海淀二模-17-2,2024 海淀二模第17题第(2)问,5,主观题,思维,manual_lock:认识发展到整体把握
+thinking,认识发展历程：思维具体,选择题陷阱,Q-2026通州期末-11,2026 通州期末第11题,74,选择题,交叉,manual_lock:时代精神整体诠释
+thinking,认识发展历程：思维抽象,正文正例,Q-2024海淀二模-17-2,2024 海淀二模第17题第(2)问,5,主观题,思维,manual_lock:分析研究阶段
+thinking,认识发展历程：思维抽象,选择题陷阱,Q-2026通州期末-11,2026 通州期末第11题,74,选择题,交叉,manual_lock:河合和理念
+thinking,认识发展历程：感性具体,正文正例,Q-2024海淀二模-17-2,2024 海淀二模第17题第(2)问,5,主观题,思维,manual_lock:调查了解阶段
+thinking,认识发展历程：感性具体,选择题陷阱,Q-2026通州期末-11,2026 通州期末第11题,74,选择题,交叉,manual_lock:水脉文脉人脉材料
+thinking,辩证思维,正文正例,Q-2025海淀二模-20,2025 海淀二模第20题,1,主观题,思维,manual_lock:角度池_整体性_动态性_分析综合_质量互变_辩证否定
+thinking,辩证思维,正文正例,Q-2026朝阳期中-20,2026 朝阳期中第20题,14,主观题,思维,manual_lock:机遇挑战对立统一
+thinking,辩证思维：分析与综合,正文正例,Q-2025海淀二模-20,2025 海淀二模第20题,1,主观题,思维,manual_lock:共享层次拆分后综合推进
+thinking,辩证思维：分析与综合,正文正例,Q-2026朝阳期中-20,2026 朝阳期中第20题,14,主观题,思维,manual_lock:综合考量机遇挑战
+thinking,辩证思维：动态性,正文正例,Q-2025海淀二模-20,2025 海淀二模第20题,1,主观题,思维,manual_lock:渐进共享_逐步推进共同富裕
+thinking,辩证思维：动态性,正文正例,Q-2026朝阳期中-20,2026 朝阳期中第20题,14,主观题,思维,manual_lock:当前长远国际变化
+thinking,辩证思维：动态性,正文正例,Q-2024朝阳二模-19-1,2024 朝阳二模第19题第(1)问,18,主观题,交叉,manual_lock:动态把握对象变化
+thinking,辩证思维：整体性,正文正例,Q-2025海淀二模-20,2025 海淀二模第20题,1,主观题,思维,manual_lock:共享发展四层次整体推进
+thinking,辩证思维：整体性,正文正例,Q-2026朝阳期中-20,2026 朝阳期中第20题,14,主观题,思维,manual_lock:局部风险整体格局
+thinking,辩证思维：质量互变,辅助挂载,Q-2025海淀二模-20,2025 海淀二模第20题,1,主观题,思维,manual_lock:渐进积累到共同富裕
+thinking,辩证思维：质量互变,正文正例,Q-2026朝阳期中-20,2026 朝阳期中第20题,14,主观题,思维,manual_lock:逐步积累条件转化机遇
+thinking,辩证思维：辩证否定,辅助挂载,Q-2025海淀二模-20,2025 海淀二模第20题,1,主观题,思维,manual_lock:角度池可选_非三点全必答
+thinking,边界陷阱 / 选必三干扰项 / 哲学唯物论伪装,边界陷阱,Q-2025丰台期末-7,2025 丰台期末第7题,62,选择题,思维,manual_lock:only_boundary_trap_not_超前思维_positive
+thinking,选择题陷阱 / 数字化治理材料事实与选必三方法区分,选择题陷阱,Q-2026通州期末-9,2026 通州期末第9题,73,选择题,思维,manual_lock:choice_trap_material_fact_not_subjective_method_positive

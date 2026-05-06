@@ -1,0 +1,16 @@
+question_id,suite_id,question_num,sub_part,xuanyi_content,classification,evidence_level,evidence_source,scoring_terms_count,priority,lane_b_entry_status,notes
+2026通州期末_Q20,2026通州期末,20,,全球治理倡议正逢其时指引方向彰显担当,in_scope,P0_verified_scoring_rule,细则.pptx幻灯片15（"评分细则"标题），8分六点结构,6,high,written,用户指定必查六点；已全部确认
+2026朝阳期中_Q17,2026朝阳期中,17,,如何处理推进人工智能+过程中的重要关系,in_scope,P0_verified_scoring_rule,细则.docx（正式评分细则）三层结构,9个得分点（满分8分）,high,written,三层总说/分说全部确认；Layer2分说2为必修二已排除
+2025海淀期中_Q16_2,2025海淀期中,16,2,咖啡企业出海建议（从经济角度）,in_scope,P1_reference_answer,细则.docx（参考答案非正式细则）,4,high,written_with_blocker,贸易摩擦/充分利用国际组织权利/积极参与全球经济治理/两个市场两种资源；正式图片细则未找到
+2025海淀期中_Q21_2,2025海淀期中,21,2,新中国外交的变与不变,in_scope,P1_reference_answer,细则.docx（参考答案），正式图片表格细则未找到,5,high,written_with_blocker,政治多极化/经济全球化/时代主题/综合国力/独立自主/和平共处五项原则；正式细则未找到
+2025海淀期末_Q22,2025海淀期末,22,,愚公移山综合短文（多模块综合题）,in_scope,P2_teaching_lecture,细则.pptx（海淀教师研修PPT）幻灯片61/62"22.细则",2,high,written_with_evidence_note,选必一角度：人类命运共同体/中国智慧中国方案（可选知识）；正式评标未找到
+2024东城一模_Q16,2024东城一模,16,,综合题（含论证部分）,in_scope,P2_teaching_with_rubric_slides,细则.pptx幻灯片26（"16题阅卷细则"标签），文件标题"试题分析",2,high,written_with_evidence_note,国际关系民主化/推动构建人类命运共同体；文件全名为"试题分析"非正式评标
+2024东城一模_Q20,2024东城一模,20,,综合实践题（4选3评分）,in_scope,P2_teaching_with_rubric_slides,细则.pptx幻灯片64，评分4选3规则,2,high,written_with_evidence_note,推进制度型开放/深入融入经济全球化/增强国内国际两个市场两种资源联动效应；高水平对外开放归属必修二已排除
+2026朝阳一模_Q20,2026朝阳一模,20,,中国为什么能为全球发展注入稳定性和正能量,in_scope,P0_verified_scoring_rule,细则.docx（正式评分细则），必答点+选答点,8+,high,written,综合国力较量+创新驱动战略为必答点；多选答点均来自正式细则
+2026顺义一模_Q20,2026顺义一模,20,,科技小院成为南南合作典范的深层逻辑,in_scope,P0_verified_scoring_rule,细则.pptx（正式评标），7分共同利益+国际政治+国际经济三角,5,high,written,共同利益为必答点（1分）；国际政治3分选答；国际经济3分选答
+2025海淀二模_Q21,2025海淀二模,21,,阐释"中国需要联合国联合国也需要中国",in_scope,P0_verified+评标实录,细则.docx（正式评分细则）+2025年海淀二模评标实录.docx，6分,6,high,written,中国需要联合国3分+联合国需要中国3分；双重证据确认
+2026西城期末_Q20,2026西城期末,20,,待核查,in_scope,P0_presumed,细则PDF,TBD,medium,pending_codex_a,已在前轮补入；Lane B未独立核查
+2026东城期末_Q20,2026东城期末,20,,待核查（四大倡议分说需确认）,in_scope,P0_presumed,细则pptx,TBD,medium,pending_codex_a,前轮已补入；四大倡议分说需复查
+2026海淀期中_各题,2026海淀期中,,,待核查,uncertain,P2_teaching_lecture,期中讲评PDF,TBD,low,not_started,只有讲评PDF；需判断是否含选必一
+2026石景山期末_all,2026石景山期末,,,ALL,excluded,N/A,无可用评分细则,0,excluded,excluded,用户全模块排除
+2026海淀期末_all,2026海淀期末,,,ALL,excluded,N/A,用户确认无选必一内容,0,excluded,excluded,用户确认不含选必一

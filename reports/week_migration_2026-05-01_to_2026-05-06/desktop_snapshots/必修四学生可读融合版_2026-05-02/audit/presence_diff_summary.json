@@ -1,0 +1,34 @@
+{
+  "codex_entries": 291,
+  "claude_entries": 326,
+  "common_entries": 136,
+  "codex_only": 155,
+  "claude_only": 190,
+  "codex_duplicate_skipped": 0,
+  "claude_duplicate_skipped": 3,
+  "claude_rejected_before_comparison": 17,
+  "common_pairs_path": "/Users/wanglifei/Desktop/北京高考政治/必修四学生可读融合版_2026-05-02/audit/common_entry_pairs_for_student_agent.jsonl",
+  "codex_only_path": "/Users/wanglifei/Desktop/北京高考政治/必修四学生可读融合版_2026-05-02/audit/codex_only_entries.json",
+  "claude_only_path": "/Users/wanglifei/Desktop/北京高考政治/必修四学生可读融合版_2026-05-02/audit/claude_only_entries.json",
+  "common_by_module": {
+    "一、唯物论": 26,
+    "三、认识论": 6,
+    "二、辩证法": 64,
+    "五、价值观 / 人生观": 18,
+    "四、历史唯物主义": 22
+  },
+  "codex_only_by_module": {
+    "一、唯物论": 24,
+    "三、认识论": 25,
+    "二、辩证法": 73,
+    "五、价值观 / 人生观": 21,
+    "四、历史唯物主义": 12
+  },
+  "claude_only_by_module": {
+    "一、唯物论": 24,
+    "三、认识论": 39,
+    "二、辩证法": 88,
+    "五、价值观 / 人生观": 28,
+    "四、历史唯物主义": 11
+  }
+}

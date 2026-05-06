@@ -1,0 +1,8 @@
+suite,question_guess,source_id,evidence_guess,extract_status,hit_terms,relative_path,cache_path,question_anchors
+2026石景山一模,20,SRC_2b459ae738e8,P0_scoring_reference_level_guarded,checked_in_scope_guarded,共商共建共享;人类命运共同体;经济全球化;和平发展合作共赢;维护共同利益,2026各区一模/2026石景山一模/细则/细则.doc,,评分参考20明确任选两个关键词；每个关键词使用1个学科用语+合理分析得4分；可从若干选必一角度回答
+2026石景山一模,20,SRC_b46dba82c3ff,P3_visual_prompt_support,visual_checked,共同;开放;包容;亚太合作;贸易投资自由化便利化;普惠包容,2026各区一模/2026石景山一模/试卷/试卷.pdf,02_extraction/visual_renders/batch04L_shijingshan2026_paper/page_07.png;02_extraction/visual_renders/batch04L_shijingshan2026_paper/page_10.png,视觉渲染第7页确认完整设问和五个共同材料；第10页确认Q20参考答案选项
+2026石景山一模,16,SRC_2b459ae738e8,P0_no_xuanbiyi_boundary,checked_no_xuanbiyi,市场;政府;新质生产力,2026各区一模/2026石景山一模/细则/细则.doc,,经济与社会新型消费题；只作源穷尽边界
+2026石景山一模,17,SRC_2b459ae738e8,P0_no_xuanbiyi_boundary,checked_no_xuanbiyi,规律;联系;发展;矛盾;文化传承;发散思维;超前思维,2026各区一模/2026石景山一模/细则/细则.doc,,哲学文化和逻辑与思维题；只作源穷尽边界
+2026石景山一模,18,SRC_2b459ae738e8,P0_no_xuanbiyi_boundary,checked_no_xuanbiyi,行政诉讼;民事诉讼;举证责任,2026各区一模/2026石景山一模/细则/细则.doc,,法律与生活题；只作源穷尽边界
+2026石景山一模,19,SRC_2b459ae738e8,P0_no_xuanbiyi_boundary,checked_no_xuanbiyi,人民;立法;城市治理;共建共治共享,2026各区一模/2026石景山一模/细则/细则.doc,,政治与法治题；只作源穷尽边界
+2026石景山一模,21,SRC_2b459ae738e8,P0_composite_boundary,checked_boundary,中国方案;中国智慧;大国担当,2026各区一模/2026石景山一模/细则/细则.doc,,生态环境法典综合等级题；虽有中国方案中国智慧示例但非选必一逐点细则

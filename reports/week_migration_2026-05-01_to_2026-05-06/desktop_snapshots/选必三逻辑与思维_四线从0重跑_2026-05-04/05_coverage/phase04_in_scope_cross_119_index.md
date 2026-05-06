@@ -1,0 +1,126 @@
+# Phase04 In-Scope/Cross 119 Index
+
+- total in-scope/cross rows: 120
+- allowed use: evidence fusion control only
+- forbidden use: student稿 / Opus成文化 / Word-PDF / PASS
+
+- Q-2024朝阳一模-20-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳一模-20-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳一模-21 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2024朝阳一模-7 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳一模-9 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳二模-16-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳二模-16-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳二模-19-1 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳二模-19-2 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳二模-19-3 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳二模-6 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳二模-7 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳期中-1 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳期中-11 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳期中-18 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳期中-19 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳期中-5 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024朝阳期中-7 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳期中-8 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024朝阳期中-9 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024海淀二模-14 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024海淀二模-16 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2024海淀二模-17-1 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024海淀二模-17-2 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024海淀二模-4 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024海淀二模-6 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2024海淀二模-8 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-11 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2024西城一模-13 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-19-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-19-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-19-3 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-19-4 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-19-5 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2024西城一模-19-6 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-1 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-13 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025东城期末-14 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025东城期末-15 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025东城期末-18-1 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-18-2 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025东城期末-2 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-21 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2025东城期末-5 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-7 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-8 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025东城期末-9 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025丰台期末-10 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025丰台期末-16 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2025丰台期末-18-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025丰台期末-18-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025丰台期末-18-3 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025丰台期末-7 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025丰台期末-8 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025丰台期末-9 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | module-boundary decision with answer key/rubric
+- Q-2025海淀二模-20 | 思维 | 主观题 | L4_LOCKED_FOR_FUSION | locked_for_fusion | student draft still blocked by GPT Phase03 gate
+- Q-2025海淀期末-17-1 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025海淀期末-17-2 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025海淀期末-18 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025海淀期末-2 | 思维 | 选择题 | L0_BLOCKED | blocked_visual_or_options | visual/options/rubric recovery before fusion
+- Q-2025海淀期末-22 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2025海淀期末-8 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025西城二模-16-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025西城二模-16-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2025西城二模-16-3 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2025西城二模-17-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025西城二模-17-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025西城二模-7 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2025顺义一模-10 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025顺义一模-17-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025顺义一模-17-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025顺义一模-3 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025顺义一模-4 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2025顺义一模-5 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | module-boundary decision with answer key/rubric
+- Q-2025顺义一模-6 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2025顺义一模-7 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026东城一模-12 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城一模-19-1 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城一模-19-2 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城一模-19-3 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城一模-19-4 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026东城一模-2 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城一模-6 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | module-boundary decision with answer key/rubric
+- Q-2026东城期末-14 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-16-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-16-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-17-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-17-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | module-boundary decision with answer key/rubric
+- Q-2026东城期末-21 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2026东城期末-3 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-4 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-5 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-6 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026东城期末-7 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026丰台一模-18-2 | 推理 | 主观题 | L4_LOCKED_FOR_FUSION | locked_for_fusion | student draft still blocked by GPT Phase03 gate
+- Q-2026朝阳期中-1 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026朝阳期中-11 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2026朝阳期中-12 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2026朝阳期中-13 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2026朝阳期中-14 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2026朝阳期中-15 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | pending_B_target_verification | Codex local patch ready; requires Lane B targeted verification before locked fusion
+- Q-2026朝阳期中-18 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | targeted Lane B verification for A-only subjective/high-number question
+- Q-2026朝阳期中-20 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026朝阳期中-21-1 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026朝阳期中-21-2 | 思维 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026通州期末-11 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026通州期末-19-1 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026通州期末-19-2 | 推理 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026通州期末-5 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026通州期末-8 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026通州期末-9 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026顺义一模-19-1 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026顺义一模-19-2 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026顺义一模-19-3 | 交叉 | 主观题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026顺义一模-3 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026顺义一模-4 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | field-level diff cleanup during fusion
+- Q-2026顺义一模-5 | 交叉 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | module-boundary decision with answer key/rubric
+- Q-2026顺义一模-6 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026顺义一模-7 | 推理 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check
+- Q-2026顺义一模-9 | 思维 | 选择题 | L1_A_ONLY_PENDING_B_TARGET | blocked_or_pending_gap_queue | answer pairing / targeted verification if in-scope after canonical check

@@ -1,0 +1,8 @@
+question_id,forced_check,status,nodes
+Q-2024朝阳一模-20-1,only_sufficient_conditional,PASS,充分条件假言推理
+Q-2024朝阳一模-20-2,only_necessary_conditional,PASS,必要条件假言推理
+Q-2025西城二模-16-2,only_sufficient_conditional,PASS,充分条件假言推理
+Q-2026通州期末-19-2,sufficient_and_necessary,PASS,充分条件假言推理 | 必要条件假言推理
+Q-2026丰台一模-18-2,necessary_plus_syllogism_major_term,PASS,三段论结构题 | 必要条件假言推理
+Q-2024朝阳二模-7,small_term_expansion_not_middle_term,PASS,三段论结构题 | 归纳推理 | 必要条件假言推理
+Q-2025顺义一模-7,major_term_expansion_not_positive_small_term,PASS,三段论周延规则 / 大项不当扩大 / 谬误名称纠错 | 三段论结构题

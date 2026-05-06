@@ -1,0 +1,2 @@
+question_id,visible_title,status,source_check,repair_file,next_gate
+Q-2024海淀二模-17-1,2024 海淀二模第17题第(1)问,MUST_FIX_SOURCE_OR_SCOPE,"027 paper lines 202-224 confirm science-thinking-only prompt; 028 rubric lines 9-13 support objective/exploratory/overall arrangement under that prompt",08_review/phase11D_seed_Q2024haidian17_1_source_scope_repair_REVIEW_ONLY.md,"carry repair into Phase12 expanded body through 74-row matrix only; no Word/PDF/final"

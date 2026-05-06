@@ -1,0 +1,3 @@
+target_id,suite,qno,options_status,answer_laneB_verified,answer_source_file,answer_source_page,section_scope,node,can_enter_fusion,conflict_with_codexA,notes
+Q-2025海淀二模-12,2025海淀二模,12,VISUAL_CONFIRMED_FROM_RENDER_PAGE04_耐心资本主题可见,answer_D_CONFIRMED,2025北京海淀高三二模政治试题及答案.txt,page9 (12.D),思维,超前思维；风险收益平衡；长期发展,yes,none,supplemental source独立读取：page9答案表明确显示12.D；render page_04独立确认Q12题目存在且主题为耐心资本/长期投资；Codex A节点超前思维=有效分类（耐心资本关注长期趋势风险收益）；答案D中③④含长期/风险收益平衡内容
+Q-2025海淀二模-13,2025海淀二模,13,VISUAL_CONFIRMED_FROM_RENDER_PAGE04_逻辑分析题可见,answer_C_CONFIRMED,2025北京海淀高三二模政治试题及答案.txt,page9 (13.C),推理,三段论；概念划分；选言判断,yes,none,supplemental source独立读取：page9答案表明确显示13.C；render page_04独立确认Q13题目存在；Codex A节点三段论+选言判断=有效分类；答案C为正确推理形式

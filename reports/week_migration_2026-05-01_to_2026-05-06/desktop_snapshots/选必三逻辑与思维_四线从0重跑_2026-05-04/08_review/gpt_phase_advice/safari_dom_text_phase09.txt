@@ -1,0 +1,1 @@
+APPLE_SCRIPT_ERROR 8: You must enable 'Allow JavaScript from Apple Events' in the Developer section of Safari Settings to use 'do JavaScript'.

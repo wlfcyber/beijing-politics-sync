@@ -1,0 +1,5 @@
+question_id,visible_title,module,question_type,rescan_decision,final_action,answer_status,source_note,reason
+Q-2024朝阳一模-6,2024 朝阳一模第6题,推理,选择题,new_body_candidate,body_after_362_repair,confirmed,paper:030 lines 71-75; commentary:032 lines 106-111 gives B and option diagnoses,逻辑规则选择题，讲评材料给出答案和 A/B/C/D 逻辑诊断，可转 review-only 正文。
+Q-2024朝阳期中-10,Q-2024朝阳期中-10,待判,选择题,answer_missing,blocked_keep_out,missing,,题干显然涉及概念外延/关系判断，但本轮只找到试卷题面，未找到可靠选择题答案表；不得逻辑猜答案。
+Q-2025西城二模-6,2025 西城二模第6题,推理,选择题,new_body_candidate,body_after_362_repair,confirmed,paper:037 lines 61-64; answer key:037 line 306 / 038 line 5 gives 6.C,概念外延关系选择题，题干选项与答案表均已回源确认。
+Q-2026通州期末-10,2026 通州期末第10题,推理,选择题,new_body_candidate,body_after_362_repair,confirmed,paper text:006 lines 138-143; render page_04 shows four statements; answer table:006 lines 307-329 gives Q10=B,法学逻辑思维选择题，完整四项经页面渲染确认，答案表确认 B。

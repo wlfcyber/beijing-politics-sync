@@ -1,0 +1,5 @@
+question_id,forced_check,status,nodes
+Q-2025丰台期末-7,boundary_only_not_positive_method,PASS,边界陷阱 / 选必三干扰项 / 哲学唯物论伪装
+Q-2026通州期末-9,choice_trap_material_fact_only,PASS,选择题陷阱 / 数字化治理材料事实与选必三方法区分
+Q-2026顺义一模-19-2,scientific_thinking_primary,PASS,科学思维 | 科学思维：可检验性 | 科学思维：客观性 | 科学思维：预见性
+Q-2024海淀二模-17-1,science_only_source_supported,PASS,科学思维 | 科学思维：客观性 | 科学思维：探索性与方法更新 | 科学思维：整体安排

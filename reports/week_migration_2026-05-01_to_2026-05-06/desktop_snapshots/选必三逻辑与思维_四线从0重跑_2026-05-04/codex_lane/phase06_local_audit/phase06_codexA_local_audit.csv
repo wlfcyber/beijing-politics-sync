@@ -1,0 +1,17 @@
+check_id,scope,result,severity,details
+G01,evidence_lock_register,PASS,INFO,rows=74
+G02,thinking_fusion,PASS,INFO,rows=36
+G03,reasoning_fusion,PASS,INFO,rows=51
+G04,cross_mount,PASS,INFO,rows=13
+G05,L0_retention,PASS,INFO,rows=288
+G06,cross_double_membership,PASS,INFO,missing=[]
+G07,Q11_lock,PASS,INFO,Q11 retains B=①③ and contains no retired wrong-pairing string
+G08,Q12_Q13_lock,PASS,INFO,Q12=answer_confirmed_D_from_supplemental_key; Q13=answer_confirmed_C_from_supplemental_key
+G09,L3_L4_separation,PASS,INFO,"counts={'L3': 70, 'L4': 4}"
+G10,student_permission,PASS,INFO,all phase06 rows keep student_permission=no
+C01,thinking_material_signal,PASS,INFO,all thinking rows have material signal
+C02,thinking_answer_action,PASS,INFO,all thinking rows have answer action
+C03,reasoning_logical_form,PASS,INFO,all reasoning rows have logical form
+C04,reasoning_rule_slogan,PASS,INFO,all reasoning rows have rule slogan
+C05,reasoning_common_trap,PASS,INFO,all reasoning rows have common trap
+C06,index_coverage,PASS,INFO,indexes generated separately; evidence ids stable

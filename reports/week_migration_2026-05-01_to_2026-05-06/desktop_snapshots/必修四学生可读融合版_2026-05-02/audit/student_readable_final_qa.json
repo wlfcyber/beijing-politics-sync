@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-05-02T12:45:18",
+  "final_entries": 481,
+  "action_counts": {
+    "common-mix": 114,
+    "claude-only-kept": 190,
+    "codex-only-kept": 154,
+    "common-claude": 21,
+    "codex-only-kept+hard-rule-overridden": 1,
+    "common-codex": 1
+  },
+  "common_entries": 136,
+  "codex_only": 155,
+  "claude_only": 190,
+  "missing_student_decisions": [],
+  "dedup_removed": 0,
+  "forbidden_hits": [],
+  "missing_student_fields": [],
+  "duplicate_keys": [],
+  "hard_rule_hits": [],
+  "hard_samples": {
+    "2026海淀一模_Q16": [
+      [
+        "一、唯物论",
+        "物质决定意识",
+        "common-mix"
+      ],
+      [
+        "一、唯物论",
+        "主观能动性 / 意识的能动作用",
+        "common-mix"
+      ],
+      [
+        "二、辩证法",
+        "发展的观点 / 发展的普遍性",
+        "common-mix"
+      ],
+      [
+        "四、历史唯物主义",
+        "社会存在与社会意识",
+        "common-mix"
+      ],
+      [
+        "五、价值观 / 人生观",
+        "价值观的导向作用",
+        "codex-only-kept"
+      ],
+      [
+        "五、价值观 / 人生观",
+        "价值判断与价值选择",
+        "claude-only-kept"
+      ]
+    ],
+    "2024朝阳二模_Q16(2)": [
+      [
+        "一、唯物论",
+        "主观能动性 / 意识的能动作用",
+        "codex-only-kept+hard-rule-overridden"
+      ],
+      [
+        "一、唯物论",
+        "尊重客观规律与发挥主观能动性相结合",
+        "codex-only-kept"
+      ],
+      [
+        "二、辩证法",
+        "联系的多样性",
+        "codex-only-kept"
+      ],
+      [
+        "二、辩证法",
+        "发展的观点 / 发展的普遍性",
+        "codex-only-kept"
+      ],
+      [
+        "二、辩证法",
+        "矛盾就是对立统一",
+        "common-mix"
+      ],
+      [
+        "三、认识论",
+        "实践是认识的基础",
+        "common-mix"
+      ],
+      [
+        "四、历史唯物主义",
+        "社会存在与社会意识",
+        "common-mix"
+      ],
+      [
+        "四、历史唯物主义",
+        "人民群众",
+        "codex-only-kept"
+      ],
+      [
+        "五、价值观 / 人生观",
+        "价值观的导向作用",
+        "common-mix"
+      ]
+    ],
+    "2026石景山期末": []
+  }
+}

@@ -1,0 +1,9 @@
+reasoning_type_id,type_name,parent_type,rule_slogan,valid_pattern,invalid_patterns,required_fields,example_question_ids,status,notes
+RT_DEDUCTIVE,演绎推理,推理部分,从一般到个别/必然推出,待逐题填充,待逐题填充,logical_form+validity_rule+trap+question_ids,pending,scaffold,不可只写总述
+RT_SYLLOGISM,三段论,演绎推理,三项两前提一结论; 中项至少周延一次,待逐题填充,四概念;中项不周延;大项不当扩大;小项不当扩大;两否定前提,major_term+minor_term+middle_term+premises+conclusion+trap,HS05,scaffold,HS05主张3已锁
+RT_HYPOTHETICAL,假言推理,演绎推理,先判充分/必要/充要再看肯否方向,待逐题填充,充分条件肯后推前;必要条件肯前推后等,condition_type+antecedent+consequent+valid_pattern+invalid_pattern,HS05,scaffold,HS05主张2已锁
+RT_LOGICAL_LAWS,逻辑基本规律,形式逻辑,同一律/矛盾律/排中律先看能否同真同假,待逐题填充,偷换概念;自相矛盾;两不可,law_name+claim_pair+truth_conflict+trap,HS05,scaffold,HS05主张1已锁
+RT_DISJUNCTIVE,选言推理,复合判断推理,先判相容还是不相容,待逐题填充,相容选言肯定一支就否定其他;不相容选言规则误用,disjunction_type+branches+valid_pattern+trap,pending,scaffold,待全量扫描
+RT_CONJUNCTIVE,联言推理,复合判断推理,合成式/分解式,待逐题填充,联言支不能同真仍强行合成,conjuncts+compose_or_decompose+trap,pending,scaffold,待全量扫描
+RT_INDUCTION,归纳推理,或然推理,从个别到一般; 看样本和方法,待逐题填充,样本不足;以偏概全;因果误认,method+sample_scope+reliability_basis+trap,pending,scaffold,待全量扫描
+RT_ANALOGY,类比推理,或然推理,相似越本质相关可靠性越高,待逐题填充,相似点表面化;前提属性与结论无关,analogy_base+similarities+relevance+reliability_basis,pending,scaffold,待全量扫描

@@ -1,0 +1,21 @@
+# Task Brief
+
+- Book: 选必一
+- Scope: 当代国际政治与经济
+- Date: 2026-05-02
+- Run mode: 三线总控。Codex 同时承担“总控”和“自跑生产线”，ClaudeCode 做独立复跑线；按“从源头重新核”启动，旧成果只作用户硬规则、纠错样本和审计参照，不直接继承旧结论。
+- Primary source roots:
+  - `/Users/wanglifei/Desktop/2024模拟题`
+  - `/Users/wanglifei/Desktop/2025模拟题`
+  - `/Users/wanglifei/Desktop/2026模拟题`
+- Hard-rule notebook:
+  - `/Users/wanglifei/Desktop/北京高考政治/选必一复查_2026-04-29/选必一_交付要求记事本.md`
+- Branch skill rules:
+  - `/Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/SKILL.md`
+  - `/Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/references/current-user-requirements.md`
+  - `/Users/wanglifei/.codex/skills/feige-politics-garden-xuanbiyi/references/xuanbiyi-term-protocol.md`
+- Final target:
+  - `outputs/飞哥政治庄园选必一_当代国际政治与经济_细则术语学生版.md`
+  - `outputs/飞哥政治庄园选必一_当代国际政治与经济_细则术语学生版.docx`
+  - optional final PDF / render evidence
+  - `FINAL_ACCEPTANCE_REPORT.md`

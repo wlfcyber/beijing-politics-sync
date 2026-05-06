@@ -1,0 +1,4441 @@
+ChatGPT
+
+
+
+# Prompt For GPT-5.5 Pro Commander
+
+你是 GPT-5.5 Pro，担任“北京高考政治教研整本书四线工作流”的总指挥和压力测试官。请注意：你不是源证据裁判，不要编造任何本地文件、题目或评分细则。你的任务是审查流程、分工、风险和验收门槛，给 Codex 本地总控一份可执行 commander packet。
+
+背景：
+
+- 用户已成功做过一本“哲学宝典”，质量标准是逐题穷尽、按原理/方法论组织、材料触发点 -> 设问 -> 为什么能想到 -> 答案落点，最终 Word/PDF 经过版式验收。
+- 现在要重跑选必三《逻辑与思维》，范围包括“思维部分”和“推理部分”。
+- 用户强烈批评上一版：内容质量不能和哲学宝典比，没有穷尽每一道题，推理部分只是分类总结而没有把所有题挂到对应题型下面，而且没有真实执行四线工作流。
+- 本轮要求严格四线：Codex 生产 lane A + ClaudeCode 生产 lane B + Claude Opus 教学文本成品化 + GPT-5.5 Pro 内容总审稿/压力测试。Governor 和 Confucius 是最终硬 gate。
+- 当前只是启动纠偏阶段，没有最终学生稿。
+
+请基于下面的 Phase 00 summary，输出：
+
+1. STOP / GO / CONDITIONAL GO 判断。
+2. Codex lane A 下一步生产任务。
+3. ClaudeCode lane B 下一步生产任务。
+4. Claude Opus 什么时候可以介入、只能做什么、不能做什么。
+5. GPT-5.5 Pro 后续必须审查哪些 trigger objects。
+6. 推理部分应如何做成“题型 -> 全部题目 -> 规则口令 -> 易错陷阱 -> 解题步骤”的宝典，而不是题型总述。
+7. 你认为最可能导致再次失败的 10 个风险。
+8. 必须阻断最终 PASS 的验收 gate。
+
+请尽量具体，给出可执行清单。
+
+---
+
+Phase 00 summary:
+
+text
+phase_name: Phase 00 startup correction
+phase_goal: Restore full four-lane workflow for 选必三《逻辑与思维》思维部分 + 推理部分 after the user rejected the previous output as too shallow.
+completed_actions:
+- Read router skill, whole-book orchestrator skill, whole-book SOP, 选必三 branch skill, hard-rule notebook, and document QA rules.
+- Created a fresh run folder for four-lane from-zero rerun.
+- Wrote master requirements, user framework, start card, notebook digest, and Codex internal five-role ledgers.
+- Started ClaudeCode production lane B with a bounded Phase 01 independent source-inventory task.
+- Created Codex source inventory notes and first-pass source ledger.
+- Ran Governor startup patch: final PASS is blocked until source inventory, coverage, ClaudeCode, Claude Opus, GPT-5.5 Pro, Governor, Confucius, and Word/PDF validation are real.
+unfinished_actions:
+- ClaudeCode lane B Phase 01 is still running.
+- GPT-5.5 Pro real commander response for this new run is not yet saved.
+- Claude Opus real teaching-text lane has not yet run.
+- Coverage matrix is not yet populated at suite/question level.
+- No final student-facing draft has been produced in this new run.
+source_coverage_summary:
+- First-pass inventory found raw framework PDFs for 思维部分 and 推理部分.
+- The current source ledger intentionally treats old artifacts as locator-only, not evidence.
+- Most real exam sources still need reopening and suite/question classification.
+non_text_material_summary:
+- Framework PDFs require render/OCR/visual fallback because local PDF text extraction tools are limited.
+- Future suite processing must handle PDF, Word, PPT, image, table, scan, and cartoon sources by alternative tools if one tool fails.
+current_governor_status:
+- G0 partial pass.
+- Final PASS blocked.
+three_uncertainties:
+1. Final product default is one combined book with separated chapters, but user may later request two volumes.
+2. Framework PDF raw copies exist in current run; original WeChat temp paths may be volatile.
+3. Fresh source scan must determine whether newer 2026二模/later materials exist.
+known_failure_to_prevent:
+- Old output treated as hidden mother version.
+- Concept summary replacing trigger-chain宝典.
+- Entry count replacing suite/question coverage.
+- Same question multi-method missed.
+- Choice questions without full options and reliable answer key.
+- Reasoning section classifies methods but fails to attach every question.
+- Student artifact contains audit/pipeline language.
+- Word file generated without real validation.
+
+
+我会给出有条件放行的 commander packet，只推进源清单、题目清点和覆盖矩阵，暂不允许学生稿或排版成品生产。
+Thought for 10m 4s
+结论：CONDITIONAL GO
+可以启动纠偏后的 Phase 01 生产，但只能进入“源清点、题目挂载、覆盖矩阵、双 lane 独立生产”的阶段。
+严禁进入最终学生稿、Word/PDF 成品稿、PASS 宣告。
+当前状态满足启动条件：已有四线重跑目录、主要求、用户框架、start card、source ledger 初稿、Governor startup patch。
+当前状态不满足成品条件：ClaudeCode lane B 尚未返回，Claude Opus 尚未介入，覆盖矩阵未到 suite/question 级，推理部分尚未逐题挂题型，Word/PDF 未验证，Governor 与 Confucius 未硬 gate。
+
+因此判定为：
+
+CONDITIONAL GO for Phase 01 source inventory and independent production scaffolding.
+STOP for final student-facing draft.
+STOP for Word/PDF generation.
+STOP for PASS.
+1. STOP / GO / CONDITIONAL GO 判断
+1.1 当前判定
+CONDITIONAL GO
+允许做：
+Codex lane A 独立源清点。
+ClaudeCode lane B 独立源清点。
+suite/question 级覆盖矩阵搭建。
+思维部分与推理部分的结构框架重建。
+推理部分“题型挂题”体系设计。
+对旧稿进行 failure audit，但旧稿只能作为问题定位材料，不能作为证据母稿。
+生成内部审查对象，不生成学生最终稿。
+禁止做：
+禁止宣称已穷尽所有题。
+禁止把旧版内容继承为底稿。
+禁止让 Claude Opus 直接扩写最终宝典。
+禁止制作 Word/PDF 成品。
+禁止提交 Governor final PASS。
+禁止把分类总结当成推理部分宝典。
+禁止把“条目数量”当成“题目覆盖率”。
+1.2 转入 GO 的最低条件
+只有同时满足以下条件，才能从 CONDITIONAL GO 升级为 GO：
+G1: Codex lane A source inventory completed.
+G2: ClaudeCode lane B source inventory completed.
+G3: 两条 inventory 已做 diff，冲突项已标红。
+G4: 覆盖矩阵已到 suite/question 级。
+G5: 每道题已有唯一题号或稳定定位符。
+G6: 每道题已归属到思维部分、推理部分或交叉题。
+G7: 推理部分每题已挂到至少一个题型节点。
+G8: 选择题有完整选项与可靠答案来源。
+G9: 主观题有材料触发点、设问、知识调用路径、答案落点。
+G10: Governor 确认没有用旧稿充当证据。
+2. Codex lane A 下一步生产任务
+Codex lane A 的任务是“本地总控生产主线”，重点是建立可审查、可回滚、可 diff 的覆盖体系。当前不要写学生成品稿。
+2.1 Codex lane A 立即任务
+A1. 建立 source registry
+输出文件建议：
+A_source_registry.md
+A_source_registry.json
+A_source_inventory_notes.md
+每个 source object 至少包含：
+source_id:
+source_type: PDF / DOCX / PPTX / image / scan / table / old_artifact_locator
+file_path:
+file_name:
+section_scope: 思维部分 / 推理部分 / 混合 / 未判定
+provenance_status: raw_source / locator_only / derived_artifact / unusable
+text_extraction_status:
+visual_fallback_required: yes / no
+contains_questions: yes / no / unknown
+contains_answer_key: yes / no / unknown
+contains_scoring_rubric: yes / no / unknown
+risk_notes:
+硬规则：
+旧 artifact 只能标记为 locator_only 或 failure_reference。
+不允许把旧稿内容写入 raw_source。
+框架 PDF 可以作为课程框架来源，但不能自动替代真题来源。
+每份文件都要有读取状态，失败也要登记失败原因。
+A2. 建立 suite registry
+输出文件建议：
+A_suite_registry.md
+A_suite_registry.json
+suite 指“一套题、一份试卷、一份讲义、一份专项练习、一组同源材料”。
+每个 suite 至少包含：
+
+suite_id:
+source_id:
+suite_name:
+exam_year:
+exam_region:
+exam_stage: 一模 / 二模 / 期末 / 专项 / 高考真题 / 模拟 / 未判定
+document_location:
+question_count_detected:
+question_count_confirmed:
+answer_key_status:
+rubric_status:
+section_scope:
+requires_visual_processing:
+confidence_level:
+open_issues:
+必须做到：
+不以文件名猜题量。
+每套题必须经过人工式结构确认。
+PDF、图片、漫画、表格、材料页必须进入 visual fallback 队列。
+发现同一题跨多个文件出现时，要建立 duplicate map。
+A3. 建立 question coverage matrix
+输出文件建议：
+A_question_coverage_matrix.xlsx
+A_question_coverage_matrix.md
+A_question_coverage_matrix.json
+每道题至少一行：
+question_id:
+suite_id:
+source_id:
+stable_locator: 页码 / 题号 / 图片编号 / 文档段落位置
+question_type: 选择题 / 主观题 / 材料题 / 图表题 / 漫画题 / 组合题
+section_scope: 思维 / 推理 / 交叉
+knowledge_node_primary:
+knowledge_node_secondary:
+reasoning_type_primary:
+reasoning_type_secondary:
+has_full_stem:
+has_full_options:
+has_answer_key:
+has_rubric:
+material_trigger_points:
+question_ask:
+why_think_of_this:
+answer_landing_points:
+student_error_traps:
+status: raw / classified / drafted / reviewed / blocked
+lane_A_notes:
+lane_B_notes:
+conflict_status:
+硬规则：
+每道题必须有 stable locator。
+没有 locator 的题不能进入宝典。
+选择题无完整选项，不得生成选择题解析。
+主观题无设问，不得生成答案落点。
+只有知识点名而无材料触发点，判为未完成。
+推理题只写“属于归纳推理”不合格，必须挂到具体题型和解题步骤。
+A4. 思维部分生产框架
+思维部分需要恢复哲学宝典式结构。每题条目必须包含：
+题目定位:
+知识原理:
+方法论或操作规则:
+材料触发点:
+设问指向:
+为什么能想到这个知识:
+答案落点:
+可迁移口令:
+易错陷阱:
+同类题索引:
+思维部分不能写成章节摘要。必须体现“材料如何触发知识调用”。
+A5. 推理部分生产框架
+推理部分由 Codex lane A 先搭骨架，暂不做最终语言润色。骨架格式见第 6 节。
+A6. 产出 lane A review packet
+Codex lane A 完成 Phase 01 后，必须提交给 GPT-5.5 Pro 的对象：
+A_source_registry
+A_suite_registry
+A_question_coverage_matrix
+A_reasoning_typology_map
+A_unresolved_source_failures
+A_duplicate_question_map
+A_blocked_questions_list
+A_sample_10_question_drafts
+其中 A_sample_10_question_drafts 必须包含：
+思维部分选择题 2 道。
+思维部分主观题 2 道。
+推理部分选择题 2 道。
+推理部分主观题 2 道。
+图表、漫画、表格或扫描材料题至少 1 道。
+一题多法或跨知识点题至少 1 道。
+3. ClaudeCode lane B 下一步生产任务
+ClaudeCode lane B 的任务是“独立复核生产线”，不能复制 Codex lane A 的判断。它要独立读源、独立建 inventory、独立标记题目与缺口。
+3.1 ClaudeCode lane B 当前任务状态
+Phase 00 显示：
+ClaudeCode lane B Phase 01 independent source-inventory task is still running.
+因此下一步是完成并提交独立 inventory，不得进入写稿阶段。
+3.2 ClaudeCode lane B 立即任务
+B1. 独立 source inventory
+输出：
+B_source_inventory.md
+B_source_inventory.json
+B_source_failures.md
+要求：
+不引用 Codex lane A 的 source_id 作为判断依据。
+自行列出全部发现的原始文件。
+对每个文件给出读取状态。
+对 PDF、图片、PPT、Word、扫描件分别标注处理风险。
+标出哪些材料含题目，哪些含答案，哪些含评分说明。
+B2. 独立 suite/question 识别
+输出：
+B_suite_question_inventory.md
+B_suite_question_inventory.json
+每条至少包含：
+detected_suite:
+detected_question:
+source_locator:
+question_type:
+section_scope:
+answer_key_detected:
+rubric_detected:
+visual_required:
+confidence:
+ClaudeCode lane B 的核心责任是发现 Codex lane A 漏掉的题，特别是：
+PDF 中页眉页脚附近题号。
+图片中的漫画题。
+PPT 内嵌题。
+Word 表格题。
+扫描材料中被 OCR 漏掉的选项。
+一题多问中的第二问、第三问。
+同一材料下多个设问。
+答案页与题目页分离的套题。
+“思维”与“推理”交叉题。
+推理题中被误标为普通材料题的题。
+B3. 与 Codex lane A diff
+ClaudeCode lane B 完成后，Codex 总控必须生成：
+A_B_source_diff.md
+A_B_suite_diff.md
+A_B_question_diff.md
+A_B_classification_diff.md
+diff 维度：
+source missing in A
+source missing in B
+suite missing in A
+suite missing in B
+question missing in A
+question missing in B
+question count mismatch
+answer key mismatch
+section classification mismatch
+reasoning type mismatch
+locator mismatch
+visual processing mismatch
+硬规则：
+A 与 B 不一致时，不得自动取多数。
+不一致项进入 conflict_queue。
+conflict 未解决，相关题不得进入最终稿。
+A 与 B 都没有答案来源的题，不得编造答案。
+A 与 B 都漏掉但 Governor later发现的题，触发回滚。
+4. Claude Opus 什么时候可以介入、只能做什么、不能做什么
+4.1 介入时机
+Claude Opus 现在不能介入最终成品化。
+它只能在以下对象齐备后介入：
+C1: A_source_registry completed.
+C2: B_source_inventory completed.
+C3: A_B_diff completed.
+C4: question_coverage_matrix 至少完成 first locked pass.
+C5: 每道进入样稿的题都有 source locator。
+C6: blocked_questions_list 已单独列出。
+C7: Governor 确认旧稿没有作为证据母稿。
+推荐介入节点：
+Phase 02 after source and coverage lock, before final Word/PDF.
+4.2 Claude Opus 可以做什么
+Claude Opus 的角色是“教学文本成品化”，不是源审查官。允许做：
+把 Codex lane A 与 ClaudeCode lane B 已确认的题目条目改写成学生可读表达。
+将“材料触发点、设问、为什么能想到、答案落点”串成教学链条。
+将推理部分规则口令改成可背、可迁移的表达。
+优化章节导语、题型导语、学习方法提示。
+合并同类题的复盘，但必须保留每道题独立条目。
+对语言做降噪，删除 pipeline、audit、source ledger 等内部术语。
+统一术语风格，例如“判断依据”“调用路径”“落点句式”“易错陷阱”。
+为每个题型补“先看什么、再判什么、最后怎么写”的步骤化说明。
+对主观题答案落点做学生化表达，但不得改变原始评分点。
+生成“考场口令”和“错因提醒”。
+4.3 Claude Opus 不能做什么
+严格禁止：
+不得新增题目。
+不得删除题目。
+不得自行判断答案正确性。
+不得补全缺失选项。
+不得补写缺失评分细则。
+不得把没有 source locator 的题写进正文。
+不得把旧稿改写为新稿。
+不得合并多道题导致逐题覆盖消失。
+不得把推理部分压缩为题型总述。
+不得在学生稿中出现 source registry、coverage matrix、Governor、Confucius、lane A、lane B 等内部语言。
+4.4 Claude Opus 输入格式
+交给 Claude Opus 的包必须是“锁定题目包”，不是杂乱源文件：
+opus_input_packet:
+  locked_question_entries:
+  source_locator_per_question:
+  verified_answer_key:
+  verified_rubric_or_answer_points:
+  reasoning_typology_map:
+  blocked_questions_excluded:
+  style_rules:
+  forbidden_actions:
+Claude Opus 输出必须带结构标签：
+student_text_entry:
+  question_id:
+  title:
+  knowledge_call:
+  material_trigger:
+  question_ask:
+  why_this_knowledge:
+  answer_landing:
+  trap_warning:
+  transfer_formula:
+  opus_change_notes:
+5. GPT-5.5 Pro 后续必须审查的 trigger objects
+GPT-5.5 Pro 的任务是内容总审稿与压力测试，不充当源证据裁判。它审查流程完整性、覆盖逻辑、风险、题型挂载、学生稿质量门槛。
+必须审查以下 trigger objects：
+
+5.1 Phase 01 source trigger objects
+T01_A_source_registry
+T02_B_source_inventory
+T03_A_B_source_diff
+T04_source_failure_log
+T05_locator_only_artifact_list
+审查点：
+是否把旧 artifact 误列为 evidence。
+是否有文件未分类。
+是否有 PDF、图片、PPT、Word、扫描件未进入 fallback 计划。
+是否存在“读取失败但未阻断”的源。
+是否存在“框架 PDF 替代真题源”的风险。
+5.2 Suite/question coverage trigger objects
+T06_A_suite_registry
+T07_B_suite_question_inventory
+T08_A_B_question_diff
+T09_question_coverage_matrix
+T10_duplicate_question_map
+T11_blocked_questions_list
+审查点：
+是否到 suite/question 级。
+是否每题有 stable locator。
+是否每题有题型、知识点、设问类型。
+是否一题多问被拆开。
+是否同题重复被正确映射。
+是否交叉题被双挂载。
+是否 blocked questions 被排除出正文。
+5.3 思维部分 trigger objects
+T12_thinking_part_question_entries
+T13_thinking_principle_method_map
+T14_thinking_material_trigger_map
+T15_thinking_sample_drafts
+审查点：
+是否逐题处理。
+是否有材料触发点。
+是否解释为什么能想到该知识。
+是否有答案落点。
+是否有易错陷阱。
+是否避免章节摘要化。
+5.4 推理部分 trigger objects
+T16_reasoning_typology_map
+T17_reasoning_question_attachment_matrix
+T18_reasoning_rule_slogans
+T19_reasoning_trap_matrix
+T20_reasoning_step_templates
+T21_reasoning_all_question_entries
+审查点：
+是否所有推理题都挂到题型。
+是否每个题型下面列出全部题。
+是否每道题有规则口令。
+是否每道题有易错陷阱。
+是否有解题步骤。
+是否保留一题多法。
+是否把形式逻辑题与非形式推理题区分清楚。
+是否把“归纳、类比、演绎、三段论、复合判断、假言推理、模态或关系判断”等节点处理到可解题层级。
+5.5 Claude Opus trigger objects
+T22_opus_input_packet
+T23_opus_student_text_output
+T24_opus_change_log
+T25_internal_language_leak_check
+审查点：
+Opus 是否只改写已锁定题。
+是否新增、删除或合并题。
+是否改变评分点。
+是否漏掉 trigger chain。
+是否出现内部流程语言。
+是否把宝典语言写成空泛鸡汤。
+5.6 最终成品 trigger objects
+T26_final_student_draft_md
+T27_final_docx
+T28_final_pdf
+T29_layout_validation_report
+T30_Governor_gate_report
+T31_Confucius_gate_report
+T32_final_PASS_packet
+审查点：
+Word 与 PDF 内容是否一致。
+目录、页眉、分页、表格、题号是否稳定。
+选择题选项是否完整。
+主观题答案点是否没有断裂。
+学生稿是否无 audit/pipeline 语言。
+Governor 与 Confucius 是否真实执行。
+是否存在“版式通过但内容未通过”的假 PASS。
+6. 推理部分如何做成宝典
+核心要求：
+题型 -> 全部题目 -> 规则口令 -> 易错陷阱 -> 解题步骤
+推理部分的失败根因通常是“先讲题型，再举几个例题”。本轮必须改成“每一个题型节点下面挂全部题，每一道题都有可复现解法”。
+6.1 推理部分总目录结构
+建议结构：
+推理部分总表
+  1. 概念与判断基础题
+  2. 性质判断与换质换位题
+  3. 三段论推理题
+  4. 联言判断与联言推理题
+  5. 选言判断与选言推理题
+  6. 假言判断与假言推理题
+  7. 充分条件、必要条件、充要条件题
+  8. 归纳推理题
+  9. 类比推理题
+  10. 求同法、求异法、共变法、剩余法题
+  11. 反证法、归谬法、矛盾分析题
+  12. 综合推理与一题多法题
+  13. 材料逻辑链条题
+  14. 易混题型复盘
+具体题型名称应由本地题源决定，上面只是骨架。不能为了套目录而强行分类。若题源里没有某类题，保留到“未出现或暂未纳入”记录，正文不空写。
+6.2 每个题型节点必须有 7 个组件
+每个题型章固定格式：
+题型名称:
+考查规则:
+规则口令:
+本题型全部题目清单:
+逐题精讲:
+易错陷阱总表:
+迁移训练口令:
+其中“本题型全部题目清单”必须列出所有 question_id：
+本题型全部题目清单
+Q-R-001
+Q-R-004
+Q-R-009
+Q-R-015
+...
+只要 coverage matrix 显示属于该题型，正文必须出现。若题进入 blocked 状态，要在内部 blocked list 中说明，不能悄悄遗漏。
+6.3 每道推理题的条目模板
+每道题必须按以下模板生产：
+题目定位:
+  suite_id:
+  question_id:
+  source_locator:
+
+题型归属:
+  primary_type:
+  secondary_type:
+  one_question_multi_method: yes / no
+
+规则口令:
+  一句话可背规则。
+
+材料触发点:
+  题干中哪个词、哪句话、哪个结构触发该推理规则。
+
+设问指向:
+  问的是判断真假、推出结论、找逻辑错误、补充前提、评价论证，还是选择正确推理。
+
+为什么能想到:
+  从材料触发点到规则调用的中间推导。
+
+解题步骤:
+  Step 1: 抽取逻辑形式。
+  Step 2: 判断条件关系或判断类型。
+  Step 3: 套用有效推理式或排除无效式。
+  Step 4: 回到选项或答案落点。
+  Step 5: 写出规范表达。
+
+答案落点:
+  选择题写选项与排除理由。
+  主观题写评分点与表达句式。
+
+易错陷阱:
+  本题最容易错在哪里。
+
+同类题:
+  同一题型下的其他 question_id。
+6.4 推理题必须先抽形式，再回材料
+推理部分特别容易写成政治材料分析。必须强制执行：
+材料语言 -> 逻辑形式 -> 推理规则 -> 选项/答案
+示例规则，不引用具体题源：
+看到“只要 P 就 Q”，先写成 P -> Q。
+看到“只有 P 才 Q”，先写成 Q -> P。
+看到“P 或 Q”，先判断相容选言还是不相容选言。
+看到“并且”，先判断联言支是否都真。
+看到“所有 S 都是 P”，先判断能否换位、换质或进入三段论。
+看到“这个对象像那个对象”，先判断类比根据是否充分。
+看到“几个样本推出一般结论”，先判断归纳样本是否代表充分。
+看到“现象随因素变化而变化”，先考虑共变法。
+看到“多个场合共同因素”，先考虑求同法。
+看到“一个场合有、另一个场合无”，先考虑求异法。
+6.5 推理题型挂载矩阵
+必须生成：
+reasoning_question_attachment_matrix
+字段：
+question_id:
+suite_id:
+stem_locator:
+primary_reasoning_type:
+secondary_reasoning_type:
+rule_slogan:
+logical_form:
+valid_inference_pattern:
+invalid_pattern_to_avoid:
+answer_key:
+draft_status:
+review_status:
+验收规则：
+coverage matrix 中 section_scope = 推理 的每道题，必须出现在 attachment matrix。
+attachment matrix 中每道题，必须出现在正文。
+正文每道题，必须回指到 matrix。
+matrix 与正文题号不一致，直接阻断。
+一题多法必须双挂载，不得只挂一个节点。
+“综合题”不能成为逃避分类的垃圾桶，必须说明综合在哪些规则上。
+6.6 题型章示范骨架
+第三章 假言推理题
+
+一、题型规则
+充分条件假言判断：P -> Q。
+有效式：
+1. 肯定前件，可以肯定后件。
+2. 否定后件，可以否定前件。
+无效式：
+1. 肯定后件，不能肯定前件。
+2. 否定前件，不能否定后件。
+
+二、规则口令
+前真推后真，后假推前假；后真不返推，前假不断后。
+
+三、本题型全部题目
+Q-R-003
+Q-R-011
+Q-R-018
+Q-R-026
+
+四、逐题精讲
+Q-R-003
+题目定位:
+材料触发点:
+设问指向:
+为什么能想到:
+解题步骤:
+答案落点:
+易错陷阱:
+同类题:
+
+Q-R-011
+...
+该骨架必须被真实 question_id 填满。没有真实题号时不能生成假题号。
+7. 最可能导致再次失败的 10 个风险
+风险 1：旧稿变成隐形母版
+表现：
+新稿语言、结构、例题顺序与旧稿高度相似。
+后果：
+纠偏名义上重跑，实质上修补旧稿。
+阻断措施：
+旧稿只能进入 failure audit 和 locator-only 列表。
+任何正文内容必须回指新 coverage matrix。
+风险 2：覆盖矩阵停留在条目级
+表现：
+只统计知识点、题型、章节，没有统计每套题、每道题。
+后果：
+看似内容很多，实际漏题无法发现。
+阻断措施：
+必须 suite/question 双层编号。
+没有 question_id 的内容不能进入正文。
+风险 3：推理部分再次写成分类讲义
+表现：
+先讲归纳、类比、演绎，每类配少数例子。
+后果：
+用户核心批评没有解决。
+阻断措施：
+每个题型下面必须列出全部题目清单。
+reasoning_attachment_matrix 与正文逐项核对。
+风险 4：PDF、图片、PPT、扫描题漏读
+表现：
+文本抽取成功就停止，没有处理图表、漫画、表格、图片内文字。
+后果：
+非文本材料题大概率丢失。
+阻断措施：
+所有非文本对象进入 visual fallback queue。
+读取失败必须登记，不能静默跳过。
+风险 5：选择题缺选项仍写解析
+表现：
+只有题干或只有答案，却生成排除法解析。
+后果：
+解析不可验证，容易编造选项逻辑。
+阻断措施：
+选择题必须 has_full_options = yes 且 has_answer_key = yes 才能写。
+风险 6：主观题没有评分落点
+表现：
+只有知识总结，没有材料对应句和评分点。
+后果：
+不像哲学宝典，学生不能知道怎么得分。
+阻断措施：
+主观题必须包含材料触发点、设问指向、为什么能想到、答案落点。
+缺一项为 blocked。
+风险 7：一题多问被当成一题
+表现：
+第 1 问、第 2 问、第 3 问共用一个解析。
+后果：
+漏掉小问，覆盖率虚高。
+阻断措施：
+question_id 可以拆成 Q001-a、Q001-b、Q001-c。
+每个小问单独挂知识点和答案落点。
+风险 8：一题多法被单挂载
+表现：
+某题同时涉及假言推理和归谬，只挂到假言推理。
+后果：
+学生迁移能力下降，同类题索引断裂。
+阻断措施：
+设置 primary_type 与 secondary_type。
+综合题必须列出多个规则触发点。
+风险 9：Claude Opus 过早介入导致文学化
+表现：
+文本好读，但题目、答案、评分点被压缩或改写过度。
+后果：
+漂亮但不可靠。
+阻断措施：
+Opus 只处理 locked_question_entries。
+Opus 输出必须与 question_id 一一对应。
+风险 10：Word/PDF 版式通过掩盖内容未通过
+表现：
+有目录、有页眉、有 PDF，但覆盖、题号、答案核对没有完成。
+后果：
+形式完成，实质失败。
+阻断措施：
+版式验收只能排在内容 gate 之后。
+Governor 和 Confucius 未通过，不得生成 final PASS。
+8. 必须阻断最终 PASS 的验收 gate
+以下任一 gate 未通过，最终 PASS 必须阻断。
+Gate 0：启动真实性 gate
+G0.1 新 run folder 存在。
+G0.2 master requirements 存在。
+G0.3 四线角色已登记。
+G0.4 旧稿被标记为 locator-only 或 failure reference。
+G0.5 Governor startup patch 已写明 final PASS blocked。
+未通过结果：
+STOP
+Gate 1：源证据 gate
+G1.1 A_source_registry 完成。
+G1.2 B_source_inventory 完成。
+G1.3 A_B_source_diff 完成。
+G1.4 每个 raw source 有读取状态。
+G1.5 读取失败有 failure log。
+G1.6 框架 PDF、真题源、答案源、评分源分开登记。
+G1.7 old artifact 没有进入 evidence pool。
+阻断条件：
+任何 source provenance 不清。
+任何读取失败被静默跳过。
+任何旧稿内容被当作证据。
+Gate 2：suite/question 覆盖 gate
+G2.1 suite_registry 完成。
+G2.2 question_coverage_matrix 完成。
+G2.3 每道题有 question_id。
+G2.4 每道题有 stable_locator。
+G2.5 每道题有 section_scope。
+G2.6 每道题有 question_type。
+G2.7 一题多问已拆分。
+G2.8 duplicate_question_map 完成。
+G2.9 blocked_questions_list 完成。
+阻断条件：
+只做到章节覆盖。
+只做到知识点覆盖。
+只有 entry count，没有 question coverage。
+存在无 locator 正文题。
+存在 coverage matrix 中有题但正文无题。
+Gate 3：答案与评分 gate
+G3.1 选择题有完整题干。
+G3.2 选择题有完整选项。
+G3.3 选择题有可靠答案 key。
+G3.4 主观题有设问。
+G3.5 主观题有答案来源或评分点来源。
+G3.6 答案落点没有超出证据范围。
+G3.7 缺答案题进入 blocked list。
+阻断条件：
+缺选项仍写选择题解析。
+缺答案仍给确定选项。
+缺评分点仍写“标准答案”。
+Gate 4：思维部分宝典 gate
+G4.1 思维部分每题有材料触发点。
+G4.2 每题有设问指向。
+G4.3 每题有为什么能想到。
+G4.4 每题有答案落点。
+G4.5 每题有易错陷阱。
+G4.6 每题有同类题索引或说明。
+G4.7 内容按原理/方法论组织，但不牺牲逐题覆盖。
+阻断条件：
+概念摘要替代逐题解析。
+只写原理，不写材料触发。
+只写答案，不写调用路径。
+Gate 5：推理部分宝典 gate
+G5.1 reasoning_typology_map 完成。
+G5.2 reasoning_question_attachment_matrix 完成。
+G5.3 推理题全部挂到题型。
+G5.4 每个题型列出全部 question_id。
+G5.5 每道题有规则口令。
+G5.6 每道题有逻辑形式抽取。
+G5.7 每道题有解题步骤。
+G5.8 每道题有易错陷阱。
+G5.9 一题多法双挂载。
+G5.10 综合题说明综合规则。
+阻断条件：
+推理部分只做题型总述。
+题型下没有全部题目清单。
+coverage matrix 与 reasoning matrix 不一致。
+正文少于 matrix 题数。
+Gate 6：双 lane diff gate
+G6.1 A_B_source_diff 已解决。
+G6.2 A_B_question_diff 已解决。
+G6.3 A_B_classification_diff 已解决。
+G6.4 unresolved_conflict_queue 为空，或相关题进入 blocked list。
+G6.5 Governor 记录每个冲突的处理结论。
+阻断条件：
+A 与 B 有冲突但直接进入正文。
+用 Codex 结果覆盖 ClaudeCode 结果且无理由。
+用 ClaudeCode 结果覆盖 Codex 结果且无理由。
+Gate 7：Claude Opus 成品化 gate
+G7.1 Opus 只接收 locked_question_entries。
+G7.2 Opus 输出与 question_id 一一对应。
+G7.3 Opus 没有新增题。
+G7.4 Opus 没有删除题。
+G7.5 Opus 没有改动答案 key。
+G7.6 Opus 没有改动评分点含义。
+G7.7 Opus 没有合并题目导致覆盖消失。
+G7.8 学生稿无 pipeline 语言。
+阻断条件：
+Opus 直接读旧稿扩写。
+Opus 输出没有 question_id 对照表。
+Opus 学生化表达改变答案含义。
+Gate 8：GPT-5.5 Pro 压力测试 gate
+GPT-5.5 Pro 必须执行以下压力测试：
+P1: 随机抽查 20 道题，检查 coverage -> 正文 -> 答案落点一致。
+P2: 专门抽查推理部分 20 道题，检查题型挂载与规则口令。
+P3: 抽查所有 blocked questions，确认未进入正文。
+P4: 抽查所有 visual fallback source，确认非文本题未漏。
+P5: 抽查所有一题多问，确认小问拆分。
+P6: 抽查所有一题多法，确认双挂载。
+P7: 搜索内部词泄漏。
+P8: 检查旧稿继承痕迹。
+P9: 检查正文题号与 matrix 题号一致。
+P10: 检查 Word/PDF 生成前内容 gate 是否完成。
+阻断条件：
+任一压力测试发现系统性问题。
+同类错误出现 2 次以上。
+随机抽查发现正文题无 locator。
+推理部分抽查发现题型下缺题。
+Gate 9：Governor gate
+Governor 必须硬判：
+GOV_PASS_SOURCE
+GOV_PASS_COVERAGE
+GOV_PASS_REASONING_ATTACHMENT
+GOV_PASS_THINKING_TRIGGER_CHAIN
+GOV_PASS_OPUS_BOUNDARY
+GOV_PASS_NO_INTERNAL_LANGUAGE
+GOV_PASS_DOCX_VALIDATION
+GOV_PASS_PDF_VALIDATION
+阻断条件：
+Governor 只给结论，没有证据对象。
+Governor 没有逐 gate 记录。
+Governor 对 unresolved conflict 放行。
+Governor 对 Word/PDF 未验证放行。
+Gate 10：Confucius gate
+Confucius 必须从学生学习价值角度审查：
+C_PASS_EXAM_USABILITY
+C_PASS_TRIGGER_CHAIN
+C_PASS_MEMORIZABLE_RULES
+C_PASS_TRANSFERABILITY
+C_PASS_ERROR_PREVENTION
+C_PASS_NO_EMPTY_SUMMARY
+C_PASS_REASONING_STEP_CLARITY
+阻断条件：
+学生看完仍不知道材料为什么触发该知识。
+学生看完仍不知道推理题第一步做什么。
+学生看完只有知识点，没有题目迁移口令。
+主观题答案落点不能直接用于考场表达。
+Gate 11：Word/PDF validation gate
+必须真实验证：
+D1: DOCX 文件存在且可打开。
+D2: PDF 文件存在且可打开。
+D3: DOCX 与 PDF 内容一致。
+D4: 目录结构正确。
+D5: 题号连续且无重复。
+D6: 表格不截断。
+D7: 图片、漫画、图表显示正常。
+D8: 页眉页脚无内部信息。
+D9: 学生稿无 source ledger、lane、Governor、Confucius 等字样。
+D10: 最终文件名、版本号、日期清晰。
+阻断条件：
+只生成 DOCX 未生成 PDF。
+只生成 PDF 未核对 DOCX。
+图片丢失。
+表格溢出。
+正文出现内部流程词。
+Gate 12：Final PASS packet gate
+最终 PASS 包必须包含：
+final_PASS_packet:
+  final_student_docx:
+  final_student_pdf:
+  source_registry_summary:
+  suite_question_coverage_summary:
+  reasoning_attachment_summary:
+  blocked_questions_summary:
+  A_B_diff_resolution_summary:
+  GPT_review_summary:
+  Governor_gate_report:
+  Confucius_gate_report:
+  layout_validation_report:
+  known_limitations:
+阻断条件：
+没有 known_limitations。
+没有 blocked_questions_summary。
+没有 A_B diff resolution。
+没有 Governor 或 Confucius 独立 gate。
+Codex 本地总控可直接执行的下一步清单
+1. Freeze current Phase 00 files.
+2. Mark old artifacts as locator_only or failure_reference.
+3. Complete A_source_registry.
+4. Complete A_suite_registry.
+5. Complete A_question_coverage_matrix first pass.
+6. Wait for ClaudeCode lane B Phase 01 inventory.
+7. Generate A_B_source_diff and A_B_question_diff.
+8. Resolve conflicts or move affected questions to blocked list.
+9. Build reasoning_typology_map from actual detected questions.
+10. Build reasoning_question_attachment_matrix.
+11. Produce 10-question sample packet for GPT-5.5 Pro pressure test.
+12. Do not start Claude Opus until locked_question_entries exist.
+13. Do not generate student final draft.
+14. Do not generate Word/PDF.
+15. Keep Governor final PASS blocked.
+Final operative instruction:
+Proceed only with Phase 01 inventory, coverage, diff, and reasoning attachment scaffolding.
+Do not produce final student-facing manuscript until every question has been located, classified, attached, and gate-checked.
+
+你是 GPT-5.5 Pro，继续担任“飞哥政治庄园”选必三《逻辑与思维》四线从0重跑的总指挥/内容审稿人。请基于下面 Phase 02 阶段报告，判断是否允许进入下一阶段：全量逐套逐题扫描与分类。请严格审稿，不要安慰。
+
+背景：工作目录 /Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04。本轮要求完全模仿成功的哲学宝典工作流；从0开始；旧稿只可定位，不继承结论；思维部分按“材料信号 -> 可写思维/方法 -> 答题动作 -> 来源例题”；推理部分按“题型 -> 规则 -> 常见陷阱 -> 同类真题归档 -> 解题动作”。四线：Codex总控+生产、ClaudeCode独立生产/复核、GPT-5.5 Pro阶段指挥/压力测试、Claude/Opus后续成文化但必须等证据锁定。你上轮给的是 CONDITIONAL GO：允许 source inventory、coverage/diff、reasoning attachment、有限样本回源；禁止学生稿、Word/PDF、PASS。
+
+Phase 02 已完成：
+1. 两份用户框架PDF学习：思维PDF 14页、推理PDF 21页，文本层很薄，已全部渲染并视觉初读，写入 framework_visual_digest.md。结论：思维部分可仿哲学宝典；推理部分必须做题型树，不能只写抽象总结。
+2. Codex lane A 五个硬样本回源：HS01 2026顺义一模Q19(2) 科学思维特征，锁客观性+预见性+可检验性；HS02 2025海淀二模Q20 辩证思维，原卷文本层弱，已视觉核读，细则/讲评/评标锁定三个可选角度池；HS03 2026朝阳期中Q21(2) 创新思维，锁超前+联想+逆向/转换性思考，发散+聚合为有效路径；HS04 2026通州期末Q11 选择题，锁完整题干四选项与答案C，考感性具体->思维抽象->思维具体；HS05 2026东城期末Q17(2) 推理部分，形式逻辑综合，锁矛盾律+充分条件假言推理误用+三段论中项不周延。
+3. ClaudeCode lane B 独立复核：没有读取Codex Phase02结论，独立输出 phase02_hard_sample_crosscheck.md、phase02_hard_sample_matrix.csv、phase02_disagreements_and_blockers.md、phase02_hard_samples_report.md。总体一致，但提出5个分歧候选和4个阻塞项。
+4. Codex A/B融合：写入 phase02_AB_fusion.md、resolved_conflicts.md、unresolved_conflicts.md。融合裁决：HS01 LOCKED；HS02 LOCKED_PENDING_VISUAL；HS03 LOCKED；HS04 LOCKED；HS05 LOCKED且归推理部分不入思维主链。
+5. 关键纠错：HS02 海淀二模Q20不能写成“三点全部必答/3点×2分”。二次回源发现：主细则表格列三个角度：分析与综合/系统优化/整体性；质量互变/动态性；辩证否定。讲评PDF明确“从3个角度选择2个，每一角度按照1+2赋分”。评标实录明确辩证否定有效、辩证思维特征角度可替代给分。融合结论：最终文档应写成“三个可选角度池，优先选材料最顺的两条写深；辩证否定是高价值补充/替代角度”，不能写成三点全部必答。
+6. 优先队列56个原始源文件批量抽取完成：PDF 21、PPTX 17、DOCX 17、RTF 1；全部extracted，missing=0，errors=0。PDF用PyMuPDF文本+命中页渲染；PPTX用python-pptx；DOCX用python-docx；RTF用textutil。说明后续不能以文件格式复杂为借口跳过。
+
+当前未解除阻塞：HS02原卷仍需最终视觉/模型审稿确认后才能进学生稿；HS01 Q19(1)可能是推理候选，后续全量扫描要处理；PPTX内嵌学生答卷图片/图形批注尚未全部视觉读取，若涉及边界案例必须补；top-level SOURCE_LEDGER.csv仍含旧稿locator行，最终PASS前必须换成干净raw-source registry；全书coverage目前只做五个硬样本，不可声称穷尽；2026二模在已扫source roots未发现，必须保持missing/blocked，除非新文件出现。
+
+请给出：
+1. 是否允许进入下一阶段“全量逐套逐题扫描与分类”？用 GO / CONDITIONAL GO / NO-GO。
+2. 下一阶段必须产出的文件清单。
+3. 下一阶段扫描顺序：思维部分与推理部分怎么并行/分工。
+4. 现在最大的内容风险是什么。
+5. 是否同意HS02融合结论；不同意请指出如何改。
+6. 对推理部分宝典结构给硬要求，避免再次写成泛泛总结。
+
+我会只判定是否进入全量扫描分类，不把硬样本成功扩大为全书放行。重点审查前置条件、剩余阻塞和下一阶段硬 gate。
+Thought for 4m 35s
+1. 阶段判断：CONDITIONAL GO
+允许进入下一阶段：全量逐套逐题扫描与分类。
+但只允许进入扫描、分类、挂载、差异复核阶段。严禁进入学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS。
+判断理由很明确：
+
+Phase 02 已证明四线机制开始真实运转。Codex lane A 做了硬样本回源，ClaudeCode lane B 独立复核，随后做了 A/B 融合与冲突处理。
+五个硬样本覆盖了关键风险类型：思维主观题、辩证思维可选角度、创新思维、选择题完整选项、推理综合题。
+HS02 的纠错说明流程有效，已经阻止了把可选角度池误写成三点必答。
+56 个优先原始源文件已批量抽取，且 missing=0、errors=0，说明下一阶段没有理由因格式复杂而停滞。
+但当前只完成五个硬样本，coverage 尚未全量到 suite/question 级。旧稿 locator 行仍在 top-level SOURCE_LEDGER.csv，PPTX 内嵌图片和图形批注尚未全部视觉读取，HS02 仍有 LOCKED_PENDING_VISUAL 状态。
+因此结论是：
+CONDITIONAL GO for 全量逐套逐题扫描与分类
+NO-GO for 学生稿
+NO-GO for Claude/Opus 成文化
+NO-GO for Word/PDF
+NO-GO for PASS
+进入下一阶段的边界条件：
+1. 所有题必须从 raw source 回源。
+2. 旧稿只能定位，不能继承结论。
+3. 所有题必须有 stable locator。
+4. 推理题必须进入题型挂载矩阵。
+5. 思维题必须进入材料信号链矩阵。
+6. 无答案、无选项、无细则、视觉未核读的题必须进入 blocker。
+7. HS02 不得进入学生稿，直到最终视觉确认完成。
+2. 下一阶段必须产出的文件清单
+建议将下一阶段命名为：
+Phase 03 full suite question scan and classification
+必须产出以下文件。缺任一类，不能进入后续成文化阶段。
+2.1 干净源文件总账
+phase03_raw_source_registry.csv
+phase03_raw_source_registry.md
+phase03_locator_only_removed_or_isolated.md
+phase03_source_reading_methods.md
+phase03_source_failures_and_fallbacks.md
+硬要求：
+1. top-level SOURCE_LEDGER.csv 中旧稿 locator 行必须剥离。
+2. raw source、locator only、旧稿 failure reference 必须分表。
+3. 每个原始文件必须标明读取方法。
+4. 每个 PDF 必须标明文本读取与命中页渲染状态。
+5. 每个 PPTX 必须标明 slide 文本、内嵌图片、图形批注是否处理。
+6. 每个 DOCX 必须标明正文、表格、图片题是否处理。
+7. RTF 必须标明转换与读取状态。
+2.2 套题级总账
+phase03_suite_registry.csv
+phase03_suite_registry.md
+phase03_suite_duplicate_map.csv
+phase03_missing_expected_sources.md
+phase03_2026_二模_missing_or_blocked.md
+每个 suite 至少包含：
+suite_id
+source_id
+文件名
+地区
+年份
+考试阶段
+题目范围
+是否含思维部分
+是否含推理部分
+题目页范围
+答案页范围
+评分细则页范围
+讲评页范围
+题量检测值
+题量确认值
+视觉风险等级
+是否进入全量扫描
+必须单独记录：
+1. 2026 二模在已扫 source roots 未发现。
+2. 未发现不等于不存在。
+3. 除非新文件出现，否则进入 missing/blocked。
+2.3 逐题覆盖矩阵
+phase03_question_coverage_matrix.csv
+phase03_question_coverage_matrix.xlsx
+phase03_question_coverage_matrix.md
+每题至少一行。字段必须包含：
+question_id
+suite_id
+source_id
+stable_locator
+原始题号
+题型：选择题 / 主观题 / 图表题 / 漫画题 / 组合题 / 讲评题
+部分归属：思维 / 推理 / 交叉 / 待判
+是否完整题干
+是否完整选项
+是否有答案
+是否有评分细则
+是否有讲评
+是否需要视觉核读
+是否已视觉核读
+知识节点
+题型节点
+材料信号
+设问动作
+答案落点状态
+推理规则状态
+blocked_status
+blocked_reason
+lane_A_classification
+lane_B_classification
+A_B_conflict_status
+final_classification
+硬要求：
+1. 不能只统计题目数量。
+2. 不能只统计知识点数量。
+3. 必须到每一道题。
+4. 一题多问拆成子题，例如 Q21-1、Q21-2。
+5. 一题多法必须有 primary 与 secondary 挂载。
+2.4 思维部分材料信号链矩阵
+phase03_thinking_signal_chain_matrix.csv
+phase03_thinking_signal_chain_matrix.md
+字段必须包含：
+question_id
+suite_id
+stable_locator
+思维知识节点
+材料信号
+可写思维或方法
+答题动作
+设问类型
+为什么能想到
+答案落点
+来源例题
+同类题
+易错点
+是否可入学生稿
+验收口径：
+材料信号 -> 可写思维/方法 -> 答题动作 -> 来源例题
+任何思维题缺少材料信号或答题动作，不能进入宝典正文。
+2.5 推理部分题型挂载矩阵
+phase03_reasoning_typology_tree.md
+phase03_reasoning_question_attachment_matrix.csv
+phase03_reasoning_question_attachment_matrix.xlsx
+phase03_reasoning_rule_slogans.md
+phase03_reasoning_trap_matrix.md
+phase03_reasoning_action_templates.md
+字段必须包含：
+question_id
+suite_id
+stable_locator
+原始题号
+primary_reasoning_type
+secondary_reasoning_type
+logical_form
+rule_slogan
+valid_pattern
+invalid_pattern_or_trap
+same_type_question_ids
+answer_key
+explanation_status
+blocked_status
+硬要求：
+1. coverage matrix 中归为推理的题，必须全部出现在 attachment matrix。
+2. attachment matrix 中的题，后续正文必须逐题出现。
+3. 推理综合题不能只写综合，必须拆出具体规则。
+4. HS05 这类题必须挂矛盾律、充分条件假言推理误用、三段论中项不周延。
+5. HS01 Q19(1) 必须作为推理候选进入扫描，不得漏掉。
+2.6 视觉补读队列
+phase03_visual_fallback_queue.csv
+phase03_visual_fallback_results.md
+phase03_pptx_embedded_image_review.md
+phase03_pdf_render_review_log.md
+phase03_docx_table_and_image_review.md
+必须覆盖：
+1. PDF 命中页。
+2. PPTX 内嵌学生答卷图片。
+3. PPTX 图形批注。
+4. DOCX 表格题。
+5. 图片题、漫画题、图表题。
+6. 文本层薄弱的原卷。
+阻断规则：
+视觉未核读的边界题，不能进入 LOCKED。
+视觉未核读但不影响分类的题，可以进入 PENDING_VISUAL。
+视觉未核读且影响答案或题干完整性的题，必须 BLOCKED。
+2.7 A/B 独立扫描与差异文件
+phase03_laneA_full_scan.csv
+phase03_laneB_full_scan.csv
+phase03_AB_question_diff.csv
+phase03_AB_classification_diff.csv
+phase03_AB_source_diff.csv
+phase03_resolved_conflicts.md
+phase03_unresolved_conflicts.md
+phase03_blocked_questions.csv
+冲突类型至少包括：
+1. A 有题，B 无题。
+2. B 有题，A 无题。
+3. A/B 题号不同。
+4. A/B locator 不同。
+5. A/B 部分归属不同。
+6. A/B 知识节点不同。
+7. A/B 推理题型不同。
+8. A/B 答案不同。
+9. A/B 对是否需要视觉核读判断不同。
+10. A/B 对是否可入学生稿判断不同。
+2.8 阶段审查包
+phase03_GPT_commander_review_packet.md
+phase03_Governor_interim_gate.md
+phase03_Confucius_interim_learning_value_check.md
+GPT-5.5 Pro 阶段审查包必须包含：
+1. raw source registry 摘要。
+2. suite registry 摘要。
+3. 总题量。
+4. 思维题量。
+5. 推理题量。
+6. 交叉题量。
+7. blocked 题量与原因。
+8. A/B 冲突数量与类型。
+9. 视觉待核读题量。
+10. HS02 当前状态。
+11. 2026 二模 missing 状态。
+12. 推理题型树覆盖情况。
+13. 思维材料信号链覆盖情况。
+3. 下一阶段扫描顺序：思维部分与推理部分如何并行分工
+下一阶段不能按先思维、后推理的串行方式做。原因：一部分题会交叉，尤其是科学思维、逻辑规则、论证评价、假言推理、辩证思维与形式逻辑结合题。应采用“同源逐套扫描，双矩阵并行挂载”。
+3.1 总体顺序
+第一步：清源
+第二步：定 suite
+第三步：逐套逐题切题
+第四步：思维矩阵与推理矩阵并行挂载
+第五步：A/B diff
+第六步：冲突裁决
+第七步：blocked list 锁定
+第八步：提交 Phase 03 审查包
+3.2 Codex lane A 分工
+Codex lane A 做主生产线：
+1. 生成 canonical source_id。
+2. 生成 suite_id。
+3. 逐套切出全部 question_id。
+4. 建立 phase03_question_coverage_matrix。
+5. 对每题做初判：思维 / 推理 / 交叉 / 待判。
+6. 对思维题填 thinking_signal_chain_matrix。
+7. 对推理题填 reasoning_question_attachment_matrix。
+8. 建立 visual_fallback_queue。
+9. 标记 blocked questions。
+10. 生成 laneA_full_scan。
+Codex lane A 的重点是完整性：
+宁可多列待判题，不能漏题。
+宁可把边界题列入交叉，不能提前单线归类。
+宁可 BLOCKED，不能编答案。
+3.3 ClaudeCode lane B 分工
+ClaudeCode lane B 做独立生产和复核线：
+1. 不读取 lane A 分类结论。
+2. 自行扫描 56 个 raw source。
+3. 自行建立 suite/question inventory。
+4. 自行标注思维、推理、交叉、待判。
+5. 自行识别 PPTX 图片、表格、批注、视觉风险。
+6. 自行提出 missing source、missing question、classification conflict。
+7. 输出 laneB_full_scan。
+ClaudeCode lane B 的重点是抓漏：
+1. 漏题。
+2. 漏小问。
+3. 漏选项。
+4. 漏答案页。
+5. 漏讲评页。
+6. 漏 PPTX 图片题。
+7. 漏交叉题。
+8. 漏推理候选题。
+9. 漏同题重复。
+10. 漏边界冲突。
+3.4 思维部分扫描规则
+每一道思维题先进入以下判断链：
+1. 材料中出现什么信号。
+2. 这个信号可调用哪一类思维或方法。
+3. 设问要求学生做什么动作。
+4. 答案应落在哪些句子或评分点。
+5. 来源例题如何回指。
+思维部分分类节点建议先设为：
+1. 科学思维特征。
+2. 科学思维方法。
+3. 辩证思维。
+4. 分析与综合。
+5. 质量互变。
+6. 适度原则。
+7. 简单肯定否定到辩证否定。
+8. 创新思维。
+9. 联想思维。
+10. 发散思维与聚合思维。
+11. 逆向思维。
+12. 超前思维。
+13. 综合或交叉。
+14. 待判。
+每题必须填：
+材料信号
+可写思维/方法
+答题动作
+来源例题
+例如 HS02 这种题，必须写成：
+材料信号：题干中存在动态过程、整体布局、阶段推进、问题解决、旧方案突破等信号。
+可写角度池：分析与综合/系统优化/整体性，质量互变/动态性，辩证否定。
+答题动作：从三个角度中选择材料最顺的两个写深。
+来源例题：2025 海淀二模 Q20。
+状态：LOCKED_PENDING_VISUAL，暂不入学生稿。
+3.5 推理部分扫描规则
+每一道推理候选题都必须先抽逻辑结构：
+材料语言 -> 逻辑形式 -> 推理规则 -> 有效式/无效式 -> 答案动作
+推理部分分类节点建议先设为：
+1. 概念外延与定义。
+2. 判断类型识别。
+3. 性质判断。
+4. 换质推理。
+5. 换位推理。
+6. 三段论。
+7. 联言判断与联言推理。
+8. 相容选言推理。
+9. 不相容选言推理。
+10. 充分条件假言推理。
+11. 必要条件假言推理。
+12. 充要条件假言推理。
+13. 假言连锁推理。
+14. 二难推理或复合推理。
+15. 矛盾律。
+16. 排中律。
+17. 同一律。
+18. 归纳推理。
+19. 类比推理。
+20. 求同法。
+21. 求异法。
+22. 共变法。
+23. 剩余法。
+24. 论证评价。
+25. 逻辑错误辨析。
+26. 综合推理。
+27. 待判。
+推理题不能只填知识节点。必须填：
+logical_form
+rule_slogan
+valid_pattern
+trap
+answer_action
+same_type_question_ids
+例如 HS05 不能只写形式逻辑综合，必须拆成：
+1. 矛盾律。
+2. 充分条件假言推理误用。
+3. 三段论中项不周延。
+3.6 并行后的融合规则
+A/B 融合时必须按以下顺序裁决：
+1. 先裁题目是否存在。
+2. 再裁题干和选项是否完整。
+3. 再裁答案来源。
+4. 再裁部分归属。
+5. 再裁知识节点。
+6. 再裁推理类型。
+7. 最后裁是否可入学生稿。
+不能先讨论表达好坏。当前阶段不允许写最终表达。
+4. 现在最大的内容风险
+最大风险是：全量扫描阶段把“题目存在性覆盖”误当成“宝典可写性覆盖”。
+具体表现会是：
+
+1. coverage matrix 有题号，但没有材料信号。
+2. 推理题挂了题型，但没有 logical_form。
+3. 主观题有知识点，但没有答案落点。
+4. 选择题有答案，但没有完整四选项。
+5. PPTX 图片题被标为 extracted，却没有视觉核读。
+6. A/B 都抽到了同一题，却同时继承了同一个误判。
+7. 旧稿 locator 行混在 raw source registry 中，后续污染证据池。
+这比漏几个文件更危险。因为 Phase 02 已经证明文件读取问题暂时可控，真正的失败点会转移到内容层：
+抽到了，不等于读懂了。
+分类了，不等于可入宝典。
+有题型，不等于有解题动作。
+有答案，不等于有评分落点。
+当前最容易复发的旧失败是推理部分。它会很自然地退化为：
+题型讲解 + 少数例题 + 泛化陷阱
+必须强制改为：
+题型节点下挂全部题目，逐题写规则、陷阱、同类题、动作。
+第二大风险是 HS02 式主观题。它提示本轮不能机械追求唯一标准答案。北京政治讲评与评标中可能存在：
+角度池
+替代给分
+优先角度
+材料最顺角度
+评分弹性
+所以主观题要区分：
+必写点
+可选角度池
+高价值替代角度
+不建议写角度
+材料最顺路径
+5. 是否同意 HS02 融合结论
+同意，但状态必须保持为：
+LOCKED_PENDING_VISUAL
+我同意的部分：
+1. 不能写成三点全部必答。
+2. 不能写成 3点×2分。
+3. 可以写成三个可选角度池。
+4. 应优先选择材料最顺的两个角度写深。
+5. 辩证否定可以作为高价值补充或替代角度。
+6. 最终学生稿中应提示：不要把所有辩证思维知识机械堆上去。
+需要微调的地方：
+原融合表达：三个可选角度池，优先选材料最顺的两条写深；辩证否定是高价值补充/替代角度。
+
+建议改为：三个可选角度池中，至少锁定两个与材料贴合度最高的角度展开；辩证否定经评标实录确认可作为有效替代或补充角度，但最终学生稿应标注其适用触发信号，避免学生见到改革、创新、突破就机械套辩证否定。
+HS02 后续进入学生稿前，还必须补齐四件事：
+1. 原卷视觉最终确认：题干、设问、材料无误。
+2. 主细则表格截图或定位记录确认。
+3. 讲评 PDF 中选择 2 个角度、每角度 1+2 赋分的定位确认。
+4. 评标实录中辩证否定有效、辩证思维特征角度可替代给分的定位确认。
+HS02 的宝典写法应采用：
+题目定位：2025 海淀二模 Q20。
+考查方向：辩证思维。
+材料信号：整体推进、动态变化、阶段安排、问题解决、突破旧做法。
+可选角度池：
+  角度一：分析与综合 / 系统优化 / 整体性。
+  角度二：质量互变 / 动态性。
+  角度三：辩证否定。
+考场策略：选材料最顺的两个角度写深。
+易错陷阱：把三个角度全部当必答，或只背术语不扣材料。
+当前状态：LOCKED_PENDING_VISUAL，暂不入学生稿。
+6. 推理部分宝典结构硬要求
+推理部分必须以“题型树 + 全题挂载 + 逐题动作”为唯一合法结构。任何只讲题型、不挂全部题的稿件，直接判失败。
+6.1 推理部分总结构
+必须生成四层结构：
+第一层：题型树
+第二层：每个题型的规则与口令
+第三层：该题型下全部真题归档
+第四层：每道题的解题动作
+禁止结构：
+1. 先讲归纳推理，再随便举几题。
+2. 先讲类比推理，再配几个例子。
+3. 三段论只写规则，不挂全部题。
+4. 假言推理只写有效式和无效式，不逐题回到材料。
+5. 综合题只写综合推理，不拆具体规则。
+6.2 每个题型章必须包含
+每个题型节点固定写成：
+题型名称
+考查规则
+规则口令
+常见陷阱
+本题型全部题目清单
+逐题归档
+同类题迁移动作
+其中“本题型全部题目清单”必须列出真实 question_id。不能用示例题代替全部题。
+格式：
+
+本题型全部题目清单：
+Q-R-001
+Q-R-007
+Q-R-014
+Q-R-022
+后续正文中必须逐题出现：
+Q-R-001
+Q-R-007
+Q-R-014
+Q-R-022
+缺一题，推理部分不通过。
+6.3 每道推理题必须包含
+逐题模板必须固定：
+题目定位：
+suite_id：
+question_id：
+stable_locator：
+
+题型归属：
+primary_reasoning_type：
+secondary_reasoning_type：
+是否一题多法：
+
+材料信号：
+题干中哪个词、哪句话、哪个结构触发该规则。
+
+逻辑形式：
+把材料语言转成 P、Q、S、M、P 等逻辑结构。
+
+规则口令：
+一句话记住本题规则。
+
+有效式或无效式：
+本题使用哪条有效推理式，或错在哪里。
+
+解题动作：
+Step 1：抽取对象、条件、结论。
+Step 2：转成逻辑形式。
+Step 3：套规则判断有效或无效。
+Step 4：回到选项或设问。
+Step 5：形成答案句。
+
+答案落点：
+选择题写正确项和排除理由。
+主观题写可得分表达。
+
+易错陷阱：
+本题最容易误判的地方。
+
+同类题：
+列出同一题型下其他 question_id。
+6.4 推理部分必须建立硬校验
+必须执行四个一致性校验：
+校验一：coverage matrix 中所有 section_scope=推理 的题，必须出现在 reasoning attachment matrix。
+校验二：reasoning attachment matrix 中所有题，必须出现在推理宝典正文。
+校验三：每个题型章的全部题目清单，必须等于 attachment matrix 中该题型题目集合。
+校验四：正文每一道推理题，必须有 logical_form、rule_slogan、trap、answer_action。
+任一不一致，不能进入 Claude/Opus。
+6.5 推理综合题处理规则
+综合题不能成为垃圾桶。每道综合题必须拆解：
+综合题名称：形式逻辑综合
+涉及规则：
+  规则一：矛盾律
+  规则二：充分条件假言推理
+  规则三：三段论
+每个规则对应的材料信号：
+每个规则对应的错误类型：
+每个规则对应的答案动作：
+HS05 的最低合格写法：
+HS05：2026 东城期末 Q17(2)
+归属：推理部分
+primary_type：形式逻辑综合
+secondary_types：矛盾律；充分条件假言推理误用；三段论中项不周延
+规则口令：
+  矛盾律：同一时间、同一方面，不能既肯定又否定。
+  充分条件：肯前可肯后，否后可否前；肯后、否前都无效。
+  三段论：中项至少周延一次。
+解题动作：
+  先找互相冲突的判断。
+  再把条件句写成 P -> Q。
+  再检查是否肯后或否前。
+  最后检查三段论中项是否周延。
+6.6 推理题型树只能由真实题源反推
+可以先用教材逻辑搭预设树，但最终正文题型树必须由真实题源修正。
+执行要求：
+
+1. 先建 provisional_reasoning_typology_tree。
+2. 全量扫描后生成 observed_reasoning_typology_tree。
+3. 没有真实题的节点不得在宝典正文中长篇展开。
+4. 有真实题但预设树没有的节点，必须新增。
+5. 交叉题必须双挂载。
+6. 待判题必须列入 unresolved，不得消失。
+6.7 推理部分最终进入成文化前的最低门槛
+1. 推理题总数明确。
+2. 每道推理题有 stable locator。
+3. 每道推理题有题型归属。
+4. 每道推理题有 logical_form。
+5. 每道推理题有 rule_slogan。
+6. 每道推理题有 trap。
+7. 每道推理题有 answer_action。
+8. 每道推理题有 same_type_question_ids。
+9. 选择题有完整选项与答案。
+10. 主观题有设问与评分落点。
+达不到以上标准，Claude/Opus 不能介入。
+最后裁决
+CONDITIONAL GO
+允许执行：
+全量逐套逐题扫描
+全量分类
+思维材料信号链矩阵
+推理题型挂载矩阵
+A/B 独立 diff
+视觉 fallback 队列
+blocked questions 锁定
+Phase 03 commander review packet
+继续禁止：
+学生稿
+Claude/Opus 成文化
+Word/PDF
+最终 PASS
+Phase 03 的核心验收句只有一句：
+每一道题都必须能从 source locator 回到原题，并且能在思维链矩阵或推理挂载矩阵中找到自己的位置。
+
+你是 GPT-5.5 Pro，作为飞哥政治庄园四线工作流里的“总指挥/内容压力测试官”。请你审阅本轮 Phase 03 的阻塞/差异包，给出下一步裁决。
+
+## 背景
+
+任务：从0重跑北京高考政治 选必三《逻辑与思维》，分成两个最终部分：
+
+1. 思维部分：完全模仿已成功的哲学宝典做法。每个“思维/方法”像哲学原理方法论一样处理，形成“材料信号 -> 可写思维/方法 -> 答题动作 -> 来源例题”的学生可迁移体系。
+2. 推理部分：按题型分类，把所有对应真题放在同类题型下面，例如三段论、充分/必要条件假言推理、联言/选言推理、归纳/类比、逻辑三律等；每类都要有规则口令、易错陷阱、解题动作、同类题归档。
+
+用户明确批评过：上一版没有穷尽每一道题，内容质量远不如哲学宝典，属于偷懒。因此本轮必须严格四线：Codex A 自己跑、ClaudeCode B 独立跑、GPT-5.5 Pro 阶段指挥和内容审查、Claude/Opus 只在证据锁定后负责成品化表达。
+
+当前日期：2026-05-04。
+本轮目录：/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04
+
+## 最高限制
+
+- 这是 Phase 03 blocker/diff review，不是 PASS 包。
+- 请不要批准学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS。
+- 你的建议必须回到本地证据矩阵和源文件，不要凭空新增事实。
+
+## Phase 02 你此前给出的方向
+
+你此前给出 CONDITIONAL GO，允许进入 full suite question scan and classification，要求：
+
+- 每一道题必须能回到 source locator；
+- 每一道题必须落到思维链矩阵、推理挂载矩阵，或 blocked list；
+- HS02 等视觉题必须锁定到视觉确认后才能入稿；
+- 推理部分需要 logical_form、rule_slogan、valid/invalid pattern/trap、answer_action、same_type_question_ids；
+- 继续禁止学生稿、Opus 成文化、Word/PDF、最终 PASS。
+
+## Phase 03 已完成工作
+
+### Codex Lane A
+
+- 正式 Phase03 初始矩阵：528 行 question/sub-question rows。
+- thinking rows: 73。
+- reasoning rows: 166。
+- blocked rows: 42。
+- visual blocker rows: 4。
+- 视觉恢复种子：2025海淀二模 Q20、2026丰台一模 Q18(2)。
+- 发现 A 线有噪声：重复行、answer/rubric/reference text 混入 question matrix。
+
+### ClaudeCode Lane B
+
+- Phase03 独立全量扫描已完成，但实际更像 candidate scan：
+  - source registry 56 sources；
+  - suite registry 17 suites；
+  - question/candidate rows 约 53/59；
+  - thinking 10；
+  - reasoning 27；
+  - visual blockers 11；
+  - missing/conflicts 5 类。
+- Lane B 明确承认 14 unread sources、4 pending suites，不能算 every-question coverage。
+
+### A/B Diff 结论
+
+Verdict: NO_PASS_CONTINUE_EXTRACTION
+
+Counts:
+
+- Lane A question/subquestion rows: 528
+- Lane A in-scope/cross keys: 122
+- Lane B question/candidate rows: 59
+- Common A/B keys: 46
+- A-only in-scope/cross keys: 76
+- B-only candidate keys: 7
+
+Critical findings:
+
+1. P1: Lane B is not literal every-question coverage; it is useful candidate scan only.
+2. P1: Lane B initially missed 2026丰台一模 Q18(2).
+3. P1: HS02 / 2025海淀二模 Q20 originally still needed Lane B visual confirmation.
+4. P2: Lane B unread sources remain.
+5. P2: Lane A has noisy duplicates and reference text mixed into question rows.
+6. P2: 2026二模 materials are not found in current source boundary; record missing, do not claim nonexistence.
+
+### Focused ClaudeCode Patch 完成
+
+为修正两个 P1，已让 ClaudeCode 做窄补丁，禁止学生稿。
+
+Patch result:
+
+1. 2026丰台一模 Q18(2)
+   - 原卷 042 render page_07 视觉确认：Q18(2) 是“分别分析以上推理的类型，判断是否正确，并说明理由。（6分）”。
+   - 043 细则 SLIDE 35 明确：知识板块“逻辑与思维”。
+   - 甲：必要条件假言推理，肯定后件式，前提真实，正确。
+   - 乙：三段论推理，“带动居民消费”作为大项在前提中不周延、结论中周延，犯“大项不当扩大”，错误。
+   - 结论：PASS_TO_FUSION / A-formal / VISUAL_CONFIRMED_LANE_B。
+
+2. 2025海淀二模 Q20 / HS02
+   - 原卷 008 render page_07 视觉确认：Q20 设问“结合材料，运用辩证思维知识，谈谈如何更好地坚持共享发展理念推进共同富裕。”
+   - 009/010/011 三源一致：角度池，从 3 个角度中选 2；分析与综合/整体性、质量互变/动态性、辩证否定；矛盾分析法最多 2 分。
+   - 明确不是三点全必答。
+   - 结论：PASS_TO_FUSION / A-formal / VISUAL_CONFIRMED_LANE_B，HS02 Lane B visual lock 解除。
+
+### Codex Lane A 去重拆分完成
+
+脚本：02_extraction/phase03_dedup_split_laneA_matrix.py
+
+结果：
+
+- Input rows: 528
+- Canonical paper/question rows: 358
+- Support/reference rows split out: 46
+- Duplicate/removed rows logged: 170
+- Duplicate suite/question keys in input: 118
+- Canonical in-scope or cross candidates: 119
+- Canonical locked rows after focused patch context: A matrix本身仍需后续写回状态；补丁文件已确认两个锁定点可进入 fusion。
+
+Meaning:
+
+- 原卷题目矩阵和细则/讲评/参考支撑矩阵已经拆开；
+- 这一步不等于学生稿晋级，只是后续融合底座变干净；
+- 仍有 2026二模 missing、Lane B not every-question、A-only/B-only conflict、choice answer pairing、视觉/OCR全页题号恢复等任务。
+
+## 需要你裁决的问题
+
+请你用非常严格的总指挥口吻回答：
+
+1. 当前是否可以从 Phase03 进入 Phase04“补缺式证据融合/同类题归档”？还是必须继续 Phase03 full every-question coverage？
+2. 对 Lane B 不可能短时间变成 528 行 every-question matrix 的情况，你建议怎么做才不算偷懒？例如是否以 Codex A canonical 358 行作为 every-question control base，再让 ClaudeCode B 对 A-only 高风险/高价值题做 targeted independent verification？
+3. 你认为下一步最优先的 5 个任务是什么？请按 P0/P1/P2 排序。
+4. 对思维部分和推理部分分别给出“不许进学生稿”的硬门槛。
+5. 你认为 2026丰台一模 Q18(2) 和 2025海淀二模 Q20 现在是否可以进入 fusion evidence pool？请只回答是否可以进 evidence fusion，不要批准学生稿。
+6. 请给出一个短的 verdict，格式必须是：
+   - GO_TO_PHASE04_TARGETED_FUSION
+   - STAY_IN_PHASE03_FULL_COVERAGE
+   - GO_BUT_WITH_BLOCKERS
+
+请记住：本轮目标是最终达到哲学宝典级质量，不是快速糊一份。
+
+我会按 gate 逻辑裁决，不把候选扫描等同于穷尽覆盖；重点看是否已有干净控制底座，是否允许用 targeted verification 替代 B 线全量重复扫描。
+Thought for 5m 24s
+裁决：GO_BUT_WITH_BLOCKERS
+可以从 Phase03 进入 Phase04 的“补缺式证据融合 / 同类题归档”，但 Phase03 不能宣布 full every-question coverage 已完成。
+下一阶段的性质必须改名为：
+Phase04 targeted evidence fusion with open coverage blockers
+允许做：
+1. 用 Codex A canonical 358 行作为 every-question control base。
+2. 用 canonical in-scope/cross 119 行作为内容融合主控制表。
+3. 对 A-only、B-only、高风险视觉题、推理题、主观题做 targeted independent verification。
+4. 开始同类题归档，但只能归档到 evidence pool，不得进入学生稿。
+5. 对思维部分和推理部分建立 locked / pending / blocked 三态体系。
+继续禁止：
+1. 学生稿。
+2. Claude / Opus 成文化。
+3. Word / PDF。
+4. 最终 PASS。
+5. 声称已穷尽北京全部可获得材料。
+6. 声称 Lane B 已完成 every-question coverage。
+当前不能用 GO_TO_PHASE04_TARGETED_FUSION，因为 B 线还有 14 unread sources、4 pending suites，A-only 76 个 in-scope/cross keys 尚未被独立复核，A 线刚完成去重拆分，choice-answer pairing、视觉/OCR 全页题号恢复仍未收口。
+也不必退回 STAY_IN_PHASE03_FULL_COVERAGE，因为 A 线 canonical base 已经把 528 噪声矩阵压成 358 个原卷题目行，支撑材料已拆出，两个 P1 视觉点也已补锁。继续要求 B 短期复制 528 行矩阵会浪费时间，且不会自动提高成品质量。
+正确做法是：进入 Phase04，但把 Phase03 的未闭合项带入 Phase04 blocker gate，任何未锁定题不得进入学生稿。
+
+1. 是否允许进入 Phase04
+允许进入，但只能进入“带 blocker 的补缺式证据融合”。
+当前状态判断：
+
+Phase03 coverage base: usable but not closed
+Lane A canonical matrix: usable as control base
+Lane B independent scan: useful as candidate and risk detector, not full coverage
+Focused patch: resolves two P1 visual blockers
+A dedup split: improves matrix hygiene
+Final student evidence lock: not yet
+因此阶段裁决为：
+Phase03 does not PASS.
+Phase04 targeted fusion may start.
+Student-facing production remains blocked.
+Phase04 的第一原则：
+A canonical base controls completeness.
+B targeted verification controls independence.
+Governor controls whether unresolved A-only evidence can ever move forward.
+2. Lane B 无法短期变成 528 行 every-question matrix 时，怎样处理才不算偷懒
+可以接受不让 Lane B 复制 528 行矩阵，但必须满足三个条件：
+1. A canonical 358 行成为 every-question control base。
+2. B 不再承担机械复刻任务，改为风险定向独立复核。
+3. 每个未被 B 覆盖的 A 线条目必须有状态，不允许静默放行。
+2.1 A canonical 358 行的合法定位
+A canonical 358 行可以作为：
+every-question control base
+不能作为：
+final truth base
+也就是说，A 线可以控制“有哪些题”，但不能单独证明“这些题怎么讲、怎么归类、怎么入稿”。
+必须新建状态表：
+
+phase04_control_base_status.csv
+字段至少包括：
+canonical_question_id
+suite_id
+source_id
+stable_locator
+scope_status: in_scope / cross / out_of_scope / pending
+A_status
+B_status
+fusion_status
+verification_level
+answer_pairing_status
+visual_status
+student稿_permission
+blocker_reason
+建议状态分级：
+L0_BLOCKED
+L1_A_ONLY_PENDING_B_TARGET
+L2_A_B_COMMON
+L3_A_PLUS_B_TARGET_CONFIRMED
+L4_LOCKED_FOR_FUSION
+L5_ELIGIBLE_FOR_FUTURE_STUDENT_DRAFT
+当前最多只能推进到：
+L4_LOCKED_FOR_FUSION
+不得推进到学生稿。
+2.2 Lane B targeted verification 的最低范围
+Lane B 不需要复刻 528 行，但必须 100% 独立复核以下集合：
+1. A-only in-scope/cross keys：76 个，全部复核。
+2. B-only candidate keys：7 个，全部回源裁决。
+3. A blocked rows：42 个，全部确认 blocked 原因。
+4. A visual blockers 与 B visual blockers 的并集，全部视觉确认或继续 blocked。
+5. 14 unread sources，至少做 source/suite 级补读，确认是否含 in-scope/cross 题。
+6. 4 pending suites，必须给出 pending 原因、题量风险、是否影响 119 个主控制候选。
+7. 所有推理主观题，全部复核。
+8. 所有形式逻辑综合题，全部复核。
+9. 所有选择题答案配对不稳的题，全部复核。
+10. 所有 PPTX 内嵌图片、图形批注、学生答卷图片相关题，全部复核。
+此外，必须做抽样哨兵：
+A/B common keys 抽查不少于 15%。
+A 判 out_of_scope 的 canonical rows 抽查不少于 10%。
+如果抽样发现系统性漏判，立即扩大到对应 suite 全量复核。
+这样处理才不算偷懒。原因是它保留了 B 线的独立性，同时把 B 的资源用在最容易导致失败的地方：漏题、误归类、视觉误读、答案错配、推理题误挂载。
+2.3 A-only 题的处理规则
+A-only 题不能自动进入锁定池。
+规则：
+
+A-only + 高风险：必须 B targeted verify。
+A-only + 主观题：必须 B targeted verify。
+A-only + 推理题：必须 B targeted verify。
+A-only + 选择题但答案/选项完整：可进 pending fusion，不可进 locked。
+A-only + 无答案或无选项：blocked。
+A-only + 视觉未核：blocked 或 pending_visual。
+任何 A-only 题想进入未来学生稿，至少需要：
+A raw source locator
+B targeted verification
+answer/rubric pairing
+scope classification
+Governor gate note
+3. 下一步最优先 5 个任务
+P0. 任务 1：冻结 A canonical control base，并给每一行赋状态
+产出：
+phase04_control_base_status.csv
+phase04_canonical_358_index.md
+phase04_in_scope_cross_119_index.md
+phase04_support_reference_index.md
+phase04_removed_duplicates_log.md
+要求：
+1. 358 行 canonical paper/question rows 固定为控制底座。
+2. 46 行 support/reference rows 单独管理。
+3. 170 行 duplicate/removed rows 保留日志，不得丢弃。
+4. 119 个 in-scope/cross candidates 单独成主控制表。
+5. 每一行必须标出 locked / pending / blocked / out_of_scope。
+这一步不做完，Phase04 会再次把题目、细则、讲评、重复行混在一起。
+P0. 任务 2：执行 Lane B targeted independent verification
+产出：
+phase04_laneB_targeted_verification_plan.md
+phase04_laneB_targeted_verification_results.csv
+phase04_Aonly_76_review.csv
+phase04_Bonly_7_review.csv
+phase04_unread_sources_patch.md
+phase04_pending_suites_patch.md
+必须覆盖：
+A-only 76
+B-only 7
+14 unread sources
+4 pending suites
+visual blockers union
+blocked rows
+推理主观题
+形式逻辑综合题
+选择题答案配对风险题
+硬门槛：
+B 不能只确认 A 的结论。
+B 必须回到源文件和 locator。
+B 必须写出同意、不同意、无法确认三类结果。
+无法确认的题不能进 locked fusion。
+P0. 任务 3：完成 answer/rubric/visual 三重配对
+产出：
+phase04_answer_key_pairing_matrix.csv
+phase04_rubric_pairing_matrix.csv
+phase04_visual_confirmation_matrix.csv
+phase04_blocked_questions_final_for_phase04.csv
+每道题必须标明：
+has_full_stem
+has_full_options
+has_answer_key
+has_rubric_or_commentary
+visual_required
+visual_confirmed
+can_enter_fusion
+can_enter_student_draft
+阻断规则：
+选择题无完整四选项，不能进学生稿。
+选择题无可靠答案，不能进学生稿。
+主观题无设问，不能进学生稿。
+主观题无细则、讲评或可定位答案依据，不能进学生稿。
+视觉题未确认，不能进 locked。
+P1. 任务 4：推理部分先建 attachment matrix，再做同类题归档
+产出：
+phase04_reasoning_attachment_matrix.csv
+phase04_reasoning_typology_tree_observed.md
+phase04_reasoning_same_type_archive.md
+phase04_reasoning_logical_form_check.md
+phase04_reasoning_trap_action_matrix.md
+每个推理题必须有：
+question_id
+stable_locator
+primary_reasoning_type
+secondary_reasoning_type
+logical_form
+rule_slogan
+valid_or_invalid_pattern
+trap
+answer_action
+same_type_question_ids
+fusion_status
+这一任务是 Phase04 的核心。推理部分一旦先写“题型讲解”，必然复发旧失败。
+P1. 任务 5：思维部分建立 signal-chain archive
+产出：
+phase04_thinking_signal_chain_matrix.csv
+phase04_thinking_method_archive.md
+phase04_thinking_answer_action_matrix.md
+phase04_thinking_optional_angle_pool.md
+每个思维题必须有：
+材料信号
+可写思维/方法
+答题动作
+答案落点
+来源例题
+同类题
+易错陷阱
+fusion_status
+HS02 这类题必须额外标注：
+必写角度
+可选角度池
+替代给分角度
+不建议机械套用角度
+评分弹性来源
+4. 思维部分“不许进学生稿”的硬门槛
+任何思维题出现以下任一情况，禁止进入学生稿。
+1. 没有 stable locator。
+2. 题干、设问、材料不完整。
+3. 主观题没有答案依据、细则依据或讲评依据。
+4. 需要视觉确认但尚未 visual_confirmed。
+5. 只写知识点名称，没有材料信号。
+6. 只写材料复述，没有可写思维/方法。
+7. 只有答案结论，没有答题动作。
+8. 没有说明为什么从材料能想到该思维方法。
+9. 可选角度题被写成全部必答。
+10. 替代给分角度被写成唯一标准答案。
+11. 同一题多问没有拆成子题。
+12. 旧稿结论参与了内容判断。
+13. A/B 冲突未解决。
+14. blocker_reason 尚未清空。
+思维部分最低入稿模板：
+题目定位
+材料信号
+可写思维/方法
+答题动作
+为什么能想到
+答案落点
+来源例题
+同类题
+易错陷阱
+缺任何一项，都不能进入学生稿。
+5. 推理部分“不许进学生稿”的硬门槛
+任何推理题出现以下任一情况，禁止进入学生稿。
+1. 没有 stable locator。
+2. 题干或设问不完整。
+3. 选择题没有完整选项。
+4. 选择题没有可靠答案。
+5. 主观题没有评分点、讲评依据或可定位答案依据。
+6. 只标“推理部分”但没有具体题型。
+7. 只标“形式逻辑综合”但没有拆出具体规则。
+8. 没有 logical_form。
+9. 没有 rule_slogan。
+10. 没有 valid_or_invalid_pattern。
+11. 没有 trap。
+12. 没有 answer_action。
+13. 没有 same_type_question_ids。
+14. 一题多法没有 primary / secondary 挂载。
+15. A/B 对题型或答案存在冲突且未裁决。
+16. 视觉题未确认。
+17. 推理题没有进入 reasoning_attachment_matrix。
+18. reasoning_attachment_matrix 与同类题归档不一致。
+推理部分最低入稿模板：
+题目定位
+题型归属
+材料信号
+逻辑形式
+规则口令
+有效式或错误式
+解题动作
+答案落点
+易错陷阱
+同类题
+特别要求：
+综合题不能只进“综合推理”。
+每道综合题必须拆成具体规则。
+例如：矛盾律、充分条件假言推理、必要条件假言推理、三段论、联言推理、选言推理、归纳、类比等。
+6. 2026 丰台一模 Q18(2) 是否可以进入 fusion evidence pool
+可以。
+理由限于 evidence fusion 层面：
+
+1. Lane B 已视觉确认原卷 042 render page_07。
+2. 设问已确认：分别分析以上推理的类型，判断是否正确，并说明理由。
+3. 043 细则 SLIDE 35 已确认知识板块为“逻辑与思维”。
+4. 甲的类型、推理形式、正确性已经锁定。
+5. 乙的类型、错误位置、错误名称已经锁定。
+6. 结论为 PASS_TO_FUSION / A-formal / VISUAL_CONFIRMED_LANE_B。
+进入 fusion evidence pool 的建议状态：
+LOCKED_FOR_FUSION
+NO_STUDENT_DRAFT_YET
+不得据此批准学生稿。
+7. 2025 海淀二模 Q20 是否可以进入 fusion evidence pool
+可以。
+理由限于 evidence fusion 层面：
+
+1. Lane B 已视觉确认原卷 008 render page_07。
+2. 设问已确认：结合材料，运用辩证思维知识，谈谈如何更好地坚持共享发展理念推进共同富裕。
+3. 009 / 010 / 011 三源一致支持角度池。
+4. 已确认从 3 个角度中选 2。
+5. 已确认分析与综合/整体性、质量互变/动态性、辩证否定三个角度池。
+6. 已确认矛盾分析法最多 2 分。
+7. 已确认不能写成三点全必答。
+8. 结论为 PASS_TO_FUSION / A-formal / VISUAL_CONFIRMED_LANE_B。
+进入 fusion evidence pool 的建议状态：
+LOCKED_FOR_FUSION
+OPTIONAL_ANGLE_POOL_CONFIRMED
+NO_STUDENT_DRAFT_YET
+未来学生稿中必须写清：
+三个可选角度池中选材料最顺的两个写深。
+辩证否定是有效替代或补充角度。
+矛盾分析法有上限，不能当主答案无限展开。
+8. 当前最大内容风险
+最大风险是：把 Phase04 的“证据融合”误操作成“内容成文化”。
+当前已经有两个好消息：A 矩阵清洁度提高，两个 P1 视觉 blocker 解除。
+这也会制造一个假象：好像可以开始写宝典了。这个判断是危险的。
+
+真正的风险集中在三处：
+
+1. A-only 76 个 in-scope/cross keys 尚未被独立复核。
+2. 推理部分可能先形成题型树，再把少数题塞进去。
+3. 思维部分可能把角度池、替代给分、材料信号写成普通知识点总结。
+最容易再次失败的路径：
+coverage matrix 有题号
+reasoning matrix 有题型
+thinking matrix 有知识点
+然后直接让 Opus 润色
+这会再次生成一份“看起来完整、实际不可迁移”的稿子。
+下一阶段必须坚持：
+
+先锁证据。
+再归同类。
+再写动作。
+最后才成文化。
+9. Phase04 的硬性推进口径
+Phase04 可以启动，但只能做以下事情：
+1. evidence fusion
+2. targeted verification
+3. same-type archive
+4. thinking signal-chain archive
+5. reasoning attachment archive
+6. blocked list hardening
+7. Governor interim gate
+Phase04 不允许做：
+1. 学生稿正文。
+2. 章节导语。
+3. 背诵版口令成品。
+4. Word/PDF。
+5. Opus rewrite。
+6. PASS。
+Phase04 结束时必须提交：
+phase04_control_base_status.csv
+phase04_laneB_targeted_verification_results.csv
+phase04_answer_key_pairing_matrix.csv
+phase04_rubric_pairing_matrix.csv
+phase04_visual_confirmation_matrix.csv
+phase04_thinking_signal_chain_matrix.csv
+phase04_reasoning_attachment_matrix.csv
+phase04_same_type_archive.md
+phase04_blocked_questions_final.csv
+phase04_Governor_interim_gate.md
+phase04_GPT_review_packet.md
+缺任何核心矩阵，禁止进入学生稿准备阶段。
+短 verdict
+GO_BUT_WITH_BLOCKERS
+
+你是 GPT-5.5 Pro，继续担任飞哥政治庄园四线工作流里的“总指挥/内容压力测试官”。请审阅 Phase04 Batch01 targeted verification 结果，裁决下一步 Batch02 怎么跑。
+
+## 背景
+
+任务：从0重跑北京高考政治 选必三《逻辑与思维》。思维部分要完全模仿哲学宝典；推理部分必须按题型挂载所有题。
+
+当前 run folder：
+
+/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04
+
+你上次裁决为：
+
+GO_BUT_WITH_BLOCKERS
+
+阶段名：
+
+Phase04 targeted evidence fusion with open coverage blockers
+
+继续禁止：学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS。
+
+## Phase04 Batch01 已完成
+
+### Codex A
+
+已生成：
+
+- 05_coverage/phase04_control_base_status.csv
+- 05_coverage/phase04_control_base_status_after_laneB_batch01.csv
+- 06_conflicts/phase04_batch01_codexA_laneB_reconciliation.md
+- 05_coverage/phase04_answer_key_pairing_matrix.csv
+- 05_coverage/phase04_rubric_pairing_matrix.csv
+- 05_coverage/phase04_visual_confirmation_matrix.csv
+- 05_coverage/phase04_reasoning_attachment_matrix.csv
+- 05_coverage/phase04_thinking_signal_chain_matrix.csv
+- 05_coverage/phase04_same_type_archive.md
+- 05_coverage/phase04_Governor_interim_gate.md
+
+### ClaudeCode Lane B Batch01
+
+交付：
+
+- claudecode_lane/phase04_laneB_targeted_verification_plan.md
+- claudecode_lane/phase04_laneB_targeted_verification_results.csv
+- claudecode_lane/phase04_Aonly_76_review_batch01.csv
+- claudecode_lane/phase04_Bonly_7_review_batch01.csv
+- claudecode_lane/phase04_unread_sources_patch.md
+- claudecode_lane/phase04_pending_suites_patch.md
+- 04_suite_reports/claudecode_suite_reports/phase04_laneB_targeted_verification_batch01_report.md
+
+## 当前合并状态
+
+phase04_control_base_status_after_laneB_batch01.csv counts:
+
+- L0_BLOCKED: 236
+- L1_A_ONLY_PENDING_B_TARGET: 114
+- L2_PENDING_SCOPE_DECISION: 1
+- L3_A_PLUS_B_TARGET_CONFIRMED: 3
+- L4_LOCKED_FOR_FUSION: 4
+
+in-scope/cross control rows are now 120 because Batch01 found 2026朝阳期中 Q12 should be added from 待判 into 推理.
+
+## Important Confirmed Rows
+
+L4_LOCKED_FOR_FUSION but still NO_STUDENT_DRAFT_YET:
+
+- 2025海淀二模 Q20: 辩证思维角度池，非三点全必答。
+- 2026丰台一模 Q18(2): 必要条件假言推理 + 三段论大项不当扩大。
+- 2025西城二模 Q16(2): 充分条件假言推理，肯定后件不能确定前件。
+- 2025西城二模 Q16(3): 创新思维，改变创造条件、建立新联系。
+
+L3_A_PLUS_B_TARGET_CONFIRMED:
+
+- 2026朝阳期中 Q11: 三段论补大前提，答案 A，证据等级 B-choice-signal。
+- 2026朝阳期中 Q12: 逻辑规则/选言判断等，答案 B，Batch01 report 发现并纠正 Codex 待判遗漏。
+- 2026朝阳期中 Q13: 感性具体 -> 思维抽象 + 联想思维，答案 D，证据等级 B-choice-signal。
+
+L2_PENDING_SCOPE_DECISION:
+
+- 2025海淀期末 Q2: 答案 C，②场景迁移/联想思维，③辩证思维整体性；但①是哲学扬弃诱惑项，需裁 scope。
+
+## 当前冲突/阻塞
+
+1. 2024西城一模 Q11
+   - Lane B: marked B_TARGET_BLOCKED because it saw options as image-embedded and unavailable.
+   - Codex A after Lane B prompt: recovered all four options from Word XML text boxes and answer B from 025/026.
+   - Current status: keep pending B recheck, not locked.
+
+2. 2025海淀二模 Q12/Q13
+   - Lane B: marked scan-blocked.
+   - Codex A after Lane B prompt: visually read 008 ... page_04.png and recovered full options for Q12/Q13.
+   - Answer source still not found in 009/010/011.
+   - Current status: full options recovered, answer missing; blocked until answer source/B recheck.
+
+3. 2026丰台一模 suite
+   - Q18(2) locked, but suite-level still visual-blocked because 042 scan text is blank/thin.
+   - Need visual reading of 042 full suite to ensure no choice questions or other selected-compulsory-three rows were missed.
+
+4. 2026朝阳期中 Q14/Q15
+   - Lane B confirmed answers B/D, but CSV marked can_enter_fusion=no.
+   - Need decide whether to treat them as L3 after additional formal pairing or keep pending.
+
+## Please裁决
+
+请严格回答：
+
+1. Batch01 是否合格？是否允许进入 Batch02？
+2. Batch02 的 P0 顺序应该是什么？请在以下候选中排序：
+   - 2024西城一模 Q11 B线复核 Codex XML textbox recovery；
+   - 2025海淀二模 Q12/Q13 视觉选项 + answer source 补找；
+   - 2026丰台一模 042 renders 全套视觉题号/选必三选择题清点；
+   - 2026朝阳期中 Q12 正式补入控制表并让 B 线写 results CSV row；
+   - 2026朝阳期中 Q14/Q15 是否可从 B-choice-signal 升为 L3；
+   - 2025海淀期末 Q2 scope decision；
+   - 其余 A-only 114/116 行如何分批。
+3. 对 2024西城一模 Q11，如果 Codex A 能从 Word XML 直接提取四个文本框选项，这是否可以替代视觉截图？还是仍必须让 B 做独立复核后才能进入 fusion？
+4. 对 2025海淀二模 Q12/Q13，有完整选项但无答案源，是否应保持 blocked？是否允许用题目逻辑推答案？
+5. 对 2025海淀期末 Q2，scope 如何裁？思维部分、边界交叉，还是不入？
+6. 是否允许在 Batch02 后开始“推理题型归档正文骨架”（仍非学生稿），还是必须先把所有 A-only 114 行核完？
+7. 给出短 verdict：
+   - GO_TO_BATCH02_VISUAL_AND_SCOPE_REPAIR
+   - STAY_IN_BATCH01_FIX_MERGE
+   - STOP_AND_REBUILD_CONTROL_BASE
+
+请继续记住：最终目标是哲学宝典级质量，绝不快速糊一份。
+
+我会按阶段 gate 裁决，不把 Batch01 的局部锁定包装成覆盖完成。重点先压住控制表、视觉补读、答案来源和 scope，再决定 Batch02 队列与归档边界。
+Thought for 4m 38s
+1. Batch01 裁决
+Batch01 合格，可以进入 Batch02。
+合格范围很窄：Batch01 只能算 targeted verification 第一批有效完成，不能算 Phase04 通过，不能算 full coverage 闭合，不能算学生稿证据锁定完成。
+
+当前状态说明：
+
+允许进入：Batch02 visual / answer / scope repair
+继续禁止：学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS
+控制底座：可继续使用 Codex A canonical 358 行
+融合主表：暂以 in-scope/cross 120 行为主控
+Lane B 定位：独立风险复核线，不可宣称 every-question matrix
+Batch01 的价值：
+1. 成功解除 2025海淀二模 Q20 的视觉 blocker。
+2. 成功解除 2026丰台一模 Q18(2) 的视觉 blocker。
+3. 发现并补入 2026朝阳期中 Q12。
+4. 使 2025西城二模 Q16(2)、Q16(3) 进入 L4。
+5. 让 A 线 matrix 去重拆分后的底座可继续使用。
+Batch01 的硬缺口：
+1. L1_A_ONLY_PENDING_B_TARGET 仍有 114 行。
+2. L0_BLOCKED 高达 236 行，必须拆分 blocked 类型，不能作为黑箱。
+3. 2026丰台一模 042 suite 仍有全套视觉清点风险。
+4. 2025海淀二模 Q12/Q13 仍缺 answer source。
+5. 2024西城一模 Q11 仍缺 B 线独立复核。
+6. 2025海淀期末 Q2 scope 尚未裁定。
+7. 2026朝阳期中 Q14/Q15 不能仅凭 B-choice-signal 自动升级。
+结论：
+Batch01 PASS_AS_BATCH
+Phase04 NOT_PASS
+Student draft STILL_BLOCKED
+Batch02 GO
+2. Batch02 的 P0 顺序
+Batch02 的排序原则：先修控制表，再修会导致漏题的视觉源，再修答案源，再修单题冲突，最后处理 scope 与批量 A-only。
+P0-0：先拆分 L0_BLOCKED 236 行
+这一步是 Batch02 启动前的强制动作。
+产出：
+
+05_coverage/phase04_L0_blocked_reason_breakdown.csv
+至少拆成：
+OUT_OF_SCOPE_CONFIRMED
+SOURCE_UNREAD_BLOCKED
+VISUAL_BLOCKED
+ANSWER_SOURCE_MISSING
+RUBRIC_SOURCE_MISSING
+OPTIONS_MISSING
+DUPLICATE_REMOVED
+REFERENCE_SUPPORT_ROW
+PENDING_SCOPE
+TRUE_BLOCKER
+原因：L0_BLOCKED = 236 这个数字太粗。若里面混有 out-of-scope、重复删除、支撑材料行、真 blocker，后续 Governor 无法判断风险真实大小。
+P0-1：2026朝阳期中 Q12 正式补入控制表，并补 B results CSV row
+优先级最高。
+动作：
+
+1. 在 phase04_control_base_status_after_laneB_batch01.csv 中正式新增或修正 Q12 行。
+2. 在 phase04_laneB_targeted_verification_results.csv 中补独立复核 row。
+3. 写清 source_id、suite_id、stable_locator、完整题干选项、答案 B、scope=推理。
+4. 更新 in-scope/cross count = 120 的机器可核记录。
+原因：Q12 是从 Codex 待判中被 B 线纠出的漏判。控制表不先修，后面所有计数都会漂移。
+P0-2：2026丰台一模 042 renders 全套视觉题号/选必三选择题清点
+这是 Batch02 最大覆盖风险。
+动作：
+
+1. 渲染 042 全套页面。
+2. 按页清点所有题号。
+3. 标出所有可能属于选必三《逻辑与思维》的题。
+4. 特别清点选择题、材料题、小问、图表题。
+5. 将 Q18(2) 保持 L4，但不得用 Q18(2) 替代 suite-level 清点。
+产出：
+05_coverage/phase04_2026_fengtai_yimo_042_full_visual_sweep.csv
+04_suite_reports/phase04_2026_fengtai_yimo_042_visual_report.md
+原因：042 文本层 blank/thin。只锁 Q18(2) 不能证明整套没有漏掉其他选必三题。
+P0-3：2025海淀二模 Q12/Q13 视觉选项 + answer source 补找
+动作：
+1. 保留 Codex A 从 008 page_04.png 视觉恢复的完整四选项。
+2. 让 Lane B 独立复核 Q12/Q13 题干与四选项。
+3. 继续在 009/010/011 及所有同 suite 支撑源中找答案。
+4. 若找不到答案源，保持 blocked。
+产出：
+05_coverage/phase04_2025_haidian_ermo_Q12_Q13_answer_search.md
+05_coverage/phase04_2025_haidian_ermo_Q12_Q13_status.csv
+硬裁决：
+完整选项不能替代答案源。
+无 answer source 不得进入 L3 或 L4。
+不得用题目逻辑推答案。
+P0-4：2024西城一模 Q11 B 线复核 Codex XML textbox recovery
+动作：
+1. Codex A 提供 Word XML 中四个文本框选项的 extraction locator。
+2. Codex A 提供 025/026 中答案 B 的 pairing locator。
+3. Lane B 不读 A 的结论，独立回源复核。
+4. B 可以用 Word XML、LibreOffice render、截图视觉任一方式复核，但必须独立确认四选项与答案配对。
+产出：
+claudecode_lane/phase04_2024_xicheng_yimo_Q11_B_recheck.csv
+06_conflicts/phase04_2024_xicheng_yimo_Q11_reconciliation.md
+状态规则：
+B 复核通过：可升 L3 或 L4_FOR_FUSION，仍禁止学生稿。
+B 无法复核：保持 blocked 或 pending_visual。
+B 发现选项/答案不一致：进入 unresolved_conflict。
+P0-5：2025海淀期末 Q2 scope decision
+裁决见第 5 节。Batch02 必须把 scope 写入控制表。
+产出：
+
+06_conflicts/phase04_2025_haidian_qimo_Q2_scope_decision.md
+P1-1：2026朝阳期中 Q14/Q15 是否从 B-choice-signal 升为 L3
+当前不能自动升。
+升级条件：
+
+1. full stem = yes
+2. full options = yes
+3. answer source paired = yes
+4. Lane B row can_enter_fusion 修正为 yes
+5. Codex A 与 Lane B 对答案 B/D 无冲突
+6. scope 分类明确
+满足后可升：
+L3_A_PLUS_B_TARGET_CONFIRMED
+未满足则保持 pending。
+P1-2：其余 A-only 114/116 行分批
+先统一数字。当前正式表是 114 行，若其他文件出现 116，必须写明差异来源。
+分批规则：
+
+Batch02 Tranche A：全部 A-only 推理题、交叉题、形式逻辑题。
+Batch02 Tranche B：全部视觉风险题，包括 scan、PPTX 图片、Word textbox、图形批注。
+Batch02 Tranche C：全部选择题 answer pairing 不稳的题。
+Batch02 Tranche D：全部主观题 rubric/commentary pairing 不稳的题。
+Batch03 Tranche E：普通文字层稳定的选择题。
+Batch03 Tranche F：out-of-scope 抽样哨兵。
+Batch02 不需要一次核完全部 114 行，但必须覆盖所有高风险 A-only。
+任何 A-only 想进入 L4，必须有 B targeted verification。
+3. 2024西城一模 Q11：Word XML 能否替代视觉截图
+可以替代视觉截图作为选项文本证据。
+不能替代 Lane B 独立复核。
+裁决：
+
+Word XML textbox extraction 可以作为 raw-source evidence。
+若 XML 中四个选项来自原始 DOCX 的文本框，且有稳定 locator，它比 OCR 更可靠。
+但当前冲突来自 Lane B 看不到选项，所以必须让 B 独立复核后才能进入 fusion。
+B 线复核可以选择三种方式之一：
+1. 独立读取 DOCX XML textbox。
+2. 用 LibreOffice 或 Word 渲染后视觉确认。
+3. 用截图确认文本框选项。
+最低入 fusion 条件：
+1. 四个选项完整。
+2. 答案 B 来源明确。
+3. 答案 B 与 Q11 题号配对明确。
+4. A/B 均确认。
+5. stable_locator 写入 control base。
+在 B 线复核完成前，Q11 状态保持：
+PENDING_B_RECHECK
+NO_FUSION_LOCK
+NO_STUDENT_DRAFT
+4. 2025海淀二模 Q12/Q13：有完整选项但无答案源怎么办
+保持 blocked。
+不得用题目逻辑推答案。
+
+严格规则：
+
+完整题干 + 完整选项 + 无答案源 = coverage 可登记，答案不可锁定。
+选择题无 answer source，不得进入 L3。
+选择题无 answer source，不得进入 L4。
+选择题无 answer source，不得进入学生稿。
+允许做的事情：
+1. 记录 full_options_recovered = yes。
+2. 记录 answer_source_missing = yes。
+3. 用题目逻辑生成 internal_candidate_answer_for_search。
+4. 用 candidate answer 辅助查找答案源。
+禁止做的事情：
+1. 把 internal_candidate_answer_for_search 写成 answer_key。
+2. 用 Codex 推理答案替代官方答案。
+3. 用 Lane B 推理答案替代官方答案。
+4. 在 same-type archive 中把该题作为已解例题使用。
+Q12/Q13 当前状态建议：
+QUESTION_TEXT_RECOVERED
+ANSWER_BLOCKED
+NO_FUSION_LOCK
+NO_STUDENT_DRAFT
+5. 2025海淀期末 Q2 scope 裁决
+基于你给出的信息，裁为：
+思维部分 in-scope
+加 boundary_trap 标签
+暂不裁为交叉主项
+不剔除
+理由：
+1. 答案 C 对应 ② 场景迁移/联想思维 与 ③ 辩证思维整体性。
+2. ② 与 ③ 都属于《逻辑与思维》的思维部分。
+3. ① 哲学扬弃是诱惑项，错误项不能决定主 scope。
+4. 该题的教学价值在于区分选必三辩证思维与哲学扬弃表述。
+控制表建议：
+scope = thinking
+secondary_tag = boundary_trap
+trap = 哲学扬弃诱惑项
+archive_node = 联想思维 + 辩证思维整体性易混选择题
+student_draft_permission = no
+升级条件：
+1. Q2 full stem/options 已确认。
+2. answer C 有可靠来源。
+3. Lane B 对 scope 裁决无反对意见。
+4. 答案选项 ②、③ 与题干材料信号能对应。
+若原题材料或答案来源实际要求调用必修四哲学原理，再改为：
+cross
+目前根据 Batch01 描述，不建议剔除。
+6. Batch02 后能否开始推理题型归档正文骨架
+可以开始，但只能做内部归档骨架，不能做学生稿正文。
+允许条件：
+
+1. Batch02 P0-1 至 P0-4 已完成。
+2. 2026丰台一模 042 suite-level 视觉清点已完成。
+3. 2025海淀二模 Q12/Q13 明确为 answer blocked 或已找到答案源。
+4. 2024西城一模 Q11 B recheck 有结论。
+5. 2026朝阳期中 Q12 已正式写入控制表。
+允许产出：
+05_coverage/phase04_reasoning_archive_skeleton_INTERNAL.md
+05_coverage/phase04_reasoning_typology_tree_observed_INTERNAL.md
+05_coverage/phase04_reasoning_pending_question_slots.csv
+骨架必须这样写：
+题型节点
+规则口令草案
+L4 已锁题清单
+L3 已确认题清单
+L1 pending 题清单
+L0 blocked 题清单
+每题 required fields 缺口
+禁止这样写：
+1. 不得写学生化讲解。
+2. 不得写章节导语。
+3. 不得把 L1 题当作已归档例题。
+4. 不得隐藏 A-only 推理候选。
+5. 不得把综合题粗暴放入综合推理后停止拆解。
+6. 不得让 Claude/Opus 接手润色。
+是否必须先核完全部 A-only 114 行？
+不必。
+但有一个硬条件：
+所有 A-only 中的推理候选题必须在骨架中出现，状态可以是 pending，不允许消失。
+这样做的目的：
+用归档骨架反查 reasoning_attachment_matrix 是否漏题。
+它是压力测试工具，不是学生稿雏形。
+7. Batch02 必须产出的文件
+Batch02 至少交付：
+05_coverage/phase04_L0_blocked_reason_breakdown.csv
+05_coverage/phase04_control_base_status_after_laneB_batch02.csv
+05_coverage/phase04_2026_fengtai_yimo_042_full_visual_sweep.csv
+04_suite_reports/phase04_2026_fengtai_yimo_042_visual_report.md
+05_coverage/phase04_2025_haidian_ermo_Q12_Q13_status.csv
+05_coverage/phase04_2025_haidian_ermo_Q12_Q13_answer_search.md
+claudecode_lane/phase04_2024_xicheng_yimo_Q11_B_recheck.csv
+06_conflicts/phase04_2024_xicheng_yimo_Q11_reconciliation.md
+06_conflicts/phase04_2025_haidian_qimo_Q2_scope_decision.md
+05_coverage/phase04_chaoyang_qizhong_Q12_control_table_patch.csv
+05_coverage/phase04_chaoyang_qizhong_Q14_Q15_pairing_decision.csv
+06_conflicts/phase04_batch02_codexA_laneB_reconciliation.md
+05_coverage/phase04_Governor_interim_gate_batch02.md
+Batch02 结束时必须给出：
+L0 count by reason
+L1 A-only remaining count
+L3 count
+L4 count
+in-scope/cross total count
+visual blockers remaining
+answer-source blockers remaining
+scope blockers remaining
+A/B unresolved conflicts remaining
+8. 短 verdict
+GO_TO_BATCH02_VISUAL_AND_SCOPE_REPAIR
+
+# GPT-5.5 Pro Phase04 Batch02 Fast Review Prompt
+
+你是本项目的 GPT-5.5 Pro chief content reviewer / commander。请只评审当前 Phase04 Batch02，不要提前放行学生稿。
+
+## 项目背景
+
+- 项目：北京高考政治 选择性必修三《逻辑与思维》四线从0重跑。
+- 工作目录：/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04
+- 目标形态：
+  - 思维部分最终要完全模仿已成功的哲学宝典：材料信号 -> 可写思维/方法 -> 答题动作 -> 来源例题。
+  - 推理部分最终要按题型归档：题型 -> 规则口令 -> 常见陷阱 -> 同类真题 -> 解题动作，并且所有题都要放入对应题型下面。
+- 当前仍禁止：学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS。
+
+## 你上次给出的 Batch02 要求
+
+你要求先执行：
+
+1. 拆分 L0_BLOCKED=236 的真实类型。
+2. formal patch 2026朝阳期中 Q12。
+3. full visual scan 2026丰台一模 042。
+4. answer-source recheck 2025海淀二模 Q12/Q13，不得逻辑猜答案。
+5. Lane B recheck 2024西城一模 Q11 XML textbox recovery。
+6. scope decision 2025海淀期末 Q2。
+7. 然后才处理 Q14/Q15 和剩余 A-only batches。
+
+## Batch02 已完成的文件
+
+Codex A:
+
+- 05_coverage/phase04_blocked_type_split.csv/md
+- 05_coverage/phase04_2026_chaoyang_q12_formal_patch.csv
+- 05_coverage/phase04_2026_fengtai_yimo_visual_suite_scan.csv
+- 05_coverage/phase04_2025_haidian_ermo_Q12_Q13_status.csv
+- 05_coverage/phase04_2024_xicheng_yimo_Q11_B_recheck.csv
+- 05_coverage/phase04_2025_haidian_qimo_Q2_scope_decision.md
+- 05_coverage/phase04_Aonly_batch02_queue.csv
+- 05_coverage/phase04_batch02_codex_visual_scope_repair_addendum.csv
+
+ClaudeCode Lane B:
+
+- claudecode_lane/phase04_batch02_laneB_results.csv
+- claudecode_lane/phase04_batch02_laneB_results_normalized.csv
+- claudecode_lane/phase04_batch02_fengtai_visual_recheck.csv/md
+- claudecode_lane/phase04_batch02_haidian_q12q13_recheck.csv/md
+- claudecode_lane/phase04_batch02_xicheng_q11_recheck.csv/md
+- claudecode_lane/phase04_batch02_scope_and_upgrade_decisions.csv
+- 04_suite_reports/claudecode_suite_reports/phase04_batch02_visual_scope_repair_report.md
+
+Codex merge:
+
+- 05_coverage/phase04_control_base_status_after_batch02.csv
+- 06_conflicts/phase04_batch02_codexA_laneB_reconciliation.csv/md
+
+## 结构自检
+
+- ClaudeCode raw CSV 有 3 行列位偏移：Q14/Q15/Q4 的 yes 被写入前一字段，导致机械读取时误成 can_enter_fusion=no。
+- Codex 保留 raw CSV，并根据 Lane B 报告、专项 CSV、stdout summary 生成 phase04_batch02_laneB_results_normalized.csv，只做字段归位，不改证据结论。
+- normalized CSV 后：11 行全部 can_enter_fusion=yes，11 行全部 can_enter_student_draft=no。
+
+## Batch02 合并结果
+
+phase04_control_base_status_after_batch02.csv：
+
+- total rows: 364
+- L4_LOCKED_FOR_FUSION: 4
+- L3_A_PLUS_B_TARGET_CONFIRMED: 13
+- L1_A_ONLY_PENDING_B_TARGET: 112
+- L0_BLOCKED: 235
+- student-facing permission: still blocked for all rows
+
+Batch02 新确认/升级 11 行到 L3 evidence fusion pool：
+
+1. Q-2026朝阳期中-12：推理，B-choice-signal，answer B，相容选言判断/分类规则/矛盾律。
+2. Q-2026朝阳期中-14：推理，B-choice-signal，answer B，不完全归纳/或然性。
+3. Q-2026朝阳期中-15：推理，B-choice-signal，answer D，联言判断否定。
+4. Q-2026丰台一模-4：思维，B-choice-signal，answer A，综合思维。
+5. Q-2026丰台一模-7：思维，B-choice-signal，answer B，发散聚合 + 超前思维。
+6. Q-2026丰台一模-8：推理，B-choice-signal，answer C，充分条件假言推理。
+7. Q-2026丰台一模-9：推理，B-choice-signal，answer D，概念外延关系 + 联言判断。
+8. Q-2025海淀二模-12：思维，B-choice-signal，answer D，超前思维/风险收益平衡。
+9. Q-2025海淀二模-13：推理，B-choice-signal，answer C，三段论/选言判断。
+10. Q-2024西城一模-11：推理，B-choice-signal，answer B，完全归纳推理。
+11. Q-2025海淀期末-2：思维，B-choice-signal，answer C=②③，②场景迁移/联想思维，③辩证思维整体性；①扬弃是哲学诱惑项但为错误选项，不污染 scope。
+
+## 唯一显式冲突
+
+Q-2024西城一模-11：
+
+- Codex A 早先写成 B=①④。
+- ClaudeCode Lane B 从 /Users/wanglifei/Desktop/2024模拟题/西城一模/试卷/试卷.docx 的 DOCX XML textbox 独立恢复四个选项，确认：
+  - A=①②
+  - B=①③
+  - C=②④
+  - D=③④
+- 025/026 两份答案/细则均确认 answer B。
+- 所以正确 pairing 是 B=①③。后续 fusion 必须用 B=①③，并把 Codex A 原错误作为纠错记录保留。
+
+## 本轮请你裁决
+
+请给出明确 verdict，优先使用以下之一：
+
+- REPAIR_BATCH02: Batch02 仍有硬伤，必须先补。
+- GO_TO_BATCH03_AONLY_QUEUE: Batch02 可以作为 targeted visual/scope repair 通过，允许进入剩余 A-only / L1 队列分批复核，但仍禁止学生稿、Opus、Word/PDF、PASS。
+- GO_TO_EVIDENCE_FUSION_ARCHIVE_ONLY: 可以开始把 L3/L4 证据池写入同类题型 archive，但仍不得学生稿。
+
+请重点检查：
+
+1. 你是否接受 normalized CSV 作为机械合并输入？如果不接受，要怎么修。
+2. 11 个 L3 新确认是否有哪个不该进 evidence fusion pool。
+3. 2024西城一模 Q11 是否应保留为 “can_enter_fusion=yes but with corrected pairing B=①③”。
+4. 下一步应先做 remaining A-only queue，还是先把现在 17 个 L3/L4 evidence rows 写成 archive skeleton。
+5. 任何会影响最终宝典质量的硬性风险。
+
+请用短而明确的审稿意见返回：verdict、must_fix、allowed_next、blocked、notes。
+
+我会只审 Batch02 的证据门槛，重点压 normalized CSV、Q11 配对纠错、Q12/Q13 答案源解除情况，以及下一步是否继续补 A-only。
+Thought for 2m 21s
+verdict
+GO_TO_BATCH03_AONLY_QUEUE
+Batch02 可以作为 targeted visual/scope repair 通过。
+但这只允许进入剩余 A-only / L1 队列分批复核。仍然禁止学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS。
+当前 17 个 L3/L4 可以进入 internal evidence archive skeleton，但只能作为核对工具，不能优先于 A-only 112 行复核，也不能写成学生稿雏形。
+
+must_fix
+1. normalized CSV 可以接受，但必须补 normalization audit
+接受 phase04_batch02_laneB_results_normalized.csv 作为机械合并输入，前提是补一个逐行归位审计文件：
+claudecode_lane/phase04_batch02_laneB_results_normalization_audit.csv
+至少记录：
+row_id
+question_id
+raw_field_error
+normalized_field
+correction_basis: Lane B report / 专项 CSV / stdout summary
+evidence_changed: no
+can_enter_fusion_before
+can_enter_fusion_after
+reviewer_note
+理由：这次是列位偏移修复，可以接受；但如果没有 audit，后续 Governor 无法区分“字段归位”和“证据改写”。
+2. Q12/Q13 必须保留 answer-source locator
+2025海淀二模 Q12/Q13 可以维持 L3 的条件是：状态表或 recheck 文件中必须有明确 answer-source locator。
+如果只有 Lane B 推断出的 answer D/C，没有答案源定位，则必须降回：
+ANSWER_SOURCE_MISSING
+NO_FUSION_LOCK
+禁止用题目逻辑推答案。
+3. 2024西城一模 Q11 必须写入纠错记录
+保留为：
+can_enter_fusion = yes
+status = L3_A_PLUS_B_TARGET_CONFIRMED
+correct_pairing = B=①③
+codexA_prior_error = B=①④
+student_draft_permission = no
+必须把 Codex A 原错误作为风险记录保留，不能静默覆盖。
+4. Batch02 后控制表要冻结一次
+产出：
+05_coverage/phase04_batch02_status_freeze.md
+写清：
+total rows = 364
+L4 = 4
+L3 = 13
+L1 = 112
+L0 = 235
+student-facing permission = blocked for all rows
+11 个 L3 新确认行审查
+整体可以进入 evidence fusion pool，级别限于 L3，不得升 L4，不得进学生稿。
+逐项裁决：
+
+Q-2026朝阳期中-12：可以进 L3。
+Q-2026朝阳期中-14：可以进 L3。
+Q-2026朝阳期中-15：可以进 L3。
+Q-2026丰台一模-4：可以进 L3。
+Q-2026丰台一模-7：可以进 L3。
+Q-2026丰台一模-8：可以进 L3。
+Q-2026丰台一模-9：可以进 L3。
+Q-2025海淀二模-12：有 answer-source locator 才能保留 L3。
+Q-2025海淀二模-13：有 answer-source locator 才能保留 L3。
+Q-2024西城一模-11：可以进 L3，但必须使用 corrected pairing B=①③。
+Q-2025海淀期末-2：可以进 L3，scope=思维，tag=boundary_trap。
+2025海淀期末 Q2 的裁法我维持上轮意见：
+scope = thinking
+tag = boundary_trap
+正确项 = ② 联想思维 / 场景迁移 + ③ 辩证思维整体性
+① 哲学扬弃 = 错误诱惑项，不污染 scope
+allowed_next
+P0：进入 Batch03 A-only queue
+Batch03 不要先写 archive 正文。先处理剩余：
+L1_A_ONLY_PENDING_B_TARGET = 112
+分批顺序：
+Batch03-A：A-only 推理题、交叉题、形式逻辑题。
+Batch03-B：A-only 主观题。
+Batch03-C：视觉/OCR/Word textbox/PPT 图形批注风险题。
+Batch03-D：选择题 answer pairing 风险题。
+Batch03-E：rubric/commentary pairing 风险题。
+Batch03-F：普通文字层稳定选择题。
+每一批必须产出：
+phase04_batch03_Aonly_tranche_results.csv
+phase04_control_base_status_after_batch03_tranche.csv
+phase04_batch03_reconciliation.md
+每行必须有：
+B verification result: confirmed / conflict / blocked / out_of_scope
+source locator
+answer locator
+scope decision
+fusion status
+student permission = no
+P1：允许做 internal archive skeleton
+可以同步建立，但只能作为压力测试工具：
+05_coverage/phase04_evidence_archive_skeleton_INTERNAL.md
+05_coverage/phase04_reasoning_typology_skeleton_INTERNAL.md
+05_coverage/phase04_thinking_signal_skeleton_INTERNAL.md
+结构必须写成：
+题型/思维节点
+L4 rows
+L3 rows
+L1 pending slots
+L0 blocked slots
+缺口字段
+禁止写成学生可读正文。禁止交给 Claude/Opus。
+P1：更新同类题归档矩阵
+17 个 L3/L4 可以先挂入 archive skeleton，但必须带状态：
+L4_LOCKED_FOR_FUSION
+L3_A_PLUS_B_TARGET_CONFIRMED
+NO_STUDENT_DRAFT_YET
+推理题必须至少填：
+primary_reasoning_type
+secondary_reasoning_type
+logical_form_status
+rule_slogan_status
+trap_status
+answer_action_status
+same_type_question_ids
+思维题必须至少填：
+material_signal_status
+method_status
+answer_action_status
+source_example_status
+trap_status
+blocked
+继续阻断：
+学生稿
+Claude/Opus 成文化
+Word/PDF
+最终 PASS
+任何 L3/L4 直接转学生稿
+任何无 answer-source locator 的选择题进入 fusion
+任何 A-only 未经 B targeted verification 进入 L4
+任何 archive skeleton 被改写成正文
+特别阻断：
+2025海淀二模 Q12/Q13 若缺答案源，必须退出 L3。
+2024西城一模 Q11 若后续文件仍出现 B=①④，必须视为污染并回滚。
+B-choice-signal 不能等同于学生稿证据锁定。
+notes
+当前最大质量风险是：17 个 L3/L4 看起来已经能支撑一个小型推理/思维归档，于是团队转去写稿，剩下 112 个 A-only 被边缘化。这个路径会复发上一版失败。
+下一阶段主线必须是：
+
+先清 A-only 112
+再扩 L3/L4 evidence pool
+再用 archive skeleton 反查漏题
+最后才考虑成文化
+短裁决：
+GO_TO_BATCH03_AONLY_QUEUE
+
+# 给 GPT-5.5 Pro：Phase04 Batch03 A-only 队列完成后的 Commander Review
+
+你是本项目的 GPT-5.5 Pro 总指挥 / 内容审稿人。请只基于我下面提供的状态判断下一步，继续保持严格门禁。
+
+本项目：北京高考政治 选必三《逻辑与思维》从 0 重跑，目标最终做成类似此前“哲学宝典”的终极教研文档，但当前仍在 evidence-control 阶段。
+
+总规则：
+
+1. Codex A、ClaudeCode B、GPT-5.5 Pro、Claude/Opus 四线工作流。
+2. Codex 不只是总控，也要自己跑；ClaudeCode 是独立生产/复核线。
+3. 旧成果只可定位，不继承旧结论。
+4. 思维部分要模仿哲学宝典：材料信号 → 思维/方法 → 答题动作 → 来源例题。
+5. 推理部分要按题型分类：三段论、假言推理、选言/联言、归纳/类比、概念/判断等，每类下面穷尽所有题。
+6. 所有 PDF、Word、PPT、图片、扫描、表格、漫画/图示都必须调用工具处理，不得因工具缺失放弃。
+7. 当前禁止：学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS。
+
+## GPT 上次裁决
+
+你在 Batch02 后裁决为：GO_TO_BATCH03_AONLY_QUEUE。
+
+要求：
+
+- 必须处理剩余 L1_A_ONLY_PENDING_B_TARGET=112。
+- Batch02 只算 targeted visual/scope repair。
+- 继续禁止学生稿、Claude/Opus 成文化、Word/PDF、final PASS。
+- 2024西城一模 Q11 必须保持 B=①③，若出现 B=①④ 视为污染。
+- 2025海淀二模 Q12/Q13 答案源定位必须保留。
+
+## Batch03 执行方式
+
+先前误开过两个 Sonnet 进程，用户纠正后已全部停止，未采用其输出。
+
+正式 Batch03 ClaudeCode Lane B 改用：
+
+- --model opus --effort max
+- debug 确认：model=claude-opus-4-7
+- debug 确认：effectiveWindow=980000
+- 独立日志目录：logs/opus47_max/
+- 独立输出目录：
+  - claudecode_lane/opus47_batch03_subjective/
+  - claudecode_lane/opus47_batch03_choice/
+
+Codex A 同步完成主观题与选择题预检，Lane B 独立复核后再归并。
+
+## Batch03 队列与结果
+
+Batch03 A-only 队列：
+
+- 总数：112 行
+- 主观题：56 行
+- 选择题：56 行
+
+Lane B 主观题结果：
+
+- 56 / 56 已处理
+- B_TARGET_CONFIRMED: 23
+- B_TARGET_SCOPE_OUT: 33
+- can_enter_student_draft=no: 56
+- CSV 结构验收通过，无错列
+
+Lane B 选择题结果：
+
+- 56 / 56 已处理
+- raw CSV 有 4 行因中文逗号导致字段错位；Codex 保留 raw，并生成机械归一化副本和 audit。
+- normalized 后：
+  - B_TARGET_CONFIRMED: 34
+  - B_TARGET_SCOPE_OUT: 22
+  - can_enter_fusion=yes: 34
+  - can_enter_student_draft=no: 56
+  - CSV 结构验收通过
+- raw report 里有手工计数 31/25 与 row-level CSV 34/22 不一致，Codex 将 row-level normalized CSV 作为 merge source，并将此作为后续审计点。
+
+归一化文件：
+
+- claudecode_lane/opus47_batch03_choice/phase04_batch03_B_choice_results_normalized.csv
+- claudecode_lane/opus47_batch03_choice/phase04_batch03_B_choice_results_normalization_audit.csv
+
+## Batch03 合并结果
+
+merge source：
+
+- 主观题：claudecode_lane/opus47_batch03_subjective/phase04_batch03_A_subjective_results.csv
+- 选择题：claudecode_lane/opus47_batch03_choice/phase04_batch03_B_choice_results_normalized.csv
+
+输出：
+
+- 05_coverage/phase04_control_base_status_after_batch03.csv
+- 06_conflicts/phase04_batch03_codexA_laneB_reconciliation.csv
+- 06_conflicts/phase04_batch03_codexA_laneB_reconciliation.md
+
+Raw after Batch03 控制表：
+
+- 364 行
+- L4_LOCKED_FOR_FUSION: 4
+- L3_A_PLUS_B_TARGET_CONFIRMED: 70
+- L0_BLOCKED: 290
+- 学生稿权限仍全部阻塞
+
+## Queue-meta cleanup
+
+Opus 主观题线指出：
+
+1. 2026东城期末 Q16 被队列错误拆成 16(1) 和 16(2)，但原卷与细则都是一个 7 分单题，且是哲学与文化，非选必三逻辑与思维。
+2. 2025西城二模 Q16(2) 在 Batch03 队列里缺失，但全局控制表中已经由 Batch01 锁定为 L4_LOCKED_FOR_FUSION，不需要重复补行。
+
+Codex 已生成 downstream-cleaned 控制表：
+
+- 05_coverage/phase04_control_base_status_after_batch03_cleaned.csv
+- 06_conflicts/phase04_batch03_queue_meta_cleanup_decisions.csv
+- 06_conflicts/phase04_batch03_queue_meta_cleanup_decisions.md
+
+Cleaned downstream table：
+
+- 362 行
+- L4_LOCKED_FOR_FUSION: 4
+- L3_A_PLUS_B_TARGET_CONFIRMED: 70
+- L0_BLOCKED: 288
+- 无重复 canonical id
+- Q-2026东城期末-16 只保留一个边界关闭行
+- Q-2025西城二模-16(2) 保持 L4_LOCKED_FOR_FUSION
+
+## 当前可用于 evidence fusion 的 74 行
+
+合计 74 行：L4=4 + L3=70。
+
+按题型：
+
+- 主观题 27
+- 选择题 47
+
+按模块：
+
+- 推理 38
+- 思维 23
+- 交叉 13
+
+按套卷分布：
+
+- 2026朝阳期中 7
+- 2024朝阳期中 6
+- 2026顺义一模 6
+- 2024西城一模 5
+- 2025东城期末 5
+- 2025丰台期末 5
+- 2026丰台一模 5
+- 2026通州期末 5
+- 2024朝阳一模 4
+- 2024朝阳二模 4
+- 2025海淀期末 4
+- 2025顺义一模 4
+- 2024海淀二模 3
+- 2025海淀二模 3
+- 2025西城二模 3
+- 2026东城期末 3
+- 2026东城一模 2
+
+关键 hard samples / guards：
+
+- 2024西城一模 Q11：保持 B=①③，不得回到 B=①④。
+- 2025海淀二模 Q12/Q13：从补充答案源确认并保留 locator。
+- 2025西城二模 Q16(2)：充分条件假言推理，后件真不能确定前件真，已 L4。
+- 2025西城二模 Q16(3)：创新思维，已 L4。
+- 2026丰台一模 Q18(2)：必要条件假言推理 + 三段论大项不当扩大，已 L4。
+- 2025海淀二模 Q20：辩证思维角度池，已 L4。
+- 2026东城期末 Q17(2)：形式逻辑综合，含矛盾律、充分条件假言、必要条件假言、三段论。
+
+## 需要你裁决
+
+请给出明确 verdict，建议只能在下面几类中选：
+
+1. GO_TO_PHASE05_EVIDENCE_FUSION_ARCHIVE
+   - 允许 Codex 把 74 行做成“证据融合底稿/同类题归档/思维与推理框架骨架”。
+   - 仍然禁止学生稿、Claude/Opus 成文化、Word/PDF、final PASS。
+
+2. REPAIR_BATCH03_BEFORE_FUSION
+   - 说明必须先修哪些问题，例如选择题 34/22 与 report 31/25 不一致、某些 scope_out 误判、某些答案源不足、Q16 cleanup 不认可等。
+
+3. GO_TO_STUDENT_DRAFT_PREP
+   - 只有你确认 evidence pool 足够稳定，且可以进入学生稿准备；若选择此项，请仍说明是否允许 Claude/Opus 成文化，是否仍需先做 content outline 审查。
+
+请特别检查：
+
+- Batch03 是否真正完成了 GPT 要求的 112 个 A-only/L1 行？
+- 选择题 normalized CSV 是否可作为 merge source？
+- 2026东城期末 Q16 cleanup 是否合理？
+- 2025西城二模 Q16(2) 是否应视为已保留而不是新缺口？
+- 现在是否可以进入 Phase05 evidence fusion archive？
+
+请最后输出：
+
+- verdict
+- must-fix list
+- allowed next actions
+- still forbidden actions
+- 你建议下一批让 Codex / ClaudeCode / Claude-Opus 分别做什么
+
+我会按 gate 来判：先确认 Batch03 是否闭合 A-only 队列，再审归一化与 cleanup 是否可追溯，最后决定能否只进入证据归档骨架。
+Thought for 3m 40s
+verdict
+GO_TO_PHASE05_EVIDENCE_FUSION_ARCHIVE
+Batch03 达到我上次要求的 A-only/L1 队列复核目标。可以进入 Phase05，任务限于：
+证据融合底稿
+同类题归档
+思维框架骨架
+推理题型骨架
+缺口反查
+一致性审计
+仍然禁止：
+学生稿
+Claude/Opus 成文化
+Word/PDF
+final PASS
+不能选择 GO_TO_STUDENT_DRAFT_PREP。理由：当前 74 行只是 evidence fusion pool，尚未完成思维链、推理 logical form、题型归档正文骨架、L3/L4 内部一致性校验，也没有 Governor/Confucius 内容门禁。
+审查结论
+1. Batch03 是否完成 112 个 A-only/L1 行
+认可完成。
+依据是：
+
+主观题 56/56 已处理
+选择题 56/56 已处理
+合计 112/112
+主观题 CSV 结构验收通过
+选择题 normalized CSV 结构验收通过
+学生稿权限 112 行全部 no
+合并结果也自洽：
+Batch02 后 L3 = 13
+Batch03 新确认 = 23 + 34 = 57
+Batch03 后 L3 = 70
+70 = 13 + 57
+所以 112 行 A-only 队列已完成 targeted verification。
+注意：这是 A-only 队列复核完成，不等于全书最终覆盖 PASS。
+2. 选择题 normalized CSV 是否可作为 merge source
+可以接受，但必须保留审计约束。
+本轮 normalized CSV 的性质是字段归位修复，且 Codex 保留 raw CSV、生成 normalization audit，并声明不改证据结论。这个处理可以作为机械合并输入。
+
+但必须把以下文件列入 Phase05 审计附件：
+
+claudecode_lane/opus47_batch03_choice/phase04_batch03_B_choice_results_normalized.csv
+claudecode_lane/opus47_batch03_choice/phase04_batch03_B_choice_results_normalization_audit.csv
+同时必须新增一个计数差异说明：
+06_conflicts/phase04_batch03_choice_count_discrepancy_audit.md
+写清：
+raw report 手工计数 = 31 confirmed / 25 scope_out
+row-level normalized CSV = 34 confirmed / 22 scope_out
+merge source = row-level normalized CSV
+理由 = row-level question_id 可逐行回源，手工汇总不可覆盖逐行记录
+是否改变证据结论 = no
+如果 Phase05 后续发现 34 个 confirmed 中存在无 locator、无答案源、无完整选项的行，必须降级。
+3. 2026东城期末 Q16 cleanup 是否合理
+认可。
+根据你提供的信息：
+
+原卷与细则均为一个 7 分单题
+不是 16(1) 与 16(2) 两个选必三逻辑与思维子题
+内容归属为哲学与文化
+非本项目核心范围
+处理方式合理：
+只保留一个 boundary closed row
+不保留错误拆分
+不进入 evidence fusion pool
+不进入思维/推理主链
+但 Phase05 必须把它列在：
+out_of_scope_boundary_decisions
+原因是它曾进入队列，后续不能无痕消失。
+4. 2025西城二模 Q16(2) 是否应视为已保留
+应视为已保留，不构成新缺口。
+当前处理正确：
+
+Batch03 队列缺失不构成漏题
+因为全局控制表中已由 Batch01 锁定为 L4_LOCKED_FOR_FUSION
+无需重复补行
+Phase05 需要做的只是防止重复：
+保持 Q-2025西城二模-16(2) 为 L4
+不得在 Batch03 cleanup 中误降级
+不得重复生成第二个 canonical id
+must-fix list
+以下是进入 Phase05 后必须先修的审计项。它们不阻断进入 Phase05，但阻断 Phase05 通过。
+M1. 固化 Batch03 cleaned control base
+必须冻结：
+05_coverage/phase04_control_base_status_after_batch03_cleaned.csv
+并生成：
+05_coverage/phase04_batch03_cleaned_status_freeze.md
+必须写明：
+total rows = 362
+L4 = 4
+L3 = 70
+L0 = 288
+L1 = 0
+duplicate canonical id = 0
+student-facing permission = no for all rows
+如果还有 L1，则 Batch03 未闭合。你给出的 cleaned table 显示 L1 已清空，这一点要写入 freeze。
+M2. 选择题 34/22 与 report 31/25 的差异审计
+必须新增：
+06_conflicts/phase04_batch03_choice_count_discrepancy_audit.md
+要求逐项列出是哪 3 行造成差异。不能只写“以 normalized 为准”。
+最低字段：
+
+question_id
+raw_report_status
+normalized_row_status
+cause_of_difference
+source_locator
+answer_locator
+final_merge_status
+M3. 2024西城一模 Q11 pairing 污染锁
+必须生成或更新：
+06_conflicts/phase04_2024_xicheng_yimo_Q11_pairing_lock.md
+固定：
+correct answer = B
+correct pairing = B=①③
+A=①②
+B=①③
+C=②④
+D=③④
+Codex A prior wrong pairing = B=①④
+wrong pairing must not propagate
+任何 Phase05 文件出现 B=①④，直接回滚该文件。
+M4. 2025海淀二模 Q12/Q13 答案源 locator 保留
+必须在 Phase05 evidence archive 中保留 answer locator。不能只保留答案字母。
+最低字段：
+
+question_id
+full_options_locator
+answer_key_locator
+answer
+LaneB_confirmation
+fusion_status
+若找不到可核查答案 locator，必须降级：
+L3 -> L0_ANSWER_SOURCE_MISSING
+M5. L3 与 L4 分级不得混用
+当前 74 行中：
+L4 = 4
+L3 = 70
+Phase05 archive 必须保留分级。L3 不得写成“锁定题”。建议命名：
+L4_LOCKED_FOR_FUSION
+L3_CONFIRMED_FOR_EVIDENCE_ARCHIVE
+L3 仍需经过内容字段补全，尤其是：
+思维题：材料信号、答题动作、来源例题
+推理题：logical_form、rule_slogan、trap、answer_action、same_type_question_ids
+M6. 288 个 L0 需要按原因保留
+L0 不能变成垃圾桶。Phase05 必须携带：
+phase04_blocked_type_split.csv/md
+并在 archive skeleton 中显示：
+out_of_scope
+duplicate_removed
+boundary_closed
+answer_missing
+visual_missing
+scope_rejected
+support_reference_row
+allowed next actions
+A. 进入 Phase05 evidence fusion archive
+Phase05 可以启动，建议正式命名：
+Phase05 evidence fusion archive and typology skeleton
+核心输入：
+05_coverage/phase04_control_base_status_after_batch03_cleaned.csv
+06_conflicts/phase04_batch03_codexA_laneB_reconciliation.md
+06_conflicts/phase04_batch03_queue_meta_cleanup_decisions.md
+claudecode_lane/opus47_batch03_choice/phase04_batch03_B_choice_results_normalized.csv
+claudecode_lane/opus47_batch03_subjective/phase04_batch03_A_subjective_results.csv
+B. 建 74 行 evidence pool 总表
+产出：
+05_coverage/phase05_evidence_pool_74.csv
+05_coverage/phase05_evidence_pool_74.md
+字段至少包含：
+question_id
+suite_id
+source_locator
+question_type
+module: 思维 / 推理 / 交叉
+status: L3 / L4
+answer_locator
+rubric_locator
+visual_locator
+full_stem_status
+full_options_status
+student_permission
+risk_note
+C. 建思维部分 evidence archive
+产出：
+05_coverage/phase05_thinking_signal_archive.csv
+05_coverage/phase05_thinking_signal_archive.md
+每一行必须填：
+question_id
+材料信号
+可写思维/方法
+答题动作
+答案落点
+来源例题
+同类题
+易错陷阱
+status
+missing_fields
+思维部分 23 行与交叉题中涉及思维的部分都要挂入，不得只挂主观题。
+D. 建推理部分 typology archive
+产出：
+05_coverage/phase05_reasoning_typology_archive.csv
+05_coverage/phase05_reasoning_typology_archive.md
+05_coverage/phase05_reasoning_same_type_index.md
+每一行必须填：
+question_id
+primary_reasoning_type
+secondary_reasoning_type
+logical_form
+rule_slogan
+valid_or_invalid_pattern
+trap
+answer_action
+same_type_question_ids
+status
+missing_fields
+推理部分 38 行与交叉题中涉及推理的部分都要挂入。
+E. 建交叉题拆分表
+产出：
+05_coverage/phase05_cross_question_split_matrix.csv
+交叉题 13 行必须拆清：
+question_id
+thinking_component
+reasoning_component
+primary_archive_destination
+secondary_archive_destination
+是否双挂载
+交叉题不能只放在一个“交叉”文件里。
+F. 做反查校验
+产出：
+06_conflicts/phase05_archive_backcheck_report.md
+校验：
+74 evidence rows 是否全部进入 archive
+23 thinking rows 是否全部进入 thinking archive
+38 reasoning rows 是否全部进入 reasoning archive
+13 cross rows 是否双挂载或说明单挂载理由
+L4 4 行是否全部保留
+Q11 是否保持 B=①③
+Q12/Q13 是否保留 answer locator
+Q16 cleanup 是否没有误删 L4 Q16(2)
+所有 student_permission 是否仍为 no
+still forbidden actions
+继续禁止：
+学生稿
+Claude/Opus 成文化
+Word/PDF
+final PASS
+把 L3 题写成已锁定标准例题
+把 archive skeleton 写成学生可读正文
+把 B-choice-signal 当成最终入稿证据
+删除 288 个 L0 的阻断记录
+隐藏 2026东城期末 Q16 的 cleanup 决策
+把 2024西城一模 Q11 写回 B=①④
+用无 locator 的答案进入 archive
+尤其禁止现在进入 GO_TO_STUDENT_DRAFT_PREP。
+理由：
+1. Phase05 archive 还没建。
+2. 74 行还没完成同类题归档。
+3. 推理题 logical_form 尚未逐题验收。
+4. 思维题材料信号链尚未逐题验收。
+5. 交叉题双挂载尚未完成。
+6. Governor/Confucius 尚未对内容骨架做门禁。
+下一批分工建议
+Codex A 下一步
+Codex A 做 Phase05 主控生产。
+必须产出：
+
+05_coverage/phase05_evidence_pool_74.csv
+05_coverage/phase05_thinking_signal_archive.csv
+05_coverage/phase05_reasoning_typology_archive.csv
+05_coverage/phase05_cross_question_split_matrix.csv
+05_coverage/phase05_reasoning_same_type_index.md
+06_conflicts/phase05_archive_backcheck_report.md
+06_conflicts/phase04_batch03_choice_count_discrepancy_audit.md
+06_conflicts/phase04_2024_xicheng_yimo_Q11_pairing_lock.md
+Codex A 的工作重点：
+1. 把 74 行全部挂入 archive。
+2. 对推理题逐题补 logical_form。
+3. 对思维题逐题补材料信号和答题动作。
+4. 对交叉题做双挂载。
+5. 保留 L3/L4 状态，不得偷升。
+6. 做 archive backcheck。
+ClaudeCode Lane B 下一步
+ClaudeCode B 不需要再扫 112 行。它要做 Phase05 独立抽查与压力复核。
+建议任务：
+
+1. 独立复核 74 行 evidence pool 是否全部有 locator。
+2. 独立检查 Q11 pairing lock。
+3. 独立检查 Q12/Q13 answer locator。
+4. 抽查 reasoning archive 中全部 L4 与至少 30% L3 推理题。
+5. 抽查 thinking archive 中全部 L4 与至少 30% L3 思维题。
+6. 专门检查 13 个交叉题是否漏双挂载。
+7. 输出 phase05_laneB_archive_audit.csv/md。
+ClaudeCode B 不能做：
+学生化表达
+章节润色
+合并同类题正文
+替 Codex 补写无 locator 答案
+Claude/Opus 下一步
+Claude/Opus 仍不进场成文化。
+当前给 Claude/Opus 的动作应为：
+
+NO_ACTION_FOR_STUDENT_TEXT
+如果确实要提前准备，只允许做一个内部格式规范检查，不接触题目内容：
+phase05_opus_style_constraints_draft.md
+内容只能包括：
+学生稿未来禁止出现的内部词
+未来条目模板
+未来语言风格约束
+不得新增题
+不得改答案
+不得合并题
+不得删除 L3/L4 状态
+Claude/Opus 不得读取 74 行后改写为正文。Phase05 结束、GPT/Governor/Confucius 对 archive 通过后，才允许讨论是否进入 student draft prep。
+最终裁决
+GO_TO_PHASE05_EVIDENCE_FUSION_ARCHIVE
+Batch03 已完成 A-only 队列复核，cleaned control base 可以进入 evidence fusion archive。
+Phase05 的任务是把 74 行做成可审计的思维链与推理题型归档骨架。
+学生稿、Claude/Opus 成文化、Word/PDF、最终 PASS 继续全部阻断。
+
+
+粘贴的文本 (1)(12).txt
+文档
+
+我会按阶段门禁裁决，不提前放行学生稿。重点看 Phase05 是否只通过 archive 结构，以及 Phase06 还必须补哪些锁证据动作。
+Thought for 2m 52s
+verdict
+GO_TO_PHASE06_EVIDENCE_LOCK_AND_FRAMEWORK_FUSION_NO_STUDENT_DRAFT
+Phase05 evidence archive 结构上可以通过。可以进入 Phase06，但 Phase06 只能做 evidence lock、框架融合、题型归档骨架加固、思维链骨架加固。继续禁止学生稿、Claude Opus 教学成文化、Word/PDF、final PASS。
+我的裁决依据是：Phase05 已冻结 cleaned control base，362 行控制底座中 L4=4、L3=70、L0=288、L1=0；74 行 evidence pool 已全部进入 archive；thinking archive 为 36 行，reasoning archive 为 51 行，13 个交叉题双挂载；Codex A 本地硬审计 14 项 0 failure，ClaudeCode B Opus 4.7 max 审计 58 项中 56 pass、2 warn、0 fail、0 blocked；两个 P3 soft findings 已由 Codex A patch 并重新通过本地审计。
+
+Phase05 判断
+1. Phase05 evidence archive 是否结构可接受
+可以接受。
+通过点：
+
+1. control base 已冻结：362 rows。
+2. L1 已清空：0 rows。
+3. evidence pool 74 rows 与 L4/L3 数量一致。
+4. L4 4 行完整保留。
+5. L3 70 行独立保留，没有偷升 L4。
+6. L0 288 行保留，没有从审计视野消失。
+7. thinking archive 覆盖 23 思维 + 13 交叉。
+8. reasoning archive 覆盖 38 推理 + 13 交叉。
+9. 13 个交叉题双挂载。
+10. Q11 pairing lock 已修正为 B=①③。
+11. Q12/Q13 answer locator 已保留。
+12. student-facing permission 全部保持 no。
+这说明 Phase05 已达到“证据归档与骨架入口”的最低结构标准。
+2. 两个 P3 问题是否已足够 patch
+可以视为足够 patch，允许进入 Phase06。
+两个 P3：
+
+P3-1: Q-2026顺义一模-3 错入 reasoning same-type index。
+P3-2: archive backcheck report 曾显示旧 Q11 FAIL。
+patch 后状态：
+1. same-type index 已按 archive membership 生成。
+2. thinking index 只取 思维 + 交叉。
+3. reasoning index 只取 推理 + 交叉。
+4. Q-2026顺义一模-3 已从 reasoning same-type index 移除。
+5. backcheck report 已更新为 PASS_INTERNAL_ARCHIVE_BACKCHECK。
+6. Q11 pairing lock 显示 PASS。
+7. Codex A local audit rerun 仍为 PASS_LOCAL_HARD_AUDIT。
+但 Phase06 启动时必须做一次 patch freeze：
+06_conflicts/phase05_patch_freeze_after_laneB_warnings.md
+必须写清：
+patched files
+before issue
+after state
+rerun audit result
+whether ClaudeCode B warning remains open: no / pending_B_ack
+若还没有 Lane B 对 patch 后文件的二次确认，可以不阻断 Phase06，但必须列为 Phase06 P1 audit item，不能留到学生稿阶段。
+Phase06 允许做什么
+Phase06 建议命名为：
+Phase06 evidence lock and framework fusion
+允许产出内部文件：
+1. evidence lock register
+2. 思维框架融合表
+3. 推理题型融合表
+4. 交叉题双挂载锁定表
+5. L3/L4 分级审计表
+6. L0 blocker retention register
+7. Opus input readiness checklist
+8. Governor interim evidence-lock gate
+9. Confucius interim learning-value gate
+10. GPT commander review packet
+Phase06 的目标不是写稿，而是把 74 行从“证据池”推进到“可交给成文化 lane 的锁定输入包候选”。
+Phase06 必须产出的文件
+P0. evidence lock register
+05_coverage/phase06_evidence_lock_register.csv
+05_coverage/phase06_evidence_lock_register.md
+每行至少包含：
+question_id
+status: L4 / L3
+module: 思维 / 推理 / 交叉
+question_type
+source_locator
+answer_locator
+rubric_or_commentary_locator
+visual_locator
+archive_destination
+student_permission = no
+lock_readiness
+missing_fields
+risk_note
+硬规则：
+L4 可标 LOCKED_FOR_FRAMEWORK。
+L3 只能标 CONFIRMED_FOR_ARCHIVE。
+L3 不得自动标 LOCKED_FOR_STUDENT_TEXT。
+P0. 思维框架融合表
+05_coverage/phase06_thinking_framework_fusion.csv
+05_coverage/phase06_thinking_framework_fusion.md
+36 行必须全部处理，包括 13 个交叉题的思维侧。
+每行必须填：
+
+question_id
+材料信号
+可写思维/方法
+答题动作
+来源例题
+答案落点
+易错陷阱
+同类题
+framework_node
+status: L4 / L3
+missing_fields
+思维部分不能只写“科学思维、辩证思维、创新思维”这些标题。必须形成：
+材料信号 -> 可写思维/方法 -> 答题动作 -> 来源例题
+P0. 推理题型融合表
+05_coverage/phase06_reasoning_typology_fusion.csv
+05_coverage/phase06_reasoning_typology_fusion.md
+51 行必须全部处理，包括 13 个交叉题的推理侧。
+每行必须填：
+
+question_id
+primary_reasoning_type
+secondary_reasoning_type
+logical_form
+rule_slogan
+valid_or_invalid_pattern
+common_trap
+answer_action
+same_type_question_ids
+status: L4 / L3
+missing_fields
+推理部分不能只形成题型目录。每个题型必须能反查到全部题：
+题型 -> 规则口令 -> 常见陷阱 -> 同类真题 -> 解题动作
+P0. 交叉题双挂载锁定表
+05_coverage/phase06_cross_mount_lock.csv
+13 行必须全部明确：
+question_id
+thinking_component
+reasoning_component
+primary_mount
+secondary_mount
+why_double_mount
+whether_student_text_should_duplicate_or_cross_reference
+交叉题不得被一个“交叉题”标签吞掉。
+P0. 题型同类题总索引
+05_coverage/phase06_reasoning_same_type_index_LOCK_CANDIDATE.md
+05_coverage/phase06_thinking_same_method_index_LOCK_CANDIDATE.md
+必须能回答：
+某一推理题型下面有哪些题？
+某一思维方法下面有哪些题？
+每道题是否只出现一次，或因交叉题双挂载而合理出现两次？
+P1. L0 blocker retention register
+05_coverage/phase06_L0_blocker_retention_register.csv
+05_coverage/phase06_L0_blocker_retention_summary.md
+288 个 L0 必须保留，不得删。
+至少分组：
+
+out_of_scope
+boundary_closed
+duplicate_removed
+support_reference_row
+answer_missing
+visual_missing
+scope_rejected
+source_or_locator_issue
+Phase06 必须证明：L0 不会进入 Opus 输入包。
+P1. Governor 与 Confucius interim gate
+05_coverage/phase06_Governor_evidence_lock_gate.md
+05_coverage/phase06_Confucius_framework_value_gate.md
+Governor 重点：
+1. 74 行是否全部锁入 fusion。
+2. L3/L4 是否分级。
+3. Q11 是否无污染。
+4. Q12/Q13 locator 是否存在。
+5. 交叉题是否双挂载。
+6. L0 是否保留。
+7. 是否出现学生稿授权。
+Confucius 重点：
+1. 思维题是否有材料信号。
+2. 思维题是否有答题动作。
+3. 推理题是否有 logical_form。
+4. 推理题是否有规则口令。
+5. 推理题是否有易错陷阱。
+6. 题型归档是否可迁移。
+P1. Phase06 GPT commander review packet
+05_coverage/phase06_GPT_commander_review_packet.md
+必须汇总：
+1. 74 行 evidence lock 状态。
+2. 36 行 thinking fusion 状态。
+3. 51 行 reasoning fusion 状态。
+4. 13 行 cross mount 状态。
+5. L3/L4 分级状态。
+6. L0 retention 状态。
+7. Q11 lock。
+8. Q12/Q13 locator。
+9. unresolved warnings。
+10. 是否申请允许 Claude Opus 进入教学文本成文化。
+Claude Opus 何时可以允许进入
+当前不允许。
+Claude Opus teaching-text lane 只有在 Phase06 通过后，且同时满足以下条件，才可以有限介入：
+
+1. phase06_evidence_lock_register 完成。
+2. 74 行全部有 archive destination。
+3. 36 行 thinking fusion 无 missing critical fields。
+4. 51 行 reasoning fusion 无 missing critical fields。
+5. 13 行 cross rows 双挂载已锁。
+6. L3/L4 状态未混淆。
+7. Q11 pairing lock 通过。
+8. Q12/Q13 answer locators 保留。
+9. L0 rows 明确排除出 Opus input。
+10. Governor evidence-lock gate 通过。
+11. Confucius framework-value gate 通过。
+12. GPT-5.5 Pro 明确放行 Opus input packet。
+即使放行，Opus 也只能拿到：
+locked_opus_input_packet
+不能直接读旧稿，不能读未清洗 source ledger，不能自行补题，不能自行改答案，不能合并题导致逐题覆盖消失。
+Opus 首次允许任务也只能是：
+
+teaching-text prototype from locked entries
+不是最终稿。
+必须继续保留的 guardrails
+1. L3 vs L4
+L4 = 已通过高强度证据锁，可用于 Phase06 framework lock。
+L3 = A+B 确认进入 evidence archive，但仍需字段补全和内容一致性检查。
+硬规则：
+1. L3 不得写成“锁定真题”。
+2. L3 不得自动进入 Opus input。
+3. L3 若缺 logical_form、材料信号、answer_action、locator，必须降级或 pending。
+4. L4 不得因成文化被改答案、改题型、改设问。
+5. Phase06 必须单独列 L3_promote_candidates 与 L3_hold_list。
+2. B-choice-signal
+B-choice-signal = B 线基于选择题信号和答案来源确认可进 evidence archive。
+硬规则：
+1. B-choice-signal 不等于最终学生稿许可。
+2. B-choice-signal 不等于 L4。
+3. B-choice-signal 题必须有 full options 与 answer locator。
+4. B-choice-signal 题在推理部分仍要补 logical_form。
+5. B-choice-signal 题在思维部分仍要补材料信号与答题动作。
+3. 交叉题
+13 个交叉题必须双挂载。
+硬规则：
+1. 不能只放在“交叉题”总表。
+2. 每个交叉题必须有 thinking_component。
+3. 每个交叉题必须有 reasoning_component。
+4. 学生稿阶段若避免重复讲解，必须设置 cross-reference，但不能删掉任一挂载。
+5. Phase06 要决定 primary_mount 与 secondary_mount。
+4. Q11
+Q-2024西城一模-11 硬锁：
+answer = B
+pairing = B=①③
+wrong retired pairing = B=①④
+硬规则：
+1. Phase06 任何文件出现 Q11 B=①④，立即回滚。
+2. B=①④ 只允许出现在非 Q11 行，例如 Q-2026丰台一模-7 的合法 pairing。
+3. Q11 archive row 必须保留纠错记录。
+4. Q11 进入推理题型时，必须使用完全归纳推理与正确选项 pairing。
+5. Q12/Q13
+2025海淀二模 Q12/Q13 硬锁：
+Q12 answer = D
+Q13 answer = C
+locator = render_008_page_04 + supplemental answer table page 9
+硬规则：
+1. 不得只保留答案字母。
+2. 不得删除 supplemental answer table locator。
+3. 不得用逻辑推断替代 answer locator。
+4. Phase06 archive 必须保留 full_options_locator 与 answer_key_locator。
+6. L0 rows
+L0 = 288 rows retained
+硬规则：
+1. L0 不得进 Opus input。
+2. L0 不得在 Phase06 中消失。
+3. L0 必须按 blocker reason 保留。
+4. out_of_scope 与 true blocker 要区分。
+5. duplicate_removed 与 support_reference_row 要区分。
+6. Phase06 final packet 必须说明 L0 为什么不进入 74 行 evidence pool。
+still forbidden
+继续阻断：
+学生稿
+Claude Opus 教学成文化
+Word/PDF
+final PASS
+任何学生可见章节
+任何“终稿”“宝典成品”说法
+任何把 L3 当 L4 的表述
+任何把 archive skeleton 当正文
+任何删除 L0 的操作
+当前阶段最多允许说：
+Phase05 evidence archive structurally passed.
+Phase06 evidence-lock/framework-fusion may begin.
+不能说：
+内容已可交付学生。
+Phase06 分工建议
+Codex A
+Codex A 继续做主控和生产：
+1. 生成 phase06_evidence_lock_register。
+2. 生成 phase06_thinking_framework_fusion。
+3. 生成 phase06_reasoning_typology_fusion。
+4. 生成 phase06_cross_mount_lock。
+5. 生成 phase06_L0_blocker_retention_register。
+6. 生成 phase06_Governor_evidence_lock_gate。
+7. 生成 phase06_Confucius_framework_value_gate。
+8. 生成 phase06_GPT_commander_review_packet。
+Codex A 不得写学生稿。
+ClaudeCode B
+ClaudeCode B 做独立审查：
+1. 审查 Phase06 的 74 行是否全部保留。
+2. 审查 36 thinking rows 是否全部有材料信号与答题动作。
+3. 审查 51 reasoning rows 是否全部有 logical_form 与 trap。
+4. 审查 13 cross rows 是否双挂载。
+5. 审查 Q11、Q12、Q13 三个 hard lock。
+6. 审查 L0 是否保留。
+7. 输出 phase06_laneB_framework_fusion_audit.csv/md。
+ClaudeCode B 不得成文化。
+Claude Opus
+当前指令：
+NO_ACTION_FOR_TEACHING_TEXT
+最多允许准备一个未来输入边界文件：
+phase06_opus_input_boundary_rules.md
+内容只能写：
+1. Opus 只能改写 locked entries。
+2. Opus 不能新增题。
+3. Opus 不能删题。
+4. Opus 不能改答案。
+5. Opus 不能改 L3/L4 状态。
+6. Opus 不能把交叉题单挂。
+7. Opus 输出必须保留 question_id。
+8. Opus 输出不得出现 source locator、lane、Governor、Confucius 等内部词。
+最终阶段裁决
+GO_TO_PHASE06_EVIDENCE_LOCK_AND_FRAMEWORK_FUSION_NO_STUDENT_DRAFT
+Phase05 archive 结构合格。两个 P3 soft findings 已足够 patch。可以进入 Phase06，但 Phase06 仍是证据锁定与框架融合阶段，不是学生稿阶段。
+
+
+粘贴的文本 (1)(13).txt
+文档
+
+Thought for 4m 13s
+verdict
+GO_TO_PHASE07_LOCKED_OPUS_INPUT_PACKET_PREP_NO_STUDENT_DRAFT
+Phase06 可以通过，允许进入 Phase07 准备 locked_opus_input_packet。
+继续禁止学生稿、Claude Opus 教学成文化正文、Word/PDF、final PASS。
+依据：Phase06 evidence lock register 为 74 行，L4=4、L3=70；thinking fusion 为 36 行，reasoning fusion 为 51 行，cross mount lock 为 13 行，L0 retention register 为 288 行；Codex A 本地审计 16 项 0 failure；ClaudeCode Lane B Opus 4.7 max 审计为 PASS_PHASE06_WITH_WARNINGS，38 项中 30 PASS、8 WARN、0 FAIL、0 BLOCK；Lane B 明确确认 74 行、36 行、51 行、13 个双挂载、Q11、Q12/Q13、288 个 L0 排除、以及当前仍禁止学生稿/Opus prose/Word/PDF/final PASS。
+
+1. patched Phase06 是否可接受
+可以接受为：
+evidence-lock / framework-fusion acceptable
+但只能接受到 Phase07 input-packet preparation，不接受为 student draft readiness。
+理由：
+
+1. 74 行 evidence lock register 数量闭合。
+2. L3/L4 分级仍保留。
+3. 36 行 thinking fusion 与 51 行 reasoning fusion 均已建立。
+4. 13 个交叉题双挂载已确认。
+5. 288 个 L0 行被保留且排除出 Opus input。
+6. Q-2024西城一模-11 保持 B=①③，无旧错配污染。
+7. Q-2025海淀二模-12/13 保留答案与 locator。
+8. Codex A 与 ClaudeCode B 均无 blocker。
+Lane B warnings 被 Codex A patch 后，post-patch checks 显示：
+thinking placeholders = 0
+reasoning single-letter rule_slogan = 0
+reasoning duplicated answer_action = 0
+letter-only evidence answer_locator = 0
+Q-2026顺义一模-3 在 Phase06 reasoning index/fusion 中出现次数 = 0
+Q-2024西城一模-11 retired wrong-pairing string 出现次数 = 0
+Codex A audit 仍为 PASS_LOCAL_PHASE06_STRUCTURE_AUDIT
+这些足以支持进入 Phase07。
+2. Lane B warnings 是否还需要再审
+不需要在进入 Phase07 前做完整 Lane B 重审。
+但需要做一个窄范围 patch acknowledgment，作为 Phase07 的 P0 审计附件。
+必须产出：
+
+claudecode_lane/opus47_phase07_locked_packet_audit/phase06_warning_patch_ack.csv
+claudecode_lane/opus47_phase07_locked_packet_audit/phase06_warning_patch_ack.md
+只复核 8 个 patch 点：
+F01 Q-2026朝阳期中-13 answer_action 已从 D 改为动作链。
+F02 Q-2026丰台一模-4 method 已细化为 分析与综合；综合思维。
+F03 Q-2026朝阳期中-11 rule_slogan 已改为三段论补大前提规则。
+F04 Q-2026朝阳期中-13 rule_slogan 已改为类比/联想/感性具体边界。
+F05 duplicate/generic answer_action 已清零。
+F06 letter-only answer_locators 已清零。
+F07 L0 group summary 已含 8 类，零计数类别显式保留。
+F08 Phase05 patch freeze 已由 Lane B Phase06 audit 承认。
+这不是阻断 Phase07 启动的条件，但阻断任何 Opus prototype 消费输入包。
+3. 是否允许准备 locked_opus_input_packet
+允许。
+但 Phase07 的任务只能是准备输入包，不是让 Opus 写教学文本。
+阶段名建议固定为：
+
+Phase07 locked Opus input packet preparation
+Phase07 允许做：
+1. 从 74 行 evidence lock register 中筛选可进入 Opus 输入包的行。
+2. 为每行生成 locked entry。
+3. 保留 question_id、题型、答案、材料信号、logical_form、answer_action 等字段。
+4. 建立 L3_hold 与 L4_ready 分区。
+5. 排除 L0。
+6. 排除缺关键字段的 L3。
+7. 生成 Opus 禁止动作清单。
+8. 生成 machine-checkable backcheck。
+9. 交给 GPT/Governor/Confucius 再审。
+Phase07 禁止做：
+1. 不得让 Opus 改写正文。
+2. 不得生成学生稿。
+3. 不得写章节导语。
+4. 不得写宝典成品。
+5. 不得生成 Word/PDF。
+6. 不得 final PASS。
+4. Phase07 必须产出的文件
+P0. 锁定输入包总表
+05_coverage/phase07_locked_opus_input_packet.csv
+05_coverage/phase07_locked_opus_input_packet.md
+每行必须包含：
+question_id
+suite_id
+module: 思维 / 推理 / 交叉
+status: L4 / L3
+input_permission: include / hold / exclude
+source_locator
+answer_locator
+rubric_or_commentary_locator
+visual_locator
+question_type
+full_stem_status
+full_options_status
+student_permission = no
+opus_permission = packet_only
+risk_note
+硬规则：
+1. L4 可以 include。
+2. L3 只有关键字段全齐才可以 include_as_L3_packet_candidate。
+3. 缺关键字段的 L3 必须 hold。
+4. L0 必须 exclude。
+5. 所有行 student_permission 继续为 no。
+P0. 思维输入包
+05_coverage/phase07_opus_input_thinking_entries.csv
+05_coverage/phase07_opus_input_thinking_entries.md
+每个 thinking entry 必须包含：
+question_id
+材料信号
+可写思维/方法
+答题动作
+答案落点
+来源例题
+同类题
+易错陷阱
+L3_or_L4_status
+allowed_opus_task
+forbidden_opus_changes
+缺以下任一字段的 L3，不得进入 Opus 输入包：
+材料信号
+可写思维/方法
+答题动作
+答案落点
+来源例题
+P0. 推理输入包
+05_coverage/phase07_opus_input_reasoning_entries.csv
+05_coverage/phase07_opus_input_reasoning_entries.md
+每个 reasoning entry 必须包含：
+question_id
+primary_reasoning_type
+secondary_reasoning_type
+logical_form
+rule_slogan
+valid_or_invalid_pattern
+common_trap
+answer_action
+same_type_question_ids
+L3_or_L4_status
+allowed_opus_task
+forbidden_opus_changes
+缺以下任一字段的 L3，不得进入 Opus 输入包：
+logical_form
+rule_slogan
+valid_or_invalid_pattern
+common_trap
+answer_action
+same_type_question_ids
+P0. 交叉题输入锁
+05_coverage/phase07_opus_input_cross_entries.csv
+05_coverage/phase07_cross_mount_opus_policy.md
+13 个交叉题必须逐行说明：
+question_id
+thinking_entry_id
+reasoning_entry_id
+primary_mount
+secondary_mount
+whether_opus_should_duplicate_explanation
+whether_opus_should_cross_reference
+forbidden_single_mount = yes
+Opus 未来可以减少重复表达，但不能删除任一挂载。
+P0. L3 hold list
+05_coverage/phase07_L3_hold_list.csv
+05_coverage/phase07_L3_promote_or_hold_decision.md
+必须将 70 个 L3 全部判为：
+include_as_packet_candidate
+hold_missing_fields
+hold_answer_locator_risk
+hold_visual_risk
+hold_scope_risk
+hold_reasoning_form_risk
+hold_thinking_signal_risk
+这一步是 Phase07 的核心。不能把 70 个 L3 一次性全部喂给 Opus。
+P0. L0 exclusion list
+05_coverage/phase07_L0_excluded_from_opus_input.csv
+05_coverage/phase07_L0_exclusion_summary.md
+288 个 L0 必须全部出现，并保留原因：
+out_of_scope
+boundary_closed
+duplicate_removed
+support_reference_row
+answer_missing
+visual_missing
+scope_rejected
+source_or_locator_issue
+P0. hard-lock audit
+06_conflicts/phase07_hard_lock_audit.md
+06_conflicts/phase07_hard_lock_audit.csv
+必须检查：
+Q-2024西城一模-11 = B=①③
+Q-2024西城一模-11 不出现 B=①④
+Q-2025海淀二模-12 = D + render_008_page_04 + supplemental answer table page 9
+Q-2025海淀二模-13 = C + render_008_page_04 + supplemental answer table page 9
+Q-2026顺义一模-3 不进入 reasoning input
+13 个 cross rows 双挂载
+288 个 L0 不进入 input
+student_permission 全部 no
+P1. Opus boundary rules final
+现有文件可以升级为：
+05_coverage/phase07_opus_input_boundary_rules_FINAL_FOR_PACKET.md
+必须写明 Opus 禁止事项：
+1. 不得新增题。
+2. 不得删题。
+3. 不得改答案。
+4. 不得改题型。
+5. 不得改 L3/L4 状态。
+6. 不得把 L3 写成 L4。
+7. 不得把交叉题单挂。
+8. 不得补写无 locator 的答案。
+9. 不得引入旧稿结论。
+10. 不得输出学生稿。
+11. 不得生成 Word/PDF。
+12. 不得出现 source locator、lane、Governor、Confucius 等内部词进入未来学生文本。
+P1. Governor / Confucius / GPT Phase07 gates
+05_coverage/phase07_Governor_locked_packet_gate.md
+05_coverage/phase07_Confucius_locked_packet_value_gate.md
+05_coverage/phase07_GPT_commander_review_packet.md
+Governor 检查：
+packet 行数
+include / hold / exclude 数量
+L3/L4 分级
+L0 排除
+hard locks
+cross 双挂载
+student_permission=no
+Opus 权限=packet_only
+Confucius 检查：
+思维条目是否可形成材料触发链
+推理条目是否可形成解题动作链
+同类题是否可迁移
+是否存在空泛题型总结风险
+是否存在只给答案字母风险
+是否存在没有考场动作的题
+GPT packet 必须申请下一步是否允许：
+Opus teaching-text prototype from locked packet
+不能申请 final student稿。
+5. 哪些 L3 必须排除出 Opus input
+原则：L3 不因 L3 身份自动排除，但 L3 需要逐行过字段门槛。以下 L3 必须排除或 hold，不得进入 Opus input。
+5.1 缺 source 或 answer locator 的 L3
+排除：
+source_locator missing
+answer_locator missing
+visual_locator required but missing
+rubric/commentary required but missing
+5.2 选择题证据仍停留在 B-choice-signal 的 L3
+如果只有：
+answer = A/B/C/D
+但没有：
+完整题干
+完整选项
+answer_locator
+source_locator
+必须 hold。
+B-choice-signal 可以保留为 evidence archive 状态，不能直接成为 Opus 输入许可。
+
+5.3 推理字段不完整的 L3
+hold：
+logical_form 缺失
+rule_slogan 缺失
+valid_or_invalid_pattern 缺失
+trap 缺失
+answer_action 缺失
+same_type_question_ids 缺失
+特别是 rule_slogan 不能只写答案字母，answer_action 不能是“选 X”。
+5.4 思维字段不完整的 L3
+hold：
+材料信号 缺失
+可写思维/方法 缺失
+答题动作 缺失
+答案落点 缺失
+来源例题 缺失
+特别是 method 不能写“待细化”，answer_action 不能是泛句。
+5.5 交叉挂载不完整的 L3
+hold：
+thinking_component 缺失
+reasoning_component 缺失
+primary_mount 缺失
+secondary_mount 缺失
+cross_reference policy 缺失
+5.6 hard-lock 风险行
+以下行若任何字段缺失或污染，必须 hold：
+Q-2024西城一模-11
+Q-2025海淀二模-12
+Q-2025海淀二模-13
+Q-2026顺义一模-3
+Q11 任何地方出现 B=①④ 作为 Q11 正确配对，整包回滚。
+6. 下一阶段分工
+Codex A
+Codex A 执行 Phase07 主控：
+1. 生成 locked_opus_input_packet。
+2. 生成 thinking / reasoning / cross 三类 input entries。
+3. 生成 L3 hold list。
+4. 生成 L0 exclusion list。
+5. 生成 hard-lock audit。
+6. 生成 Opus boundary rules FINAL。
+7. 生成 Governor / Confucius / GPT Phase07 gates。
+Codex A 不得写学生稿。
+ClaudeCode B
+ClaudeCode B 做 Phase07 input-packet 独立审计：
+1. 审计 packet 是否只含 include 行。
+2. 审计所有 include 行是否字段齐全。
+3. 审计 L3 hold 是否合理。
+4. 审计 L0 是否全部排除。
+5. 审计 Q11、Q12、Q13、Q-2026顺义一模-3。
+6. 审计 13 个 cross rows。
+7. 审计 Opus boundary rules 是否足够硬。
+8. 输出 phase07_laneB_locked_packet_audit.csv/md。
+ClaudeCode B 不得写教学文本。
+Claude Opus
+当前仍然：
+NO_TEACHING_TEXT_ACTION
+可以在 Phase07 结束后，若 GPT/Governor/Confucius 全部通过，才讨论：
+Claude Opus teaching-text prototype from locked packet
+不是最终稿。
+still forbidden
+继续禁止：
+学生稿
+Claude Opus 教学正文
+Word/PDF
+final PASS
+终稿说法
+宝典成品说法
+L3 当 L4
+B-choice-signal 直接入稿
+L0 删除
+交叉题单挂
+Q11 错配回流
+Q12/Q13 locator 丢失
+final line
+GO_TO_PHASE07_LOCKED_OPUS_INPUT_PACKET_PREP_NO_STUDENT_DRAFT
+
+
+粘贴的文本 (1)(14).txt
+文档
+ Phase07 Commander Review Prompt，。： Phase07 locked Opus input packet  Phase08 Opus  prototype；、Word/PDF  final PASS。
+
+我会只审 Phase07 输入包是否足以进入 Phase08 prototype，重点压住 include/hold 分层、硬锁、P3 补丁、Opus 边界与后续风险。
+Thought for 2m 48s
+verdict
+GO_TO_PHASE08_OPUS_TEACHING_PROTOTYPE_NO_FINAL
+我认可 Phase07 已足够进入 Phase08，但只能进入 Claude Opus 4.7 教学文本 prototype for review。
+这不是学生稿，不是终稿，不是 Word/PDF，不是 final PASS。
+根据 Phase07 包，当前 packet 共 74 行，权限分布为 include=4、include_as_packet_candidate=25、hold_answer_locator_risk=25、hold_reasoning_form_risk=20；L3 共 70 行，其中 25 行可作为 packet candidate，45 行继续 hold；288 个 L0 全部 exclude；student permission 全部 no，Opus permission 全部 packet_only。Codex A 本地审计为 PASS_LOCAL_PHASE07_PACKET_AUDIT，Lane B Opus 4.7 max 审计为 14 PASS / 2 WARN / 0 FAIL / 0 BLOCK，且无 Phase07 blocker；两个 P3 warning 已由 Codex A 在 generator 层 patch，并保持本地 hard-lock audit 通过。
+
+must-fix before Opus writes prototype
+Phase08 可以启动，但 Opus 真正生成 prototype 前，必须先做一个很窄的 patch freeze，不需要重新跑完整 Lane B 大审计。
+必须新增或冻结：
+
+06_conflicts/phase07_laneB_warning_patch_freeze.md
+内容必须写清：
+1. W01 Q-2026丰台一模-18-2 answer_action 已从 placeholder 改成推理动作链。
+2. W01 同题 answer_locator 已从 answer_confirmed_PASS_TO_FUSION 改为 043 slide35/36 rubric 定位。
+3. W02 thinking input 中 NO_SAME_METHOD_IN_PHASE06_INDEX 已清零。
+4. 同类题 auto framework-node matching 的来源和 risk_note 已保留。
+5. packet rows 仍为 74。
+6. permission counts 仍为 4/25/25/20。
+7. thinking input rows 仍为 18。
+8. reasoning input rows 仍为 16。
+9. cross rows 仍为 13。
+10. hard-lock audit 仍为 PASS。
+这一步不是为了重新证明全局证据，只是为了防止 Phase08 消费旧 packet。
+accepted Phase08 scope
+Phase08 允许做：
+Claude Opus teaching-text prototype draft for review
+只能基于 Phase07 locked packet 中：
+include = 4
+include_as_packet_candidate = 25
+即最多 29 条进入 prototype。
+hold_answer_locator_risk=25 和 hold_reasoning_form_risk=20 继续 hold，不得进入 prototype 正文。
+Phase08 的 prototype 必须带内部状态，不得伪装成学生稿：
+
+prototype_status = review_only
+student_permission = no
+word_pdf_permission = no
+final_pass_permission = no
+Opus prototype 能写什么
+思维部分可以写
+Opus 可以把已 include 的 thinking entries 改写成教学 prototype，结构必须固定：
+question_id
+题目来源简记
+材料信号
+可写思维/方法
+为什么能想到
+答题动作
+答案落点
+易错陷阱
+同类题
+prototype wording
+prototype wording 可以做：
+1. 把材料信号写得更像学生能识别的触发词。
+2. 把“可写思维/方法”改成可迁移表达。
+3. 把答题动作改成考场步骤。
+4. 把同类题做成内部归档提示。
+5. 把易错陷阱写成学生看得懂的提醒。
+推理部分可以写
+Opus 可以把已 include 的 reasoning entries 改写成题型 prototype，结构必须固定：
+question_id
+题型归属
+材料信号
+逻辑形式
+规则口令
+有效式或错误式
+解题动作
+答案落点
+易错陷阱
+同类题
+prototype wording
+尤其推理部分必须保持：
+题型 -> 规则口令 -> 常见陷阱 -> 同类真题 -> 解题动作
+不能写成“推理知识点总述”。
+交叉题可以写
+交叉题必须保留双挂载策略：
+thinking entry
+reasoning entry
+primary mount
+secondary mount
+cross-reference policy
+Opus 可以减少重复表达，但不能删除任一挂载。
+Opus prototype 不能做什么
+严格禁止：
+1. 不得新增题。
+2. 不得删题。
+3. 不得改答案。
+4. 不得改选项 pairing。
+5. 不得改 L3/L4 状态。
+6. 不得把 L3 写成 L4。
+7. 不得把 hold 行写入 prototype。
+8. 不得把交叉题单挂。
+9. 不得补写无 locator 的答案。
+10. 不得引入旧稿结论。
+11. 不得生成学生稿。
+12. 不得生成 Word/PDF。
+13. 不得写“终稿”“成品”“宝典完成”。
+14. 不得在未来学生可见文本中出现 source locator、lane、Governor、Confucius、packet、L3、L4 等内部词。
+Opus 的输出必须保留 question_id，供 Codex A 和 GPT 回查。
+如果 Opus 改写后丢失 question_id，该段直接无效。
+Phase08 必须产出的文件
+1. Opus prototype 输入冻结包
+05_coverage/phase08_opus_prototype_input_freeze.csv
+05_coverage/phase08_opus_prototype_input_freeze.md
+必须列出：
+include rows = 4
+include_as_packet_candidate rows = 25
+total prototype input rows = 29
+hold rows excluded = 45
+L0 excluded = 288
+student_permission = no
+2. Opus prototype 输出
+07_student_prototype/phase08_opus_teaching_prototype_REVIEW_ONLY.md
+07_student_prototype/phase08_opus_teaching_prototype_REVIEW_ONLY.csv
+文件名必须保留 REVIEW_ONLY。
+每条必须包含：
+
+question_id
+module
+prototype_section
+source_entry_status: L4 / L3_candidate
+generated_text
+fields_preserved_check
+opus_self_note
+3. Opus change log
+07_student_prototype/phase08_opus_change_log.csv
+07_student_prototype/phase08_opus_change_log.md
+必须逐条记录：
+question_id
+changed_field
+before_packet_text
+after_prototype_text
+change_type: wording_only / structure_only
+answer_changed: must_be_no
+status_changed: must_be_no
+question_deleted: must_be_no
+question_added: must_be_no
+4. Codex A prototype verification
+08_review/phase08_codexA_opus_prototype_verification.csv
+08_review/phase08_codexA_opus_prototype_verification.md
+检查：
+1. prototype 只含 29 个 allowed input rows。
+2. 没有 hold rows。
+3. 没有 L0 rows。
+4. question_id 全保留。
+5. 答案没有被改。
+6. pairing 没有被改。
+7. L3/L4 没有被改。
+8. 交叉题没有单挂。
+9. Q11 没有出现 B=①④ 作为正确 pairing。
+10. Q12/Q13 没有丢 locator 所支撑的答案。
+11. Q-2026顺义一模-3 没有进入 reasoning prototype。
+12. 无学生稿、终稿、Word/PDF、PASS 授权。
+5. Lane B prototype audit
+claudecode_lane/opus47_phase08_prototype_audit/phase08_laneB_opus_prototype_audit.csv
+claudecode_lane/opus47_phase08_prototype_audit/phase08_laneB_opus_prototype_audit.md
+claudecode_lane/opus47_phase08_prototype_audit/phase08_laneB_opus_prototype_findings.csv
+Lane B 只审查 prototype 是否越界，不负责润色。
+6. Governor / Confucius / GPT gates
+08_review/phase08_Governor_prototype_boundary_gate.md
+08_review/phase08_Confucius_learning_value_gate.md
+08_review/phase08_GPT_commander_review_packet.md
+Governor 检查边界：
+input 是否只来自 29 行
+hold 是否泄漏
+L0 是否泄漏
+答案是否被改
+状态是否被改
+hard locks 是否保持
+student/Word/PDF/PASS 是否仍 blocked
+Confucius 检查学习价值：
+思维题是否像哲学宝典一样有触发链
+推理题是否有题型、规则、陷阱、动作
+同类题是否有迁移意义
+是否仍有空泛总结
+是否仍有只讲答案不讲方法
+Phase08 必须重点压测的风险点
+L3 被写成 L4
+29 行里有 25 行是 L3 candidate。Opus 不能把它们写成“已锁定标准题”。
+hold 行泄漏
+45 个 hold 行绝对不能进入 prototype，尤其 hold_answer_locator_risk 和 hold_reasoning_form_risk。
+Q11 pairing 回流污染
+Q-2024西城一模-11 只能是 B=①③。B=①④ 只能作为旧错配退休记录，不能作为正确 pairing。
+Q12/Q13 答案源弱化
+2025海淀二模 Q12=D、Q13=C 必须继续带着 render page 与补充答案表的证据链，不能只剩答案字母。
+Q-2026顺义一模-3 误入推理
+它不得进入 reasoning input 或 reasoning prototype。
+交叉题单挂
+13 个 cross rows 必须保留双挂或明确 cross-reference，不得被 Opus 合并掉。
+推理题变成泛泛题型讲义
+每道推理题必须保留 logical_form、规则口令、陷阱、解题动作，不能只写“三段论题常见考法”。
+思维题变成知识摘要
+每道思维题必须保留材料信号、可写思维/方法、答题动作、来源例题，不能写成“辩证思维要整体性”。
+内部术语进入 prototype 正文
+prototype 可保留内部字段供审查，但 prototype wording 区域不得出现 lane、packet、Governor、L3、L4、source locator 等词。
+Opus 自行补缺
+Opus 看到空缺时只能标 NEEDS_SOURCE_REPAIR，不得补题、补答案、补同类题。
+是否需要再次让 Lane B 复核 P3 patch
+不需要在 Phase08 启动前做完整 Lane B 复核。
+但需要在 Phase08 的 P0 或 Codex verification 中纳入窄范围 patch check。
+我的裁决：
+
+no full Lane B rerun before Phase08
+yes narrow patch freeze before Opus consumption
+yes Lane B audit after Opus prototype output
+原因：
+1. Lane B 原审计无 FAIL / BLOCK。
+2. 两个 warning 是 P3 文本质量 warning。
+3. Codex A patch 在 generator 层完成，且本地审计与 hard-lock audit 仍通过。
+4. Phase08 本身还不是学生稿，风险可以在 prototype audit 阶段继续压测。
+allowed next
+允许：
+1. 启动 Phase08。
+2. 用 29 行 include / include_as_packet_candidate 生成 Opus prototype。
+3. 输出 review-only 教学文本 prototype。
+4. 做 Codex A verification。
+5. 做 Lane B prototype audit。
+6. 做 Governor / Confucius / GPT Phase08 gate。
+still forbidden
+继续禁止：
+学生稿
+最终学生稿
+Claude Opus final teaching prose
+Word
+PDF
+final PASS
+宝典成品
+终稿
+把 prototype 当作可交付内容
+把 74 行全量喂给 Opus
+把 45 个 hold 行喂给 Opus
+把 288 个 L0 行喂给 Opus
+Phase08 最多只能交付：
+Opus prototype draft for review
+不能交付：
+student-facing manuscript
+final line
+GO_TO_PHASE08_OPUS_TEACHING_PROTOTYPE_NO_FINAL
+
+
+粘贴的文本 (1)(15).txt
+文档
+x
+
+我
+已停止思考
+
+/ Phase08 prompt ， Phase08 verdict。：GOTOPHASE09STUDENTDRAFTCONSTRUCTIONNOWORDNOFINAL / PATCHPHASE08BEFORESTUDENTDRAFT / RUNADDITIONALLANEBAUDIT / STOPSORead the attached Phase08 prompt file above and give the Phase08 verdict now. Start with exactly one of: GO_TO_PHASE09_STUDENT_DRAFT_CONSTRUCTION_NO_WORD_NO_FINAL / PATCH_PHASE08_BEFORE_STUDENT_DRAFT / RUN_ADDITIONAL_LANEB_AUDIT / STOP_SOURCE_REPAIR_REQUIRED. Then list concrete question-ID risks and next-phase hard rules. Do not say "I will"; output the verdict directly.URCEREPAIRREQUIRED。。“”，
+
+已按 Phase08 附件审阅。这次只裁 Phase08 到 Phase09 的门，不放 Word/PDF、final PASS 或成品口径。
+Thought for 6m 11s
+GO_TO_PHASE09_STUDENT_DRAFT_CONSTRUCTION_NO_WORD_NO_FINAL
+verdict
+认可 Phase08 在 warning patch 之后通过 review-only prototype gate，可以进入 Phase09 受控学生稿构建阶段。边界很窄：只允许把已通过 Phase08 的 29 行 prototype 转成受控学生稿草案，不允许扩展到 74 行全量证据池，不允许纳入 45 个 hold rows，不允许纳入 288 个 L0 rows，不允许 Word/PDF，不允许 final PASS，不允许称终稿、最终稿、宝典成品。Phase08 的关键门禁已经闭合：29 行输入、29 行 prototype CSV、29 个 Markdown question blocks；hold rows 与 L0 rows 未泄漏；Lane B blockers 为 0；Codex A post-patch failures 为 0；Governor 与 Confucius 均为 pending GPT 的 review-only pass；Lane B 原先发现的术语残留、两个选择题答案字母缺失、审稿味表达等均已 patch。
+must-fix before Phase09 first draft freeze
+Q-2025丰台期末-7 不能放入思维主链正文。它的当前表达明确指向哲学唯物论，从实际出发、从当下做起，选必三超前思维只是干扰项。Phase09 必须把它放进边界陷阱或易错辨析小节，标签建议为 boundary_trap，不得作为选必三思维方法正例。
+Q-2025顺义一模-7 的答案落点存在高风险表述。prototype 写到 A 选项原归类正确而该选项陈述错，这个表述容易自相矛盾。Phase09 进入学生稿前，Codex A 必须回 Phase08 freeze 与原答案依据核验：正确选项 A 的原因到底是 A 对谬误判断错误，还是题干问法为逻辑分析错误。没有核验前，只能保留为待审表达，不得定稿化。
+Q-2026顺义一模-19-2 虽然进入交叉双挂载，但内容主体是科学思维三特征，推理挂载写成三段论/判断/推理存在误导风险。Phase09 必须把主讲位置放在科学思维，推理侧只作为题目框架或共采分辅助，不得把它写成典型三段论题。
+Q-2024朝阳二模-19-1 与 Q-2024朝阳二模-19-2 不能在学生稿中保留任何细则编号、文件编号、填空编号审稿味表达。Phase08 已 patch 掉 细则022 之类痕迹，Phase09 仍需复扫 generated student text，保证不回流。
+Q-2024朝阳一模-20-1、Q-2024朝阳一模-20-2、Q-2026通州期末-19-2 都是假言推理题，Phase09 必须把充分条件、必要条件的有效式分开写，不得混用口诀。特别是必要条件假言推理，必须核准肯定后件、肯定前件的有效性表述。
+Q-2026丰台一模-18-2 是 L4 hard sample，必须保留已锁动作链：甲为必要条件假言推理肯定后件式且前提真实，乙为三段论大项不当扩大。不得简写为甲正确乙错误，也不得改成演绎推理泛称。
+Q-2025海淀二模-20 必须保持角度池写法。学生稿中只能写三个可选角度池中选材料最顺的两个写深，不能回到三点全必答，也不能写成 3 点乘 2 分。
+Q-2024西城一模-11、Q-2025海淀二模-12、Q-2025海淀二模-13、Q-2026顺义一模-3 不得作为 Phase09 正文题条目进入。它们在 Phase08 中只是 hard-excluded 或同类题 ID 引用，不能借 Phase09 扩写时被展开。
+allowed next
+Phase09 可以启动，阶段名建议固定为：
+Phase09 controlled student draft construction from Phase08 prototype only
+允许产出：
+09_student_draft/phase09_student_draft_CONTROLLED_FROM_29.md
+09_student_draft/phase09_student_draft_control_matrix.csv
+09_student_draft/phase09_question_id_backcheck.csv
+09_student_draft/phase09_opus_or_codex_change_log.csv
+09_student_draft/phase09_internal_terms_scan.md
+09_student_draft/phase09_QID_risk_register.md
+08_review/phase09_codexA_student_draft_verification.md
+claudecode_lane/opus47_phase09_student_draft_audit/phase09_laneB_student_draft_audit.md
+08_review/phase09_Governor_student_draft_boundary_gate.md
+08_review/phase09_Confucius_learning_value_gate.md
+08_review/phase09_GPT_commander_review_packet.md
+Phase09 第一版只能来自 Phase08 29 行。任何新增题、扩题、补题，都必须回到 Phase07 packet 和本地源证据，不能由 Opus 或 GPT 直接补。
+blocked
+继续阻断：
+Word
+PDF
+final PASS
+终稿
+最终稿
+宝典成品
+把 74 行全量证据池直接写成学生稿
+把 45 个 hold rows 写入学生稿
+把 288 个 L0 rows 写入学生稿
+把 hard-excluded rows 展开成正文
+把同类题 ID 自动扩成答案讲解
+把 L3_candidate 写成完全锁定
+RUN_ADDITIONAL_LANEB_AUDIT 目前不需要。Lane B Phase08 为 PASS_PHASE08_PROTOTYPE_AUDIT_WITH_WARNINGS，warnings 已 patch，post-patch Codex A、Governor、Confucius 均显示 review-only gate 可提交 GPT。下一轮 Lane B 应审 Phase09 学生稿草案是否越界，不需要先重跑 Phase08。
+STOP_SOURCE_REPAIR_REQUIRED 也不成立。当前没有源证据 blocker，主要是学生稿阶段的内容表达风险与边界归类风险。
+
+next-phase hard rules
+Phase09 只写 29 行受控学生稿草案，必须逐条保留 question_id 到内部对照表。学生可见正文可以不显示内部状态，但审计表必须能回查每段来自哪个 question_id。
+思维部分必须按 材料信号 -> 可写思维/方法 -> 为什么能想到 -> 答题动作 -> 答案落点 -> 易错陷阱 -> 同类题 转写，不能压缩成知识点摘要。
+推理部分必须按 题型 -> 逻辑形式 -> 规则口诀 -> 有效式或错误式 -> 解题动作 -> 答案落点 -> 易错陷阱 -> 同类题 转写，不能变成题型总论。
+交叉题必须保留双挂载。Phase09 可以减少重复表述，但必须在审计表中保留主挂载与次挂载，不能单挂。
+所有同类题列表只能保留 question_id 或审计索引，不能展开 hard-excluded rows 的答案、选项、题型结论。
+L3_candidate 题在学生稿草案中必须保留审稿状态标记到内部表，不得在正文语气上写成最终标准例题。L4 可以更稳定，但仍不能授权 final。
+选择题必须显式写正确选项字母和组合，例如 选 C，②③，不得只写 ②③ 或只写答案理由。
+主观题必须写考场可执行动作，不得只写知识名词。每条至少有一条可以直接搬到答题纸上的表达。
+禁止出现内部词：Phase07、Phase08、packet、source locator、lane、Governor、Confucius、L3、L4、B-choice-signal、LOCKED_FOR_FUSION、文件路径、细则编号式残留。
+Q11 错配硬锁继续生效。任何 Phase09 文件若把 Q-2024西城一模-11 写成 B=①④，直接回滚该文件。
+Q12/Q13 不得进入 Phase09 正文。若作为同类题 ID 引用，只能保留 ID，不得写答案 D/C 或展开讲解。
+Q-2026顺义一模-3 不得进入推理正文。若作为思维同类题引用，只能在思维侧出现。
+Phase09 完成后必须先过 Codex A verification，再过 ClaudeCode Lane B audit，再过 Governor/Confucius，再提交 GPT review。通过这些 gate 之前，仍禁止 Word/PDF 和 final PASS。
+
+
+粘贴的 markdown (1)。md(15)
+文件
+
+Thought for 3m 17s
+GO_TO_PHASE10_POLISH_OR_OUTLINE_NO_WORD_NO_FINAL
+verdict
+Phase09 通过受控学生稿草案 gate，可以进入 Phase10 polish/outline。Phase10 仍然只能做结构梳理、表达打磨、标题体系、可读性优化、同类题索引样式统一、交叉题答案锚点补强，不能生成 Word/PDF，不能 final PASS，不能称终稿、最终稿、宝典成品。
+裁决依据：Phase09 只从 29 个 Phase08 prototype rows 生成，draft/control rows 均为 29；模块为思维 13、推理 11、交叉 5；禁用学生正文内部词命中为 0；Q11 错配命中为 0；hard-excluded expansion failures 为 0；Codex A 为 PASS_CODEXA_PHASE09_CONTROLLED_DRAFT，Lane B 为 PASS_PHASE09_STUDENT_DRAFT_AUDIT_WITH_WARNINGS 且无 blocker，warning patch 后为 PASS_CODEXA_PHASE09_AFTER_LANEB_PATCH，Governor 与 Confucius 均为 pending GPT 的 pass。
+
+must-fix before Phase10 freeze
+这些不是退回 Phase09 的 blocker，但必须在 Phase10 第一版冻结前处理。
+1. Q-2025顺义一模-7
+当前已改为大项不当扩大，并在 risk register 中保留源迹。Phase10 必须继续保留这一解释：
+选 A。
+真实错误是大项不当扩大。
+A 项错在把它说成小项不当扩大。
+不得回流 Phase08 的小项不当扩大旧表达。Phase10 审计表必须继续保留 036 顺义参考答案来源线索。
+2. Q-2025丰台期末-7
+继续放在边界陷阱，不得移动进思维主链正例。
+固定处理：
+
+主落点：哲学唯物论，从实际出发，从当下做起。
+选必三超前思维：干扰项。
+Phase10 若重排章节，只能放入边界陷阱或易错辨析，不得放入超前思维正例组。
+3. Q-2026顺义一模-19-2
+保持科学思维主讲，推理辅助。
+固定处理：
+
+主讲线：科学思维三特征，客观性、预见性、可检验性。
+辅助线：三段论 / 判断 / 推理骨架，只用于帮助理解证据支撑。
+不得把它写成典型三段论题。
+4. Q-2024朝阳二模-19-1、Q-2024朝阳二模-19-2
+Phase09 已移除审稿味表达。Phase10 必须继续确保：
+无细则编号。
+无文件编号。
+无来源页码。
+无审稿术语。
+填空表达统一为第一空 / 第二空。
+5. Q-2024朝阳一模-20-1、Q-2024朝阳一模-20-2、Q-2026通州期末-19-2
+Phase10 必须保持充分条件与必要条件分开写。
+固定规则：
+
+充分条件：肯定前件有效，否定后件有效。
+必要条件：肯定后件有效，否定前件有效；仅肯定前件不能肯定后件。
+不得用一个口诀混写。
+6. Q-2026丰台一模-18-2
+L4 hard sample 必须保留完整链条：
+甲：必要条件假言推理，肯定后件式，前提真实，正确。
+乙：三段论，大项在前提中不周延却在结论中周延，大项不当扩大，错误。
+不得简化成甲正确、乙错误。
+7. Q-2025海淀二模-20
+继续保持角度池写法：
+辩证思维角度池。
+从角度池中选材料最顺的两个写深。
+不能写成三点全必答。
+不能写成 3 点固定赋分模板。
+8. hard-excluded rows
+以下题只能作为 index-only 或 absent，不能展开答案、选项、题型结论：
+Q-2024西城一模-11
+Q-2025海淀二模-12
+Q-2025海淀二模-13
+Q-2026顺义一模-3
+尤其 Q-2024西城一模-11 不得出现 B=①④ 作为正确配对。
+allowed next actions
+Phase10 可以启动，建议阶段名：
+Phase10 polish and outline from controlled 29-row student draft
+允许产出：
+09_student_draft/phase10_polished_outline_FROM_29.md
+09_student_draft/phase10_polish_control_matrix.csv
+09_student_draft/phase10_question_id_traceability_backcheck.csv
+09_student_draft/phase10_same_type_index_style_decision.md
+09_student_draft/phase10_cross_answer_anchor_patch.md
+09_student_draft/phase10_internal_terms_scan.md
+09_student_draft/phase10_QID_risk_register.md
+08_review/phase10_codexA_polish_verification.md
+claudecode_lane/opus47_phase10_polish_audit/phase10_laneB_polish_audit.md
+08_review/phase10_Governor_boundary_gate.md
+08_review/phase10_Confucius_learning_value_gate.md
+08_review/phase10_GPT_commander_review_packet.md
+Phase10 可以做：
+1. 调整章节标题和小标题。
+2. 统一同类题索引呈现方式。
+3. 统一选择题答案表达，例如选 C，②③。
+4. 给交叉题补一行答案落点，提升卷面作答锚点。
+5. 删除所有审稿味、流程味、文件味表达。
+6. 优化语言可读性。
+7. 保持 29 行不扩张。
+8. 保持所有 question_id 在 control matrix 中可回查。
+still forbidden
+继续禁止：
+Word
+PDF
+final PASS
+终稿
+最终稿
+宝典成品
+扩展到 74 evidence rows
+加入 45 hold rows
+加入 288 L0 rows
+把 hard-excluded rows 展开成答案讲解
+删除 question_id traceability
+把同类题 ID 自动扩成完整解析
+把 L3_candidate 写成完全锁定
+改变答案
+改变选项 pairing
+改变题型归属
+改变交叉题主辅线
+不需要 RUN_ADDITIONAL_LANEB_AUDIT。Lane B 已完成 Phase09 审计，P0 全 pass，无 blocker；P1 warning 已由 Codex patch，Governor 和 Confucius 均给出 pending GPT 的 pass。下一次 Lane B 应审 Phase10 polish 是否越界，而不是重跑 Phase09。
+不需要 STOP_SOURCE_REPAIR_REQUIRED。当前没有源证据 blocker，剩余风险是 polish 阶段表达、边界、索引和双挂载保真风险。
+
+next-phase hard rules
+Phase10 仍然只处理 29 行。任何新增题必须回到 Phase07 packet 和本地证据链，不能由 polish 阶段直接加入。
+思维部分必须保留完整链条：
+材料信号 -> 可写思维/方法 -> 为什么能想到 -> 答题动作 -> 答案落点 -> 易错陷阱 -> 同类题
+推理部分必须保留完整链条：
+题型 -> 逻辑形式 -> 规则口诀 -> 有效式或错误式 -> 解题动作 -> 答案落点 -> 易错陷阱 -> 同类题
+交叉题必须继续双挂载。Phase10 可以让正文更简洁，但 control matrix 中必须保留主挂载、次挂载、同类题索引和对应题号。
+同类题索引只能作为索引。未进入 29 行的题不得因出现在同类题列表中被展开答案或解析。
+选择题答案必须统一为：
+选 X，组合项。
+例如：
+选 C，②③。
+选 D，③④。
+主观题必须保留至少一句可直接写到答题纸上的答案落点，不能只保留讲解口吻。
+Phase10 必须决定可见标题策略：要么保留学生友好标题并用 control matrix 追踪 question_id，要么在标题中附简短 question_id。不能让审计回查再次依赖模糊匹配。
+内部词继续零容忍：
+Phase09
+Phase10
+packet
+source locator
+lane
+Governor
+Confucius
+L3
+L4
+B-choice-signal
+LOCKED_FOR_FUSION
+文件路径
+细则编号
+这些可以出现在审计文件中，不能出现在学生正文中。
+Phase10 完成后必须先过 Codex A verification，再过 ClaudeCode Lane B audit，再过 Governor/Confucius gate，再提交 GPT review。未通过这些 gate 前，Word/PDF 和 final PASS 继续阻断。
+
+
+粘贴的文本 (1).txt
+文档
+
+Thought for 1m 50s
+GO_TO_PHASE11_CONTROLLED_EXPANSION_OR_CONTENT_REVIEW_NO_WORD_NO_FINAL
+verdict
+Phase10 通过 polish/outline gate，可以进入 Phase11。Phase11 不得 Word/PDF，不得 final PASS，不得称终稿、最终稿、宝典成品。
+Phase11 不应直接大规模扩成 74 行正文。正确路线是：
+
+Phase11A：先对现有 29 行 polished student body 做逐题内容审查和风险修补
+Phase11B：再从 74 evidence rows 中按本地 evidence gate 小批量 controlled expansion
+理由：Phase10 已满足当前阶段边界要求，29 行未扩张，hard-excluded rows 没有展开，内部术语扫描为 0，Codex A 为 PASS_CODEXA_PHASE10_POLISH，Lane B 为 PASS_PHASE10_POLISH_AUDIT_WITH_WARNINGS 且无 blocker，C33 已 patch，C34 被接受为风格选择，Governor 与 Confucius 均给出 pending GPT 的 pass。
+must-fix before Phase11 expansion
+以下不是退回 Phase10 的 blocker，但在 Phase11 扩展到更多题前必须先锁住。
+1. Q-2025顺义一模-7
+当前 Phase10 保留了正确风险线：
+真实错误：大项不当扩大
+A 项错误：把它说成小项不当扩大
+Phase11 必须继续保留 036 顺义参考答案 源迹。不得把它写回“小项不当扩大”。Phase10 risk register 已补 Audit Source Trace Pointers，指向 Phase09 risk register 中的 036 顺义参考答案摘录。
+硬规则：
+
+任何文件出现“Q-2025顺义一模-7 = 小项不当扩大”为正确结论，直接回滚。
+2. Q-2025丰台期末-7
+继续保持边界陷阱，不进入选必三思维主链。
+固定处理：
+
+主落点：哲学唯物论，从实际出发，从当下做起
+选必三超前思维：干扰项
+Phase10 已把它放在“边界陷阱”小节，Confucius gate 也确认该处理能防止学生把它误当超前思维正例。
+3. Q-2026顺义一模-19-2
+继续保持：
+主讲线：科学思维三特征
+辅助线：推理骨架
+不得改写成典型三段论题。Phase10 已在正文中写明“主讲线是科学思维，不是典型三段论”，并在控制矩阵中保持 primary_mount=思维, secondary_mount=推理。
+4. Q-2024朝阳二模-19-1 / 19-2
+Phase11 继续保持无审稿味表达：
+无细则编号
+无文件编号
+无来源页码
+无审稿术语
+统一使用第一空 / 第二空
+Lane B 已确认 Phase10 中没有 audit/source/file wording，且“第一空/第二空”表达已保留。
+5. Q-2024朝阳一模-20-1 / 20-2 与 Q-2026通州期末-19-2
+充分条件、必要条件必须继续分开。
+固定规则：
+
+充分条件：肯定前件有效，否定后件有效
+必要条件：肯定后件有效，否定前件有效；仅肯定前件不能肯定后件
+Phase10 对这三题已保持充分/必要条件规则分离，Lane B 与 Governor 均确认该锁定。
+6. Q-2026丰台一模-18-2
+L4 hard sample 不得压缩。
+必须保留完整链条：
+
+甲：必要条件假言推理，肯定后件式，前提真实，正确
+乙：三段论，大项在前提中不周延却在结论中周延，大项不当扩大，错误
+不得简写为“甲正确、乙错误”。Phase10 已完整保留该链条。
+7. Q-2025海淀二模-20
+继续保持角度池写法：
+辩证思维角度池
+从角度池中选材料最顺的两个写深
+不能写成三点全必答
+不能写成 3 点固定赋分模板
+Phase10 已保留 angle-pool 处理，Governor 与 Lane B 均确认没有回流“三点全必答”。
+8. hard-excluded rows
+以下题仍只能作为同类题索引或缺席，不能展开答案、选项、题型结论：
+Q-2024西城一模-11
+Q-2025海淀二模-12
+Q-2025海淀二模-13
+Q-2026顺义一模-3
+Phase10 traceability backcheck 显示这些 hard-excluded rows 没有 visible heading、没有 raw QID 正文展开，状态为 PASS。
+Phase11 should do
+Phase11 建议命名：
+Phase11 controlled content review and evidence-gated expansion
+Phase11A：先审 29 行，不扩张
+必须产出：
+09_student_draft/phase11_29row_content_review_matrix.csv
+09_student_draft/phase11_29row_patch_plan.md
+09_student_draft/phase11_QID_lock_recheck.md
+09_student_draft/phase11_internal_terms_scan.md
+09_student_draft/phase11_same_type_index_no_expansion_check.md
+逐题检查：
+1. 每道思维题是否仍有材料信号、可写思维/方法、为什么能想到、答题动作、答案落点、易错陷阱、同类题。
+2. 每道推理题是否仍有题型、逻辑形式、规则口诀、有效式或错误式、解题动作、答案落点、易错陷阱、同类题。
+3. 每道交叉题是否保留主讲线与辅助线。
+4. 选择题是否统一为“选 X，组合项”。
+5. 主观题是否保留可直接写到答题纸上的答案落点。
+6. hard-excluded rows 是否仍未展开。
+Phase11B：再做受控扩张，不得一次性写满 74 行
+允许从 74 evidence rows 中扩张，但必须分批：
+Batch E1：L4 剩余可扩题
+Batch E2：L3 中字段完整、无 answer locator risk、无 reasoning form risk 的思维题
+Batch E3：L3 中字段完整、logical_form 完整的推理题
+Batch E4：交叉题双挂载完整题
+每批新增前必须生成：
+05_coverage/phase11_expansion_candidate_gate.csv
+05_coverage/phase11_expansion_candidate_source_check.md
+09_student_draft/phase11_expansion_delta_control_matrix.csv
+09_student_draft/phase11_expansion_delta_student_body_REVIEW_ONLY.md
+每个新增题必须满足：
+source locator exists
+answer locator exists
+full stem/options or rubric exists
+module scope locked
+thinking chain complete or reasoning chain complete
+not L0
+not hold
+not hard-excluded
+student_permission remains review_only
+新增题不得来自：
+45 hold rows
+288 L0 rows
+hard-excluded rows
+old artifact conclusions
+same-type index only references
+boundary risks
+1. 29 行 polish 质量通过，不等于 74 行可以自动入稿
+当前 Phase10 只证明 29 行可控。Phase11 扩张必须逐题过 gate。不能把 74 evidence pool 一次性转成正文。
+2. 同类题索引有“暗扩张”风险
+同类题索引是学生可见的题目名称列表。Phase11 若把索引题自动展开，会绕过 evidence gate。必须继续保持：
+same-type index = readable index only
+not explanation
+not answer
+not option pairing
+3. L3_candidate 不能伪装成 L4
+29 行中 L3_candidate 占多数。Phase11 可以继续 polish，但不得在审计表或正文语气上把 L3 写成“完全锁定标准题”。
+4. 去分值化是可接受风格，但不能损失答题长度提示
+Lane B C34 指出 Phase10 去掉少量 (X分) 分值提示。Codex 接受为风格选择。Phase11 若继续去分值化，必须用“写两条”“分角度”“每条带材料事实”等表达弥补答题长度提示。
+5. 边界陷阱不能被章节重排吞掉
+Q-2025丰台期末-7 必须继续单列边界陷阱。若 Phase11 扩展章节结构，不得把它合入“超前思维”正例。
+allowed next actions
+允许：
+1. 启动 Phase11。
+2. 先做 29 行 content review。
+3. 对 Phase10 29 行做微 patch。
+4. 在本地 evidence gate 后，小批量扩展到 74 evidence rows 的一部分。
+5. 建立 expansion candidate gate。
+6. 继续让 Lane B 审 Phase11 输出是否越界。
+7. 继续走 Governor / Confucius / GPT gate。
+Phase11 可以申请的下一步最多是：
+controlled expanded Markdown review
+不能申请：
+Word
+PDF
+final PASS
+终稿
+最终稿
+宝典成品
+still forbidden
+继续禁止：
+Word
+PDF
+final PASS
+终稿
+最终稿
+宝典成品
+一次性扩成 74 行正文
+加入 45 hold rows
+加入 288 L0 rows
+展开 hard-excluded rows
+把 same-type index 自动扩成解析
+改变答案
+改变 pairing
+改变题型归属
+改变交叉题主辅线
+删除 QID traceability
+local checks before any later final Markdown / Word stage
+Codex 必须先跑：
+1. row count check：正文行数、控制矩阵行数、QID set 一致。
+2. no expansion check：新增题全部来自 expansion_candidate_gate。
+3. hard-excluded scan：Q11/Q12/Q13/顺义一模3 不展开。
+4. Q11 scan：不得出现 B=①④ 作为 Q11 正确 pairing。
+5. internal terms scan：Phase、packet、source locator、lane、Governor、Confucius、L3、L4、B-choice-signal、路径、细则编号等在学生正文中为 0。
+6. answer consistency check：选择题答案字母和组合项一致。
+7. reasoning form check：推理题 logical_form、规则、有效式/错误式、解题动作不缺。
+8. thinking chain check：思维题材料信号、可写方法、为什么能想到、答题动作、答案落点不缺。
+9. cross mount check：交叉题主讲线、辅助线不丢。
+10. traceability check：每个正文条目能回到 control matrix。
+ClaudeCode Lane B 必须审：
+1. Phase11 是否仍只含 29 行或经 gate 新增的题。
+2. 新增题是否来自 74 evidence rows 且不是 hold/L0。
+3. 新增题是否改变答案或 pairing。
+4. hard-excluded rows 是否仍未展开。
+5. 同类题是否仍只作索引。
+6. 学生可见文本是否有内部词。
+7. 推理部分是否又退化成题型总述。
+8. 思维部分是否又退化成知识摘要。
+Governor gate 必须审：
+boundary
+row count
+source gate
+hard locks
+no Word/PDF/final
+Confucius gate 必须审：
+学习价值
+触发链
+解题动作
+迁移性
+边界陷阱
+同类题索引是否有用
+final line
+GO_TO_PHASE11_CONTROLLED_EXPANSION_OR_CONTENT_REVIEW_NO_WORD_NO_FINAL
+

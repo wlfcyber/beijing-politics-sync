@@ -1,0 +1,8 @@
+# Phase 03 Visual Fallback Blockers
+
+These rows are hard blockers for coverage PASS. They are source-control artifacts, not student-facing content.
+
+- `2025海淀二模` | `Q-2025海淀二模-20` | `008_Desktop_2025模拟题_2025各区二模_2025海淀二模_试卷_试卷.pdf` | HS02 原卷文本层为空；Codex 已视觉核读第 7 页，但仍需 ClaudeCode 或第二视觉 pass 独立确认后才能入学生稿。 | render=02_extraction/priority_queue_sources/renders/008_Desktop_2025模拟题_2025各区二模_2025海淀二模_试卷_试卷.pdf/page_07.png | next=ClaudeCode Phase03 独立视觉确认 paper page 7 + rubric/评标/讲评三源一致性；确认后再解除学生稿禁入。
+- `2025海淀二模` | `Q-2025海淀二模-UNPARSED-PAPER` | `008_Desktop_2025模拟题_2025各区二模_2025海淀二模_试卷_试卷.pdf` | paper text blank/thin; question inventory cannot rely on text extraction | render=/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04/02_extraction/priority_queue_sources/renders/008_Desktop_2025模拟题_2025各区二模_2025海淀二模_试卷_试卷.pdf | next=OCR or visually inspect every rendered page; do not treat suite as empty
+- `2026丰台一模` | `Q-2026丰台一模-18-2` | `042_Desktop_2026模拟题_2026各区一模_2026丰台一模_试卷_试卷.pdf` | 2026 丰台一模原卷文本层为空；Codex 已视觉核读第 7 页并与细则 PPTX 对上，但全套题目仍需视觉/OCR 恢复。 | render=02_extraction/priority_queue_sources/renders/042_Desktop_2026模拟题_2026各区一模_2026丰台一模_试卷_试卷.pdf/page_07.png | next=ClaudeCode Phase03 独立确认 Q18(2) 原题与细则；同时全页恢复该套全部题号，替换 suite-level blocker。
+- `2026丰台一模` | `Q-2026丰台一模-UNPARSED-PAPER` | `042_Desktop_2026模拟题_2026各区一模_2026丰台一模_试卷_试卷.pdf` | paper text blank/thin; question inventory cannot rely on text extraction | render=/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维_四线从0重跑_2026-05-04/02_extraction/priority_queue_sources/renders/042_Desktop_2026模拟题_2026各区一模_2026丰台一模_试卷_试卷.pdf | next=OCR or visually inspect every rendered page; do not treat suite as empty

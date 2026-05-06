@@ -1,0 +1,3 @@
+finding,severity,laneB_status,codex_decision,patch_status,evidence
+C33_q2025shunyi_7_source_pointer_in_phase10_register,P3,WARN,add explicit audit-side source trace pointer to Phase10 QID risk register,PATCHED_AND_REGENERATED,09_student_draft/phase10_QID_risk_register.md contains Audit Source Trace Pointers for Q-2025顺义一模-7
+C34_rubric_marker_polish,P3,WARN,accept removal of scoring markers as student-facing polish with substance preserved,ACCEPTED_NO_PATCH,claudecode_lane/opus47_phase10_polish_audit/phase10_laneB_polish_audit.md says substance preserved and no answer change

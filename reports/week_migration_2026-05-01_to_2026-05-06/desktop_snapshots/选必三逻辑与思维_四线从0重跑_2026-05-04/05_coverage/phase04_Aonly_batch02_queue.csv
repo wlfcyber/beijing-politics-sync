@@ -1,0 +1,121 @@
+target_id,suite,qno,section_scope,tranche,reason,source_locator
+Q-2024朝阳一模-20-1,S-2024朝阳一模,20(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q20(1)
+Q-2024朝阳一模-20-2,S-2024朝阳一模,20(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q20(2)
+Q-2024朝阳一模-21,S-2024朝阳一模,21,推理,Batch02_Tranche_A_reasoning_cross_formal,targeted Lane B verification for A-only subjective/high-number question,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q21
+Q-2024朝阳一模-7,S-2024朝阳一模,7,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q7
+Q-2024朝阳一模-9,S-2024朝阳一模,9,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,030_Desktop_2024模拟题_2024朝阳一模_试卷_试卷.pdf::Q9
+Q-2024朝阳二模-16-1,S-2024朝阳二模,16(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q16(1)
+Q-2024朝阳二模-16-2,S-2024朝阳二模,16(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q16(2)
+Q-2024朝阳二模-19-1,S-2024朝阳二模,19(1),交叉,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q19(1)
+Q-2024朝阳二模-19-2,S-2024朝阳二模,19(2),交叉,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q19(2)
+Q-2024朝阳二模-19-3,S-2024朝阳二模,19(3),交叉,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q19(3)
+Q-2024朝阳二模-6,S-2024朝阳二模,6,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q6
+Q-2024朝阳二模-7,S-2024朝阳二模,7,交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,021_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf::Q7
+Q-2024朝阳期中-1,S-2024朝阳期中,1,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q1
+Q-2024朝阳期中-11,S-2024朝阳期中,11,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q11
+Q-2024朝阳期中-18,S-2024朝阳期中,18,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q18
+Q-2024朝阳期中-19,S-2024朝阳期中,19,交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q19
+Q-2024朝阳期中-5,S-2024朝阳期中,5,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q5
+Q-2024朝阳期中-7,S-2024朝阳期中,7,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q7
+Q-2024朝阳期中-8,S-2024朝阳期中,8,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q8
+Q-2024朝阳期中-9,S-2024朝阳期中,9,交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,017_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf::Q9
+Q-2024海淀二模-14,S-2024海淀二模,14,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q14
+Q-2024海淀二模-16,S-2024海淀二模,16,推理,Batch02_Tranche_A_reasoning_cross_formal,targeted Lane B verification for A-only subjective/high-number question,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q16
+Q-2024海淀二模-17-1,S-2024海淀二模,17(1),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q17(1)
+Q-2024海淀二模-17-2,S-2024海淀二模,17(2),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q17(2)
+Q-2024海淀二模-4,S-2024海淀二模,4,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q4
+Q-2024海淀二模-6,S-2024海淀二模,6,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q6
+Q-2024海淀二模-8,S-2024海淀二模,8,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,027_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf::Q8
+Q-2024西城一模-13,S-2024西城一模,13,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q13
+Q-2024西城一模-19-1,S-2024西城一模,19(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(1)
+Q-2024西城一模-19-2,S-2024西城一模,19(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(2)
+Q-2024西城一模-19-3,S-2024西城一模,19(3),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(3)
+Q-2024西城一模-19-4,S-2024西城一模,19(4),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(4)
+Q-2024西城一模-19-5,S-2024西城一模,19(5),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(5)
+Q-2024西城一模-19-6,S-2024西城一模,19(6),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,024_Desktop_2024模拟题_西城一模_试卷_试卷.docx::Q19(6)
+Q-2025东城期末-1,S-2025东城期末,1,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q1
+Q-2025东城期末-13,S-2025东城期末,13,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q13
+Q-2025东城期末-14,S-2025东城期末,14,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q14
+Q-2025东城期末-15,S-2025东城期末,15,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q15
+Q-2025东城期末-16,S-2025东城期末,16,边界,Batch02_Tranche_C_answer_pairing,targeted Lane B verification for A-only subjective/high-number question,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q16
+Q-2025东城期末-18-1,S-2025东城期末,18(1),交叉,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q18(1)
+Q-2025东城期末-18-2,S-2025东城期末,18(2),交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q18(2)
+Q-2025东城期末-2,S-2025东城期末,2,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q2
+Q-2025东城期末-20,S-2025东城期末,20,边界,Batch02_Tranche_C_answer_pairing,targeted Lane B verification for A-only subjective/high-number question,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q20
+Q-2025东城期末-21,S-2025东城期末,21,推理,Batch02_Tranche_A_reasoning_cross_formal,targeted Lane B verification for A-only subjective/high-number question,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q21
+Q-2025东城期末-5,S-2025东城期末,5,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q5
+Q-2025东城期末-7,S-2025东城期末,7,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q7
+Q-2025东城期末-8,S-2025东城期末,8,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q8
+Q-2025东城期末-9,S-2025东城期末,9,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,012_Desktop_2025模拟题_2025各区期末_2025东城期末_试卷_试卷.pdf::Q9
+Q-2025丰台期末-10,S-2025丰台期末,10,交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q10
+Q-2025丰台期末-16,S-2025丰台期末,16,交叉,Batch02_Tranche_A_reasoning_cross_formal,targeted Lane B verification for A-only subjective/high-number question,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q16
+Q-2025丰台期末-18-1,S-2025丰台期末,18(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q18(1)
+Q-2025丰台期末-18-2,S-2025丰台期末,18(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q18(2)
+Q-2025丰台期末-18-3,S-2025丰台期末,18(3),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q18(3)
+Q-2025丰台期末-7,S-2025丰台期末,7,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q7
+Q-2025丰台期末-8,S-2025丰台期末,8,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q8
+Q-2025丰台期末-9,S-2025丰台期末,9,推理,Batch02_Tranche_A_reasoning_cross_formal,module-boundary decision with answer key/rubric,040_Desktop_2025模拟题_2025各区期末_2025丰台期末_试卷_试卷.pdf::Q9
+Q-2025海淀期末-17-1,S-2025海淀期末,17(1),思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q17(1)
+Q-2025海淀期末-17-2,S-2025海淀期末,17(2),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q17(2)
+Q-2025海淀期末-18,S-2025海淀期末,18,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q18
+Q-2025海淀期末-22,S-2025海淀期末,22,思维,Batch02_Tranche_C_answer_pairing,targeted Lane B verification for A-only subjective/high-number question,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q22
+Q-2025海淀期末-8,S-2025海淀期末,8,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,015_Desktop_2025模拟题_2025各区期末_2025海淀期末_试卷_试卷.docx::Q8
+Q-2025西城二模-16-1,S-2025西城二模,16(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q16(1)
+Q-2025西城二模-17-1,S-2025西城二模,17(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q17(1)
+Q-2025西城二模-17-2,S-2025西城二模,17(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q17(2)
+Q-2025西城二模-7,S-2025西城二模,7,推理,Batch02_Tranche_A_reasoning_cross_formal,"四个选项完整可读(文字提取)；答案C从038 A-formal细则确认；038 answer table：Q7=C；之前L0_BLOCKED因""visual/options""但实际文字清晰",037_Desktop_2025模拟题_2025各区二模_2025西城二模_试卷_试卷.pdf::Q7
+Q-2025顺义一模-10,S-2025顺义一模,10,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q10
+Q-2025顺义一模-16,S-2025顺义一模,16,边界,Batch02_Tranche_C_answer_pairing,targeted Lane B verification for A-only subjective/high-number question,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q16
+Q-2025顺义一模-17-1,S-2025顺义一模,17(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q17(1)
+Q-2025顺义一模-17-2,S-2025顺义一模,17(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q17(2)
+Q-2025顺义一模-3,S-2025顺义一模,3,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q3
+Q-2025顺义一模-4,S-2025顺义一模,4,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q4
+Q-2025顺义一模-5,S-2025顺义一模,5,推理,Batch02_Tranche_A_reasoning_cross_formal,module-boundary decision with answer key/rubric,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q5
+Q-2025顺义一模-6,S-2025顺义一模,6,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q6
+Q-2025顺义一模-7,S-2025顺义一模,7,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,033_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf::Q7
+Q-2026东城一模-12,S-2026东城一模,12,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q12
+Q-2026东城一模-19-1,S-2026东城一模,19(1),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(1)
+Q-2026东城一模-19-2,S-2026东城一模,19(2),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(2)
+Q-2026东城一模-19-3,S-2026东城一模,19(3),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(3)
+Q-2026东城一模-19-4,S-2026东城一模,19(4),思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q19(4)
+Q-2026东城一模-2,S-2026东城一模,2,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q2
+Q-2026东城一模-6,S-2026东城一模,6,交叉,Batch02_Tranche_A_reasoning_cross_formal,module-boundary decision with answer key/rubric,046_Desktop_2026模拟题_2026各区一模_2026东城一模_试卷_试卷.pdf::Q6
+Q-2026东城期末-14,S-2026东城期末,14,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q14
+Q-2026东城期末-16-1,S-2026东城期末,16(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q16(1)
+Q-2026东城期末-16-2,S-2026东城期末,16(2),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q16(2)
+Q-2026东城期末-17-1,S-2026东城期末,17(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q17(1)
+Q-2026东城期末-17-2,S-2026东城期末,17(2),推理,Batch02_Tranche_A_reasoning_cross_formal,module-boundary decision with answer key/rubric,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q17(2)
+Q-2026东城期末-21,S-2026东城期末,21,思维,Batch02_Tranche_C_answer_pairing,targeted Lane B verification for A-only subjective/high-number question,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q21
+Q-2026东城期末-3,S-2026东城期末,3,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q3
+Q-2026东城期末-4,S-2026东城期末,4,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q4
+Q-2026东城期末-5,S-2026东城期末,5,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q5
+Q-2026东城期末-6,S-2026东城期末,6,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q6
+Q-2026东城期末-7,S-2026东城期末,7,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,044_Desktop_2026模拟题_2026各区期末和期中_2026东城期末_试卷_试卷.pdf::Q7
+Q-2026朝阳期中-1,S-2026朝阳期中,1,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q1
+Q-2026朝阳期中-14,S-2026朝阳期中,14,推理,Batch02_Tranche_A_reasoning_cross_formal,答案B=①④从003 paper answer table确认；①实践-认识有哲学色彩但与④配对为正确答案；主要考察④归纳推理或然性,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q14
+Q-2026朝阳期中-15,S-2026朝阳期中,15,推理,Batch02_Tranche_A_reasoning_cross_formal,,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q15
+Q-2026朝阳期中-18,S-2026朝阳期中,18,推理,Batch02_Tranche_A_reasoning_cross_formal,targeted Lane B verification for A-only subjective/high-number question,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q18
+Q-2026朝阳期中-20,S-2026朝阳期中,20,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q20
+Q-2026朝阳期中-21-1,S-2026朝阳期中,21(1),思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q21(1)
+Q-2026朝阳期中-21-2,S-2026朝阳期中,21(2),思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,003_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf::Q21(2)
+Q-2026通州期末-11,S-2026通州期末,11,交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q11
+Q-2026通州期末-19-1,S-2026通州期末,19(1),推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q19(1)
+Q-2026通州期末-19-2,S-2026通州期末,19(2),推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q19(2)
+Q-2026通州期末-5,S-2026通州期末,5,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q5
+Q-2026通州期末-8,S-2026通州期末,8,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q8
+Q-2026通州期末-9,S-2026通州期末,9,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,006_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf::Q9
+Q-2026顺义一模-19-1,S-2026顺义一模,19(1),交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q19(1)
+Q-2026顺义一模-19-2,S-2026顺义一模,19(2),交叉,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q19(2)
+Q-2026顺义一模-19-3,S-2026顺义一模,19(3),交叉,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q19(3)
+Q-2026顺义一模-3,S-2026顺义一模,3,思维,Batch02_Tranche_C_answer_pairing,field-level diff cleanup during fusion,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q3
+Q-2026顺义一模-4,S-2026顺义一模,4,推理,Batch02_Tranche_A_reasoning_cross_formal,field-level diff cleanup during fusion,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q4
+Q-2026顺义一模-5,S-2026顺义一模,5,交叉,Batch02_Tranche_A_reasoning_cross_formal,module-boundary decision with answer key/rubric,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q5
+Q-2026顺义一模-6,S-2026顺义一模,6,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q6
+Q-2026顺义一模-7,S-2026顺义一模,7,推理,Batch02_Tranche_A_reasoning_cross_formal,answer pairing / targeted verification if in-scope after canonical check,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q7
+Q-2026顺义一模-9,S-2026顺义一模,9,思维,Batch02_Tranche_C_answer_pairing,answer pairing / targeted verification if in-scope after canonical check,001_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf::Q9
+Q-2026丰台一模-4,2026丰台一模,4,思维,Batch02_Tranche_B_visual_or_answer_patch,newly recovered from visual suite scan; requires Lane B independent verification,042 render_page_02::Q4; SUPP-2026丰台 answer table page9
+Q-2026丰台一模-7,2026丰台一模,7,思维,Batch02_Tranche_B_visual_or_answer_patch,newly recovered from visual suite scan; requires Lane B independent verification,042 render_page_02::Q7; SUPP-2026丰台 answer table page9
+Q-2026丰台一模-8,2026丰台一模,8,推理,Batch02_Tranche_B_visual_or_answer_patch,newly recovered from visual suite scan; answer source is supplemental key; requires Lane B independent verification,042 render_page_03::Q8; SUPP-2026丰台 answer table page9
+Q-2026丰台一模-9,2026丰台一模,9,推理,Batch02_Tranche_B_visual_or_answer_patch,newly recovered from visual suite scan; requires Lane B independent verification,042 render_page_03::Q9; SUPP-2026丰台 answer table page9
+Q-2025海淀二模-12,2025海淀二模,12,思维,Batch02_Tranche_B_visual_or_answer_patch,Codex A found supplemental answer source after Batch01; requires Lane B independent verification before fusion,008 render_page_04::Q12; SUPP-2025海淀二模 answer table page9
+Q-2025海淀二模-13,2025海淀二模,13,推理,Batch02_Tranche_B_visual_or_answer_patch,Codex A found supplemental answer source after Batch01; requires Lane B independent verification before fusion,008 render_page_04::Q13; SUPP-2025海淀二模 answer table page9

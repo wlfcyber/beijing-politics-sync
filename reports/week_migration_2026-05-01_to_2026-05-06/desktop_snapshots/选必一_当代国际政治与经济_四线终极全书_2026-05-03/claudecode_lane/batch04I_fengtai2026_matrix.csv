@@ -1,0 +1,17 @@
+atom_id,suite,question,segment,points,evidence_tier,bucket_hint,term_short,term_full,boundary_flag,promotion_status
+ATOM-FT2026-Q19-01,2026丰台一模,Q19,理念定位,unscored,P0_scoring_pptx_reference_answer_guarded,人类命运共同体,命运共同体+胸怀天下,人类命运共同体+胸怀天下,PPTX无逐点细则不分配子分,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-02,2026丰台一模,Q19,议程对接,unscored,P0_scoring_pptx_reference_answer_guarded,联合国机制,2030议程,联合国2030年可持续发展议程,术语保形不可压缩为2030议程,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-03,2026丰台一模,Q19,角色定位,unscored,P0_scoring_pptx_reference_answer_guarded,角色定位,贡献者,全球发展的贡献者,与维护者建设者参与者贡献者族群同核心,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-04,2026丰台一模,Q19,法源,unscored,P0_scoring_pptx_reference_answer_guarded,联合国机制,联合国宪章宗旨原则,联合国宪章的宗旨和原则,术语保形不可压缩,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-05,2026丰台一模,Q19,义利观,unscored,P0_scoring_pptx_reference_answer_guarded,义利观,正确义利观,正确义利观,系统已有核心点,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-06,2026丰台一模,Q19,多边主义,unscored,P0_scoring_pptx_reference_answer_guarded,多边主义,真正的多边主义,真正的多边主义,术语保形必须保留真正的前缀,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-07,2026丰台一模,Q19,共赢,unscored,P0_scoring_pptx_reference_answer_guarded,合作共赢,合作共赢,坚持合作共赢,与互利共赢战略同根分层落桶,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-08,2026丰台一模,Q19,利益汇合,unscored,P0_scoring_pptx_reference_answer_guarded,合作共赢,利益汇合点,扩大同各国利益的汇合点,术语保形不可压缩为利益汇合,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-09,2026丰台一模,Q19,治理观,unscored,P0_scoring_pptx_reference_answer_guarded,全球治理,共商共建共享全球治理观,共商共建共享的全球治理观,易错为发展理念发展格局必须保留全球治理观后缀,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-10,2026丰台一模,Q19,领域成就+担当落点,unscored,P0_scoring_pptx_reference_answer_guarded,大国担当,负责任大国情怀担当,消除贫困教育普及卫生健康+负责任大国的情怀和担当,落点术语必须呼应设问大国情怀与担当,candidate_for_fusion_guarded
+ATOM-FT2026-Q19-11,2026丰台一模,Q19,逻辑骨架,unscored,P0_scoring_pptx_reference_answer_guarded,体例/答题骨架,三段式,三段式骨架理念定位+如何做+治理观成就担当,非术语原子仅作答题骨架不携带分值,candidate_for_fusion_guarded
+EXCL-FT2026-Q16,2026丰台一模,Q16,哲学+文化,N/A,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-FT2026-Q17,2026丰台一模,Q17,政治与法治,N/A,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-FT2026-Q18-1,2026丰台一模,Q18(1),经济与社会,N/A,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-FT2026-Q18-2,2026丰台一模,Q18(2),逻辑与思维,N/A,N/A,N/A,N/A,N/A,N/A,excluded
+EXCL-FT2026-Q20,2026丰台一模,Q20,法律与生活,N/A,N/A,N/A,N/A,N/A,N/A,excluded

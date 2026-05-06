@@ -1,0 +1,30 @@
+question_id,visible_title,module,question_type,why_not_body_before,phase12_decision,specific_blocker_or_repair,needs_source_repair,needs_reasoning_form_repair,enter_index
+Q-2024朝阳二模-6,2024 朝阳二模第6题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2024朝阳期中-11,2024 朝阳期中第11题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2024朝阳期中-18,2024 朝阳期中第18题,推理,主观题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2024朝阳期中-8,2024 朝阳期中第8题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2024海淀二模-6,2024 海淀二模第6题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2024西城一模-13,2024 西城一模第13题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025东城期末-14,2025 东城期末第14题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025东城期末-15,2025 东城期末第15题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025丰台期末-10,2025 丰台期末第10题,交叉,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025丰台期末-18-1,2025 丰台期末第18题第(1)问,推理,主观题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025丰台期末-9,2025 丰台期末第9题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025海淀期末-8,2025 海淀期末第8题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025西城二模-7,2025 西城二模第7题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025顺义一模-17-1,2025 顺义一模第17题第(1)问,推理,主观题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025顺义一模-5,2025 顺义一模第5题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2025顺义一模-6,2025 顺义一模第6题,推理,选择题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2026东城一模-6,2026 东城一模第6题,交叉,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,推理,主观题,missing_reasoning=same_type_question_ids,body_after_repair,reasoning_form_recheck_required_before_body_expansion,no,yes,to_decide
+Q-2026东城期末-6,2026 东城期末第6题,推理,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026东城期末-7,2026 东城期末第7题,推理,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026朝阳期中-12,2026 朝阳期中第12题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026朝阳期中-13,2026 朝阳期中第13题,交叉,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026朝阳期中-15,2026 朝阳期中第15题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026顺义一模-4,2026 顺义一模第4题,推理,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026顺义一模-6,2026 顺义一模第6题,思维,选择题,L3 paired_candidate must be upgraded before Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026丰台一模-4,2026 丰台一模第4题,思维,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026丰台一模-7,2026 丰台一模第7题,思维,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2026丰台一模-9,2026 丰台一模第9题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide
+Q-2025海淀二模-13,2025 海淀二模第13题,推理,选择题,L3 no_formal_rubric / B-choice-signal not allowed directly into Opus packet,body_after_repair,source_repair_required_before_body_expansion,yes,no,to_decide

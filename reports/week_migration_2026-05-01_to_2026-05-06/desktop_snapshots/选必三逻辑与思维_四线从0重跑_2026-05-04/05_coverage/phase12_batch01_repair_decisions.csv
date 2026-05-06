@@ -1,0 +1,13 @@
+question_id,visible_title,module,question_type,source_verified,answer_verified,logical_or_thinking_form_repaired,decision,body_position_target,repair_note
+Q-2024朝阳二模-7,2024 朝阳二模第7题,交叉,选择题,yes,yes,yes,body_after_repair,选择题正文,"D合乎逻辑；A小项不当周延/小项扩大；B归纳能力夸大；C必要条件假言推理误用"
+Q-2025东城期末-18-2,2025 东城期末第18题第(2)问,交叉,主观题,yes,yes,yes,body_after_repair,主观题正文,"创新思维必须拆出联想、思路新/方法新/结果新、发散与聚合"
+Q-2026通州期末-9,2026 通州期末第9题,思维,选择题,yes,yes,yes,body_after_repair,选择题正文,"D系统化数字化整合保障资源形成新机制；选择题信号不升格为主观给分链"
+Q-2024朝阳期中-18,2024 朝阳期中第18题,推理,主观题,yes,yes,yes,body_after_repair,主观题正文,"楚王=不完全归纳/轻率概括；晏子=类比推理/或然但有说服力"
+Q-2025丰台期末-18-1,2025 丰台期末第18题第(1)问,推理,主观题,yes,yes,yes,body_after_repair,主观题正文,"①必要条件假言判断；②联言判断；分别写保真条件"
+Q-2025顺义一模-17-1,2025 顺义一模第17题第(1)问,推理,主观题,yes,yes,yes,body_after_repair,主观题正文,"甲充分条件假言判断；乙必要条件假言判断；丙相容选言判断；同时为真条件为科创基金支持且成为科创人才高地"
+Q-2026东城期末-17-2,2026 东城期末第17题第(2)问,推理,主观题,yes,yes,yes,body_after_repair,主观题正文,"主张1矛盾律/联言判断；主张2充分条件肯后误推；主张3三段论中项不周延"
+Q-2026东城一模-6,2026 东城一模第6题,交叉,选择题,yes,yes,yes,body_after_repair,选择题正文,"D换质位正确；A辩证否定误用；B抽象思维误用；C特称否定不能由题干必然推出"
+Q-2026丰台一模-4,2026 丰台一模第4题,思维,选择题,yes,yes,yes,body_after_repair,选择题正文,"A①②；③全新重构错；④倒置理论与实践时序"
+Q-2026丰台一模-7,2026 丰台一模第7题,思维,选择题,yes,yes,yes,body_after_repair,选择题正文,"B①④；②把必然联系误写成充分条件假言推理；③完全归纳要求过高"
+Q-2026朝阳期中-13,2026 朝阳期中第13题,交叉,选择题,yes,yes,yes,body_after_repair,选择题正文,"D③④；石榴籽比喻触发思维抽象与联想思维"
+Q-2026顺义一模-6,2026 顺义一模第6题,思维,选择题,yes,yes,yes,body_after_repair,选择题正文,"A迁移方法；B界限固定化；C优势互补不等于延伸认识边界；D模型不是具体操作路径"

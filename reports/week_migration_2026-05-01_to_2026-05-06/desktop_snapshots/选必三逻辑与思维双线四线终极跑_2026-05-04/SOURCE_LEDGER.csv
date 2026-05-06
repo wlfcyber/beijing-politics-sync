@@ -1,0 +1,3 @@
+source_id,suite,path,source_type,evidence_type,extraction_method,status,notes
+PDF_THINKING_FRAMEWORK,用户上传思维框架,00_source_pdfs/逻辑与思维_思维部分_原文件.pdf,pdf,user_framework,fitz_text_and_render,extracted,14 pages; OCR text plus rendered pages; governs thought-method framework
+PDF_REASONING_FRAMEWORK,用户上传推理框架,00_source_pdfs/逻辑与思维_推理部分_原文件.pdf,pdf,user_framework,fitz_text_and_render,extracted,21 pages; OCR text plus rendered pages; governs reasoning-type framework

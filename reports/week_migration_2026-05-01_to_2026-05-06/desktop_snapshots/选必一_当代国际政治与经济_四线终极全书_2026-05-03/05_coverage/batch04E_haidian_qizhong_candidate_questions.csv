@@ -1,0 +1,5 @@
+suite,question_guess,source_id,evidence_guess,extract_status,hit_terms,relative_path,cache_path,question_anchors
+2024海淀期中,16(2),SRC_e3f88f68dd56,P0_candidate_scoring,ok,国际组织;全球经济治理;规则制定;贸易摩擦,2024海淀期中/细则/细则.pdf,02_extraction/full_source_text_cache_20260503/SRC_e3f88f68dd56_细则_pdf.txt,细则总表标注16(2)为选择性必修1；page13写必修二4分+选必一2分；page14写贸易摩擦：企业和政府可利用国际组织赋予的权利，积极参与全球经济治理和规则制定
+2024海淀期中,16(2),SRC_132d9a876bce,P3_candidate_paper,empty_text_visual_rechecked,企业出海;贸易摩擦,2024海淀期中/试卷/试卷.pdf,02_extraction/full_source_text_cache_20260503/SRC_132d9a876bce_试卷_pdf.txt,试卷PDF文字提取乱码；本轮渲染page_06视觉核读，设问为结合材料三从经济角度为中国咖啡企业出海提出建议
+2024海淀期中,21(2),SRC_e3f88f68dd56,P0_candidate_scoring,ok,时代主题;政治多极化;经济全球化;习近平外交思想;独立自主;和平共处五项原则;主权安全发展利益;人类命运共同体,2024海淀期中/细则/细则.pdf,02_extraction/full_source_text_cache_20260503/SRC_e3f88f68dd56_细则_pdf.txt,细则总表标注21(2)为选择性必修1；page61-65含题面、参考答案和评分细则；9分，变4分+不变5分
+2024海淀期中,21(2),SRC_132d9a876bce,P3_candidate_paper,empty_text_visual_rechecked,新中国外交;变与不变,2024海淀期中/试卷/试卷.pdf,02_extraction/full_source_text_cache_20260503/SRC_132d9a876bce_试卷_pdf.txt,试卷PDF文字提取乱码；本轮渲染page_08视觉核读，设问为结合材料运用当代国际政治与经济知识分析新中国外交的变与不变

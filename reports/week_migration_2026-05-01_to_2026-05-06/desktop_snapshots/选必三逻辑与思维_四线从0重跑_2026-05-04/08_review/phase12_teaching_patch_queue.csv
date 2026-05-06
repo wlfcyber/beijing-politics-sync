@@ -1,0 +1,5 @@
+queue_order,queue_kind,target,status,note
+1,external_recheck,phase12_teaching_patched_packet,pending,Send teaching patched body and dual indexes back to ClaudeCode/Opus or GPT if requested.
+2,governor_gate,governor_post_external_boundary_gate,blocked_pending_external_recheck,Do not run Governor as final gate until teaching patch has been externally accepted.
+3,confucius_gate,confucius_learning_gate,blocked_pending_governor,Confucius remains after external and Governor gates.
+4,final_clean_strip,student_clean_candidate,blocked_no_final_authorization,"Strip Status, REVIEW_ONLY, HTML qid comments, phase/source anchors only after all gates pass."

@@ -1,0 +1,130 @@
+suite,qno,status,a_scope,b_scope,a_block,b_block,notes
+2024朝阳一模,7,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_创新思维,pending_pairing,CLEAR,
+2024朝阳二模,6,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_概念,pending_pairing,CLEAR,
+2024朝阳二模,7,AGREE_OR_NEEDS_FIELD_DIFF,交叉,推理部分_合乎逻辑,pending_pairing,CLEAR,
+2024朝阳期中,11,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_逻辑规则,pending_pairing,CLEAR,
+2024朝阳期中,18,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_归纳+类比,pending_pairing,CLEAR,
+2024朝阳期中,19,AGREE_OR_NEEDS_FIELD_DIFF,交叉,思维部分_创新思维,pending_pairing,CLEAR,
+2024朝阳期中,7,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_三段论,pending_pairing,CLEAR,
+2024朝阳期中,8,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_假言,pending_pairing,CLEAR,
+2024朝阳期中,9,AGREE_OR_NEEDS_FIELD_DIFF,交叉,推理部分_归纳,pending_pairing,CLEAR,
+2024海淀二模,6,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_概念,pending_pairing,CLEAR,
+2025东城期末,13,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_三段论,pending_pairing,CLEAR,
+2025东城期末,14,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_概念,pending_pairing,CLEAR,
+2025东城期末,15,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_假言推理,pending_pairing,CLEAR,
+2025东城期末,18(2),AGREE_OR_NEEDS_FIELD_DIFF,交叉,思维部分_创新思维,pending_pairing,CLEAR,
+2025丰台期末,10,AGREE_OR_NEEDS_FIELD_DIFF,交叉,推理部分_类比/归纳,pending_pairing,CLEAR,
+2025丰台期末,7,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_超前思维,pending_pairing,CLEAR,
+2025丰台期末,8,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_形象思维,pending_pairing,CLEAR,
+2025丰台期末,9,AGREE_OR_NEEDS_FIELD_DIFF,待判,推理部分_选言,pending_pairing,CLEAR,
+2025海淀二模,20,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_辩证思维,locked_pending_laneB_visual_confirmation,LOCKED_PENDING_VISUAL,visual/locked blocker remains
+2025海淀期末,17(1),AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_科学思维,pending_pairing,CLEAR,
+2025海淀期末,18,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_创新思维,pending_pairing,CLEAR,
+2025海淀期末,2,AGREE_OR_NEEDS_FIELD_DIFF,思维,边界_思维/哲学,blocked_until_options_visual_check,BOUNDARY_CHECK,
+2025海淀期末,8,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_判断,pending_pairing,CLEAR,
+2025西城二模,16(2),AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_假言推理,pending_pairing,CLEAR,
+2025西城二模,16(3),CLASSIFICATION_CONFLICT,推理,思维部分_创新思维,pending_pairing,PARTIAL_READ,A=推理 B=思维部分_创新思维
+2025顺义一模,5,AGREE_OR_NEEDS_FIELD_DIFF,待判,推理部分_联言,pending_pairing,CLEAR,
+2025顺义一模,6,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_判断,pending_pairing,CLEAR,
+2025顺义一模,7,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_三段论,pending_pairing,CLEAR,
+2026东城一模,19(4),AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_系统+创新思维,pending_pairing,CLEAR,
+2026东城一模,6,AGREE_OR_NEEDS_FIELD_DIFF,交叉,边界_辩证思维/推理,pending_pairing,BOUNDARY_CHECK,
+2026东城期末,17(2),AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_形式逻辑综合,pending_pairing,BOUNDARY_CHECK(C-boundary),
+2026东城期末,7,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_复合推理,pending_pairing,CLEAR,
+2026朝阳期中,11,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_三段论,blocked_until_answer_or_rubric_pairing,CLEAR,
+2026朝阳期中,13,AGREE_OR_NEEDS_FIELD_DIFF,交叉,思维部分_联想/推理部分_类比,blocked_until_answer_or_rubric_pairing,BOUNDARY_CHECK,
+2026朝阳期中,14,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_归纳,blocked_until_answer_or_rubric_pairing,CLEAR,
+2026朝阳期中,15,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_联言,blocked_until_answer_or_rubric_pairing,CLEAR,
+2026朝阳期中,20,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_辩证思维,pending_pairing,CLEAR,
+2026朝阳期中,21(2),AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_创新思维,pending_pairing,CLEAR,
+2026通州期末,11,AGREE_OR_NEEDS_FIELD_DIFF,交叉,思维部分_思维抽象,pending_pairing,CLEAR,
+2026通州期末,19(2),AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_假言推理,pending_pairing,CLEAR,
+2026通州期末,9,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_创新思维_发散,pending_pairing,CLEAR,
+2026顺义一模,19(1),AGREE_OR_NEEDS_FIELD_DIFF,交叉,推理部分,pending_pairing,CLEAR,
+2026顺义一模,19(2),AGREE_OR_NEEDS_FIELD_DIFF,交叉,思维部分_科学思维,pending_pairing,CLEAR,
+2026顺义一模,3,AGREE_OR_NEEDS_FIELD_DIFF,思维,思维部分_辩证思维,pending_pairing,CLEAR,
+2026顺义一模,4,AGREE_OR_NEEDS_FIELD_DIFF,推理,推理部分_类比/归纳,pending_pairing,CLEAR,
+2026顺义一模,5,AGREE_OR_NEEDS_FIELD_DIFF,交叉,边界_待确认,pending_pairing,BOUNDARY_CHECK,
+2024朝阳一模,20(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳一模,20(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳一模,21,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳一模,9,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳二模,16(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳二模,16(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳二模,19(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳二模,19(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳二模,19(3),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳期中,1,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳期中,5,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024海淀二模,14,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024海淀二模,16,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024海淀二模,17(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024海淀二模,17(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024海淀二模,4,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024海淀二模,8,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,11,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,blocked_until_options_visual_check,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,13,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,19(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,19(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,19(3),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,19(4),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,19(5),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024西城一模,19(6),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,1,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,16,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维;边界,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,18(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,2,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;思维;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,20,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维;边界,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,21,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,5,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,7,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,8,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025东城期末,9,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025丰台期末,16,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉;待判,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025丰台期末,18(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025丰台期末,18(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025丰台期末,18(3),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025海淀期末,17(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025海淀期末,22,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025西城二模,16(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025西城二模,17(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025西城二模,17(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025西城二模,7,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,blocked_until_options_visual_check,,A detected in-scope or cross candidate absent from Lane B
+2025顺义一模,10,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025顺义一模,16,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维;边界,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025顺义一模,17(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025顺义一模,17(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025顺义一模,3,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2025顺义一模,4,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城一模,12,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城一模,19(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城一模,19(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城一模,19(3),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城一模,2,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,14,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,16(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,16(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,17(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,21,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,3,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,4,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,5,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026东城期末,6,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026丰台一模,18(2),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,locked_pending_laneB_visual_confirmation,,A detected in-scope or cross candidate absent from Lane B
+2026朝阳期中,1,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026朝阳期中,18,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,待判;推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026朝阳期中,21(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026通州期末,19(1),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026通州期末,5,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026通州期末,8,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026顺义一模,19(3),A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,交叉,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026顺义一模,6,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026顺义一模,7,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,推理,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2026顺义一模,9,A_ONLY_NEEDS_B_OR_SOURCE_RECHECK,思维,,pending_pairing,,A detected in-scope or cross candidate absent from Lane B
+2024朝阳一模,主观题,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,思维部分_创新思维,,PENDING_READ,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row
+2024西城一模,PENDING,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,PENDING,,PENDING_READ,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row
+2025海淀二模,12,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,推理部分,,LOCKED_PENDING_VISUAL,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row
+2025海淀二模,13,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,推理部分,,LOCKED_PENDING_VISUAL,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row
+2025顺义一模,主观题,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,PENDING,,PENDING_READ,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row
+2026东城期末,选择题,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,完整,,,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row
+2026丰台一模,PENDING,B_ONLY_NEEDS_A_OR_SOURCE_RECHECK,,PENDING,,SCAN_BLOCKED,Lane B candidate absent from Lane A initial matrix or uses pending suite-level row

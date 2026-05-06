@@ -1,0 +1,6 @@
+suite,question,module_scope,status,codex_entry,claudecode_entry,fusion_status,evidence_status,notes
+2026顺义一模,Q19(2),思维-科学思维特征,phase02_codex_locked_pending_claudecode,03_entries/phase02_hard_sample_entries_internal.md#hs01-2026-顺义一模-q192,pending_phase02,pending,A,paper+rubric direct anchors extracted
+2025海淀二模,Q20,思维-辩证思维,phase02_visual_review_pending,03_entries/phase02_hard_sample_entries_internal.md#hs02-2025-海淀二模-q20,claudecode_lane/phase02_hard_sample_matrix.csv#HS02,pending,A-,paper text layer failed; scoring locked as 3 optional angles choose 2 each 1+2; needs final visual check
+2026朝阳期中,Q21(2),思维-创新思维,phase02_codex_locked_pending_claudecode,03_entries/phase02_hard_sample_entries_internal.md#hs03-2026-朝阳期中-q212,pending_phase02,pending,A,paper+rubric direct anchors extracted
+2026通州期末,Q11,思维选择题-抽象到具体,phase02_codex_locked_pending_claudecode,03_entries/phase02_hard_sample_entries_internal.md#hs04-2026-通州期末-q11,pending_phase02,pending,A,full stem/options/key extracted
+2026东城期末,Q17(2),推理-形式逻辑综合,phase02_codex_locked_pending_claudecode,03_entries/phase02_hard_sample_entries_internal.md#hs05-2026-东城期末-q172,pending_phase02,pending,A,paper+rubric direct anchors extracted; goes to reasoning typology

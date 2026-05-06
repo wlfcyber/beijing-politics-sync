@@ -1,0 +1,18 @@
+suite_id,suite,source_ids,question_count_detected,confidence,has_thinking,has_reasoning,blank_or_thin_paper_status,next_action
+S01,2026顺义一模,"001,002",6,high,YES,YES,OK,Q21多模块需进一步模块边界确认
+S02,2026朝阳期中,"003,004,005",7,high,YES,YES,OK,005为004副本可归档；双线已确认
+S03,2026通州期末,"006,007",3,high,YES,YES,OK,HS04和HS03类充分确认；可入学生稿队列
+S04,2025海淀二模,"008,009,010,011",3+,LOCKED,YES,NO,SCAN_BLOCKED(008),CRITICAL: 必须对008 renders视觉读取确认Q12/Q13/Q20题干；HS02 LOCKED_PENDING_VISUAL
+S05,2025东城期末,"012,013,014",4,high,YES,YES,OK,Q13/Q14选择题答案需从014细则回源确认
+S06,2025海淀期末,"015,016",4,high,YES,YES,OK,Q17(1)科学思维+Q18创新思维双主观题；016全文完整
+S07,2024朝阳期中,"017,018,019,020",6,high,YES,YES,OK,019评标实录(22368字)未读；高价值待读
+S08,2024朝阳二模,"021,022,023",2,medium,NO,NO,OK,未见显性选必三思维主观题；choice Q6-Q7为推理/概念题；需读022全文确认主观题
+S09,2024西城一模,"024,025,026",unknown,low,PENDING,PENDING,OK,三文件均未读取；需扫描确认是否含选必三思维题
+S10,2024海淀二模,"027,028,029",2,medium,NO,NO,OK,Q5/Q6为逻辑选择题；028-029未读；未见显性选必三主观题
+S11,2024朝阳一模,"030,031,032",2+,medium,PENDING,YES,OK,031/032内容需完整读取确认思维主观题
+S12,2025顺义一模,"033,034,035,036",3+,medium,PENDING,YES,OK,033大文件(19324字)已部分读取；细则034/036未读；需确认主观题细则
+S13,2025西城二模,"037,038,039",2,high,YES,YES,OK,Q16(2)假言推理A-formal确认；Q16(3)创新思维需补充037回源
+S14,2025丰台期末,"040,041",4,high,NO,YES,OK,Q7-Q10四道逻辑choice A-support；无选必三思维主观题（041细则仅覆盖哲学/政治）
+S15,2026丰台一模,"042,043",unknown,low,PENDING,PENDING,SCAN_BLOCKED(042),BLOCKER: 042扫描版；043细则未见选必三思维题；需视觉读取042确认choice/主观题
+S16,2026东城期末,"044,045",4,high,NO,YES,OK,Q6/Q7/Q8推理选择题A-formal；Q17(2)为HS05 C-boundary形式逻辑题
+S17,2026东城一模,"046,047,048,049,050,051,052,053,054,055,056",3+,high,YES,YES,SCAN_BLOCKED(047);THIN(048,052),Q7推理Ans D确认；Q19(4)系统+创新思维A-formal；052(Q19(1))需视觉读取

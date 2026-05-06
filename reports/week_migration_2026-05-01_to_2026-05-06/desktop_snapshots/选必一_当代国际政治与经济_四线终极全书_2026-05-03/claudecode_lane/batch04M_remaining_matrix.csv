@@ -1,0 +1,70 @@
+atom_id,suite,question,segment,points,evidence_tier,bucket_hint,term_short,term_full,boundary_flag,promotion_status
+ATOM-FT24Y-Q20-A1,2024丰台一模,Q20,aspect-基础设施互联互通,aspect(cap-tier 3of4=6-7;2=4-5;1=2-3;无per-pt),P0_scoring_pdf_guarded,基础设施推动产品服务要素流动,建立和完善基础设施推动产品服务和生产要素全球流动提高资源配置效率,guarded-cap-tier-aspect-bundle-not-per-pt,candidate_for_fusion_guarded
+ATOM-FT24Y-Q20-A2,2024丰台一模,Q20,aspect-供应链金融创新,aspect(cap-tier),P0_scoring_pdf_guarded,供应链金融创新缓解资金短缺,加快供应链金融创新发展缓解资金短缺,guarded-cap-tier-aspect-bundle,candidate_for_fusion_guarded
+ATOM-FT24Y-Q20-A3,2024丰台一模,Q20,aspect-平台-贸易投资自由化便利化,aspect(cap-tier),P0_scoring_pdf_guarded,平台+贸易投资自由化便利化,打造国际经济合作交流平台推进贸易投资自由化便利化,guarded-cap-tier-aspect-bundle,candidate_for_fusion_guarded
+ATOM-FT24Y-Q20-A4,2024丰台一模,Q20,aspect-数字化绿色低碳推动全球供应链高质量,aspect(cap-tier),P0_scoring_pdf_guarded,数字化/绿色低碳/供应链高质量,运用先进技术降低成本提高效率推动全球供应链高质量发展,guarded-cap-tier-aspect-bundle,candidate_for_fusion_guarded
+ATOM-FT24Y-Q20-A5,2024丰台一模,Q20,closure-畅通全球供应链产业链经济全球化合作共赢,closure(cap-tier),P0_scoring_pdf_guarded,畅通全球供应链增强经济全球化活力合作共赢,畅通全球供应链产业链增强经济全球化活力推动各国合作共赢,guarded-closure-修辞-非独立赋分,closure_modifier
+ATOM-FT24Y-Q20-RUBRIC-META,2024丰台一模,Q20,rubric-meta-cap-tier,0(meta),P0_scoring_pdf_guarded,4aspect-cap-tier,3aspect=6-7/2aspect=4-5/1aspect=2-3/0aspect=0-1;贴切度+论述质量降一档,cap-tier-meta-不独立赋分,rubric_meta
+ATOM-FT24E-Q19-A1,2024丰台二模,Q19,做法+效果-负责任大国发挥建设性作用,2,P0_scoring_docx,负责任大国+建设性作用,中国作为负责任大国在面临气候变化挑战中积极承担责任发挥建设性作用,clean-2pt-做法+效果意义双匹配,candidate_for_fusion_clean
+ATOM-FT24E-Q19-A2,2024丰台二模,Q19,做法+效果-南南合作贡献中国智慧/方案/力量,2,P0_scoring_docx,南南合作+中国智慧/方案/力量,中国通过南南合作帮助发展中国家发展贡献中国智慧中国力量(细则:贡献中国智慧中国方案),clean-2pt-做法+效果意义,candidate_for_fusion_clean
+ATOM-FT24E-Q19-A3,2024丰台二模,Q19,做法+效果-区域合作改善区域环境构建HMC,2,P0_scoring_docx,区域合作+改善区域环境+HMC,中国通过区域合作促进区域环境改善构建人类命运共同体,clean-2pt-做法+效果意义,candidate_for_fusion_clean
+ATOM-FT24E-Q19-EXT,2024丰台二模,Q19,拓展可替换-完善全球治理/共商共建共享/合作共赢,(替代项),P0_scoring_docx,拓展替代项,完善全球治理/共商共建共享/合作共赢,可替代任一角度的核心术语;不重复给分,replacement_atom
+ATOM-FT24E-Q19-NEG,2024丰台二模,Q19,negative-list,0,P0_scoring_docx,经济全球化/国际关系民主化偏离主题扣分,围绕气候变化外的术语(经济全球化/国际关系民主化等)酌情扣分,负向引导-不计分,negative_atom
+ATOM-SJS24Y-Q19-2-R1,2024石景山一模,Q19(2),reference-顺应经济全球化+技术创新+国际市场需求,reference-only(无rubric),P1_reference_answer_only_pptx,经济全球化+技术创新+市场需求,新能源车企顺应经济全球化趋势依靠技术创新引领生产优质产品满足国际市场需求,reference-fragment-pptx-slides-only-NOT-promotable,not_promoted
+ATOM-SJS24Y-Q19-2-R2,2024石景山一模,Q19(2),reference-比较优势+优化资源配置+国际竞争新优势,reference-only,P1_reference_answer_only_pptx,比较优势+国际竞争新优势,利用当地比较优势优化资源配置降低生产贸易成本打造国际竞争新优势,reference-fragment-NOT-promotable,not_promoted
+ATOM-SJS24Y-Q19-2-R3,2024石景山一模,Q19(2),reference-技术交流资源共享+合作共赢,reference-only,P1_reference_answer_only_pptx,技术交流+合作共赢,通过技术交流与资源共享带动当地经济社会发展创设良好生产贸易环境实现合作共赢,reference-fragment-NOT-promotable,not_promoted
+ATOM-SY24E-Q19-2-R1,2024顺义二模,Q19(2),reference-国际竞争实质=综合国力较量,reference-only(无rubric),P1_reference_answer_only,国际竞争+综合国力,当前国际竞争的实质是以经济和科技实力为基础的综合国力的较量,reference-fragment-NOT-promotable,not_promoted
+ATOM-SY24E-Q19-2-R2,2024顺义二模,Q19(2),reference-维护国家利益+国际事务话语权,reference-only,P1_reference_answer_only,国家利益+国际话语权,有利于更好的维护我国的国家利益和增强在国际事务中的话语权,reference-fragment-NOT-promotable,not_promoted
+ATOM-SY24E-Q19-2-R3,2024顺义二模,Q19(2),reference-世界多极化深入发展,reference-only,P1_reference_answer_only,世界多极化,有利于世界多极化深入发展,reference-fragment-NOT-promotable,not_promoted
+ATOM-SY24E-Q19-2-R4,2024顺义二模,Q19(2),reference-构建HMC,reference-only,P1_reference_answer_only,构建人类命运共同体,构建人类命运共同体,reference-fragment-NOT-promotable,not_promoted
+ATOM-FT25Y-Q20-A1,2025丰台一模,Q20,经济与社会-便利投资,2,P0_scoring_docx,便利投资+营商环境/法治环境+吸引外商,出台《北京市外商投资条例》/全球服务伙伴计划营造法治化营商环境吸引外商投资,选必一-非主码-属经济与社会模块,excluded_from_xuanbiyi_main
+ATOM-FT25Y-Q20-A2,2025丰台一模,Q20,经济与社会-便利贸易,2,P0_scoring_docx,通关创新+数据出境负面清单,创新通关模式降低成本扩大货贸/数据出境负面清单促进服务贸易,选必一-非主码,excluded_from_xuanbiyi_main
+ATOM-FT25Y-Q20-A3,2025丰台一模,Q20,经济与社会-吸引人才,2,P0_scoring_docx,国际职业资格双向互认,推出国际职业资格认可目录推动职业资格双向互认吸引人才,选必一-非主码,excluded_from_xuanbiyi_main
+ATOM-FT25Y-Q20-A4,2025丰台一模,Q20,经济与社会-优惠政策,2,P0_scoring_docx,财政税费政策+高新技术企业,实施优惠政策/财政税费政策吸引高新技术企业入驻助力科技创新,选必一-非主码,excluded_from_xuanbiyi_main
+ATOM-FT25Y-Q20-FALLBACK,2025丰台一模,Q20,选必一-fallback-两个市场两种资源/双循环,1-3(fallback only),P0_scoring_docx_guarded,两个市场两种资源+双循环新发展格局,从宏观角度分析推动以国内大循环为主体国内国际双循环相互促进新发展格局推动国内国际两个市场两种资源联动,guarded-fallback-only-when-A1-A4-absent,candidate_for_fusion_guarded
+ATOM-FT25Y-Q20-NEG,2025丰台一模,Q20,negative-list,0,P0_scoring_docx,堆积新型国际关系/HMC/经济全球化不给分,如学生堆积《当代国际政治与经济》新型国际关系构建人类命运共同体推动经济全球化发展等不给分,负向引导-显式禁止-不可促进,negative_atom_HARD
+ATOM-FT25E-Q20-A01,2025丰台期末,Q20,理论逻辑-时代主题,1,P0_scoring_pptx,和平与发展时代主题,中非达成战略性共识符合和平与发展的时代主题,clean-1pt,candidate_for_fusion_clean
+ATOM-FT25E-Q20-A02,2025丰台期末,Q20,理论逻辑-国家间共同利益,1,P0_scoring_pptx,国家间共同利益,基于国家间共同利益构建中非命运共同体,clean-1pt,candidate_for_fusion_clean
+ATOM-FT25E-Q20-A03,2025丰台期末,Q20,理论逻辑-平等互利,1,P0_scoring_pptx,平等互利合作,在平等互利基础上开展合作,clean-1pt,candidate_for_fusion_clean
+ATOM-FT25E-Q20-A04,2025丰台期末,Q20,价值意蕴-共商共建共享全球治理观,1,P0_scoring_pptx,共商共建共享全球治理观,落实共商共建共享的全球治理观,clean-1pt,candidate_for_fusion_clean
+ATOM-FT25E-Q20-A05,2025丰台期末,Q20,价值意蕴-新型国际关系(具体写出2分),2,P0_scoring_pptx,相互尊重公平正义合作共赢的新型国际关系,有利于推动建设相互尊重公平正义合作共赢的新型国际关系(只写新型国际关系1分;具体写出2分),clean-2pt-with-tier(1or2),candidate_for_fusion_clean
+ATOM-FT25E-Q20-A05b,2025丰台期末,Q20,价值意蕴-国际关系民主化(替代),1,P0_scoring_pptx,国际关系民主化,如未答出新型国际关系答出推动国际关系民主化可替换得1分,replacement_atom_for_A05,candidate_for_fusion_clean
+ATOM-FT25E-Q20-A06,2025丰台期末,Q20,价值意蕴-中非携手推进现代化(材料),1,P0_scoring_pptx,中非携手推进现代化,有利于中非携手推进现代化,clean-1pt-材料分,candidate_for_fusion_clean
+ATOM-FT25E-Q20-A07,2025丰台期末,Q20,价值意蕴-构建HMC,1,P0_scoring_pptx,构建人类命运共同体,构建人类命运共同体,clean-1pt,candidate_for_fusion_clean
+ATOM-YQ25Y-Q20b-A01,2025延庆一模,Q20(2),共同利益+和平与发展时代主题,2,P0_scoring_pdf,共同利益+时代主题,维护全球产供链韧性和稳定符合国际社会的共同利益顺应和平与发展的时代主题,clean-2pt(细则2分),candidate_for_fusion_clean
+ATOM-YQ25Y-Q20b-A02,2025延庆一模,Q20(2),经济全球化方向(开放包容普惠平衡共赢)+高水平开放,2,P0_scoring_pdf,经济全球化五字方向+高水平对外开放,中国坚持高质量发展和高水平对外开放推动经济全球化朝着开放包容普惠平衡共赢方向发展,clean-2pt-五字方向保形,candidate_for_fusion_clean
+ATOM-YQ25Y-Q20b-A03,2025延庆一模,Q20(2),世界多极化+负责任大国兼顾合理关切,2,P0_scoring_pdf,世界多极化+合理关切,世界多极化是当今国际形势的突出特点中国作为负责任大国追求本国利益同时兼顾他国合理关切,clean-2pt,candidate_for_fusion_clean
+ATOM-YQ25Y-Q20b-A04,2025延庆一模,Q20(2),共筑HMC,2,P0_scoring_pdf,人类命运共同体,共筑人类命运共同体,clean-2pt,candidate_for_fusion_clean
+ATOM-YQ25Y-Q20b-A05,2025延庆一模,Q20(2),替代项-国家利益/国际关系/多边主义,(替代),P0_scoring_pdf,可替代项不重复给分,国家利益/国际关系/多边主义等角度可替代不重复给分,replacement_atom,replacement
+ATOM-FS25Y-Q18b-A01,2025房山一模,Q18(2),chain1-国际竞争实质起点,(in chain1=4),P0_scoring_pdf,国际竞争的实质,国际竞争的实质,chain1-起点-不独立赋分,chain_anchor
+ATOM-FS25Y-Q18b-A02,2025房山一模,Q18(2),chain1-高水平对外开放/对外开放基本国策,(in chain1=4 可替代),P0_scoring_pdf,高水平对外开放,坚持高水平对外开放(可替代为对外开放的基本国策),chain1-可替代,replacement_atom
+ATOM-FS25Y-Q18b-A03,2025房山一模,Q18(2),chain1-创新型开放型世界经济(不可替代),(in chain1=4 不可替代),P0_scoring_pdf,创新型开放型世界经济,以科学技术的发展推动建设创新型开放型世界经济,chain1-不可替代-必拿原形,candidate_for_fusion_clean_irreplaceable
+ATOM-FS25Y-Q18b-A04,2025房山一模,Q18(2),chain1-促进经济全球化发展(chain1合计4分),4,P0_scoring_pdf,促进经济全球化发展,促进经济全球化发展(chain1合计4分),clean-chain-total-4,candidate_for_fusion_clean
+ATOM-FS25Y-Q18b-A05,2025房山一模,Q18(2),chain2-和平与发展国际潮流,(in chain2=3),P0_scoring_pdf,和平与发展国际潮流,和平与发展的国际潮流,chain2-起点,chain_anchor
+ATOM-FS25Y-Q18b-A06,2025房山一模,Q18(2),chain2-联合国宗旨原则框架(不可替代),(in chain2=3 不可替代),P0_scoring_pdf,联合国宗旨和原则,在联合国宗旨和原则的框架下,chain2-不可替代-必拿原形,candidate_for_fusion_clean_irreplaceable
+ATOM-FS25Y-Q18b-A07,2025房山一模,Q18(2),chain2-构建HMC,(in chain2=3),P0_scoring_pdf,人类命运共同体,构建人类命运共同体,chain2-component,candidate_for_fusion_clean
+ATOM-FS25Y-Q18b-A08,2025房山一模,Q18(2),chain2-加强国际交流合作/正确义利观(可替代),(in chain2=3 可替代),P0_scoring_pdf,国际交流合作/义利观,加强国际交流和合作(可替代为坚持正确的义利观),chain2-可替代,replacement_atom
+ATOM-FS25Y-Q18b-A09,2025房山一模,Q18(2),chain2-积极参与全球治理(chain2合计3分),3,P0_scoring_pdf,参与全球治理,积极参与全球治理(chain2合计3分),clean-chain-total-3,candidate_for_fusion_clean
+ATOM-FS25Y-Q18b-A10,2025房山一模,Q18(2),逻辑分,1,P0_scoring_pdf,逻辑严密观点鲜明,学生答题观点鲜明思维严密条理清晰,clean-1pt-逻辑分,candidate_for_fusion_clean
+ATOM-CP25E-Q21-A01,2025昌平二模,Q21,选必一-两个市场两种资源,(in 2pt bundle),P0_scoring_pptx_guarded,国内国际两个市场两种资源,有利于充分利用国内国际两个市场两种资源,guarded-no-module-tag-但选必一-exclusive-anchor,candidate_for_fusion_guarded_xuanbiyi
+ATOM-CP25E-Q21-A04,2025昌平二模,Q21,选必一-全球经济治理话语权,(in 2pt bundle),P0_scoring_pptx_guarded,全球经济治理话语权和影响力,提升中国在全球经济治理中的话语权和影响力,guarded-选必一-exclusive,candidate_for_fusion_guarded_xuanbiyi
+ATOM-CP25E-Q21-A05,2025昌平二模,Q21,选必一-开放包容全球经济格局,(in 2pt bundle),P0_scoring_pptx_guarded,开放包容全球经济格局,推动构建更加开放包容的全球经济格局,guarded-选必一-exclusive,candidate_for_fusion_guarded_xuanbiyi
+ATOM-CP25E-Q21-A06,2025昌平二模,Q21,选必一-推动经济全球化发展+加强贸易合作(可放任意材料),(repl/cross-material),P0_scoring_pptx_guarded,推动经济全球化发展+贸易合作,推动经济全球化发展+加强贸易合作放到哪个材料都可以给分见点给分,guarded-cross-material-replacement,candidate_for_fusion_guarded_xuanbiyi
+ATOM-CP25E-Q21-A03-BOUNDARY,2025昌平二模,Q21,boundary-市场化法治化国际化营商环境,1,P0_scoring_pptx_guarded,营商环境市场化法治化国际化,营造市场化法治化国际化的营商环境,boundary_dual_coded_经济与社会+选必一,boundary_dual_coded
+ATOM-CP25E-Q21-A07-BOUNDARY,2025昌平二模,Q21,boundary-放宽市场准入,1,P0_scoring_pptx_guarded,放宽市场准入,电信医疗等领域开放放宽市场准入,boundary_经济与社会主码,boundary_excluded_xuanbiyi
+ATOM-CP25E-Q21-A02-BOUNDARY,2025昌平二模,Q21,boundary-现代化产业体系,(in 2pt),P0_scoring_pptx_guarded,现代化产业体系+对外开放质量,建设现代化产业体系提高对外开放的质量和效益,boundary_经济与社会主码,boundary_excluded_xuanbiyi
+ATOM-CP25E-Q21-A08-BOUNDARY,2025昌平二模,Q21,boundary-知识产权保护+扩大免签,1,P0_scoring_pptx_guarded,知识产权保护+免签,加大服务保障力度规范监管和保护知识产权扩大免签范围,boundary_经济与社会主码,boundary_excluded_xuanbiyi
+ATOM-SJS25Y-Q17b-A01,2025石景山一模,Q17(2),共商共建共享全球治理观+各国共商,2,P0_scoring_docx,共商共建共享全球治理观,中国主张坚持共商共建共享的全球治理观各国的事应由本国政府和人民决定国际上的事应由各国政府和人民平等互利共同商量着办,clean-2pt-采点采意,candidate_for_fusion_clean
+ATOM-SJS25Y-Q17b-A02,2025石景山一模,Q17(2),国家平等+国际关系民主化,2,P0_scoring_docx,国家平等+国际关系民主化,坚持国家不分大小强弱贫富一律平等平等参与决策享受权利履行义务共同推动国际关系民主化,clean-2pt,candidate_for_fusion_clean
+ATOM-SJS25Y-Q17b-A03,2025石景山一模,Q17(2),普惠包容经济全球化+共同发展繁荣,2,P0_scoring_docx,普惠包容经济全球化,推进普惠包容的经济全球化让不同国家都能参与并享有经济社会发展成果实现共同发展繁荣,clean-2pt,candidate_for_fusion_clean
+ATOM-SJS25Y-Q17b-A04,2025石景山一模,Q17(2),真正多边主义+联合国为核心+国际法为基础,2,P0_scoring_docx,真正多边主义+联合国为核心+国际法为基础,践行真正的多边主义坚定维护以联合国为核心的国际体系以国际法为基础的国际秩序,clean-2pt-三件套保形,candidate_for_fusion_clean
+ATOM-SJS25Y-Q17b-RUBRIC,2025石景山一模,Q17(2),rubric-meta-采点采意-1点2分4点8分-其他角度封顶4分,0(meta),P0_scoring_docx,采点采意-4点2分制,采点采意赋分相结合采点赋分为主对应北京宣言内容准确概括其中一点中国主张得2分四点得8分;从其他角度回答言之成理最高得4分;答非所问0分,rubric-meta-cap+其他角度上限4,rubric_meta
+ATOM-SY25Y-Q20-A1,2025顺义一模,Q20,项目创新与实践优势,2,P0_scoring_docx,聚焦发展中国家紧迫需求+灵活快速响应+小规模可推广形成品牌,聚焦发展中国家紧迫需求灵活实施快速响应基层社区需求(1分);规模小更易统筹可推广形成品牌和共同发展目标(1分),clean-2pt-(1+1)结构,candidate_for_fusion_clean
+ATOM-SY25Y-Q20-A2,2025顺义一模,Q20,对当地价值,2,P0_scoring_docx,改善民生+促进就业+公共卫生+经济社会发展+获得感,改善民生/促进就业/提升公共卫生水平/促进经济社会发展提升民众获得感等具体惠民措施,clean-2pt(任2),candidate_for_fusion_clean
+ATOM-SY25Y-Q20-A3,2025顺义一模,Q20,对我国意义/折射理念,2,P0_scoring_docx,文化传播+义利观+共商共建共享+大国担当+和平外交+开放型经济,传播中华文化/增强文明互鉴/正确义利观/共商共建共享原则/大国担当/负责任大国/独立自主和平外交政策/发展开放型经济(任意1点1分上限2分),clean-2pt(任2-上限),candidate_for_fusion_clean
+ATOM-SY25Y-Q20-A4,2025顺义一模,Q20,对世界贡献,2,P0_scoring_docx,HMC+国际政治经济秩序+经济全球化开放包容普惠+国际关系民主化,构建人类命运共同体/为重构公正合理的国际政治经济秩序提供中国方案/推动经济全球化朝着开放包容普惠的方向发展/推动国际关系民主化(任意1点1分上限2分),clean-2pt(任2-上限),candidate_for_fusion_clean
+ATOM-SY25Y-Q20-MATERIAL,2025顺义一模,Q20,材料关联(中老铁路/200口井/牙买加中国园林),1(in cap),P0_scoring_docx,材料关联触发,材料关联可得1分,材料分-非独立学科用语,material_anchor
+BLOCK-FT26E-Q20,2026丰台期末,Q20,LAC五大工程-prompt-only,N/A,prompt_only_blocker,N/A,五大工程扩大中拉利益汇合点,团结/发展/文明/和平/民心五大工程+联合国为核心国际体系+多边贸易体制+产业链供应链+全球发展安全文明倡议+新型国际关系+利益汇合点+命运共同体,prompt found(p.64) BUT rubric absent in deck-deck pivots to综合五年规划9pt题-do NOT promote,prompt_only_blocker
+EXCL-HD26E-ALL,2026海淀期末,All,no-Xuanbiyi-content,N/A,N/A,N/A,N/A,N/A,Q16-21全部必修一/二/三/四+选必二/三-无选必一,suite_excluded_no_xuanbiyi
+EXCL-2024MOD-ALL,2024模块分类汇编,N/A,source-bundle-aggregator-only,N/A,N/A,N/A,N/A,N/A,7个P3_candidate_paper聚合包-无独立P0-defer per-district,suite_boundary_no_promotion
+EXCL-SJS26E-ALL,2026石景山期末,All,no-P0-only-reference-under已放弃,N/A,N/A,N/A,N/A,N/A,只有P1_candidate_reference_answer在已放弃文件夹-无P0,suite_excluded_per_user_rule

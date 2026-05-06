@@ -1,0 +1,268 @@
+[
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026顺义一模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/001_Users_wanglifei_Desktop_2026模拟题_2026各区一模_2026顺义一模_试卷_试卷.pdf.txt",
+    "chars": 9013
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026顺义一模/细则/细则.pptx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/002_Users_wanglifei_Desktop_2026模拟题_2026各区一模_2026顺义一模_细则_细则.pptx.txt",
+    "chars": 4295
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期中/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/003_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_试卷_试卷.pdf.txt",
+    "chars": 8289
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期中/细则/细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/004_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_细则_细则.docx.txt",
+    "chars": 4749
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期中/细则/补充材料/细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/005_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026朝阳期中_细则_补充材料_细则.docx.txt",
+    "chars": 4749
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025昌平二模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/006_Users_wanglifei_Desktop_2025模拟题_2025各区二模_2025昌平二模_试卷_试卷.pdf.txt",
+    "chars": 9824
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025昌平二模/细则/细则.pptx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/007_Users_wanglifei_Desktop_2025模拟题_2025各区二模_2025昌平二模_细则_细则.pptx.txt",
+    "chars": 8072
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳期中/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/008_Users_wanglifei_Desktop_2024模拟题_2024朝阳期中_试卷_试卷.pdf.txt",
+    "chars": 7639
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳期中/试卷/补充材料/202411朝阳高三政治 期中1试题(1).pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/009_Users_wanglifei_Desktop_2024模拟题_2024朝阳期中_试卷_补充材料_202411朝阳高三政治_期中1试题_1_.pdf.txt",
+    "chars": 7639
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳期中/细则/细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/010_Users_wanglifei_Desktop_2024模拟题_2024朝阳期中_细则_细则.docx.txt",
+    "chars": 5666
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳期中/细则/补充材料/2024.11期中政治朝阳评标2.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/011_Users_wanglifei_Desktop_2024模拟题_2024朝阳期中_细则_补充材料_2024.11期中政治朝阳评标2.docx.txt",
+    "chars": 23502
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳期中/细则/补充材料/细则.rtf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/012_Users_wanglifei_Desktop_2024模拟题_2024朝阳期中_细则_补充材料_细则.rtf.txt",
+    "chars": 3515
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区一模/2025朝阳一模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/013_Users_wanglifei_Desktop_2025模拟题_2025各区一模_2025朝阳一模_试卷_试卷.pdf.txt",
+    "chars": 10034
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区一模/2025朝阳一模/细则/补充材料/20250329高3阅卷总结17 1题 具身智能 任会波组 阐释论证.doc",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/014_Users_wanglifei_Desktop_2025模拟题_2025各区一模_2025朝阳一模_细则_补充材料_20250329高3阅卷总结17_1题_具身智能_任会波组_阐释论证.doc.txt",
+    "chars": 1545
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区一模/2025顺义一模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/015_Users_wanglifei_Desktop_2025模拟题_2025各区一模_2025顺义一模_试卷_试卷.pdf.txt",
+    "chars": 19179
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区一模/2025顺义一模/细则/细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/016_Users_wanglifei_Desktop_2025模拟题_2025各区一模_2025顺义一模_细则_细则.docx.txt",
+    "chars": 3826
+  },
+  {
+    "source": "/Users/wanglifei/GaokaoPolitics/2025各区模拟题/2025各区一模/2025顺义一模/2025北京顺义高三一模政治（教师版）.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/017_Users_wanglifei_GaokaoPolitics_2025各区模拟题_2025各区一模_2025顺义一模_2025北京顺义高三一模政治_教师版_.pdf.txt",
+    "chars": 19179
+  },
+  {
+    "source": "/Users/wanglifei/GaokaoPolitics/2025各区模拟题/2025各区一模/2025顺义一模/顺义区2025届高三第一次模拟考试参考答案—评分细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/018_Users_wanglifei_GaokaoPolitics_2025各区模拟题_2025各区一模_2025顺义一模_顺义区2025届高三第一次模拟考试参考答案_评分细则.docx.txt",
+    "chars": 3826
+  },
+  {
+    "source": "/Users/wanglifei/GaokaoPolitics/2025各区模拟题/2025各区二模/2025昌平二模/2025北京昌平高三二模政治（教师版）.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/019_Users_wanglifei_GaokaoPolitics_2025各区模拟题_2025各区二模_2025昌平二模_2025北京昌平高三二模政治_教师版_.pdf.txt",
+    "chars": 9824
+  },
+  {
+    "source": "/Users/wanglifei/GaokaoPolitics/2025各区模拟题/2025各区二模/2025昌平二模/2025昌平二模 政治评标.pptx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/020_Users_wanglifei_GaokaoPolitics_2025各区模拟题_2025各区二模_2025昌平二模_2025昌平二模_政治评标.pptx.txt",
+    "chars": 8072
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026通州期末/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/021_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_试卷_试卷.pdf.txt",
+    "chars": 8621
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026通州期末/细则/细则.pptx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/022_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026通州期末_细则_细则.pptx.txt",
+    "chars": 7015
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026海淀期末/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/023_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026海淀期末_试卷_试卷.pdf.txt",
+    "chars": 1885
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026海淀期末/细则/细则.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/024_Users_wanglifei_Desktop_2026模拟题_2026各区期末和期中_2026海淀期末_细则_细则.pdf.txt",
+    "chars": 1789
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/025_Users_wanglifei_Desktop_2025模拟题_2025各区二模_2025海淀二模_试卷_试卷.pdf.txt",
+    "chars": 94
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/细则/细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/026_Users_wanglifei_Desktop_2025模拟题_2025各区二模_2025海淀二模_细则_细则.docx.txt",
+    "chars": 2777
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/细则/补充材料/2025年海淀二模评标实录.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/027_Users_wanglifei_Desktop_2025模拟题_2025各区二模_2025海淀二模_细则_补充材料_2025年海淀二模评标实录.docx.txt",
+    "chars": 2082
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/其他材料/2025届二模考试讲评0510.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/028_Users_wanglifei_Desktop_2025模拟题_2025各区二模_2025海淀二模_其他材料_2025届二模考试讲评0510.pdf.txt",
+    "chars": 12458
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024东城一模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/029_Users_wanglifei_Desktop_2024模拟题_2024东城一模_试卷_试卷.pdf.txt",
+    "chars": 145
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024东城一模/细则/细则.pptx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/030_Users_wanglifei_Desktop_2024模拟题_2024东城一模_细则_细则.pptx.txt",
+    "chars": 10320
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024东城一模/细则/补充材料/北京市东城区2023-2024学年度第二学期高三综合练习（一）思想政治答案(1).pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/031_Users_wanglifei_Desktop_2024模拟题_2024东城一模_细则_补充材料_北京市东城区2023-2024学年度第二学期高三综合练习_一_思想政治答案_1_.pdf.txt",
+    "chars": 10
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/西城一模/试卷/试卷.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/032_Users_wanglifei_Desktop_2024模拟题_西城一模_试卷_试卷.docx.txt",
+    "chars": 6143
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/西城一模/细则/补充材料/2024.4高三统一测试思想政治答案.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/033_Users_wanglifei_Desktop_2024模拟题_西城一模_细则_补充材料_2024.4高三统一测试思想政治答案.docx.txt",
+    "chars": 1668
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/海淀二模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/034_Users_wanglifei_Desktop_2024模拟题_海淀二模_试卷_试卷.pdf.txt",
+    "chars": 7635
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/海淀二模/细则/细则.docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/035_Users_wanglifei_Desktop_2024模拟题_海淀二模_细则_细则.docx.txt",
+    "chars": 2694
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/海淀二模/细则/补充材料/高三二模：政治答案(2).docx",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/036_Users_wanglifei_Desktop_2024模拟题_海淀二模_细则_补充材料_高三二模_政治答案_2_.docx.txt",
+    "chars": 1699
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳二模/试卷/试卷.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/037_Users_wanglifei_Desktop_2024模拟题_2024朝阳二模_试卷_试卷.pdf.txt",
+    "chars": 8322
+  },
+  {
+    "source": "/Users/wanglifei/Desktop/2024模拟题/2024朝阳二模/细则/细则.pdf",
+    "exists": true,
+    "status": "extracted",
+    "output": "/Users/wanglifei/Desktop/北京高考政治/选必三逻辑与思维双线四线终极跑_2026-05-04/02_extraction/priority_source_texts/038_Users_wanglifei_Desktop_2024模拟题_2024朝阳二模_细则_细则.pdf.txt",
+    "chars": 5860
+  }
+]

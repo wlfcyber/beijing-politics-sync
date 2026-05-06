@@ -1,0 +1,6 @@
+entry_id,source_id,question,evidence_level,scoring_source_type,notes
+HS01,HS01_PAPER+HS01_RUBRIC,Q19(2),A,pptx_rubric,Paper ask and rubric directly lock scientific thinking features
+HS02,HS02_PAPER+HS02_RUBRIC,Q20,A-,docx_rubric_plus_visual_paper,Rubric locks points but paper needs second visual confirmation
+HS03,HS03_PAPER+HS03_RUBRIC+HS03_RUBRIC_SUPP,Q21(2),A,docx_rubric,Paper ask and rubric directly lock innovation thinking points and scoring boundaries
+HS04,HS04_PAPER+HS04_RUBRIC,Q11,A,answer_key,Full choice stem/options/key captured; rubric is answer-key level not full explanation
+HS05,HS05_PAPER+HS05_RUBRIC,Q17(2),A,pptx_rubric,Formal-logic prompt and scoring rules directly locked

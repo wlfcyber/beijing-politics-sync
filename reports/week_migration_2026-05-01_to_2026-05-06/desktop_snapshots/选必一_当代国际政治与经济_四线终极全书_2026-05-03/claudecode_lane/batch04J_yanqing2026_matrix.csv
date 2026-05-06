@@ -1,0 +1,17 @@
+atom_id,suite,question,segment,points,evidence_tier,bucket_hint,term_short,term_full,boundary_flag,promotion_status
+ATOM-YQ2026-Q19-2-01,2026延庆一模,Q19(2),理论逻辑-国家利益角度A,1分理论(择一),P0_scoring_docx,国家利益,共同利益基础,共同利益是国家间合作的基础,国家利益角度三选一第一选项,candidate_for_fusion
+ATOM-YQ2026-Q19-2-02,2026延庆一模,Q19(2),理论逻辑-国家利益角度B,1分理论(择一),P0_scoring_docx,国家利益,维护国家利益是出发点,维护国家利益是主权国家对外活动的出发点,国家利益角度三选一第二选项,candidate_for_fusion
+ATOM-YQ2026-Q19-2-03,2026延庆一模,Q19(2),理论逻辑-国家利益角度C,1分理论(择一),P0_scoring_docx,义利观,正确义利观,正确的义利观,国家利益角度三选一第三选项,candidate_for_fusion
+ATOM-YQ2026-Q19-2-04,2026延庆一模,Q19(2),理论逻辑-历史潮流角度A,1分理论(择一),P0_scoring_docx,时代主题,时代主题,时代主题(和平/发展/合作/共赢的历史潮流),历史潮流角度二选一第一选项,candidate_for_fusion
+ATOM-YQ2026-Q19-2-05,2026延庆一模,Q19(2),理论逻辑-历史潮流角度B,1分理论(择一),P0_scoring_docx,经济全球化,经济全球化趋势,经济全球化趋势,历史潮流角度二选一第二选项,candidate_for_fusion
+ATOM-YQ2026-Q19-2-06,2026延庆一模,Q19(2),价值意蕴1,1点2分2点4分,P0_scoring_docx,人类命运共同体,人类命运共同体,推动构建人类命运共同体,价值意蕴三选二落点,candidate_for_fusion
+ATOM-YQ2026-Q19-2-07,2026延庆一模,Q19(2),价值意蕴2,1点2分2点4分,P0_scoring_docx,全球治理,共商共建共享全球治理观,共商共建共享的全球治理观,价值意蕴三选二落点必须保留全球治理观后缀,candidate_for_fusion
+ATOM-YQ2026-Q19-2-08,2026延庆一模,Q19(2),价值意蕴3,1点2分2点4分,P0_scoring_docx,新型国际关系,合作共赢新型国际关系,相互尊重、公平正义、合作共赢的新型国际关系,价值意蕴三选二落点术语保形不可压缩,candidate_for_fusion
+ATOM-YQ2026-Q19-2-09,2026延庆一模,Q19(2),答案句支持(非赋分),0分(boundary),P0_scoring_docx,中国方案,中国方案-公共产品属性,具有公共产品属性的中国方案,出现在参考答案段落但细则未列为赋分槽位,boundary_only_expression
+ATOM-YQ2026-Q19-2-10,2026延庆一模,Q19(2),材料触发(非赋分),0分(material trigger),P0_scoring_docx,材料触发,一带一路+绿色基建+能源转型+绿色发展指数,一带一路/绿色基建/能源转型/绿色发展指数,材料平台与触发词非独立赋分术语,material_trigger_only
+EXCL-YQ2026-Q16,2026延庆一模,Q16,哲学+文化,N/A,N/A,N/A,N/A,N/A,模块外(哲学+文化),excluded
+EXCL-YQ2026-Q17,2026延庆一模,Q17,政治与法治,N/A,N/A,N/A,N/A,N/A,模块外(必修三),excluded
+EXCL-YQ2026-Q18-1,2026延庆一模,Q18(1),法律与生活,N/A,N/A,N/A,N/A,N/A,模块外(选必二),excluded
+EXCL-YQ2026-Q18-2,2026延庆一模,Q18(2),逻辑与思维,N/A,N/A,N/A,N/A,N/A,模块外(选必三),excluded
+EXCL-YQ2026-Q19-1,2026延庆一模,Q19(1),经济与社会,N/A,N/A,N/A,N/A,N/A,模块外(必修二:党领导/国有经济/市场配置/新发展理念),excluded
+EXCL-YQ2026-Q20,2026延庆一模,Q20,哲学(发展观/规律/矛盾观/主观能动性),N/A,N/A,N/A,N/A,N/A,模块外(必修四),excluded

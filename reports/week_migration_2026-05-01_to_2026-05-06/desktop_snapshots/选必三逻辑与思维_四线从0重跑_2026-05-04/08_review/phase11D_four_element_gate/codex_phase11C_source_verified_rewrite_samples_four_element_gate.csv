@@ -1,0 +1,5 @@
+title,status,reasons,missing_count,forbidden_count,answer_chars,trigger_chars
+Sample 1: 2026顺义一模 Q19(2) - 科学思维三特征,PASS,,0,0,176,130
+Sample 2: 2025东城期末 Q18(2) - 创新思维,PASS,,0,0,169,100
+Sample 3: 2026通州期末 Q11 - 思维抽象与思维具体选择题,PASS,,0,0,161,156
+Sample 4: 2026东城期末 Q17(2) - 纯形式逻辑边界,PASS,,0,0,202,133

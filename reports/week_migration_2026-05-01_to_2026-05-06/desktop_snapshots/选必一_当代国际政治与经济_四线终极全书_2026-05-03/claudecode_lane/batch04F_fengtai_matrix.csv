@@ -1,0 +1,5 @@
+question_id,suite,question_number,classification,scoring_source_type,scoring_source_path,evidence_level,total_score,scoring_angles,xuanbiyi_bucket_primary,merge_notes,promotion_status
+FT-Q18,2025丰台二模,Q18,excluded,评标,2025丰台二模评标细则/18题 .docx,P0,6,N/A,N/A,必修二《经济与社会》模块；全部排除,excluded_module_boundary
+FT-Q19-2,2025丰台二模,Q19(2),excluded,评标,2025丰台二模评标细则/19.(2).docx,P0,8,N/A,N/A,《法律与生活》模块；全部排除,excluded_module_boundary
+FT-Q20,2025丰台二模,Q20,in_scope,评标细则,2025丰台二模评标细则/20题.docx,P0,8,4角度×2分,中国/联合国/政治多极化,4原子FT01-FT04；FT01需与海淀二模Q21地位原子确认合并,candidate_for_fusion
+FT-Q21,2025丰台二模,Q21,no_xuanbiyi,评标,2025丰台二模评标细则/21题.docx,P0,9,水平赋分,N/A,水平赋分；可从唯物论/辩证法/党的领导/对外开放作答；无直接选必一细则评分点,no_xuanbiyi_excluded

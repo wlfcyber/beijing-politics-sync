@@ -1,0 +1,7 @@
+source_id,file_type,required_method,actual_method,status,blocker
+PDF_TEXT,pdf,text extraction plus page rendering,PyMuPDF get_text and get_pixmap,working,poppler missing but PyMuPDF fallback works
+PDF_SCAN_OR_WEAK_TEXT,pdf,visual page render and independent visual check,PyMuPDF render plus model visual review,working_with_caution,OCR tools missing so second visual pass required
+DOCX,docx,structured text extraction,python-docx,working,
+PPTX,pptx,slide text extraction,python-pptx,working,visual slide layout still requires screenshot/render if text incomplete
+FRAMEWORK_PDF,pdf,render all pages and visual digest,PyMuPDF render plus visual reading,working,text layer weak
+LEGACY_DOC,doc,textutil or qlmanage conversion,textutil/qlmanage available,pending_per_file,no soffice available

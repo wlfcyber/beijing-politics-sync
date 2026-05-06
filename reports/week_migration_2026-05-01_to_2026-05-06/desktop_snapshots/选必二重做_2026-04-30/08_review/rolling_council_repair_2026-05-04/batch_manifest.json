@@ -1,0 +1,43 @@
+{
+  "total_questions": 112,
+  "batches": [
+    {
+      "domain": "合同消费者劳动",
+      "count": 38,
+      "subjective": 14,
+      "choice": 24
+    },
+    {
+      "domain": "物权相邻继承家庭",
+      "count": 20,
+      "subjective": 4,
+      "choice": 16
+    },
+    {
+      "domain": "人格权侵权",
+      "count": 17,
+      "subjective": 7,
+      "choice": 10
+    },
+    {
+      "domain": "知识产权不正当竞争",
+      "count": 15,
+      "subjective": 6,
+      "choice": 9
+    },
+    {
+      "domain": "纠纷解决生态公益与新业态",
+      "count": 22,
+      "subjective": 12,
+      "choice": 10
+    }
+  ],
+  "files": [
+    "08_review/rolling_council_repair_2026-05-04/00_REPAIR_PROTOCOL.md",
+    "08_review/rolling_council_repair_2026-05-04/01_batch_packs/batch_01_合同消费者劳动.md",
+    "08_review/rolling_council_repair_2026-05-04/01_batch_packs/batch_02_物权相邻继承家庭.md",
+    "08_review/rolling_council_repair_2026-05-04/01_batch_packs/batch_03_人格权侵权.md",
+    "08_review/rolling_council_repair_2026-05-04/01_batch_packs/batch_04_知识产权不正当竞争.md",
+    "08_review/rolling_council_repair_2026-05-04/01_batch_packs/batch_05_纠纷解决生态公益与新业态.md"
+  ]
+}
