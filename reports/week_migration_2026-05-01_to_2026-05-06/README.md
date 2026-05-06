@@ -40,3 +40,4 @@ Redacted files: 4
 - The desktop project root is not the Git root; this package lives inside the Git sync repository.
 - Large/raw source migration should use Git LFS, release assets, or a separate cloud archive if required.
 - This snapshot intentionally preserves review-only/candidate labels where the original workflow had not authorized final output.
+- `飞哥政治庄园_ClaudeCode厚内容矿优先_Codex融合审稿工作流_2026-05-06.md` records the postmortem workflow from the successful 必修四哲学宝典 run; the executable skill reference is `skills/feige-politics-garden-book-orchestrator/references/claudecode-first-fusion-workflow.md`.
