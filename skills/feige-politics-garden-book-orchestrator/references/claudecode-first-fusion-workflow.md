@@ -133,6 +133,31 @@ Codex A 和 ClaudeCode B 都要产出条目，但侧重点不同：
 
 若 ClaudeCode 输出明显比 Codex 更充实，融合时默认优先吸收 ClaudeCode 的内容厚度，但必须由 Codex 回源核验和规范化。
 
+### Phase 3.5：ClaudeCode 督工心跳
+
+ClaudeCode 的监督必须按文件证据执行，不靠它在聊天里说“已经完成”。成功的必修四哲学线不是一次性放任 ClaudeCode 跑完整本，而是用最高优先级总指令、套卷级闭环、控制文件和心跳补丁把它锁住。
+
+每次心跳至少检查：
+
+- 进程/窗口是否仍在真实工作，日志是否有新 activity。
+- `PROGRESS.md`、`DECISION_LOG.md` 是否记录当前套卷、已过项、阻塞项和下一步。
+- `SOURCE_LEDGER.csv`、`COVERAGE_MATRIX.csv` 是否覆盖同一套卷集合。
+- `audit/entries/` 与 `suite_reports/` 是否逐套同步增长。
+- `outputs/` 是否只是候选稿，还是已经通过质量闸口。
+- 学生字段是否混入路径、OCR/debug、`细则`、`评标`、`参考答案`、`PASS/final` 等审计话术。
+- 是否有 missing suites、index-only rows、blocked rows 在控制文件里消失。
+
+ClaudeCode 的工作粒度默认是“套卷闭环”，不是“一分一分”散点交付，也不是整本书最后才交一次总稿。每套卷关闭前必须有：
+
+- source/question/answer/rubric 判断；
+- entries 或等价条目文件；
+- suite report；
+- coverage row；
+- blocker/boundary 说明；
+- progress 更新。
+
+发现硬失败时，Codex 必须写 `SUPERVISOR_PATCH` 或等价补丁令，逐条列出失败、修复文件、复查命令和封板门槛。补丁前不得写 final、终稿、PASS、TASK_COMPLETE、Word/PDF 成品。
+
 ### Phase 4：融合规则
 
 融合时不按“谁先写的”决定，而按以下顺序裁决：

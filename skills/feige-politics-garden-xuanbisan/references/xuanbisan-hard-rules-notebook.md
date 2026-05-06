@@ -225,3 +225,13 @@
 - Codex 不能因为自己的稿件更干净、更易排版，就压掉 ClaudeCode 的有效厚内容。融合时默认保留 ClaudeCode 的内容密度；只有证据不合格、框架错挂、学生表达污染或与硬样本冲突时才拒绝/改写。
 - 选必三失败预警：如果正文变成 Codex 先写的小包、77 条或 29 条候选、按大题单位流水账展开、或者只在前面罗列题目来源而没有按“思维类型/小方法”挂题，直接判 `HARD_FAIL_DID_NOT_REPLICATE_PHILOSOPHY_WORKFLOW`。
 - 给另一台设备/新线程的最低启动规则：先读本小本本和 `feige-politics-garden-book-orchestrator/references/claudecode-first-fusion-workflow.md`，再开 ClaudeCode 厚内容矿，不得先由 Codex 生成薄正文再补救。
+
+## 二十三、2026-05-06 ClaudeCode 监督方式复盘
+
+- ClaudeCode 不是按“一分一分”或泛泛整本自由发挥来验收，而是按“套卷闭环”推进：每套卷必须完成题源定位、题号筛选、答案/细则/讲评证据判断、条目写入、coverage 行、suite report、progress 更新和 blocker 记录，才能算该套卷关闭。
+- 监督 ClaudeCode 不能只看聊天回复或终端还在动。每次心跳必须查真实文件：`logs/claude-debug.log`、`PROGRESS.md`、`DECISION_LOG.md`、`SOURCE_LEDGER.csv`、`COVERAGE_MATRIX.csv`、`suite_reports/`、`audit/entries/`、`outputs/`、`FINAL_ACCEPTANCE_REPORT.md`。文件不一致时，产物再厚也不得叫完成。
+- 成功的必修四哲学线证明：先用 `MASTER_REQUIREMENTS` 把小本本、用户旧要求、从0边界、工具授权、Word 验收和 forbidden terms 全部压成最高优先级，再让 ClaudeCode 跑；不要只给一句笼统任务。
+- 心跳补丁是必要监督动作。若发现学生版混入 `细则/评标/参考答案`、coverage 空表头、报告旧快照、套卷 entries/reports 缺失、提前写 final/PASS/终稿，必须立刻写 supervisor patch，明确列出硬失败、修复文件、复查命令和封板门槛。
+- 选必三复制哲学成功模式时，ClaudeCode 每批至少落盘：`entries/*.jsonl` 或等价条目文件、`suite_reports/*.md`、`SOURCE_LEDGER.csv`、`COVERAGE_MATRIX.csv`、`PROGRESS.md`、`DECISION_LOG.md`、`blocked_or_boundary.md`、`framework_node_matrix.csv`。没有这些文件，不承认“我已经做完”。
+- Codex 的督工循环必须每 10-20 分钟或每个阶段检查：ClaudeCode 是否真在工作、哪些套卷新增、entries 数量是否增长、coverage 是否同步、学生字段是否混入审计话术、是否按框架节点组织、是否提前 final、是否有 missing suites 消失。
+- 最终原则：ClaudeCode 当厚内容矿工，按套卷挖；Codex 当矿监和总编，按控制文件验真、补洞、融合、清洗、交付。缺任一边都不能复刻哲学宝典成功。

@@ -18,6 +18,7 @@ For full 选必三 book/module runs, follow the successful 必修四哲学宝典
 - Do not let Codex's thinner candidate become the main student body merely because it is cleaner or easier to format. If ClaudeCode produces source-backed fuller entries, fusion should preserve that content density unless local evidence or the user's framework rejects it.
 - For 选必三 specifically, the final body must be framework-first: `思维类型 -> 三性/三新/子方法 -> 对应模拟题` for 思维部分, and `推理题型树 -> 全部对应题` for 推理部分. Paper-order or district-order bodies are audit tools, not the final student-book structure.
 - Before Word/PDF, run a ClaudeCode-thick-content gate: every evidence/control row is body/index/blocked, every core framework node has real question挂载 or a blocker, choice questions have full options, reasoning questions have logical forms, and the body is not a small representative packet.
+- Supervise ClaudeCode by file evidence, not chat impressions. It should close work suite-by-suite, not as one vague whole-book pass: each suite needs entries, a suite report, coverage rows, progress updates, and blockers before it is treated as done. Heartbeat checks must inspect logs plus `PROGRESS`, `DECISION_LOG`, ledgers, coverage, `suite_reports/`, `audit/entries/`, and outputs; if any disagree, issue a supervisor patch and block final wording.
 
 ## Load First
 
