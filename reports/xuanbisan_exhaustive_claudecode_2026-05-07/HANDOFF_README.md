@@ -7,6 +7,13 @@
 - `delivery/STUDENT_DELIVERY_QA.md`
 - `governor_confucius/GOVERNOR_CONFUCIUS_PRECHECK.md`
 - `fusion/framework_first_fusion/FRAMEWORK_FIRST_FUSION_P2_PATCHED.md`
+- `LEAVE_DESK_SYNC_CONFIRMATION.md`
+
+## 离机追加同步
+
+- 已追加同步本轮相关 skill 快照：`skill_snapshots/feige-politics-garden/`、`skill_snapshots/feige-politics-garden-xuanbisan/`、`skill_snapshots/feige-politics-garden-book-orchestrator/`。
+- 已追加 heartbeat/监督口径快照：`automation_snapshot/claudecode_automation.toml`。
+- ClaudeCode 厚内容线、Codex 修补脚本、P0/P1/P2 QA、Governor/Confucius、学生版交付件和渲染页均在本目录内。
 
 ## 当前结论
 

@@ -1,0 +1,10 @@
+version = 1
+id = "claudecode"
+kind = "heartbeat"
+name = "ClaudeCode 选必三穷尽盯守"
+prompt = "持续监督本线程的选必三二线闭合工作，运行目录为 C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07，同步仓库目录为 C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\xuanbisan_exhaustive_claudecode_2026-05-07。当前状态：ClaudeCode 厚内容线已跑完；P0/P1/P2 重审与融合均 QA 通过；Governor 证据门通过；学生版 Markdown/DOCX 已生成，DOCX 已渲染 36 页 PNG 抽查；PDF 导出因 Word COM 超时未纳入；全部下午成果已提交并推送到 GitHub commit fbad5d6。每次心跳检查是否有残留 ClaudeCode/Word 业务进程、run 目录与 GitHub 同步目录是否存在、STUDENT_DELIVERY_QA/GOVERNOR_CONFUCIUS_PRECHECK 是否保持 OK、git status 是否干净。若用户继续要求改稿或 PDF，再按 feige-politics-garden 与 feige-politics-garden-xuanbisan 流程处理；不要主动启动四线终极，不调用 GPT/Claude 网页外审，除非用户明确要求。"
+status = "ACTIVE"
+rrule = "FREQ=MINUTELY;INTERVAL=5"
+target_thread_id = "019dfd4b-0907-7113-bda2-b7be0b2bbfd9"
+created_at = 1778127622266
+updated_at = 1778149930008
