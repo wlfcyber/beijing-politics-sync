@@ -1,0 +1,18 @@
+started=2026-05-07T13:49:15
+Batch03 东城套卷穷尽闭合完成。所有 12 个必交文件已落盘，并通过 `codex_audit/audit_batch_dir.py` 自检：
+
+**Audit Verdict**: `BATCH_QA_STRUCTURALLY_OK_NOT_FINAL`，0 hard failures，0 forbidden phrases。
+
+**候选裁决**（72 unique question_id）:
+- **入正文 12**：3 道主观题 + 9 道选择题
+- **同类索引 3**：2 道综合短文 + 1 道调查方法开放题
+- **excluded 57**：逐题列出归属其他模块（必修一/二/三/四 / 选必一 / 选必二）
+- **blocked 0**：三套卷源材料完整无 OCR/答案缺口
+
+**入正文厚内容**：
+- Q-2025东城期末-18(2) 创新思维·登月服（4 节点：思路新方法新结果新 / 联想 / 发散+聚合 / 超前）
+- Q-2026东城一模-19(4) 系统观念+创新思维·中关村（4 节点）
+- Q-2026东城期末-17(2) 形式逻辑论证（3 节点：矛盾律 / 充分条件假言推理 / 三段论中项不周延，SKILL Trial 边界硬样本守住推理部分而非思维主链）
+- 9 道选择题 choice trap 全部具备完整选项+可靠答案源（教师版+细则PPTX）
+
+**结构合格**：QUESTION_DECISIONS 73行/8列、MAIN_THINKING 12行/11列、CHOICE_TRAP 10行/9列、FRAMEWORK_NODE 36行/6列、SUMMARY 23行/11列、JSONL 20行/9字段schema。所有学生面向字段未命中禁词（评标/参考答案/A-formal/phase05/source_pool/OCR/debug/路径/固定分析流程等）。

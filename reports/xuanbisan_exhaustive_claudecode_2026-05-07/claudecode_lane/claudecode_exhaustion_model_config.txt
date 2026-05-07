@@ -1,0 +1,5 @@
+model=opus
+model_alias_meaning=latest Opus exposed by Claude Code CLI
+effort=max
+adaptive_thinking_mapping=Claude Code CLI has no separate adaptive-thinking flag; max effort is the enforced thinking-depth setting.
+cli_version_checked=2.1.119 (Claude Code)

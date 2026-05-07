@@ -1,0 +1,12 @@
+framework_branch,framework_node,subnode,question_id,original_qno,type,mount_role,evidence_level,claudecode_decision,source_batch
+思维部分,创新思维,逆向思维 / 边界陷阱,Q-2025顺义一模-3,3,选择题,边界陷阱（同类索引）,B-choice-signal,同类索引,batch04a_shunyi_yimo_2025
+推理部分,简单判断,联言判断与其矛盾命题（A∧B 的矛盾为 ¬A∨¬B）,Q-2025顺义一模-5,5,选择题,正文正例（选择题）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,概念与判断,主项·联言·划分·关系判断综合辨析,Q-2025顺义一模-6,6,选择题,正文正例（选择题）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,概念与判断,划分 / 越级划分误称划分标准不一,Q-2025顺义一模-6,6,选择题,选择题陷阱（辅助挂载）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,概念与判断,关系判断 / 反对称关系定义,Q-2025顺义一模-6,6,选择题,选择题陷阱（辅助挂载）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,三段论,三段论周延规则 / 大项不当扩大（小本本硬样本）,Q-2025顺义一模-7,7,选择题,正文正例（选择题硬样本：谬误名称纠错）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,三段论,三段论周延规则 / 中项不周延（D 项辅助挂载）,Q-2025顺义一模-7,7,选择题,辅助挂载（中项不周延实例）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,三段论,三段论 / 四概念错误（C 项辅助挂载）,Q-2025顺义一模-7,7,选择题,辅助挂载（四概念实例）,B-choice-signal,入正文,batch04a_shunyi_yimo_2025
+推理部分,复合判断的演绎推理,充分条件假言判断 + 必要条件假言判断 + 相容选言判断 同真条件,Q-2025顺义一模-17-1,17(1),主观题,正文正例（主观题，A-formal）,A-formal_or_phase12_source_confirmed,入正文,batch04a_shunyi_yimo_2025
+推理部分,复合判断的演绎推理,必要条件假言判断 / 除非……否则不能……,Q-2025顺义一模-17-1,17(1),主观题,辅助挂载（必要条件假言子点）,A-formal_or_phase12_source_confirmed,入正文,batch04a_shunyi_yimo_2025
+推理部分,复合判断的演绎推理,相容选言判断 / 至少一支为真,Q-2025顺义一模-17-1,17(1),主观题,辅助挂载（相容选言子点）,A-formal_or_phase12_source_confirmed,入正文,batch04a_shunyi_yimo_2025

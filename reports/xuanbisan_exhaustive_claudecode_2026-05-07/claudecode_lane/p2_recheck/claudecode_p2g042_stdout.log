@@ -1,0 +1,15 @@
+started=2026-05-07T17:43:22
+All five P2G042 outputs written under `claudecode_lane/p2_recheck/`. Summary:
+
+**Decision** — All 4 P2 rows (Q-2026丰台一模-4/7/8/9) marked `source_insufficient` with `can_enter_fusion=no`.
+
+**Why**: The 042 source paper.txt is a 241-byte file containing only 10 `===== PAGE n =====` placeholders (the original PDF is a scan and OCR extracted no text), and the only support file (2026丰台一模细则.pptx) is a marking rubric covering only subjective questions Q17–Q20. No stem, options, or answer key for Q4/Q7/Q8/Q9 exist in the source group, so the choice-trap rows cannot be confirmed under the rule "Verify stem/options and answer key before confirming choice-trap rows."
+
+**Outputs**:
+- `P2G042_RECHECK_DECISIONS.csv` — 1 header + 4 data rows
+- `P2G042_RECHECK_PATCHES.jsonl` — 4 valid JSON rows; `patched_answer_sentence` explicitly marked "源不足" without inventing answers
+- `P2G042_SOURCE_EVIDENCE.md` — paper.txt verbatim + 68-slide pptx coverage matrix
+- `P2G042_RECHECK_ACCEPTANCE.md` — `P2G042_RECHECK_ACCEPTANCE: NOT_FINAL`, exact row count 4, patch count 4, no Word/PDF/delivery
+- `P2G042_PROGRESS.md` — completed step log
+
+`evidence_level=B-choice-signal` preserved verbatim from manifest for all 4 rows; no other source_ids touched.

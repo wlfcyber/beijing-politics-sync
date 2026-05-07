@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-05-07T12:38:18",
+  "phase03_total_rows": 528,
+  "union_decision_matrix_rows": 534,
+  "canonical_phase12_rows": 362,
+  "phase05_evidence_pool_rows": 74,
+  "phase12_expanded_body_rows": 77,
+  "duplicate_or_reference_rows_matched": 170,
+  "decision_counts_union_matrix": {
+    "blocked": 183,
+    "入正文": 77,
+    "excluded": 104,
+    "同类索引": 170
+  },
+  "decision_counts_canonical": {
+    "blocked": 181,
+    "excluded": 104,
+    "入正文": 77
+  },
+  "signal_decision_counts": {
+    "入正文": 44,
+    "excluded": 29
+  },
+  "phase12_action_counts": {
+    "blocked_keep_out": 181,
+    "excluded_keep_out": 104,
+    "covered_by_74_review_body": 74,
+    "body_after_362_repair": 3
+  },
+  "phase12_category_counts": {
+    "blocked": 15,
+    "answer_missing": 134,
+    "out_of_scope": 104,
+    "already_in_74": 74,
+    "new_body_candidate": 3,
+    "visual_missing": 32
+  }
+}

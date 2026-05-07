@@ -1,0 +1,19 @@
+{
+  "verdict": "P2G017_QA_OK_NOT_FINAL",
+  "prefix": "P2G017",
+  "expected_rows": 3,
+  "missing_files": [],
+  "decision_rows": 3,
+  "patch_rows": 3,
+  "decision_counts": {
+    "source_insufficient": 3
+  },
+  "evidence_counts": {
+    "B-choice-signal": 3
+  },
+  "can_enter_fusion_counts": {
+    "no": 3
+  },
+  "issue_count": 0,
+  "issues": []
+}

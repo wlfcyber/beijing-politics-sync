@@ -1,0 +1,20 @@
+started=2026-05-07T17:21:54
+All five P2G044 outputs written and validated.
+
+**Summary**
+
+Source `044_Desktop_..._2026东城期末_..._.pdf` had exactly 2 P2 rows in the manifest — Q-2026东城期末-6 (三段论保真+必要条件假言判断) and Q-2026东城期末-7 (矛盾律 + 充分条件假言推理). Both are choice_trap rows.
+
+**Decisions:** both `confirmed_with_patch` (B-choice-signal × 2, can_enter_fusion=yes).
+
+**Source evidence triple-locked:**
+- Q6=B: paper.txt::Q6 行52-62 stem+options + 行252 answer table + 细则 pptx Slide 78 (三段论结构图：小项/中项/大项明文 + 四选项排错) + Slide 82 (文字版 "B 选项符合三段论推理的规则")
+- Q7=A: paper.txt::Q7 行63-73 stem+options + 行252 answer table + 细则 pptx Slide 2 (吴王矛盾关系图 + 周郑必假反推) + Slide 3 (文字版 "正确答案为 A 选项")
+
+Both rows already exist in fusion P1 PATCHED.md (Q6 at lines 653-663, Q7 at lines 735-745) with full identification but tagged "需 Codex 回源复核"; the patches lock in the answer evidence so a future fusion patch can drop the tag.
+
+**File counts:**
+- DECISIONS.csv: 1 header + 2 data rows (header matches spec exactly)
+- PATCHES.jsonl: 2 lines, all 9 required fields present per line
+- SOURCE_EVIDENCE.md / ACCEPTANCE.md / PROGRESS.md: written
+- ACCEPTANCE.md states `P2G044_RECHECK_ACCEPTANCE: NOT_FINAL`, row count 2, patch count 2, no Word/PDF/delivery

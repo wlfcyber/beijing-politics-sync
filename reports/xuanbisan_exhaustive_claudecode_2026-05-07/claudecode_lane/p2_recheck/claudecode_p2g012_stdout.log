@@ -1,0 +1,14 @@
+started=2026-05-07T17:03:05
+All five outputs written and validated.
+
+**Summary**
+
+| File | Status |
+|------|--------|
+| `claudecode_lane/p2_recheck/P2G012_RECHECK_DECISIONS.csv` | 1 header + 4 rows ✅ |
+| `claudecode_lane/p2_recheck/P2G012_RECHECK_PATCHES.jsonl` | 4 JSON lines (all 9 required fields) ✅ |
+| `claudecode_lane/p2_recheck/P2G012_SOURCE_EVIDENCE.md` | written ✅ |
+| `claudecode_lane/p2_recheck/P2G012_RECHECK_ACCEPTANCE.md` | NOT_FINAL declaration ✅ |
+| `claudecode_lane/p2_recheck/P2G012_PROGRESS.md` | written ✅ |
+
+**Decision pattern (differs from P2G017)**: The 012 source's `paper.txt` is a teacher-version PDF that embeds a full reference-answer section (lines 318-564 covering Q1-Q15), so all four P2 choice-trap rows have stem, options, AND answer key directly verifiable in source. All four decisions: `confirmed_with_patch` with answers locked at **5.C / 13.B / 14.D / 15.B**, evidence_level held at manifest's `B-choice-signal`, framework_node verified against the source's逐项 analysis. The "patch" component flags the framework_first_fusion_P1_PATCHED.md lines 142/543/643/667 "需 Codex 回源复核" markers for removal in a downstream fusion patch task — not in P2G012's scope.

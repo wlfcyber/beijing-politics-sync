@@ -1,0 +1,25 @@
+{
+  "verdict": "P2_RECHECK_QA_OK_NOT_FINAL",
+  "priority": "P2",
+  "expected_rows": 39,
+  "missing_files": [],
+  "decision_rows": 39,
+  "patch_rows": 39,
+  "decision_counts": {
+    "source_insufficient": 7,
+    "confirmed_with_patch": 24,
+    "confirmed": 4,
+    "block_from_student_body": 3,
+    "downgrade_to_index": 1
+  },
+  "evidence_counts": {
+    "B-choice-signal": 35,
+    "A-support": 4
+  },
+  "can_enter_fusion_counts": {
+    "no": 10,
+    "yes": 29
+  },
+  "issue_count": 0,
+  "issues": []
+}

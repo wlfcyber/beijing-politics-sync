@@ -1,0 +1,9 @@
+started=2026-05-07T16:47:50
+All five files written. Final verification:
+- `P2G017_RECHECK_DECISIONS.csv`: 4 lines (1 header + 3 data rows) ✅
+- `P2G017_RECHECK_PATCHES.jsonl`: 3 JSON rows ✅
+- `P2G017_SOURCE_EVIDENCE.md` / `P2G017_RECHECK_ACCEPTANCE.md` / `P2G017_PROGRESS.md` written under `claudecode_lane/p2_recheck/` ✅
+
+Outcome: All three rows (Q-2024朝阳期中-7/8/10) → `source_insufficient` · `can_enter_fusion=no`.
+
+Reason: paper.txt verifies all three stems and option lists, but none of the three support files (`评标docx.docx`, `评标2.docx`, `期中1试题(1).pdf`) contain Q1–Q15 choice answers — they only cover Q16–Q20 subjective rubrics. Per the hard rule "If answer evidence is unavailable, mark source_insufficient", and "Do not invent options, answers". The framework_first_fusion P1 file's prior B/D/A guesses for Q7/Q8/Q10 (lines 527/751/806) should later be downgraded in an independent fusion patch — out of scope for this small subtask. Manifest's `evidence_level=B-choice-signal` was preserved exactly. Acceptance file states `P2G017_RECHECK_ACCEPTANCE: NOT_FINAL`.

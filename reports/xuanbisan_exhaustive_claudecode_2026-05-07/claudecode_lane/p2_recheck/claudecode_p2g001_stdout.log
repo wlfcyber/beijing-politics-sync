@@ -1,0 +1,10 @@
+started=2026-05-07T17:54:47
+P2G001 source-group recheck complete. All 5 required files written to `claudecode_lane/p2_recheck/`:
+
+- **P2G001_RECHECK_DECISIONS.csv** — 1 header + 4 data rows (Q3/Q4/Q5/Q6)
+- **P2G001_RECHECK_PATCHES.jsonl** — 4 JSON lines
+- **P2G001_SOURCE_EVIDENCE.md** — per-question stem/options + answer-key hits
+- **P2G001_RECHECK_ACCEPTANCE.md** — `P2G001_RECHECK_ACCEPTANCE: NOT_FINAL`
+- **P2G001_PROGRESS.md**
+
+All four P2 rows confirmed: Q3=C(②③ 整体性与独立性) / Q4=A(类比推理) / Q5=D(形象思维感性形象) / Q6=A(迁移和想象). Answer keys locked by `2026顺义一模细则.pptx` SLIDE1 answer table; stems/options verified against `001_*paper.txt` lines 25-73. All four manifest framework_node assignments match support answers — decision = `confirmed_with_patch`, `can_enter_fusion=yes`, evidence_level held at manifest's `B-choice-signal`. No Word/PDF/delivery written.

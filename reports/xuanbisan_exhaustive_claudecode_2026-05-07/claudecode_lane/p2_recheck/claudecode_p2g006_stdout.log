@@ -1,0 +1,10 @@
+started=2026-05-07T17:54:47
+All 5 outputs written to `claudecode_lane/p2_recheck/`. CSV has header + 3 data rows; JSONL has 3 patch lines.
+
+- `P2G006_RECHECK_DECISIONS.csv` — Q5/Q8/Q9 all `confirmed_with_patch`, `B-choice-signal`, `can_enter_fusion=yes`.
+- `P2G006_RECHECK_PATCHES.jsonl` — 3 patches with material signal / trigger logic / answer sentence anchored to paper text.
+- `P2G006_SOURCE_EVIDENCE.md` — line-level pointers into `006_..._paper.txt` and 细则 PPT.
+- `P2G006_RECHECK_ACCEPTANCE.md` — declares `P2G006_RECHECK_ACCEPTANCE: NOT_FINAL`, row count 3, patch count 3, no Word/PDF/delivery.
+- `P2G006_PROGRESS.md` — run summary.
+
+Answer key `5=C, 8=D, 9=D` cross-checked between paper extract (line 250) and 通州期末细则 PPT (SLIDE 1); framework anchors fall inside the correct answers in all 3 rows, so no exception to manifest evidence_level was needed.

@@ -1,0 +1,19 @@
+started=2026-05-07T13:05:34
+修补完成。
+
+## 产出
+
+- `batch01_entries_repair/batch01_entries.jsonl`：31 条（20 main_thinking + 11 choice_trap）
+- `batch01_entries_repair/REPAIR_REPORT.md`：字段映射、缺字段清单、解析备注
+
+## 字段映射要点
+
+- **main_thinking**：6 个核心字段直接来自 `MAIN_THINKING_LEDGER.csv`（框架落点→framework_node、材料动作→material_signal、触发逻辑→trigger_logic、答案句→answer_sentence、证据等级→evidence_level、question_id 直传）。`needs_codex_recheck` 按 question_id 跨引用 `QUESTION_DECISIONS.csv`。
+- **choice_trap**：题干信号→material_signal、陷阱类型→framework_node（按中文含义就近映射）、正确项理由→answer_sentence。源表无 `trigger_logic`/`evidence_level` 列，按要求**留空且在 REPAIR_REPORT 列出**，不编造。`needs_codex_recheck` 同样跨引用。
+
+## 关键校验
+
+- 20 + 11 个 question_id **全部命中** `QUESTION_DECISIONS.csv`
+- `needs_codex_recheck = "yes"` 的 2 题：Q-2024海淀二模-5、Q-2025海淀期末-5
+- 三份 CSV 均按预期列数解析，0 行需要折叠兜底
+- 未触碰 `batch01_haidian_xicheng/` 下任何文件

@@ -1,0 +1,23 @@
+{
+  "verdict": "P2G040_QA_OK_NOT_FINAL",
+  "prefix": "P2G040",
+  "expected_rows": 8,
+  "missing_files": [],
+  "decision_rows": 8,
+  "patch_rows": 8,
+  "decision_counts": {
+    "confirmed": 4,
+    "block_from_student_body": 3,
+    "downgrade_to_index": 1
+  },
+  "evidence_counts": {
+    "B-choice-signal": 4,
+    "A-support": 4
+  },
+  "can_enter_fusion_counts": {
+    "yes": 5,
+    "no": 3
+  },
+  "issue_count": 0,
+  "issues": []
+}

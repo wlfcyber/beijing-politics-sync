@@ -1,0 +1,7 @@
+{
+  "input": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\claudecode_lane\\batches\\batch02_chaoyang\\QUESTION_DECISIONS.csv",
+  "output": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\codex_audit\\repaired_csv\\batch02_chaoyang_QUESTION_DECISIONS.csv",
+  "input_data_lines": 90,
+  "repaired_rows": 90,
+  "errors": []
+}

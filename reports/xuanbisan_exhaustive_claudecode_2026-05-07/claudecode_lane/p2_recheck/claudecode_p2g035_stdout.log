@@ -1,0 +1,14 @@
+started=2026-05-07T17:43:22
+All five required files written under `claudecode_lane/p2_recheck/`:
+
+**Counts (verified)**
+- `P2G035_RECHECK_DECISIONS.csv` — 1 header + 3 data rows; header matches spec.
+- `P2G035_RECHECK_PATCHES.jsonl` — 3 valid JSON lines for Q5/Q6/Q7.
+- `P2G035_SOURCE_EVIDENCE.md`, `P2G035_RECHECK_ACCEPTANCE.md`, `P2G035_PROGRESS.md` — written.
+
+**Decisions** (all `confirmed_with_patch`, evidence_level `B-choice-signal` per manifest):
+- **Q-2025顺义一模-5** (联言判断矛盾命题 → B): paper 答案表 `5 B` + support 顺义区参考答案 `5.B` + 教师版【详解】德摩根推演 ¬(A∧B)=¬A∨¬B 三方一致.
+- **Q-2025顺义一模-6** (性质判断主项识别 → A=①②): paper 答案表 `6 A` + 教师版【详解】(①②正确/③应为越级划分非划分标准不一/④非典型反对称) + manifest framework_node `（①正解）` 三方锁定; support 行1 `6.C` 判定为同源 .docx 单行抄写笔误（其余 14 题答案三方完全一致），笔误识别记录在 source_evidence 字段，未替换原文。
+- **Q-2025顺义一模-7** (三段论大项不当扩大 → A): paper `7 A` + support `7.A` + 教师版【详解】大项'青年'前提肯定谓项不周延/结论否定谓项周延推演三方一致.
+
+Acceptance states `P2G035_RECHECK_ACCEPTANCE: NOT_FINAL`, exact row count 3, patch count 3, no Word/PDF/delivery, outputs only under `claudecode_lane/p2_recheck/`.

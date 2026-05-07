@@ -1,0 +1,24 @@
+question_id,suite_id,original_qno,question_type,claudecode_decision,decision_reason,evidence_level,framework_node,needs_codex_recheck,source_batch
+Q-2025顺义一模-1,S-2025顺义一模,1,选择题,excluded,题干为加强党的建设、健全全面从严治党体系，归属必修三政治与法治；选必三《逻辑与思维》无设问角度。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-2,S-2025顺义一模,2,选择题,excluded,题干为共建社区微花园治理理念，归属必修二经济与社会、必修三基层治理；与选必三思维方法及推理形式无对应。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-3,S-2025顺义一模,3,选择题,同类索引,题干主体为冰雪文化交流（必修四矛盾普遍性、共性与个性），但 D 选项把跨文化合作误读成逆向思维，可作为创新思维-逆向思维章节的边界陷阱索引。,B-choice-signal,创新思维 / 逆向思维 / 边界陷阱,yes,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-4,S-2025顺义一模,4,选择题,excluded,题干为时间利用调查公报，考查必修四实践与认识、价值判断与价值选择；非选必三思维或推理。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-5,S-2025顺义一模,5,选择题,入正文,考查联言命题“A 且 B”的矛盾命题为“非 A 或非 B”，属选必三《逻辑与思维》推理部分形式逻辑章节，有可靠客观答案 B。,B-choice-signal,推理部分 / 简单判断 / 联言判断与其矛盾命题,yes,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-6,S-2025顺义一模,6,选择题,入正文,四选项依次考查主项识别、联言判断、划分（越级划分错误）、关系判断（反对称关系），属选必三推理部分概念与判断章节，客观答案 A。,B-choice-signal,推理部分 / 概念与判断 / 主项·联言·划分·关系判断,yes,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-7,S-2025顺义一模,7,选择题,入正文,三段论周延规则四选项辨析（大项不当扩大、两否定前提、四概念、中项不周延），A 项把大项不当扩大“误称”为小项不当扩大，是顺义一模 7 谬误名称纠错硬样本（小本本第十九节锁定）。,B-choice-signal,推理部分 / 三段论 / 三段论周延规则·大项不当扩大,yes,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-8,S-2025顺义一模,8,选择题,excluded,题干为人大代表法修正草案、代表联络机制；归属必修三人民代表大会制度；与选必三思维或推理无设问角度。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-9,S-2025顺义一模,9,选择题,excluded,题干为 12356 心理援助热线、政府服务实效；归属必修三服务型政府；与选必三思维方法、推理无关。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-10,S-2025顺义一模,10,选择题,excluded,题干为劳动合同纠纷、女职工特殊保护、解约合法性；归属选必二《法律与生活》劳动法章节。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-11,S-2025顺义一模,11,选择题,excluded,题干为见义勇为补偿、民法典第 183 条受益人补偿；归属选必二《法律与生活》侵权与公平责任章节。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-12,S-2025顺义一模,12,选择题,excluded,题干为传感器数据指导农业、新质生产力；归属必修二经济与社会、创新驱动发展。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-13,S-2025顺义一模,13,选择题,excluded,题干为矿业权竞争性出让、市场配置资源；归属必修二经济与社会、市场体系。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-14,S-2025顺义一模,14,选择题,excluded,题干为国家安全宣传教育主题；归属必修三国家安全观；与选必三思维及推理无对应。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-15,S-2025顺义一模,15,选择题,excluded,题干为中国国际形象调查、负责任大国；归属选必一《当代国际政治与经济》。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-16,S-2025顺义一模,16,主观题,excluded,设问明确“运用《哲学与文化》知识”，归属必修四；细则覆盖联系/发展/矛盾/双创/文化功能，与选必三思维方法不重叠。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-17-1,S-2025顺义一模,17(1),主观题,入正文,设问明确“运用《逻辑与思维》知识”，考查充分条件假言判断（甲）、必要条件假言判断（乙）、相容选言判断（丙）以及三者同真的条件；2025顺义一模细则给出三类判断对应得分点，证据级别 A-formal。,A-formal_or_phase12_source_confirmed,推理部分 / 复合判断的演绎推理 / 充分条件假言·必要条件假言·相容选言,yes,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-17-2,S-2025顺义一模,17(2),主观题,excluded,设问明确“运用《政治与法治》知识”，归属必修三政府职能与依法治国；非选必三。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-18,S-2025顺义一模,18,主观题,excluded,设问明确“运用《经济与社会》知识”，归属必修二新发展理念、现代化产业体系。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-19-1,S-2025顺义一模,19(1),主观题,excluded,设问明确“运用《法律与生活》知识”分析两个案例如何解决纠纷，归属选必二相邻关系、不正当竞争、行政裁决与诉讼。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-19-2,S-2025顺义一模,19(2),主观题,excluded,设问要求“运用法治知识阐释定分止争的价值”，对个人/企业/社会三层价值，归属选必二法治意义专题；非选必三思维或推理。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-20,S-2025顺义一模,20,主观题,excluded,设问明确“运用《当代国际政治与经济》知识”，归属选必一一带一路、经济全球化、人类命运共同体。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025
+Q-2025顺义一模-21,S-2025顺义一模,21,主观题,excluded,设问“综合运用所学”，参考答案分文化角度、政治角度、哲学角度（整体与部分），均无选必三思维方法或推理形式给分点。,C-boundary_or_duplicate,,no,batch04a_shunyi_yimo_2025

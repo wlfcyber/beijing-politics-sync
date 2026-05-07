@@ -1,0 +1,42 @@
+{
+  "batch_dir": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\batch02_chaoyang_controlled_input",
+  "verdict": "BATCH_QA_STRUCTURALLY_OK_NOT_FINAL",
+  "hard_failures": [],
+  "missing_required_files": [],
+  "acceptance_files": [
+    "fusion\\batch02_chaoyang_controlled_input\\BATCH02_CONTROLLED_INPUT_ACCEPTANCE.md"
+  ],
+  "suite_report_count": 4,
+  "entry_jsonl_files": [
+    "fusion\\batch02_chaoyang_controlled_input\\entries\\batch02_entries.jsonl"
+  ],
+  "question_decisions_csv": {
+    "exists": true,
+    "header_width": 8,
+    "data_rows": 93,
+    "bad_width_rows": []
+  },
+  "decision_counts": {
+    "excluded": 69,
+    "同类索引": 2,
+    "入正文": 20,
+    "blocked": 2
+  },
+  "invalid_decision_qids": [],
+  "invalid_needs_codex_recheck_qids": [],
+  "jsonl_reports": {
+    "fusion\\batch02_chaoyang_controlled_input\\entries\\batch02_entries.jsonl": {
+      "exists": true,
+      "rows": 32,
+      "bad_json": 0,
+      "missing_required_fields": 0,
+      "invalid_evidence_level": 0,
+      "type_counts": {
+        "main_thinking": 20,
+        "choice_trap": 12
+      },
+      "samples": []
+    }
+  },
+  "forbidden_phrase_hits": []
+}

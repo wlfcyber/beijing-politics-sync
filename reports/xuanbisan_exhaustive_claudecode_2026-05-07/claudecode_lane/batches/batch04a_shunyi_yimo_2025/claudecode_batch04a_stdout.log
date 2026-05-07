@@ -1,0 +1,15 @@
+started=2026-05-07T14:33:26
+All 10 required deliverables exist and the audit passes (`BATCH_QA_STRUCTURALLY_OK_NOT_FINAL`, 0 hard failures, 23 question_ids closed).
+
+## Summary
+
+S-2025顺义一模 单套闭合，23 个 unique question_id 全部归位：
+
+- **入正文 4** — Q5（联言矛盾）、Q6（概念与判断综合）、Q7（三段论大项不当扩大硬样本）、Q17(1)（复合判断同真条件，A-formal）；全部为推理部分
+- **同类索引 1** — Q3（创新思维-逆向思维-边界陷阱，D 项把跨文化合作误读为逆向思维）
+- **blocked 0** — 教师版试卷 PDF 与 2025顺义一模细则齐备，无 OCR/答案缺口
+- **excluded 18** — 必修二/三/四 + 选必一/二
+
+本套未出现选必三**思维方法**（科学/辩证/创新思维）主链题，5 个选必三相关题全部集中在**推理部分**（与硬规则记事本第十九节"2025顺义一模 7 三段论谬误纠错硬样本"一致）。
+
+文件落盘：`PROGRESS.md`、`QUESTION_DECISIONS.csv`（23 行）、`MAIN_THINKING_LEDGER.csv`（1 行 Q17(1)）、`CHOICE_TRAP_LEDGER.csv`（4 行）、`FRAMEWORK_NODE_MATRIX.csv`（11 行主挂+辅助挂）、`FRAMEWORK_NODE_MATRIX_SUMMARY.csv`（6 行汇总）、`BLOCKED_OR_BOUNDARY.md`、`suite_reports/S-2025顺义一模.md`、`entries/batch04a_entries.jsonl`（5 行，9 字段齐备，bad_json=0）、`BATCH04A_ACCEPTANCE.md`。已删除 suite_report 中的"固定分析流程"自查表述，audit 重跑零硬失败。本批不写 PASS、终稿、闭合、验收，移交 Codex 复核与跨批融合。

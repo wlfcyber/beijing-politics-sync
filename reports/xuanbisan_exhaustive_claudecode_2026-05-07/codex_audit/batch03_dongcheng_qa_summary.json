@@ -1,0 +1,41 @@
+{
+  "batch_dir": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\claudecode_lane\\batches\\batch03_dongcheng",
+  "verdict": "BATCH_QA_STRUCTURALLY_OK_NOT_FINAL",
+  "hard_failures": [],
+  "missing_required_files": [],
+  "acceptance_files": [
+    "claudecode_lane\\batches\\batch03_dongcheng\\BATCH03_ACCEPTANCE.md"
+  ],
+  "suite_report_count": 3,
+  "entry_jsonl_files": [
+    "claudecode_lane\\batches\\batch03_dongcheng\\entries\\batch03_entries.jsonl"
+  ],
+  "question_decisions_csv": {
+    "exists": true,
+    "header_width": 8,
+    "data_rows": 72,
+    "bad_width_rows": []
+  },
+  "decision_counts": {
+    "excluded": 57,
+    "入正文": 12,
+    "同类索引": 3
+  },
+  "invalid_decision_qids": [],
+  "invalid_needs_codex_recheck_qids": [],
+  "jsonl_reports": {
+    "claudecode_lane\\batches\\batch03_dongcheng\\entries\\batch03_entries.jsonl": {
+      "exists": true,
+      "rows": 20,
+      "bad_json": 0,
+      "missing_required_fields": 0,
+      "invalid_evidence_level": 0,
+      "type_counts": {
+        "main_thinking": 11,
+        "choice_trap": 9
+      },
+      "samples": []
+    }
+  },
+  "forbidden_phrase_hits": []
+}

@@ -1,0 +1,20 @@
+{
+  "verdict": "P1_RECHECK_QA_OK_NOT_FINAL",
+  "priority": "P1",
+  "expected_rows": 11,
+  "missing_files": [],
+  "decision_rows": 11,
+  "patch_rows": 11,
+  "decision_counts": {
+    "confirmed": 10,
+    "confirmed_with_patch": 1
+  },
+  "evidence_counts": {
+    "A-formal": 11
+  },
+  "can_enter_fusion_counts": {
+    "yes": 11
+  },
+  "issue_count": 0,
+  "issues": []
+}

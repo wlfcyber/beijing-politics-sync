@@ -1,0 +1,14 @@
+started=2026-05-07T17:31:41
+All 5 deliverables written under `claudecode_lane/p2_recheck/`:
+
+- `P2G040_RECHECK_DECISIONS.csv` — 8 data rows + header
+- `P2G040_RECHECK_PATCHES.jsonl` — 8 patches
+- `P2G040_SOURCE_EVIDENCE.md`
+- `P2G040_RECHECK_ACCEPTANCE.md` — `P2G040_RECHECK_ACCEPTANCE: NOT_FINAL`
+- `P2G040_PROGRESS.md`
+
+Decision summary for source_id `040_丰台期末`:
+- 4 × `confirmed` (choice_trap Q7/Q8/Q9/Q10) — 040 paper.txt 内嵌完整 Q1-Q15 客观题答案+四选项详解，证据完备，全部 stem/options/answer key 已逐字核验
+- 4 × `block_from_student_body` (main_thinking Q16 × 4 框架节点) — Q16 为必修四《哲学与文化》题，scope_out；按 manifest 第50-53行原前置标记，仅"质量互变（适度原则）"放行 fusion-only attach（`can_enter_fusion=yes`），其余三个（动态性/整体性/矛盾分析法）`can_enter_fusion=no`
+- 0 × `source_insufficient` / `confirmed_with_patch` / `downgrade_to_index` / `wrong_framework`
+- evidence_level 全 8 行维持 manifest 原值（无升级/降级）；未生成 Word/PDF/delivery/final

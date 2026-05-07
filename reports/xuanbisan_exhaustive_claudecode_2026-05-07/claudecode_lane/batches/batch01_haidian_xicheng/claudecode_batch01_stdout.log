@@ -1,0 +1,24 @@
+started=2026-05-07T12:39:32
+Batch01 海淀/西城套卷的穷尽闭合已完成。本批不写终稿、不写 PASS、不生成 Word/PDF。
+
+交付清单（全部位于 `claudecode_lane/batches/batch01_haidian_xicheng/`）：
+
+- `PROGRESS.md` — 套卷推进+最终交付清单+硬规则交互记录
+- `QUESTION_DECISIONS.csv` — 102 行（含表头）/8 列：5 套套卷 101 道候选题，每行均给出 `入正文/同类索引/blocked/excluded` 结论与具体所属模块理由
+- `MAIN_THINKING_LEDGER.csv` — 21 行/11 列：10 道优先主观题厚内容，20 个挂载节点
+- `CHOICE_TRAP_LEDGER.csv` — 12 行/9 列：11 道选择题厚陷阱分析（含完整选项+答案源+正确项+错项+陷阱类型+`needs_codex_recheck`）
+- `FRAMEWORK_NODE_MATRIX.csv` — 46 行/6 列：45 条 (framework_node, 挂载题id) 详挂载
+- `FRAMEWORK_NODE_MATRIX_SUMMARY.csv` — 34 行/11 列：33 个 unique 框架节点聚合视图（满足 supervisor patch_02 schema）
+- `BLOCKED_OR_BOUNDARY.md` — 79 条 excluded + 1 条 suite-level blocked + 2 条同类索引边界
+- `suite_reports/S-{2024海淀二模, 2024西城一模, 2025海淀二模, 2025海淀期末, 2025西城二模}.md` — 5 份套卷闭环报告
+- `entries/batch01_entries.jsonl` — 31 行可融合厚 JSON，含 `question_id, type, framework_node, material_signal, trigger_logic, answer_sentence, evidence_level, needs_codex_recheck, source_batch` + 中文 alias 字段
+
+关键裁决：
+- **入正文 22 题**（含 22 个 unique question_id 在 main+choice 两表去重后）：含全部 13 道用户列出的优先题 + 5 道延伸题（Q-2024海淀二模-5/6 求异法/概念外延、Q-2024西城一模-11/13 完全归纳/联想思维、Q-2025海淀期末-2/5/8 联想+整体性/动态性/选言判断）
+- **同类索引 2 题**：Q-2024海淀二模-21、Q-2025海淀期末-22（综合短文中的质量互变规律节点 fusion-only attach）
+- **blocked**：Q-2025海淀二模-UNPARSED-PAPER（试卷 PDF 文本层稀薄，本批仅以 render+supplemental 处理 12/13/20 三题，其余题号待 OCR 完整解锁）
+- **excluded 79 题**：逐题列出所属模块（必修一/二/三/四 / 选必一/二），不出现笼统"非选必三"
+- **Q-2024海淀二模-17(1)** 严格按硬规则十六 `SCIENCE_ONLY_SOURCE_SUPPORTED` 锁定为科学思维设问下的来源支持落点（客观性/探索性·方法更新/整体安排），不复活为三模块并列设问
+- **Q-2025海淀二模-20** 按角度池+赋分上限规则展开 4 个挂载节点（分析与综合/整体性 + 质量互变/动态性 + 辩证否定 + 矛盾分析法最多2分）
+
+CSV 列计数与 JSONL 必需字段已全部通过 Python 验证（0 bad rows / 0 missing fields）。

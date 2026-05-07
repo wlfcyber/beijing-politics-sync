@@ -1,0 +1,10 @@
+started=2026-05-07T17:13:43
+All 5 files written. Validation passed:
+
+- **P2G046_RECHECK_DECISIONS.csv** — header exact, 3 rows (Q5/Q6/Q7), all `confirmed_with_patch` with `B-choice-signal` evidence level.
+- **P2G046_RECHECK_PATCHES.jsonl** — 3 JSON rows mirroring the CSV decisions.
+- **P2G046_SOURCE_EVIDENCE.md** — verbatim paper stems, 答案表 锁定 (5=B / 6=D / 7=D), Q7 official symbolic recap.
+- **P2G046_RECHECK_ACCEPTANCE.md** — `P2G046_RECHECK_ACCEPTANCE: NOT_FINAL`; row count 3, patch count 3, no Word/PDF/delivery.
+- **P2G046_PROGRESS.md** — step log + decision summary.
+
+Key findings: All three rows had source-end answer keys available. Q5 (`5=B`) and Q7 (`7=D`) had been marked `blocked_keep_out/answer_missing` in the manifest; the 046 paper.txt 答案表 (lines 265-268) plus the 26东城一模细则.pdf p9 + 18+选择7、13.pptx slide 5-6 (for Q7's symbolic logic) overturn that — confirmed_with_patch with `can_enter_fusion=yes`. Fusion P1 already contains full identification text for all three but tagged "需 Codex 回源复核"; the patch is to drop that tag once supervisor merges.

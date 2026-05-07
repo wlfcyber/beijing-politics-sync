@@ -1,0 +1,19 @@
+{
+  "verdict": "P2G044_QA_OK_NOT_FINAL",
+  "prefix": "P2G044",
+  "expected_rows": 2,
+  "missing_files": [],
+  "decision_rows": 2,
+  "patch_rows": 2,
+  "decision_counts": {
+    "confirmed_with_patch": 2
+  },
+  "evidence_counts": {
+    "B-choice-signal": 2
+  },
+  "can_enter_fusion_counts": {
+    "yes": 2
+  },
+  "issue_count": 0,
+  "issues": []
+}

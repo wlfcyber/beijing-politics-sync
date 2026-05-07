@@ -1,0 +1,19 @@
+{
+  "verdict": "P2G012_QA_OK_NOT_FINAL",
+  "prefix": "P2G012",
+  "expected_rows": 4,
+  "missing_files": [],
+  "decision_rows": 4,
+  "patch_rows": 4,
+  "decision_counts": {
+    "confirmed_with_patch": 4
+  },
+  "evidence_counts": {
+    "B-choice-signal": 4
+  },
+  "can_enter_fusion_counts": {
+    "yes": 4
+  },
+  "issue_count": 0,
+  "issues": []
+}

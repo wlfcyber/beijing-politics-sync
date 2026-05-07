@@ -1,0 +1,24 @@
+{
+  "status": "FUSION_DRAFT_NOT_FINAL",
+  "entry_rows": 119,
+  "top_node_counts": {
+    "科学思维": 8,
+    "认识发展历程": 2,
+    "创新思维": 29,
+    "辩证思维": 19,
+    "形式逻辑": 11,
+    "推理": 31,
+    "推理边界": 10,
+    "边界陷阱·选必三超前思维概念跨模块外挂": 1,
+    "形象思维与抽象思维区分（基本单元": 1,
+    "选必三导论": 3,
+    "判断": 3,
+    "必修四联系观": 1
+  },
+  "recheck_rows": 69,
+  "outputs": [
+    "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\FRAMEWORK_FIRST_FUSION_DRAFT.md",
+    "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\FRAMEWORK_NODE_INVENTORY.csv",
+    "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\RECHECK_MANIFEST.csv"
+  ]
+}

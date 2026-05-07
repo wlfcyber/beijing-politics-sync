@@ -1,0 +1,19 @@
+{
+  "verdict": "P0_FUSION_PATCH_OK_NOT_FINAL",
+  "p0_patch_rows": 19,
+  "applied_rows": 19,
+  "missing_rows": 0,
+  "missing": [],
+  "p0_recheck_left": [],
+  "forbidden_fixed_flow_hits": 0,
+  "evidence_counts": {
+    "A-formal": 15,
+    "A-support": 3,
+    "B-choice-signal": 1
+  },
+  "decision_counts": {
+    "confirmed": 6,
+    "confirmed_with_patch": 13
+  },
+  "output": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\FRAMEWORK_FIRST_FUSION_P0_PATCHED.md"
+}

@@ -1,0 +1,24 @@
+{
+  "verdict": "P1_FUSION_PATCH_OK_NOT_FINAL",
+  "priority": "P1",
+  "patch_rows": 11,
+  "applied_rows": 11,
+  "missing_rows": 0,
+  "missing": [],
+  "recheck_left": [],
+  "forbidden_hits": {
+    "固定分析流程": 0,
+    "FINAL_PASS": 0,
+    "终稿已通过": 0,
+    "最终版": 0
+  },
+  "evidence_counts": {
+    "A-formal": 11
+  },
+  "decision_counts": {
+    "confirmed": 10,
+    "confirmed_with_patch": 1
+  },
+  "source": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\FRAMEWORK_FIRST_FUSION_P0_PATCHED.md",
+  "output": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\FRAMEWORK_FIRST_FUSION_P1_PATCHED.md"
+}

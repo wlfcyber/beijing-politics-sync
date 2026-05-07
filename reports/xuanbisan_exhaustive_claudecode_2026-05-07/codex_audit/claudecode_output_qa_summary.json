@@ -1,0 +1,22 @@
+{
+  "verdict": "CONTROL_BASE_TERMINAL_CLOSED_BUT_EVIDENCE_BLOCKED",
+  "codex_union_rows": 534,
+  "claudecode_coverage_rows": 534,
+  "claudecode_conclusion_counts": {
+    "excluded": 114,
+    "blocked": 336,
+    "入正文": 80,
+    "同类索引": 4
+  },
+  "claudecode_pending_conclusion_rows": 0,
+  "claudecode_evidence_pending_rows": 330,
+  "missing_qids_from_codex_union": [],
+  "extra_qids_not_in_codex_union": [],
+  "suite_report_files": 17,
+  "missing_suite_reports": [],
+  "entry_jsonl_counts": {
+    "additional_choice.jsonl": 9,
+    "additional_main.jsonl": 12,
+    "hard_samples.jsonl": 10
+  }
+}

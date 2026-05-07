@@ -1,0 +1,153 @@
+{
+  "verdict": "OVERALL_BATCH_CLOSURE_OK_NOT_FINAL",
+  "base_rows": 534,
+  "base_unique_question_ids": 364,
+  "covered_unique_question_ids": 364,
+  "missing_unique_question_ids": [],
+  "extra_unique_question_ids": [],
+  "conflicts": {},
+  "overall_decision_counts": {
+    "excluded": 270,
+    "入正文": 79,
+    "blocked": 4,
+    "同类索引": 11
+  },
+  "source_stats": {
+    "batch01_haidian_xicheng": {
+      "decision_rows": 101,
+      "unique_question_ids": 101,
+      "decision_counts": {
+        "excluded": 78,
+        "入正文": 21,
+        "blocked": 1,
+        "同类索引": 1
+      },
+      "suite_report_count": 5,
+      "entries": {
+        "rows": 31,
+        "bad_json": 0,
+        "type_counts": {
+          "main_thinking": 20,
+          "choice_trap": 11
+        }
+      }
+    },
+    "batch02_chaoyang_controlled_input": {
+      "decision_rows": 93,
+      "unique_question_ids": 93,
+      "decision_counts": {
+        "excluded": 69,
+        "同类索引": 2,
+        "入正文": 20,
+        "blocked": 2
+      },
+      "suite_report_count": 4,
+      "entries": {
+        "rows": 32,
+        "bad_json": 0,
+        "type_counts": {
+          "main_thinking": 20,
+          "choice_trap": 12
+        }
+      }
+    },
+    "batch03_dongcheng": {
+      "decision_rows": 72,
+      "unique_question_ids": 72,
+      "decision_counts": {
+        "excluded": 57,
+        "入正文": 12,
+        "同类索引": 3
+      },
+      "suite_report_count": 3,
+      "entries": {
+        "rows": 20,
+        "bad_json": 0,
+        "type_counts": {
+          "main_thinking": 11,
+          "choice_trap": 9
+        }
+      }
+    },
+    "batch04_fengtai_shunyi_tongzhou": {
+      "decision_rows": 98,
+      "unique_question_ids": 98,
+      "decision_counts": {
+        "excluded": 66,
+        "入正文": 26,
+        "同类索引": 5,
+        "blocked": 1
+      },
+      "suite_report_count": 5,
+      "entries": {
+        "rows": 36,
+        "bad_json": 0,
+        "type_counts": {
+          "main_thinking": 17,
+          "choice_trap": 19
+        }
+      }
+    }
+  },
+  "supplemental_stats": {
+    "batch02a_chaoyang_yimo_2024": {
+      "decision_rows": 23,
+      "unique_question_ids": 23,
+      "decision_counts": {
+        "excluded": 18,
+        "入正文": 5
+      },
+      "suite_report_count": 1,
+      "entries": {
+        "rows": 5,
+        "bad_json": 0,
+        "type_counts": {
+          "choice": 3,
+          "subjective": 2
+        }
+      },
+      "role": "supplemental_cross_check_only"
+    },
+    "batch03a_dongcheng_qimo_2025": {
+      "decision_rows": 24,
+      "unique_question_ids": 24,
+      "decision_counts": {
+        "excluded": 18,
+        "入正文": 5,
+        "同类索引": 1
+      },
+      "suite_report_count": 1,
+      "entries": {
+        "rows": 5,
+        "bad_json": 0,
+        "type_counts": {
+          "main": 1,
+          "choice": 4
+        }
+      },
+      "role": "supplemental_cross_check_only"
+    },
+    "batch04a_shunyi_yimo_2025": {
+      "decision_rows": 23,
+      "unique_question_ids": 23,
+      "decision_counts": {
+        "excluded": 18,
+        "同类索引": 1,
+        "入正文": 4
+      },
+      "suite_report_count": 1,
+      "entries": {
+        "rows": 5,
+        "bad_json": 0,
+        "type_counts": {
+          "选择题-边界陷阱": 1,
+          "选择题-推理形式辨析": 1,
+          "选择题-概念与判断综合": 1,
+          "选择题-三段论谬误辨析": 1,
+          "主观题-复合判断演绎推理": 1
+        }
+      },
+      "role": "supplemental_cross_check_only"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+started=2026-05-07T13:37:06
+修复批已完成。
+
+## 交付摘要
+
+**14 个必交文件全部落盘**到 `batch02_output_repair/`，未覆盖原 `batch02_chaoyang/`：
+
+| 文件 | 规模 | 关键校验 |
+|---|---|---|
+| `PROGRESS.md` | 7.7 KB | 修复批进度+套卷统计+硬规则遵守清单 |
+| `QUESTION_DECISIONS.csv` | 27.8 KB | **90 行 × 8 列**；`needs_codex_recheck ∈ {yes, no}` ✓ — 修复硬失败 B |
+| `MAIN_THINKING_LEDGER.csv` | 32.7 KB | **20 行 × 11 列**；csv.writer 写入；附带修复了原批的字段错位 |
+| `CHOICE_TRAP_LEDGER.csv` | 20.2 KB | **12 行 × 9 列**；12 道选择题厚陷阱 |
+| `FRAMEWORK_NODE_MATRIX.csv` | 4.3 KB | **35 行 × 6 列**（含 2 辅助挂载） |
+| `FRAMEWORK_NODE_MATRIX_SUMMARY.csv` | 3.8 KB | **28 unique framework_nodes × 11 列** |
+| `BLOCKED_OR_BOUNDARY.md` | 11.4 KB | 2 blocked + 2 同类索引 + 66 excluded 分类汇总 |
+| `suite_reports/*.md` | 4 份 | 套卷闭环报告 + 硬样本交互记录 |
+| `entries/batch02_entries.jsonl` | 48.4 KB | **32 条合法 JSON**（20 main_thinking + 12 choice_trap），9 字段全 ✓ |
+| `BATCH02_REPAIR_ACCEPTANCE.md` | 7.0 KB | 不写 PASS；交付清单 + 套卷统计 + 残余边界 |
+| `REPAIR_QA_NOTES.md` | 10.0 KB | 修复决策 + 与原批差异 + 监管者复查命令 |
+
+## 套卷统计（事实计数）
+
+| suite | 候选 | 入正文 | 同类索引 | blocked | excluded |
+|---|---|---|---|---|---|
+| S-2024朝阳一模 | 23 | 4 | 2 | 0 | 17 |
+| S-2024朝阳二模 | 23 | 3 | 0 | 1 | 19 |
+| S-2024朝阳期中 | 22 | 6 | 0 | 1 | 15 |
+| S-2026朝阳期中 | 22 | 7 | 0 | 0 | 15 |
+| **合计** | **90** | **20** | **2** | **2** | **66** |
+
+## 修复要点
+
+- **硬失败 A**（缺失产物）：原批只落盘了 2 个文件，修复批补齐 14 个。
+- **硬失败 B**（CSV 转义）：原批用手写逗号导致 5+ 行污染 `needs_codex_recheck`，修复批用 `csv.writer(QUOTE_MINIMAL)` 重写，所有含逗号字段自动加引号。
+- **附带发现**：原批的 `MAIN_THINKING_LEDGER.csv` 也有字段错位（如 Q-2024朝阳一模-20-2 的"完整设问"含未引号 ASCII 逗号），修复批从源数据重建并统一中文标点。
+- **未做的事**：未写 PASS、未生成 Word/PDF、未重做证据裁决、未合并到根 lane、未运行外审/Governor。
+
+## 残余边界
+
+- 2 个 blocked（Q-2024朝阳二模-6 / Q-2024朝阳期中-11）需 Codex 融合时回源核验。
+- 17 条 entries 标 `needs_codex_recheck=yes`，需融合时二次确认。

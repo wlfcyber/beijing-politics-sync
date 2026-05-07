@@ -1,0 +1,72 @@
+{
+  "governor_verdict": "GOVERNOR_P0_P2_EVIDENCE_GATE_OK_NOT_FINAL",
+  "confucius_verdict": "CONFUCIUS_PRECHECK_NOT_STUDENT_DELIVERY",
+  "issues": [],
+  "qa_status": {
+    "overall": {
+      "exists": true,
+      "expected": "OVERALL_BATCH_CLOSURE_OK_NOT_FINAL",
+      "actual": "OVERALL_BATCH_CLOSURE_OK_NOT_FINAL"
+    },
+    "p0_recheck": {
+      "exists": true,
+      "expected": "P0_RECHECK_QA_OK_NOT_FINAL",
+      "actual": "P0_RECHECK_QA_OK_NOT_FINAL"
+    },
+    "p1_recheck": {
+      "exists": true,
+      "expected": "P1_RECHECK_QA_OK_NOT_FINAL",
+      "actual": "P1_RECHECK_QA_OK_NOT_FINAL"
+    },
+    "p2_recheck": {
+      "exists": true,
+      "expected": "P2_RECHECK_QA_OK_NOT_FINAL",
+      "actual": "P2_RECHECK_QA_OK_NOT_FINAL"
+    },
+    "p0_fusion": {
+      "exists": true,
+      "expected": "P0_FUSION_PATCH_OK_NOT_FINAL",
+      "actual": "P0_FUSION_PATCH_OK_NOT_FINAL"
+    },
+    "p1_fusion": {
+      "exists": true,
+      "expected": "P1_FUSION_PATCH_OK_NOT_FINAL",
+      "actual": "P1_FUSION_PATCH_OK_NOT_FINAL"
+    },
+    "p2_fusion": {
+      "exists": true,
+      "expected": "P2_FUSION_PATCH_OK_NOT_FINAL",
+      "actual": "P2_FUSION_PATCH_OK_NOT_FINAL"
+    }
+  },
+  "p2_decision_counts": {
+    "source_insufficient": 7,
+    "confirmed_with_patch": 24,
+    "confirmed": 4,
+    "block_from_student_body": 3,
+    "downgrade_to_index": 1
+  },
+  "p2_can_enter_fusion_counts": {
+    "no": 10,
+    "yes": 29
+  },
+  "forbidden_hits": {
+    "固定分析流程": 0,
+    "FINAL_PASS": 0,
+    "终稿已通过": 0,
+    "最终版": 0,
+    "需 Codex 回源复核": 0
+  },
+  "audit_marker_hits": {
+    "P0证据": 19,
+    "P1证据": 11,
+    "P2证据": 39,
+    "A-formal": 57,
+    "A-support": 12,
+    "B-choice-signal": 57,
+    "source_insufficient": 14
+  },
+  "running_p2_processes": [],
+  "final_fusion": "C:\\Users\\Administrator\\Desktop\\飞哥的政治庄园\\reports\\选必三_穷尽性重审_ClaudeCode厚内容_2026-05-07\\fusion\\framework_first_fusion\\FRAMEWORK_FIRST_FUSION_P2_PATCHED.md",
+  "word_pdf_delivery_authorized": false
+}
