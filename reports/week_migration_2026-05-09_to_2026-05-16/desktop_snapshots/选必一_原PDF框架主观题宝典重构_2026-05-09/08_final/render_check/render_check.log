@@ -1,0 +1,104 @@
+## render_docx
+return_code=1
+stdout_head=
+stderr_head=Traceback (most recent call last):
+  File "/Users/wanglifei/.codex/plugins/cache/openai-primary-runtime/documents/26.506.11943/skills/documents/render_docx.py", line 415, in <module>
+    main()
+  File "/Users/wanglifei/.codex/plugins/cache/openai-primary-runtime/documents/26.506.11943/skills/documents/render_docx.py", line 410, in main
+    rasterize(input_path, out_dir, dpi, verbose=args.verbose, emit_pdf=args.emit_pdf)
+  File "/Users/wanglifei/.codex/plugins/cache/openai-primary-runtime/documents/26.506.11943/skills/documents/render_docx.py", line 295, in rasterize
+    pdf_path, debug = convert_to_pdf(
+                      ^^^^^^^^^^^^^^^
+  File "/Users/wanglifei/.codex/plugins/cache/openai-primary-runtime/documents/26.506.11943/skills/documents/render_docx.py", line 151, in convert_to_pdf
+    _guard_macos_tmpdir_for_soffice()
+  File "/Users/wanglifei/.codex/plugins/cache/openai-primary-runtime/documents/26.506.11943/skills/documents/render_docx.py", line 33, in _guard_macos_tmpdir_f
+
+## quicklook
+return_code=0
+stdout_head=Testing Quick Look thumbnails with files:
+	/Users/wanglifei/Desktop/北京高考政治/选必一_原PDF框架主观题宝典重构_2026-05-09/08_final/2026北京高考政治选必一《当代国际政治与经济》六要素原框架答题术语宝典_主观题版.docx
+* /Users/wanglifei/Desktop/北京高考政治/选必一_原PDF框架主观题宝典重构_2026-05-09/08_final/2026北京高考政治选必一《当代国际政治与经济》六要素原框架答题术语宝典_主观题版.docx produced one thumbnail
+Done producing thumbnails
+
+stderr_head=
+
+## textutil
+return_code=0
+stdout_head=2026北京高考政治选必一《当代国际政治与经济》 六要素原框架答题术语宝典（主观题版）
+只按原 PDF 框架组织：六要素 -> 小框架 -> 答题术语 -> 主观题出处 -> 四段触发链
+
+目录
+1. 时代背景
+机遇
+和平与发展是时代的主题
+挑战
+霸权主义 / 强权政治
+2. 理论
+国家安全
+国家安全是最高国家利益
+共同利益
+共同利益是国家间合作的基础
+维护本国利益的同时兼顾他国合理关切
+3. 经济全球化
+民
+民生福祉 / 增加就业岗位 / 提高居民收入
+国
+推动成员国经济复苏 / 共建国家经济增长
+环
+促进要素自由流动 / 优化资源配置
+产业结构优化升级 / 促进要素自由流动
+营
+优化营商环境 / 国际化、市场化、法治化营商环境
+配
+优化资源配置
+贸资
+推动贸易投资自由化便利化
+总
+推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展
+开
+推进我国高水平对外开放
+发展更高层次的开放型经济 / 推进我国高水平对外开放
+兼
+充分利用国内国际两个市场 / 充分利用国内国际两种资源
+4. 政治多极化
+新国关
+有利于构建相互尊重、公平正义、合作共赢的新型国际关系
+完善全球治理
+倡导共商共建共享的全球治理观
+完善全球治理 / 倡导共商共建共享的全球治理观
+完善全球治理
+共体
+有利于构建人类命运共同体
+单边
+反对单边主义和贸易保护主义
+多极化
+坚持平等有序的多极化
+民主
+推动国际关系民主化 / 坚持真正的多边主义
+5. 中国
+政策
+我国奉行独立自主的和平外交政策
+智慧
+中国智慧 / 中国方案
+责任
+承担大国责任 / 发挥建设性作用
+一条历史线
+中国的综合国力增强 / 国际地位提升
+一条主线
+习近平外交思想为新时代中国特色大国外交提供了根本遵循和行动指南
+6. 联合国
+联合国
+遵循联合国宪章宗旨原则
+践行多边主义的最佳场所
+践行多边主义的最佳场所 / 遵循联合国宪章宗旨原则
+
+前言
+这份宝典只处理主观题。结构按原框架六要素展开：先找六要素，再落到小框架，再写答题术语，最后用真题设问和材料触发链把术语写成卷面答案。
+一、时代背景
+机遇
+和平与发展是时代的主题
+【答题术语】
+和平与发展是时代的主题
+【触发材料】
+题目追问新中国外交的变，材料呈现不同阶段世界格局和时代主题变化，就要想到和平与发展仍是时代主题及其对外交重点的影响。；NDC置于联合国和《巴黎协定》框架下，说明气
+stderr_head=

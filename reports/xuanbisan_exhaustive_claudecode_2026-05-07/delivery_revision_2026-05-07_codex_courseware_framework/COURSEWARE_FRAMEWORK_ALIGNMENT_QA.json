@@ -1,0 +1,35 @@
+{
+  "source_md": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/xuanbisan_exhaustive_claudecode_2026-05-07/delivery/选必三_逻辑与思维_学生版_框架闭合稿.md",
+  "output_md": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/xuanbisan_exhaustive_claudecode_2026-05-07/delivery_revision_2026-05-07_codex_courseware_framework/选必三_逻辑与思维_学生版_课件框架对齐稿.md",
+  "output_docx": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/xuanbisan_exhaustive_claudecode_2026-05-07/delivery_revision_2026-05-07_codex_courseware_framework/选必三_逻辑与思维_学生版_课件框架对齐稿.docx",
+  "entries_total": 108,
+  "subjective_entries": 64,
+  "choice_entries": 44,
+  "choice_option_blocks": 44,
+  "choice_option_missing": [],
+  "ascii_double_quote_hits": 0,
+  "ascii_single_quote_hits": 0,
+  "raw_gt_heading_hits": 0,
+  "bad_known_text_hits": {
+    "中关村1": 0,
+    "REVIEW_ONLY": 0,
+    "A-formal": 0,
+    "B-choice": 0,
+    "source_insufficient": 0,
+    "待回源": 0
+  },
+  "student_forbidden_hits": {
+    "细则": 0,
+    "硬规则": 0,
+    "来源支持": 0,
+    "GitHub": 0,
+    "control matrix": 0,
+    "source": 0,
+    "审计": 0,
+    "复核": 0,
+    "教师版": 0,
+    "讲评": 0
+  },
+  "blank_abcd_lines": 0,
+  "node_count": 67
+}

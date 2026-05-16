@@ -1,0 +1,7 @@
+command: /Users/wanglifei/.local/bin/claude --model sonnet --effort low --output-format -p <05_中国.md>
+packet: /Users/wanglifei/Desktop/北京高考政治/选必一_原PDF框架主观题宝典重构_2026-05-09/V2_内容纯度修订_2026-05-09/04_claude_packet/05_中国.md
+draft: /Users/wanglifei/Desktop/北京高考政治/选必一_原PDF框架主观题宝典重构_2026-05-09/V2_内容纯度修订_2026-05-09/05_claude_draft/中国_draft.md
+return_code: 0
+stdout_bytes: 3722
+stderr:
+

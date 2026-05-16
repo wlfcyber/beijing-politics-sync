@@ -1,0 +1,4 @@
+command: /Users/wanglifei/.local/bin/claude --model sonnet --effort low --output-format -p <02_理论.md>
+packet: /Users/wanglifei/Desktop/北京高考政治/选必一_原PDF框架主观题宝典重构_2026-05-09/V3_终审修订_2026-05-09/04_claude_packet/02_理论.md
+draft: /Users/wanglifei/Desktop/北京高考政治/选必一_原PDF框架主观题宝典重构_2026-05-09/V3_终审修订_2026-05-09/05_claude_draft/理论_draft.md
+TIMEOUT after 90s
