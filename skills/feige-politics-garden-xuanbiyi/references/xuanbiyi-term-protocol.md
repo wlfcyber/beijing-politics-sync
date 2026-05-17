@@ -148,6 +148,7 @@ Put explanatory principles about international relations here:
 If the phrase answers "why competition/cooperation happens", place it in `理论`.
 If the phrase is `新型国际关系` or `合作共赢的新型国际关系`, it is not a theory bucket item. Place it in `政治多极化` because it answers the direction of international relations and international order. If the cooperation-win phrase is about trade, markets, supply chains, resources, rules, or open platforms, place it in `经济全球化`; if it is about China's responsibility, shared opportunities, developing-country livelihood, or development cooperation, place it in `中国`.
 If the phrase is `独立自主和平外交政策`, `独立自主的基本立场`, `和平共处五项原则`, or `对外关系基本准则`, place it in `中国`, because it answers China's foreign-policy stance and action. If `独立自主 / 自力更生 / 自主可控 / 发展主动权` appears in technology, industry-chain, security, or development-capacity contexts, also place it in `中国`; do not keep it in the theory bucket.
+If the phrase is `新中国外交始终服务于我国人民民主专政的国家性质`, `坚持党对外交统一集中领导`, or `总体国家安全观 / 统筹发展与安全` in a China-action/security-development context, place it in `中国`, not `理论`.
 
 ### 经济全球化
 
@@ -164,6 +165,7 @@ If the phrase answers "how international economic circulation, opening, or resou
 Within this bucket, classification is expression-sensitive. `推动建设开放型世界经济` is not the same student-facing node as `提高开放型经济水平`, `创新型、开放型世界经济`, `积极参与全球经济治理和规则制定`, or `促进贸易自由化便利化` unless the scoring source explicitly makes them same-point alternatives.
 
 Split `积极参与全球经济治理和规则制定` by answer function: enterprise outbound-rule environment, high-standard economic/trade rules and international-standard voice, developing-country representation and voice, and multilateral trade system are not one broad node. Keep `推动普惠包容的经济全球化 / 建设开放型世界经济 / 促进贸易自由化` together only when the rubric explicitly says they are same-point alternatives such as "任意1点1分".
+Place `未来产业国际市场 / 走出去`, `多元稳定经贸关系`, and trade-investment-supply-chain circulation mechanisms here. Do not leave them in `时代背景` or `理论`.
 
 ### 政治多极化
 
@@ -176,6 +178,8 @@ Put international order and governance-orientation terms here:
 - 反对单边主义、霸权主义、强权政治.
 - 推动构建人类命运共同体 when the emphasis is global political order.
 
+Do not put China-named global initiatives here merely because they discuss global governance. `全球发展倡议`, `全球安全倡议`, `全球文明倡议`, and `全球治理倡议` belong in `中国` when the scoring function is China's proposal, China's solution, China's public product, or China's responsibility.
+
 ### 中国
 
 Use existing second-level headings:
@@ -185,6 +189,11 @@ Use existing second-level headings:
 - 责任
 - 外交政策：独立自主和平外交政策、独立自主的基本立场、和平共处五项原则、对外关系基本准则、维护世界和平促进共同发展的宗旨和目标.
 - 发展主动权：独立自主、自力更生、自主可控、发展主动权、核心技术攻关 when the question asks how China acts under external pressure or industrial-chain risk.
+- 国家性质与领导：新中国外交服务于人民民主专政的国家性质，坚持党对外交统一集中领导.
+- 安全与发展：总体国家安全观、统筹发展与安全、以新安全格局保障新发展格局 when the question asks how China acts under external risk, technology risk, industrial-chain risk, or security-development tension.
+- 中国倡议：中国提出或推动的全球发展倡议、全球安全倡议、全球文明倡议、全球治理倡议.
+- 中国气候治理实践：落实《巴黎协定》、提交 NDC/国家自主贡献目标、参与全球气候治理多边进程 when the question asks China's practice or contribution.
+- 发展合作与民生：对发展中国家技术赋能、民生改善、自主发展能力提升.
 
 Add reluctant second-level headings only when needed:
 
@@ -200,6 +209,8 @@ Use for:
 - 以联合国为核心的国际体系.
 - 联合国成为中国开展多边合作的主要舞台.
 - 中国与联合国相互需要的 relation terms.
+
+Keep `联合国2030年可持续发展议程`, `联合国宪章`, and `以联合国为核心的国际体系` here. Do not place `巴黎协定/NDC` here when the question is China's climate-governance practice; that belongs in `中国`.
 
 ## 7. Module Boundary
 

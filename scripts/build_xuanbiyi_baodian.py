@@ -274,8 +274,70 @@ def norm_term(term: str) -> str:
     return t
 
 
+CHINA_STATE_NATURE_CORE = "\u65b0\u4e2d\u56fd\u5916\u4ea4\u59cb\u7ec8\u670d\u52a1\u4e8e\u6211\u56fd\u4eba\u6c11\u6c11\u4e3b\u4e13\u653f\u7684\u56fd\u5bb6\u6027\u8d28\uff1b\u575a\u6301\u515a\u5bf9\u5916\u4ea4\u7edf\u4e00\u96c6\u4e2d\u9886\u5bfc"
+CHINA_SECURITY_CORE = "\u575a\u6301\u603b\u4f53\u56fd\u5bb6\u5b89\u5168\u89c2\uff0c\u7edf\u7b79\u53d1\u5c55\u4e0e\u5b89\u5168\uff0c\u4ee5\u65b0\u5b89\u5168\u683c\u5c40\u4fdd\u969c\u65b0\u53d1\u5c55\u683c\u5c40"
+CHINA_PUBLIC_PRODUCT_CORE = "\u7406\u5ff5\u8574\u542b\u666e\u904d\u4ef7\u503c\uff0c\u80fd\u591f\u5f62\u6210\u5171\u8bc6\u3001\u4fc3\u6210\u5408\u4f5c\u548c\u53d1\u5c55\u3001\u5e94\u5bf9\u5168\u4eba\u7c7b\u5171\u540c\u95ee\u9898\u548c\u5171\u540c\u6311\u6218"
+CHINA_TECH_LIVELIHOOD_CORE = "\u4fc3\u8fdb\u6280\u672f\u5171\u4eab\u548c\u6c11\u751f\u6539\u5584\uff1b\u4e3a\u5168\u7403\u53ef\u6301\u7eed\u53d1\u5c55\u8d21\u732e\u529b\u91cf"
+CHINA_CLIMATE_CORE = "\u4e2d\u56fd\u63a8\u8fdb\u7eff\u8272\u4f4e\u78b3\u8f6c\u578b\u5e76\u53c2\u4e0e\u5168\u7403\u6c14\u5019\u6cbb\u7406"
+CHINA_GDI_CORE = "\u5168\u7403\u53d1\u5c55\u5021\u8bae\uff1a\u4ee5\u53d1\u5c55\u4fc3\u7e41\u8363"
+CHINA_GSI_CORE = "\u5168\u7403\u5b89\u5168\u5021\u8bae\uff1a\u4ee5\u5b89\u5168\u4fdd\u7a33\u5b9a"
+CHINA_GCI_CORE = "\u5168\u7403\u6587\u660e\u5021\u8bae\uff1a\u4ee5\u6587\u660e\u589e\u4e92\u4fe1"
+
+
+def _has_any(text: str, needles: list[str]) -> bool:
+    return any(needle in text for needle in needles)
+
+
+def manual_core_override(term: str) -> str | None:
+    """Hard boundary corrections found in the six-bucket re-audit."""
+    if _has_any(term, ["\u4eba\u6c11\u6c11\u4e3b\u4e13\u653f", "\u515a\u5bf9\u5916\u4ea4\u7edf\u4e00\u96c6\u4e2d\u9886\u5bfc"]):
+        return CHINA_STATE_NATURE_CORE
+    if _has_any(term, ["\u603b\u4f53\u56fd\u5bb6\u5b89\u5168\u89c2", "\u5904\u7406\u597d\u53d1\u5c55\u548c\u5b89\u5168\u7684\u5173\u7cfb", "\u7edf\u7b79\u53d1\u5c55\u548c\u5b89\u5168", "\u7ef4\u62a4\u56fd\u5bb6\u7ecf\u6d4e\u5b89\u5168\u3001\u79d1\u6280\u5b89\u5168"]):
+        return CHINA_SECURITY_CORE
+    if "\u7ecf\u6d4e\u5b89\u5168 / \u7edf\u7b79\u5b89\u5168\u4e0e\u53d1\u5c55 / \u591a\u5143\u7a33\u5b9a\u7684\u7ecf\u8d38\u5173\u7cfb" in term:
+        return "\u7ecf\u6d4e\u5b89\u5168 / \u7edf\u7b79\u5b89\u5168\u4e0e\u53d1\u5c55 / \u591a\u5143\u7a33\u5b9a\u7684\u7ecf\u8d38\u5173\u7cfb"
+    if "\u6211\u56fd\u7684\u672a\u6765\u4ea7\u4e1a\u6709\u975e\u5e38\u5e7f\u9614\u7684\u56fd\u9645\u5e02\u573a" in term:
+        return "\u6211\u56fd\u7684\u672a\u6765\u4ea7\u4e1a\u6709\u975e\u5e38\u5e7f\u9614\u7684\u56fd\u9645\u5e02\u573a\uff0c\u4e3a\u672a\u6765\u4ea7\u4e1a\u201c\u8d70\u51fa\u53bb\u201d\u63d0\u4f9b\u4e86\u53ef\u80fd"
+    if "\u7406\u5ff5\u8574\u542b\u666e\u904d\u4ef7\u503c" in term:
+        return CHINA_PUBLIC_PRODUCT_CORE
+    if _has_any(term, ["\u4ee5\u79d1\u6280\u52a9\u529b\u53d1\u5c55\u4e2d\u56fd\u5bb6\u53d1\u5c55", "\u63d0\u5347\u5176\u81ea\u4e3b\u53d1\u5c55\u80fd\u529b\uff1b\u4fc3\u8fdb\u6c11\u751f\u6539\u5584"]):
+        return CHINA_TECH_LIVELIHOOD_CORE
+    if _has_any(term, ["\u6211\u56fd\u7528\u884c\u52a8\u4e3a\u4e16\u754c\u6c14\u5019", "\u300a\u5df4\u9ece\u534f\u5b9a\u300b", "\u56fd\u5bb6\u81ea\u4e3b\u8d21\u732e\u76ee\u6807", "NDC"]):
+        return CHINA_CLIMATE_CORE
+    if "\u5168\u7403\u53d1\u5c55\u5021\u8bae" in term:
+        return CHINA_GDI_CORE
+    if "\u5168\u7403\u5b89\u5168\u5021\u8bae" in term:
+        return CHINA_GSI_CORE
+    if _has_any(term, ["\u5168\u7403\u6587\u660e\u5021\u8bae", "\u901a\u8fc7\u4ea4\u6d41\u4e92\u9274\u3001\u4f20\u627f\u548c\u521b\u65b0\uff0c\u4fc3\u8fdb\u6c11\u5fc3\u76f8\u901a"]):
+        return CHINA_GCI_CORE
+    return None
+
+
+def manual_bucket_override(term: str, core: str) -> str | None:
+    if core in {
+        CHINA_STATE_NATURE_CORE,
+        CHINA_SECURITY_CORE,
+        CHINA_PUBLIC_PRODUCT_CORE,
+        CHINA_TECH_LIVELIHOOD_CORE,
+        CHINA_CLIMATE_CORE,
+        CHINA_GDI_CORE,
+        CHINA_GSI_CORE,
+        CHINA_GCI_CORE,
+    }:
+        return "\u4e2d\u56fd"
+    if core in {
+        "\u7ecf\u6d4e\u5b89\u5168 / \u7edf\u7b79\u5b89\u5168\u4e0e\u53d1\u5c55 / \u591a\u5143\u7a33\u5b9a\u7684\u7ecf\u8d38\u5173\u7cfb",
+        "\u6211\u56fd\u7684\u672a\u6765\u4ea7\u4e1a\u6709\u975e\u5e38\u5e7f\u9614\u7684\u56fd\u9645\u5e02\u573a\uff0c\u4e3a\u672a\u6765\u4ea7\u4e1a\u201c\u8d70\u51fa\u53bb\u201d\u63d0\u4f9b\u4e86\u53ef\u80fd",
+    }:
+        return "\u7ecf\u6d4e\u5168\u7403\u5316"
+    return None
+
+
 def classify_core(bucket: str, term: str) -> str:
     t = term
+    override = manual_core_override(t)
+    if override:
+        return override
     if bucket == "时代背景":
         if any(x in t for x in ["国际局势", "变乱交织", "外部环境", "风险挑战", "贸易保护主义", "逆全球化", "霸权主义", "强权政治", "单边主义"]):
             return "百年变局与外部风险挑战"
@@ -454,6 +516,9 @@ def classify_core(bucket: str, term: str) -> str:
 
 
 def target_bucket(bucket: str, term: str, core: str, e: Entry | None = None) -> str:
+    override = manual_bucket_override(term, core)
+    if override:
+        return override
     if core == "相互尊重、公平正义、合作共赢的新型国际关系":
         return "政治多极化"
     if core == "对接国际高标准经贸规则，参与国际标准和相关贸易规则制定，提升规则话语权":
