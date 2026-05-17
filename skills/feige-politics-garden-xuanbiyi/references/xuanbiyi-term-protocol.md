@@ -147,6 +147,7 @@ Put explanatory principles about international relations here:
 
 If the phrase answers "why competition/cooperation happens", place it in `理论`.
 If the phrase is `新型国际关系` or `合作共赢的新型国际关系`, it is not a theory bucket item. Place it in `政治多极化` because it answers the direction of international relations and international order. If the cooperation-win phrase is about trade, markets, supply chains, resources, rules, or open platforms, place it in `经济全球化`; if it is about China's responsibility, shared opportunities, developing-country livelihood, or development cooperation, place it in `中国`.
+If the phrase is `独立自主和平外交政策`, `独立自主的基本立场`, `和平共处五项原则`, or `对外关系基本准则`, place it in `中国`, because it answers China's foreign-policy stance and action. If `独立自主 / 自力更生 / 自主可控 / 发展主动权` appears in technology, industry-chain, security, or development-capacity contexts, also place it in `中国`; do not keep it in the theory bucket.
 
 ### 经济全球化
 
@@ -182,6 +183,8 @@ Use existing second-level headings:
 - 政策
 - 智慧
 - 责任
+- 外交政策：独立自主和平外交政策、独立自主的基本立场、和平共处五项原则、对外关系基本准则、维护世界和平促进共同发展的宗旨和目标.
+- 发展主动权：独立自主、自力更生、自主可控、发展主动权、核心技术攻关 when the question asks how China acts under external pressure or industrial-chain risk.
 
 Add reluctant second-level headings only when needed:
 
