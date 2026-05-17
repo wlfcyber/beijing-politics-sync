@@ -18,8 +18,9 @@
 - [Codex 与 ClaudeCode 核心节点差异报告](07_claudecode_full_rerun/CODEX_CLAUDECODE_CORE_DIFF_REPORT.md)
 - [ClaudeCode Opus 4.7 全量重跑审计](07_claudecode_full_rerun/CLAUDECODE_RUN_AUDIT.md)
 - [ClaudeCode Opus 4.7 索引融合建议](07_claudecode_full_rerun/CLAUDECODE_INDEX_FUSION_RECOMMENDATIONS.md)
+- [ClaudeCode Opus 4.7 最终融合复审](06_final_handbook/FINAL_CLAUDECODE_OPUS47_FUSION_REVIEW.md)
 
 ## 说明
 
 - 本索引只收录可移动交付物，不包含 340MB 的中间渲染图片目录。
-- 当前终稿统计：245 条题例、94 个核心答题点；本轮 artifact-tool 渲染抽检显示学生厚版 106 页，考前导航版 9 页。
+- 当前终稿统计：245 条题例（选必一主链244条 + 模块边界1条）、96 个核心答题点；本轮 artifact-tool 渲染抽检显示学生厚版 115 页，考前导航版 8 页。
