@@ -73,6 +73,7 @@ Merge entries when all are true:
 For student-facing six-bucket indexes, merge more aggressively by scoring core:
 
 - Same textbook core, same scoring function, or same answer role must appear as one core point.
+- But the merge must still be student-facing: the wording must be close enough to substitute on the answer sheet, or the scoring source must explicitly list the phrases as alternatives in the same point. Do not merge merely because two terms are conceptually related.
 - Different wording from different questions becomes `表述积累`, not separate rows.
 - Keep source and trigger differences under the merged point.
 - Do not let tiny wording differences create fake new terms.
@@ -83,6 +84,10 @@ Examples:
 - `时代主题`, `和平与发展`, `和平与发展仍是时代主题`, and `中国做法符合和平与发展时代主题` are one core point: `和平与发展仍是时代主题`. The other phrases are expression variants.
 - `推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展` and `经济全球化方向：普惠、平衡、共赢` are one core point, and the core point name should preserve `开放、包容、普惠、平衡、共赢`.
 - `合作共赢的新型国际关系`, `推动建设合作共赢的新型国际关系`, and `体现合作共赢、互利共赢、共享发展成果` should be归并 under the same `新型国际关系/合作共赢` core when their answer function is the same.
+
+Negative economic-globalization example:
+
+- Do not put `开放型世界经济`, `开放型经济`, `创新型、开放型世界经济`, `全球经济治理和规则制定`, `多边贸易体系`, `普惠包容的经济全球化`, and `贸易自由化` into one core just because they all support opening or globalization. Keep them as separate nodes unless the rubric itself lists them as alternatives in one scoring point; even then, preserve the exact grouped rubric phrase as its own node.
 
 Preferred student-facing merged unit:
 
@@ -138,9 +143,10 @@ Put explanatory principles about international relations here:
 - 共同利益是国家合作的基础.
 - 国际竞争的实质是以经济和科技实力为基础的综合国力较量.
 - 综合国力、科技实力、经济实力.
-- 国际合作、合作共赢、互利共赢 when used as why cooperation works.
+- `共同利益是合作的基础` when used as why cooperation works. Do not use bare `合作共赢` as a theory-bucket default.
 
 If the phrase answers "why competition/cooperation happens", place it in `理论`.
+If the phrase is `新型国际关系` or `合作共赢的新型国际关系`, it is not a theory bucket item. Place it in `政治多极化` because it answers the direction of international relations and international order. If the cooperation-win phrase is about trade, markets, supply chains, resources, rules, or open platforms, place it in `经济全球化`; if it is about China's responsibility, shared opportunities, developing-country livelihood, or development cooperation, place it in `中国`.
 
 ### 经济全球化
 
@@ -154,11 +160,16 @@ Put mechanisms of global economic operation here:
 
 If the phrase answers "how international economic circulation, opening, or resource allocation works", place it here.
 
+Within this bucket, classification is expression-sensitive. `推动建设开放型世界经济` is not the same student-facing node as `提高开放型经济水平`, `创新型、开放型世界经济`, `积极参与全球经济治理和规则制定`, or `促进贸易自由化便利化` unless the scoring source explicitly makes them same-point alternatives.
+
+Split `积极参与全球经济治理和规则制定` by answer function: enterprise outbound-rule environment, high-standard economic/trade rules and international-standard voice, developing-country representation and voice, and multilateral trade system are not one broad node. Keep `推动普惠包容的经济全球化 / 建设开放型世界经济 / 促进贸易自由化` together only when the rubric explicitly says they are same-point alternatives such as "任意1点1分".
+
 ### 政治多极化
 
 Put international order and governance-orientation terms here:
 
 - 构建新型国际关系.
+- 合作共赢的新型国际关系 / 相互尊重、公平正义、合作共赢的新型国际关系.
 - 共商共建共享的全球治理观.
 - 国际关系民主化.
 - 反对单边主义、霸权主义、强权政治.
