@@ -33,6 +33,7 @@ PASS WITH PATCH NOTES；V2 首轮系统归桶复查已完成。
 - GPT Pro 源包复审原文归档：`reports/选必一_哲学宝典式重建_2026-05-16/07_claudecode_full_rerun/GPT_PRO_REVIEW_RESULT_AFTER_SOURCE_PACKET.md`
 - ClaudeCode Opus/max post-GPT 复审（2026-05-17）：使用 `claude -p --model opus --effort max` 读取当前终稿、导航版、Governor 审计和 GPT Pro 源包复审结果；结论 `PASS`，确认 GPT Pro 源包轮提出的 P0/P1 已全部回写，无需追加阻塞性补丁。
 - ClaudeCode Opus/max post-GPT 复审原文归档：`reports/选必一_哲学宝典式重建_2026-05-16/07_claudecode_full_rerun/CLAUDECODE_OPUS_MAX_POST_GPT_REVIEW.md`
+- ClaudeCode Opus 4.7 全量重跑纠偏（2026-05-17 23:00）：用户指出此前 ClaudeCode 批次生成疑似使用 Sonnet。复查属实：单批次与补头脚本曾写死 `--model sonnet`；已改为 `--model opus --effort max`，13 个主批次和 6 个补头批次全部重跑并退出 0，新的运行审计见 `reports/选必一_哲学宝典式重建_2026-05-16/07_claudecode_full_rerun/CLAUDECODE_RUN_AUDIT.md`。该步骤完成的是 ClaudeCode 独立厚稿生产线纠偏，尚未自动替代 GPT Pro 主融合后的终稿。
 
 ## 质量检查
 

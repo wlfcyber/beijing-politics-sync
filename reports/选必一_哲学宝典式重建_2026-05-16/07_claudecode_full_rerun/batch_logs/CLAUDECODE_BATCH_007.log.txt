@@ -1,0 +1,3 @@
+﻿START 007 2026-05-17T22:16:39.4248429+08:00
+MODEL opus; EFFORT max; NOTE Claude Opus 4.7 alias verified via minimal CLI check
+EXIT 007 0 2026-05-17T22:24:11.8008627+08:00

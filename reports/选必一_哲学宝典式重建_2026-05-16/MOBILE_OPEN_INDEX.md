@@ -16,6 +16,8 @@
 - [GPT Pro 源包复审结果](07_claudecode_full_rerun/GPT_PRO_REVIEW_RESULT_AFTER_SOURCE_PACKET.md)
 - [ClaudeCode Opus/max post-GPT 复审结果](07_claudecode_full_rerun/CLAUDECODE_OPUS_MAX_POST_GPT_REVIEW.md)
 - [Codex 与 ClaudeCode 核心节点差异报告](07_claudecode_full_rerun/CODEX_CLAUDECODE_CORE_DIFF_REPORT.md)
+- [ClaudeCode Opus 4.7 全量重跑审计](07_claudecode_full_rerun/CLAUDECODE_RUN_AUDIT.md)
+- [ClaudeCode Opus 4.7 索引融合建议](07_claudecode_full_rerun/CLAUDECODE_INDEX_FUSION_RECOMMENDATIONS.md)
 
 ## 说明
 
