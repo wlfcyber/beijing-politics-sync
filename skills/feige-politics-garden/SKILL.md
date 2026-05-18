@@ -7,6 +7,8 @@ description: "Use when the user says 飞哥政治庄园, /飞哥政治庄园, �
 
 This is the router entrypoint for the user's Beijing Gaokao politics research system. The aliases `飞哥政治庄园`, `/飞哥政治庄园`, `飞哥政治讲堂`, `/飞哥政治讲堂`, and `飞哥正志庄园` all mean this same router. Do not run substantial research from this file directly; choose the correct branch skill first.
 
+Before touching project files, source corpora, run folders, generated artifacts, or sync repo files, load `references/project-governor-three-layer-sop.md` and pass its three-layer gate: master governor report, branch skill/notebook, then run-level controls. If the master report is stale or missing, refresh it with `scripts/master_governor.py` before worker execution.
+
 When the user invokes `/飞哥政治讲堂` and then speaks casually, infer the intended book/module, mode, and deliverable from their wording and recent context. If the casual request sounds like selecting a book, running a whole book/module, sleeping/letting the system finish, Codex+ClaudeCode cooperation, GPT/Claude guidance, or final document generation, route to `feige-politics-garden-book-orchestrator` and use its whole-book SOP. Ask only the missing questions needed to avoid a wrong run.
 
 If the final artifact is `.docx`, also use the `documents` skill and render every DOCX before delivery.
@@ -71,6 +73,7 @@ If the user asks for a mixed-book task, route each term to its real book/module.
 - 2026石景山期末：用户逐题复核确认没有可用评分细则；所有书、所有模块都不处理这套试卷，可删除/排除。除非用户明确提供新的评分细则来源，否则不得用答案及评分参考补入。
 - Preserve the user's framework over generic category systems. If a scoring term cannot fit cleanly, record the closest location and why.
 - For long-running work, keep source ledgers, progress/control files, and governor decisions aligned before declaring completion.
+- For every daily worker start, read `reports/master_governor/latest_master_governor_report.md` and `reports/master_governor/worker_daily_orders.md` before resuming any lane. Oversized files must be read through `context_compression_manifest.csv` and capsules first.
 
 ## Durable User Notebook Rules
 

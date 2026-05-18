@@ -1,0 +1,716 @@
+{
+  "generated_at": "2026-05-18T12:25:09+08:00",
+  "workspace": "/Users/wanglifei/Desktop/北京高考政治",
+  "lanes": [
+    {
+      "root": "选必三逻辑与思维_四线从0重跑_2026-05-04/claude_cowork/phase13_framework_rebuild/input_packet",
+      "last_update": 1778002304.016701,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor"
+      ],
+      "risk_hits": [],
+      "next_action": "create or align PROGRESS.md before executing",
+      "controls": [
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claude_cowork/phase13_framework_rebuild/input_packet/phase12_student_clean_traceability_matrix.csv"
+      ]
+    },
+    {
+      "root": "选必三逻辑与思维_四线从0重跑_2026-05-04",
+      "last_update": 1777996279.089526,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/SOURCE_LEDGER.csv",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/MASTER_REQUIREMENTS.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/task_plan.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/COVERAGE_MATRIX.csv",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/USER_FRAMEWORK.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/USER_QUESTIONS.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/DECISION_LOG.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/findings.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/TASK_BRIEF.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/codex_lane/agents/governor_startup_review.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/codex_lane/agents/governor.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/00_control/GOVERNOR_GATES.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/00_control/DECISION_LOG.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/08_review/phase10_Governor_boundary_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/08_review/phase12_student_clean_traceability_matrix.csv",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/08_review/phase09_Governor_student_draft_boundary_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/09_delivery/acceptance_report.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/05_coverage/phase07_Governor_locked_packet_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/05_coverage/phase08_Governor_prototype_boundary_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/05_coverage/phase04_Governor_interim_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/05_coverage/phase06_Governor_evidence_lock_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_batch03_subjective/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_batch03_choice/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_phase10_polish_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/phase11C_bad_word_content_audit_visible/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_phase07_locked_packet_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_phase05_archive_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_phase09_student_draft_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_phase06_framework_fusion_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/phase11D_visible_seed_and_next_batch_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/claudecode_lane/opus47_phase08_prototype_audit/progress.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/governor_confucius/phase12_post_external_governor_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/governor_confucius/phase12_final_preword_governor_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/governor_confucius/phase12_governor_gate.md",
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/governor_confucius/phase11E_candidate_governor_precheck.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-05",
+      "last_update": 1777983855.5593495,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "待",
+        "缺",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-05/delivery/FINAL_ACCEPTANCE_REPORT.md",
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-05/governor_confucius/GOVERNOR_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05",
+      "last_update": 1777967285.479506,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "web_visible_pro_adaptive_call_pending_user_waived",
+        "待",
+        "缺",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/00_control/FINAL_ACCEPTANCE_REPORT.md",
+        "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/00_control/FINAL_ACCEPTANCE_REPORT_v1.md.bak",
+        "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/00_control/MASTER_REQUIREMENTS.md",
+        "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/00_control/PROGRESS.md",
+        "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/00_control/DECISION_LOG.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/governor",
+      "last_update": 1777963995.6006496,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "待",
+        "无法"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/claudecode_lane_C_full_rerun_2026-05-05/governor/GOVERNOR_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必三逻辑与思维_四线从0重跑_2026-05-04/09_student_draft",
+      "last_update": 1777919698.4991596,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor"
+      ],
+      "risk_hits": [],
+      "next_action": "create or align PROGRESS.md before executing",
+      "controls": [
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/09_student_draft/phase10_question_id_traceability_backcheck.csv"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04",
+      "last_update": 1777913428.0906112,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "待",
+        "缺",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/00_control/FINAL_ACCEPTANCE_REPORT.md",
+        "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/00_control/SOURCE_LEDGER.csv",
+        "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/00_control/MASTER_REQUIREMENTS.md",
+        "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/00_control/PROGRESS.md",
+        "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/00_control/DECISION_LOG.md",
+        "选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/governor_confucius/GOVERNOR_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必三逻辑与思维_四线从0重跑_2026-05-04/opus_writer/phase08_teaching_prototype",
+      "last_update": 1777912908.4509103,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "blocked",
+        "未完成"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三逻辑与思维_四线从0重跑_2026-05-04/opus_writer/phase08_teaching_prototype/progress.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_四线终极全书_2026-05-03/10_teaching_rebuild_20260504/03_review",
+      "last_update": 1777911010.8744829,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/10_teaching_rebuild_20260504/03_review/governor_confucius_teaching_baodian_20260504.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_四线终极全书_2026-05-03",
+      "last_update": 1777910981.1472173,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "real_call_pending",
+        "待",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/FINAL_ACCEPTANCE_REPORT.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/SOURCE_LEDGER.csv",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/MASTER_REQUIREMENTS.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/progress.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/task_plan.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/COVERAGE_MATRIX.csv",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/USER_FRAMEWORK.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/USER_QUESTIONS.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/DECISION_LOG.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/findings.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/TASK_BRIEF.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/00_control/GOVERNOR_GATES.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/00_control/DECISION_LOG.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/angry_zero_baseline_external_review_20260504/governor_confucius_regate_after_angry_zero_patch_20260504.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/angry_zero_baseline_external_review_20260504/governor_confucius_regate_after_gpt_final_nice_patch_20260504.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/role_reviews/governor_final_markdown_regate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/role_reviews/governor_rubric_point_global_regate_20260504.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/role_reviews/governor_strict4_rubric_redwords_regate_20260504.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/role_reviews/governor_artifact_review.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/deep_external_rerun/governor_confucius_regate_after_gpt_claude_v2_20260504.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/08_review/deep_external_rerun/governor_confucius_regate_after_claude_patch_20260504.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/09_delivery/acceptance_report.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/claudecode_lane/progress.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_四线终极全书_2026-05-03/10_teaching_rebuild_20260504/05_acceptance",
+      "last_update": 1777910950.4986706,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/10_teaching_rebuild_20260504/05_acceptance/teaching_baodian_acceptance_report_20260504.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04/source_inventory",
+      "last_update": 1777900489.3452137,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04/source_inventory/SOURCE_LEDGER.csv",
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04/source_inventory/COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04",
+      "last_update": 1777900233.5936558,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "待",
+        "缺",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04/00_control/MASTER_REQUIREMENTS.md",
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04/00_control/PROGRESS.md",
+        "选必二重做_2026-04-30/claudecode_full_rerun_2026-05-04/00_control/DECISION_LOG.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/strict_four_lane_closure_2026-05-04",
+      "last_update": 1777898223.8065915,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "TODO",
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/strict_four_lane_closure_2026-05-04/codex_lane/agents/governor_local_2026-05-04.md",
+        "选必二重做_2026-04-30/strict_four_lane_closure_2026-05-04/delivery/STRICT_FOUR_LANE_FINAL_ACCEPTANCE_REPORT_2026-05-04.md",
+        "选必二重做_2026-04-30/strict_four_lane_closure_2026-05-04/claudecode_lane/outputs/CLAUDECODE_B_PATCH_AND_ACCEPTANCE_MATRIX_2026-05-04.md",
+        "选必二重做_2026-04-30/strict_four_lane_closure_2026-05-04/governor_confucius/GOVERNOR_STRICT_FOUR_LANE_REPORT_2026-05-04.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30",
+      "last_update": 1777890027.6315598,
+      "completed_steps": 8,
+      "pending_steps": 8,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/DEVELOPMENT_PLAN.md",
+        "选必二重做_2026-04-30/PROGRESS.md",
+        "选必二重做_2026-04-30/TASK_BRIEF.md",
+        "选必二重做_2026-04-30/codex_lane/agents/governor_local_2026-05-04.md",
+        "选必二重做_2026-04-30/delivery/FINAL_ACCEPTANCE_REPORT_2026-05-04.md",
+        "选必二重做_2026-04-30/delivery/STORY_DISPUTE_FINAL_ACCEPTANCE_REPORT_2026-05-04.md",
+        "选必二重做_2026-04-30/governor_confucius/FINAL_GOVERNOR_CONFUCIUS_STATUS_2026-05-04.md",
+        "选必二重做_2026-04-30/governor_confucius/STORY_DISPUTE_FINAL_GOVERNOR_CONFUCIUS_2026-05-04.md",
+        "选必二重做_2026-04-30/governor_confucius/CODEX_A_INTERNAL_GOVERNOR_REVIEW_2026-05-04.md",
+        "选必二重做_2026-04-30/governor_confucius/SPLIT_WORDS_LOCAL_GOVERNOR_CONFUCIUS_2026-05-04.md"
+      ]
+    },
+    {
+      "root": "选必三逻辑与思维_完全模仿哲学宝典返工_2026-05-04",
+      "last_update": 1777886352.0470207,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三逻辑与思维_完全模仿哲学宝典返工_2026-05-04/FINAL_ACCEPTANCE_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必三逻辑与思维双线四线终极跑_2026-05-04",
+      "last_update": 1777884459.9935758,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "缺",
+        "无法"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/SOURCE_LEDGER.csv",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/MASTER_REQUIREMENTS.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/progress.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/task_plan.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/COVERAGE_MATRIX.csv",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/USER_FRAMEWORK.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/USER_QUESTIONS.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/DECISION_LOG.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/findings.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/TASK_BRIEF.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/00_control/GOVERNOR_GATES.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/00_control/DECISION_LOG.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/09_delivery/acceptance_report.md",
+        "选必三逻辑与思维双线四线终极跑_2026-05-04/claudecode_lane/progress.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor",
+      "last_update": 1777827560.4299269,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "待",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04M_ab_closure.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04C_dongcheng_prelim_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04J_yanqing2026.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch01_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04I_fengtai2026.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch03_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_startup_gate_round2.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_external_by_question_review_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04F_fengtai.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch02_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04B_xicheng_prelim_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_shunyi_order_final_regate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04M_remaining.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_fusion_batch01_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04K_fangshan2026.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04L_shijingshan2026.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04C_dongcheng_fix_closure.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_optional_label_corrected_final.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04E_haidian_qizhong.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_external_p0_patch_regate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04B_xicheng_fix_closure.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04H_mengtougou2026.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_by_question_draft_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_startup_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04G_mengtougou.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04L_ab_closure.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_batch04A_prelim_fusion_gate.md",
+        "选必一_当代国际政治与经济_四线终极全书_2026-05-03/codex_lane/agents/governor/governor_gate_batch04D_chaoyang.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/framework_bootstrap_2026-05-03",
+      "last_update": 1777822534.724669,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/framework_bootstrap_2026-05-03/00_control/MASTER_REQUIREMENTS.md",
+        "选必二重做_2026-04-30/framework_bootstrap_2026-05-03/00_control/progress.md",
+        "选必二重做_2026-04-30/framework_bootstrap_2026-05-03/00_control/task_plan.md",
+        "选必二重做_2026-04-30/framework_bootstrap_2026-05-03/00_control/DECISION_LOG.md"
+      ]
+    },
+    {
+      "root": "选必一_四线终极版_五题样例_2026-05-03",
+      "last_update": 1777803081.9012125,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [],
+      "next_action": "refresh lane state and register next step",
+      "controls": [
+        "选必一_四线终极版_五题样例_2026-05-03/progress.md",
+        "选必一_四线终极版_五题样例_2026-05-03/00_control/MASTER_REQUIREMENTS.md",
+        "选必一_四线终极版_五题样例_2026-05-03/00_control/task_plan.md",
+        "选必一_四线终极版_五题样例_2026-05-03/governor_confucius/Governor_patch_gate_20260503_after_merge_patch.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02",
+      "last_update": 1777742414.000215,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "blocked",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/FINAL_ACCEPTANCE_REPORT.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/SOURCE_LEDGER.csv",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/MASTER_REQUIREMENTS.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/progress.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/task_plan.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/COVERAGE_MATRIX.csv",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/USER_FRAMEWORK.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/USER_QUESTIONS.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/DECISION_LOG.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/findings.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/TASK_BRIEF.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/00_control/GOVERNOR_GATES.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/00_control/DECISION_LOG.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/09_delivery/acceptance_report.md",
+        "选必一_当代国际政治与经济_从0重跑_GPT55内容监督_ClaudeCode完整复跑_2026-05-02/claudecode_lane/progress.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_双线总控_2026-05-02",
+      "last_update": 1777731520.4840825,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/FINAL_ACCEPTANCE_REPORT.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/SOURCE_LEDGER.csv",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/MASTER_REQUIREMENTS.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/progress.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/task_plan.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/COVERAGE_MATRIX.csv",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/USER_FRAMEWORK.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/USER_QUESTIONS.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/DECISION_LOG.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/findings.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/TASK_BRIEF.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/00_control/GOVERNOR_GATES.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/00_control/DECISION_LOG.md",
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/09_delivery/acceptance_report.md"
+      ]
+    },
+    {
+      "root": "选必一_当代国际政治与经济_双线总控_2026-05-02/audit",
+      "last_update": 1777731387.8045623,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "blocked"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必一_当代国际政治与经济_双线总控_2026-05-02/audit/governor_entry_boundary_scan_2026-05-02.md"
+      ]
+    },
+    {
+      "root": "必修四从0重跑_ClaudeCode_2026-05-02",
+      "last_update": 1777691900.65852,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "blocked",
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "必修四从0重跑_ClaudeCode_2026-05-02/FINAL_ACCEPTANCE_REPORT.md",
+        "必修四从0重跑_ClaudeCode_2026-05-02/SOURCE_LEDGER.csv",
+        "必修四从0重跑_ClaudeCode_2026-05-02/PROGRESS.md",
+        "必修四从0重跑_ClaudeCode_2026-05-02/GOVERNOR_CHECKLIST.md",
+        "必修四从0重跑_ClaudeCode_2026-05-02/COVERAGE_MATRIX.csv",
+        "必修四从0重跑_ClaudeCode_2026-05-02/DECISION_LOG.md",
+        "必修四从0重跑_ClaudeCode_2026-05-02/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "reports",
+      "last_update": 1777481717.3451586,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "待",
+        "缺",
+        "未完成"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/governor_board.md"
+      ]
+    },
+    {
+      "root": "必修四框架重做_2026-04-29",
+      "last_update": 1777479741.0399752,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [],
+      "next_action": "add governor check before claiming completion",
+      "controls": [
+        "必修四框架重做_2026-04-29/PROGRESS.md"
+      ]
+    },
+    {
+      "root": "codex_continuous/jobs/哲学必修四_三线闭环穷尽满分课",
+      "last_update": 1777020057.8034213,
+      "completed_steps": 2,
+      "pending_steps": 9,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "待",
+        "缺",
+        "未完成"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "codex_continuous/jobs/哲学必修四_三线闭环穷尽满分课/DEVELOPMENT_PLAN.md",
+        "codex_continuous/jobs/哲学必修四_三线闭环穷尽满分课/PROGRESS.md",
+        "codex_continuous/jobs/哲学必修四_三线闭环穷尽满分课/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "codex_continuous/jobs/选必三_思维触发穷尽",
+      "last_update": 1777008364.699007,
+      "completed_steps": 7,
+      "pending_steps": 7,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "codex_continuous/jobs/选必三_思维触发穷尽/DEVELOPMENT_PLAN.md",
+        "codex_continuous/jobs/选必三_思维触发穷尽/PROGRESS.md",
+        "codex_continuous/jobs/选必三_思维触发穷尽/TASK_BRIEF.md"
+      ]
+    }
+  ]
+}

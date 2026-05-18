@@ -9,11 +9,13 @@ description: "Use when Codex needs 飞哥政治庄园-选必二 for 选择性必
 
 ## Load First
 
-Before any 选必二 work, read the active notebook:
+Before any 选必二 work, pass the project three-layer SOP by reading `reports/master_governor/latest_master_governor_report.md`, `reports/master_governor/worker_daily_orders.md`, and the shared SOP at `../feige-politics-garden/references/project-governor-three-layer-sop.md`. Then read the active notebook:
 
 - `/Users/wanglifei/Desktop/北京高考政治/选必二重做_2026-04-30/00_飞哥选必二法律与生活要求小本本.md`
 
 If that file does not exist, create it from the user's current requirements before doing any research.
+
+If the master governor marks this lane stale, missing governor/coverage, or possible false closure, repair the run control layer before content work. If the lane is absent from the report, register the run and refresh the report.
 
 Do not read old `选必二_*.md` files as evidence or conclusions. If old files still exist, treat them as contamination to delete or ignore.
 

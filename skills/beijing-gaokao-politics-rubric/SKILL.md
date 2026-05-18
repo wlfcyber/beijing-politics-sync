@@ -17,7 +17,7 @@ Always preserve three durable outputs:
 - `北京高考政治错肢库_持续更新版.md`
 - `beijing_politics_research/data/reports/governor_board.md`
 
-Read `references/operating-rules.md` before substantial analysis. Read `references/continuous-codex-control.md` before any long-running, multi-step, resumed, delegated, or governor-supervised work. Read `references/current-state.md` when resuming the project or migrating devices. Read `references/github-sync.md` when setting up or using Windows/Mac sync.
+Read `references/project-governor-three-layer-sop.md` before touching project data, code, generated artifacts, or sync files. Then read `references/operating-rules.md` before substantial analysis. Read `references/continuous-codex-control.md` before any long-running, multi-step, resumed, delegated, or governor-supervised work. Read `references/current-state.md` when resuming the project or migrating devices. Read `references/github-sync.md` when setting up or using Windows/Mac sync.
 
 ## Non-Negotiable Rules
 
@@ -30,6 +30,7 @@ Read `references/operating-rules.md` before substantial analysis. Read `referenc
 - Do not add sections or labels named `可替代`, `反向筛查`, or `教学提醒`.
 - After each work round, update the governor board with what passed, what failed, what was skipped, and why.
 - For long tasks, use the continuous-task control protocol: plan/progress documents must align, each round must complete one minimal real step before marking progress, and final completion requires objective validation rather than self-report.
+- Project-wide three-layer SOP is mandatory: master governor report first, then relevant skill/notebook, then run-level plan/progress/ledger/governor files. If any layer is missing or stale, refresh or write `BLOCKED` before acting.
 
 ## Standard Workflow
 

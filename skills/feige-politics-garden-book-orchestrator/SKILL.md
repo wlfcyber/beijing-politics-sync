@@ -10,14 +10,15 @@ This skill orchestrates a full book/module run: the user selects one book, gives
 ## First Move
 
 1. Load `feige-politics-garden` first, then route to the correct branch skill for the chosen book.
-2. For whole-book or overnight work, read `references/whole-book-sop.md` and `references/claudecode-first-fusion-workflow.md` after this file. Treat them as the concrete team SOP for sleep-start cards, numbered run folders, role boundaries, advisor packs, phase-boundary GPT commander gates, GPT content-review/correction gates, Claude Code prompts, conflict resolution, failure gates, and the successful 必修四哲学模式: ClaudeCode 厚内容矿优先 + Codex 融合审稿.
-3. Search the Beijing politics workspace for the book's local notebook or hard-rule file and read it before planning.
-4. Ask the user only the questions needed to avoid a wrong run:
+2. Before touching project files, read `../feige-politics-garden/references/project-governor-three-layer-sop.md` or the mirrored `reports/master_governor/PROJECT_GOVERNOR_THREE_LAYER_SOP.md`; refresh the master governor report if it is missing or stale.
+3. For whole-book or overnight work, read `references/whole-book-sop.md` and `references/claudecode-first-fusion-workflow.md` after this file. Treat them as the concrete team SOP for sleep-start cards, numbered run folders, role boundaries, advisor packs, phase-boundary GPT commander gates, GPT content-review/correction gates, Claude Code prompts, conflict resolution, failure gates, and the successful 必修四哲学模式: ClaudeCode 厚内容矿优先 + Codex 融合审稿.
+4. Search the Beijing politics workspace for the book's local notebook or hard-rule file and read it before planning.
+5. Ask the user only the questions needed to avoid a wrong run:
    - Which book/module and exact scope?
    - What is the user's framework or exam logic for this book?
    - Which old lanes are void, excluded, or allowed only as audit references?
    - Are there must-include, must-exclude, or user-corrected hard samples?
-5. If the user is going to sleep, collect the eight-item start card from `references/whole-book-sop.md` if possible. If the user gives only a one-line start command, infer safe defaults from the SOP and log unresolved items in `USER_QUESTIONS.md` instead of stopping unless the source boundary is impossible.
+6. If the user is going to sleep, collect the eight-item start card from `references/whole-book-sop.md` if possible. If the user gives only a one-line start command, infer safe defaults from the SOP and log unresolved items in `USER_QUESTIONS.md` instead of stopping unless the source boundary is impossible.
 
 ## Project Bootstrap
 
@@ -56,6 +57,8 @@ The run folder must contain at least:
 See `references/control-files.md` for schemas and status language.
 
 The lowercase files are the file-backed working memory layer absorbed from `planning-with-files`: `task_plan.md` tracks phases and decisions, `findings.md` stores research/source discoveries, and `progress.md` logs session actions. The uppercase files are the stricter Feige Politics Garden control layer used for final governance.
+
+Also register the run in `reports/master_governor/` by refreshing the master governor report. Daily sub-AI workers must read `latest_master_governor_report.md` and `worker_daily_orders.md` before they resume this run.
 
 For full-book runs, also prefer the numbered directory layout from `references/whole-book-sop.md` (`00_control/` through `09_delivery/`). Keep the older root-level files for compatibility when needed, but do not let compatibility files replace the numbered folders' detailed audit trail.
 

@@ -11,10 +11,12 @@ If the final artifact is `.docx`, also use the `documents` skill and render ever
 
 ## Load First
 
-Before processing any 选必一主观题 batch, read:
+Before processing any 选必一主观题 batch, first pass the project three-layer SOP by reading the master governor report under `reports/master_governor/` and the shared SOP at `../feige-politics-garden/references/project-governor-three-layer-sop.md`. Then read:
 
 - `references/current-user-requirements.md`: the user's currently pinned delivery requirements, including the required six-bucket structure, required fields per entry, and the rule that the main framework document must not show frequency counts.
 - `references/xuanbiyi-term-protocol.md`: required format, classification rules, merge rules, negative examples, and sample entries.
+
+If the master governor report is missing or stale, refresh it with `scripts/master_governor.py` before worker execution. If this lane is flagged for false closure, missing governor, missing coverage, or pending real advisor calls, repair those control files before adding正文.
 
 Use the shared corpus cache first:
 

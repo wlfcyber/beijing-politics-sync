@@ -35,6 +35,7 @@ Preserve durable outputs:
 
 Load only the reference needed for the current task:
 
+- `../feige-politics-garden/references/project-governor-three-layer-sop.md` or `reports/master_governor/PROJECT_GOVERNOR_THREE_LAYER_SOP.md`: mandatory before touching project data, artifacts, code, or sync files.
 - `references/operating-rules.md`: substantial rubric or answer analysis.
 - `references/philosophy-trigger-standards.md`: 必修四哲学材料触发链、答案落点、学生稿/审计稿分离、Claude Code 重跑监督硬标准.
 - `references/workspace-and-artifacts.md`: artifact map for the local research repo.
@@ -66,6 +67,7 @@ Load only the reference needed for the current task:
 - Do not add sections or labels named `可替代`, `反向筛查`, or `教学提醒`.
 - After each substantial work round, update the governor board with what passed, what failed, what was skipped, and why.
 - Final completion requires objective validation: plan/progress/control files agree, deliverables exist, blockers are explicit, and the governor passes or records the boundary.
+- Before any daily or resumed worker action, read the master governor report and worker daily orders under `reports/master_governor/`; if the target run is not registered or is flagged as stale/false-closure, repair control files before content work.
 
 ## Strict Evidence Guardrails
 
