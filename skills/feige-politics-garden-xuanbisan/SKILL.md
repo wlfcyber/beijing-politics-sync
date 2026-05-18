@@ -25,6 +25,7 @@ For full 选必三 book/module runs, follow the successful 必修四哲学宝典
 Before any 选必三 work, pass the project three-layer SOP by reading `reports/master_governor/latest_master_governor_report.md`, `reports/master_governor/worker_daily_orders.md`, and the shared SOP at `../feige-politics-garden/references/project-governor-three-layer-sop.md`. Then read:
 
 - `references/xuanbisan-hard-rules-notebook.md`: hard requirements distilled from the user's 必修四, 选必一, 选必二, and 选必三 correction history.
+- `reports/master_governor/CROSS_BOOK_WORKFLOW_V3_FOR_XUANBIER_XUANBISAN.md`: cross-book preflight, evidence ledger, model authority chain, ClaudeCode model lock, anti-merge rule, final-claim audit, and GitHub sync rule.
 
 If the master governor report is missing or stale, refresh it before worker execution. Oversized logs, ledgers, and candidate CSV/JSON files must be opened through `context_compression_manifest.csv` and context capsules first, then the original file only for exact evidence.
 

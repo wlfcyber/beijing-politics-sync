@@ -1,2 +1,3 @@
 date,source,signal,proposed_adaptation,evidence_boundary,status,owner
 2026-05-18,project-bootstrap,online-advice-adapted,project master governor plus daily worker SOP plus context capsules,"workflow rule only, not content evidence",accepted,master_governor
+2026-05-18,xuanbiyi-rebuild,workflow-defects-observed,"cross-book V3 gate for source packets, model evidence, ClaudeCode model lock, anti-merge, final claim audit, and GitHub verification","workflow rule only; each book still needs its own source evidence",accepted,master_governor

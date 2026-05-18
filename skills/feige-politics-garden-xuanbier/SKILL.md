@@ -12,6 +12,7 @@ description: "Use when Codex needs 飞哥政治庄园-选必二 for 选择性必
 Before any 选必二 work, pass the project three-layer SOP by reading `reports/master_governor/latest_master_governor_report.md`, `reports/master_governor/worker_daily_orders.md`, and the shared SOP at `../feige-politics-garden/references/project-governor-three-layer-sop.md`. Then read the active notebook:
 
 - `/Users/wanglifei/Desktop/北京高考政治/选必二重做_2026-04-30/00_飞哥选必二法律与生活要求小本本.md`
+- `reports/master_governor/CROSS_BOOK_WORKFLOW_V3_FOR_XUANBIER_XUANBISAN.md`: cross-book preflight, evidence ledger, model authority chain, ClaudeCode model lock, anti-merge rule, final-claim audit, and GitHub sync rule.
 
 If that file does not exist, create it from the user's current requirements before doing any research.
 
