@@ -1,0 +1,10 @@
+issue_id,verdict,action,source_basis
+CLAUDE-011-01,accepted,"朝阳Q20区域经济合作术语合并重复表达，保留亲诚惠容、周边合作、投资和贸易自由化便利化、产业链供应链深度融合。","Claude Opus item 1；BATCH_011_SOURCE_PACKET.md 朝阳Q20第2点"
+CLAUDE-011-02,accepted,"将东城Q20全球发展倡议条目从中国板块迁移到经济全球化板块，中国板块仅保留三大倡议与人类命运共同体总论。","Claude Opus item 2；BATCH_011_SOURCE_PACKET.md 东城Q20三大倡议结构"
+CLAUDE-011-03,accepted,"全球安全倡议术语改为一条通顺主链，保留联合国宪章宗旨和原则、对话协商、和平方式、共赢思维、持久和平普遍安全。","Claude Opus item 3；BATCH_011_SOURCE_PACKET.md 东城Q20安全倡议"
+CLAUDE-011-04,accepted,"朝阳Q20全球经济治理细则位置去掉“沉淀”等后台词，改为按讲评明确点位记录。","Claude Opus item 4；学生正文硬规则"
+CLAUDE-011-05,accepted_with_source_adjustment,"国际公共产品术语改为一条顺句，但保留细则原词，不采用“须”这类自造规范句。","Claude Opus item 5；BATCH_011_SOURCE_PACKET.md 西城Q21总体解释2分"
+CLAUDE-011-06,accepted,"边界说明压缩为简短结论，避免反复曝光非选必一术语。","Claude Opus item 6；边界控制规则"
+CLAUDE-011-07,accepted,"三大倡议总论答案句末尾改为为人类走向美好未来提供中国方案。","Claude Opus 可采用润色；东城Q20总论"
+CLAUDE-011-08,rejected,"未采用“利用全球资源和市场组织生产经营”替换“利用世界各地优势组织生产经营”，因为后者是朝阳Q20讲评细则原词。","Claude Opus 可采用润色；术语原词优先规则"
+CLAUDE-011-09,accepted,"文明交流互鉴答案句保留促进民心相通并补各国人民相知相亲。","Claude Opus 可采用润色；东城Q20文明倡议参考答案链"

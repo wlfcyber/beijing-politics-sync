@@ -1,0 +1,7 @@
+proposal_id,source,proposal,decision,reason,applied_file
+GPT012-01,GPT Pro,"总体结论通过，无必改阻断项",accepted,"记录通过结论；仍需按流程进入 Claude Opus 审核。",""
+GPT012-02,GPT Pro,"将构建人类命运共同体所在桶从政治多极化改为世界多极化或中国外交与人类命运共同体",rejected,"当前选必一协议和用户固定六桶使用`政治多极化`，不能改成协议外一级桶；可保留现有二级标题。",""
+GPT012-03,GPT Pro,"大国担当答案句改为更卷面化表达：以自身稳定发展和开放合作为世界经济提供稳定预期和发展确定性",accepted,"源包材料支持150多个贸易伙伴、17年第二大进口市场、对外投资纳税；该改写未新增无源知识。","C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\选必一_哲学宝典式重建_2026-05-16\03_fusion\BATCH_012_AFTER_GPT_PRO_PATCH.md"
+GPT012-04,GPT Pro,"互利共赢的开放战略答案句压缩为扩大进口市场、对外投资、吸引跨国企业加码在华投资",accepted,"源包材料三支持全球第二大进口市场、对外投资纳税、跨国企业持续加码在华投资；表达更像学生卷面句。","C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\选必一_哲学宝典式重建_2026-05-16\03_fusion\BATCH_012_AFTER_GPT_PRO_PATCH.md"
+GPT012-05,GPT Pro,"构建人类命运共同体答案句改为为世界发展注入稳定性和确定性",accepted_partial,"接受答案句卷面化；拒绝随之改桶。","C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\选必一_哲学宝典式重建_2026-05-16\03_fusion\BATCH_012_AFTER_GPT_PRO_PATCH.md"
+GPT012-06,GPT Pro,"四个边界题均排除出正式主链",accepted,"与源包证据层级和既有协议一致。",""

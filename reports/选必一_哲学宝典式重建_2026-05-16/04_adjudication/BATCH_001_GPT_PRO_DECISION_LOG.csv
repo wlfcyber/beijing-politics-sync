@@ -1,0 +1,10 @@
+issue_id,severity,decision,source_check,applied_to
+B001-I01,must_fix_source,accept,"通州Q20细则第3点仅为符合《联合国宪章》1分；将其从可迁移术语收束为通州专属得分表达并删去源外扩写。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-I02,merge_or_index_issue,accept,"通州Q20第5点与海淀Q21(2)中国之变补充项同名但设问语境不同；拆成两个独立答案分条。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-I03,must_fix_rubric,accept,"朝阳Q17第三层包含大国责任和推动构建人类命运共同体；补入答案句末并保留中国发展与世界发展同层结构。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-I04,must_fix_source,accept,"海淀Q21(2)不变部分该1分点只写服务于我国人民民主专政的国家性质；删除维护人民根本利益的源外扩展。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-I05,merge_or_index_issue,accept,"通州Q20为勇于大国担当，朝阳Q17为大国责任，东城Q16为中国方案、中国智慧、中国力量；索引改为责任类表达并分题标注。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-P01,pass_note,accept_no_change,"通州Q20六个评分点已覆盖，除I01/I02边界修正外不改。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-P02,pass_note,accept_no_change,"海淀Q16(2)未把贸易摩擦升格为术语，保留完整选必一2分句。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-P03,pass_note,accept_no_change,"海淀Q21(2)独立自主的和平外交政策组保留同组表达关系。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md
+B001-P04,pass_note,accept_no_change,"东城Q16只作跨模块补入并保留模块边界。",03_fusion/BATCH_001_AFTER_GPT_PRO_PATCH.md

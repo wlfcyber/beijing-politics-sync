@@ -1,0 +1,7 @@
+"reviewer","item_id","decision","source_check","patch_result"
+"Claude Opus 4.7 Adaptive","mandatory","accepted","Claude结论为通过，必须修改为无；本地复核GPT后稿字段完整、边界项已按源包处理。","不因Claude新增强制作改。"
+"Claude Opus 4.7 Adaptive","opt1","accepted","门头沟Q20细则明确同时回答中国经济发展新动能和世界经济开放发展新活力，且存在只答一面的上限风险。","在门头沟经济全球化条目后加入整题防漏提示。"
+"Claude Opus 4.7 Adaptive","opt2","deferred","跨题共用术语的分值差异已在细则位置字段中列明；继续在答案句前加分值会增加正文负担。","暂不修改主文。"
+"Claude Opus 4.7 Adaptive","opt3","deferred","东城短文结构分真实存在，但题目自拟、分三段不是术语；主文已有完整设问要求句。","暂不另加结构提醒，避免污染术语链。"
+"Claude Opus 4.7 Adaptive","opt4","deferred","门头沟加工增值与产业集聚是材料承接和经济模块边界点，不宜扩成选必一主链术语。","暂不增设非术语承接句。"
+"Claude Opus 4.7 Adaptive","opt5","accepted","延庆题面中成为联合国环境署参考标准是支撑中国方案公共产品属性和多边协同治理的材料事实，不能单独沉淀为联合国术语。","在中国方案条目的材料触发中加入联合国环境署事实边界提示。"

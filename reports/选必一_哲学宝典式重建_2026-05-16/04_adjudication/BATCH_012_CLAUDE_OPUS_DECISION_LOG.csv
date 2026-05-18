@@ -1,0 +1,7 @@
+issue_id,verdict,action,source_basis
+CLAUDE-012-01,accepted_no_change,"记录 Claude Opus 结论为通过且无阻断性必改；继续由 Codex 做源文裁决和终稿。","BATCH_012_CLAUDE_OPUS_ADAPTIVE_REVIEW.md 总结论；89313bd871502cf4_2026门头沟一模细则.txt:127-143"
+CLAUDE-012-02,accepted,"三条答案句做事实点差异化：大国担当主用150多个贸易伙伴和3000多亿美元纳税；互利共赢的开放战略主用第二大进口市场和跨国企业加码在华投资；构建人类命运共同体主用自身发展与世界发展相结合、共享机遇。","门头沟试卷材料三 e84e6bbdd8988978_门头沟区高三政治一模试卷.txt:338-348；Claude 小修建议1"
+CLAUDE-012-03,accepted_with_source_adjustment,"互利共赢的开放战略从中国桶迁入经济全球化桶，二级标题为开放战略与共享机遇；保留大国担当在中国桶、构建人类命运共同体在政治多极化桶。","xuanbiyi-term-protocol.md 中经济全球化桶用于国际经济循环、开放和资源配置机制；Claude 小修建议2；ClaudeCode Batch012 指出该条与开放战略链并列"
+CLAUDE-012-04,accepted_partial,"细则位置补充到2026门头沟一模Q21细则第143行和材料三4分，但不把文件哈希、绝对路径或后台证据层级写入学生稿。","学生Artifact规则禁止源文件路径和文件id；xuanbiyi要求细则位置可复核"
+CLAUDE-012-05,accepted,"材料触发压缩为卷面化逻辑，去掉后台式表述，保留设问关系、材料事实和触发术语的原因链。","xuanbiyi-term-protocol.md 材料触发规则；Claude 小修建议4"
+CLAUDE-012-06,accepted,"四个边界题继续排除出正式主链，只保留简短边界说明。","SOURCE_LEDGER_BATCH_012.csv；Claude 边界裁决"

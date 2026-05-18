@@ -1,0 +1,7 @@
+item,gpt_pro_position,codex_decision,patch_action
+2026朝阳期末Q20入链,同意正式入链，证据层级为formal_rubric_explicit_per_angle。,ACCEPT,保留为BATCH_013_TAIL正式候选。
+五条正式术语+总说说明,有条件同意；角度4拆成两条时必须标注同属细则角度4。,ACCEPT_WITH_PATCH,为理论条和中国条分别加入同属角度4的说明与rubric_angle_id。
+总说句,维持formal_rubric_fallback_credit，建议移出正式术语区。,ACCEPT,移到“附：总说句/兜底加分表达”，标注非独立逐点术语。
+国家利益材料触发,GPT要求核实或删除“坚决挫败分裂国家行径”。,ACCEPT_PRAGMATIC,源图确有该句，但为减少争议，正式稿改为更稳的“维护国家主权、安全、发展利益”。
+经济全球化答案句,建议“世贸组织”改为“世界贸易组织”。,ACCEPT,已改写。
+2026丰台期末Q20,同意继续blocked_prompt_only。,ACCEPT,保持阻断，不入正式术语链。

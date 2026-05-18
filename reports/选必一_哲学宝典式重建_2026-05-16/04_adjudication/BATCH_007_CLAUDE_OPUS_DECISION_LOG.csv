@@ -1,0 +1,5 @@
+reviewer,item,decision,reason,patch_target
+Claude Opus 4.7 Adaptive,结论通过且无必须修改,accepted,"外部第二轮审核确认 GPT Pro 四条硬修改已落实，未发现仍存在的硬错误。","BATCH_007_FINAL_AFTER_GPT_AND_CLAUDE.md"
+Claude Opus 4.7 Adaptive,海淀期中显式添加变/不变标签,partial_accept,"不把括号标签硬塞进答案句，避免影响卷面自然度；保留现有变化层/延续层小节结构。","BATCH_007_FINAL_AFTER_GPT_AND_CLAUDE.md"
+Claude Opus 4.7 Adaptive,反对霸权主义强权政治条目分海淀/西城两条答案句,accepted,"同一术语挂两个不同设问，补出西城版答案句可防止学生把海淀外交延续性句子生搬到西城国际关系新思路题。","BATCH_007_FINAL_AFTER_GPT_AND_CLAUDE.md"
+Claude Opus 4.7 Adaptive,丰台一模等级化提示措辞统一,accepted,"统一写为等级化细则，答案提示角度，非固定逐点赋分，防止误背为固定逐点分值。","BATCH_007_FINAL_AFTER_GPT_AND_CLAUDE.md"

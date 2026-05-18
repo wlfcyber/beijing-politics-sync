@@ -1,0 +1,9 @@
+issue_id,severity,decision,source_check,applied_to
+B001R-I01,must_fix_rubric,accept,"朝阳Q17第二层源包明确包含三组：发展和安全关系；总体国家安全观/底线思维/经济安全、科技安全/应对风险；经济平稳可持续发展/高质量发展/注入新动能等。补齐第三组，并给高质量发展加边界说明。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-I02,should_fix_teaching,accept,"朝阳Q17第一层源包自主创新侧列有创新的新发展理念；该表达不属于边界提示排除项，补入术语行，答案句不扩写。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-I03,merge_or_index_issue,accept,"东城Q16题面要点为贡献中国方案、中国智慧、中国力量；正文答案句原只写中国方案和中国智慧，补齐中国力量以匹配索引和源包。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-P01,pass_note,accept_no_change,"通州Q20符合《联合国宪章》已作为得分表达并保留边界说明。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-P02,pass_note,accept_no_change,"通州Q20和海淀Q21(2)共同体已拆为独立分条，未跨题合句。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-P03,pass_note,accept_no_change,"海淀Q21(2)国家性质条目已删除维护人民根本利益的源外扩展。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-P04,pass_note,accept_no_change,"朝阳Q17三层分值均为一层3分、两层6分、三层8分。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md
+B001R-P05,pass_note,accept_no_change,"通州勇于大国担当、朝阳大国责任、东城中国力量保持差异化，未统一成大国担当。",03_fusion/BATCH_001_FINAL_AFTER_GPT_AND_CLAUDE.md

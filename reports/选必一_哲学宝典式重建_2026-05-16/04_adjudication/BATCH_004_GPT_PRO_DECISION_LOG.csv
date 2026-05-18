@@ -1,0 +1,11 @@
+item,decision,source_basis,local_action
+overall,accept,"GPT Pro conclusion: 小修; source packet supports main structure","Create after-GPT patch file; do not mark final."
+2024西城Q19(6)卡脖子6分,accept,"Source packet lists three 2-point effects: adjust trade product structure; improve technical standards/trade-rule voice; enhance international competitiveness.","Replace technology-breakthrough entry with a full three-part West-only entry."
+规则话语权跨题合并,accept_with_split,"GPT notes East and West are related but answer sentences should not be shared as one cross-topic sentence.","Keep East rule-support entry and move West rule voice into the West 6-point entry."
+2025丰台一模科技创新机制,accept_as_boundary,"Rubric includes high-tech enterprise/tax incentive chain under mixed-book question; branch protocol says do not force non-xuanbiyi terms into main table.","Add boundary/cross-book mechanism entry, not as xuanbiyi main-chain term."
+贸易投资便利化答案句,accept,"GPT requests separate Beijing and Hainan answer sentences because the source mechanisms differ.","Patch entry with answer句 A and B."
+优化营商环境与引进来答案句,accept,"GPT requests separate Beijing and Hainan answer sentences because the source mechanisms differ.","Patch entry with answer句 A and B."
+2026房山制度结构,accept,"Source packet says one-line/final product must not lose 一线放开、二线管住、岛内自由.","Replace China-solution entry title and answer with explicit structure."
+全球治理变革独立条目,accept,"GPT says it is a landing phrase within fourth angle, not a standalone main term; source has full HMC entry.","Remove independent 政治多极化条目 and keep phrase under 人类命运共同体 entry."
+2026东城Q19(3)关系结构,reject_change,"Source packet requires 4+3+1 relationship structure.","Keep open-promotes-resilience, resilience-supports-opening, and coordination explicit."
+2025丰台一模空泛政治大词,reject_change,"Source packet reverse boundary says stacking 新型国际关系/命运共同体/经济全球化不给分.","Do not add such terms to this question."

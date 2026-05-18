@@ -1,0 +1,8 @@
+item,decision,source_basis,local_action
+overall,accept,"Claude Opus Adaptive conclusion: 小修; GPT后补丁稿主骨架稳定，但有两处必改。","Create final-after-GPT-and-Claude file; keep Governor pending."
+营商环境/引进来层级,accept,"2025丰台一模Q20便利投资2分 and 2026房山一模Q19投资角度2分 both support 营商环境/引进来 as xuanbiyi main-chain, not mixed-book boundary.","Move the environment/inbound entry under a separate H3: 营商环境与引进来."
+房山Q19生产角度二线管住,accept,"Source packet states 二线管住 with zero-tariff and processing-value-added supervision, forming the SEA raw material-Hainan processing-mainland market chain; this supports the production angle.","Replace production-angle answer sentence to explicitly include 二线管住 and the processing-value-added chain."
+西城挑战句尾返开放安全,accept_optional,"Source packet challenge point includes international competition, tech sanctions, trade barriers, risk response and prevention; answer should return to future-industry open-development security.","Patch the challenge answer sentence ending with open-development safety."
+数据出境条目材料对应,hold,"Optional only; source support may exist but not necessary for this gate and could add batch-local factual detail outside the current must-fix scope.","Do not patch in this batch final."
+西城机遇桶位,hold,"Optional cataloging preference; current six-bucket layout allows 时代背景 for opening opportunity and moving it would create unnecessary churn.","Do not move the entry."
+反向回退风险,reject,"Claude confirms no need to undo GPT/Codex decisions on East 4+3+1, West three chains, global-governance merge, or mixed-book boundary control.","Keep previous GPT patch decisions."

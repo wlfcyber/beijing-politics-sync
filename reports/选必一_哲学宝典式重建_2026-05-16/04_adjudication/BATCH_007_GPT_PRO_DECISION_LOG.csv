@@ -1,0 +1,10 @@
+reviewer,item,decision,reason,patch_target
+GPT Pro,海淀期中Q21(2)和平共处五项原则触发中写入70周年背景,accepted,"当前审核包没有把70周年背景纳入题面信号；为保持本包闭环，删去该背景，只保留评分细则中的和平共处五项原则与西城旧逻辑触发。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,丰台一模Q20供应链金融创新独立术语层级不稳,accepted,"源包边界已提示供应链金融创新更接近材料做法；改为并入合作共赢/供应链畅通答案句，不作为独立迁移术语。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,国家利益答案句引入源包外定义,accepted,"虽然国家利益是教材术语，但本批答案句应直接服务海淀期中阶段材料和不变得分点；改为阶段材料导向表述。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,习近平外交思想归类不准,accepted,"该点是海淀期中中国之变中的思想层，不应放在丰台二模大国担当小节；移动到中国外交政策与指导思想。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,海淀期中相关条目显式区分变与不变,partial_accept,"不在答案句中加入生硬标签，但在小节和触发中保持变化层/延续层区分。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,丰台一模等级化提示统一,accepted,"细则位置统一标注等级化说明为答案提示方面，不固定逐点分值。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,丰台二模三条做法加意义固定链,accepted,"既有三条分项基本保留，并确保不泛写经济全球化/国际关系民主化。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,西城二模人类命运共同体强化两面结构,accepted,"总纲答案句补足批判旧逻辑和提出新方向的完整句。","BATCH_007_AFTER_GPT_PRO_PATCH.md"
+GPT Pro,石景山来源字段标注教师版参考答案,accepted,"把相关来源统一补为教师版参考答案，未定位正式评分细则。","BATCH_007_AFTER_GPT_PRO_PATCH.md"

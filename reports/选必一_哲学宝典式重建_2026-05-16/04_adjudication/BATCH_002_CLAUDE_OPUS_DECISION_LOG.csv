@@ -1,0 +1,9 @@
+issue_id,severity,question_id,entry_term,claude_recommendation,codex_decision,source_basis,patch_file,patch_summary
+B002-C01,merge_or_index_issue,"2025西城二模Q19(2);2024朝阳期中Q20(3)","促进投资和贸易自由化便利化；建设开放型世界经济 / 促进贸易自由化","删除数字贸易条目中的西城B部分，西城group1留在普惠包容经济全球化条目","accepted","2025西城二模Q19(2)世界意义第1组为同一1分点三种替代表述；2024朝阳期中Q20(3)打造新平台段单独给数字经济领域投资和贸易自由化便利化","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","该条收紧为2024朝阳单题，增加西城重复索引边界注释"
+B002-C02,wording_improvement,2024东城一模Q20,"对标国际规则，推进制度型开放，深入融入经济全球化","答案句贴回推进高水平对外开放效果端","accepted_with_boundary","2024东城一模Q20细则第3点含对标国际规则、推进制度型开放、深入融入经济全球化、推进高水平对外开放；源包边界允许高水平对外开放作支撑表述","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","答案句末改为推进高水平对外开放，术语标题不扩展"
+B002-C03,wording_improvement,"2024朝阳期中Q20(3);2025东城一模Q20","推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展","同术语下拆成A朝阳/B东城两条材料触发和答案句","accepted","2024朝阳期中Q20(3)总评2分与2025东城一模Q20第一层第②点术语相同但材料不同","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","材料触发和答案句改为A/B分题卷面句"
+B002-C04,wording_improvement,2025东城一模Q20,"开辟中国特色大国外交的新境界 / 构建人类命运共同体的新实践","把一般化中拉合作改为APEC/G20、多边活动和全球南方愿望","accepted","2025东城一模Q20题面要求聚焦11月13日开始的此次出访，含APEC、G20、近40场多边活动、60多项合作文件和全球南方表述","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","材料触发和答案句均改为此次出访的多边平台与全球南方事实"
+B002-N01,no_action,2025海淀二模Q21,"联合国地位作用 / 联合国对中国独特贡献 / 中国地位 / 中国支持联合国 / 中国智慧中国方案","无需修改","no_action","海淀Q21五个评分点结构和GPT后修订均对应源包","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","仅记录"
+B002-N02,no_action,2024朝阳期中Q20(3),"数字贸易三段点评 / 总评条目","无需修改","no_action","朝阳三段点评与总评边界未违反依托国内超大规模市场优势不给分要求","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","仅记录"
+B002-N03,no_action,2025东城一模Q20,"维护发展中国家的利益；替代表述：完善全球治理 / 推进国际关系民主化","无需修改","no_action","2分主表述和1分替代表述已经区分，答案句未累加生成新术语","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","仅记录"
+B002-N04,no_action,2025西城二模Q19(2),"与发展中国家共享发展新机遇 / 开放广阔的中国市场 / 促进共同发展、维护持久和平 / 共同推进现代化","无需修改","no_action","西城中国担当与世界意义按细则结构收录，材料触发贴零关税和最不发达国家","03_fusion/BATCH_002_FINAL_AFTER_GPT_AND_CLAUDE.md","仅记录"

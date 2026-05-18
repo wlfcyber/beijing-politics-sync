@@ -1,0 +1,17 @@
+batch_id,reviewer,issue_id,severity,question_id,entry_term,decision,codex_source_check,patch_target,status
+BATCH_001,Claude,B1-001,must_fix_rubric,2026通州期末Q20,人类命运共同体,accept,"源包通州Q20第5点只列人类命运共同体1分，应保持独立，不绑定四大全球倡议。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,Claude,B1-002,should_fix_teaching,2026通州期末Q20,多边主义,accept,"源包通州Q20第4点写践行多边主义，没有真正的一词。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-001,keep_best_of_both,2026通州期末Q20,时代主题、经济全球化、顺应各国人民愿望等,accept,"源包通州Q20第2点原文信息量最高，答案句可吸收ClaudeCode的学生化表达。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-002,must_fix_source,2026通州期末Q20,符合《联合国宪章》,accept,"源包通州Q20第3点原文为符合《联合国宪章》1分，宗旨和原则一脉相承只作触发和答案表达。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,Claude,B1-004,must_fix_rubric,2026朝阳期中Q17,处理好自力更生和对外开放的关系,accept,"源包朝阳Q17第一层含自主创新分支和开放合作分支，Codex初稿漏自主创新分支。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-003,must_fix_rubric,2026朝阳期中Q17,层级分值,accept,"源包只给一层3分、两层6分、三层8分，不支持给每个分说自定1分。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,Claude,B1-005,must_fix_module_boundary,2026朝阳期中Q17,模块边界,accept,"两个市场两种资源、双循环、高质量发展等可作背景或边界，不进选必一主链。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-005,must_fix_rubric,2026朝阳期中Q17,处理好中国发展和世界发展的关系,accept,"源包第三层同时含维护本国利益、谋求本国发展和兼顾他国合理关切等分说，必须合并保留。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-008,must_fix_source,2025海淀期中Q16(2),企业和政府可利用国际组织赋予的权利,accept,"贸易摩擦是角度和风险容器，核心术语应为完整选必一2分句。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,Claude,B1-009,must_fix_rubric,2025海淀期中Q21(2),国际影响力和话语权不断提升,accept,"源包海淀Q21(2)中国之变明确列出该1分项。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-010,must_fix_rubric,2025海淀期中Q21(2),独立自主的和平外交政策,accept,"源包不变部分说明写独立自主的和平外交政策2分，应合并而非拆成多个并列主项。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-011,must_fix_rubric,2025海淀期中Q21(2),促进世界和平与发展为基本目标,accept,"源包不变部分列明该表述，两份初稿均需补入。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-013,must_fix_rubric,2025海淀期中Q21(2),新中国外交始终服务于我国人民民主专政的国家性质,accept,"应保留源包完整句，不截短成名词短语。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-014,must_fix_source,2025海淀期中Q21(2),积极融入以联合国体系为核心的国际秩序,accept,"该句是题面事实，不作为独立术语进入主链。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,Claude,B1-014,must_fix_module_boundary,2024东城一模Q16,跨模块补入,accept,"题干属哲学与文化，但源包评分层承认国际关系或共同体表述可得1分，仅作跨模块补入。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched
+BATCH_001,GPT,GPT-B001-017,should_fix_teaching,跨题同类项,人类命运共同体、中国智慧、时代主题、国际关系民主化,accept,"融合稿增加同类项索引，正文条目保留来源差异，后续累计宝典再做全书级合并。",03_fusion/BATCH_001_FUSED_DRAFT.md,patched

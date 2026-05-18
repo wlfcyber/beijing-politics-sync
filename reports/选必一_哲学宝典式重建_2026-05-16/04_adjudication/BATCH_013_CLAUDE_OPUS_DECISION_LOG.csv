@@ -1,0 +1,10 @@
+item,claude_opus_position,codex_followup,decision,action
+Batch013 closure,Claude同意无题时可闭批，但要求补查OCR/图片源和覆盖矩阵。,"补查rendered-ocr-needed源后发现2026朝阳期末Q20，题面和阅卷细则均为图像源，之前文本检索未覆盖。",REOPEN,撤销无题闭批判断；改开BATCH_013_TAIL。
+2026丰台期末Q20,Claude同意拒收但要求PDF全文和目录终检。,"PDF全文检索显示五大工程/中拉利益汇合点/团结工程/民心工程仅第64页题面命中；评分细则/评分参考/阅卷细则/阅卷总结/评标/赋分未在同题语境命中。目录只有试卷PDF和细则PDF，无另存阅卷文件。",ACCEPT_BLOCK,继续blocked_prompt_only。
+2025北京高考政治Q20,Claude同意不推翻区卷闭批，要求写入边界。,"已写入Codex adjudication：高考真题线索只作低证据迁移提醒，不入当前区卷主链，不替代正式细则。",ACCEPT_BOUNDARY,保留边界记录。
+覆盖矩阵,Claude要求无未扫描行。,"第一轮覆盖补查发现rendered-ocr-needed图像源存在遗漏，2026朝阳期末Q20进入正式候选。",NOT_CLOSED,继续补扫后进入尾批生产。
+Batch013 final review,Claude Opus裁决为小修后允许入链。,"已抓取真实页面输出并保存到03_external_review/BATCH_013_CLAUDE_OPUS_ADAPTIVE_REVIEW.md。",ACCEPT_AFTER_MINOR_FIX,进入终稿融合与Governor。
+角度4赋分封顶,Claude要求在两个角度4条目正文中显式声明合计上限2分且不因跨桶位而独立累加。,"已在国家利益条目和外交为民与服务中国式现代化条目写入同角度合并计分与2分上限。",ACCEPT_PATCH,防止理论桶与中国桶重复加总。
+政治多极化桶位说明,Claude建议将“也可”改成不重复计分的硬约束。,"已改为仅在政治多极化下计入正式赋分；时代背景桶位出现时只作表述积累。",ACCEPT_PATCH,统一桶位封顶语言。
+总说句兜底,Claude建议补充四角度未满分才触发加1分且不超过满分。,"已写入附录总说句的细则位置说明。",ACCEPT_PATCH,保留兜底性质。
+丰台Q20边界,Claude建议记录重检日期。,"已在暂不入链来源中记录2026-05-17复核说明，未写入模型名或后台路径。",ACCEPT_PATCH,继续挂起等待同题阅卷细则。

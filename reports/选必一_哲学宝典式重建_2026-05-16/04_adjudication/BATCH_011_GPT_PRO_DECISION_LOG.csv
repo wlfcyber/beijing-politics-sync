@@ -1,0 +1,9 @@
+issue_id,verdict,action,source_basis
+GPT-011-01,accepted,"删除融合稿开头状态说明、生产线/外审/模型等过程性内容；正文只保留术语条目与必要边界结论。","GPT Pro 2.1；选必一学生正文契约"
+GPT-011-02,accepted,"朝阳Q20全球经济治理术语删除“发展更高水平开放型经济”，细则位置改为讲评总结点不标分值，答案句补入绿色认证等规则影响国际竞争力。","GPT Pro 2.2；BATCH_011_SOURCE_PACKET.md 朝阳Q20讲评总结点"
+GPT-011-03,accepted,"朝阳Q20独立自主、对外直接投资、区域经济合作三条答案句补入断链风险、多元化、区域化、规则竞争等材料事实。","GPT Pro 2.3；BATCH_011_SOURCE_PACKET.md 朝阳Q20材料信号"
+GPT-011-04,accepted,"西城Q21国际公共产品答案句补入深圳、安吉、宁德、十八洞村和全球南方学习借鉴材料事实。","GPT Pro 2.4；BATCH_011_SOURCE_PACKET.md 西城Q21材料信号"
+GPT-011-05,accepted,"东城Q20全球安全倡议与联合国宪章宗旨和原则合并为同一正式条目，删除独立联合国条目。","GPT Pro 2.5；BATCH_011_SOURCE_PACKET.md 东城Q20阅卷总结"
+GPT-011-06,accepted,"东城Q20全球文明倡议答案句补入文明碰撞甚至冲突、民间外交、公共外交，并明确路径+效果。","GPT Pro 2.6；BATCH_011_SOURCE_PACKET.md 东城Q20阅卷总结"
+GPT-011-07,accepted,"西城Q18不进入选必一主链，仅作跨模块边界候补。","GPT Pro 3.1；BATCH_011_SOURCE_PACKET.md 西城Q18设问限定《经济与社会》"
+GPT-011-08,accepted,"房山Q18(2)不进入正式主链，仅低证据候补，不进入学生正式正文。","GPT Pro 3.2；BATCH_011_SOURCE_PACKET.md 房山Q18(2)分类汇编参考答案"
