@@ -1,8 +1,10 @@
 # v12.2 council candidate framework
 
-Status: `candidate_pending_source_check`
+Status: `candidate_source_checked_round01_not_final`
 
 This file is a candidate grown from the evidence pack plus real GPT/Claude Round 01 and Round 02 council outputs. It is not final PASS, not a baodian, not DOCX/PDF, and not TASK_COMPLETE.
+
+Source-check overlay: `codex_source_checks/pending_source_check_20260522.md` and `candidate_framework_v12_2_council_source_checked.md`.
 
 ## 0. Evidence Base
 
@@ -237,6 +239,19 @@ These are not deleted, but cannot inflate the core.
 - Any later use of CC0162 / CC0040 / CC0353 / CC0380.
 - All six next-backfill candidates.
 
+## 4A. Source-Check Resolution
+
+Resolved in `codex_source_checks/pending_source_check_20260522.md`:
+
+- CC0137: keep E1; exact boundary is AI copyright grid plus credit-card contract/违约 grid, not a broad AI innovation trunk.
+- CC0289: keep E1 primary and E6 secondary; completion task comes first, `任选其一` rights-protection path comes second.
+- CC0223: keep E6 primary; rewarded action is dispute-resolution path across two cases, with value language derived from the cases.
+- CC0364: keep E2 with alias warning; v12.1 uses `期中`, merged formal source is `期末`; procedure legality is rewarded only in this case, not as a universal starter.
+- CC0051: keep E4 as PASS_RECOVERED low-frequency evaluation evidence; do not expand into a legal-change trunk.
+- CC0195: keep E5; formal scoring anchors labor-rights fairness/efficiency, not non-legal economics alone.
+- CC0162 / CC0040 / CC0353 / CC0380: not promoted to core in this pass.
+- All six next-backfill candidates remain outside core until a new evidence pass promotes them.
+
 ## 5. Promotion Rule
 
 This candidate can be promoted only after:
@@ -246,4 +261,3 @@ This candidate can be promoted only after:
 3. the 6 next-backfill rows either stay excluded or are promoted by a new evidence pass;
 4. GPT/Claude advice log records rejected and modified suggestions;
 5. a new coverage delta confirms no core row is unmapped.
-

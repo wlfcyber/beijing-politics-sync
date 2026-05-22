@@ -63,6 +63,21 @@ No real Round 01 calls have been completed yet.
 - Candidate framework written to `candidate_framework_v12_2_council.md`.
 - Verdict remains `candidate_pending_source_check`, not final PASS.
 
+## 2026-05-22 22:09-22:20 +08:00 Codex source check of pending framework cases
+
+- No new GPT/Claude model call was made in this step.
+- Codex checked the pending source-boundary items against local source extracts, source snippets, and v12.1 core rows.
+- Raw extracts written to:
+  - `codex_source_checks/source_extract_pending_questions_20260522.csv`
+  - `codex_source_checks/source_extract_pending_rubric_atoms_20260522.csv`
+  - `codex_source_checks/source_extract_pending_core_rows_20260522.csv`
+- Source-check outputs written to:
+  - `codex_source_checks/pending_source_check_20260522.csv`
+  - `codex_source_checks/pending_source_check_20260522.md`
+  - `candidate_framework_v12_2_council_source_checked.md`
+- Verdict moves from `candidate_pending_source_check` to `candidate_source_checked_round01_not_final`.
+- Still not final PASS, not a baodian, not DOCX/PDF, and not TASK_COMPLETE.
+
 ## Required records
 
 For each model call, record:

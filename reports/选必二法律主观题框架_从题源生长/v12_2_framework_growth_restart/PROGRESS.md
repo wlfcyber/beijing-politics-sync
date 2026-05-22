@@ -1,5 +1,21 @@
 # v12.2 framework growth restart progress
 
+## STEP_134_CODEX_PENDING_SOURCE_CHECK_20260522
+
+- Codex completed the local source check for the pending candidate cases:
+  - CC0137, CC0289, CC0223, CC0364, CC0051, CC0195.
+- Boundary/non-core cases checked and kept outside core:
+  - CC0162, CC0040, CC0353, CC0380.
+- Outputs:
+  - `codex_source_checks/pending_source_check_20260522.csv`
+  - `codex_source_checks/pending_source_check_20260522.md`
+  - `codex_source_checks/source_extract_pending_questions_20260522.csv`
+  - `codex_source_checks/source_extract_pending_rubric_atoms_20260522.csv`
+  - `codex_source_checks/source_extract_pending_core_rows_20260522.csv`
+  - `candidate_framework_v12_2_council_source_checked.md`
+- Framework status moved to `candidate_source_checked_round01_not_final`.
+- Current verdict remains not final PASS, not a baodian, not DOCX/PDF, and not TASK_COMPLETE.
+
 ## STEP_133_REAL_COUNCIL_AND_CODEX_ADJUDICATION_20260522
 
 - GPT Round 01 captured from ChatGPT web:
