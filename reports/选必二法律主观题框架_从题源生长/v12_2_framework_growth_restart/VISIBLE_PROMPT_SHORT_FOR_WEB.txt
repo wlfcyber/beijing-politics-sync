@@ -1,0 +1,16 @@
+Read 00_READ_ME_FIRST.md and 01_FRAMEWORK_GROWTH_GATE.md first.
+
+Task: do not review or polish v12.1. Grow a candidate Beijing Xuanbier legal subjective-question framework from the batch evidence cards.
+
+Read the evidence files in this order:
+1. evidence_pack/batch_01_priority_district_core_cards.md
+2. evidence_pack/batch_02_remaining_core_cards.md
+3. evidence_pack/batch_03_boundary_reference_and_next_backfill_cards.md
+4. evidence_pack/true_coverage_matrix_v12_1.csv
+
+Use the matching prompt in prompts/:
+- GPT: ROUND_01_GPT_INDEPENDENT_FRAMEWORK_GROWTH.md
+- Claude: ROUND_01_CLAUDE_INDEPENDENT_FRAMEWORK_GROWTH.md
+
+Do not write final PASS, final baodian, DOCX, PDF, or TASK_COMPLETE. Output a framework candidate with evidence-linked nodes, open containers, gaps, and revision criteria.
+
