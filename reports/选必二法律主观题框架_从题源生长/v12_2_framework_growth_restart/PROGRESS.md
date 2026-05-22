@@ -1,5 +1,27 @@
 # v12.2 framework growth restart progress
 
+## STEP_138_MARKDOWN_BAODIAN_PRODUCTION_20260523
+
+- Codex created the final Markdown baodian directory:
+  - `final_baodian_20260523/`
+- Produced the polished framework chapter:
+  - `final_baodian_20260523/01_法律主观题框架章.md`
+- Produced 42 locked core question analysis cards grouped by E1-E6:
+  - `final_baodian_20260523/02_42题按框架解析宝典.md`
+  - count check: E1=9, E2=8, E3=3, E4=7, E5=11, E6=4, total=42.
+- Kept reference/open/container rows and next-backfill rows outside the core:
+  - `final_baodian_20260523/03_开放容器与不晋升题附录.md`
+- Added GPT/Claude Round 03 governance appendix and final Governor checklist:
+  - `final_baodian_20260523/04_GPT_Claude_框架生长记录.md`
+  - `final_baodian_20260523/05_GOVERNOR_FINAL_CHECK.md`
+- Generated final index and traceability bridge:
+  - `final_baodian_20260523/42题框架索引.csv`
+  - `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.csv`
+  - `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.md`
+- Current allowed status:
+  - `markdown_baodian_complete_pending_docx_pdf_render`
+- DOCX/PDF have not been produced in this milestone. Do not claim DOCX/PDF delivery or broader TASK_COMPLETE.
+
 ## STEP_136_ROUND03_CLAUDE_AND_CANDIDATE_BASELINE_20260522
 
 - Claude Round 03 source-check review was submitted and completed in Claude web:

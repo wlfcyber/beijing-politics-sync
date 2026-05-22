@@ -1,6 +1,6 @@
 # Governor Gate Check v12.2
 
-Status: `framework_baseline_gate_pass_not_final_document`
+Status: `markdown_baodian_complete_pending_docx_pdf_render`
 
 Date: 2026-05-22
 
@@ -15,23 +15,24 @@ Date: 2026-05-22
 | GPT Round 03 real call | pass with model-label caution | `model_outputs/gpt_round03_source_check_review.md` |
 | Codex Round 03 adjudication | pass for framework baseline | `codex_adjudication/CODEX_ROUND03_SOURCE_CHECK_ADJUDICATION.md` |
 | student-facing framework written | pass for framework baseline | `final_framework_candidate/FRAMEWORK_BASELINE_v12_2_SOURCE_CHECKED.md` |
-| final baodian / DOCX/PDF | fail | final teaching document not produced in this step |
+| Markdown baodian output | pass | `final_baodian_20260523/00_READ_ME_FIRST.md`; `final_baodian_20260523/01_法律主观题框架章.md`; `final_baodian_20260523/02_42题按框架解析宝典.md`; `final_baodian_20260523/05_GOVERNOR_FINAL_CHECK.md` |
+| 42/42 question-card coverage | pass | `final_baodian_20260523/02_42题按框架解析宝典.md`; `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.csv` |
+| reference/open rows separated | pass | `final_baodian_20260523/03_开放容器与不晋升题附录.md` |
+| DOCX/PDF rendered delivery | fail / not produced | no `.docx` or `.pdf` final delivery exists in this milestone |
 
 ## Governor Verdict
 
 Current allowed label:
 
-`complete_source_checked_framework_baseline_gpt_claude_reviewed`
+`markdown_baodian_complete_pending_docx_pdf_render`
 
 Forbidden labels:
 
-- final baodian
 - DOCX/PDF final delivery
 - TASK_COMPLETE
 
 ## Required Before Final Document Delivery
 
 1. Decide whether next-backfill candidates are frozen or moved into a new evidence pass.
-2. Convert this framework baseline into the requested baodian/classroom document.
-3. Run final document governor review.
-4. Only then claim final baodian, DOCX/PDF delivery, or TASK_COMPLETE.
+2. Optional: render the Markdown baodian into DOCX/PDF and visually verify layout.
+3. Only then claim DOCX/PDF delivery or broader TASK_COMPLETE.

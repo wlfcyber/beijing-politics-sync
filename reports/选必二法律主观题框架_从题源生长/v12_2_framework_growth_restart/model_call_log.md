@@ -157,3 +157,22 @@ For each model call, record:
 - whether the response completed naturally
 - output file path
 - any stop/retry/regenerate/send interruptions
+
+## 2026-05-23 01:50 +08:00 Markdown baodian production
+
+- No new GPT/Claude model call was made in this step.
+- The step uses already captured real outputs:
+  - GPT Round 03: `model_outputs/gpt_round03_source_check_review.md`
+  - Claude Round 03: `model_outputs/claude_round03_source_check_review_key_capture.md`
+- Generated final Markdown baodian outputs:
+  - `final_baodian_20260523/00_READ_ME_FIRST.md`
+  - `final_baodian_20260523/01_法律主观题框架章.md`
+  - `final_baodian_20260523/02_42题按框架解析宝典.md`
+  - `final_baodian_20260523/03_开放容器与不晋升题附录.md`
+  - `final_baodian_20260523/04_GPT_Claude_框架生长记录.md`
+  - `final_baodian_20260523/05_GOVERNOR_FINAL_CHECK.md`
+  - `final_baodian_20260523/06_MORNING_SUMMARY.md`
+- Generated traceability bridge:
+  - `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.csv`
+  - `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.md`
+- Current status: `markdown_baodian_complete_pending_docx_pdf_render`.
