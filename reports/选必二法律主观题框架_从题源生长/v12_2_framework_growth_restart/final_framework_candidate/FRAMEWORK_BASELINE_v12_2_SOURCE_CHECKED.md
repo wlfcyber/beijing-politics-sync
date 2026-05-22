@@ -1,8 +1,8 @@
 # 选必二《法律与生活》主观题框架 v12.2 Source-Checked Baseline
 
-Status: `complete_candidate_pending_gpt_round03_and_governance`
+Status: `complete_source_checked_framework_baseline_gpt_claude_reviewed`
 
-This is the complete source-checked candidate framework after Codex source review and Claude Opus 4.7 Round 03. It is not final PASS, not a baodian, not DOCX/PDF delivery, and not TASK_COMPLETE.
+This is the complete source-checked framework baseline after Codex source review, Claude Opus 4.7 Round 03, and ChatGPT web Round 03. It is not the final baodian, not DOCX/PDF delivery, and not TASK_COMPLETE.
 
 ## 0. 先走命题人路径
 
@@ -234,12 +234,10 @@ Core coverage remains 42/42 after source check.
 
 ## 5. Promotion State
 
-This baseline is complete enough to serve as the current source-checked candidate framework.
+This baseline is complete enough to serve as the current GPT/Claude-reviewed source-checked framework.
 
-It is not final because:
+It is not the final teaching document because:
 
-- GPT Round 03 source-check review has not been captured;
-- governance and traceability gates are not fully closed;
 - next-backfill candidates remain outside the locked core;
 - E3 low-sample and E5 high-variance teaching risks must remain visible.
-
+- no final baodian/DOCX/PDF classroom package has been produced in this step.

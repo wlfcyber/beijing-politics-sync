@@ -24,6 +24,27 @@
 - Recovery packet written:
   - `web_payloads/GPT_ROUND_03_RECOVERY_PACKET.md`
 
+## STEP_137_GPT_ROUND03_CAPTURE_AND_BASELINE_ACCEPTANCE_20260522
+
+- A clean ChatGPT web conversation was opened and the GPT Round 03 payload was submitted.
+- Visible mode label: `进阶专业`; exact `GPT-5.5 Pro` label was not independently visible, so the model-label caution remains.
+- ChatGPT conversation:
+  - title: `Source-Check Review Decision`
+  - URL: `https://chatgpt.com/c/6a10735f-10d0-83ea-997d-6443d973f5b4`
+- Output saved:
+  - `model_outputs/gpt_round03_source_check_review.md`
+- GPT Round 03 verdict:
+  - `accept_source_checked_candidate_no_structural_change`
+  - all Codex source-check decisions accepted;
+  - CC0162, CC0040, CC0353, CC0380 remain non-promotable/open;
+  - still not final baodian/DOCX/PDF delivery.
+- Codex updated:
+  - `codex_adjudication/CODEX_ROUND03_SOURCE_CHECK_ADJUDICATION.md`
+  - `final_framework_candidate/FRAMEWORK_BASELINE_v12_2_SOURCE_CHECKED.md`
+  - `governance/GOVERNOR_GATE_CHECK_v12_2.md`
+- Current status:
+  - `complete_source_checked_framework_baseline_gpt_claude_reviewed`
+
 ## STEP_135_SOURCE_CHECK_DELTA_AND_ROUND03_PAYLOADS_20260522
 
 - Codex wrote the post-source-check coverage delta:

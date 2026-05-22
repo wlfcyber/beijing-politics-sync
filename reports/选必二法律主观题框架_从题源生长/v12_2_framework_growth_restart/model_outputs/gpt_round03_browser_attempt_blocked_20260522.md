@@ -53,3 +53,13 @@ Recovery packet:
 
 - `web_payloads/GPT_ROUND_03_RECOVERY_PACKET.md`
 
+## Resolved In Clean Conversation
+
+The GPT Round 03 gate was later closed by opening a clean ChatGPT web conversation and submitting the same payload.
+
+- capture file: `model_outputs/gpt_round03_source_check_review.md`
+- visible mode label: `进阶专业`
+- conversation URL: `https://chatgpt.com/c/6a10735f-10d0-83ea-997d-6443d973f5b4`
+- verdict: `accept_source_checked_candidate_no_structural_change`
+
+This file remains useful as a record of the failed old-conversation capture path, not as the final gate state.

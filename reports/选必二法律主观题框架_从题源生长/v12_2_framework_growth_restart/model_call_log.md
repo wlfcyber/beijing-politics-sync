@@ -132,6 +132,18 @@ No real Round 01 calls have been completed yet.
 - Recovery packet written to `web_payloads/GPT_ROUND_03_RECOVERY_PACKET.md`.
 - GPT gate remains `real_call_not_closed`.
 
+## 2026-05-22 23:12-23:23 +08:00 GPT Round 03 captured in clean ChatGPT web conversation
+
+- Interface: ChatGPT web, Chrome profile `Lifei`, clean non-project conversation.
+- Visible mode label: `进阶专业`. Exact `GPT-5.5 Pro` label was not independently visible; preserve model-label caution.
+- Submitted payload: `web_payloads/GPT_ROUND_03_SOURCE_CHECK_REVIEW_FULL_PASTE_PAYLOAD.md`.
+- Conversation title: `Source-Check Review Decision`.
+- Conversation URL: `https://chatgpt.com/c/6a10735f-10d0-83ea-997d-6443d973f5b4`.
+- Completion observed: yes; the `停止回答` button disappeared before capture.
+- Concrete verdict observed: `accept_source_checked_candidate_no_structural_change`.
+- Output saved to `model_outputs/gpt_round03_source_check_review.md`.
+- Codex adjudication and governance were updated after capture.
+
 ## Required records
 
 For each model call, record:

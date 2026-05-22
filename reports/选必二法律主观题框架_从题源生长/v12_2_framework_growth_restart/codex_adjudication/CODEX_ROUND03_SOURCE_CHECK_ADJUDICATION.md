@@ -1,6 +1,6 @@
 # Codex Round 03 Source-Check Adjudication
 
-Status: `candidate_baseline_prepared_gpt_round03_pending`
+Status: `candidate_baseline_ready_for_final_governor`
 
 Date: 2026-05-22
 
@@ -10,6 +10,7 @@ Date: 2026-05-22
 - Coverage delta: `codex_source_checks/coverage_delta_after_source_check_20260522.md`
 - Source-checked overlay: `candidate_framework_v12_2_council_source_checked.md`
 - Claude Round 03 key capture: `model_outputs/claude_round03_source_check_review_key_capture.md`
+- GPT Round 03 capture: `model_outputs/gpt_round03_source_check_review.md`
 - GPT Round 03 browser audit: `model_outputs/gpt_round03_browser_attempt_blocked_20260522.md`
 
 ## Model Gate State
@@ -17,9 +18,9 @@ Date: 2026-05-22
 | lane | state | consequence |
 |---|---|---|
 | Claude Opus 4.7 Adaptive | completed and visible in Claude web | can be used for Round 03 pressure test |
-| GPT web lane | browser attempt blocked; no output captured | cannot be counted as completed GPT Round 03 |
+| GPT web lane | completed in a clean ChatGPT web conversation | can be used for Round 03 pressure test, with visible-label caution |
 
-No final model-council PASS is allowed while GPT Round 03 remains uncaptured.
+The Round 03 model gate is now closed for framework review. The ChatGPT UI label captured was `进阶专业`; the exact `GPT-5.5 Pro` label was not independently visible, so the model-label caution remains.
 
 ## Local Evidence Adjudication
 
@@ -30,13 +31,13 @@ Codex accepts the source-check result as a candidate baseline because:
 - distribution remains E1=9, E2=8, E3=3, E4=7, E5=11, E6=4;
 - CC0162, CC0040, CC0353, and CC0380 remain excluded from core for source-status reasons;
 - Claude Round 03 agrees that the post-source-check changes are boundary tightening, not structural redesign.
+- GPT Round 03 also chose `accept_source_checked_candidate_no_structural_change` and accepted every Codex source-check placement/non-promotion decision.
 
 Codex does not promote it to final PASS because:
 
-- GPT Round 03 is still pending/blocked;
-- next-backfill candidates remain outside the locked core;
-- traceability and governor artifacts must be generated and reviewed;
-- the final student-facing framework must explicitly include Claude's requested transfer warnings, especially E5 and E3.
+- next-backfill candidates remain outside the locked core unless a new evidence pass promotes them;
+- this package is a framework baseline, not a finished baodian/DOCX/PDF classroom document;
+- final governor review must preserve the distinction between framework acceptance and final document delivery.
 
 ## Accepted Claude Round 03 Deltas
 
@@ -50,6 +51,8 @@ Accepted:
 - add E4 CC0051 anti-slogan warning;
 - add E5 CC0195 labor-law fairness/efficiency warning;
 - mark E3 as low-frequency and E5 as the bucket needing the strongest internal sentence split.
+- accept GPT Round 03's conclusion that no structural change is required.
+- accept GPT Round 03's non-promotion list for CC0162, CC0040, CC0353, and CC0380.
 
 Rejected or deferred:
 
@@ -64,5 +67,8 @@ Proceed to build:
 
 `final_framework_candidate/FRAMEWORK_BASELINE_v12_2_SOURCE_CHECKED.md`
 
-That document may be called a complete source-checked candidate framework. It may not be called the final handbook, final PASS, DOCX/PDF delivery, or TASK_COMPLETE.
+That document may now be called the complete GPT/Claude-reviewed source-checked framework baseline. It may not be called the final handbook, DOCX/PDF delivery, or TASK_COMPLETE.
 
+Current verdict:
+
+`complete_source_checked_framework_baseline_gpt_claude_reviewed`
