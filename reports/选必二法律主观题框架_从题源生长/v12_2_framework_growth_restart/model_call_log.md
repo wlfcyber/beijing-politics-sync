@@ -78,6 +78,18 @@ No real Round 01 calls have been completed yet.
 - Verdict moves from `candidate_pending_source_check` to `candidate_source_checked_round01_not_final`.
 - Still not final PASS, not a baodian, not DOCX/PDF, and not TASK_COMPLETE.
 
+## 2026-05-22 22:31 +08:00 Round 03 source-check review payloads prepared
+
+- No new GPT/Claude model call was made in this step.
+- Coverage delta written to:
+  - `codex_source_checks/coverage_delta_after_source_check_20260522.csv`
+  - `codex_source_checks/coverage_delta_after_source_check_20260522.md`
+- Round 03 real-review payloads written to:
+  - `web_payloads/GPT_ROUND_03_SOURCE_CHECK_REVIEW_FULL_PASTE_PAYLOAD.md`
+  - `web_payloads/CLAUDE_ROUND_03_SOURCE_CHECK_REVIEW_FULL_PASTE_PAYLOAD.md`
+- Current status: `round03_real_call_pending`.
+- Do not treat the prepared payloads as GPT/Claude advice until real web responses are captured.
+
 ## Required records
 
 For each model call, record:

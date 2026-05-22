@@ -1,5 +1,19 @@
 # v12.2 framework growth restart progress
 
+## STEP_135_SOURCE_CHECK_DELTA_AND_ROUND03_PAYLOADS_20260522
+
+- Codex wrote the post-source-check coverage delta:
+  - `codex_source_checks/coverage_delta_after_source_check_20260522.csv`
+  - `codex_source_checks/coverage_delta_after_source_check_20260522.md`
+- Delta result:
+  - 42/42 core rows remain mapped.
+  - Entrance counts unchanged: E1=9, E2=8, E3=3, E4=7, E5=11, E6=4.
+  - No reference-only row or boundary row was promoted.
+- Codex prepared next real-council payloads:
+  - `web_payloads/GPT_ROUND_03_SOURCE_CHECK_REVIEW_FULL_PASTE_PAYLOAD.md`
+  - `web_payloads/CLAUDE_ROUND_03_SOURCE_CHECK_REVIEW_FULL_PASTE_PAYLOAD.md`
+- No Round 03 GPT/Claude response has been captured yet. Status remains `round03_real_call_pending`.
+
 ## STEP_134_CODEX_PENDING_SOURCE_CHECK_20260522
 
 - Codex completed the local source check for the pending candidate cases:
