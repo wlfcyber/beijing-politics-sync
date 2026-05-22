@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-05-21 07:27:48",
+  "total_questions": 65,
+  "core_questions": 27,
+  "non_core_questions": 38,
+  "evidence_level_counts": {
+    "formal": 61,
+    "reference_only": 4
+  },
+  "rubric_atom_count": 362
+}

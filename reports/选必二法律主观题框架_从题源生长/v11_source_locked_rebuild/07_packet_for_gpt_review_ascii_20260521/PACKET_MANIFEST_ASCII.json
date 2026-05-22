@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-05-21",
+  "preferred_upload": "v11_source_locked_for_gpt_review_ascii_20260521.zip",
+  "encoding_note": "Internal filenames are ASCII to avoid garbled upload display. File contents are UTF-8 Chinese.",
+  "files": [
+    "01A_key_pollution_source_patch.csv",
+    "01A_key_pollution_source_patch.md",
+    "01_source_judgment_report.md",
+    "01_source_judgment_stats.json",
+    "01_source_judgment_table.csv",
+    "02_strong_triage_checklist.csv",
+    "02_strong_triage_checklist.md",
+    "03_all_53_question_chains_v11.csv",
+    "03_all_53_question_chains_v11.md",
+    "04_upper_strong_triage_framework.md",
+    "05_true_coverage_matrix.csv",
+    "05_true_coverage_matrix.md",
+    "06_v11_acceptance.md",
+    "06_v11_acceptance_stats.json",
+    "PACKET_MANIFEST.json",
+    "PROMPT_FOR_GPT55PRO_V11_SOURCE_LOCKED_REVIEW.md",
+    "README_FOR_GPT.md"
+  ]
+}

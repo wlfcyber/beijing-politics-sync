@@ -1,0 +1,66 @@
+question_id,completion_status,current_pass_status,evidence_level,existing_framework_entry_node,why_not_closed_yet,what_evidence_could_close_it,must_not_promote_reason_if_any
+CC0002_2024_丰台_一模_17,already_closed_by_existing_code,PASS,formal,FWV1_N02+FWV1_N03,-,-,-
+CC0011_2024_丰台_二模_17,source_check_needed,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,rubric atom 多为参考答案原文或教学反思，不是细则切分；需回源核切分独立赋分单元后才能进入 codebook。；secondary=revise_existing_code,"必须回源把""参考答案""按独立赋分单元切分为多个 rubric atoms。",未通过本包 formal rubric 重新支撑前不得促进。
+CC0019_2024_朝阳_一模_19,source_check_needed,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N06,rubric atom 多为参考答案原文或教学反思，不是细则切分；需回源核切分独立赋分单元后才能进入 codebook。；secondary=revise_existing_code,"必须回源把""参考答案""按独立赋分单元切分为多个 rubric atoms。",未通过本包 formal rubric 重新支撑前不得促进。
+CC0025_2024_朝阳_二模_17,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0040_2024_海淀_一模_19,reference_only_non_core,PARTIAL,reference_only,REFERENCE_ONLY:FWV1_N02+FWV1_N05+FWV1_N07,evidence_level=reference_only；只能产生 weak/open observation，不能支撑核心 code；硬规则第 5、11 条。,本题缺正式评分细则；只能用于 weak/open observation，不能进入核心 code。,evidence_level=reference_only，禁入核心 code。
+CC0045_2024_海淀_二模_19,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,"强化 CODE_COWORK_002 — 把""对象 = 民法基本原则/法律制度""分支显式纳入三角意义。","把""对象=基本原则/制度""分支写入 CODE_COWORK_002 的 ask_trigger/material_trigger。",-
+CC0054_2024_石景山_一模_17,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,"强化 CODE_COWORK_002 — 把""对象 = 民法基本原则/法律制度""分支显式纳入三角意义。","把""对象=基本原则/制度""分支写入 CODE_COWORK_002 的 ask_trigger/material_trigger。",-
+CC0061_2024_西城_一模_18,source_check_needed,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N06,rubric atom 多为参考答案原文或教学反思，不是细则切分；需回源核切分独立赋分单元后才能进入 codebook。,"必须回源把""参考答案""按独立赋分单元切分为多个 rubric atoms。",未通过本包 formal rubric 重新支撑前不得促进。
+CC0063_2024_西城_二模_16,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,"强化 CODE_COWORK_002 — 把""对象 = 民法基本原则/法律制度""分支显式纳入三角意义。","把""对象=基本原则/制度""分支写入 CODE_COWORK_002 的 ask_trigger/material_trigger。",-
+CC0077_2025_东城_一模_19,already_closed_by_existing_code,PASS,formal,FWV1_N01,-,-,-
+CC0084_2025_东城_二模_19,already_closed_by_existing_code,PASS,formal,FWV1_N01,-,-,-
+CC0092_2025_东城_期末_19_1,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N07,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+CC0103_2025_丰台_一模_19,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N06,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0119_2025_丰台_期末_19,already_closed_by_existing_code,PASS,formal,FWV1_N02,-,-,-
+CC0125_2025_延庆_一模_19,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N07,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+CC0131_2025_房山_一模_19,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N05,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。；secondary=transfer_only_open_container,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0137_2025_昌平_二模_20,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N01+FWV1_N02+FWV1_N03,"强化 CODE_COWORK_001 — 表格题应纳入""法理依据+事实依据+意义/作用""三段式 cell sub-pattern。",把表格题三段式 cell sub-pattern 写入 CODE_COWORK_001 的 rubric_reward_pattern。,-
+CC0143_2025_朝阳_一模_19,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N05,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。；secondary=transfer_only_open_container,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0150_2025_朝阳_二模_20,already_closed_by_existing_code,PASS,formal,FWV1_N05,-,-,-
+CC0157_2025_朝阳_期末_20,already_closed_by_existing_code,PASS,formal,FWV1_N01,-,-,-
+CC0162_2025_海淀_一模_18,reference_only_non_core,PARTIAL,reference_only,REFERENCE_ONLY:FWV1_N02+FWV1_N04+FWV1_N06,evidence_level=reference_only；只能产生 weak/open observation，不能支撑核心 code；硬规则第 5、11 条。,本题缺正式评分细则；只能用于 weak/open observation，不能进入核心 code。,evidence_level=reference_only，禁入核心 code。
+CC0180_2025_海淀_期末_20,already_closed_by_existing_code,PASS,formal,FWV1_N01,-,-,-
+CC0181_2025_海淀_期末_21,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N06,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0189_2025_石景山_一模_20,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N01+FWV1_N02+FWV1_N03,"强化 CODE_COWORK_001 — 表格题应纳入""法理依据+事实依据+意义/作用""三段式 cell sub-pattern。",把表格题三段式 cell sub-pattern 写入 CODE_COWORK_001 的 rubric_reward_pattern。,-
+CC0195_2025_西城_一模_20,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N06,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0200_2025_西城_二模_18,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0206_2025_西城_期末_19,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N05,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0213_2025_门头沟_一模_20,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N01+FWV1_N02+FWV1_N03,"强化 CODE_COWORK_001 — 表格题应纳入""法理依据+事实依据+意义/作用""三段式 cell sub-pattern。",把表格题三段式 cell sub-pattern 写入 CODE_COWORK_001 的 rubric_reward_pattern。,-
+CC0214_2025_门头沟_一模_20_2,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N01+FWV1_N02+FWV1_N03,"强化 CODE_COWORK_001 — 表格题应纳入""法理依据+事实依据+意义/作用""三段式 cell sub-pattern。",把表格题三段式 cell sub-pattern 写入 CODE_COWORK_001 的 rubric_reward_pattern。,-
+CC0223_2025_顺义_一模_19,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N05,"强化 CODE_COWORK_002 — 把""对象 = 民法基本原则/法律制度""分支显式纳入三角意义。","把""对象=基本原则/制度""分支写入 CODE_COWORK_002 的 ask_trigger/material_trigger。",-
+CC0229_2026_东城_一模_18,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N05+FWV1_N07,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0238_2026_东城_二模_19,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N04+FWV1_N06,"强化 CODE_COWORK_004/006 — 增设""多主体评析""与""无独立细则也要补法理锚句""分支。","把""多主体评析""和""无显式锚句但仍存在的法理依据 1 分""写入 CODE_COWORK_004/006。",-
+CC0244_2026_东城_期末_18,already_closed_by_existing_code,PASS,formal,FWV1_N05+FWV1_N06,-,-,-
+CC0245_2026_东城_期末_18_2,already_closed_by_existing_code,PASS,formal,FWV1_N07,-,-,-
+CC0251_2026_丰台_一模_20,already_closed_by_existing_code,PASS,formal,FWV1_N02+FWV1_N03,-,-,-
+CC0254_2026_丰台_二模_18,source_check_needed,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,rubric atom 多为参考答案原文或教学反思，不是细则切分；需回源核切分独立赋分单元后才能进入 codebook。,"必须回源把""参考答案""按独立赋分单元切分为多个 rubric atoms。",未通过本包 formal rubric 重新支撑前不得促进。
+CC0276_2026_房山_二模_17,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0277_2026_房山_二模_18,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N07,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+CC0283_2026_朝阳_一模_18,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N05,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0289_2026_朝阳_二模_18,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N01+FWV1_N02+FWV1_N05,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+CC0311_2026_海淀_二模_18_2,reference_only_non_core,PARTIAL,reference_only,REFERENCE_ONLY:FWV1_N03+FWV1_N05+FWV1_N07,evidence_level=reference_only；只能产生 weak/open observation，不能支撑核心 code；硬规则第 5、11 条。,本题缺正式评分细则；只能用于 weak/open observation，不能进入核心 code。,evidence_level=reference_only，禁入核心 code。
+CC0317_2026_海淀_期末_18,already_closed_by_existing_code,PASS,formal,FWV1_N06,-,-,-
+CC0318_2026_海淀_期末_18_2,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N03+FWV1_N04+FWV1_N06,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0319_2026_海淀_期末_19,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N05,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+CC0325_2026_石景山_一模_18,already_closed_by_existing_code,PASS,formal,FWV1_N01,-,-,-
+CC0332_2026_石景山_二模_19,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0340_2026_西城_一模_17,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N05+FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+CC0353_2026_西城_期末_17,reference_only_non_core,PARTIAL,reference_only,REFERENCE_ONLY:FWV1_N02+FWV1_N04+FWV1_N05,evidence_level=reference_only；只能产生 weak/open observation，不能支撑核心 code；硬规则第 5、11 条。,本题缺正式评分细则；只能用于 weak/open observation，不能进入核心 code。,evidence_level=reference_only，禁入核心 code。
+CC0364_2026_通州_期末_19_1,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N06,"强化 CODE_COWORK_004/006 — 增设""多主体评析""与""无独立细则也要补法理锚句""分支。","把""多主体评析""和""无显式锚句但仍存在的法理依据 1 分""写入 CODE_COWORK_004/006。",-
+CC0305_2026_海淀_一模_18_3,already_closed_by_existing_code,PASS,formal,FWV1_N04,-,-,-
+CC0373_2026_顺义_一模_18,already_closed_by_existing_code,PASS,formal,FWV1_N04,-,-,-
+CC0380_2026_顺义_二模_18_2,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N05+FWV1_N07,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+RECOVER_2025_海淀_二模_18,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N01+FWV1_N02+FWV1_N03,"强化 CODE_COWORK_001 — 表格题应纳入""法理依据+事实依据+意义/作用""三段式 cell sub-pattern。",把表格题三段式 cell sub-pattern 写入 CODE_COWORK_001 的 rubric_reward_pattern。,-
+RECOVER_2026_通州_一模_20,already_closed_by_existing_code,PASS,formal,FWV1_N01,-,-,-
+RECOVER_2024_东城_一模_19,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+RECOVER_2024_东城_二模_19_1,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N06+FWV1_N07,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+RECOVER_2024_东城_二模_19_2,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N06+FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+RECOVER_2025_丰台_二模_19_2,transfer_only_open_container,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N05+FWV1_N07,单题孤证或属于公共政策/单专题，材料-细则不重复同型，不能升级为稳定 code，只能进入 TRANSFER_TEST / 开放容器。,当前不可促成 code；保留为 TRANSFER_TEST，等待回源核查或更多同型题。,"孤证或公共政策性论证，不属于""反复奖励同一最小判断""。"
+RECOVER_2026_延庆_一模_18_1,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N07,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+RECOVER_2026_房山_一模_17_1,source_check_needed,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N04+FWV1_N06,rubric atom 多为参考答案原文或教学反思，不是细则切分；需回源核切分独立赋分单元后才能进入 codebook。,"必须回源把""参考答案""按独立赋分单元切分为多个 rubric atoms。",未通过本包 formal rubric 重新支撑前不得促进。
+RECOVER_2026_西城_二模_18_1,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,"强化 CODE_COWORK_004/006 — 增设""多主体评析""与""无独立细则也要补法理锚句""分支。","把""多主体评析""和""无显式锚句但仍存在的法理依据 1 分""写入 CODE_COWORK_004/006。",-
+RECOVER_2026_西城_二模_18_2,promote_candidate_new_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,与 IP/不正当竞争司法保护四步链 cluster 反复同型奖励，材料-细则-题号三角可建立；可进入新 code COWORK_008。,促成 COWORK_008（IP/不正当竞争司法保护四步链）—— 已具备 6+ 道同型 formal rubric 支持。,-
+RECOVER_2026_西城_二模_18_3,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N03+FWV1_N04,"强化 CODE_COWORK_002 — 把""对象 = 民法基本原则/法律制度""分支显式纳入三角意义。","把""对象=基本原则/制度""分支写入 CODE_COWORK_002 的 ask_trigger/material_trigger。",-
+RECOVER_2026_门头沟_一模_18_1,revise_existing_code,PARTIAL,formal,TRANSFER_TEST:FWV1_N02+FWV1_N06+FWV1_N05,"强化 CODE_COWORK_007 — 把""识别违法行为/诉讼请求/法律边界+措施""纳入维权路径扩展。","把""识别违法行为/起诉状/诉讼请求/法律边界+措施""写入 CODE_COWORK_007。",-
+RECOVER_2026_朝阳_期末_18_1,already_closed_by_existing_code,PASS,formal,FWV1_N06,-,-,-

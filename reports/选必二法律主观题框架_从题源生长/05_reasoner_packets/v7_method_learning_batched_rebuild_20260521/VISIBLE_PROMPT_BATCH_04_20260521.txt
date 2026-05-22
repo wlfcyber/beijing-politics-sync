@@ -1,0 +1,1 @@
+请读取刚上传的 BATCH_04 包，只处理 BATCH_04_NON_CORE_OPEN_CONTAINER。重点区分低频规则、综合边界、转出、reference_only 练笔四种容器。输出 batch_mechanisms、student_start_moves、material_to_legal_translation、full_score_sentence_rules。不要把 reference_only 升级成 formal。不要生成总框架，保留 question_id 和 rubric_atom_id。

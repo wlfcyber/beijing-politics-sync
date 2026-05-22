@@ -1,0 +1,2 @@
+请读取上传压缩包中的 PROMPT_FOR_GPTPRO_AND_CLAUDE_OPUS_V7_METHOD_FIRST_REBUILD_20260521.md。
+重要：先学习 prior_framework_learning 和 rendered_prior_samples 里的旧框架方法，再按 batches 顺序分批处理法律题，最后才提出 V7 框架。不要直接写总框架。

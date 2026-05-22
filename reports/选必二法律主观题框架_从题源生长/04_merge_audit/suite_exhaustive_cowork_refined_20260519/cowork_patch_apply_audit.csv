@@ -1,0 +1,80 @@
+﻿question_id,patch_scope,patch_action,source_locator,reason
+CC0019_2024_朝阳_一模_19,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0015:paper page 7 lines 249-265; rendered/text source recovered after Cowork.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0092_2025_东城_期末_19_1,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0130:paper page 6 lines 199-227.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0131_2025_房山_一模_19,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0081:paper page 6 lines 227-236.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0180_2025_海淀_期末_20,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0139:paper text around Q20 and attached table.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0195_2025_西城_一模_20,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0094:paper page 7 lines 276-283.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0214_2025_门头沟_一模_20_2,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0096:paper pages 7-8 lines 305-344.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0245_2026_东城_期末_18_2,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0206:paper page 6 lines 234-241.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0276_2026_房山_二模_17,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0191:rendered paper page 6.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0277_2026_房山_二模_18,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0191:rendered paper page 7.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0317_2026_海淀_期末_18,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0217:rendered paper page 6.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0318_2026_海淀_期末_18_2,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0217:rendered paper page 6.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0319_2026_海淀_期末_19,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0217:rendered paper page 7.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0353_2026_西城_期末_17,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0221/F0399:rendered paper page 6; answer reference page 11.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0011_2024_丰台_二模_17,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0048:rendered paper page 5; F0047/F0270:rubric text.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0119_2025_丰台_期末_19,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0132:paper page 7 lines 255-280; F0131:rubric slides 45-47.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0251_2026_丰台_一模_20,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0157:rendered paper page 9; F0156:rubric slide 51.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0254_2026_丰台_二模_18,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0188:paper page 7 lines 308-336; F0187:rubric slides 29-34.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0283_2026_朝阳_一模_18,question_row,rebuilt full_question_text/material_text/ask_text from paper source,F0163:paper page 6 lines 269-295; F0162/F0373:rubric text.,"Cowork found material leak, answer-as-material, empty ask, or source-level contamination."
+CC0077_2025_东城_一模_19,question_row,filled ask_text,F0073:page 4 | F0074:page 5 | F0074:page 8 | F0292:page 4,Cowork found empty ask_text while material row was otherwise usable.
+CC0084_2025_东城_二模_19,question_row,filled ask_text,F0100:page 3 | F0101:page 5 | F0101:page 7 | F0317:page 3,Cowork found empty ask_text while material row was otherwise usable.
+CC0157_2025_朝阳_期末_20,question_row,filled ask_text,F0135:page 6 | F0135:page 9 | F0133:slides around Q20; F0343:teacher answer Q20,Cowork found empty ask_text while material row was otherwise usable.
+CC0189_2025_石景山_一模_20,question_row,filled ask_text,F0091:text | F0092:page 11 | F0092:page 8 | F0309:text,Cowork found empty ask_text while material row was otherwise usable.
+CC0213_2025_门头沟_一模_20,question_row,filled ask_text,F0096:page 10 | F0096:page 7 | F0095:text lines 38-55; F0096:text Q20,Cowork found empty ask_text while material row was otherwise usable.
+CC0325_2026_石景山_一模_18,question_row,filled ask_text,F0167:text | F0168:page 6 | F0168:page 9 | F0377:text,Cowork found empty ask_text while material row was otherwise usable.
+CC0019_2024_朝阳_一模_19,material_atoms,replaced old atoms with 7 source-material atoms,F0015:paper page 7 lines 249-265; rendered/text source recovered after Cowork.,Remove answer/rubric leakage from material atom layer.
+CC0092_2025_东城_期末_19_1,material_atoms,replaced old atoms with 5 source-material atoms,F0130:paper page 6 lines 199-227.,Remove answer/rubric leakage from material atom layer.
+CC0131_2025_房山_一模_19,material_atoms,replaced old atoms with 4 source-material atoms,F0081:paper page 6 lines 227-236.,Remove answer/rubric leakage from material atom layer.
+CC0180_2025_海淀_期末_20,material_atoms,replaced old atoms with 4 source-material atoms,F0139:paper text around Q20 and attached table.,Remove answer/rubric leakage from material atom layer.
+CC0195_2025_西城_一模_20,material_atoms,replaced old atoms with 3 source-material atoms,F0094:paper page 7 lines 276-283.,Remove answer/rubric leakage from material atom layer.
+CC0214_2025_门头沟_一模_20_2,material_atoms,replaced old atoms with 14 source-material atoms,F0096:paper pages 7-8 lines 305-344.,Remove answer/rubric leakage from material atom layer.
+CC0245_2026_东城_期末_18_2,material_atoms,replaced old atoms with 5 source-material atoms,F0206:paper page 6 lines 234-241.,Remove answer/rubric leakage from material atom layer.
+CC0276_2026_房山_二模_17,material_atoms,replaced old atoms with 5 source-material atoms,F0191:rendered paper page 6.,Remove answer/rubric leakage from material atom layer.
+CC0277_2026_房山_二模_18,material_atoms,replaced old atoms with 4 source-material atoms,F0191:rendered paper page 7.,Remove answer/rubric leakage from material atom layer.
+CC0317_2026_海淀_期末_18,material_atoms,replaced old atoms with 4 source-material atoms,F0217:rendered paper page 6.,Remove answer/rubric leakage from material atom layer.
+CC0318_2026_海淀_期末_18_2,material_atoms,replaced old atoms with 3 source-material atoms,F0217:rendered paper page 6.,Remove answer/rubric leakage from material atom layer.
+CC0319_2026_海淀_期末_19,material_atoms,replaced old atoms with 7 source-material atoms,F0217:rendered paper page 7.,Remove answer/rubric leakage from material atom layer.
+CC0353_2026_西城_期末_17,material_atoms,replaced old atoms with 5 source-material atoms,F0221/F0399:rendered paper page 6; answer reference page 11.,Remove answer/rubric leakage from material atom layer.
+CC0011_2024_丰台_二模_17,material_atoms,replaced old atoms with 6 source-material atoms,F0048:rendered paper page 5; F0047/F0270:rubric text.,Remove answer/rubric leakage from material atom layer.
+CC0119_2025_丰台_期末_19,material_atoms,replaced old atoms with 9 source-material atoms,F0132:paper page 7 lines 255-280; F0131:rubric slides 45-47.,Remove answer/rubric leakage from material atom layer.
+CC0251_2026_丰台_一模_20,material_atoms,replaced old atoms with 7 source-material atoms,F0157:rendered paper page 9; F0156:rubric slide 51.,Remove answer/rubric leakage from material atom layer.
+CC0254_2026_丰台_二模_18,material_atoms,replaced old atoms with 11 source-material atoms,F0188:paper page 7 lines 308-336; F0187:rubric slides 29-34.,Remove answer/rubric leakage from material atom layer.
+CC0283_2026_朝阳_一模_18,material_atoms,replaced old atoms with 5 source-material atoms,F0163:paper page 6 lines 269-295; F0162/F0373:rubric text.,Remove answer/rubric leakage from material atom layer.
+CC0092_2025_东城_期末_19_1,ask_atom,rewrote ask atom from repaired ask_text,F0130:paper page 6 lines 199-227.,Remove placeholder ask atom.
+CC0254_2026_丰台_二模_18,ask_atom,rewrote ask atom from repaired ask_text,F0188:paper page 7 lines 308-336; F0187:rubric slides 29-34.,Remove placeholder ask atom.
+CC0213_2025_门头沟_一模_20,ask_atom,rewrote ask atom from repaired ask_text,F0096:page 10 | F0096:page 7 | F0095:text lines 38-55; F0096:text Q20,Remove placeholder ask atom.
+CC0283_2026_朝阳_一模_18,ask_atom,rewrote ask atom from repaired ask_text,F0163:paper page 6 lines 269-295; F0162/F0373:rubric text.,Remove placeholder ask atom.
+CC0319_2026_海淀_期末_19,ask_atom,rewrote ask atom from repaired ask_text,F0217:rendered paper page 7.,Remove placeholder ask atom.
+CC0353_2026_西城_期末_17,ask_atom,rewrote ask atom from repaired ask_text,F0221/F0399:rendered paper page 6; answer reference page 11.,Remove placeholder ask atom.
+CC0251_2026_丰台_一模_20,ask_atom,rewrote ask atom from repaired ask_text,F0157:rendered paper page 9; F0156:rubric slide 51.,Remove placeholder ask atom.
+CC0318_2026_海淀_期末_18_2,ask_atom,rewrote ask atom from repaired ask_text,F0217:rendered paper page 6.,Remove placeholder ask atom.
+CC0189_2025_石景山_一模_20,ask_atom,rewrote ask atom from repaired ask_text,F0091:text | F0092:page 11 | F0092:page 8 | F0309:text,Remove placeholder ask atom.
+CC0131_2025_房山_一模_19,ask_atom,rewrote ask atom from repaired ask_text,F0081:paper page 6 lines 227-236.,Remove placeholder ask atom.
+CC0195_2025_西城_一模_20,ask_atom,rewrote ask atom from repaired ask_text,F0094:paper page 7 lines 276-283.,Remove placeholder ask atom.
+CC0011_2024_丰台_二模_17,ask_atom,rewrote ask atom from repaired ask_text,F0048:rendered paper page 5; F0047/F0270:rubric text.,Remove placeholder ask atom.
+CC0119_2025_丰台_期末_19,ask_atom,rewrote ask atom from repaired ask_text,F0132:paper page 7 lines 255-280; F0131:rubric slides 45-47.,Remove placeholder ask atom.
+CC0077_2025_东城_一模_19,ask_atom,rewrote ask atom from repaired ask_text,F0073:page 4 | F0074:page 5 | F0074:page 8 | F0292:page 4,Remove placeholder ask atom.
+CC0019_2024_朝阳_一模_19,ask_atom,rewrote ask atom from repaired ask_text,F0015:paper page 7 lines 249-265; rendered/text source recovered after Cowork.,Remove placeholder ask atom.
+CC0084_2025_东城_二模_19,ask_atom,rewrote ask atom from repaired ask_text,F0100:page 3 | F0101:page 5 | F0101:page 7 | F0317:page 3,Remove placeholder ask atom.
+CC0214_2025_门头沟_一模_20_2,ask_atom,rewrote ask atom from repaired ask_text,F0096:paper pages 7-8 lines 305-344.,Remove placeholder ask atom.
+CC0157_2025_朝阳_期末_20,ask_atom,rewrote ask atom from repaired ask_text,F0135:page 6 | F0135:page 9 | F0133:slides around Q20; F0343:teacher answer Q20,Remove placeholder ask atom.
+CC0276_2026_房山_二模_17,ask_atom,rewrote ask atom from repaired ask_text,F0191:rendered paper page 6.,Remove placeholder ask atom.
+CC0317_2026_海淀_期末_18,ask_atom,rewrote ask atom from repaired ask_text,F0217:rendered paper page 6.,Remove placeholder ask atom.
+CC0245_2026_东城_期末_18_2,ask_atom,rewrote ask atom from repaired ask_text,F0206:paper page 6 lines 234-241.,Remove placeholder ask atom.
+CC0180_2025_海淀_期末_20,ask_atom,rewrote ask atom from repaired ask_text,F0139:paper text around Q20 and attached table.,Remove placeholder ask atom.
+CC0325_2026_石景山_一模_18,ask_atom,rewrote ask atom from repaired ask_text,F0167:text | F0168:page 6 | F0168:page 9 | F0377:text,Remove placeholder ask atom.
+CC0277_2026_房山_二模_18,ask_atom,rewrote ask atom from repaired ask_text,F0191:rendered paper page 7.,Remove placeholder ask atom.
+CC0254_2026_丰台_二模_18,rubric_atom,removed stray non-source-review atom R_CC0254_2026_丰台_二模_18_09,F0187:slide 29,"This atom came from a later review/practice slide, not from the 2026丰台二模 Q18 paper or its scoring rubric."
+CC0277_2026_房山_二模_18,rubric_atom,removed R_CC0277_2026_房山_二模_18_08,F0189:text | F0190:text | F0191:page 10,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0277_2026_房山_二模_18,rubric_atom,removed R_CC0277_2026_房山_二模_18_09,F0189:text | F0190:text | F0191:page 10,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0277_2026_房山_二模_18,rubric_atom,removed R_CC0277_2026_房山_二模_18_10,F0189:text | F0190:text | F0191:page 10,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0277_2026_房山_二模_18,rubric_atom,removed R_CC0277_2026_房山_二模_18_11,F0189:text | F0190:text | F0191:page 10,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_02,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_03,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_04,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_05,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_06,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_07,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,rubric_atom,removed R_CC0364_2026_通州_期末_19_1_08,F0223:slide 11 | F0403:slide 11,Logic-and-thinking rubric atom was wrongly attached to legal subjective corpus.
+CC0364_2026_通州_期末_19_1,question/material/ask/rubric,restored 19(1) law ask and removed 19(2) logic rubric atoms,F0224:paper page 7 lines 236-251; F0223/F0403:rubric slide 11.,Cowork found ask_text was 19(2) logic while question_id/rubric R01 belonged to 19(1) law.

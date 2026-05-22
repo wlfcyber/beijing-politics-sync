@@ -1,0 +1,4 @@
+﻿new_question_id,source_suite,evidence_level,evidence_type,count_effect,source_locator,why_recovered,remaining_limit
+RECOVER_2024_顺义_二模_17,2024 顺义 二模,reference_only,teacher_reference_answer,+1 open/reference candidate,F0069:lines 112-113 | F0068:lines 17-20,同套原剔除 Q19 非法律，但 Q17 财产制度法律主观题漏抽。,无正式逐点分值细则，不能单独支撑核心框架节点。
+RECOVER_2025_海淀_二模_18,2025 海淀 二模,formal,marking_rubric,+1 formal candidate,"F0123:rendered page_006 | F0121:lines 4-16 | F0120:lines 309-335,381-386",模拟法庭/商标恶意抢注/程序法/证据题有明确细则和讲评。,设问为法治知识，价值层需防必修三化。
+RECOVER_2026_通州_一模_20,2026 通州 一模,formal,evaluation_standard,+1 formal candidate,F0173:rendered page_008 | F0172:lines 215-228,民法典自甘风险、安全保障义务、侵权责任给分明确。,意义层有价值表达，必须从责任边界推出。

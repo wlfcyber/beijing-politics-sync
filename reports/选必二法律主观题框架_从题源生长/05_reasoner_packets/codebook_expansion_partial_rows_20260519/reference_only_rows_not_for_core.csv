@@ -1,0 +1,5 @@
+﻿question_id,year,district,exam_stage,question_no,ask_function_plain,framework_entry_node,ask_text,notes
+CC0040_2024_海淀_一模_19,2024,海淀,一模,19,综合,REFERENCE_ONLY:FWV1_N02+FWV1_N05+FWV1_N07,运用《法律与生活》知识，谈谈对本案判决的认识。,reference_only: cannot support core codebook or framework node alone
+CC0162_2025_海淀_一模_18,2025,海淀,一模,18,综合,REFERENCE_ONLY:FWV1_N02+FWV1_N04+FWV1_N06,运用《法律与生活》知识，谈谈对本案判决的认识。,reference_only: cannot support core codebook or framework node alone
+CC0311_2026_海淀_二模_18_2,2026,海淀,二模,18,意义,REFERENCE_ONLY:FWV1_N03+FWV1_N05+FWV1_N07,结合材料二，运用《法律与生活》知识，分析上述关于知识产权的法律规定是如何助力企业创新与发展的。（8分）,reference_only: cannot support core codebook or framework node alone
+CC0353_2026_西城_期末_17,2026,西城,期末,17,论证,REFERENCE_ONLY:FWV1_N02+FWV1_N04+FWV1_N05,运用法律知识，分析法院的上述判决。,reference_only: cannot support core codebook or framework node alone

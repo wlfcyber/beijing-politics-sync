@@ -1,0 +1,25 @@
+{
+  "backup": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/04_merge_audit/pre_missing17_correction_backup_20260519_112902",
+  "before_level_counts": {
+    "formal": 54,
+    "missing": 17,
+    "reference_only": 3
+  },
+  "after_level_counts": {
+    "formal": 65,
+    "reference_only": 5
+  },
+  "after_status_counts": {
+    "pending_locator_check": 21,
+    "keep": 47,
+    "weak_reference_only": 2
+  },
+  "merged_after": 70,
+  "reasoner_rows": 70,
+  "reasoner_material_atoms": 929,
+  "reasoner_ask_atoms": 70,
+  "reasoner_rubric_atoms": 504,
+  "missing_after": 0,
+  "deleted_false_positives": 4,
+  "zip": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/05_reasoner_packets/reasoner_packet_v3_corrected_missing17_20260519.zip"
+}

@@ -1,0 +1,12 @@
+question_id,issue_type,codex_value,claudecode_value,conservative_decision,reason,source_locator
+CC0244_2026_东城_期中_18,exam_stage_mismatch,期中,期末,期末,paper file path = 2026各区期末和期中/2026东城**期末**/试卷/试卷.pdf；rubric path = 2026东城**期末**/细则/细则.pptx。Codex matrix 把 2026东城期末 整套挂在 '期中' 行。,F0205 / F0206 / F0385 / F0386 全部为'2026东城期末'路径
+CC0245_2026_东城_期中_18_2,exam_stage_mismatch,期中,期末,期末,同上。,F0205 slide 56
+CC0317_2026_海淀_期中_18,exam_stage_mismatch,期中,期末,期末,paper=2026海淀**期末**/试卷/试卷.pdf (F0217)；rubric=2026海淀**期末**/细则/细则.pdf (F0216/F0396)。真期中 (F0215) 主观题为 16经社/17经社/18政法/19政法/20政法/21经济/22国际，无法律与生活。,F0216/F0217/F0396 全为期末路径
+CC0318_2026_海淀_期中_18_2,exam_stage_mismatch,期中,期末,期末,同 CC0317。,F0216:page 2 | F0396:page 2
+CC0319_2026_海淀_期中_19,exam_stage_mismatch,期中,期末,期末,同 CC0317。,F0216:page 3 | F0217:page 10
+CC0353_2026_西城_期中_17,exam_stage_mismatch,期中,期末,期末,rubric=2026**西城期末**/细则/补充材料/高三思想政治参考答案.pdf (F0221) 等。,F0221:page 11
+CC0364_2026_通州_期中_19_1,exam_stage_mismatch,期中,期末,期末,rubric=2026**通州期末**/细则/细则.pptx (F0223)。,F0223:slide 11 | F0403:slide 11
+CC0311_2026_海淀_二模_18,sub_question_locator_imprecise,question_no=18 / sub_question_no='' (含整道14分题),应拆分为 18_1（逻辑）与 18_2（法律），核心仅留 18_2,question_no=18 / sub_question_no=2 only,materials/answer 文本里 Q18 实际为两小问；Q18(1) 是'运用《逻辑与思维》知识'，Q18(2) 才是'运用《法律与生活》知识'。当前 row 把两小问材料/答案合并，导致 ask_atom / material_atom 跨模块污染。,F0197 Q18 answer
+CC0051_2024_海淀_期中_21_1,module_classification_inconsistency_with_2025,'选必二 法律与生活' core (evidence_level=formal),应与 2025海淀期中 Q21(1) 同口径处理 (boundary/reference_only or both in core),降级为 boundary，与 2025 一致；或同时入核心 — 不允许双标,设问明确写'法治知识'（政治与法治），同题面/同设问在 2025 被 Codex 排除为 boundary。Codex 自己也在 notes 写'必修三化风险'。,F0027:page 50/52 | F0252:page 50/52
+RECOVER_2024_顺义_二模_17,module_classification_overreach,选必二 法律与生活 core (evidence_level=reference_only),应转入 boundary 或经济与社会观察池,boundary,设问'运用所学知识'+'经济社会发展'+答案围绕产权制度、市场主体、社会主义市场经济基石；'物权平等保护'仅一行边角；归类法律与生活证据弱。,F0069 lines 112-113 | F0068 lines 17-20
+RECOVER_2024_东城_一模_19,locator_quality_check,paper F0011 rendered page_009 / answer F0010 page_001 / rubric F0009 slides 57-62,paper 试卷 PDF 文本层 OCR_blocked，依赖 rendered_pages 与答案 docx；定位无误但应在'evidence_qualification'里明示 OCR_recovered,保留 formal，但在 notes 中补 'paper text via rendered pages only',F0011 是 ocr-blocked，需在元数据里登记 OCR_recovered_via_render 标记，与目前 notes 不一致。,F0011 / F0234 (failed_files.csv 标 OCR_blocked)

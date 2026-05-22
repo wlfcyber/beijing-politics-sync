@@ -1,0 +1,17 @@
+{
+  "questions": 65,
+  "material_atoms": 482,
+  "ask_atoms": 65,
+  "rubric_atoms": 350,
+  "evidence_level": {
+    "formal": 61,
+    "reference_only": 4
+  },
+  "empty_asks": [],
+  "material_equals_rubric": [],
+  "material_contains_answer_or_scoring_tokens_review": [],
+  "broken_rubric_material_refs_count": 0,
+  "logic_rubric_leaks": [],
+  "verdict": "PASS",
+  "generated_at": "2026-05-19T16:58:32"
+}

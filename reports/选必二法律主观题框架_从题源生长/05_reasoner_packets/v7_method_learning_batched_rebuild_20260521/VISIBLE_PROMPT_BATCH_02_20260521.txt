@@ -1,0 +1,1 @@
+请读取刚上传的 BATCH_02 包，只处理 BATCH_02_PROCEDURE_TABLE。重点看程序救济、证据、请求、起诉状、表格补全、归责三档。输出 batch_mechanisms、student_start_moves、material_to_legal_translation、full_score_sentence_rules。不要生成总框架。保留 question_id 和 rubric_atom_id。

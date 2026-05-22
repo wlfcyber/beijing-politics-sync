@@ -1,0 +1,66 @@
+﻿question_id,entry_node,micro_scene,promotion_status,classification_trust,pass_status,lost_points_if_any,patch_needed,patch_suggestion
+CC0002_2024_丰台_一模_17,先判后证,通用法律事实入规则,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0011_2024_丰台_二模_17,价值三层收束,知识产权/竞争,low_frequency_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0019_2024_朝阳_一模_19,责任成链,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0025_2024_朝阳_二模_17,责任成链,劳动关系三从属性,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0040_2024_海淀_一模_19,边界开放容器,知识产权/竞争,reference_only_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0045_2024_海淀_二模_19,先判后证,诉讼时效,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0054_2024_石景山_一模_17,责任成链,绿色/生态/公益,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0061_2024_西城_一模_18,先判后证,告知书/司法督促,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0063_2024_西城_二模_16,程序证据救济,消费者欺诈,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0077_2025_东城_一模_19,格子先行,调解仲裁诉讼,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0084_2025_东城_二模_19,格子先行,格式条款,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0092_2025_东城_期末_19_1,责任成链,相邻关系,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0103_2025_丰台_一模_19,创新竞争定性,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0119_2025_丰台_期末_19,程序证据救济,调解仲裁诉讼,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0125_2025_延庆_一模_19,程序证据救济,消费者欺诈,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0131_2025_房山_一模_19,创新竞争定性,知识产权/竞争,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0137_2025_昌平_二模_20,格子先行,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0143_2025_朝阳_一模_19,先判后证,消费者欺诈,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0150_2025_朝阳_二模_20,程序证据救济,调解仲裁诉讼,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0157_2025_朝阳_期末_20,格子先行,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0162_2025_海淀_一模_18,边界开放容器,格式条款,reference_only_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0180_2025_海淀_期末_20,格子先行,无过错侵权,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0181_2025_海淀_期末_21,创新竞争定性,知识产权/竞争,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0189_2025_石景山_一模_20,责任成链,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0195_2025_西城_一模_20,责任成链,通用法律事实入规则,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0200_2025_西城_二模_18,先判后证,通用法律事实入规则,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0206_2025_西城_期末_19,创新竞争定性,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0213_2025_门头沟_一模_20,责任成链,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0214_2025_门头沟_一模_20_2,先判后证,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0223_2025_顺义_一模_19,程序证据救济,举证责任,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0229_2026_东城_一模_18,创新竞争定性,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0238_2026_东城_二模_19,创新竞争定性,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0244_2026_东城_期末_18,责任成链,消费者欺诈,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0245_2026_东城_期末_18_2,程序证据救济,举证责任,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0251_2026_丰台_一模_20,先判后证,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0254_2026_丰台_二模_18,价值三层收束,无过错侵权,low_frequency_container,medium,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0276_2026_房山_二模_17,边界开放容器,调解仲裁诉讼,boundary_open_container,medium,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0277_2026_房山_二模_18,新技术划边界,AI/数据边界,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0283_2026_朝阳_一模_18,创新竞争定性,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0289_2026_朝阳_二模_18,格子先行,举证责任,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0311_2026_海淀_二模_18_2,边界开放容器,知识产权/竞争,reference_only_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0317_2026_海淀_期末_18,先判后证,格式条款,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0318_2026_海淀_期末_18_2,责任成链,格式条款,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0319_2026_海淀_期末_19,创新竞争定性,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0325_2026_石景山_一模_18,格子先行,举证责任,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0332_2026_石景山_二模_19,价值三层收束,通用法律事实入规则,low_frequency_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0340_2026_西城_一模_17,价值三层收束,绿色/生态/公益,low_frequency_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0353_2026_西城_期末_17,边界开放容器,知识产权/竞争,reference_only_container,medium,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+CC0364_2026_通州_期末_19_1,责任成链,相邻关系,core_candidate,source_check,PARTIAL_SOURCE_CLEAN,题面/设问层存在串题或缺失，需回源补题面后才能宣布全闭合。,yes,题面/设问层存在串题或缺失，需回源补题面后才能宣布全闭合。
+CC0305_2026_海淀_一模_18_3,程序证据救济,消费者欺诈,core_candidate,medium,PASS_CORE_WITH_SOURCE_NOTE,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。,yes,题面曾由细则/材料反推，学生可练踩分，但教师应回源补设问。
+CC0373_2026_顺义_一模_18,责任成链,通用法律事实入规则,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+CC0380_2026_顺义_二模_18_2,边界开放容器,调解仲裁诉讼,boundary_open_container,source_check,PARTIAL_SOURCE_CLEAN,题面/设问层存在串题或缺失，需回源补题面后才能宣布全闭合。,yes,题面/设问层存在串题或缺失，需回源补题面后才能宣布全闭合。
+RECOVER_2025_海淀_二模_18,格子先行,知识产权/竞争,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_通州_一模_20,格子先行,安全保障义务,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2024_东城_一模_19,先判后证,调解仲裁诉讼,low_frequency_container,high,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+RECOVER_2024_东城_二模_19_1,程序证据救济,起诉状三件套,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2024_东城_二模_19_2,责任成链,调解仲裁诉讼,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2025_丰台_二模_19_2,新技术划边界,AI/数据边界,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_延庆_一模_18_1,新技术划边界,AI/数据边界,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_房山_一模_17_1,新技术划边界,AI主体资格/幻觉责任,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_西城_二模_18_1,新技术划边界,AI/数据边界,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_西城_二模_18_2,新技术划边界,AI/数据边界,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_西城_二模_18_3,边界开放容器,调解仲裁诉讼,boundary_open_container,medium,CONTAINER_NOT_CORE,不作为核心满分模板，只做容器/参考训练。,no,不作为核心满分模板，只做容器/参考训练。
+RECOVER_2026_门头沟_一模_18_1,新技术划边界,AI/数据边界,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。
+RECOVER_2026_朝阳_期末_18_1,先判后证,消费者欺诈,core_candidate,high,PASS_CORE,,no,用 v4 框架可启动，并能生成贴近细则的答案骨架。

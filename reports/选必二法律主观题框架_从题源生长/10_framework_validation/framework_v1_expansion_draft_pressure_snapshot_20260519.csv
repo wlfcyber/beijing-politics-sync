@@ -1,0 +1,68 @@
+﻿question_id,year,district,exam_stage,question_no,evidence_level,expansion_status,matched_code_or_container,ask_text,note
+CC0002_2024_丰台_一模_17,2024,丰台,一模,17,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002|CODE_COWORK_003,结合材料，运用《法律与生活》知识，谈谈法院酌情减轻被告赔偿责任的法理依据和现实意义。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0011_2024_丰台_二模_17,2024,丰台,二模,17,formal,OPEN_CONTAINER_ONLY,SUPPLEMENT_TO_CODE_COWORK_002_OR_OPEN_ECOLOGY_CONTAINER,运用《法律与生活》知识，结合上述案例分析民法典的相关规定对保护生态环境的作用。,Kept as open container or transfer-only; does not support core codebook.
+CC0019_2024_朝阳_一模_19,2024,朝阳,一模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002,结合材料，运用《法律与生活》知识，分析诚信原则对促进社会主义市场经济健康发展的积极作用。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0025_2024_朝阳_二模_17,2024,朝阳,二模,17,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_PLATFORM_LABOR_SUBORDINATION,"结合材料,说明仲裁委员会作出上述裁决的理由,并分析该典型案例的意义。",Kept as open container or transfer-only; does not support core codebook.
+CC0040_2024_海淀_一模_19,2024,海淀,一模,19,reference_only,REFERENCE_OR_REJECT_NON_CORE,NA,运用《法律与生活》知识，谈谈对本案判决的认识。,Not core support; reference_only or rejected by dual-model adjudication.
+CC0045_2024_海淀_二模_19,2024,海淀,二模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002,结合材料，运用《法律与生活》知识，分析本案判决的社会价值。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0054_2024_石景山_一模_17,2024,石景山,一模,17,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002,运用法律知识，结合案情，说明甲乙两公司合同成立的理由，并从民法基本原则角 度阐述该司法判决的意义。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0061_2024_西城_一模_18,2024,西城,一模,18,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_FAMILY_DUTY_VALUE_AFTER_SPLIT,运用法治知识，谈谈对二审法院向郭某的三个儿子发出《督促履行义务告知书》的认识。,Kept as open container or transfer-only; does not support core codebook.
+CC0063_2024_西城_二模_16,2024,西城,二模,16,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002,结合材料，运用《法律与生活》的知识，分析人民法院判决的意义。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0077_2025_东城_一模_19,2025,东城,一模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,阅读材料，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0084_2025_东城_二模_19,2025,东城,二模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,阅读材料，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0092_2025_东城_期末_19_1,2025,东城,期末,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,运用《法律与生活》和《政治与法治》知识，完成任务：（1）写出该方案遇到的法律问题。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0103_2025_丰台_一模_19,2025,丰台,一模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_008,结合材料，运用法治相关知识，分析本案作为人民法院保护科技创新典型案例的意义。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0119_2025_丰台_期末_19,2025,丰台,期末,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_003,请运用《法律与生活》相关知识阐释法院的裁判理由。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0125_2025_延庆_一模_19,2025,延庆,一模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,"运用《法律与生活》知识，说明你会如何进行调解并说
+明理由。",Expansion draft has core code support; still requires full sentence pressure-test.
+CC0131_2025_房山_一模_19,2025,房山,一模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_008,结合材料，谈谈“真创新”受到“真保护”的法治价值。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0137_2025_昌平_二模_20,2025,昌平,二模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,运用《法律与生活》知识，完成裁判理由。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0143_2025_朝阳_一模_19,2025,朝阳,一模,19,formal,NO_EXPANSION_SUPPORT_YET,,结合材料，运用《法律与生活》知识，说明人民法院支持王某的诉讼请求的理由。,No dual-model expansion support after current round; keep pending for later source check.
+CC0150_2025_朝阳_二模_20,2025,朝阳,二模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_004,"结合材料,运用《法律与生活》知识,分析上述案例。",Expansion draft has core code support; still requires full sentence pressure-test.
+CC0157_2025_朝阳_期末_20,2025,朝阳,期末,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,了解案件，分析事实，印证法理，参考示例，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0162_2025_海淀_一模_18,2025,海淀,一模,18,reference_only,REFERENCE_OR_REJECT_NON_CORE,NA,运用《法律与生活》知识，谈谈对本案判决的认识。,Not core support; reference_only or rejected by dual-model adjudication.
+CC0180_2025_海淀_期末_20,2025,海淀,期末,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,下表列出了《解释》部分条款。参考示例，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0181_2025_海淀_期末_21,2025,海淀,期末,21,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,结合材料，运用《法律与生活》知识，说明法律规定“竞业限制”并对其加以限制的原因。,Kept as open container or transfer-only; does not support core codebook.
+CC0189_2025_石景山_一模_20,2025,石景山,一模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,阅读材料，参考示例，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0195_2025_西城_一模_20,2025,西城,一模,20,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,结合材料，综合运用经济和法律的知识，说明上述做法能促进社会公平与经济效率的平衡。,Kept as open container or transfer-only; does not support core codebook.
+CC0200_2025_西城_二模_18,2025,西城,二模,18,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MINOR_TRANSACTION_FAULT_ALLOCATION,结合材料，运用《法律与生活》的知识，分析人民法院的判决结果。,Kept as open container or transfer-only; does not support core codebook.
+CC0206_2025_西城_期末_19,2025,西城,期末,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_008,运用法律知识分析法院的判决。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0213_2025_门头沟_一模_20,2025,门头沟,一模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,请结合以下案例，参照所给示例完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0214_2025_门头沟_一模_20_2,2025,门头沟,一模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,请结合案例二，参照所给示例完成裁判要点中的裁判理由②。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0223_2025_顺义_一模_19,2025,顺义,一模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002,"运用法治知识，设问指向是阐释定分止争的价值，运用
+《法律与生活》的知识进行说明。",Expansion draft has core code support; still requires full sentence pressure-test.
+CC0229_2026_东城_一模_18,2026,东城,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_008,结合材料，运用《法律与生活》知识，谈谈法院是如何以司法之力守护“向新力”的。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0238_2026_东城_二模_19,2026,东城,二模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_004|CODE_COWORK_006,结合材料，运用《法律与生活》知识，评析乙公司和张某的行为。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0244_2026_东城_期末_18,2026,东城,期末,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_004|CODE_COWORK_006,运用《法律与生活》知识，分析本案涉及的法律责任及法律依据。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0245_2026_东城_期末_18_2,2026,东城,期末,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,维权成功需要做好充分准备和策略选择。你认为陈某需要做好哪些工作？,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0251_2026_丰台_一模_20,2026,丰台,一模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_002|CODE_COWORK_003,结合材料，运用《法律与生活》知识，阐明人民法院作出该判决的法理依据和现实意义。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0254_2026_丰台_二模_18,2026,丰台,二模,18,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_AFTER_PATCH_ONLY|OPEN_CONTAINER_LAW_MORAL_MEDIATION_ANIMAL_TORT,司法给予我们的不仅是定分止争，也是一份融通情理的温暖力量。结合材料，综合运用法治知识，阐明你对这一观点的认识。,Kept as open container or transfer-only; does not support core codebook.
+CC0276_2026_房山_二模_17,2026,房山,二模,17,formal,REFERENCE_OR_REJECT_NON_CORE,NA,中国走向世界，以负责任大国参与国际事务，必须善于运用法治。结合材料，运用法治知识，谈谈中国是如何加强涉外法治建设的。,Not core support; reference_only or rejected by dual-model adjudication.
+CC0277_2026_房山_二模_18,2026,房山,二模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,结合材料一，运用《法律与生活》知识，分析上述场景可能涉及的法律边界，并提出应对措施。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0283_2026_朝阳_一模_18,2026,朝阳,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_008,结合材料，运用《法律与生活》知识，谈谈人民法院是如何依法保护知识产权以护航新质生产力发展的。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0289_2026_朝阳_二模_18,2026,朝阳,二模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,结合材料，《法律与生活》，补充完整。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0311_2026_海淀_二模_18_2,2026,海淀,二模,18,reference_only,REFERENCE_OR_REJECT_NON_CORE,NA,结合材料二，运用《法律与生活》知识，分析上述关于知识产权的法律规定是如何助力企业创新与发展的。（8分）,Not core support; reference_only or rejected by dual-model adjudication.
+CC0317_2026_海淀_期末_18,2026,海淀,期末,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_006,运用《法律与生活》知识，判断这一条款是否有效，并说明理由。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0318_2026_海淀_期末_18_2,2026,海淀,期末,18,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,运用法治知识，分析《住房租赁条例》上述规定的现实意义。,Kept as open container or transfer-only; does not support core codebook.
+CC0319_2026_海淀_期末_19,2026,海淀,期末,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_008,运用《法律与生活》知识，谈谈对本案判决的认识。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0325_2026_石景山_一模_18,2026,石景山,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,阅读材料，参考示例，分析案件中举证责任的分配方式及理由，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0332_2026_石景山_二模_19,2026,石景山,二模,19,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,结合材料，运用《法律与生活》知识，谈谈对未成年人校园欺凌违法行为“惩”“教”并行的认识。,Kept as open container or transfer-only; does not support core codebook.
+CC0340_2026_西城_一模_17,2026,西城,一模,17,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,结合材料，运用法律相关知识，说明民法典物权编的上述规定如何推动国家绿色发展。,Kept as open container or transfer-only; does not support core codebook.
+CC0353_2026_西城_期末_17,2026,西城,期末,17,reference_only,REFERENCE_OR_REJECT_NON_CORE,NA,运用法律知识，分析法院的上述判决。,Not core support; reference_only or rejected by dual-model adjudication.
+CC0364_2026_通州_期末_19_1,2026,通州,期末,19,formal,SOURCE_CHECK_PENDING,CC0364_split_required,结合材料，运用《法律与生活》知识，分析判决结果并说明理由。,Giant rubric atom must be split before strong support can be counted.
+CC0305_2026_海淀_一模_18_3,2026,海淀,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_005,设问待 OCR 回补；评分细则显示要求判断是否支持原告诉讼请求，并说明隐私权、消费者知情权、虚假宣传/欺诈、侵权责任和惩罚性赔偿等法律依据。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0373_2026_顺义_一模_18,2026,顺义,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_005,结合材料，运用《法律与生活》知识，闫某和张某的诉求能否得到法院的支持，并说明理由。,Expansion draft has core code support; still requires full sentence pressure-test.
+CC0380_2026_顺义_二模_18_2,2026,顺义,二模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,设问待从试卷 OCR 回补；评标答案显示要求从必修3《政治与法治》和选必2《法律与生活》角度分析开源智能体法律风险与治理。,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2025_海淀_二模_18,2025,海淀,二模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,运用法治知识，将笔记中划线处补充完整。,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2026_通州_一模_20,2026,通州,一模,20,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_001,阅读材料，完成下表。,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2024_东城_一模_19,2024,东城,一模,19,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,针对上述案件，运用《法律与生活》知识，谈谈法律规定诉讼时效并对其不适用的情形加以规定的原因。（6分）,Kept as open container or transfer-only; does not support core codebook.
+RECOVER_2024_东城_二模_19_1,2024,东城,二模,19,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,请你选择其中一方进行代理，并撰写起诉状。（7分）,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2024_东城_二模_19_2,2024,东城,二模,19,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,为避免类似问题产生，我们应该________。（2分）,Kept as open container or transfer-only; does not support core codebook.
+RECOVER_2025_丰台_二模_19_2,2025,丰台,二模,19,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_MISC_SINGLETONS,一纸司法建议，既为当下划定了红线，防止技术滥用，又为未来创新发展预留了空间。运用《法律与生活》知识，谈谈你对这句话的理解。（8分）,Kept as open container or transfer-only; does not support core codebook.
+RECOVER_2026_延庆_一模_18_1,2026,延庆,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,结合材料一，运用《法律与生活》知识，分析M公司涉嫌哪些违法行为，若主持人李某诉至法院，可提出哪些诉讼请求并说明理由。（8分）,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2026_房山_一模_17_1,2026,房山,一模,17,formal,OPEN_CONTAINER_ONLY,OPEN_CONTAINER_AFTER_PATCH_ONLY|OPEN_CONTAINER_AI_CIVIL_RELATION_RESPONSIBILITY,结合材料，运用“民事法律关系”知识，辨析“AI幻觉造成损失谁买单”。（3分）,Kept as open container or transfer-only; does not support core codebook.
+RECOVER_2026_西城_二模_18_1,2026,西城,二模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_004|CODE_COWORK_006,结合材料，阐明本案判决的法律依据。（4分）,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2026_西城_二模_18_2,2026,西城,二模,18,formal,NO_EXPANSION_SUPPORT_YET,,结合该案判决对生成式AI权责边界的认定，分析其对促进AI产业发展的影响。（6分）,No dual-model expansion support after current round; keep pending for later source check.
+RECOVER_2026_西城_二模_18_3,2026,西城,二模,18,formal,NO_EXPANSION_SUPPORT_YET,,结合材料二，从法治的角度，阐释最高人民法院发布典型案例对推进国家治理能力现代化的意义。（6分）,No dual-model expansion support after current round; keep pending for later source check.
+RECOVER_2026_门头沟_一模_18_1,2026,门头沟,一模,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_007,结合材料，运用《法律与生活》的知识，说明本案是如何消除损害风险，维护生态环境公共利益的。（8分）,Expansion draft has core code support; still requires full sentence pressure-test.
+RECOVER_2026_朝阳_期末_18_1,2026,朝阳,期末,18,formal,CORE_CODEBOOK_SUPPORT,CODE_COWORK_006,结合上述案例，运用《法律与生活》知识，说明法院判决的依据。（7分）,Expansion draft has core code support; still requires full sentence pressure-test.

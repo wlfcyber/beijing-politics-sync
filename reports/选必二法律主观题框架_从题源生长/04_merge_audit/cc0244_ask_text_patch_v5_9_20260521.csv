@@ -1,0 +1,2 @@
+﻿question_id,field,old_value,new_value,patch_reason,patch_status
+CC0244_2026_东城_期末_18,ask_text,运用《法律与生活》知识，分析本案涉及的法律责任及法律依据。,（1）运用《法律与生活》知识，分析本案涉及的法律责任及法律依据。（2）维权成功需要做好充分准备和策略选择。你认为陈某需要做好哪些工作？,V5.9 core run and blind test show CC0244 has two asks; canonical STEP_29 question row only carried ask (1). Keep as derived patch pending source-card promotion.,derived_v5_9_patch_not_overwriting_step29_canonical

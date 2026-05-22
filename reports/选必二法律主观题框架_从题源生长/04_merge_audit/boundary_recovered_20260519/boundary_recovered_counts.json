@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-19T15:20:00+08:00",
+  "previous_boundary_patched_question_rows": 53,
+  "recovered_question_rows_added": 3,
+  "boundary_recovered_question_rows": 56,
+  "previous_material_atoms": 535,
+  "material_atoms_added": 12,
+  "boundary_recovered_material_atoms": 547,
+  "previous_ask_atoms": 53,
+  "ask_atoms_added": 3,
+  "boundary_recovered_ask_atoms": 56,
+  "previous_rubric_atoms": 319,
+  "rubric_atoms_added": 18,
+  "boundary_recovered_rubric_atoms": 337,
+  "evidence_level_counts": {
+    "formal": 51,
+    "reference_only": 5
+  },
+  "uncertain_mixed_not_counted_rows": 1
+}

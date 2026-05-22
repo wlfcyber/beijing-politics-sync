@@ -1,0 +1,4 @@
+﻿container_id,question_id,status,rubric_atom_ids,material_atom_ids,reason,core_codebook_use
+OPEN_CONTAINER_AI_RESPONSIBILITY_BOUNDARY,RECOVER_2026_西城_二模_18_2,open_container_only,不改 002 母模板),RECOVER_2026_西城_二模_18_2_R01|RECOVER_2026_西城_二模_18_2_R02|RECOVER_2026_西城_二模_18_2_R03,"但三角度与 002 现有""个人—司法/行业—社会核心价值观""不完全同构。",no
+BOUNDARY_CC0276_FOREIGN_RELATED_RULE_OF_LAW,CC0276_2026_房山_二模_17,boundary_exclude_core,不入核心),R_CC0276_2026_房山_二模_17_01,这是必修三/综合法治的国家治理叙事。,no
+BOUNDARY_RECOVER_2026_XICHENG_DIGITAL_GOVERNANCE,RECOVER_2026_西城_二模_18_3,boundary_exclude_core,不入核心),RECOVER_2026_西城_二模_18_3_R01|RECOVER_2026_西城_二模_18_3_R02|RECOVER_2026_西城_二模_18_3_R03,该题就是必修三化典型：(1)R01 标 can_be_written_without_material=yes,no

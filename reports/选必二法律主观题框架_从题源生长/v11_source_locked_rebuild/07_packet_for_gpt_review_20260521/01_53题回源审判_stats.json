@@ -1,0 +1,11 @@
+{
+  "final_decision": {
+    "重写": 10,
+    "待用户确认": 24,
+    "降级参考": 5,
+    "保留": 14
+  },
+  "need_source_repair": 29,
+  "material_pollution_unrepaired": 5,
+  "ocr_or_crosspage_unrepaired": 18
+}

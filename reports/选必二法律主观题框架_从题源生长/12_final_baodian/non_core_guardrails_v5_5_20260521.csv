@@ -1,0 +1,39 @@
+﻿question_id,year,district,exam_stage,question_no,evidence_level,v5_2_category,reason,framework_entry_nodes,old_pass_status,ask_text
+CC0011_2024_丰台_二模_17,2024,丰台,二模,17,formal,low_frequency_container,formal 但低频，不作为核心动作卡支撑,,PARTIAL_LOW_FREQ_CONTAINER,运用《法律与生活》知识，结合上述案例分析民法典的相关规定对保护生态环境的作用。
+CC0019_2024_朝阳_一模_19,2024,朝阳,一模,19,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0040_2024_海淀_一模_19,2024,海淀,一模,19,reference_only,reference_only_locked,普通参考答案/教师答案，不支撑核心,,PARTIAL_REFERENCE_ONLY,运用《法律与生活》知识，谈谈对本案判决的认识。
+CC0061_2024_西城_一模_18,2024,西城,一模,18,formal,source_check_pending,Claude Opus V5.2 复核要求移出核心并回源：材料/答案/细则或生成答案存在错位/元信息污染风险,,PASS_CANDIDATE,运用法治知识，谈谈对二审法院向郭某的三个儿子发出《督促履行义务告知书》的认识。
+CC0077_2025_东城_一模_19,2025,东城,一模,19,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0084_2025_东城_二模_19,2025,东城,二模,19,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0092_2025_东城_期末_19_1,2025,东城,期末,19,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0119_2025_丰台_期末_19,2025,丰台,期末,19,formal,source_check_pending,Claude Opus V5.2 复核要求移出核心并回源：材料/答案/细则或生成答案存在错位/元信息污染风险,,PASS_CANDIDATE,运用《法律与生活》相关知识阐释法院的裁判理由”→可分析法院裁判对构建合理健康的 劳动关系的意义。
+CC0131_2025_房山_一模_19,2025,房山,一模,19,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0137_2025_昌平_二模_20,2025,昌平,二模,20,formal,source_check_pending,Claude Opus V5.2 复核要求移出核心并回源：材料/答案/细则或生成答案存在错位/元信息污染风险,,PASS_CANDIDATE,运用《法律与生活》知识，完成裁判理由。
+CC0157_2025_朝阳_期末_20,2025,朝阳,期末,20,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0162_2025_海淀_一模_18,2025,海淀,一模,18,reference_only,reference_only_locked,普通参考答案/教师答案，不支撑核心,,PARTIAL_REFERENCE_ONLY,运用《法律与生活》知识，谈谈对本案判决的认识。
+CC0180_2025_海淀_期末_20,2025,海淀,期末,20,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0189_2025_石景山_一模_20,2025,石景山,一模,20,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0195_2025_西城_一模_20,2025,西城,一模,20,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0213_2025_门头沟_一模_20,2025,门头沟,一模,20,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0214_2025_门头沟_一模_20_2,2025,门头沟,一模,20,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0245_2026_东城_期末_18_2,2026,东城,期末,18,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0251_2026_丰台_一模_20,2026,丰台,一模,20,formal,source_check_pending,被 V5.2 强制要求回源清洗,,PASS_CANDIDATE,运用所学知识展开论述；逻辑严密，条理清晰 水平3 | 观点比较明确，能表达自己的见解；能扣住观点展开论述，知识运用比较准确；逻辑性较强，有条理 水平2 | 观点不明确；论述不能集中指向问题，罗列知识；知识运用不正确；论述缺乏逻辑，条理性差 水平1 | 应答与试题无关；或重复试题内容；或没有应答
+CC0254_2026_丰台_二模_18,2026,丰台,二模,18,formal,low_frequency_container,formal 但低频，不作为核心动作卡支撑,,PARTIAL_LOW_FREQ_CONTAINER,运用《法律与生活》知识，谈谈你对这句话的理解。
+CC0276_2026_房山_二模_17,2026,房山,二模,17,formal,boundary_open_container,综合/宏观治理/边界题，只进开放容器,,PARTIAL_BOUNDARY_OPEN,
+CC0277_2026_房山_二模_18,2026,房山,二模,18,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0283_2026_朝阳_一模_18,2026,朝阳,一模,18,formal,source_check_pending,被 V5.2 强制要求回源清洗,,PASS_CANDIDATE,运用纠纷的多元解决方式的知识，从调解的作用角度分析，说明人民法院坚持调解优先，减少了诉讼对 创新的干扰。
+CC0289_2026_朝阳_二模_18,2026,朝阳,二模,18,formal,source_check_pending,Claude Opus V5.2 复核要求移出核心并回源：材料/答案/细则或生成答案存在错位/元信息污染风险,,PASS_CANDIDATE,结合材料，《法律与生活》，补充完整。
+CC0311_2026_海淀_二模_18_2,2026,海淀,二模,18,reference_only,reference_only_locked,普通参考答案/教师答案，不支撑核心,,PARTIAL_REFERENCE_ONLY,结合材料二，运用《法律与生活》知识，分析上述关于知识产权的法律规定是如何助力企业创新与发展的。（8分）
+CC0317_2026_海淀_期末_18,2026,海淀,期末,18,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0318_2026_海淀_期末_18_2,2026,海淀,期末,18,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0319_2026_海淀_期末_19,2026,海淀,期末,19,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0325_2026_石景山_一模_18,2026,石景山,一模,18,formal,source_check_pending,ask_blank,,PARTIAL_SOURCE_CHECK,
+CC0332_2026_石景山_二模_19,2026,石景山,二模,19,formal,low_frequency_container,formal 但低频，不作为核心动作卡支撑,,PARTIAL_LOW_FREQ_CONTAINER,结合材料，运用《法律与生活》知识，谈谈对未成年人校园欺凌违法行为“惩”“教”并行的认识。
+CC0340_2026_西城_一模_17,2026,西城,一模,17,formal,low_frequency_container,formal 但低频，不作为核心动作卡支撑,,PARTIAL_LOW_FREQ_CONTAINER,结合材料，运用法律相关知识，说明民法典物权编的上述规定如何推动国家绿色发展。
+CC0353_2026_西城_期末_17,2026,西城,期末,17,reference_only,reference_only_locked,普通参考答案/教师答案，不支撑核心,,PARTIAL_REFERENCE_ONLY,
+CC0364_2026_通州_期末_19_1,2026,通州,期末,19,formal,excluded_logic_boundary,设问指向《逻辑与思维》，不进入选必二法律核心,,PASS_CANDIDATE,根据材料，判断推理①和②的逻辑正误，并结合《逻辑与思维》知识说明理由。
+CC0305_2026_海淀_一模_18_3,2026,海淀,一模,18,formal,source_check_pending,ask_pending_or_ocr,,PARTIAL_SOURCE_CHECK,设问待 OCR 回补；评分细则显示要求判断是否支持原告诉讼请求，并说明隐私权、消费者知情权、虚假宣传/欺诈、侵权责任和惩罚性赔偿等法律依据。
+CC0380_2026_顺义_二模_18_2,2026,顺义,二模,18,formal,boundary_open_container,综合/宏观治理/边界题，只进开放容器,,PARTIAL_BOUNDARY_OPEN,设问待从试卷 OCR 回补；评标答案显示要求从必修3《政治与法治》和选必2《法律与生活》角度分析开源智能体法律风险与治理。
+RECOVER_2024_东城_一模_19,2024,东城,一模,19,formal,low_frequency_container,formal 但低频，不作为核心动作卡支撑,,PARTIAL_LOW_FREQ_CONTAINER,针对上述案件，运用《法律与生活》知识，谈谈法律规定诉讼时效并对其不适用的情形加以规定的原因。（6分）
+RECOVER_2026_西城_二模_18_2,2026,西城,二模,18,formal,boundary_open_container,综合/宏观治理/边界题，只进开放容器,,PASS_CANDIDATE,结合该案判决对生成式AI权责边界的认定，分析其对促进AI产业发展的影响。（6分）
+RECOVER_2026_西城_二模_18_3,2026,西城,二模,18,formal,boundary_open_container,综合/宏观治理/边界题，只进开放容器,,PARTIAL_BOUNDARY_OPEN,结合材料二，从法治的角度，阐释最高人民法院发布典型案例对推进国家治理能力现代化的意义。（6分）

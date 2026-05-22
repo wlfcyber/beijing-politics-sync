@@ -1,0 +1,9 @@
+﻿sample_no,question_id,category,why_sampled,source_label
+1,CC0002_2024_丰台_一模_17,strict_core,核心侵权责任+价值,2024 丰台 一模 第17题
+2,CC0025_2024_朝阳_二模_17,strict_core,核心劳动/仲裁+价值,2024 朝阳 二模 第17题
+3,CC0103_2025_丰台_一模_19,strict_core,核心规则到社会价值,2025 丰台 一模 第19题
+4,CC0244_2026_东城_期末_18,strict_core,核心合同/违约/侵权责任,2026 东城 期末 第18题
+5,CC0011_2024_丰台_二模_17,low_frequency_container,低频绿色原则/环保侵权,2024 丰台 二模 第17题
+6,CC0019_2024_朝阳_一模_19,source_check_pending,设问需回源核对,2024 朝阳 一模 第19题
+7,CC0040_2024_海淀_一模_19,reference_only_locked,普通参考答案题,2024 海淀 一模 第19题
+8,RECOVER_2026_西城_二模_18_3,boundary_open_container,综合边界题,2026 西城 二模 第18题

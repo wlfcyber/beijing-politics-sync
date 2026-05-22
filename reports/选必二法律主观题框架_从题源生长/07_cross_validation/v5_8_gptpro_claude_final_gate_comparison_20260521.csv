@@ -1,0 +1,12 @@
+﻿comparison_item,gptpro,claude,codex_decision,required_action,artifact
+总裁定,PASS,PASS,keep,允许进入 Word/PDF 候选，但不得声称 65 题全部核心满分闭环。,v5_8_gptpro_claude_final_gate_comparison_20260521.md
+Word/PDF 门禁,YES_WITH_GUARDS,YES_WITH_GUARDS,keep_with_guards,封面和正文保留 27 核心 + 38 保分/边界/回源索引口径；PDF 必须显示红线。,future DOCX/PDF QA
+P0,无 P0,无 P0,pass,无阻断；继续做收尾修补。,
+核心入口 P1,学生稿已修；CSV minimum_judgment 残留旧多卡写法列为 P1,V5.7 P1 已修；CSV 字段未同步列为 P2,patch_before_word_pdf,生成 V5.9 CSV，将 minimum_judgment 改成 主卡/辅卡 + 具体先判句，禁止旧 X+Y 字段再生稿。,question_by_question_framework_runs_v5_9_27core65guard_20260521.csv
+低频题视觉红线,要求非核心红线在 PDF 视觉可见,点名 5 道 low-frequency 缺视觉红线块,patch_before_word_pdf,给 CC0011、CC0254、CC0332、CC0340、RECOVER_2024_东城_一模_19 补 LOW-FREQUENCY 提示块。,v5_9 handbook
+27 核心细则对账,允许核心进入候选；建议保留证据清洗与 QA,P2：27 核心全量 rubric 对账留痕,completed_mechanical_trace_manual_semantic_pending,已生成机械追踪；17 个 PASS_WITH_MANUAL_CHECK 后续在 Word/PDF 前语义确认。,v5_8_27_core_rubric_alignment_audit_20260521.md
+CC0150 跨模块原子,未列为主要问题,P2：R12-R24 串入选必一/国际政治经济原子,patch_cleaned_copy,生成清洗版 rubric atoms 和剔除报告，学生稿仍只用法律原子 R03-R11。,merged_rubric_atoms_subjective_v5_9_cleaned_cc0150_20260521.csv
+CC0223 材料触发污染,P1：material trigger 混入原卷无答案/分析/详解,未点名；12 题中未误升核心,patch_before_word_pdf,生成 V5.9 CSV 清理 material_trigger；生成 cleaned material atoms，把 M09-M24 标为 audit/non-material。,merged_material_atoms_subjective_v5_9_cleaned_cc0223_20260521.csv
+边界题必修三化风险,点名 RECOVER_2026_西城_二模_18_3 需改“只背综合边界最低句”并删泛政治话术,边界题保持非核心，不误升核心,patch_before_word_pdf,V5.9 学生稿改边界句，避免依法行政/规范权力运行等必修三化。,v5_9 handbook
+source-check 数量口径,24 个 source_check_pending，其中 23 个 SOURCE-CHECK 红线，1 个 CC0245 为 DUPLICATE-CROSSREF,封面口径 23 source-check + 1 duplicate-crossref；38 非核心总数正确,patch_wording,在成稿说明中写清 24/23/1 关系，避免前后矛盾。,v5_9 patch report
+最终发布前盲测,建议 5 核心 + 3 source-check + reference_only/boundary/transfer 抽样盲测,12 题抽测已通过，但 Word/PDF 前仍需红线视觉 QA,future_gate,V5.9 Word/PDF 生成后再做一次盲测和视觉 QA。,future validation

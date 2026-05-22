@@ -1,0 +1,66 @@
+﻿question_id,evidence_level,old_pass_status,v5_1_batch,v5_1_action,primary_node_old
+CC0002_2024_丰台_一模_17,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0011_2024_丰台_二模_17,formal,PARTIAL_LOW_FREQ_CONTAINER,低频formal容器,可教，不升核心。,LAW_V0_N03:切责成链
+CC0019_2024_朝阳_一模_19,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N03:切责成链
+CC0025_2024_朝阳_二模_17,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0040_2024_海淀_一模_19,reference_only,PARTIAL_REFERENCE_ONLY,reference_only锁死,只作参考，不进核心、不进句库。,LAW_V0_N02:先判后证
+CC0045_2024_海淀_二模_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0054_2024_石景山_一模_17,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0061_2024_西城_一模_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N01:一格一答
+CC0063_2024_西城_二模_16,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0077_2025_东城_一模_19,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N01:一格一答
+CC0084_2025_东城_二模_19,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N01:一格一答
+CC0092_2025_东城_期末_19_1,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0103_2025_丰台_一模_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0119_2025_丰台_期末_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0125_2025_延庆_一模_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0131_2025_房山_一模_19,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0137_2025_昌平_二模_20,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N01:一格一答
+CC0143_2025_朝阳_一模_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0150_2025_朝阳_二模_20,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N03:切责成链
+CC0157_2025_朝阳_期末_20,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N01:一格一答
+CC0162_2025_海淀_一模_18,reference_only,PARTIAL_REFERENCE_ONLY,reference_only锁死,只作参考，不进核心、不进句库。,LAW_V0_N02:先判后证
+CC0180_2025_海淀_期末_20,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N03:切责成链
+CC0181_2025_海淀_期末_21,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0189_2025_石景山_一模_20,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N01:一格一答
+CC0195_2025_西城_一模_20,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N03:切责成链
+CC0200_2025_西城_二模_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0206_2025_西城_期末_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0213_2025_门头沟_一模_20,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0214_2025_门头沟_一模_20_2,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0223_2025_顺义_一模_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0229_2026_东城_一模_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0238_2026_东城_二模_19,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0244_2026_东城_期末_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0245_2026_东城_期末_18_2,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0251_2026_丰台_一模_20,formal,PASS_CANDIDATE,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0254_2026_丰台_二模_18,formal,PARTIAL_LOW_FREQ_CONTAINER,低频formal容器,可教，不升核心。,LAW_V0_N01:一格一答
+CC0276_2026_房山_二模_17,formal,PARTIAL_BOUNDARY_OPEN,边界/开放容器,作为刹车题，不进私法核心。,LAW_V0_N03:切责成链
+CC0277_2026_房山_二模_18,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N03:切责成链
+CC0283_2026_朝阳_一模_18,formal,PASS_CANDIDATE,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0289_2026_朝阳_二模_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N03:切责成链
+CC0311_2026_海淀_二模_18_2,reference_only,PARTIAL_REFERENCE_ONLY,reference_only锁死,只作参考，不进核心、不进句库。,LAW_V0_N04:护创新
+CC0317_2026_海淀_期末_18,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N03:切责成链
+CC0318_2026_海淀_期末_18_2,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N03:切责成链
+CC0319_2026_海淀_期末_19,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0325_2026_石景山_一模_18,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0332_2026_石景山_二模_19,formal,PARTIAL_LOW_FREQ_CONTAINER,低频formal容器,可教，不升核心。,LAW_V0_N01:一格一答
+CC0340_2026_西城_一模_17,formal,PARTIAL_LOW_FREQ_CONTAINER,低频formal容器,可教，不升核心。,LAW_V0_N03:切责成链
+CC0353_2026_西城_期末_17,reference_only,PARTIAL_REFERENCE_ONLY,reference_only锁死,只作参考，不进核心、不进句库。,LAW_V0_N02:先判后证
+CC0364_2026_通州_期末_19_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0305_2026_海淀_一模_18_3,formal,PARTIAL_SOURCE_CHECK,先回源补设问/清洗题面,补真实设问、页码和题干后再定。,LAW_V0_N02:先判后证
+CC0373_2026_顺义_一模_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+CC0380_2026_顺义_二模_18_2,formal,PARTIAL_BOUNDARY_OPEN,边界/开放容器,作为刹车题，不进私法核心。,LAW_V0_N03:切责成链
+RECOVER_2025_海淀_二模_18,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N03:切责成链
+RECOVER_2026_通州_一模_20,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+RECOVER_2024_东城_一模_19,formal,PARTIAL_LOW_FREQ_CONTAINER,低频formal容器,可教，不升核心。,LAW_V0_N05:走救济
+RECOVER_2024_东城_二模_19_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+RECOVER_2024_东城_二模_19_2,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N03:切责成链
+RECOVER_2025_丰台_二模_19_2,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N03:切责成链
+RECOVER_2026_延庆_一模_18_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+RECOVER_2026_房山_一模_17_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N03:切责成链
+RECOVER_2026_西城_二模_18_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+RECOVER_2026_西城_二模_18_2,formal,PASS_CANDIDATE,边界/开放容器,作为刹车题，不进私法核心。,LAW_V0_N02:先判后证
+RECOVER_2026_西城_二模_18_3,formal,PARTIAL_BOUNDARY_OPEN,边界/开放容器,作为刹车题，不进私法核心。,LAW_V0_N02:先判后证
+RECOVER_2026_门头沟_一模_18_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证
+RECOVER_2026_朝阳_期末_18_1,formal,PASS_CANDIDATE,核心扩展候选,V5.1 样章返工后进入35题扩展。,LAW_V0_N02:先判后证

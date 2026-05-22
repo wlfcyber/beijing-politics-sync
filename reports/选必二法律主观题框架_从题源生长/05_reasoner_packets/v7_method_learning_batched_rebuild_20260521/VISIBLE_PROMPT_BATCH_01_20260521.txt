@@ -1,0 +1,1 @@
+请读取刚上传的 BATCH_01 包，只处理 BATCH_01_HIGH_FREQ_CORE_JUDGMENT。输出四段：batch_mechanisms、student_start_moves、material_to_legal_translation、full_score_sentence_rules。不要生成总框架。请保留 question_id 和 rubric_atom_id，并指出哪些旧 V6.9 节点应删或降级。

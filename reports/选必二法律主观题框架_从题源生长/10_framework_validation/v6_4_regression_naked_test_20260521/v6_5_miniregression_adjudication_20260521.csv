@@ -1,0 +1,9 @@
+﻿check,result
+direct_table_fill,PASS
+no_conditional_table_phrase,PASS
+self_cause_or_disease,PASS
+not_other_party_behavior,PASS
+no_causation,PASS
+no_intent_or_gross_negligence,PASS
+fairness_and_community,PASS
+OVERALL,PASS

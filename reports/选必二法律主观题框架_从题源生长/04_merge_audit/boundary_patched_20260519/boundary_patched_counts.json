@@ -1,0 +1,27 @@
+{
+  "original_questions": 70,
+  "removed_original_question_ids": 20,
+  "split_questions_added": 3,
+  "boundary_patched_questions": 53,
+  "original_material_atoms": 929,
+  "boundary_patched_material_atoms": 535,
+  "original_ask_atoms": 70,
+  "boundary_patched_ask_atoms": 53,
+  "original_rubric_atoms_after_cc0229_patch": 499,
+  "boundary_patched_rubric_atoms": 319,
+  "status_counts": {
+    "excluded": 12,
+    "open_reference_or_weak": 4,
+    "core_recovered": 9,
+    "not_counted_parent_unit": 5,
+    "pending_split_not_open": 1,
+    "duplicate_or_reextract_pending": 2,
+    "pending_missing_legal_rubric": 2,
+    "core_recovered_split": 2,
+    "open_formal_split": 1
+  },
+  "patched_question_origin_counts": {
+    "original_merged_retained": 50,
+    "split_patch": 3
+  }
+}

@@ -1,0 +1,66 @@
+﻿question_id,old_pass_status,evidence_level,expansion_status,final_resolution_status,core_codebook_use,next_action
+CC0002_2024_丰台_一模_17,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0011_2024_丰台_二模_17,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0019_2024_朝阳_一模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0025_2024_朝阳_二模_17,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0040_2024_海淀_一模_19,PARTIAL,reference_only,REFERENCE_OR_REJECT_NON_CORE,PARTIAL,no,reference-only demo only; cannot support core
+CC0045_2024_海淀_二模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0054_2024_石景山_一模_17,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0061_2024_西城_一模_18,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0063_2024_西城_二模_16,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0077_2025_东城_一模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0084_2025_东城_二模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0092_2025_东城_期末_19_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0103_2025_丰台_一模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0119_2025_丰台_期末_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0125_2025_延庆_一模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0131_2025_房山_一模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0137_2025_昌平_二模_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0143_2025_朝阳_一模_19,FAIL,formal,NO_EXPANSION_SUPPORT_YET,PASS_AFTER_CC0143_PATCH,yes,eligible for framework synthesis
+CC0150_2025_朝阳_二模_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0157_2025_朝阳_期末_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0162_2025_海淀_一模_18,PARTIAL,reference_only,REFERENCE_OR_REJECT_NON_CORE,PARTIAL,no,reference-only demo only; cannot support core
+CC0180_2025_海淀_期末_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0181_2025_海淀_期末_21,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0189_2025_石景山_一模_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0195_2025_西城_一模_20,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0200_2025_西城_二模_18,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0206_2025_西城_期末_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0213_2025_门头沟_一模_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0214_2025_门头沟_一模_20_2,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0223_2025_顺义_一模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0229_2026_东城_一模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0238_2026_东城_二模_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0244_2026_东城_期末_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0245_2026_东城_期末_18_2,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0251_2026_丰台_一模_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0254_2026_丰台_二模_18,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0276_2026_房山_二模_17,FAIL,formal,REFERENCE_OR_REJECT_NON_CORE,BOUNDARY_EXCLUDED_NON_CORE,no,keep in boundary appendix; do not use as xuanbier core support
+CC0277_2026_房山_二模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0283_2026_朝阳_一模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0289_2026_朝阳_二模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0311_2026_海淀_二模_18_2,PARTIAL,reference_only,REFERENCE_OR_REJECT_NON_CORE,PARTIAL,no,reference-only demo only; cannot support core
+CC0317_2026_海淀_期末_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0318_2026_海淀_期末_18_2,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0319_2026_海淀_期末_19,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0325_2026_石景山_一模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0332_2026_石景山_二模_19,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0340_2026_西城_一模_17,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+CC0353_2026_西城_期末_17,PARTIAL,reference_only,REFERENCE_OR_REJECT_NON_CORE,PARTIAL,no,reference-only demo only; cannot support core
+CC0364_2026_通州_期末_19_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0305_2026_海淀_一模_18_3,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0373_2026_顺义_一模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+CC0380_2026_顺义_二模_18_2,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2025_海淀_二模_18,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2026_通州_一模_20,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2024_东城_一模_19,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+RECOVER_2024_东城_二模_19_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2024_东城_二模_19_2,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+RECOVER_2025_丰台_二模_19_2,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+RECOVER_2026_延庆_一模_18_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2026_房山_一模_17_1,PARTIAL,formal,OPEN_CONTAINER_ONLY,PARTIAL,no,open/partial support; pressure-test during framework synthesis but do not create unsupported node
+RECOVER_2026_西城_二模_18_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2026_西城_二模_18_2,FAIL,formal,NO_EXPANSION_SUPPORT_YET,OPEN_CONTAINER_ONLY,no,keep in open container; do not generate core node
+RECOVER_2026_西城_二模_18_3,FAIL,formal,NO_EXPANSION_SUPPORT_YET,BOUNDARY_EXCLUDED_NON_CORE,no,keep in boundary appendix; do not use as xuanbier core support
+RECOVER_2026_门头沟_一模_18_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis
+RECOVER_2026_朝阳_期末_18_1,PASS,formal,CORE_CODEBOOK_SUPPORT,PASS,yes,eligible for framework synthesis

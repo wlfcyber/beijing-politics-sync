@@ -1,0 +1,22 @@
+﻿severity,issue_type,target,message
+high,missing_ask_text,CC0019_2024_朝阳_一模_19,ask_text is empty
+high,missing_ask_text,CC0077_2025_东城_一模_19,ask_text is empty
+high,missing_ask_text,CC0084_2025_东城_二模_19,ask_text is empty
+high,missing_ask_text,CC0092_2025_东城_期末_19_1,ask_text is empty
+high,missing_ask_text,CC0131_2025_房山_一模_19,ask_text is empty
+high,missing_ask_text,CC0157_2025_朝阳_期末_20,ask_text is empty
+high,missing_ask_text,CC0180_2025_海淀_期末_20,ask_text is empty
+high,missing_ask_text,CC0189_2025_石景山_一模_20,ask_text is empty
+high,missing_ask_text,CC0195_2025_西城_一模_20,ask_text is empty
+high,missing_ask_text,CC0213_2025_门头沟_一模_20,ask_text is empty
+high,missing_ask_text,CC0214_2025_门头沟_一模_20_2,ask_text is empty
+high,missing_ask_text,CC0245_2026_东城_期末_18_2,ask_text is empty
+high,missing_ask_text,CC0276_2026_房山_二模_17,ask_text is empty
+high,missing_ask_text,CC0277_2026_房山_二模_18,ask_text is empty
+high,missing_ask_text,CC0317_2026_海淀_期末_18,ask_text is empty
+high,missing_ask_text,CC0318_2026_海淀_期末_18_2,ask_text is empty
+high,missing_ask_text,CC0319_2026_海淀_期末_19,ask_text is empty
+high,missing_ask_text,CC0325_2026_石景山_一模_18,ask_text is empty
+high,missing_ask_text,CC0353_2026_西城_期末_17,ask_text is empty
+high,reference_only_set,questions,"actual=['CC0040_2024_海淀_一模_19', 'CC0162_2025_海淀_一模_18', 'CC0311_2026_海淀_二模_18_2', 'CC0353_2026_西城_期末_17'] expected=['CC0040', 'CC0162', 'CC0311_2026_海淀_二模_18_2', 'CC0353_2026_西城_期末_17']"
+medium,true_no_law_suite_status_not_confirmed,2024-海淀-期中,status=midterm_boundary_no_core_after_claudecode_audit

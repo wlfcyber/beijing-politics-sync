@@ -1,0 +1,1 @@
+请读取刚上传的 BATCH_03 包，只处理 BATCH_03_INNOVATION_AI_VALUE。重点看创新竞争、AI、价值题如何不空泛。输出 batch_mechanisms、student_start_moves、material_to_legal_translation、full_score_sentence_rules，并指出 V6.9 哪些价值/战场节点要删或降级。不要生成总框架，保留 question_id 和 rubric_atom_id。

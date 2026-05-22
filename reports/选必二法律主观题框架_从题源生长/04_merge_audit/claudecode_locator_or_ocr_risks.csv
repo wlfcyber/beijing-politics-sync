@@ -1,0 +1,23 @@
+﻿question_id_candidate,year,district,exam_stage,question_no,sub_question_no,issue,source_locator
+CC0001_2024_丰台_一模_16,2024,丰台,一模,16,,no paper-role segment for this question; locator derived from rubric/answer file,F0044:text | F0045:page 4 | F0045:page 8 | F0267:page 4 | F0267:page 8 | F0268:text
+CC0002_2024_丰台_一模_17,2024,丰台,一模,17,,no paper-role segment for this question; locator derived from rubric/answer file,F0045:page 4 | F0045:page 8 | F0267:page 4 | F0267:page 8
+CC0011_2024_丰台_二模_17,2024,丰台,二模,17,,no paper-role segment for this question; locator derived from rubric/answer file,F0047:text | F0270:text
+CC0019_2024_朝阳_一模_19,2024,朝阳,一模,19,,no paper-role segment for this question; locator derived from rubric/answer file,F0014:text | F0239:text
+CC0051_2024_海淀_期中_21_1,2024,海淀,期中,21,1,no paper-role segment for this question; locator derived from rubric/answer file,F0027:page 50 | F0027:page 52 | F0252:page 50 | F0252:page 52
+CC0092_2025_东城_期末_19_1,2025,东城,期末,19,1,no paper-role segment for this question; locator derived from rubric/answer file,F0128:page 11 | F0129:slide 11 | F0129:slide 12 | F0338:page 11
+CC0094_2025_东城_期末_19_3,2025,东城,期末,19,3,no paper-role segment for this question; locator derived from rubric/answer file,F0128:page 13 | F0129:slide 14 | F0338:page 13
+CC0118_2025_丰台_期末_18_2,2025,丰台,期末,18,2,no paper-role segment for this question; locator derived from rubric/answer file,F0131:slide 31 | F0342:slide 31
+CC0168_2025_海淀_二模_20,2025,海淀,二模,20,,no paper-role segment for this question; locator derived from rubric/answer file,F0120:page 43 | F0333:page 43
+CC0214_2025_门头沟_一模_20_2,2025,门头沟,一模,20,2,no paper-role segment for this question; locator derived from rubric/answer file,F0095:text | F0313:text
+CC0245_2026_东城_期中_18_2,2026,东城,期中,18,2,no paper-role segment for this question; locator derived from rubric/answer file,F0205:slide 56
+CC0250_2026_丰台_一模_19,2026,丰台,一模,19,,no paper-role segment for this question; locator derived from rubric/answer file,F0156:slide 42
+CC0251_2026_丰台_一模_20,2026,丰台,一模,20,,no paper-role segment for this question; locator derived from rubric/answer file,F0156:slide 51
+CC0254_2026_丰台_二模_18,2026,丰台,二模,18,,no paper-role segment for this question; locator derived from rubric/answer file,F0187:slide 29
+CC0259_2026_丰台_期中_19,2026,丰台,期中,19,,no paper-role segment for this question; locator derived from rubric/answer file,F0207:page 33 | F0388:page 33
+CC0305_2026_海淀_一模_18,2026,海淀,一模,18,,no paper-role segment for this question; locator derived from rubric/answer file,F0165:page 3 | F0375:page 3
+CC0318_2026_海淀_期中_18_2,2026,海淀,期中,18,2,no paper-role segment for this question; locator derived from rubric/answer file,F0216:page 2 | F0396:page 2
+CC0353_2026_西城_期中_17,2026,西城,期中,17,,no paper-role segment for this question; locator derived from rubric/answer file,F0221:page 11
+CC0358_2026_通州_一模_17,2026,通州,一模,17,,no paper-role segment for this question; locator derived from rubric/answer file,F0172:page 5
+CC0364_2026_通州_期中_19_1,2026,通州,期中,19,1,no paper-role segment for this question; locator derived from rubric/answer file,F0223:slide 11 | F0403:slide 11
+CC0373_2026_顺义_一模_17,2026,顺义,一模,17,,no paper-role segment for this question; locator derived from rubric/answer file,F0176:slide 3 | F0383:slide 3
+CC0380_2026_顺义_二模_18,2026,顺义,二模,18,,no paper-role segment for this question; locator derived from rubric/answer file,F0202:text

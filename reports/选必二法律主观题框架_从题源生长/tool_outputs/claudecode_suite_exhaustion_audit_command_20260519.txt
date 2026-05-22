@@ -1,0 +1,5 @@
+timestamp=2026-05-19T15:33:22+0800
+claude_path=/Users/wanglifei/.local/bin/claude
+claude_version=2.1.144 (Claude Code)
+cwd=/Users/wanglifei/Desktop/北京高考政治
+command=claude -p --permission-mode bypassPermissions --add-dir /Users/wanglifei/Desktop/北京高考政治 --add-dir /Users/wanglifei/Desktop/2024模拟题 --add-dir /Users/wanglifei/Desktop/2025模拟题 --add-dir /Users/wanglifei/Desktop/2026模拟题 --add-dir /Users/wanglifei/GaokaoPolitics < /Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/handoff_prompts/PROMPT_FOR_CLAUDECODE_SUITE_EXHAUSTION_AUDIT_20260519.md

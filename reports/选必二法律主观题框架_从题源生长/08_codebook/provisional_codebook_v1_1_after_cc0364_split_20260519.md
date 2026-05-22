@@ -1,0 +1,66 @@
+# Provisional Codebook v1.1 After CC0364 Split
+
+This remains a provisional codebook for pressure testing, not a final framework.
+
+- source codebook: `/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/08_codebook/provisional_codebook_v1_expansion_draft_20260519.csv`
+- CC0364 giant rubric atom split completed and added as limited support to `CODE_COWORK_004` and `CODE_COWORK_006`.
+- `PATCH_CC0364_R04` is an alternative/low-score fact-analysis atom and must not be cumulated with `PATCH_CC0364_R03` as extra factual points.
+- `PATCH_CC0364_R06` and `PATCH_CC0364_R07` are value-tail atoms; they cannot independently support a core framework node.
+
+## Code Rows
+
+### CODE_COWORK_001 — "阅读材料完成下表/补充裁判理由"型表格题，每个空格是独立赋分单元；跨格抄写模板套话、不区分主体的"维护双方合法权益"式表述被显式扣分。
+
+- status: provisional_expanded
+- supporting_question_count: 11
+- supporting_question_ids: CC0077_2025_东城_一模_19|CC0084_2025_东城_二模_19|CC0157_2025_朝阳_期末_20|CC0180_2025_海淀_期末_20|CC0325_2026_石景山_一模_18|RECOVER_2026_通州_一模_20|CC0189_2025_石景山_一模_20|CC0213_2025_门头沟_一模_20|CC0214_2025_门头沟_一模_20_2|CC0137_2025_昌平_二模_20|RECOVER_2025_海淀_二模_18
+- rubric_atom_ids: R_CC0077_2025_东城_一模_19_02|R_CC0077_2025_东城_一模_19_07|R_CC0084_2025_东城_二模_19_07|R_CC0180_2025_海淀_期末_20_M17_06|R_CC0189_2025_石景山_一模_20_02|R_CC0189_2025_石景山_一模_20_03|R_CC0189_2025_石景山_一模_20_04|R_CC0213_2025_门头沟_一模_20_M17_03|R_CC0213_2025_门头沟_一模_20_M17_04|R_CC0213_2025_门头沟_一模_20_M17_07|R_CC0213_2025_门头沟_一模_20_M17_08|R_CC0214_2025_门头沟_一模_20_2_02|R_CC0214_2025_门头沟_一模_20_2_03|R_CC0214_2025_门头沟_一模_20_2_04|R_CC0137_2025_昌平_二模_20_05|R_CC0137_2025_昌平_二模_20_06|R_CC0137_2025_昌平_二模_20_07|R_RECOVER_2025_海淀_二模_18_02|R_RECOVER_2025_海淀_二模_18_03|R_RECOVER_2025_海淀_二模_18_08
+
+### CODE_COWORK_002 — 凡设问含"现实意义/社会价值/典型意义/意义"且独立赋分 ≥ 3 分的题，意义层按"个人/当事人合法权益—司法或行业秩序—社会公平/核心价值观"三个角度分点给分
+
+- status: provisional_expanded
+- supporting_question_count: 7
+- supporting_question_ids: CC0002_2024_丰台_一模_17|CC0251_2026_丰台_一模_20|CC0019_2024_朝阳_一模_19|CC0054_2024_石景山_一模_17|CC0045_2024_海淀_二模_19|CC0063_2024_西城_二模_16|CC0223_2025_顺义_一模_19
+- rubric_atom_ids: R_CC0002_2024_丰台_一模_17_M17_04|R_CC0002_2024_丰台_一模_17_M17_05|R_CC0002_2024_丰台_一模_17_M17_06|PATCH_CC0019_R01|PATCH_CC0019_R02|PATCH_CC0019_R03|PATCH_CC0019_R04|PATCH_CC0019_R05|PATCH_CC0019_R06|R_CC0054_2024_石景山_一模_17_M17_04|R_CC0054_2024_石景山_一模_17_M17_05|R_CC0054_2024_石景山_一模_17_M17_06|R_CC0045_2024_海淀_二模_19_01|R_CC0063_2024_西城_二模_16_01|R_CC0223_2025_顺义_一模_19_M17_04|R_CC0223_2025_顺义_一模_19_M17_05|R_CC0223_2025_顺义_一模_19_M17_06
+
+### CODE_COWORK_003 — 凡设问对象是"法院判决/裁判理由/法官调解"且分值 ≥ 5 分的题，"判决以事实为依据、以法律为准绳"是被显式记入评分细则的"必踩点 1 分"。学生只要不点出该
+
+- status: provisional
+- supporting_question_count: 3
+- supporting_question_ids: CC0002_2024_丰台_一模_17|CC0119_2025_丰台_期末_19|CC0251_2026_丰台_一模_20
+- rubric_atom_ids: R_CC0002_2024_丰台_一模_17_M17_01|R_CC0119_2025_丰台_期末_19_M17_01|R_CC0251_2026_丰台_一模_20_01
+
+### CODE_COWORK_004 — 凡设问形如"分析上述案例/分析判决结果并说明理由"且案例核心是侵权或合同纠纷时，评分按"①定性（权利名/行为性质）→②确权（援引法律规则）→③解释（材料事实嵌入
+
+- status: provisional_expanded_after_cc0364_split
+- supporting_question_count: 5
+- supporting_question_ids: CC0150_2025_朝阳_二模_20|CC0244_2026_东城_期末_18|RECOVER_2026_西城_二模_18_1|CC0238_2026_东城_二模_19|CC0364_2026_通州_期末_19_1
+- rubric_atom_ids: R_CC0150_2025_朝阳_二模_20_05|R_CC0150_2025_朝阳_二模_20_06|R_CC0150_2025_朝阳_二模_20_07|R_CC0150_2025_朝阳_二模_20_08|RECOVER_2026_西城_二模_18_1_R01|RECOVER_2026_西城_二模_18_1_R02|RECOVER_2026_西城_二模_18_1_R03|R_CC0238_2026_东城_二模_19_M17_01|R_CC0238_2026_东城_二模_19_M17_02|R_CC0238_2026_东城_二模_19_M17_03|R_CC0238_2026_东城_二模_19_M17_04|PATCH_CC0364_R01|PATCH_CC0364_R02|PATCH_CC0364_R03|PATCH_CC0364_R04|PATCH_CC0364_R05|PATCH_CC0364_R06|PATCH_CC0364_R07
+
+### CODE_COWORK_005 — 评析类（含"判断…是否有效/能否得到法院支持/是否构成××"）题，得分有强制顺序：第一步先做表态（支持/不支持/有效/无效/构成/不构成），第二步分别给出"法律
+
+- status: provisional
+- supporting_question_count: 2
+- supporting_question_ids: CC0305_2026_海淀_一模_18_3|CC0373_2026_顺义_一模_18
+- rubric_atom_ids: R_CC0305_2026_海淀_一模_18_3_P01|R_CC0373_2026_顺义_一模_18_P01|R_CC0373_2026_顺义_一模_18_P04
+
+### CODE_COWORK_006 — 凡设问形如"分析上述案例/分析判决结果并说明理由"且案例核心是侵权或合同纠纷时，评分按"①定性（权利名/行为性质）→②确权（援引法律规则）→③解释（材料事实嵌入
+
+- status: provisional_expanded_after_cc0364_split
+- supporting_question_count: 6
+- supporting_question_ids: CC0244_2026_东城_期末_18|CC0317_2026_海淀_期末_18|RECOVER_2026_朝阳_期末_18_1|RECOVER_2026_西城_二模_18_1|CC0238_2026_东城_二模_19|CC0364_2026_通州_期末_19_1
+- rubric_atom_ids: R_CC0244_2026_东城_期末_18_08|R_RECOVER_2026_朝阳_期末_18_1_01|RECOVER_2026_西城_二模_18_1_R01|RECOVER_2026_西城_二模_18_1_R02|RECOVER_2026_西城_二模_18_1_R03|R_CC0238_2026_东城_二模_19_M17_01|R_CC0238_2026_东城_二模_19_M17_02|R_CC0238_2026_东城_二模_19_M17_03|R_CC0238_2026_东城_二模_19_M17_04|PATCH_CC0364_R01|PATCH_CC0364_R02|PATCH_CC0364_R03|PATCH_CC0364_R04|PATCH_CC0364_R05|PATCH_CC0364_R06|PATCH_CC0364_R07
+
+### CODE_COWORK_007 — 凡设问含"如何维权 / 提出措施 / 应对建议 / 怎么做"且分值 ≥ 2 分，rubric 一般按"程序救济路径（调解/仲裁/诉讼）+ 充分准备（起诉状、证据
+
+- status: provisional_expanded
+- supporting_question_count: 9
+- supporting_question_ids: CC0245_2026_东城_期末_18_2|CC0092_2025_东城_期末_19_1|CC0277_2026_房山_二模_18|CC0289_2026_朝阳_二模_18|CC0380_2026_顺义_二模_18_2|RECOVER_2024_东城_二模_19_1|RECOVER_2026_延庆_一模_18_1|RECOVER_2026_门头沟_一模_18_1|CC0125_2025_延庆_一模_19
+- rubric_atom_ids: R_CC0245_2026_东城_期末_18_2_01|R_CC0245_2026_东城_期末_18_2_02|R_CC0245_2026_东城_期末_18_2_04|R_CC0092_2025_东城_期末_19_1_01|R_CC0277_2026_房山_二模_18_04|R_CC0277_2026_房山_二模_18_05|R_CC0277_2026_房山_二模_18_06|R_CC0289_2026_朝阳_二模_18_04|R_CC0289_2026_朝阳_二模_18_06|R_CC0289_2026_朝阳_二模_18_08|R_CC0380_2026_顺义_二模_18_2_P01|R_CC0380_2026_顺义_二模_18_2_P03|R_CC0380_2026_顺义_二模_18_2_P04|RECOVER_2024_东城_二模_19_1_R01|RECOVER_2024_东城_二模_19_1_R02|RECOVER_2024_东城_二模_19_1_R03|RECOVER_2026_延庆_一模_18_1_R01|RECOVER_2026_延庆_一模_18_1_R02|RECOVER_2026_延庆_一模_18_1_R03|RECOVER_2026_门头沟_一模_18_1_R01|RECOVER_2026_门头沟_一模_18_1_R02|RECOVER_2026_门头沟_一模_18_1_R03|R_CC0125_2025_延庆_一模_19_M17_01|R_CC0125_2025_延庆_一模_19_M17_02|R_CC0125_2025_延庆_一模_19_M17_03
+
+### CODE_COWORK_008 — 知识产权/不正当竞争司法保护四步链
+
+- status: provisional_expanded
+- supporting_question_count: 6
+- supporting_question_ids: CC0131_2025_房山_一模_19|CC0206_2025_西城_期末_19|CC0229_2026_东城_一模_18|CC0283_2026_朝阳_一模_18|CC0319_2026_海淀_期末_19|CC0103_2025_丰台_一模_19
+- rubric_atom_ids: R_CC0131_2025_房山_一模_19_02|R_CC0131_2025_房山_一模_19_03|R_CC0131_2025_房山_一模_19_05|R_CC0131_2025_房山_一模_19_06|R_CC0206_2025_西城_期末_19_01|R_CC0229_2026_东城_一模_18_03|R_CC0229_2026_东城_一模_18_05|R_CC0229_2026_东城_一模_18_07|R_CC0283_2026_朝阳_一模_18_02|R_CC0283_2026_朝阳_一模_18_03|R_CC0283_2026_朝阳_一模_18_04|R_CC0283_2026_朝阳_一模_18_05|R_CC0319_2026_海淀_期末_19_01|R_CC0103_2025_丰台_一模_19_01

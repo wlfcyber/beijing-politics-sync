@@ -1,0 +1,9 @@
+sample_no,question_id,category,score_status,score,max_score,guard_status,lost_points_or_risk,decision
+1,CC0002_2024_丰台_一模_17,strict_core,PASS,8,8,core_full_answer_allowed,"完整写出好意同乘、无故意或重大过失、未系安全带/垫付费用、合理减责和价值。",keep
+2,CC0025_2024_朝阳_二模_17,strict_core,PASS,8,8,core_full_answer_allowed,"完整写出人格/经济/组织从属性、事实劳动关系、经济补偿和典型案例意义。",keep
+3,CC0103_2025_丰台_一模_19,strict_core,PASS,8,8,core_full_answer_allowed,"完整写出技术秘密、惩罚性赔偿、规范竞争、鼓励创新、同类案件范例；未滑向空泛法治中国。",keep
+4,CC0244_2026_东城_期末_18,strict_core,PASS_WITH_SOURCEPACK_NOTE,8,8,core_full_answer_allowed,"答案覆盖违约、侵权/产品责任、证据准备、请求设计、维权路径；但盲测题面包从 canonical question row 取 ask_text 时漏了第（2）问，需后续修题面包/源卡。",keep_with_sourcepack_patch
+5,CC0011_2024_丰台_二模_17,low_frequency_container,PASS_GUARD,,,must_not_claim_full_closure,"学生明确标为低频，只写绿色原则、技术创新、环境侵权责任三句保分，没有误升高频核心。",keep_guard
+6,CC0019_2024_朝阳_一模_19,source_check_pending,PASS_GUARD,,,must_not_claim_full_closure,"学生识别设问缺失/需回源，只写诚信原则最低保分方向，没有伪装闭合满分。",keep_guard
+7,CC0040_2024_海淀_一模_19,reference_only_locked,PASS_GUARD,,,must_not_claim_full_closure,"学生识别 reference-only，只作练笔；写出作品著作权、未经许可使用、不正当竞争，并声明不得支撑核心模板。",keep_guard
+8,RECOVER_2026_西城_二模_18_3,boundary_open_container,PASS_GUARD,,,must_not_claim_full_closure,"学生识别综合边界题，只写法律层最低表达，并明确其他模块另开段；未把它当纯法律闭合题。",keep_guard

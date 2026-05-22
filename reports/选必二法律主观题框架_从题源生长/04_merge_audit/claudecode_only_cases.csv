@@ -1,0 +1,6 @@
+﻿year,district,exam_stage,question_no,sub_question_no,claudecode_question_id,reason,evidence_level,source_locator
+2025,顺义,一模,16,,CC0218_2025_顺义_一模_16,Found by ClaudeCode independent extraction; absent in Codex output,formal,F0097:text | F0098:page 13 | F0098:page 5 | F0315:text
+2026,丰台,一模,19,,CC0250_2026_丰台_一模_19,Found by ClaudeCode independent extraction; absent in Codex output,formal,F0156:slide 42
+2026,通州,一模,17,,CC0358_2026_通州_一模_17,Found by ClaudeCode independent extraction; absent in Codex output,formal,F0172:page 5
+2026,通州,期中,19,1,CC0364_2026_通州_期中_19_1,Found by ClaudeCode independent extraction; absent in Codex output,formal,F0223:slide 11 | F0403:slide 11
+2026,顺义,一模,17,,CC0373_2026_顺义_一模_17,Found by ClaudeCode independent extraction; absent in Codex output,formal,F0176:slide 3 | F0383:slide 3

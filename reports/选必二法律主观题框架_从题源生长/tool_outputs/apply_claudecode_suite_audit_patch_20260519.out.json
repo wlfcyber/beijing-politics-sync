@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-05-19T16:02:13.322879+08:00",
+  "source_corpus": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/04_merge_audit/suite_exhaustive_20260519",
+  "claudecode_audit": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/04_merge_audit/claudecode_suite_exhaustion_audit_20260519",
+  "question_count": 65,
+  "material_atom_count": 541,
+  "ask_atom_count": 65,
+  "rubric_atom_count": 362,
+  "evidence_level_counts": {
+    "formal": 61,
+    "reference_only": 4
+  },
+  "removed_from_core_count": 2,
+  "added_core_question_ids": [
+    "RECOVER_2026_朝阳_期末_18_1"
+  ],
+  "renamed_question_ids": {
+    "CC0244_2026_东城_期中_18": "CC0244_2026_东城_期末_18",
+    "CC0245_2026_东城_期中_18_2": "CC0245_2026_东城_期末_18_2",
+    "CC0317_2026_海淀_期中_18": "CC0317_2026_海淀_期末_18",
+    "CC0318_2026_海淀_期中_18_2": "CC0318_2026_海淀_期末_18_2",
+    "CC0319_2026_海淀_期中_19": "CC0319_2026_海淀_期末_19",
+    "CC0353_2026_西城_期中_17": "CC0353_2026_西城_期末_17",
+    "CC0364_2026_通州_期中_19_1": "CC0364_2026_通州_期末_19_1",
+    "CC0311_2026_海淀_二模_18": "CC0311_2026_海淀_二模_18_2"
+  },
+  "stage_corrected_question_ids": [
+    "CC0244_2026_东城_期末_18",
+    "CC0245_2026_东城_期末_18_2",
+    "CC0317_2026_海淀_期末_18",
+    "CC0318_2026_海淀_期末_18_2",
+    "CC0319_2026_海淀_期末_19",
+    "CC0353_2026_西城_期末_17",
+    "CC0364_2026_通州_期末_19_1"
+  ],
+  "suite_matrix_rows": 65,
+  "suite_status_counts": {
+    "has_suite_exhaustive_core_rows": 51,
+    "no_law_subjective_confirmed": 3,
+    "midterm_boundary_no_core_after_claudecode_audit": 1,
+    "boundary_not_core_after_claudecode_audit": 1,
+    "midterm_mixed_law_reference_not_core": 1,
+    "has_suite_exhaustive_core_rows_after_stage_correction": 4,
+    "mixed_boundary_only_after_stage_correction": 1,
+    "has_suite_exhaustive_core_rows_after_claudecode_recovery": 1,
+    "not_independent_suite_stage_mapping_conflict": 1,
+    "special_user_excluded_or_source_blocked": 1
+  },
+  "non_independent_stage_conflict_rows": [
+    {
+      "year": "2026",
+      "district": "石景山",
+      "exam_stage": "期中",
+      "suite_status": "not_independent_suite_stage_mapping_conflict",
+      "question_ids_in_suite_exhaustive_core": "",
+      "source_file_ids": "F0398",
+      "paper_file_ids": "F0398",
+      "rubric_or_answer_file_ids": "",
+      "core_question_count": "0",
+      "boundary_or_blocked_case_ids": "STAGE_CONFLICT_2026_石景山_期中",
+      "notes": "ClaudeCode audit: no independent 2026石景山期中 suite; this is an artifact of期末 mapping."
+    }
+  ],
+  "true_no_law_subjective_suites": [
+    "2024-朝阳-期中",
+    "2024-海淀-期中",
+    "2026-朝阳-期中",
+    "2026-海淀-期中"
+  ]
+}
