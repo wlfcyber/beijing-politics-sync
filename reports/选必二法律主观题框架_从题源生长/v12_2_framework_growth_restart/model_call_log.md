@@ -90,6 +90,39 @@ No real Round 01 calls have been completed yet.
 - Current status: `round03_real_call_pending`.
 - Do not treat the prepared payloads as GPT/Claude advice until real web responses are captured.
 
+## 2026-05-22 22:42-22:55 +08:00 Round 03 browser submission attempts
+
+- Chrome extension connected to Chrome profile `Lifei`.
+- Claude tab was visible and usable:
+  - URL: `claude.ai/chat/c8d7f606-d0cd-412c-91d2-56eaebd2b4da`
+  - visible model: `Opus 4.7 Adaptive`
+  - payload: `web_payloads/CLAUDE_ROUND_03_SOURCE_CHECK_REVIEW_FULL_PASTE_PAYLOAD.md`
+  - completion observed: yes; later poll showed no `Stop response` button.
+  - key capture saved to `model_outputs/claude_round03_source_check_review_key_capture.md`.
+- Claude Round 03 verdict:
+  - `accept_source_checked_candidate_no_structural_change`
+  - six entrances stay unchanged;
+  - add student-facing boundary patches for E1, E2, E4, E5, E6;
+  - still not final PASS.
+- ChatGPT Round 03 attempt was blocked:
+  - original framework chat URL was opened;
+  - visible project/mode text included `必修四喂细则` and `进阶专业`;
+  - DOM/screenshot/paste/send/extract calls repeatedly timed out;
+  - no complete GPT response or completion state was captured.
+  - audit saved to `model_outputs/gpt_round03_browser_attempt_blocked_20260522.md`.
+- GPT Round 03 remains `real_call_not_closed`. Do not count it as advisor agreement.
+
+## 2026-05-22 22:55-23:05 +08:00 Codex Round 03 adjudication and candidate baseline
+
+- Codex adjudication written to `codex_adjudication/CODEX_ROUND03_SOURCE_CHECK_ADJUDICATION.md`.
+- Complete source-checked candidate framework written to `final_framework_candidate/FRAMEWORK_BASELINE_v12_2_SOURCE_CHECKED.md`.
+- Traceability artifacts written to:
+  - `traceability/TRACEABILITY_MATRIX_v12_2.csv`
+  - `traceability/TRACEABILITY_MATRIX_v12_2.md`
+- Governor check written to `governance/GOVERNOR_GATE_CHECK_v12_2.md`.
+- Current allowed label: `complete_source_checked_candidate_framework`.
+- Forbidden labels remain: final PASS, final baodian, DOCX/PDF final delivery, TASK_COMPLETE.
+
 ## Required records
 
 For each model call, record:

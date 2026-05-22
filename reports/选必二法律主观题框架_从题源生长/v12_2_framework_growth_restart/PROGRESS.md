@@ -1,5 +1,26 @@
 # v12.2 framework growth restart progress
 
+## STEP_136_ROUND03_CLAUDE_AND_CANDIDATE_BASELINE_20260522
+
+- Claude Round 03 source-check review was submitted and completed in Claude web:
+  - visible model: `Opus 4.7 Adaptive`
+  - audit/key capture: `model_outputs/claude_round03_source_check_review_key_capture.md`
+  - verdict: `accept_source_checked_candidate_no_structural_change`
+- GPT Round 03 was attempted through ChatGPT web, but no reliable response was captured:
+  - audit: `model_outputs/gpt_round03_browser_attempt_blocked_20260522.md`
+  - gate remains `real_call_not_closed`
+- Codex Round 03 adjudication written:
+  - `codex_adjudication/CODEX_ROUND03_SOURCE_CHECK_ADJUDICATION.md`
+- Complete source-checked candidate framework written:
+  - `final_framework_candidate/FRAMEWORK_BASELINE_v12_2_SOURCE_CHECKED.md`
+- Traceability and governance artifacts written:
+  - `traceability/TRACEABILITY_MATRIX_v12_2.csv`
+  - `traceability/TRACEABILITY_MATRIX_v12_2.md`
+  - `governance/GOVERNOR_GATE_CHECK_v12_2.md`
+- Current status:
+  - `complete_candidate_pending_gpt_round03_and_governance`
+  - still not final PASS, not a baodian, not DOCX/PDF, and not TASK_COMPLETE.
+
 ## STEP_135_SOURCE_CHECK_DELTA_AND_ROUND03_PAYLOADS_20260522
 
 - Codex wrote the post-source-check coverage delta:
