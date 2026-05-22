@@ -123,6 +123,15 @@ No real Round 01 calls have been completed yet.
 - Current allowed label: `complete_source_checked_candidate_framework`.
 - Forbidden labels remain: final PASS, final baodian, DOCX/PDF final delivery, TASK_COMPLETE.
 
+## 2026-05-22 23:08 +08:00 GPT Round 03 recheck after push
+
+- Codex retried the ChatGPT framework conversation after committing the candidate baseline.
+- ChatGPT page text extraction timed out again.
+- ChatGPT visible-DOM extraction timed out again.
+- No GPT Round 03 output was captured.
+- Recovery packet written to `web_payloads/GPT_ROUND_03_RECOVERY_PACKET.md`.
+- GPT gate remains `real_call_not_closed`.
+
 ## Required records
 
 For each model call, record:

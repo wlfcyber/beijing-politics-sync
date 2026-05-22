@@ -20,6 +20,9 @@
 - Current status:
   - `complete_candidate_pending_gpt_round03_and_governance`
   - still not final PASS, not a baodian, not DOCX/PDF, and not TASK_COMPLETE.
+- After the GitHub push, Codex retried ChatGPT page extraction and visible-DOM extraction. Both timed out again.
+- Recovery packet written:
+  - `web_payloads/GPT_ROUND_03_RECOVERY_PACKET.md`
 
 ## STEP_135_SOURCE_CHECK_DELTA_AND_ROUND03_PAYLOADS_20260522
 

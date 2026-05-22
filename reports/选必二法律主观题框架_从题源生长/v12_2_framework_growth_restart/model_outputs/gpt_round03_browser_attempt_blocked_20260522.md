@@ -41,3 +41,15 @@ The GPT Round 03 source-check review remains:
 
 Do not use this attempt as evidence of GPT agreement. Local source evidence and the completed Claude Round 03 response may still be used to prepare a candidate baseline, but final promotion remains blocked until GPT Round 03 is actually captured or the user explicitly waives that gate.
 
+## Later Recheck
+
+After the source-checked candidate baseline was committed and pushed, Codex retried the ChatGPT framework tab:
+
+- page text extraction timed out again;
+- visible DOM extraction timed out again;
+- no GPT Round 03 answer could be verified.
+
+Recovery packet:
+
+- `web_payloads/GPT_ROUND_03_RECOVERY_PACKET.md`
+
