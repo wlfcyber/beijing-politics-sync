@@ -2,7 +2,7 @@
 
 生成时间：2026-05-23 01:50 +08:00
 
-状态：`markdown_baodian_complete_pending_docx_pdf_render`
+状态：`final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 本目录是 v12.2 框架生长线的成品 Markdown 法律宝典。它使用 42 道 locked core 主观题作为正文底座，使用真实 GPT/Claude Round 01-03 产出和 Codex 本地源检查作为框架生长与验收依据。
 
@@ -13,6 +13,10 @@
 - `03_开放容器与不晋升题附录.md`：参考题、开放容器、下一版回填候选，全部保持在正文外。
 - `04_GPT_Claude_框架生长记录.md`：真实 GPT/Claude 框架生长记录与 Round 03 结论。
 - `05_GOVERNOR_FINAL_CHECK.md`：最终 Governor 检查，明确 Markdown 宝典与 DOCX/PDF 的边界。
+- `07_RENDER_QA_REPORT.md`：DOCX/PDF 生成与渲染检查记录。
+- `选必二法律与生活_法律宝典_v12_2.docx`：DOCX 候选文件。
+- `选必二法律与生活_法律宝典_v12_2.pdf`：已渲染检查的 PDF 交付文件。
+- `选必二法律与生活_法律宝典_v12_2.html`：PDF 打印源文件。
 - `42题框架索引.csv`：42 题索引，可供后续排版、筛题、检索。
 
 ## 正文覆盖
@@ -30,3 +34,7 @@
 ## 使用规则
 
 先用设问识别入口，再用材料事实压实法律关系，最后才写价值。不要从热点词出发套模板，也不要把参考题、开放容器、下一版回填候选提升为正文主干。
+
+## 渲染边界
+
+PDF 已由 HTML 打印源生成，并渲染为 46 张 PNG 做版面检查。DOCX 已生成且 Word 可打开，但本机 LibreOffice 不存在，Word COM 导出 PDF 持续挂起，因此不声称 DOCX 直渲视觉 QA 通过。

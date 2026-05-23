@@ -1,8 +1,8 @@
 # Governor Gate Check v12.2
 
-Status: `markdown_baodian_complete_pending_docx_pdf_render`
+Status: `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
 
-Date: 2026-05-22
+Date: 2026-05-23
 
 ## Gate Table
 
@@ -18,21 +18,23 @@ Date: 2026-05-22
 | Markdown baodian output | pass | `final_baodian_20260523/00_READ_ME_FIRST.md`; `final_baodian_20260523/01_法律主观题框架章.md`; `final_baodian_20260523/02_42题按框架解析宝典.md`; `final_baodian_20260523/05_GOVERNOR_FINAL_CHECK.md` |
 | 42/42 question-card coverage | pass | `final_baodian_20260523/02_42题按框架解析宝典.md`; `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.csv` |
 | reference/open rows separated | pass | `final_baodian_20260523/03_开放容器与不晋升题附录.md` |
-| DOCX/PDF rendered delivery | fail / not produced | no `.docx` or `.pdf` final delivery exists in this milestone |
+| DOCX generated | pass with render caveat | `final_baodian_20260523/选必二法律与生活_法律宝典_v12_2.docx`; Word COM open/page-count check succeeded |
+| PDF generated and rendered | pass | `final_baodian_20260523/选必二法律与生活_法律宝典_v12_2.pdf`; `final_baodian_20260523/rendered_pdf_pages/page-001.png` through `page-046.png` |
+| DOCX direct visual render QA | not passed / not claimed | LibreOffice/`soffice` unavailable; Word COM PDF export hung |
 
 ## Governor Verdict
 
 Current allowed label:
 
-`markdown_baodian_complete_pending_docx_pdf_render`
+`final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 Forbidden labels:
 
-- DOCX/PDF final delivery
-- TASK_COMPLETE
+- DOCX direct visual-render QA pass
+- broader next-backfill TASK_COMPLETE
 
-## Required Before Final Document Delivery
+## Remaining Caveats
 
 1. Decide whether next-backfill candidates are frozen or moved into a new evidence pass.
-2. Optional: render the Markdown baodian into DOCX/PDF and visually verify layout.
-3. Only then claim DOCX/PDF delivery or broader TASK_COMPLETE.
+2. Optional: retry DOCX direct visual render QA on a machine with LibreOffice or a stable Word export path.
+3. Do not claim broader TASK_COMPLETE for next-backfill candidates unless a new evidence pass promotes and closes them.

@@ -1,6 +1,6 @@
 # 05 Governor Final Check
 
-Status: `markdown_baodian_complete_pending_docx_pdf_render`
+Status: `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 Date: 2026-05-23
 
@@ -16,14 +16,17 @@ Date: 2026-05-23
 | reference/open rows separated | pass | `final_baodian_20260523/03_开放容器与不晋升题附录.md` |
 | GPT/Claude governance appendix exists | pass | `final_baodian_20260523/04_GPT_Claude_框架生长记录.md` |
 | traceability index updated | pass | `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.csv` |
-| DOCX/PDF rendered | fail / not produced in this milestone | no `.docx` or `.pdf` delivery generated here |
+| DOCX generated | pass with render caveat | `选必二法律与生活_法律宝典_v12_2.docx`; Word COM can open and compute 50 pages |
+| PDF generated | pass | `选必二法律与生活_法律宝典_v12_2.pdf` |
+| PDF rendered and checked | pass | `rendered_pdf_pages/page-001.png` through `page-046.png`; no blank-like pages; sampled cover, final card, governance appendix |
+| DOCX direct render QA | not passed / not claimed | LibreOffice/`soffice` unavailable; Word COM PDF export hung, so DOCX visual-render pass is not claimed |
 
 ## Allowed Claim
 
-`markdown_baodian_complete_pending_docx_pdf_render`
+`final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
 
-This means the Markdown baodian exists, uses the real GPT/Claude-grown framework baseline, covers all 42 locked core rows, and keeps non-core rows in appendices.
+This means the baodian exists in Markdown, DOCX, HTML, and PDF forms; the PDF has been rendered and checked; all 42 locked core rows are covered; and non-core rows stay in appendices.
 
 ## Forbidden Claim
 
-Do not claim DOCX/PDF delivery until rendered files exist and are visually checked. Do not claim a wider final PASS over next-backfill candidates because they remain outside this locked-core v12.2 scope.
+Do not claim DOCX direct-render visual QA passed. Do not claim a wider final PASS over next-backfill candidates because they remain outside this locked-core v12.2 scope.

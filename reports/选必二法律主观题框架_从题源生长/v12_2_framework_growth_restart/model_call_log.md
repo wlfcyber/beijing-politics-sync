@@ -176,3 +176,24 @@ For each model call, record:
   - `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.csv`
   - `traceability/TRACEABILITY_MATRIX_v12_2_BAODIAN_INDEX.md`
 - Current status: `markdown_baodian_complete_pending_docx_pdf_render`.
+
+## 2026-05-23 02:30 +08:00 DOCX/HTML/PDF delivery and render QA
+
+- No new GPT/Claude model call was made in this step.
+- Generated:
+  - `final_baodian_20260523/选必二法律与生活_法律宝典_v12_2.docx`
+  - `final_baodian_20260523/选必二法律与生活_法律宝典_v12_2.html`
+  - `final_baodian_20260523/选必二法律与生活_法律宝典_v12_2.pdf`
+  - `final_baodian_20260523/rendered_pdf_pages/page-001.png` through `page-046.png`
+  - `final_baodian_20260523/07_RENDER_QA_REPORT.md`
+- Verification:
+  - 42 Markdown cards.
+  - 42 CSV index rows.
+  - PDF has 46 pages and 46 rendered PNG pages.
+  - PDF text includes GPT Round 03, Claude Round 03, CC0162, CC0040, CC0353, CC0380.
+  - blank-page image signal check passed.
+- Caveat:
+  - DOCX was generated and Word COM can open/page-count it.
+  - LibreOffice/`soffice` is unavailable.
+  - Word COM PDF export hung, so DOCX direct visual render QA is not claimed.
+- Current status: `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`.

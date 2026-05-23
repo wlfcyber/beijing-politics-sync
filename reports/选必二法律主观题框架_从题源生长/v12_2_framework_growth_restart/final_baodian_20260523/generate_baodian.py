@@ -305,7 +305,7 @@ def build_open_appendix() -> str:
         "## A. Round 03 明确不晋升行",
         "",
     ]
-    non_promoted = [r for r in PENDING_CHECKS if "PROMOTE" not in cell(r, "decision") and cell(r, "decision") != "KEEP_CORE" and not cell(r, "decision").startswith("KEEP_CORE")]
+    non_promoted = [r for r in PENDING_CHECKS if not cell(r, "decision").startswith("KEEP_CORE")]
     if non_promoted:
         lines.append(
             md_table(

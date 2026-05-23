@@ -1,5 +1,27 @@
 # v12.2 framework growth restart progress
 
+## STEP_139_DOCX_HTML_PDF_RENDER_QA_20260523
+
+- Generated additional delivery files in `final_baodian_20260523/`:
+  - `选必二法律与生活_法律宝典_v12_2.docx`
+  - `选必二法律与生活_法律宝典_v12_2.html`
+  - `选必二法律与生活_法律宝典_v12_2.pdf`
+  - `rendered_pdf_pages/page-001.png` through `page-046.png`
+  - `07_RENDER_QA_REPORT.md`
+- Verification completed:
+  - Markdown card count: 42.
+  - Index row count: 42.
+  - PDF page count: 46.
+  - Rendered PNG count: 46.
+  - No blank-like rendered PDF pages detected.
+  - PDF text includes GPT Round 03, Claude Round 03, and non-promotion IDs CC0162, CC0040, CC0353, CC0380.
+- DOCX caveat:
+  - DOCX was generated and Word COM can open it and compute 50 pages.
+  - LibreOffice/`soffice` is unavailable.
+  - Word COM PDF export hung repeatedly, so DOCX direct visual render QA is not claimed.
+- Current allowed status:
+  - `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
+
 ## STEP_138_MARKDOWN_BAODIAN_PRODUCTION_20260523
 
 - Codex created the final Markdown baodian directory:

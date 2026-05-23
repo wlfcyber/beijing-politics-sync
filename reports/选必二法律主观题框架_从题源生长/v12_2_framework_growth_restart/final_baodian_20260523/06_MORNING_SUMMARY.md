@@ -1,6 +1,6 @@
 # 06 Morning Summary - Xuanbier Legal Baodian
 
-Status: `markdown_baodian_complete_pending_docx_pdf_render`
+Status: `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 Date: 2026-05-23
 
@@ -12,6 +12,11 @@ Date: 2026-05-23
 - Reference/open/container rows stayed in a separate appendix.
 - GPT and Claude Round 03 conclusions were included in the governance appendix.
 - Traceability index was generated.
+- DOCX candidate was generated:
+  - `选必二法律与生活_法律宝典_v12_2.docx`
+- PDF delivery was generated and rendered:
+  - `选必二法律与生活_法律宝典_v12_2.pdf`
+  - `rendered_pdf_pages/page-001.png` through `page-046.png`
 
 ## Counts
 
@@ -25,9 +30,8 @@ Date: 2026-05-23
 | E6 | 4 |
 | total | 42 |
 
-## Not Produced Yet
+## Render Caveat
 
-- DOCX delivery: not produced.
-- PDF delivery: not produced.
+The PDF was generated from the HTML print source and rendered/checked. The DOCX was generated and Word can open it, but this machine lacks LibreOffice and Word COM export hung, so DOCX direct visual render QA is not claimed.
 
-The correct current label is Markdown baodian complete, pending optional DOCX/PDF rendering.
+The correct current label is final baodian delivered with PDF render pass and DOCX render caveat.
