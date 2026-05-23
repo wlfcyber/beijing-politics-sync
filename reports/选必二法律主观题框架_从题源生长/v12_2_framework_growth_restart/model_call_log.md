@@ -258,3 +258,40 @@ For each model call, record:
 - Generated v13.0 DOCX, HTML, rendered PDF, PDF page PNGs, and render QA report.
 - Final status label: `v13_0_final_baodian_pdf_rendered_docx_generated_with_docx_render_caveat`.
 - DOCX direct render caveat: `render_docx.py` blocked by missing LibreOffice/soffice (`WinError 2`); Word COM open check passed.
+
+## 2026-05-23 15:10-15:30 +08:00 GPT/Claude Round05 final advisor review
+
+- GPT lane:
+  - Interface: correct ChatGPT Pro web account.
+  - Saved output: `round05_v13_final_advisor_review/model_outputs/gpt_round05_v13_final_review_pro_web_raw.md`.
+  - Gate status: `REAL_GPT_PRO_WEB_OUTPUT_CAPTURED`.
+  - Verdict: `ACCEPT_AFTER_MINOR_PATCHES`.
+- Claude lane:
+  - Interface: Claude web with Opus 4.7 Adaptive.
+  - Saved output: `round05_v13_final_advisor_review/model_outputs/claude_round05_v13_final_review_opus47_web_raw.md`.
+  - Screenshot: `round05_v13_final_advisor_review/model_outputs/claude_round05_v13_final_review_opus47_web_screenshot.png`.
+  - Gate status: `REAL_CLAUDE_OPUS_4_7_ADAPTIVE_WEB_OUTPUT_CAPTURED`.
+  - Verdict: `ACCEPT_AFTER_MINOR_PATCHES`.
+- No simulated GPT/Claude output was used.
+
+## 2026-05-23 16:05 +08:00 Codex Round05 adjudication and v13.1 render delivery
+
+- Codex adjudication:
+  - `round05_v13_final_advisor_review/codex_adjudication/CODEX_ROUND05_V13_FINAL_REVIEW_ADJUDICATION.md`
+- v13.1 output directory:
+  - `v13_1_round05_patched_final/`
+- Generated:
+  - `v13_1_round05_patched_final/选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`
+  - `v13_1_round05_patched_final/选必二法律与生活_法律宝典_v13_1_Round05补丁终版.html`
+  - `v13_1_round05_patched_final/选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`
+  - `v13_1_round05_patched_final/rendered_pdf_pages/page-001.png` through `page-026.png`
+  - `v13_1_round05_patched_final/07_RENDER_QA_REPORT.md`
+- Verification:
+  - traceability CSV has 42 rows.
+  - Markdown body has 42 question cards.
+  - PDF has 26 pages and 26 rendered PNG pages; blank-page signal check passed.
+  - PDF text includes `ACCEPT_AFTER_MINOR_PATCHES`, `Round05`, and open-container marker `CC0251`.
+  - DOCX Word COM open check passed: 41 pages / 1105 paragraphs.
+- Caveat:
+  - DOCX direct visual render QA is not claimed because LibreOffice/soffice is unavailable (`WinError 2`).
+- Final status label: `v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`.

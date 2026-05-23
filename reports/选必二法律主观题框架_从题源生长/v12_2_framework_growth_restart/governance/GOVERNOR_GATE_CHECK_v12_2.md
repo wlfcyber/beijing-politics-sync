@@ -68,3 +68,13 @@ Forbidden labels:
 - PDF: `选必二法律与生活_法律宝典_v13_0_双轴版.pdf`, rendered to `rendered_pdf_pages/page-001.png` through `page-030.png`, no blank-like pages.
 - DOCX: `选必二法律与生活_法律宝典_v13_0_双轴版.docx`, Word COM open check passed; direct DOCX render remains caveated because LibreOffice/soffice is unavailable.
 - Current status: `v13_0_final_baodian_pdf_rendered_docx_generated_with_docx_render_caveat`.
+
+## 2026-05-23 v13.1 Round05 Final Overlay
+
+- Round05 real GPT Pro web and Claude Opus 4.7 Adaptive web reviews both concluded `ACCEPT_AFTER_MINOR_PATCHES`.
+- Codex adjudication accepted evidence-supported minor patches and wrote `round05_v13_final_advisor_review/codex_adjudication/CODEX_ROUND05_V13_FINAL_REVIEW_ADJUDICATION.md`.
+- v13.1 rendered delivery exists in `v13_1_round05_patched_final/`.
+- PDF: `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`, rendered to `rendered_pdf_pages/page-001.png` through `page-026.png`, no blank-like pages.
+- DOCX: `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`, Word COM open check passed; direct DOCX render remains caveated because LibreOffice/soffice is unavailable.
+- Open-container/reference-only rows are separated in `04_开放容器与不晋升题附录.md` and do not support v13.1 node counts.
+- Current status: `v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`.

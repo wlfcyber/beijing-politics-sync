@@ -220,3 +220,42 @@
 - PDF 文本检查包含 42 个 distinct `CC...` 题号和 `UPGRADE_TO_DOUBLE_AXIS`；PNG 空白页检查通过；抽查 001/015/030。
 - DOCX 已生成并通过 Word COM 只读打开检查：45 页 / 759 段。`render_docx.py` 因本机缺少 LibreOffice/soffice 报 `WinError 2`，所以不声明 DOCX 直渲染通过。
 - 当前标签：`v13_0_final_baodian_pdf_rendered_docx_generated_with_docx_render_caveat`。
+
+## STEP_144_ROUND05_V13_FINAL_ADVISOR_REVIEW_20260523
+
+- 已对 v13.0 终版发起 Round05 真实终审，不使用模拟输出。
+- GPT Pro 网页输出已捕获：
+  - `round05_v13_final_advisor_review/model_outputs/gpt_round05_v13_final_review_pro_web_raw.md`
+  - verdict: `ACCEPT_AFTER_MINOR_PATCHES`
+- Claude Opus 4.7 Adaptive 网页输出已捕获：
+  - `round05_v13_final_advisor_review/model_outputs/claude_round05_v13_final_review_opus47_web_raw.md`
+  - `round05_v13_final_advisor_review/model_outputs/claude_round05_v13_final_review_opus47_web_screenshot.png`
+  - verdict: `ACCEPT_AFTER_MINOR_PATCHES`
+- Codex Round05 裁决已完成：
+  - `round05_v13_final_advisor_review/codex_adjudication/CODEX_ROUND05_V13_FINAL_REVIEW_ADJUDICATION.md`
+- 采纳补丁包括：CC0213、CC0238、CC0244、CC0180、CC0181、CC0084、CC0332、CC0364、CC0200 的标签/边界修正，以及 A5/A9、A6、A10 守门规则和条件化意义价值输出规则。
+
+## STEP_145_V13_1_ROUND05_PATCHED_FINAL_20260523
+
+- 已新增 `v13_1_round05_patched_final/`，不覆盖 v13.0 回滚基线。
+- 已生成并核验：
+  - `v13_1_round05_patched_final/01_双轴法律主观题框架章.md`
+  - `v13_1_round05_patched_final/02_42题双轴重标与解析宝典.md`
+  - `v13_1_round05_patched_final/03_AxB交叉矩阵与支持度.md`
+  - `v13_1_round05_patched_final/04_开放容器与不晋升题附录.md`
+  - `v13_1_round05_patched_final/05_Round05_GPT_Claude_终审与补丁裁决.md`
+  - `v13_1_round05_patched_final/06_GOVERNOR_V13_1_FINAL_CHECK.md`
+  - `v13_1_round05_patched_final/07_RENDER_QA_REPORT.md`
+  - `v13_1_round05_patched_final/08_FINAL_SUMMARY.md`
+  - `v13_1_round05_patched_final/traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv`
+  - `v13_1_round05_patched_final/选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`
+  - `v13_1_round05_patched_final/选必二法律与生活_法律宝典_v13_1_Round05补丁终版.html`
+  - `v13_1_round05_patched_final/选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`
+- 核验结果：
+  - traceability CSV = 42 rows。
+  - Markdown 正文题卡 = 42 cards。
+  - PDF = 26 pages / 26 rendered PNG pages / no blank-like pages。
+  - PDF 包含 `ACCEPT_AFTER_MINOR_PATCHES`、Round05 和开放容器 appendix marker `CC0251`。
+  - DOCX Word COM 只读打开通过：41 pages / 1105 paragraphs。
+  - `render_docx.py` 仍因本机缺少 LibreOffice/soffice 报 `WinError 2`，所以不声明 DOCX 直渲染 QA 通过。
+- 当前标签：`v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`。
