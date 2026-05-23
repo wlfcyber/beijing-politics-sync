@@ -1,0 +1,1 @@
+﻿pass: Word COM opened read-only; pages=55; paragraphs=1684

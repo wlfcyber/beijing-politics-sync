@@ -436,3 +436,32 @@ For each model call, record:
   - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FINAL_CONFUCIUS_CLOSURE_20260523_V13_10.md`
 - Final status:
   - `v13_10_confucius_reader_framework_pass_delivery_patch_verified_baodian_docx_pdf_not_regenerated`
+
+## 2026-05-23 v13.10 final baodian integrated delivery
+
+- External model call:
+  - none in this step.
+  - This step does not claim a new GPT/Claude advisor gate.
+- Real-model evidence used:
+  - Round03 GPT + Claude source-check reviews.
+  - Round05 GPT Pro + Claude Opus final reviews.
+  - Round06 GPT Pro prior-framework final evaluation.
+  - Round07 Claude Opus 4.7 Adaptive zero-baseline student retest.
+- Local role evidence used:
+  - Confucius Angry Student Reader Agent v13.8-v13.10 loop.
+  - The local Confucius subagents are recorded as artifact-only student-transfer tests, not GPT/Claude substitutes.
+- Output:
+  - `v13_10_final_baodian_integrated/`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.md`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.docx`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.html`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.pdf`
+- Verification:
+  - 42 question cards.
+  - 42 traceability rows.
+  - PDF 30 pages / 30 rendered PNG pages / no blank-like pages.
+  - PDF text coverage includes `v13.10`, `Confucius`, `CC0251`, `locked core`, `A4+A6`.
+  - DOCX Word COM open check: 55 pages / 1684 paragraphs.
+  - DOCX direct render remains not claimed because LibreOffice/soffice is unavailable.
+- Final status:
+  - `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`

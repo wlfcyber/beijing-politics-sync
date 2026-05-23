@@ -410,3 +410,41 @@
 - 明确不得声明：
   - 不得声明 v13.10 DOCX/PDF 已交付；现有 DOCX/PDF 仍是 v13.7 集成终版。
   - 不得声明 v13.8-v13.10 是新 GPT/Claude 真实外部模型门；该闭环是本地 Confucius artifact-only 试读门。
+
+## STEP_159_V13_10_FINAL_BAODIAN_DELIVERY_20260523
+
+- 已将 v13.10 Confucius 框架门禁落到实际宝典交付层，新增目录：
+  - `v13_10_final_baodian_integrated/`
+- 主交付文件：
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.md`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.docx`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.html`
+  - `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.pdf`
+- 成品结构：
+  - `00_v13_10_一页考场卡_学生先读版.md`
+  - `01_双轴法律主观题框架章_v13_10_Confucius三轮修复版.md`
+  - `02_42题双轴重标与解析宝典_v13_10.md`
+  - `03_AxB交叉矩阵与支持度_v13_10.md`
+  - `04_开放容器与不晋升题附录_v13_10.md`
+  - `05_GPT_Claude_Confucius治理附录_v13_10.md`
+  - `06_GOVERNOR_V13_10_FINAL_CHECK.md`
+  - `07_RENDER_QA_REPORT_v13_10.md`
+  - `governor_confucius/FINAL_CONFUCIUS_CLOSURE_20260523_V13_10.md`
+  - `traceability/TRACEABILITY_MATRIX_v13_10_final.csv`
+- 关键修正：
+  - 旧“六入口”明确被吸收到 B1-B6；v13.10 新增 B7 法律问题识别/填空。
+  - 42 道 locked core 题仍按 A轴法律入口 + B轴设问动作组织，字段完整保留。
+  - Confucius 附录已改为本目录交付闭环版本，不再保留“v13.10 DOCX/PDF 尚未再生成”的旧边界。
+  - GPT/Claude 真实捕获输出和本地 Confucius 试读 agent 分开记录；没有把本地 subagent 冒充 GPT/Claude。
+- 渲染与 QA：
+  - traceability CSV = 42 rows。
+  - Markdown 题卡 = 42 cards。
+  - PDF = 30 pages / 30 rendered PNG pages / no blank-like pages。
+  - PDF 文本包含 `v13.10`、`Confucius`、`CC0251`、`locked core`、`A4+A6`。
+  - DOCX Word COM 只读打开通过：55 pages / 1684 paragraphs。
+  - DOCX direct render QA 仍因本机缺 LibreOffice/soffice 不声明通过。
+- 当前允许状态：
+  - `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
+- 仍不得声明：
+  - 不得声明新一轮 GPT/Claude advisor gate；v13.10 修复闭环是本地 Confucius artifact-only 试读门。
+  - 不得声明 DOCX direct visual render QA passed。

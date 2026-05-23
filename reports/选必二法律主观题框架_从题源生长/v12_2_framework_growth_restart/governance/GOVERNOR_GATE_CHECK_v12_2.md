@@ -177,3 +177,31 @@ Forbidden labels:
   - This is not a new GPT/Claude real-call gate.
   - This does not regenerate the v13.7 DOCX/PDF into a v13.10 DOCX/PDF.
   - Allowed final status: `v13_10_confucius_reader_framework_pass_delivery_patch_verified_baodian_docx_pdf_not_regenerated`.
+
+## 2026-05-23 v13.10 Final Baodian Delivery Overlay
+
+- v13.10 rendered delivery now exists in `v13_10_final_baodian_integrated/`.
+- Student-facing core files:
+  - `v13_10_final_baodian_integrated/00_v13_10_一页考场卡_学生先读版.md`
+  - `v13_10_final_baodian_integrated/01_双轴法律主观题框架章_v13_10_Confucius三轮修复版.md`
+  - `v13_10_final_baodian_integrated/02_42题双轴重标与解析宝典_v13_10.md`
+  - `v13_10_final_baodian_integrated/04_开放容器与不晋升题附录_v13_10.md`
+  - `v13_10_final_baodian_integrated/05_GPT_Claude_Confucius治理附录_v13_10.md`
+- Rendered artifacts:
+  - DOCX: `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.docx`
+  - HTML: `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.html`
+  - PDF: `v13_10_final_baodian_integrated/选必二法律与生活_法律宝典_v13_10_Confucius框架终版.pdf`
+- Verification:
+  - 42 traceability rows in `traceability/TRACEABILITY_MATRIX_v13_10_final.csv`.
+  - 42 question cards in `02_42题双轴重标与解析宝典_v13_10.md`.
+  - PDF: 30 pages, rendered to 30 PNGs, no blank-like pages.
+  - PDF text coverage includes `v13.10`, `Confucius`, `CC0251`, `locked core`, `A4+A6`.
+  - DOCX: Word COM opened read-only and computed 55 pages / 1684 paragraphs.
+- Governor ruling:
+  - Framework-quality gate: PASS under local Confucius artifact-only reader.
+  - Baodian delivery gate: PASS with DOCX direct-render caveat.
+- Strict boundary:
+  - This is not a new GPT/Claude real-call gate.
+  - DOCX direct render QA is not passed or claimed because LibreOffice/soffice remains unavailable.
+  - Open-container/reference-only rows remain separated and are not promoted.
+  - Allowed final status: `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`.
