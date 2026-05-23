@@ -382,3 +382,31 @@
 - 当前状态：
   - `confucius_reader_agent_created_first_run_framework_pass_with_repairs`
   - 这不是最终框架质量 PASS；它是下一版 v13.8 框架改写的门禁输入。
+
+## STEP_158_CONFUCIUS_V13_10_FRAMEWORK_PASS_CLOSURE_20260523
+
+- 按 Confucius 首轮缺陷，不再追加补丁链，而是改写为框架优先版本：
+  - `v13_7_final_baodian_integrated/01_双轴法律主观题框架章_v13_8_Confucius修复版.md`
+  - `v13_7_final_baodian_integrated/01_双轴法律主观题框架章_v13_9_Confucius二轮修复版.md`
+  - `v13_7_final_baodian_integrated/01_双轴法律主观题框架章_v13_10_Confucius三轮修复版.md`
+- v13.8 第二轮盲测输出：
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/SECOND_RUN_REPORT_20260523_V13_8.md`
+  - 结论：`FRAMEWORK_PASS_WITH_REPAIRS`
+- v13.9 第三轮盲测输出：
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/THIRD_RUN_REPORT_20260523_V13_9.md`
+  - 结论：`FRAMEWORK_PASS_WITH_REPAIRS`
+- v13.10 第四轮盲测输出：
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FOURTH_RUN_REPORT_20260523_V13_10.md`
+  - 结论：`FRAMEWORK_PASS`
+- 第五轮交付补丁盲测输出：
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FIFTH_RUN_REPORT_20260523_V13_10_DELIVERY_PATCH.md`
+  - 结论：`FRAMEWORK_PASS`
+- 新增学生先读版一页卡：
+  - `v13_7_final_baodian_integrated/00_v13_10_一页考场卡_学生先读版.md`
+- 最终闭环说明：
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FINAL_CONFUCIUS_CLOSURE_20260523_V13_10.md`
+- 当前允许状态：
+  - `v13_10_confucius_reader_framework_pass_delivery_patch_verified_baodian_docx_pdf_not_regenerated`
+- 明确不得声明：
+  - 不得声明 v13.10 DOCX/PDF 已交付；现有 DOCX/PDF 仍是 v13.7 集成终版。
+  - 不得声明 v13.8-v13.10 是新 GPT/Claude 真实外部模型门；该闭环是本地 Confucius artifact-only 试读门。

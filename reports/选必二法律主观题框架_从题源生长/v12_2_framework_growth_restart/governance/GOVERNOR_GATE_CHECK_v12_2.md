@@ -156,3 +156,24 @@ Forbidden labels:
   - v13.7 remains a delivered baodian artifact with render QA.
   - v13.7 is not a strict final framework-quality PASS after the new reader gate.
   - Next framework-quality closure requires a repair version that addresses compression, final battle-map ordering, B7/issue-identification, A8 labor-dispute hard sentences, and A4+A6 defective-goods bridge, followed by another blind reader run.
+
+## 2026-05-23 Confucius v13.10 Framework Pass Overlay
+
+- The dedicated Confucius angry-student reader gate was continued through v13.8, v13.9, and v13.10.
+- Reader outputs:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/SECOND_RUN_REPORT_20260523_V13_8.md` -> `FRAMEWORK_PASS_WITH_REPAIRS`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/THIRD_RUN_REPORT_20260523_V13_9.md` -> `FRAMEWORK_PASS_WITH_REPAIRS`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FOURTH_RUN_REPORT_20260523_V13_10.md` -> `FRAMEWORK_PASS`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FIFTH_RUN_REPORT_20260523_V13_10_DELIVERY_PATCH.md` -> `FRAMEWORK_PASS`
+- Final v13.10 student-facing framework files:
+  - `v13_7_final_baodian_integrated/00_v13_10_一页考场卡_学生先读版.md`
+  - `v13_7_final_baodian_integrated/01_双轴法律主观题框架章_v13_10_Confucius三轮修复版.md`
+- Closure record:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FINAL_CONFUCIUS_CLOSURE_20260523_V13_10.md`
+- Governor ruling:
+  - Framework-quality gate: `PASS` for v13.10 under local Confucius artifact-only trial.
+  - Remaining limitations are source-detail, table-heading, exact-ratio, and teacher-card supplement limits, not framework-structure defects.
+- Strict boundary:
+  - This is not a new GPT/Claude real-call gate.
+  - This does not regenerate the v13.7 DOCX/PDF into a v13.10 DOCX/PDF.
+  - Allowed final status: `v13_10_confucius_reader_framework_pass_delivery_patch_verified_baodian_docx_pdf_not_regenerated`.

@@ -416,3 +416,23 @@ For each model call, record:
   - `FRAMEWORK_PASS_WITH_REPAIRS`.
   - This is a local Confucius artifact-only gate, not a GPT/Claude external-model gate.
   - Required next patch: reorganize into framework-first student form and add B7/issue-identification, A8 labor-dispute hard sentences, and A4+A6 defective-goods bridge.
+
+## 2026-05-23 Confucius Angry Student Reader v13.8-v13.10 repair loop
+
+- User requested a dedicated Confucius angry-student agent to detect whether the framework is really a framework and whether a smart zero-baseline senior-three student can learn and answer from it.
+- External model call:
+  - none in this loop; these are Codex local subagents, not GPT or Claude advisor gates.
+- Hidden local answer keys were not sent to the subagents.
+- Repair chain:
+  - v13.8: framework-first rewrite, one-page battle map, A/B 30-second templates, A8 labor hard sentences, A4+A6 defective-goods bridge, B7 issue-identification.
+  - v13.9: entrance boundary sentences, second-level switches, mixed-question ordering, B1 incomplete-header rule, B7 two-blank split.
+  - v13.10: one-page student card, no-header B1 default tables, B3 conclusion scale, B7 phrase bank, A4/A9 commercial-purchase boundary.
+- Captured outputs:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/SECOND_RUN_REPORT_20260523_V13_8.md` -> `FRAMEWORK_PASS_WITH_REPAIRS`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/THIRD_RUN_REPORT_20260523_V13_9.md` -> `FRAMEWORK_PASS_WITH_REPAIRS`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FOURTH_RUN_REPORT_20260523_V13_10.md` -> `FRAMEWORK_PASS`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FIFTH_RUN_REPORT_20260523_V13_10_DELIVERY_PATCH.md` -> `FRAMEWORK_PASS`
+- Closure:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FINAL_CONFUCIUS_CLOSURE_20260523_V13_10.md`
+- Final status:
+  - `v13_10_confucius_reader_framework_pass_delivery_patch_verified_baodian_docx_pdf_not_regenerated`
