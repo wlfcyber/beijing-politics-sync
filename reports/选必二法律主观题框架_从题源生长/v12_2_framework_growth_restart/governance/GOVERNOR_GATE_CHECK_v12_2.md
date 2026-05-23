@@ -104,7 +104,6 @@ Forbidden labels:
 
 ## 2026-05-23 v13.7 Zero-Baseline Framework Transfer Overlay
 
-- v13.1/v13.2 baodian delivery remains the latest rendered DOCX/PDF delivery lineage.
 - v13.7 is a framework-transfer improvement line created after repeated real Claude zero-baseline student simulations.
 - Real Claude Round07 output exists:
   - `claude_zero_baseline_iterative_test_20260523_round07/model_outputs/claude_zero_baseline_iterative_test_round07_opus47_raw.md`
@@ -113,9 +112,31 @@ Forbidden labels:
   - `claude_zero_baseline_iterative_test_20260523_round07/codex_adjudication/CODEX_EVALUATION_OF_CLAUDE_ITERATIVE_TEST_ROUND07.md`
 - v13.7 framework closure check exists:
   - `v13_7_zero_baseline_b1_b3_final_precision_patch/03_ZERO_BASELINE_CLOSURE_CHECK.md`
-- Allowed status for this overlay:
+- Allowed status for the framework-transfer overlay:
   - `v13_7_zero_baseline_student_transfer_framework_closed_ready_for_baodian_integration`
-- Forbidden until regenerated artifacts exist:
-  - `v13_7_final_baodian_delivered`
-  - `v13_7_docx_pdf_rendered`
-  - `TASK_COMPLETE`
+
+## 2026-05-23 v13.7 Final Baodian Integration Overlay
+
+- v13.7 rendered delivery now exists in `v13_7_final_baodian_integrated/`.
+- Student-facing core files:
+  - `v13_7_final_baodian_integrated/01_双轴法律主观题框架章_v13_7最终宝典版.md`
+  - `v13_7_final_baodian_integrated/02_42题双轴重标与解析宝典_v13_7.md`
+  - `v13_7_final_baodian_integrated/04_开放容器与不晋升题附录_v13_7.md`
+  - `v13_7_final_baodian_integrated/05_GPT_Claude治理附录_v13_7.md`
+- Rendered artifacts:
+  - DOCX: `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.docx`
+  - HTML: `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.html`
+  - PDF: `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.pdf`
+- Verification:
+  - 42 traceability rows in `traceability/TRACEABILITY_MATRIX_v13_7_final.csv`.
+  - 42 question cards in `02_42题双轴重标与解析宝典_v13_7.md`.
+  - 84 v13.7 transfer notes added across the cards.
+  - PDF: 36 pages, rendered to 36 PNGs, no blank-like pages.
+  - DOCX: Word COM opened read-only and computed 62 pages / 1698 paragraphs.
+- Open-container/reference-only rows remain separated and are not promoted.
+- Allowed status:
+  - `v13_7_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
+- Still forbidden:
+  - DOCX direct visual-render QA pass
+  - promotion of open-container rows into 42 locked core
+  - broader next-backfill `TASK_COMPLETE`

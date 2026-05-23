@@ -329,3 +329,30 @@
   - `v13_7_zero_baseline_b1_b3_final_precision_patch/03_ZERO_BASELINE_CLOSURE_CHECK.md`
 - 当前允许状态：`v13_7_zero_baseline_student_transfer_framework_closed_ready_for_baodian_integration`。
 - 注意：这是框架迁移闭环，不是 v13.7 DOCX/PDF 法律宝典交付闭环；后者需要重新生成学生文档和渲染 QA。
+
+## STEP_156_V13_7_FINAL_BAODIAN_INTEGRATION_20260523
+
+- 已将 v13.7 零基础迁移框架回灌到最终宝典层，新增目录：
+  - `v13_7_final_baodian_integrated/`
+- 本版不覆盖 v13.1；v13.1 保留为 Round05/Round06/Confucius 回滚基线。
+- 已生成学生成品：
+  - `v13_7_final_baodian_integrated/01_双轴法律主观题框架章_v13_7最终宝典版.md`
+  - `v13_7_final_baodian_integrated/02_42题双轴重标与解析宝典_v13_7.md`
+  - `v13_7_final_baodian_integrated/04_开放容器与不晋升题附录_v13_7.md`
+  - `v13_7_final_baodian_integrated/05_GPT_Claude治理附录_v13_7.md`
+  - `v13_7_final_baodian_integrated/traceability/TRACEABILITY_MATRIX_v13_7_final.csv`
+  - `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.docx`
+  - `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.html`
+  - `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.pdf`
+- 内容升级：
+  - 42 道 locked core 题卡全部保留 question id、区年卷题、设问动作、A/B入口、命题路径、评分锚点、材料触发、答案骨架、学生预警、副入口状态。
+  - 每题新增 v13.7 A轴入口后工具提示和 B轴设问动作提示，共 84 条迁移提示。
+  - 开放容器、参考运行题和下一版回填候选仍单列，不进入 42 题正文，不支撑 A/B 支持数。
+- 渲染与 QA：
+  - traceability CSV = 42 rows。
+  - Markdown 题卡 = 42 cards。
+  - PDF = 36 pages / 36 rendered PNG pages / no blank-like pages。
+  - PDF 文本包含 `v13.7`、`Round07`、`CC0251`、`Confucius`、`locked core`。
+  - DOCX Word COM 只读打开通过：62 pages / 1698 paragraphs。
+  - DOCX direct render QA 仍因本机缺 LibreOffice/soffice 不声明通过。
+- 当前允许状态：`v13_7_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`。

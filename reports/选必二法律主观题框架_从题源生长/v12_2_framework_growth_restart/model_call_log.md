@@ -374,3 +374,26 @@ For each model call, record:
 - Final result:
   - v13.7 closed the zero-baseline framework-transfer gate.
   - Remaining issues are original column/score information limits, not new framework defects.
+
+## 2026-05-23 23:10-23:56 +08:00 v13.7 final baodian integration
+
+- External model call:
+  - none in this step; it integrates the already captured real-model gates.
+- Real-model evidence used:
+  - Round03 GPT + Claude source-check reviews.
+  - Round05 GPT Pro + Claude Opus final reviews.
+  - Round06 GPT Pro prior-framework final evaluation.
+  - Round07 Claude Opus 4.7 Adaptive zero-baseline student retest.
+- Output:
+  - `v13_7_final_baodian_integrated/`
+  - `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.docx`
+  - `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.html`
+  - `v13_7_final_baodian_integrated/选必二法律与生活_法律宝典_v13_7_集成终版.pdf`
+- Verification:
+  - 42 question cards.
+  - 42 traceability rows.
+  - 84 v13.7 transfer notes across the 42 cards.
+  - PDF 36 pages / 36 rendered PNG pages / no blank-like pages.
+  - DOCX Word COM open check: 62 pages / 1698 paragraphs.
+- Final status:
+  - `v13_7_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
