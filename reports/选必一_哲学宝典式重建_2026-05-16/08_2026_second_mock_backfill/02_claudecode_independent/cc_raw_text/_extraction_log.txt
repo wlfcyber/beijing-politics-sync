@@ -1,0 +1,34 @@
+src_root=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模
+out_root=C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\选必一_哲学宝典式重建_2026-05-16\08_2026_second_mock_backfill\02_claudecode_independent\cc_raw_text
+## 2026东城二模
+  OK 16.pdf -> 16_pdf.txt (pymupdf text; 1552 chars)
+  OK 17题评标.pdf -> 17题评标_pdf.txt (pymupdf text; 1202 chars)
+  OK 18题阅卷细则(5.9).pdf -> 18题阅卷细则(5.9)_pdf.txt (pymupdf text; 1016 chars)
+  OK 20题（1+2）.pdf -> 20题（1+2）_pdf.txt (pymupdf text; 699 chars)
+  OK 26年东城二模20（3）.pdf -> 26年东城二模20（3）_pdf.txt (pymupdf text; 1172 chars)
+  OK 东城二模 19题阅卷细则.pdf -> 东城二模 19题阅卷细则_pdf.txt (pymupdf text; 548 chars)
+  OK 二模21题细则模版.pdf -> 二模21题细则模版_pdf.txt (pymupdf text; 1310 chars)
+  OK 2026北京东城高三二模政治（教师版）.docx -> 2026北京东城高三二模政治（教师版）_docx.txt (python-docx; 7598 chars)
+## 2026丰台二模
+  OK 2026丰台区二模主观题阅卷细则(1).pptx -> 2026丰台区二模主观题阅卷细则(1)_pptx.txt (python-pptx; 13419 chars)
+  OK 2026北京丰台高三二模政治（教师版）.pdf -> 2026北京丰台高三二模政治（教师版）_pdf.txt (pymupdf text; 9753 chars)
+## 2026房山二模
+  OK 26房山评标(2).docx -> 26房山评标(2)_docx.txt (python-docx; 4277 chars)
+  OK 26房山评标.docx -> 26房山评标_docx.txt (python-docx; 4277 chars)
+  OK 2026北京房山高三二模政治（教师版）.pdf -> 2026北京房山高三二模政治（教师版）_pdf.txt (pymupdf text; 3884 chars)
+## 2026朝阳二模
+  OK 202605朝阳高三政治二模阅卷细则(1).docx -> 202605朝阳高三政治二模阅卷细则(1)_docx.txt (python-docx; 5512 chars)
+  OK 2026北京朝阳高三二模政治（教师版）.docx -> 2026北京朝阳高三二模政治（教师版）_docx.txt (python-docx; 15715 chars)
+## 2026海淀二模
+  OK 26海淀高三政治二模讲评.pdf -> 26海淀高三政治二模讲评_pdf.txt (pymupdf text; 6695 chars)
+  OK 2026北京海淀高三二模政治（教师版）.docx -> 2026北京海淀高三二模政治（教师版）_docx.txt (python-docx; 10534 chars)
+## 2026石景山二模
+  OK 石景山区高三政治第二次模拟考试答案评分细则(1).doc -> 石景山区高三政治第二次模拟考试答案评分细则(1)_doc.txt (binary utf-16 scan; 5102 chars)
+  OK 2026北京石景山高三二模政治（教师版）.docx -> 2026北京石景山高三二模政治（教师版）_docx.txt (python-docx; 9387 chars)
+## 2026西城二模
+  ! 西城二模评标.pdf: text layer too thin (0 cjk-ish chars after strip), retrying with OCR
+  FAIL 西城二模评标.pdf (.pdf): <pymupdf.mupdf.FzErrorSystem; proxy of <Swig Object of type 'mupdf::FzErrorSystem *' at 0x000001A9000382F0> >
+  OK 2026北京西城高三二模政治（教师版）.docx -> 2026北京西城高三二模政治（教师版）_docx.txt (python-docx; 8368 chars)
+## 2026顺义二模
+  ! 26顺义二模(1).pdf: text layer too thin (0 cjk-ish chars after strip), retrying with OCR
+  FAIL 26顺义二模(1).pdf (.pdf): <pymupdf.mupdf.FzErrorSystem; proxy of <Swig Object of type 'mupdf::FzErrorSystem *' at 0x000001A97AE19D30> >
