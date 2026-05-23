@@ -251,3 +251,10 @@ For each model call, record:
 - Output directory: `v13_0_double_axis_framework_candidate/`.
 - Traceability: `v13_0_double_axis_framework_candidate/traceability/TRACEABILITY_MATRIX_v13_0_double_axis.csv`.
 - Candidate status: `v13_0_double_axis_candidate_markdown_csv_complete_docx_pdf_pending`.
+
+## 2026-05-23 15:20 +08:00 Codex v13.0 render delivery
+
+- No new model call was made.
+- Generated v13.0 DOCX, HTML, rendered PDF, PDF page PNGs, and render QA report.
+- Final status label: `v13_0_final_baodian_pdf_rendered_docx_generated_with_docx_render_caveat`.
+- DOCX direct render caveat: `render_docx.py` blocked by missing LibreOffice/soffice (`WinError 2`); Word COM open check passed.

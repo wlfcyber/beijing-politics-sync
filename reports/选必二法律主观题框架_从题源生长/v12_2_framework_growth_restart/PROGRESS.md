@@ -209,3 +209,14 @@
   - `v13_0_double_axis_framework_candidate/06_GOVERNOR_V13_0_CANDIDATE_CHECK.md`
   - `v13_0_double_axis_framework_candidate/traceability/TRACEABILITY_MATRIX_v13_0_double_axis.csv`
 - 当前标签：`v13_0_double_axis_candidate_markdown_csv_complete_docx_pdf_pending`。不得宣称 v13.0 DOCX/PDF 已交付或 `TASK_COMPLETE`，下一步是渲染版生成与检查。
+
+## STEP_143_V13_0_RENDERED_BAODIAN_20260523
+
+- 已生成 v13.0 DOCX、HTML、PDF：
+  - `v13_0_double_axis_framework_candidate/选必二法律与生活_法律宝典_v13_0_双轴版.docx`
+  - `v13_0_double_axis_framework_candidate/选必二法律与生活_法律宝典_v13_0_双轴版.html`
+  - `v13_0_double_axis_framework_candidate/选必二法律与生活_法律宝典_v13_0_双轴版.pdf`
+- PDF 已渲染为 30 张 PNG：`v13_0_double_axis_framework_candidate/rendered_pdf_pages/page-001.png` through `page-030.png`。
+- PDF 文本检查包含 42 个 distinct `CC...` 题号和 `UPGRADE_TO_DOUBLE_AXIS`；PNG 空白页检查通过；抽查 001/015/030。
+- DOCX 已生成并通过 Word COM 只读打开检查：45 页 / 759 段。`render_docx.py` 因本机缺少 LibreOffice/soffice 报 `WinError 2`，所以不声明 DOCX 直渲染通过。
+- 当前标签：`v13_0_final_baodian_pdf_rendered_docx_generated_with_docx_render_caveat`。

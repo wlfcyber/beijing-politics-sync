@@ -2,7 +2,7 @@
 
 生成时间：2026-05-23 14:35 +08:00
 
-状态：`v13_0_double_axis_candidate_markdown_csv_complete_docx_pdf_pending`
+状态：`v13_0_final_baodian_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 本目录是在 v12.2 基础上按 Round04 真实 GPT Pro 与 Claude Opus 4.7 Adaptive 网页结论重建的双轴候选版。v12.2 不被覆盖，作为回滚基线保留；v12.2 的 E1-E6 六入口保留为 B 轴，不再承担法律宝典主框架。
 
@@ -15,6 +15,9 @@
 - `05_GPT_Claude_Round04治理附录.md`：正确 GPT Pro 与 Claude Opus 网页结论、错误账号捕获排除记录。
 - `06_GOVERNOR_V13_0_CANDIDATE_CHECK.md`：候选版门禁检查，明确 DOCX/PDF 尚未交付。
 - `traceability/TRACEABILITY_MATRIX_v13_0_double_axis.csv`：42 题双轴追踪矩阵。
+- `选必二法律与生活_法律宝典_v13_0_双轴版.docx`：DOCX 候选文件，Word COM 可打开并计算页数；本机缺 LibreOffice，未声明 DOCX 直渲染通过。
+- `选必二法律与生活_法律宝典_v13_0_双轴版.pdf`：已从 HTML 打印并渲染检查的 PDF 交付文件。
+- `07_RENDER_QA_REPORT.md`：渲染与检查记录。
 
 ## 使用顺序
 
