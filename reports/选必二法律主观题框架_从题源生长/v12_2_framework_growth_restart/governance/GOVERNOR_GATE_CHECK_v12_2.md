@@ -101,3 +101,21 @@ Forbidden labels:
   - PDF: 26 pages, rendered to 26 PNGs, no blank-like pages.
   - DOCX: Word COM opened read-only and computed 45 pages / 1191 paragraphs.
 - Current status: `v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat`.
+
+## 2026-05-23 v13.7 Zero-Baseline Framework Transfer Overlay
+
+- v13.1/v13.2 baodian delivery remains the latest rendered DOCX/PDF delivery lineage.
+- v13.7 is a framework-transfer improvement line created after repeated real Claude zero-baseline student simulations.
+- Real Claude Round07 output exists:
+  - `claude_zero_baseline_iterative_test_20260523_round07/model_outputs/claude_zero_baseline_iterative_test_round07_opus47_raw.md`
+  - `claude_zero_baseline_iterative_test_20260523_round07/model_outputs/claude_zero_baseline_iterative_test_round07_opus47_visible_output_screenshot.png`
+- Hidden-key Codex adjudication exists:
+  - `claude_zero_baseline_iterative_test_20260523_round07/codex_adjudication/CODEX_EVALUATION_OF_CLAUDE_ITERATIVE_TEST_ROUND07.md`
+- v13.7 framework closure check exists:
+  - `v13_7_zero_baseline_b1_b3_final_precision_patch/03_ZERO_BASELINE_CLOSURE_CHECK.md`
+- Allowed status for this overlay:
+  - `v13_7_zero_baseline_student_transfer_framework_closed_ready_for_baodian_integration`
+- Forbidden until regenerated artifacts exist:
+  - `v13_7_final_baodian_delivered`
+  - `v13_7_docx_pdf_rendered`
+  - `TASK_COMPLETE`

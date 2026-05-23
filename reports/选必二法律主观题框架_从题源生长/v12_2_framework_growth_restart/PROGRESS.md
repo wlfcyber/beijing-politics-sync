@@ -308,3 +308,24 @@
 - Codex 隐藏答案核验：
   - `claude_zero_baseline_random_test_20260523/codex_adjudication/CODEX_EVALUATION_OF_CLAUDE_ZERO_BASELINE_RANDOM_TEST.md`
 - 核验结论：v13.1 对 A/B 入口与设问动作迁移有效；5题粗估约 37-39/50，严格考场压分约 34-36/50。主要缺口是“入口后法条工具箱”、B1 表格模板、A1 得分脊柱但非主场景的排序规则、双链题主副轴顺序。
+
+## STEP_149_TO_155_CLAUDE_ZERO_BASELINE_ITERATIVE_FRAMEWORK_GROWTH_20260523
+
+- 按用户要求，Codex 先针对真实 Claude 零基础作答暴露的问题逐轮完善框架，再用真实 Claude Opus 4.7 Adaptive 新对话复测。
+- 所有 Claude 轮次均只发送框架和题面压缩信息；本地答案钥匙、评分锚点、材料触发链、答案骨架和学生预警均未发送。
+- 迭代链：
+  - v13.2：入口后法律工具箱、A1 不抢主入口、B1 表格模板、双链排序。
+  - v13.3：责任方式触发表、考场术语、B1 总入口 + 行内入口。
+  - v13.4：过错分担、安全保障、法人商誉/商业诋毁、治疗功效、格式条款/欺诈边界。
+  - v13.5：B1 总入口作为审题定位、未成年人返还方向、治疗功效先锁退一赔三、最小术语清单。
+  - v13.6：表格列名、合同责任并列、双链题分值/字数配比。
+  - v13.7：B1 口令映射、启示/价值列触发、双链 6:4/5:5/7:3 量化和停止条件。
+- 最终真实 Claude Round07：
+  - `claude_zero_baseline_iterative_test_20260523_round07/model_outputs/claude_zero_baseline_iterative_test_round07_opus47_raw.md`
+  - `claude_zero_baseline_iterative_test_20260523_round07/model_outputs/claude_zero_baseline_iterative_test_round07_opus47_visible_output_screenshot.png`
+  - 会话：`https://claude.ai/chat/a09f185e-c596-41e3-a80c-560259e88737`
+- Codex 隐藏答案核验：
+  - `claude_zero_baseline_iterative_test_20260523_round07/codex_adjudication/CODEX_EVALUATION_OF_CLAUDE_ITERATIVE_TEST_ROUND07.md`
+  - `v13_7_zero_baseline_b1_b3_final_precision_patch/03_ZERO_BASELINE_CLOSURE_CHECK.md`
+- 当前允许状态：`v13_7_zero_baseline_student_transfer_framework_closed_ready_for_baodian_integration`。
+- 注意：这是框架迁移闭环，不是 v13.7 DOCX/PDF 法律宝典交付闭环；后者需要重新生成学生文档和渲染 QA。

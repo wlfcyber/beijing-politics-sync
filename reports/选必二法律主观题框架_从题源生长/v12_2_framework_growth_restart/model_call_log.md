@@ -354,3 +354,23 @@ For each model call, record:
 - Result:
   - Framework transfers well for A/B entrance and prompt-action recognition.
   - Main remaining teaching gaps: post-entrance legal-toolbox, B1 table templates, A1 spine-versus-scene ranking, and double-chain ordering.
+
+## 2026-05-23 20:40-22:50 +08:00 Claude zero-baseline iterative framework growth Round02-Round07
+
+- User requested iterative self-improvement against the actual questions, then repeated real Claude simulation as a smart but zero-baseline high-school senior until the framework was good enough.
+- Interface: Claude web in the user's Chrome window.
+- Visible account: `LaceyFitzgerald` / `Max plan`.
+- Visible model label: `Opus 4.7 Adaptive`.
+- Hidden local answer keys were not sent to Claude in any round.
+- Captured outputs:
+  - Round02: `claude_zero_baseline_iterative_test_20260523_round02/model_outputs/claude_zero_baseline_iterative_test_round02_opus47_raw.md`
+  - Round03: `claude_zero_baseline_iterative_test_20260523_round03/model_outputs/claude_zero_baseline_iterative_test_round03_opus47_raw.md`
+  - Round04: `claude_zero_baseline_iterative_test_20260523_round04/model_outputs/claude_zero_baseline_iterative_test_round04_opus47_raw.md`
+  - Round05: `claude_zero_baseline_iterative_test_20260523_round05/model_outputs/claude_zero_baseline_iterative_test_round05_opus47_raw.md`
+  - Round06: `claude_zero_baseline_iterative_test_20260523_round06/model_outputs/claude_zero_baseline_iterative_test_round06_opus47_raw.md`
+  - Round07: `claude_zero_baseline_iterative_test_20260523_round07/model_outputs/claude_zero_baseline_iterative_test_round07_opus47_raw.md`
+- Final Round07 chat URL:
+  - `https://claude.ai/chat/a09f185e-c596-41e3-a80c-560259e88737`
+- Final result:
+  - v13.7 closed the zero-baseline framework-transfer gate.
+  - Remaining issues are original column/score information limits, not new framework defects.
