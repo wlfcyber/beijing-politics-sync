@@ -78,3 +78,15 @@ Forbidden labels:
 - DOCX: `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`, Word COM open check passed; direct DOCX render remains caveated because LibreOffice/soffice is unavailable.
 - Open-container/reference-only rows are separated in `04_开放容器与不晋升题附录.md` and do not support v13.1 node counts.
 - Current status: `v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`.
+
+## 2026-05-23 GPT Round06 Prior-Framework Final Overlay
+
+- v13.1 plus the prior user-framework evidence was sent to real GPT Pro in `round06_gpt_v13_1_final_eval_with_prior_framework/`.
+- GPT verdict: `ACCEPT_WITH_MINOR_PATCHES`.
+- GPT accepted the A/B framework as final and said no third axis is needed.
+- Required patches were card-level only: CC0213 and CC0238 proposition-path residues. Both were applied.
+- v13.1 DOCX/HTML/PDF were regenerated after the patch.
+- Current checked render state after Round06:
+  - PDF: 25 pages, rendered to 25 PNGs, no blank-like pages.
+  - DOCX: Word COM opened read-only and computed 43 pages / 1137 paragraphs.
+  - DOCX direct visual render remains caveated because LibreOffice/soffice is unavailable.

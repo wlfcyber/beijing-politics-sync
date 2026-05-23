@@ -14,10 +14,11 @@
 | 开放容器分离 | pass | `04_开放容器与不晋升题附录.md` keeps reference-only/backfill rows outside the 42 locked core |
 | 42题A轴/B轴完整 | pass | `traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv` |
 | A2-A10支持数 | pass | 所有启用主干至少3题；A1为基础层 |
-| DOCX生成 | pass with caveat | `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`; Word COM opened read-only and computed 41 pages / 1105 paragraphs |
+| DOCX生成 | pass with caveat | `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`; Word COM opened read-only and computed 43 pages / 1137 paragraphs |
 | HTML打印源 | pass | `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.html` rebuilt from `01` through `06`, including the open-container appendix |
-| PDF渲染 | pass | `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`; rendered to 26 PNG pages with no blank-like pages |
-| PDF内容覆盖 | pass | PDF includes the 42-card handbook, open-container appendix, `ACCEPT_AFTER_MINOR_PATCHES`, and Round05 governance |
+| PDF渲染 | pass | `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`; rendered to 25 PNG pages with no blank-like pages |
+| PDF内容覆盖 | pass | PDF includes the 42-card handbook, open-container appendix, `ACCEPT_AFTER_MINOR_PATCHES`, Round05 governance, and GPT Round06 appendix |
+| GPT Round06终评 | pass | `../round06_gpt_v13_1_final_eval_with_prior_framework/model_outputs/gpt_round06_v13_1_final_eval_with_prior_framework_raw.md`; verdict `ACCEPT_WITH_MINOR_PATCHES`; required two proposition-path patches applied |
 | DOCX直渲染 | not passed / not claimed | `render_docx.py` blocked by missing LibreOffice/soffice (`WinError 2`); Word-open check is recorded separately |
 
 ## Governor Verdict

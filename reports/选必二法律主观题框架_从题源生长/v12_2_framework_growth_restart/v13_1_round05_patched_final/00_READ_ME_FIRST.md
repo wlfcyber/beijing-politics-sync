@@ -16,6 +16,7 @@ v13.1 是在 v13.0 双轴版基础上，经过真实 GPT Pro 与 Claude Opus 4.7
 - `06_GOVERNOR_V13_1_FINAL_CHECK.md`
 - `07_RENDER_QA_REPORT.md`
 - `08_FINAL_SUMMARY.md`
+- `09_GPT_Round06终评与补丁落实.md`
 - `traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`
@@ -23,3 +24,5 @@ v13.1 是在 v13.0 双轴版基础上，经过真实 GPT Pro 与 Claude Opus 4.7
 ## 使用规则
 
 先定 A 轴法律关系/内容，再定 B 轴设问动作。意义价值只在 B4/B5/B6 或题目明示意义价值时输出，不作为所有题的默认结尾。
+
+字段一致性守门：若个别题卡内部出现 A轴主入口、双轴裁决说明、命题路径三者不一致，以 A轴主入口和最近一轮真实模型裁决说明为准，并立即修正命题路径。本版已按 GPT Round06 复评修正 CC0213 与 CC0238 的命题路径残留。

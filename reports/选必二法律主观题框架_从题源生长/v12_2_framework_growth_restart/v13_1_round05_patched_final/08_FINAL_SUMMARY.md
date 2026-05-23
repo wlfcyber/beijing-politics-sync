@@ -7,6 +7,7 @@ Date: 2026-05-23
 ## What changed
 
 - Round05 used real GPT Pro web output and real Claude Opus 4.7 Adaptive web output; both gave `ACCEPT_AFTER_MINOR_PATCHES`.
+- Round06 then sent v13.1 plus the prior user-framework evidence back to real GPT Pro; GPT gave `ACCEPT_WITH_MINOR_PATCHES`, and the two required card-level proposition-path patches were applied.
 - v13.1 applies the accepted minor patches to v13.0: key A/B reassignments, A5/A9 boundary, A6 guardrail, A10 guardrail, and conditional value-output rule.
 - All 42 locked core questions remain analyzed under A-axis legal relationship/content and B-axis question-action/proposition path.
 - Open-container/reference-only rows are preserved in a separate appendix and do not support the framework node counts.
@@ -20,6 +21,7 @@ Date: 2026-05-23
 - `05_Round05_GPT_Claude_终审与补丁裁决.md`
 - `06_GOVERNOR_V13_1_FINAL_CHECK.md`
 - `07_RENDER_QA_REPORT.md`
+- `09_GPT_Round06终评与补丁落实.md`
 - `traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`

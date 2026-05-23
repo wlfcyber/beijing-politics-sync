@@ -23,6 +23,8 @@ def find_run_dir() -> Path:
 
 OUT = find_run_dir()
 MD_FILES = [next(OUT.glob(f"{prefix}_*.md")) for prefix in ["01", "02", "03", "04", "05", "06"]]
+if list(OUT.glob("09_*.md")):
+    MD_FILES.append(next(OUT.glob("09_*.md")))
 README = OUT / "00_READ_ME_FIRST.md"
 DOCX_PATH = next(OUT.glob("*.docx"))
 HTML_PATH = next(OUT.glob("*.html"))

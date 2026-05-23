@@ -259,3 +259,21 @@
   - DOCX Word COM 只读打开通过：41 pages / 1105 paragraphs。
   - `render_docx.py` 仍因本机缺少 LibreOffice/soffice 报 `WinError 2`，所以不声明 DOCX 直渲染 QA 通过。
 - 当前标签：`v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`。
+
+## STEP_146_ROUND06_GPT_PRIOR_FRAMEWORK_FINAL_EVAL_20260523
+
+- 按用户要求，把 v13.1 终版和先前喂给 GPT/Claude 的旧框架对照材料一起发给真实 GPT Pro 复评。
+- Payload:
+  - `round06_gpt_v13_1_final_eval_with_prior_framework/web_payloads/GPT_ROUND06_V13_1_FINAL_EVAL_WITH_PRIOR_FRAMEWORK_PAYLOAD.md`
+- GPT Pro raw capture:
+  - `round06_gpt_v13_1_final_eval_with_prior_framework/model_outputs/gpt_round06_v13_1_final_eval_with_prior_framework_raw.md`
+  - verdict: `ACCEPT_WITH_MINOR_PATCHES`
+- GPT 结论：A/B 双轴就是最终框架，不需要第三轴；旧框架强项基本保住，旧框架弱项大体修掉；开放容器排除正确。
+- GPT 要求两个小补丁，已落实：
+  - CC0213 命题路径改为先定 A8_劳动关系，A5 仅为著作权示例/参照副轴。
+  - CC0238 命题路径改为先定 A5_知识产权与竞争秩序，A9/A8 仅作副链。
+- 已新增字段一致性守门：A轴主入口、双轴裁决说明、命题路径冲突时，以 A轴主入口和最近真实模型裁决说明为准并修正文案。
+- 已重新生成 v13.1 DOCX/HTML/PDF 并复核：
+  - PDF = 25 pages / 25 rendered PNG pages / no blank-like pages。
+  - DOCX Word COM 只读打开通过：43 pages / 1137 paragraphs。
+  - DOCX 直渲染 caveat 不变。

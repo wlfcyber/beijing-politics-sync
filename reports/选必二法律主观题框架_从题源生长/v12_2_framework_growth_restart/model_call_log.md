@@ -295,3 +295,25 @@ For each model call, record:
 - Caveat:
   - DOCX direct visual render QA is not claimed because LibreOffice/soffice is unavailable (`WinError 2`).
 - Final status label: `v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`.
+
+## 2026-05-23 19:00 +08:00 GPT Round06 v13.1 final eval with prior framework
+
+- User requested sending the final version to GPT with the prior framework evidence previously fed to GPT/Claude.
+- Interface: correct ChatGPT Pro web account (`Lifei Wang Pro`) with visible `进阶专业`.
+- Payload:
+  - `round06_gpt_v13_1_final_eval_with_prior_framework/web_payloads/GPT_ROUND06_V13_1_FINAL_EVAL_WITH_PRIOR_FRAMEWORK_PAYLOAD.md`
+- Output:
+  - `round06_gpt_v13_1_final_eval_with_prior_framework/model_outputs/gpt_round06_v13_1_final_eval_with_prior_framework_raw.md`
+- Verdict:
+  - `ACCEPT_WITH_MINOR_PATCHES`
+- GPT conclusions:
+  - A/B axis is the final framework; no third axis is needed.
+  - v13.1 preserves the prior framework's strengths and mostly fixes its hierarchy/slogan/operation weaknesses.
+  - Open-container exclusion is correct.
+  - Two card-level proposition-path residues must be fixed: CC0213 and CC0238.
+- Codex action:
+  - Applied the two required patches.
+  - Added a card-field consistency guardrail.
+  - Regenerated v13.1 DOCX/HTML/PDF and PDF page renders.
+  - New PDF render check: 25 pages / 25 PNGs / no blank-like pages.
+  - DOCX Word COM open check: 43 pages / 1137 paragraphs.
