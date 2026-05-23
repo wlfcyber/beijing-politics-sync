@@ -193,3 +193,19 @@
   - `model_call_log.md`
 
 当前裁定：`ready_to_submit`，仍为 `blocked_advisor`。Round 01 GPT/Claude 尚未真实完成，不得写新版框架 PASS、最终宝典、DOCX/PDF 或 `TASK_COMPLETE`。
+
+## STEP_142_V13_0_DOUBLE_AXIS_CANDIDATE_20260523
+
+- 用户指出先前打开的 ChatGPT 浏览器不是 GPT Pro 账号；该捕获已从门禁中排除，不计入 GPT gate。
+- Round04 有效模型门禁以正确 GPT Pro 网页输出和 Claude Opus 4.7 Adaptive 网页输出为准，二者共同结论为 `UPGRADE_TO_DOUBLE_AXIS`。
+- 已新增 `v13_0_double_axis_framework_candidate/`，不覆盖 v12.2 回滚基线。
+- 已完成 42 道 locked core 题的 A x B 双轴重标：A 轴为法律关系/内容轴，B 轴继承 v12.2 E1-E6 问法动作轴。
+- 已生成：
+  - `v13_0_double_axis_framework_candidate/01_双轴法律主观题框架章.md`
+  - `v13_0_double_axis_framework_candidate/02_42题双轴重标与解析宝典.md`
+  - `v13_0_double_axis_framework_candidate/03_AxB交叉矩阵与支持度.md`
+  - `v13_0_double_axis_framework_candidate/04_开放容器与不晋升题附录.md`
+  - `v13_0_double_axis_framework_candidate/05_GPT_Claude_Round04治理附录.md`
+  - `v13_0_double_axis_framework_candidate/06_GOVERNOR_V13_0_CANDIDATE_CHECK.md`
+  - `v13_0_double_axis_framework_candidate/traceability/TRACEABILITY_MATRIX_v13_0_double_axis.csv`
+- 当前标签：`v13_0_double_axis_candidate_markdown_csv_complete_docx_pdf_pending`。不得宣称 v13.0 DOCX/PDF 已交付或 `TASK_COMPLETE`，下一步是渲染版生成与检查。

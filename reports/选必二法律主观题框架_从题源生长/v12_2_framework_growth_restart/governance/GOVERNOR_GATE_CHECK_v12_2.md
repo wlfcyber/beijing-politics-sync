@@ -53,3 +53,11 @@ Forbidden labels:
 1. Decide whether next-backfill candidates are frozen or moved into a new evidence pass.
 2. Optional: retry DOCX direct visual render QA on a machine with LibreOffice or a stable Word export path.
 3. Do not claim broader TASK_COMPLETE for next-backfill candidates unless a new evidence pass promotes and closes them.
+
+## 2026-05-23 v13.0 Double-Axis Overlay
+
+- v12.2 remains preserved as the source-checked rollback baseline, but Round04 valid GPT Pro and Claude Opus 4.7 Adaptive web outputs both required `UPGRADE_TO_DOUBLE_AXIS`.
+- New candidate directory exists: `v13_0_double_axis_framework_candidate/`.
+- 42 locked core rows now have both A-axis legal relationship/content labels and B-axis question-action labels in `v13_0_double_axis_framework_candidate/traceability/TRACEABILITY_MATRIX_v13_0_double_axis.csv`.
+- Current allowed status: `v13_0_double_axis_candidate_markdown_csv_complete_docx_pdf_pending`.
+- Still forbidden until render files exist and pass checks: `v13_final_pdf_delivered`, `TASK_COMPLETE`.

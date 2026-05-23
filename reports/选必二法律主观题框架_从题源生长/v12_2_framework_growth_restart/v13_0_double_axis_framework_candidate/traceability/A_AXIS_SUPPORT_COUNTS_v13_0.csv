@@ -1,0 +1,11 @@
+﻿a_axis,status,primary_row_count,governance_note
+A1_民事法律关系总论,基础层，不作为独立主干计数,0,基础层，不要求 primary 支持数
+A2_人身权与人格权,启用主干,4,enabled_supported
+A3_物权与相邻关系,启用主干,3,enabled_supported
+A4_合同,启用主干,5,enabled_supported
+A5_知识产权与市场竞争接口,启用主干,8,enabled_supported
+A6_侵权责任,启用主干,5,enabled_supported
+A7_婚姻家庭与继承,启用主干,3,enabled_supported
+A8_劳动关系,启用主干,6,enabled_supported
+A9_消费者权益与经营秩序,启用主干,5,enabled_supported
+A10_多元纠纷解决与诉讼程序,启用主干,3,enabled_supported
