@@ -4,6 +4,21 @@ Status: `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_ca
 
 Date: 2026-05-23
 
+## Round04 Quality Overlay
+
+After this v12.2 delivery, the user reopened the framework-quality question against the earlier user framework. Round04 valid GPT Pro web and Claude Opus 4.7 Adaptive web reviews both concluded `UPGRADE_TO_DOUBLE_AXIS`.
+
+Therefore this v12.2 file remains valid only as a rendered source-checked rollback baseline. It must not be cited as the final high-quality legal-baodian framework after Round04.
+
+Current superseding framework-status label:
+
+`v12_2_frozen_v13_0_double_axis_required`
+
+See:
+
+- `../round04_double_axis_framework_review/GOVERNOR_GATE_CHECK_ROUND04_DOUBLE_AXIS.md`
+- `../round04_double_axis_framework_review/codex_adjudication/CODEX_ROUND04_DOUBLE_AXIS_ADJUDICATION.md`
+
 ## Gate Table
 
 | gate | result | evidence |

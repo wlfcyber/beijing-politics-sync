@@ -197,3 +197,49 @@ For each model call, record:
   - LibreOffice/`soffice` is unavailable.
   - Word COM PDF export hung, so DOCX direct visual render QA is not claimed.
 - Current status: `final_baodian_delivered_pdf_rendered_docx_generated_with_docx_render_caveat`.
+
+## 2026-05-23 13:19 +08:00 GPT Round 04 wrong-account capture invalidated
+
+- Interface: ChatGPT web through local CDP manager profile.
+- Submitted payload: `round04_double_axis_framework_review/web_payloads/GPT_ROUND_04_DOUBLE_AXIS_FRAMEWORK_REVIEW_CLEAN_PAYLOAD.md`.
+- Output file: `round04_double_axis_framework_review/model_outputs/gpt_round04_double_axis_framework_review_web_cdp_raw.md`.
+- User correction: this was the wrong ChatGPT browser/account and did not have GPT Pro.
+- Gate status: `INVALID_FOR_GATE_WRONG_CHATGPT_ACCOUNT`.
+- The content is preserved only as an audit trail and does not count as the GPT Pro advisor lane.
+
+## 2026-05-23 13:30-13:32 +08:00 GPT Round 04 captured in correct GPT Pro web account
+
+- Interface: ChatGPT web in the user's correct Chrome window.
+- Visible mode/evidence: `进阶专业` and `Pro 思考中` observed in screenshots.
+- Submitted payload: `round04_double_axis_framework_review/web_payloads/GPT_ROUND_04_DOUBLE_AXIS_FRAMEWORK_REVIEW_CLEAN_PAYLOAD.md`.
+- Capture method: visible UI paste/attachment, then full-page select/copy.
+- Completion observed: yes; the response reached a final answer and input returned.
+- Concrete verdict: `UPGRADE_TO_DOUBLE_AXIS`.
+- Output saved to:
+  - `round04_double_axis_framework_review/model_outputs/gpt_round04_double_axis_framework_review_pro_web_raw_fullpage_clipboard.md`
+  - `round04_double_axis_framework_review/model_outputs/gpt_round04_pro_web_visible_output_screenshot.png`
+- Gate status: `REAL_GPT_PRO_WEB_OUTPUT_CAPTURED`.
+
+## 2026-05-23 13:36-13:38 +08:00 Claude Round 04 captured in Opus 4.7 Adaptive web
+
+- Interface: Claude web in the user's Chrome window.
+- Visible model label: `Opus 4.7 Adaptive`.
+- Submitted payload: `round04_double_axis_framework_review/web_payloads/CLAUDE_ROUND_04_DOUBLE_AXIS_FRAMEWORK_REVIEW_CLEAN_PAYLOAD.md`.
+- Capture method: visible UI paste/attachment, then full-page select/copy.
+- Completion observed: yes; Claude showed the completed response.
+- Concrete verdict: `UPGRADE_TO_DOUBLE_AXIS`.
+- Output saved to:
+  - `round04_double_axis_framework_review/model_outputs/claude_round04_double_axis_framework_review_opus47_web_raw_fullpage_clipboard.md`
+  - `round04_double_axis_framework_review/model_outputs/claude_round04_opus47_web_visible_output_screenshot.png`
+- Gate status: `REAL_CLAUDE_OPUS_4_7_ADAPTIVE_WEB_OUTPUT_CAPTURED`.
+
+## 2026-05-23 13:40 +08:00 Codex Round 04 adjudication
+
+- Codex adjudication written:
+  - `round04_double_axis_framework_review/codex_adjudication/CODEX_ROUND04_DOUBLE_AXIS_ADJUDICATION.md`
+- Accepted model convergence:
+  - `UPGRADE_TO_DOUBLE_AXIS`
+- Current label:
+  - `v12_2_frozen_v13_0_double_axis_required`
+- Next task:
+  - Build v13.0 double-axis framework and re-label all 42 locked rows into A x B.

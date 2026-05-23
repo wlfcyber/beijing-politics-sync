@@ -1,5 +1,25 @@
 # v12.2 framework growth restart progress
 
+## STEP_140_ROUND04_DOUBLE_AXIS_REAL_MODEL_REVIEW_20260523
+
+- User corrected that the first CDP-manager ChatGPT browser was the wrong non-Pro account.
+- Codex marked that capture invalid for the GPT gate:
+  - `round04_double_axis_framework_review/model_outputs/gpt_round04_double_axis_framework_review_web_cdp_raw.md`
+- Codex then used the correct visible ChatGPT Pro Chrome window and captured GPT Pro web output:
+  - `round04_double_axis_framework_review/model_outputs/gpt_round04_double_axis_framework_review_pro_web_raw_fullpage_clipboard.md`
+  - `round04_double_axis_framework_review/model_outputs/gpt_round04_pro_web_visible_output_screenshot.png`
+- Codex also used Claude web with visible `Opus 4.7 Adaptive` and captured the web output:
+  - `round04_double_axis_framework_review/model_outputs/claude_round04_double_axis_framework_review_opus47_web_raw_fullpage_clipboard.md`
+  - `round04_double_axis_framework_review/model_outputs/claude_round04_opus47_web_visible_output_screenshot.png`
+- Both valid model lanes converged on:
+  - `UPGRADE_TO_DOUBLE_AXIS`
+- Codex adjudication written:
+  - `round04_double_axis_framework_review/codex_adjudication/CODEX_ROUND04_DOUBLE_AXIS_ADJUDICATION.md`
+- Current allowed status:
+  - `v12_2_frozen_v13_0_double_axis_required`
+- Next target:
+  - Build `v13.0_double_axis_framework_candidate` in a new directory; do not overwrite v12.2.
+
 ## STEP_139_DOCX_HTML_PDF_RENDER_QA_20260523
 
 - Generated additional delivery files in `final_baodian_20260523/`:
