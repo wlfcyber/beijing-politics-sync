@@ -1,0 +1,7 @@
+Three files delivered into `08_claude_opus_final_review/`:
+
+- **CLAUDE_OPUS_FINAL_FUSION_PATCH.md** — 51 accepted entries across 6 buckets (时代背景 2 / 理论 5 / 经济全球化 13 / 政治多极化 10 / 中国 16 / 联合国 5), each single-question independent, no merged headings.
+- **CLAUDE_OPUS_FINAL_REJECT_DOWNGRADE.md** — 17 DOWNGRADED + 13 NEEDS_EVIDENCE + 49 EXCLUDE_OTHER_MODULE + 3 反合并残留无原词子项.
+- **CLAUDE_OPUS_FINAL_REVIEW_SUMMARY.md** — Per-bucket counts, 10 explicit Codex×ClaudeCode conflict decisions, hard-rule alignment, and Codex merge instructions.
+
+Key conflict resolutions: 2026通州期中 Q20 moved from 联合国 to 中国 (5 entries per the 全球治理倡议-as-中国主张 protocol); 2026丰台期中 Q20 cross-bucket split (联合国 + 经济全球化 + 中国); 2026延庆一模 Q19(2) "公共产品属性中国方案" downgraded (model-answer only); 2024西城二模 Q17 downgraded (D-level "可从角度作答"); B-level (corrupted-rubric teacher-fallback) entries 2026石景山一模 Q20 / 2025门头沟一模 Q19 all downgraded. GPT Pro is recorded as attempted-but-no-effective-output, not as a content source.

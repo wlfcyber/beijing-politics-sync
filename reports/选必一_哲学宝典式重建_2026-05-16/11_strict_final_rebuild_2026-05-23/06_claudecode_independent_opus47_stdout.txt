@@ -1,0 +1,38 @@
+```
+=== ClaudeCode Opus 4.7 Independent Lane — Strict Final Summary ===
+
+Queue total                                   : 93  (81 coverage + 12 anti-merge)
+
+By queue item:
+  INCLUDE_STRICT_MAIN                         : 19  (7 coverage + 12 anti-merge)
+  EXCLUDE_OTHER_MODULE                        : 50
+  NEEDS_EVIDENCE                              : 13
+  DOWNGRADED_REFERENCE_ONLY                   : 11
+
+Anti-merge residuals successfully rewritten   : 12 / 12
+  (each split into per-source-question entries; 4 sub-source slots
+   flagged as DOWNGRADED/NEEDS_EVIDENCE inside the residual rather than
+   dropped — see RISK_LOG §3)
+
+Single-question entries entering thick draft  : 30
+  时代背景       : 2
+  理论           : 5
+  经济全球化     : 12
+  政治多极化     : 10
+  中国           : 12
+  联合国         : 5
+  (sums >30 because some buckets cross-list a multi-point question)
+
+Outputs written:
+  reports/选必一_哲学宝典式重建_2026-05-16/11_strict_final_rebuild_2026-05-23/06_claudecode_independent_opus47/
+    CLAUDECODE_INDEPENDENT_ADJUDICATION.md  (27 KB)
+    CLAUDECODE_INDEPENDENT_THICK_DRAFT.md   (50 KB)
+    CLAUDECODE_INDEPENDENT_RISK_LOG.md      (13 KB)
+
+Source reliability flags:
+  2026石景山一模细则.txt — BJBJ Word binary残片 (fallback to教师版)
+  2025门头沟一模细则.txt — BJBJ Word binary残片 (fallback to教师版)
+  2025朝阳期末细则.txt   — OCR 噪声, 字间多余空格 (可读)
+```
+
+**End of run.** Independent厚稿、独立裁决、独立风险日志三件套已落入 `06_claudecode_independent_opus47/`，未读 Codex 裁决稿和上轮 ClaudeCode 裁决稿，按严格证据等级（细则/评标/阅卷讲评原词为 A）独立产出。下一步交给 GPT Pro 与 Codex 厚稿做主融合。
