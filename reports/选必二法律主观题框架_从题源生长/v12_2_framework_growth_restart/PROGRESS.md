@@ -289,3 +289,22 @@
   - PDF = 26 pages / 26 rendered PNG pages / no blank-like pages。
   - DOCX Word COM 只读打开通过：45 pages / 1191 paragraphs。
 - v13.1 状态更新为：`v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat`。
+
+## STEP_148_CLAUDE_ZERO_BASELINE_RANDOM_TEST_20260523
+
+- 按用户要求，把 v13.1 框架发给真实 Claude Opus 4.7 Adaptive，让它模拟“什么都不知道但很聪明的高三学生”现场学习后作答。
+- 随机种子：`20260523`。
+- 随机抽题：
+  - `CC0200_2025_西城_二模_18`
+  - `CC0131_2025_房山_一模_19`
+  - `CC0051_2024_海淀_期中_21_1`
+  - `CC0305_2026_海淀_一模_18_3`
+  - `CC0157_2025_朝阳_期末_20`
+- 只发送框架和题面压缩信息；本地答案钥匙、评分锚点、材料触发链、答案骨架和学生预警未发送给 Claude。
+- 真实 Claude 捕获：
+  - `claude_zero_baseline_random_test_20260523/model_outputs/claude_zero_baseline_random_test_opus47_raw.md`
+  - `claude_zero_baseline_random_test_20260523/model_outputs/claude_zero_baseline_random_test_opus47_visible_output_screenshot.png`
+  - 会话：`https://claude.ai/chat/6cfc9661-2b0a-4562-8ad1-76ce4374bd74`
+- Codex 隐藏答案核验：
+  - `claude_zero_baseline_random_test_20260523/codex_adjudication/CODEX_EVALUATION_OF_CLAUDE_ZERO_BASELINE_RANDOM_TEST.md`
+- 核验结论：v13.1 对 A/B 入口与设问动作迁移有效；5题粗估约 37-39/50，严格考场压分约 34-36/50。主要缺口是“入口后法条工具箱”、B1 表格模板、A1 得分脊柱但非主场景的排序规则、双链题主副轴顺序。

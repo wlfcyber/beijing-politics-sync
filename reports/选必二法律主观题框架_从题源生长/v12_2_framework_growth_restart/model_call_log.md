@@ -331,3 +331,26 @@ For each model call, record:
   - `v13_1_round05_patched_final/governor_confucius/CONFUCIUS_ARTIFACT_ONLY_CHECK_v13_1.md`
 - Result:
   - Confucius local artifact-only pass with DOCX render caveat preserved.
+
+## 2026-05-23 20:10-20:25 +08:00 Claude zero-baseline random live test
+
+- User requested sending the framework to Claude and asking Claude to simulate a smart but zero-baseline high-school senior, then answer a few randomly selected questions after live learning.
+- Interface: Claude web in the user's Chrome window.
+- Visible account: `LaceyFitzgerald` / `Max plan`.
+- Visible model label: `Opus 4.7 Adaptive`.
+- Payload:
+  - `claude_zero_baseline_random_test_20260523/web_payloads/CLAUDE_ZERO_BASELINE_RANDOM_TEST_PAYLOAD.md`
+- Hidden local answer key not sent to Claude:
+  - `claude_zero_baseline_random_test_20260523/codex_adjudication/LOCAL_ANSWER_KEY_NOT_SENT_TO_CLAUDE.md`
+- Output:
+  - `claude_zero_baseline_random_test_20260523/model_outputs/claude_zero_baseline_random_test_opus47_raw.md`
+  - `claude_zero_baseline_random_test_20260523/model_outputs/claude_zero_baseline_random_test_opus47_visible_output_screenshot.png`
+- Chat URL:
+  - `https://claude.ai/chat/6cfc9661-2b0a-4562-8ad1-76ce4374bd74`
+- Gate status:
+  - `REAL_CLAUDE_OPUS_4_7_ADAPTIVE_WEB_OUTPUT_CAPTURED`
+- Codex evaluation:
+  - `claude_zero_baseline_random_test_20260523/codex_adjudication/CODEX_EVALUATION_OF_CLAUDE_ZERO_BASELINE_RANDOM_TEST.md`
+- Result:
+  - Framework transfers well for A/B entrance and prompt-action recognition.
+  - Main remaining teaching gaps: post-entrance legal-toolbox, B1 table templates, A1 spine-versus-scene ranking, and double-chain ordering.
