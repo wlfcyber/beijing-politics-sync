@@ -11,9 +11,16 @@ from xml.etree import ElementTree as ET
 from docx import Document
 from pypdf import PdfReader
 
+try:
+    import olefile
+except ImportError:  # pragma: no cover - optional old .doc support
+    olefile = None
+
 
 TEXT_EXTS = {".txt", ".md"}
-SUPPORTED_EXTS = {".docx", ".pdf", ".pptx", ".txt", ".md"}
+SUPPORTED_EXTS = {".docx", ".doc", ".pdf", ".pptx", ".txt", ".md"}
+CFB_MAGIC = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"
+END_OF_CHAIN = 0xFFFFFFFE
 
 
 def safe_name(path: Path, root: Path) -> str:
@@ -43,6 +50,129 @@ def extract_docx(path: Path) -> str:
             if any(cells):
                 parts.append(" | ".join(cells))
     return clean_text("\n".join(parts))
+
+
+def scan_printable_text(decoded: str) -> str:
+    parts: list[str] = []
+    buf: list[str] = []
+    for ch in decoded:
+        cp = ord(ch)
+        keep = (
+            0x4E00 <= cp <= 0x9FFF
+            or 0x3400 <= cp <= 0x4DBF
+            or 0x3000 <= cp <= 0x303F
+            or 0xFF00 <= cp <= 0xFFEF
+            or 0x20 <= cp <= 0x7E
+            or ch in "\n\t"
+        )
+        if keep:
+            buf.append(ch)
+        elif buf:
+            run = "".join(buf).strip()
+            if len(run) >= 2:
+                parts.append(run)
+            buf = []
+    if buf:
+        run = "".join(buf).strip()
+        if len(run) >= 2:
+            parts.append(run)
+    return "\n".join(parts)
+
+
+def read_u16(data: bytes, offset: int) -> int:
+    return int.from_bytes(data[offset : offset + 2], "little")
+
+
+def read_u32(data: bytes, offset: int) -> int:
+    return int.from_bytes(data[offset : offset + 4], "little")
+
+
+def read_u64(data: bytes, offset: int) -> int:
+    return int.from_bytes(data[offset : offset + 8], "little")
+
+
+def sector_offset(sector_id: int, sector_size: int) -> int:
+    return (sector_id + 1) * sector_size
+
+
+def read_cfb_chain(data: bytes, start_sector: int, fat: list[int], sector_size: int, size: int | None = None) -> bytes:
+    chunks: list[bytes] = []
+    sector = start_sector
+    seen: set[int] = set()
+    while sector not in (END_OF_CHAIN, 0xFFFFFFFF):
+        if sector < 0 or sector >= len(fat) or sector in seen:
+            break
+        seen.add(sector)
+        offset = sector_offset(sector, sector_size)
+        chunks.append(data[offset : offset + sector_size])
+        sector = fat[sector]
+        if size is not None and sum(len(chunk) for chunk in chunks) >= size:
+            break
+    stream = b"".join(chunks)
+    return stream[:size] if size is not None else stream
+
+
+def read_cfb_stream(path: Path, stream_name: str) -> bytes:
+    data = path.read_bytes()
+    if not data.startswith(CFB_MAGIC):
+        raise ValueError("not a compound Word document")
+
+    sector_size = 1 << read_u16(data, 0x1E)
+    directory_start = read_u32(data, 0x30)
+    fat_sector_count = read_u32(data, 0x2C)
+    fat_sector_ids = [read_u32(data, 0x4C + idx * 4) for idx in range(min(fat_sector_count, 109))]
+    fat: list[int] = []
+    for sector_id in fat_sector_ids:
+        if sector_id in (END_OF_CHAIN, 0xFFFFFFFF):
+            continue
+        offset = sector_offset(sector_id, sector_size)
+        sector = data[offset : offset + sector_size]
+        fat.extend(read_u32(sector, pos) for pos in range(0, len(sector), 4))
+
+    directory = read_cfb_chain(data, directory_start, fat, sector_size)
+    for offset in range(0, len(directory), 128):
+        entry = directory[offset : offset + 128]
+        if len(entry) < 128:
+            continue
+        name_len = read_u16(entry, 0x40)
+        if name_len < 2:
+            continue
+        name = entry[: name_len - 2].decode("utf-16-le", errors="ignore")
+        object_type = entry[0x42]
+        if object_type == 2 and name == stream_name:
+            start_sector = read_u32(entry, 0x74)
+            stream_size = read_u64(entry, 0x78)
+            return read_cfb_chain(data, start_sector, fat, sector_size, stream_size)
+    raise ValueError(f"stream not found: {stream_name}")
+
+
+def extract_doc_payloads(path: Path) -> list[bytes]:
+    if olefile is not None:
+        try:
+            with olefile.OleFileIO(str(path)) as ole:
+                if ole.exists("WordDocument"):
+                    return [ole.openstream("WordDocument").read()]
+        except Exception:  # noqa: BLE001
+            pass
+    try:
+        return [read_cfb_stream(path, "WordDocument")]
+    except Exception as exc:  # noqa: BLE001
+        if path.read_bytes().startswith(CFB_MAGIC):
+            raise RuntimeError(f"could not read WordDocument stream from {path}") from exc
+    return [path.read_bytes()]
+
+
+def extract_doc(path: Path) -> str:
+    candidates: list[str] = []
+    for payload in extract_doc_payloads(path):
+        decoded = payload.decode("utf-16-le", errors="ignore")
+        text = scan_printable_text(decoded)
+        if text:
+            candidates.append(text)
+    if not candidates:
+        decoded = path.read_bytes().decode("latin-1", errors="ignore")
+        candidates.append(scan_printable_text(decoded))
+    return clean_text("\n".join(candidates))
 
 
 def extract_pdf(path: Path) -> str:
@@ -82,6 +212,8 @@ def extract_text(path: Path) -> tuple[str, str]:
     ext = path.suffix.lower()
     if ext == ".docx":
         return extract_docx(path), "docx"
+    if ext == ".doc":
+        return extract_doc(path), "doc:ole-utf16-scan"
     if ext == ".pdf":
         return extract_pdf(path), "pdf"
     if ext == ".pptx":
