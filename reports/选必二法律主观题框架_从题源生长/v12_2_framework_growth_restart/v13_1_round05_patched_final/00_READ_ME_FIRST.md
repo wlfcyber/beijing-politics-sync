@@ -2,7 +2,7 @@
 
 生成时间：2026-05-23 16:10 +08:00
 
-状态：`v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`
+状态：`v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 v13.1 是在 v13.0 双轴版基础上，经过真实 GPT Pro 与 Claude Opus 4.7 Adaptive Round05 终审后形成的补丁终版。两路模型均给出 `ACCEPT_AFTER_MINOR_PATCHES`，Codex 采纳本地证据支持的标签和边界补丁。
 
@@ -17,6 +17,7 @@ v13.1 是在 v13.0 双轴版基础上，经过真实 GPT Pro 与 Claude Opus 4.7
 - `07_RENDER_QA_REPORT.md`
 - `08_FINAL_SUMMARY.md`
 - `09_GPT_Round06终评与补丁落实.md`
+- `governor_confucius/CONFUCIUS_ARTIFACT_ONLY_CHECK_v13_1.md`
 - `traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`

@@ -1,6 +1,6 @@
 # 08 Final Summary
 
-Status: `v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat`
+Status: `v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat`
 
 Date: 2026-05-23
 
@@ -8,10 +8,11 @@ Date: 2026-05-23
 
 - Round05 used real GPT Pro web output and real Claude Opus 4.7 Adaptive web output; both gave `ACCEPT_AFTER_MINOR_PATCHES`.
 - Round06 then sent v13.1 plus the prior user-framework evidence back to real GPT Pro; GPT gave `ACCEPT_WITH_MINOR_PATCHES`, and the two required card-level proposition-path patches were applied.
+- A local Confucius artifact-only check now verifies that the final student artifact supports the zero-baseline path from material trigger to answer skeleton, while preserving the DOCX render caveat.
 - v13.1 applies the accepted minor patches to v13.0: key A/B reassignments, A5/A9 boundary, A6 guardrail, A10 guardrail, and conditional value-output rule.
 - All 42 locked core questions remain analyzed under A-axis legal relationship/content and B-axis question-action/proposition path.
 - Open-container/reference-only rows are preserved in a separate appendix and do not support the framework node counts.
-- DOCX, HTML, PDF, traceability CSV, render PNGs, and governance files now exist for v13.1.
+- DOCX, HTML, PDF, traceability CSV, render PNGs, governance files, and Confucius artifact-only check now exist for v13.1.
 
 ## Primary files
 
@@ -22,6 +23,7 @@ Date: 2026-05-23
 - `06_GOVERNOR_V13_1_FINAL_CHECK.md`
 - `07_RENDER_QA_REPORT.md`
 - `09_GPT_Round06终评与补丁落实.md`
+- `governor_confucius/CONFUCIUS_ARTIFACT_ONLY_CHECK_v13_1.md`
 - `traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx`
 - `选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf`

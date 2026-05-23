@@ -277,3 +277,15 @@
   - PDF = 25 pages / 25 rendered PNG pages / no blank-like pages。
   - DOCX Word COM 只读打开通过：43 pages / 1137 paragraphs。
   - DOCX 直渲染 caveat 不变。
+
+## STEP_147_SKILL_BASED_CONFUCIUS_CLOSURE_CHECK_20260523
+
+- 按用户要求使用 `feige-politics-garden` 与 `superpowers:using-superpowers` 重新检查 v13.1。
+- 检查发现 v13.1 已有 Governor、真实 GPT/Claude、Round06 GPT 复评、42题追溯、PDF渲染与 DOCX Word-open 证据，但最终目录缺少单独的本地 Confucius artifact-only 闭环文件。
+- 已补齐：
+  - `v13_1_round05_patched_final/governor_confucius/CONFUCIUS_ARTIFACT_ONLY_CHECK_v13_1.md`
+- Confucius 检查结论：42题卡均具备材料触发、A/B入口、命题路径、答案骨架、学生预警和证据状态；开放容器不进入42题正文；零基础学生可沿“材料信号 -> 法律入口 -> 设问动作 -> 答案骨架”迁移。
+- 已重新生成 DOCX/HTML/PDF 并复核：
+  - PDF = 26 pages / 26 rendered PNG pages / no blank-like pages。
+  - DOCX Word COM 只读打开通过：45 pages / 1191 paragraphs。
+- v13.1 状态更新为：`v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat`。

@@ -25,7 +25,7 @@ code{font-family:Consolas,monospace;background:#f1f5f9;padding:0 2pt}
 <section class="cover">
 <h1>选必二《法律与生活》法律宝典 v13.1 Round05补丁终版</h1>
 <p class="subtitle">Round05 patched final candidate</p>
-<div class="meta"><p>状态：v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat</p><p>Model gate: GPT Pro + Claude Opus 4.7 Adaptive, both real web captures.</p><p>Core: 42 locked questions; open-container rows remain outside the framework support count.</p></div>
+<div class="meta"><p>状态：v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat</p><p>Model gate: GPT Pro + Claude Opus 4.7 Adaptive, both real web captures.</p><p>Core: 42 locked questions; open-container rows remain outside the framework support count.</p></div>
 </section>
 <section class="md-section"><h2>01 v13.1 双轴法律主观题框架章</h2>
 <p>生成时间：2026-05-23 16:10 +08:00</p>
@@ -976,7 +976,7 @@ code{font-family:Consolas,monospace;background:#f1f5f9;padding:0 2pt}
 <p>The accepted patches improve high-frequency trunk clarity, hard-case placement, and student transfer. v13.1 supersedes v13.0 as the current final candidate; v13.0 remains a rollback baseline.</p></section>
 <section class="md-section"><h2>06 Governor v13.1 Final Check</h2>
 <p>生成时间：2026-05-23 16:10 +08:00</p>
-<p>状态：<code>v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat</code></p>
+<p>状态：<code>v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat</code></p>
 <h3>Gate 表</h3>
 <table>
 <tr><th>gate</th><th>result</th><th>evidence</th></tr>
@@ -986,17 +986,18 @@ code{font-family:Consolas,monospace;background:#f1f5f9;padding:0 2pt}
 <tr><td>开放容器分离</td><td>pass</td><td><code>04_开放容器与不晋升题附录.md</code> keeps reference-only/backfill rows outside the 42 locked core</td></tr>
 <tr><td>42题A轴/B轴完整</td><td>pass</td><td><code>traceability/TRACEABILITY_MATRIX_v13_1_round05_patched.csv</code></td></tr>
 <tr><td>A2-A10支持数</td><td>pass</td><td>所有启用主干至少3题；A1为基础层</td></tr>
-<tr><td>DOCX生成</td><td>pass with caveat</td><td><code>选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx</code>; Word COM opened read-only and computed 41 pages / 1105 paragraphs</td></tr>
+<tr><td>DOCX生成</td><td>pass with caveat</td><td><code>选必二法律与生活_法律宝典_v13_1_Round05补丁终版.docx</code>; Word COM opened read-only and computed 45 pages / 1191 paragraphs</td></tr>
 <tr><td>HTML打印源</td><td>pass</td><td><code>选必二法律与生活_法律宝典_v13_1_Round05补丁终版.html</code> rebuilt from <code>01</code> through <code>06</code>, including the open-container appendix</td></tr>
 <tr><td>PDF渲染</td><td>pass</td><td><code>选必二法律与生活_法律宝典_v13_1_Round05补丁终版.pdf</code>; rendered to 26 PNG pages with no blank-like pages</td></tr>
-<tr><td>PDF内容覆盖</td><td>pass</td><td>PDF includes the 42-card handbook, open-container appendix, <code>ACCEPT_AFTER_MINOR_PATCHES</code>, and Round05 governance</td></tr>
+<tr><td>PDF内容覆盖</td><td>pass</td><td>PDF includes the 42-card handbook, open-container appendix, <code>ACCEPT_AFTER_MINOR_PATCHES</code>, Round05 governance, GPT Round06 appendix, and Confucius check</td></tr>
 <tr><td>GPT Round06终评</td><td>pass</td><td><code>../round06_gpt_v13_1_final_eval_with_prior_framework/model_outputs/gpt_round06_v13_1_final_eval_with_prior_framework_raw.md</code>; verdict <code>ACCEPT_WITH_MINOR_PATCHES</code>; required two proposition-path patches applied</td></tr>
+<tr><td>Confucius artifact-only闭环</td><td>pass</td><td><code>governor_confucius/CONFUCIUS_ARTIFACT_ONLY_CHECK_v13_1.md</code>; confirms zero-baseline path from material signal to answer skeleton, with DOCX render caveat preserved</td></tr>
 <tr><td>DOCX直渲染</td><td>not passed / not claimed</td><td><code>render_docx.py</code> blocked by missing LibreOffice/soffice (<code>WinError 2</code>); Word-open check is recorded separately</td></tr>
 </table>
 <h3>Governor Verdict</h3>
 <p>v13.1 supersedes v13.0 as the current final legal-baodian candidate. The allowed final label is:</p>
-<p><code>v13_1_final_baodian_round05_patched_pdf_rendered_docx_generated_with_docx_render_caveat</code></p>
-<p>This means Markdown, traceability CSV, DOCX, HTML, PDF, and PDF page-render QA exist. It does not mean DOCX direct visual-render QA passed, because this Windows host lacks LibreOffice/soffice.</p></section>
+<p><code>v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat</code></p>
+<p>This means Markdown, traceability CSV, DOCX, HTML, PDF, PDF page-render QA, and Confucius artifact-only closure exist. It does not mean DOCX direct visual-render QA passed, because this Windows host lacks LibreOffice/soffice.</p></section>
 <section class="md-section"><h2>09 GPT Round06 终评与补丁落实</h2>
 <p>Status: <code>round06_gpt_minor_patches_accepted_applied</code></p>
 <h3>Real GPT Output</h3>
@@ -1022,4 +1023,25 @@ code{font-family:Consolas,monospace;background:#f1f5f9;padding:0 2pt}
 </table>
 <h3>新增守门规则</h3>
 <p>题卡内部必须保持三项一致：A轴主入口、双轴裁决说明、命题路径。若出现残留冲突，以 A轴主入口和最近一轮真实模型裁决说明为准，并修正命题路径。</p></section>
+<section class="md-section"><h2>10 Confucius 零基础成品闭环检查</h2>
+<p>检查时间：2026-05-23</p>
+<p>状态：<code>confucius_artifact_only_pass_with_docx_render_caveat</code></p>
+<h3>检查口径</h3>
+<p>本检查只看已经交付的学生成品本身，不借助工作日志替学生补理解。合格标准是：零基础学生拿到成品后，能按“材料信号 -&gt; A轴法律入口 -&gt; B轴设问动作 -&gt; 命题路径 -&gt; 答案骨架 -&gt; 学生预警”的顺序完成迁移，而不是只背法律目录或空写法治意义。</p>
+<h3>新鲜核验</h3>
+<table>
+<tr><th>项目</th><th>结果</th><th>证据</th></tr>
+<tr><td>正文题卡</td><td>pass</td><td><code>02_42题双轴重标与解析宝典.md</code> 有 42 个题卡标题</td></tr>
+<tr><td>追溯矩阵</td><td>pass</td><td><code>TRACEABILITY_MATRIX_v13_1_round05_patched.csv</code> 有 42 行、42 个唯一 question_id</td></tr>
+<tr><td>题卡字段</td><td>pass</td><td>A轴主入口、B轴设问动作、命题路径、材料触发、答案骨架、学生预警、评分锚点、材料核心、证据状态均为 42 项</td></tr>
+<tr><td>开放容器</td><td>pass</td><td><code>04_开放容器与不晋升题附录.md</code> 单列，不进入 42 道 locked core 正文</td></tr>
+<tr><td>旧框架继承</td><td>pass</td><td>Round06 投喂包包含旧框架逐页结构、有效维度、主要问题；GPT Round06 判断 v13.1 保住旧框架强项并修掉主要弱项</td></tr>
+<tr><td>模型真实性</td><td>pass</td><td>Round05 有真实 GPT Pro 与 Claude Opus 4.7 Adaptive web 输出；Round06 有真实 GPT Pro web 复评输出</td></tr>
+<tr><td>补丁闭环</td><td>pass</td><td>CC0213 命题路径为 A8 劳动关系；CC0238 命题路径为 A5 知识产权与竞争秩序</td></tr>
+<tr><td>PDF可读成品</td><td>pass</td><td>PDF 26 页，26 张页面渲染图，无 blank-like 页面；文本含 Round05、Round06、<code>ACCEPT_AFTER_MINOR_PATCHES</code>、<code>ACCEPT_WITH_MINOR_PATCHES</code>、<code>CC0251</code>、<code>Confucius</code></td></tr>
+<tr><td>DOCX成品</td><td>pass with caveat</td><td>DOCX 存在并通过 Word COM 打开，45 页、1191 段；本机缺 LibreOffice/soffice，不能声称 DOCX direct render QA passed</td></tr>
+</table>
+<h3>Confucius Verdict</h3>
+<p>从学生学习路径看，本版可以作为当前选必二《法律与生活》法律宝典成品：它不是法律知识点目录，而是把每道题固定落到法律入口、设问动作、命题路径、材料触发、评分锚点、答案骨架和误区预警。零基础学生能沿题卡完成“看见什么 -&gt; 想到什么 -&gt; 按什么动作写 -&gt; 哪些话不能乱写”的迁移。</p>
+<p>保留 caveat：DOCX 只能说“已生成并可由 Word 打开”，不能说“DOCX 直渲染视觉 QA 已通过”。PDF 已完成渲染页检查。</p></section>
 </body></html>

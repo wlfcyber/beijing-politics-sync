@@ -90,3 +90,14 @@ Forbidden labels:
   - PDF: 25 pages, rendered to 25 PNGs, no blank-like pages.
   - DOCX: Word COM opened read-only and computed 43 pages / 1137 paragraphs.
   - DOCX direct visual render remains caveated because LibreOffice/soffice is unavailable.
+
+## 2026-05-23 Skill-Based Confucius Closure Overlay
+
+- Rechecked v13.1 under `feige-politics-garden` and `superpowers:using-superpowers`.
+- Added the missing local Confucius artifact-only audit:
+  - `v13_1_round05_patched_final/governor_confucius/CONFUCIUS_ARTIFACT_ONLY_CHECK_v13_1.md`
+- Confucius result: pass with DOCX render caveat preserved.
+- After regenerating artifacts with the Confucius appendix:
+  - PDF: 26 pages, rendered to 26 PNGs, no blank-like pages.
+  - DOCX: Word COM opened read-only and computed 45 pages / 1191 paragraphs.
+- Current status: `v13_1_final_baodian_round06_confucius_checked_pdf_rendered_docx_generated_with_docx_render_caveat`.
