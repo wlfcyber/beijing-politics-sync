@@ -356,3 +356,29 @@
   - DOCX Word COM 只读打开通过：62 pages / 1698 paragraphs。
   - DOCX direct render QA 仍因本机缺 LibreOffice/soffice 不声明通过。
 - 当前允许状态：`v13_7_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`。
+
+## STEP_157_CONFUCIUS_ANGRY_STUDENT_READER_AGENT_20260523
+
+- 按用户要求新增专门试读 Agent：`Confucius Angry Student Reader Agent`。
+- Agent 目录：
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/`
+- Agent 规则：
+  - 检测成品是否真正像框架，而不是分类表、答案摘抄或题型目录。
+  - 作为“愤怒但聪明的零基础高三学生”试读框架并盲答题。
+  - 盲测时只允许读框架章和 blind trial pack，不允许读隐藏答案键、42题解析、traceability、评分锚点、答案骨架、材料触发链、学生预警。
+- 已生成：
+  - `AGENT_SPEC.md`
+  - `PROMPT_TEMPLATE.md`
+  - `trial_pack_20260523/BLIND_TRIAL_PACK.md`
+  - `trial_pack_20260523/LOCAL_ANSWER_KEY_NOT_FOR_AGENT.csv`
+  - `FIRST_RUN_REPORT_20260523.md`
+  - `CODEX_CONTROLLER_EVALUATION_20260523.md`
+- 独立子 Agent 首轮结论：`FRAMEWORK_PASS_WITH_REPAIRS`。
+- Codex 主控核验：
+  - 8 道盲测题中，A/B 入口大部分与隐藏答案键吻合。
+  - `CC0092` 暴露 B 轴缺“法律问题识别/填空”模式。
+  - `CC0213` 暴露 traceability 中命题路径残留 `A5`，已修正为 A8 劳动关系路径并重建隐藏答案键。
+  - 接受的下一步修补方向：一页作战图、A轴最小3句版、B轴30秒模板、B7/问题识别模式、A8劳动争议工具句、A4+A6瑕疵商品致损桥。
+- 当前状态：
+  - `confucius_reader_agent_created_first_run_framework_pass_with_repairs`
+  - 这不是最终框架质量 PASS；它是下一版 v13.8 框架改写的门禁输入。

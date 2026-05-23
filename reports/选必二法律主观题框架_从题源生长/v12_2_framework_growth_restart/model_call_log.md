@@ -397,3 +397,22 @@ For each model call, record:
   - DOCX Word COM open check: 62 pages / 1698 paragraphs.
 - Final status:
   - `v13_7_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
+
+## 2026-05-23 Confucius Angry Student Reader Agent first run
+
+- User requested creating a dedicated reader agent to test whether the artifact is truly a framework and whether a smart zero-baseline senior-three student can learn and apply it quickly.
+- Agent:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/AGENT_SPEC.md`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/PROMPT_TEMPLATE.md`
+- Blind pack:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/trial_pack_20260523/BLIND_TRIAL_PACK.md`
+- Hidden local answer key, not sent to agent:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/trial_pack_20260523/LOCAL_ANSWER_KEY_NOT_FOR_AGENT.csv`
+- Subagent output:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FIRST_RUN_REPORT_20260523.md`
+- Controller adjudication:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/CODEX_CONTROLLER_EVALUATION_20260523.md`
+- Result:
+  - `FRAMEWORK_PASS_WITH_REPAIRS`.
+  - This is a local Confucius artifact-only gate, not a GPT/Claude external-model gate.
+  - Required next patch: reorganize into framework-first student form and add B7/issue-identification, A8 labor-dispute hard sentences, and A4+A6 defective-goods bridge.

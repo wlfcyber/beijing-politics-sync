@@ -140,3 +140,19 @@ Forbidden labels:
   - DOCX direct visual-render QA pass
   - promotion of open-container rows into 42 locked core
   - broader next-backfill `TASK_COMPLETE`
+
+## 2026-05-23 Confucius Angry Student Reader Overlay
+
+- Dedicated reader-agent gate now exists:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/AGENT_SPEC.md`
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/PROMPT_TEMPLATE.md`
+- First blind run exists:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/FIRST_RUN_REPORT_20260523.md`
+- Controller adjudication exists:
+  - `v13_7_final_baodian_integrated/confucius_angry_student_reader_agent/CODEX_CONTROLLER_EVALUATION_20260523.md`
+- Result:
+  - `FRAMEWORK_PASS_WITH_REPAIRS`
+- Governance meaning:
+  - v13.7 remains a delivered baodian artifact with render QA.
+  - v13.7 is not a strict final framework-quality PASS after the new reader gate.
+  - Next framework-quality closure requires a repair version that addresses compression, final battle-map ordering, B7/issue-identification, A8 labor-dispute hard sentences, and A4+A6 defective-goods bridge, followed by another blind reader run.
