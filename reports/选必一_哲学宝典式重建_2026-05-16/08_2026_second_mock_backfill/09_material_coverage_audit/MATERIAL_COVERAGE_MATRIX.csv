@@ -1,0 +1,25 @@
+district,source_type,filename,extractor,status,usable_for_scope,notes
+2026朝阳二模,试卷,2026北京朝阳高三二模政治（教师版）.docx,docx,ok,yes,试卷文本已进入 manifest
+2026朝阳二模,细则,202605朝阳高三政治二模阅卷细则(1).docx,docx,ok,yes,阅卷细则已进入 manifest
+2026东城二模,试卷,2026北京东城高三二模政治（教师版）.docx,docx,ok,yes,试卷文本已进入 manifest
+2026东城二模,细则,16.pdf,pdf,ok,yes,分题细则已进入 manifest
+2026东城二模,细则,17题评标.pdf,pdf,ok,yes,分题评标已进入 manifest
+2026东城二模,细则,18题阅卷细则(5.9).pdf,pdf,ok,yes,分题阅卷细则已进入 manifest
+2026东城二模,细则,20题（1+2）.pdf,pdf,ok,yes,分题细则已进入 manifest
+2026东城二模,细则,26年东城二模20（3）.pdf,pdf,ok,yes,分题细则已进入 manifest
+2026东城二模,细则,东城二模 19题阅卷细则.pdf,pdf,ok,yes,分题阅卷细则已进入 manifest
+2026东城二模,细则,二模21题细则模版.pdf,pdf,ok,yes,分题细则模板已进入 manifest
+2026房山二模,试卷,2026北京房山高三二模政治（教师版）.pdf,pdf,ok,yes,试卷已进入 manifest；另有 OCR 补充文本
+2026房山二模,细则,26房山评标(2).docx,docx,ok,yes,评标文件已进入 manifest
+2026房山二模,细则,26房山评标.docx,docx,ok,yes,评标文件已进入 manifest；与(2)版同长度
+2026丰台二模,试卷,2026北京丰台高三二模政治（教师版）.pdf,pdf,ok,yes,试卷文本已进入 manifest
+2026丰台二模,细则,2026丰台区二模主观题阅卷细则(1).pptx,pptx,ok,yes,阅卷细则 PPT 已进入 manifest；另有 OCR 补充文本
+2026丰台二模,答案,高三政治答案.docx,docx,ok,yes,参考答案已进入 manifest
+2026海淀二模,试卷,2026北京海淀高三二模政治（教师版）.docx,docx,ok,yes,试卷文本已进入 manifest
+2026海淀二模,讲评,26海淀高三政治二模讲评.pdf,pdf,ok,yes,讲评 PDF 已进入 manifest
+2026石景山二模,试卷,2026北京石景山高三二模政治（教师版）.docx,docx,ok,yes,试卷文本已进入 manifest
+2026石景山二模,细则,石景山区高三政治第二次模拟考试答案评分细则(1).doc,doc:ole-utf16-scan,ok,yes,旧 Word 细则已通过 WordDocument 数据流提取
+2026顺义二模,试卷,26顺义二模(1).pdf,pdf,ok,yes,原生 PDF 文本较弱；已有 RapidOCR 题面补充
+2026顺义二模,评标,26顺义二模评标.doc,doc:ole-utf16-scan,ok,yes,旧 Word 评标已通过 WordDocument 数据流提取
+2026西城二模,试卷,2026北京西城高三二模政治（教师版）.docx,docx,ok,yes,试卷文本已进入 manifest
+2026西城二模,评标,西城二模评标.pdf,pdf,ok,yes,评标 PDF 已进入 manifest；另有 OCR 补充文本

@@ -6,6 +6,8 @@
 
 当前 `BATCH_014_FINAL_AFTER_GPT_AND_CLAUDE.md` 不是 2026 二模的完整闭合终稿。它已经包含 34 个术语条目，覆盖 8 个题目单元；但新下载到本机的顺义评标材料证明顺义 Q20 此前被漏掉，丰台 Q22、房山 Q21 也应进入补录/复核队列。
 
+材料覆盖层面另见 `09_material_coverage_audit/MATERIAL_COVERAGE_AUDIT.md`：二模目录下 8 个区、24 个源文件已全部进入 manifest，成功 24、错误 0、跳过 0。
+
 因此，现在的状态应改为：
 
 - 已纳入主链：8 个题目单元。
