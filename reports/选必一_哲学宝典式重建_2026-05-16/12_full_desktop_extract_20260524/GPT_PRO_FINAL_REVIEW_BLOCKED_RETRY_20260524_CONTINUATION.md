@@ -225,3 +225,40 @@ Fresh Chrome diagnostics:
 Current conclusion:
 
 The selected profile has drifted back to `Profile 1`, where the extension is installed and enabled, but the official extension connection still fails. This is a resumed blocked-audit recurrence of the same GPT Pro handoff blocker. Since this is the first resumed turn after the prior blocked state, it is recorded as evidence but should not by itself trigger another `blocked` goal update unless the same condition repeats for the required consecutive resumed turns.
+
+## Second Fresh Resumed Retry After Blocked Status - 2026-05-24 21:06 +08:00
+
+This resumed goal turn again followed the official Chrome-extension route only. It first rechecked the local deliverable, GitHub pointer, and Word QA evidence, then opened the selected Chrome profile window and retried the extension connection once.
+
+Local and Git evidence:
+
+- Local repository pointer: `1134448d1806bbdeda1475aafbe79744b8f4a495`.
+- Remote `origin/main` pointer: `1134448d1806bbdeda1475aafbe79744b8f4a495`.
+- Local handbook QA remained stable: `core_headings=138`, `main_cases=373`, `boundary_cases=7`, `total_h3=380`, `count_mismatches=0`, `sequence_mismatches=0`, `merged_title_flags=0`.
+- All five required student fields still counted `380`: `【什么时候写】`, `【设问】`, `【为什么能想到】`, `【卷面句】`, `【同题组】`.
+- Word render QA summary still reports `PASS`: student handbook rendered to 200 PNG pages, navigation version rendered to 20 PNG pages, `blank_like_pages=0`, and no obvious clipping, overlap, table overflow, or footer anomaly in the inspected render set.
+
+Official selected-profile recovery step:
+
+- `scripts/open-chrome-window.js` returned `status: opened`.
+- Opened profile: `Profile 1`.
+- Open command target: new Chrome window at `about:blank`.
+- Extension retry after opening the selected profile window still failed with `Browser is not available: extension`.
+
+Fresh Chrome diagnostics after the failed retry:
+
+| Check | Current result |
+|---|---|
+| Google Chrome running | Yes |
+| Google Chrome version | `148.0.7778.179` |
+| Diagnostics-selected Chrome profile | `Profile 1` |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
+| Native host manifest | Correct |
+| Native host registry path | Matches manifest path |
+| Expected extension origin | Present in `allowedOrigins` |
+
+Current conclusion:
+
+The selected profile is correct and has the Codex Chrome Extension installed and enabled. The native host manifest is also correct. The remaining blocker is still the same communication failure: the official browser-control route reports `Browser is not available: extension` even after opening a fresh `Profile 1` Chrome window.
+
+This is the second fresh resumed blocked-audit recurrence after the prior blocked status. It does not yet satisfy the three-consecutive-resumed-turn threshold for marking the active goal blocked again, but the GPT Pro final-review gate remains unsatisfied. Strict final PASS still cannot be claimed until a real GPT Pro review/modification output is captured and applied or the user explicitly waives that exact gate.
