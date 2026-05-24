@@ -547,3 +547,57 @@ For each model call, record:
   - This proves local framework provenance from locked rows, material triggers, prompt actions, and scoring anchors.
   - It does not replace real GPT/Claude external review.
   - It does not create DOCX/PDF delivery.
+
+## 2026-05-24 GPT Pro v14.2 review with prior framework
+
+- External model call:
+  - real ChatGPT/GPT Pro web session in the user's Chrome `Lifei` profile.
+- Uploaded/read files:
+  - v14.2 baodian Markdown;
+  - v14.2 governor checklist;
+  - prior framework files under `v13_feige_final_framework_rewrite/`;
+  - review prompt `GPT_PRO_REVIEW_PROMPT_v14_2_with_prior_framework.md`.
+- Captured output:
+  - `v14_2_zero_baseline_framework_baodian/external_gate_attempts/GPT_PRO_REVIEW_v14_2_WITH_PRIOR_FRAMEWORK_CAPTURE_20260524.md`
+- Verdict:
+  - `GPT_REVIEW_PASS_AFTER_PATCH`.
+- Boundary:
+  - full raw transcript export failed after long-page extraction timeout.
+  - visible verdict and required patch list were captured and implemented in v14.3.
+
+## 2026-05-24 Claude Opus 4.7 Adaptive v14.3 zero-baseline student simulation
+
+- External model call:
+  - real Claude Opus 4.7 Adaptive web session in the user's Chrome `Lifei` profile.
+- Uploaded/read files:
+  - `CLAUDE_ZERO_BASELINE_STUDENT_PROMPT_v14_3.md`
+  - `01_先背这套_法律主观题不扣分框架_v14_3.md`
+  - `CLAUDE_BLIND_TEST_PACK_8Q_v14_3.md`
+- Withheld:
+  - `02_42题按框架拆解与解析_v14_3.md`
+- Captured output:
+  - `v14_3_gpt_patch_framework_baodian/claude_student_simulation/CLAUDE_OPUS47_ZERO_BASELINE_STUDENT_RESULT_v14_3_20260524.md`
+- Verdict:
+  - `CLAUDE_STUDENT_PASS_AFTER_PATCH`.
+- Result:
+  - generated v14.4 student-facing framework patch.
+
+## 2026-05-24 Claude Opus 4.7 Adaptive v14.4 zero-baseline student simulation
+
+- External model call:
+  - real Claude Opus 4.7 Adaptive web session in the user's Chrome `Lifei` profile.
+- Uploaded/read files:
+  - `01_先背这套_法律主观题不扣分框架_v14_4.md`
+  - `CLAUDE_BLIND_TEST_PACK_8Q_v14_4.md`
+- Prompt:
+  - typed into Claude message box because `CLAUDE_ZERO_BASELINE_STUDENT_PROMPT_v14_4.md` upload failed.
+- Withheld:
+  - `02_42题按框架拆解与解析_v14_4.md`
+- Captured output:
+  - `v14_4_claude_student_patch_framework_baodian/claude_student_simulation/CLAUDE_OPUS47_ZERO_BASELINE_STUDENT_RESULT_v14_4_20260524.md`
+- Verdict:
+  - `CLAUDE_STUDENT_FRAMEWORK_PASS`.
+- Result:
+  - v14.5 final Markdown candidate incorporates Claude's optional A8 hardening card.
+- Boundary:
+  - No DOCX/PDF output is produced or claimed.

@@ -566,3 +566,75 @@
   - No new real GPT/Claude v14.2 external review.
   - No final external-governance PASS.
   - No v14.2 DOCX/PDF delivery.
+
+## STEP_164_V14_3_REAL_GPT_PATCH_20260524
+
+- User requested real GPT Pro review of the final version with prior framework evidence attached.
+- Chrome linkage was repaired to the user's `Lifei` Chrome profile; ChatGPT page showed Pro account context.
+- Real GPT Pro reviewed:
+  - `v14_2_zero_baseline_framework_baodian/选必二法律与生活_法律宝典_v14_2_零基础框架学习版.md`
+  - `v14_2_zero_baseline_framework_baodian/06_FINAL_GOVERNOR_CHECKLIST_v14_2.md`
+  - prior framework files under `v13_feige_final_framework_rewrite/`
+  - the GPT review prompt in `external_gate_attempts/`
+- Captured evidence:
+  - `v14_2_zero_baseline_framework_baodian/external_gate_attempts/GPT_PRO_REVIEW_PROMPT_v14_2_with_prior_framework.md`
+  - `v14_2_zero_baseline_framework_baodian/external_gate_attempts/GPT_PRO_REVIEW_v14_2_WITH_PRIOR_FRAMEWORK_CAPTURE_20260524.md`
+- Boundary:
+  - GPT Pro returned visible verdict `GPT_REVIEW_PASS_AFTER_PATCH`.
+  - Full raw transcript export was blocked by long-page extraction timeout; capture file records the visible verdict and patch list.
+- Output:
+  - `v14_3_gpt_patch_framework_baodian/`
+  - `build_v14_3_gpt_patch.py`
+- Status:
+  - `gpt_patch_applied_markdown_candidate_pending_claude_student_sim`.
+
+## STEP_165_V14_4_REAL_CLAUDE_STUDENT_PATCH_20260524
+
+- Real Claude Opus 4.7 Adaptive ran as a zero-baseline smart high-school student.
+- v14.3 test inputs:
+  - `CLAUDE_ZERO_BASELINE_STUDENT_PROMPT_v14_3.md`
+  - `01_先背这套_法律主观题不扣分框架_v14_3.md`
+  - `CLAUDE_BLIND_TEST_PACK_8Q_v14_3.md`
+  - The 42-question answer-analysis file was deliberately withheld.
+- Captured evidence:
+  - `v14_3_gpt_patch_framework_baodian/claude_student_simulation/CLAUDE_OPUS47_ZERO_BASELINE_STUDENT_RESULT_v14_3_20260524.md`
+- Claude verdict:
+  - `CLAUDE_STUDENT_PASS_AFTER_PATCH`.
+- Output:
+  - `v14_4_claude_student_patch_framework_baodian/`
+  - `build_v14_4_claude_student_patch.py`
+- Key repairs:
+  - split C axis into `C-rule` and `C-write`;
+  - add A-axis decision tree and A1 main-spine threshold;
+  - expand mixed-question rules;
+  - add score-length map, reference-example method, and legal-detail cards.
+- Status:
+  - `claude_student_patch_applied_pending_second_claude_sim`.
+
+## STEP_166_V14_5_REAL_CLAUDE_PASS_AND_FINAL_MARKDOWN_CANDIDATE_20260524
+
+- Real Claude Opus 4.7 Adaptive ran a second zero-baseline blind test on v14.4.
+- v14.4 test inputs:
+  - `01_先背这套_法律主观题不扣分框架_v14_4.md`
+  - `CLAUDE_BLIND_TEST_PACK_8Q_v14_4.md`
+  - Zero-baseline student instructions were typed directly because the prompt-file upload failed.
+  - The 42-question answer-analysis file was deliberately withheld.
+- Captured evidence:
+  - `v14_4_claude_student_patch_framework_baodian/claude_student_simulation/CLAUDE_OPUS47_ZERO_BASELINE_STUDENT_RESULT_v14_4_20260524.md`
+- Claude verdict:
+  - `CLAUDE_STUDENT_FRAMEWORK_PASS`.
+- Claude's only non-blocking hardening suggestion was added:
+  - A8 `入职欺诈与劳动合同无效卡`.
+- Latest output:
+  - `v14_5_final_markdown_baodian_claude_pass_hardened/`
+  - `build_v14_5_claude_pass_hardening.py`
+  - `v14_5_final_markdown_baodian_claude_pass_hardened/选必二法律与生活_法律宝典_v14_5_最终Markdown候选版.md`
+  - `v14_5_final_markdown_baodian_claude_pass_hardened/02_42题按框架拆解与解析_v14_5.md`
+  - `v14_5_final_markdown_baodian_claude_pass_hardened/06_FINAL_GOVERNOR_CHECKLIST_v14_5.md`
+- Verification:
+  - 42/42 question cards present.
+  - student-facing framework and 42-card file contain no `GPT` or `Claude` governance chatter.
+  - v14.5 framework contains `C-rule`, `C-write`, A-axis decision tree, six detail cards, and the A8 hardening card.
+- Boundary:
+  - v14.5 is the latest final Markdown candidate with real GPT/Claude governance evidence.
+  - DOCX/PDF delivery is not produced and not claimed.

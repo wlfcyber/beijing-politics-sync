@@ -1,0 +1,2 @@
+built_by=build_v14_5_claude_pass_hardening.py
+status=markdown_final_candidate_external_model_pass_hardened_no_docx_pdf
