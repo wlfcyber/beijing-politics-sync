@@ -22,16 +22,22 @@ def main() -> None:
 
     core_matches = list(re.finditer(r"^## 核心答题点：(.+?)（出现(\d+)次）\s*$", text, re.M))
     count_mismatches: list[tuple[str, int, int]] = []
+    sequence_mismatches: list[tuple[str, int, int, str]] = []
     for i, match in enumerate(core_matches):
         start = match.end()
         next_core = core_matches[i + 1].start() if i + 1 < len(core_matches) else len(text)
         app = text.find("\n" + appendix_marker, start)
         end = next_core if app == -1 else min(next_core, app)
         body = text[start:end]
-        actual = len(re.findall(r"^###\s+", body, re.M))
+        titles = re.findall(r"^###\s+(\d+)\.\s+(.+?)\s*$", body, re.M)
+        actual = len(titles)
         listed = int(match.group(2))
         if actual != listed:
             count_mismatches.append((match.group(1), listed, actual))
+        for expected, (raw_number, title) in enumerate(titles, start=1):
+            actual_number = int(raw_number)
+            if actual_number != expected:
+                sequence_mismatches.append((match.group(1), expected, actual_number, title))
 
     main_part, appendix = text.split(appendix_marker, 1)
     main_cases = len(re.findall(r"^###\s+", main_part, re.M))
@@ -75,6 +81,9 @@ def main() -> None:
     print(f"count_mismatches={len(count_mismatches)}")
     if count_mismatches:
         print(f"count_mismatch_examples={count_mismatches[:10]}")
+    print(f"sequence_mismatches={len(sequence_mismatches)}")
+    if sequence_mismatches:
+        print(f"sequence_mismatch_examples={sequence_mismatches[:10]}")
     print(f"field_counts={field_counts}")
     print(f"field_count_values={missing_field_delta}")
     print(f"nav_core_rows={len(nav_core_rows)}")

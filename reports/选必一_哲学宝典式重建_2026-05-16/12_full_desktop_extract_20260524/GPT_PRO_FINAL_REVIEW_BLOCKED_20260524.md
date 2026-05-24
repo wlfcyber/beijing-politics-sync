@@ -27,3 +27,16 @@
 ## 后续处理
 
 如需补做 GPT Pro 复核，需要用户将 Codex Chrome Extension 启用到当前默认 Chrome profile，或切换 Codex Chrome 插件接管的 profile 到已安装扩展的 `Profile 1`。在此之前，不把 GPT Pro 写入“已通过”证据链。
+
+## 2026-05-24 18:30 续检
+
+再次运行 Chrome 诊断，结果仍为：
+
+- Chrome 正在运行；
+- Google Chrome 已安装，且是系统默认浏览器；
+- Native host manifest 正常；
+- 当前选中 profile 仍为 `Default`；
+- `Default` 未安装 Codex Chrome Extension；
+- `Profile 1` 已安装并启用 Codex Chrome Extension。
+
+结论不变：GPT Pro 终稿审核仍需用户把 Codex Chrome Extension 启用到 `Default`，或让 Codex Chrome 插件接管已安装扩展的 `Profile 1`。

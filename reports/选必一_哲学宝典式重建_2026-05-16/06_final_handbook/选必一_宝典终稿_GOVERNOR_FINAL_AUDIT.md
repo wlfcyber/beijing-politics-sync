@@ -4,9 +4,9 @@
 
 ## Governor 判定
 
-PASS WITH RENDER LIMITATION。
+WEAK_PASS：正文与导航本体 PASS；GPT Pro 终稿复核与页面视觉渲染 QA 未闭合。
 
-当前学生厚版与考前导航版本体已达到“哲学宝典式”的可交付标准：核心点按教材模块与评分术语分桶，题例按来源题独立呈现，频次与题例数同步，边界题不硬塞主链。唯一未闭合的是页面图片渲染 QA：当前机器缺少 LibreOffice/`soffice`，Microsoft Word COM 导出 PDF 超时，因此不能声明 PNG 视觉渲染通过。
+当前学生厚版与考前导航版本体已达到“哲学宝典式”的可交付标准：核心点按教材模块与评分术语分桶，题例按来源题独立呈现，频次与题例数同步，边界题不硬塞主链。仍未闭合的不是正文结构，而是两类外部证据：其一，GPT Pro 终稿复核受 Chrome profile/扩展接管问题阻塞，不能声明 GPT Pro 已审核通过；其二，页面图片渲染 QA 受本机缺少 LibreOffice/`soffice` 且 Microsoft Word COM 导出 PDF 超时影响，不能声明 PNG 视觉渲染通过。
 
 ## 最终交付文件
 
@@ -25,6 +25,7 @@ PASS WITH RENDER LIMITATION。
 | 总题例 | 380 |
 | 频次不一致 | 0 |
 | 疑似多题合并题例标题 | 0 |
+| 题例序号不连续 | 0 |
 | 导航核心点行 | 138 |
 | 导航边界提示行 | 7 |
 | 导航总数据行 | 145 |
@@ -52,20 +53,25 @@ DOCX 结构：
 
 当前终稿没有发现两个不同来源题合并成一个 `###` 案例。允许同一道来源题因多个评分角度分别挂入多个核心点；不允许把两道来源题压成一个案例。本轮 QA 脚本对标题层做了合并题例扫描，结果为 0。
 
+题例序号已按每个核心答题点内的独立题例顺序重新排列；本轮 QA 脚本新增序号连续性检查，结果为 0。
+
 ## 外部审核记录
 
 - ClaudeCode Opus 对 43 条机械 absent 候选做三分法 triage，原始文件：`12_full_desktop_extract_20260524/XUANBIYI_ABSENT43_TRIAGE.md`。
 - 本地回源后的 triage 校正：`12_full_desktop_extract_20260524/XUANBIYI_ABSENT43_TRIAGE_POSTCHECK_20260524.md`。
 - Claude Opus 覆盖补丁后只读复核：`12_full_desktop_extract_20260524/CLAUDE_OPUS_FINAL_QA_AFTER_COVERAGE_PATCH.md`。结论：正文和导航本体 PASS，旧审计文件需去除旧数字。
 - Claude Opus 文档修复后只读复核：`12_full_desktop_extract_20260524/CLAUDE_OPUS_FINAL_QA_AFTER_DOC_FIX_20260524.md`。结论：正文和导航本体 PASS；指出 Governor 文件旧数字仍需同步。本文件即为同步后的最终 Governor 审计。
+- 独立 agent 完成性复核：`12_full_desktop_extract_20260524/AGENT_FINAL_COMPLETION_AUDIT_20260524.md`。结论：正文与导航本体 WEAK_PASS；未发现合并题例或明显错误归类；指出 GPT Pro、页面渲染、旧覆盖审计口径和题例序号问题。本轮已修复旧覆盖审计口径与题例序号问题。
+- GPT Pro 终稿复核：`12_full_desktop_extract_20260524/GPT_PRO_FINAL_REVIEW_BLOCKED_20260524.md`。当前为 blocked，不能写入“已通过”证据链。
 
 ## QA 与脚本
 
 - `scripts/apply_xuanbiyi_coverage_fixes_20260524.py`：回填主链/边界并重建导航。
-- `scripts/qa_xuanbiyi_final_handbook_20260524.py`：核验核心点、题例数、频次、字段完整性、合并题例标题、DOCX 结构。
+- `scripts/qa_xuanbiyi_final_handbook_20260524.py`：核验核心点、题例数、频次、字段完整性、合并题例标题、题例序号连续性、DOCX 结构。
 - `06_final_handbook/WORD_REBUILD_QA_20260524_FREQUENCY_COVERAGE.md`：Word 重建与结构 QA。
 - `06_final_handbook/选必一_终稿逐题覆盖与频次修复审计_20260524.md`：逐题覆盖与频次修复审计。
 
 ## 残留风险
 
-页面图片级视觉 QA 未通过：不是内容结构失败，而是本机渲染环境缺失/超时导致无 PNG 证据。正式印刷或分发前，建议在有稳定 LibreOffice 或 Word PDF 导出环境的机器上补做页面渲染抽检。
+- GPT Pro 终稿复核未通过：不是 GPT Pro 给出负面意见，而是当前 Chrome 扩展接管链路无法连通，尚未取得 GPT Pro 输出。
+- 页面图片级视觉 QA 未通过：不是内容结构失败，而是本机渲染环境缺失/超时导致无 PNG 证据。正式印刷或分发前，建议在有稳定 LibreOffice 或 Word PDF 导出环境的机器上补做页面渲染抽检。
