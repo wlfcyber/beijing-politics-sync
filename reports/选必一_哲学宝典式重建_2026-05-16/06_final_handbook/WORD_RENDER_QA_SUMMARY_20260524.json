@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-05-24",
+  "status": "PASS",
+  "route": "DOCX -> PDF via LibreOffice soffice.com -> PNG via PyMuPDF/fitz 1.27.2.3 at 150 DPI",
+  "render_docx_py_status": "not used as final renderer because Windows soffice.exe hung and the script's file://C:\\ path for UserInstallation failed with soffice.com",
+  "documents": [
+    {
+      "name": "student",
+      "docx": "选必一_当代国际政治与经济_主观题术语宝典_学生版.docx",
+      "qa_dir": "word_render_qa_20260524_student_manual",
+      "pdf_bytes": 3996805,
+      "png_pages": 200,
+      "png_dimensions": [1275, 1650],
+      "blank_like_pages": 0,
+      "contact_sheets": 10,
+      "full_size_pages_inspected": [1, 28, 100, 199]
+    },
+    {
+      "name": "navigation",
+      "docx": "选必一_当代国际政治与经济_主观题术语宝典_考前导航版.docx",
+      "qa_dir": "word_render_qa_20260524_nav_manual",
+      "pdf_bytes": 899425,
+      "png_pages": 20,
+      "png_dimensions": [1754, 1241],
+      "blank_like_pages": 0,
+      "contact_sheets": 1,
+      "full_size_pages_inspected": [5, 20]
+    }
+  ],
+  "visual_findings": {
+    "blank_pages": false,
+    "page_clipping": false,
+    "obvious_overlap": false,
+    "table_overflow": false,
+    "footer_anomaly": false
+  },
+  "remaining_external_blocker": "GPT Pro final review still blocked by Chrome profile / extension handoff"
+}

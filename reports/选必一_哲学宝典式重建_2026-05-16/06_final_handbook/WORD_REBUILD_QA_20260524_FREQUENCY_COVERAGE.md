@@ -59,19 +59,20 @@
 
 ## 渲染 QA 状态
 
-按 Documents 插件要求尝试渲染页面图片：
+按 Documents 插件要求补做页面渲染验收：
 
-1. `render_docx.py` 调用失败，原因是当前机器找不到 LibreOffice/`soffice`。
-2. 改用本机 Microsoft Word COM 导出 PDF；学生厚版导出在 15 分钟超时后仍未产出 PDF，已回收隐藏 Word 进程。
-3. 单独尝试导航版 Word COM 导出 PDF，同样在导出阶段超时，已回收隐藏 Word 进程。
+1. 已通过 `winget` 安装 `TheDocumentFoundation.LibreOffice 26.2.3.2`。
+2. 原 `render_docx.py` 在 Windows 上仍不可直接作为稳定通道：`soffice.exe` 调用会挂起，改用临时 shim 后又暴露 `-env:UserInstallation=file://C:\...` 路径格式兼容问题。
+3. 改用同等 DOCX -> PDF -> PNG 路径闭合验收：先将 DOCX 复制为 ASCII 临时文件名，再用 `soffice.com --headless --norestore --nodefault --nofirststartwizard --convert-to pdf` 导出 PDF，最后用 bundled Python 中的 PyMuPDF/fitz 1.27.2.3 按 150 DPI 渲染 PNG。
 
-因此，本轮未获得可靠 PNG 页面渲染结果，不能声明“页面视觉渲染通过”。当前可证明的是 Markdown/Word 结构完整、DOCX 可读、标题层级与题例数量一致、导航版与厚版频次同步。
+渲染结果：
 
-### 2026-05-24 18:30 续检
+| 文档 | PDF | PNG 页数 | PNG 尺寸 | 空白/近空白页 | 视觉总览 |
+|---|---:|---:|---|---:|---|
+| 学生厚版 | 3,996,805 bytes | 200 | 1275 x 1650 | 0 | `word_render_qa_20260524_student_manual/contact_sheet_01.png` 至 `contact_sheet_10.png` |
+| 考前导航版 | 899,425 bytes | 20 | 1754 x 1241 | 0 | `word_render_qa_20260524_nav_manual/contact_sheet_01.png` |
 
-再次确认本机没有 LibreOffice/`soffice`。随后单独用 Microsoft Word COM 只读导出较短的考前导航版 PDF，仍在导出阶段超时，且没有产出 PDF；隐藏 Word 进程已回收。由此可排除“只是学生厚版过大导致导出失败”的解释，当前机器的 Word 自动导出链路本身不可作为可靠页面渲染 QA 通道。
-
-要补齐 Documents 插件要求的页面级视觉验收，需要安装 LibreOffice/`soffice` 后重新运行 `render_docx.py`，或由用户在本机 Word 中人工打开 DOCX 做页面检查并回传结论。在上述动作完成前，不把 DOCX 页面视觉 QA 记为 PASS。
+已检查全部缩略总览图，并抽查原尺寸页图：学生版 p1、p28、p100、p199；导航版 p5、p20。未发现空白页、整页裁切、明显重叠、表格溢出或页脚异常。页面级渲染 QA 记为 PASS；但说明：这是绕过 `render_docx.py` 的 Windows 兼容问题后完成的等效渲染链路，不把 `render_docx.py` 本身记为可用。
 
 ## 外部复核
 
