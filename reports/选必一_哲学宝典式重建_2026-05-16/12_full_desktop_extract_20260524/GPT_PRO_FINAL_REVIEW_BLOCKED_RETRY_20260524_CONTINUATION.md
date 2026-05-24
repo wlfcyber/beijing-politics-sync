@@ -262,3 +262,38 @@ Current conclusion:
 The selected profile is correct and has the Codex Chrome Extension installed and enabled. The native host manifest is also correct. The remaining blocker is still the same communication failure: the official browser-control route reports `Browser is not available: extension` even after opening a fresh `Profile 1` Chrome window.
 
 This is the second fresh resumed blocked-audit recurrence after the prior blocked status. It does not yet satisfy the three-consecutive-resumed-turn threshold for marking the active goal blocked again, but the GPT Pro final-review gate remains unsatisfied. Strict final PASS still cannot be claimed until a real GPT Pro review/modification output is captured and applied or the user explicitly waives that exact gate.
+
+## Third Fresh Resumed Retry After Blocked Status - 2026-05-24 21:09 +08:00
+
+This resumed goal turn rechecked the current repository state, local handbook QA, Word render QA summary, and then retried the official Codex Chrome Extension route twice with a delay between attempts.
+
+Local and Git evidence:
+
+- Local repository pointer before this evidence update: `64028f998db4c4c4da9fddb0ed0f24db23fd722b`.
+- Remote `origin/main` pointer before this evidence update: `64028f998db4c4c4da9fddb0ed0f24db23fd722b`.
+- Local handbook QA remained stable: `core_headings=138`, `main_cases=373`, `boundary_cases=7`, `total_h3=380`, `count_mismatches=0`, `sequence_mismatches=0`, `merged_title_flags=0`.
+- All five required student fields still counted `380`: `【什么时候写】`, `【设问】`, `【为什么能想到】`, `【卷面句】`, `【同题组】`.
+- Word render QA summary still reports `PASS`: student handbook rendered to 200 PNG pages, navigation version rendered to 20 PNG pages, `blank_like_pages=0`, and no obvious clipping, overlap, table overflow, or footer anomaly in the inspected render set.
+
+Official extension retry result:
+
+- First connection attempt: `Browser is not available: extension`.
+- Second connection attempt after delay: `Browser is not available: extension`.
+
+Fresh Chrome diagnostics:
+
+| Check | Current result |
+|---|---|
+| Google Chrome running | Yes |
+| Google Chrome version | `148.0.7778.179` |
+| Diagnostics-selected Chrome profile | `Profile 1` |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
+| Native host manifest | Correct |
+| Native host registry path | Matches manifest path |
+| Expected extension origin | Present in `allowedOrigins` |
+
+Blocking conclusion:
+
+The same GPT Pro handoff blocker has now repeated across three consecutive resumed goal turns after the prior blocked status: the official browser-control route reports `Browser is not available: extension` even though Chrome is running, the selected profile is `Profile 1`, the Codex Chrome Extension is installed and enabled in that profile, and the native host manifest is correct.
+
+The remaining required external-state change is to refresh or reinstall the Chrome plugin from the Codex plugin UI, or otherwise restore working communication between Codex and the Codex Chrome Extension. Until that happens, Codex cannot operate the authenticated GPT Pro page, cannot capture real GPT Pro final-review/modification output, and therefore cannot truthfully mark the 选必一宝典 as strict final PASS under the user's workflow.
