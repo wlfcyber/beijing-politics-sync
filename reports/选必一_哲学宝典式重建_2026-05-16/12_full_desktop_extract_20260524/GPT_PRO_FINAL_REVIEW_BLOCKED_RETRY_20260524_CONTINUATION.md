@@ -297,3 +297,32 @@ Blocking conclusion:
 The same GPT Pro handoff blocker has now repeated across three consecutive resumed goal turns after the prior blocked status: the official browser-control route reports `Browser is not available: extension` even though Chrome is running, the selected profile is `Profile 1`, the Codex Chrome Extension is installed and enabled in that profile, and the native host manifest is correct.
 
 The remaining required external-state change is to refresh or reinstall the Chrome plugin from the Codex plugin UI, or otherwise restore working communication between Codex and the Codex Chrome Extension. Until that happens, Codex cannot operate the authenticated GPT Pro page, cannot capture real GPT Pro final-review/modification output, and therefore cannot truthfully mark the 选必一宝典 as strict final PASS under the user's workflow.
+
+## User-Requested Self-Recovery Attempt For Dual-Lane Fusion - 2026-05-24 21:25 +08:00
+
+The user asked Codex to use the Chrome skill and have GPT Pro or Claude make the Codex and ClaudeCode lanes converge. Codex rechecked the already-prepared fusion packet and then retried the official Chrome-extension route.
+
+Ready-to-submit fusion packet:
+
+- `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/primary_fusion_remediation_packet_20260524/00_PROMPT.md`
+- `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/primary_fusion_remediation_packet_20260524/01_CURRENT_V6_STUDENT.md`
+- `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/primary_fusion_remediation_packet_20260524/05_CODEX_PRODUCTION_BATCHES_COMBINED.md`
+- `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/primary_fusion_remediation_packet_20260524/06_CLAUDECODE_PRODUCTION_BATCHES_COMBINED.md`
+- `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/primary_fusion_remediation_packet_20260524/07_CLAUDECODE_RUN_AUDIT.md`
+- `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/primary_fusion_remediation_packet_20260524/08_CODEX_CLAUDECODE_CORE_DIFF_REPORT.md`
+- Chunked paste set: `12_external_acceptance_bixiu4_benchmark_2026-05-24/02_gptpro_web/paste_chunks/part_01_...` through `part_12_END_AND_REVIEW.md`.
+
+Retry result:
+
+- Official Chrome-extension initial probe: `Browser is not available: extension`.
+- Official Chrome-extension retry after 2 seconds: `Browser is not available: extension`.
+- Chrome diagnostics: Chrome running, version `148.0.7778.179`.
+- Selected profile: `Profile 1`.
+- Codex Chrome Extension in selected profile: installed, registered, enabled, version `1.1.5_0`.
+- Native host manifest: correct, registry path matches manifest path, expected extension origin present.
+- Recovery step: opened a fresh `Profile 1` Chrome window with `scripts/open-chrome-window.js`, then retried once.
+- Post-window retry result: `Browser is not available: extension`.
+
+Conclusion:
+
+The fusion packet is ready, but Codex still cannot deliver it to GPT Pro or Claude through the required Chrome skill path because the official Codex Chrome Extension channel is unavailable despite correct local diagnostics. Under the Chrome skill rules, Codex must not bypass this with unrelated browser-control scripts. The next required external-state change remains refreshing or reinstalling the Chrome plugin from the Codex plugin UI, then rerunning the same packet.
