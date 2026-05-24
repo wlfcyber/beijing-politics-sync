@@ -178,7 +178,7 @@ def build_docx(md_path: Path, docx_path: Path, nav: bool = False) -> None:
     setup_styles(doc, nav)
 
     title = "选择性必修一《当代国际政治与经济》主观题术语宝典"
-    subtitle = "学生版" if not nav else "考前导航版"
+    subtitle = "学生厚版" if not nav else "考前导航版"
     add_title_page(doc, title, subtitle)
 
     in_table = False
@@ -195,7 +195,7 @@ def build_docx(md_path: Path, docx_path: Path, nav: bool = False) -> None:
             continue
         if line.startswith("# "):
             text = line[2:].strip()
-            if text == title or text.startswith("选必一《当代国际政治与经济》主观题术语宝典"):
+            if text == title or ("当代国际政治与经济" in text and "主观题术语宝典" in text):
                 continue
             p = doc.add_heading(text, level=1)
             add_bottom_border(p)
@@ -209,6 +209,8 @@ def build_docx(md_path: Path, docx_path: Path, nav: bool = False) -> None:
                 shade_paragraph(p, PALE)
             continue
         if line.startswith("**") and line.endswith("**"):
+            if line.strip("*").strip() == "飞哥正志讲堂":
+                continue
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             r = p.add_run(line.strip("*"))
