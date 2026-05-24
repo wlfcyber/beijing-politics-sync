@@ -157,3 +157,42 @@ Current local deliverable evidence remains stable:
 Updated recovery requirement:
 
 Per the Chrome-plugin rules, because Chrome is running, the selected profile has the Codex Chrome Extension installed and enabled, the native host manifest is correct, and communication still fails after opening a Chrome window for the selected profile, the user should reinstall or refresh the Chrome plugin from the Codex plugin UI before Codex can operate the authenticated GPT Pro page. This GPT Pro gate remains unsatisfied and must not be marked PASS.
+
+## Subsequent Retry: Selected Profile Drifted To Missing-Extension Profile - 2026-05-24 20:54 +08:00
+
+The next resumed retry again attempted the official Codex Chrome Extension path twice:
+
+- First attempt: `Browser is not available: extension`.
+- Second attempt after delay: `Browser is not available: extension`.
+
+Fresh local handbook QA remained stable:
+
+- `core_headings=138`
+- `main_cases=373`
+- `boundary_cases=7`
+- `total_h3=380`
+- `count_mismatches=0`
+- `sequence_mismatches=0`
+- `merged_title_flags=0`
+- all five required student fields counted `380`
+
+Fresh Chrome diagnostics changed again:
+
+| Check | Current result |
+|---|---|
+| Google Chrome running | Yes |
+| Native host manifest | Correct |
+| Diagnostics-selected Chrome profile | `Profile` |
+| Codex Chrome Extension in diagnostics-selected `Profile` | Not installed / not enabled |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0`, but not selected |
+| `open-chrome-window.js --dry-run --json` target | `--profile-directory=Profile` |
+
+Updated blocker:
+
+The official browser-control route still cannot reach GPT Pro. The selected profile now resolves to `Profile`, where the Codex Chrome Extension is not installed. The extension remains installed in `Profile 1`, but the official plugin diagnostics and dry-run open target no longer select it. This means Codex still cannot operate the authenticated GPT Pro page, and the GPT Pro final-review gate remains unsatisfied.
+
+Required user-side recovery:
+
+1. Refresh or reinstall the Chrome plugin from the Codex plugin UI, or otherwise restore the plugin's selected Chrome profile to the profile that has the Codex Chrome Extension enabled.
+2. Alternatively, install and enable the Codex Chrome Extension in the currently selected Chrome profile shown by diagnostics as `Profile`.
+3. After that, rerun the ready prompt `GPT_PRO_FINAL_REVIEW_PROMPT_READY_20260524.md` against real GPT Pro and save the raw GPT output before claiming strict final PASS.
