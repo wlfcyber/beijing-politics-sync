@@ -127,3 +127,33 @@ Updated blocking conclusion:
 The blocker is no longer simply that the selected profile is `Default` without the extension. The selected profile is now `Profile 1`, and diagnostics show the Codex Chrome Extension and native host are present and enabled there. The remaining blocker is communication failure despite correct selected-profile diagnostics.
 
 Per the Chrome-plugin rules, the next permitted recovery step is to ask the user for permission to open a Chrome window for the selected profile and then retry the extension connection once. Codex must not open that window automatically, and it must not bypass the Codex Chrome Extension path with unrelated scripts or browser-control methods.
+
+## Selected Profile Window Opened, Extension Still Unavailable - 2026-05-24 20:51 +08:00
+
+The resumed run proceeded with the Chrome-plugin recovery step: it opened a new Chrome window for the selected Chrome profile and retried the official Codex Chrome Extension connection once after a delay.
+
+Result:
+
+- `scripts/open-chrome-window.js` returned `status: opened`.
+- Opened profile: `Profile 1`.
+- Open command target: `about:blank` in a new Chrome window.
+- Extension retry after opening the profile window still failed with `Browser is not available: extension`.
+
+Fresh diagnostics after the profile-window retry:
+
+| Check | Current result |
+|---|---|
+| Selected Chrome profile | `Profile 1` |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
+| Native host manifest | Correct |
+| Native host registry path | Matches manifest path |
+| Expected extension origin | Present in `allowedOrigins` |
+
+Current local deliverable evidence remains stable:
+
+- Structural QA still clean: `core_headings=138`, `main_cases=373`, `boundary_cases=7`, `total_h3=380`, `count_mismatches=0`, `sequence_mismatches=0`, `merged_title_flags=0`.
+- Word render QA is closed: student handbook rendered to 200 PNG pages and navigation version rendered to 20 PNG pages, with `blank_like_pages=0` and no obvious clipping, overlap, table overflow, or footer anomaly in the inspected render set.
+
+Updated recovery requirement:
+
+Per the Chrome-plugin rules, because Chrome is running, the selected profile has the Codex Chrome Extension installed and enabled, the native host manifest is correct, and communication still fails after opening a Chrome window for the selected profile, the user should reinstall or refresh the Chrome plugin from the Codex plugin UI before Codex can operate the authenticated GPT Pro page. This GPT Pro gate remains unsatisfied and must not be marked PASS.
