@@ -528,3 +528,22 @@ For each model call, record:
   - Local Confucius agents are artifact-only student-transfer tests.
   - They do not substitute for GPT/Claude advisor gates.
   - v14.2 DOCX/PDF is not generated.
+
+## 2026-05-24 v14.2 source-growth provenance audit
+
+- External GPT/Claude model call:
+  - none.
+  - This step is a local source-evidence provenance audit only; it does not claim a new GPT/Claude advisor gate.
+- Local work performed:
+  - Updated `build_v14_zero_baseline_baodian.py` to generate auditable source-growth files.
+  - Preserved the `B7+B6` hybrid source-grown action for the "补充完整 + 任选其一展开维权" pattern instead of flattening it into ordinary B7.
+- New audit outputs:
+  - `v14_2_zero_baseline_framework_baodian/source_growth/SOURCE_GROWTH_AUDIT_v14_2.md`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/FRAMEWORK_NODE_SOURCE_EVIDENCE_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/QUESTION_TO_FRAMEWORK_DERIVATION_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/HARD_RULE_SOURCE_EVIDENCE_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/SOURCE_GROWTH_INVARIANTS_v14_2.md`
+- Boundary:
+  - This proves local framework provenance from locked rows, material triggers, prompt actions, and scoring anchors.
+  - It does not replace real GPT/Claude external review.
+  - It does not create DOCX/PDF delivery.

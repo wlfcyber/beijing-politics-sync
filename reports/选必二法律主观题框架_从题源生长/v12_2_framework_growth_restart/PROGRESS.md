@@ -538,3 +538,31 @@
   - v14.2 is a Markdown framework and baodian with local Confucius zero-baseline learnability PASS.
   - No new GPT/Claude external web gate is claimed; browser gate attempt is recorded in `external_gate_attempts/BROWSER_GATE_ATTEMPT_20260524.md`.
   - No v14.2 DOCX/PDF delivery is produced or claimed.
+
+## STEP_163_V14_2_SOURCE_GROWTH_AUDIT_20260524
+
+- User clarified the goal: ensure this framework is truly grown from the question sources from zero, not merely made to look like a framework.
+- Generator updated:
+  - `build_v14_zero_baseline_baodian.py`
+- New source-growth audit package:
+  - `v14_2_zero_baseline_framework_baodian/source_growth/SOURCE_GROWTH_AUDIT_v14_2.md`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/FRAMEWORK_NODE_SOURCE_EVIDENCE_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/QUESTION_TO_FRAMEWORK_DERIVATION_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/HARD_RULE_SOURCE_EVIDENCE_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/source_growth/SOURCE_GROWTH_INVARIANTS_v14_2.md`
+- Source-growth findings:
+  - 42/42 locked core rows have question-to-framework derivation records.
+  - A2-A10 have primary locked-core row support; A1 is retained only as an auxiliary effect/boundary skeleton with secondary evidence, not promoted as a high-frequency primary entrance.
+  - All 8 B answer-action nodes have prompt/action support after preserving the source-grown `B7+B6` hybrid node.
+  - 14/14 Confucius repair hard rules have source-backed evidence rows or row-backed student-failure repair provenance.
+- Traceability update:
+  - `TRACEABILITY_MATRIX_v14_2.csv` now includes `v14_source_growth_basis` and `v14_source_growth_audit_status`.
+  - 42/42 rows are marked `covered_by_source_growth_audit_v14_2`.
+- Governance update:
+  - `00_READ_ME_FIRST.md`, `05_GOVERNANCE_BOUNDARY_v14.md`, and `06_FINAL_GOVERNOR_CHECKLIST_v14_2.md` now distinguish Markdown/source-growth completion from pending GPT/Claude and DOCX/PDF gates.
+- Current allowed status:
+  - `source_growth_audited_markdown_framework_and_42_question_baodian_complete_with_local_confucius_pass_pending_real_gpt_claude_gate`
+- Still not claimed:
+  - No new real GPT/Claude v14.2 external review.
+  - No final external-governance PASS.
+  - No v14.2 DOCX/PDF delivery.

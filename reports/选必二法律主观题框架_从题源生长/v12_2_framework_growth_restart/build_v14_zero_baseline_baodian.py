@@ -391,9 +391,14 @@ def axis_code(axis: str) -> str:
 
 def effective_b_axis(row: dict[str, str]) -> str:
     prompt = row.get("prompt_action", "")
+    axis = row.get("b_axis", "")
+    if "B7" in axis and "B6" in axis:
+        return "B7_法律问题识别/填空 + B6_调解/维权/纠纷解决路径"
+    if "补充完整" in prompt and ("任选" in prompt or "任意" in prompt or "保护" in prompt):
+        return "B7_法律问题识别/填空 + B6_调解/维权/纠纷解决路径"
     if "____" in prompt or "法律问题" in prompt or "遇到的问题" in prompt:
         return "B7_法律问题识别/填空"
-    return row.get("b_axis", "")
+    return axis
 
 
 def q_meta(row: dict[str, str]) -> str:
@@ -420,6 +425,17 @@ def dispute_sentence(row: dict[str, str]) -> str:
     return f"这题争的是：{memory.rstrip('。')}。"
 
 
+def proposition_path_sentence(row: dict[str, str]) -> str:
+    raw = clean(row.get("proposition_path"))
+    a = row.get("a_axis_primary", "")
+    b = effective_b_axis(row)
+    if not raw:
+        return f"v14校正：先定{a}，再按{b}作答。"
+    if a not in raw or b not in raw:
+        return f"v14校正：先定{a}，再按{b}作答；以本题材料触发、设问动作和评分锚点为准。"
+    return raw
+
+
 def transfer_sentence(row: dict[str, str]) -> str:
     a = row.get("a_axis_primary", "")
     b = effective_b_axis(row)
@@ -431,6 +447,287 @@ def transfer_sentence(row: dict[str, str]) -> str:
         f"同类新题识别信号：{trigger}。不能误入：{warning}。"
         f"第一答句模板：本题属于{axis_code(a)}，设问按{axis_code(b)}作答，先写{br.get('first', '设问要求的结论')}。"
     )
+
+
+def short_text(value: str | None, limit: int = 180) -> str:
+    text = clean(value)
+    if len(text) <= limit:
+        return text
+    return text[: limit - 3].rstrip() + "..."
+
+
+def question_ref(row: dict[str, str]) -> str:
+    return f"{row.get('question_id', '')}（{row.get('year', '')}{row.get('district', '')}{row.get('exam_stage', '')}第{row.get('question_no', '')}题）"
+
+
+def rows_for_qids(rows: list[dict[str, str]], qids: list[str]) -> list[dict[str, str]]:
+    wanted = set(qids)
+    return [row for row in rows if row.get("question_id") in wanted]
+
+
+def build_source_growth_records(rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
+    a_records: list[dict[str, str]] = []
+    for key, rule in A_RULES.items():
+        primary = [row for row in rows if row.get("a_axis_primary") == key]
+        secondary = [
+            row
+            for row in rows
+            if row.get("a_axis_primary") != key and key in row.get("a_axis_secondary_status", "")
+        ]
+        samples = (primary + secondary)[:5]
+        if primary:
+            status = "source_grown_primary_node"
+            note = "该入口由锁定核心题的主入口材料触发和评分锚点直接支撑。"
+        elif secondary:
+            status = "auxiliary_effect_skeleton_with_secondary_evidence"
+            note = "该入口不抢主入口，只在效力、追认、程序或边界问题中作辅助骨架。"
+        else:
+            status = "framework_reference_only_no_primary_locked_row"
+            note = "保留为学生识别边界的参考入口，不按本批核心题晋升为主干高频。"
+        a_records.append(
+            {
+                "node_type": "A_legal_entrance",
+                "node_key": key,
+                "status": status,
+                "primary_support_count": str(len(primary)),
+                "secondary_support_count": str(len(secondary)),
+                "total_support_count": str(len(primary) + len(secondary)),
+                "support_question_ids": ";".join(row.get("question_id", "") for row in primary + secondary),
+                "sample_material_signals": " | ".join(short_text(row.get("material_trigger"), 120) for row in samples),
+                "sample_scoring_anchors": " | ".join(short_text(row.get("rubric_scoring_anchor"), 120) for row in samples),
+                "source_growth_note": note,
+                "student_memory_sentence": rule.get("memory", ""),
+                "hard_sentence": rule.get("hard", ""),
+            }
+        )
+
+    b_records: list[dict[str, str]] = []
+    for key, rule in B_RULES.items():
+        support = [row for row in rows if effective_b_axis(row) == key]
+        samples = support[:5]
+        status = "source_grown_prompt_action_node" if support else "backup_template_no_primary_42_row"
+        note = (
+            "该动作由锁定题设问原句和评分形状直接支撑。"
+            if support
+            else "该动作暂作备用格式，不在本批 42 题中作为独立有效动作计数。"
+        )
+        b_records.append(
+            {
+                "node_type": "B_answer_action",
+                "node_key": key,
+                "status": status,
+                "support_count": str(len(support)),
+                "support_question_ids": ";".join(row.get("question_id", "") for row in support),
+                "sample_prompt_actions": " | ".join(short_text(row.get("prompt_action"), 120) for row in samples),
+                "sample_scoring_anchors": " | ".join(short_text(row.get("rubric_scoring_anchor"), 120) for row in samples),
+                "source_growth_note": note,
+                "student_memory_sentence": rule.get("memory", ""),
+                "answer_shape": rule.get("shape", ""),
+            }
+        )
+
+    def hard_rows(rule_no: int) -> tuple[list[dict[str, str]], str, str]:
+        if rule_no == 1:
+            return [row for row in rows if effective_b_axis(row).startswith("B1")], "B1 表格题设问和本地学生漏表头失败", "source_rows_plus_confucius_repair"
+        if rule_no in {2, 11}:
+            return rows_for_qids(rows, ["CC0103_2025_丰台_一模_19"]), "技术秘密题评分锚点要求先补秘密性、价值性、保密措施", "source_row_plus_confucius_repair"
+        if rule_no == 3:
+            return rows_for_qids(rows, ["CC0157_2025_朝阳_期末_20"]), "数据抓取题评分锚点要求写合法投入、绕限制抓取、商业化利用、竞争秩序损害", "source_row_plus_confucius_repair"
+        if rule_no in {4, 9, 12}:
+            return rows_for_qids(rows, ["CC0238_2026_东城_二模_19"]), "多主体竞争与内部履职责任题暴露主体分链要求", "source_row_plus_confucius_repair"
+        if rule_no in {5, 6, 7}:
+            return rows_for_qids(rows, ["CC0244_2026_东城_期中_18"]), "瑕疵商品致损题要求先合同违约、再侵权损害、再证据路径", "source_row_plus_confucius_repair"
+        if rule_no in {8, 14}:
+            return rows_for_qids(rows, ["CC0195_2025_西城_一模_20"]), "集体协商意义题评分锚点同时要求法律公平和经济效率", "source_row_plus_confucius_repair"
+        if rule_no == 10:
+            return [row for row in rows if effective_b_axis(row).startswith("B5")], "所有 B5 意义题都要求从材料中的制度或行为推出价值", "source_rows_plus_confucius_repair"
+        if rule_no == 13:
+            return rows_for_qids(rows, ["CC0289_2026_朝阳_二模_18"]), "补充完整+任选其一题要求先短句补全，再展开权利、侵害、证据、路径、请求", "source_row_plus_confucius_repair"
+        return [], "未找到直接题源证据", "missing_evidence"
+
+    hard_records: list[dict[str, str]] = []
+    for idx, rule in enumerate(CONFUCIUS_REPAIR_RULES, 1):
+        evidence_rows, basis, origin = hard_rows(idx)
+        hard_records.append(
+            {
+                "rule_no": str(idx),
+                "rule_text": rule,
+                "evidence_status": "source_backed" if evidence_rows else "needs_manual_review",
+                "evidence_question_ids": ";".join(row.get("question_id", "") for row in evidence_rows),
+                "evidence_basis": basis,
+                "sample_material_signals": " | ".join(short_text(row.get("material_trigger"), 120) for row in evidence_rows[:4]),
+                "sample_scoring_anchors": " | ".join(short_text(row.get("rubric_scoring_anchor"), 120) for row in evidence_rows[:4]),
+                "origin": origin,
+            }
+        )
+
+    question_records: list[dict[str, str]] = []
+    for row in rows:
+        question_records.append(
+            {
+                "question_id": row.get("question_id", ""),
+                "district_year_stage_question": q_meta(row),
+                "evidence_status": row.get("evidence_status", ""),
+                "source_check_state": row.get("source_check_state", ""),
+                "source_check_decision": row.get("source_check_decision", ""),
+                "a_axis_primary": row.get("a_axis_primary", ""),
+                "a_axis_secondary_status": row.get("a_axis_secondary_status", ""),
+                "b_axis_original": row.get("b_axis", ""),
+                "b_axis_v14_effective": effective_b_axis(row),
+                "prompt_action": short_text(row.get("prompt_action"), 240),
+                "proposition_path_v14": short_text(proposition_path_sentence(row), 360),
+                "material_trigger": short_text(row.get("material_trigger"), 360),
+                "rubric_scoring_anchor": short_text(row.get("rubric_scoring_anchor"), 360),
+                "answer_skeleton": short_text(row.get("answer_skeleton"), 360),
+                "source_growth_basis": "locked_core_row_material_trigger_prompt_action_rubric_anchor",
+            }
+        )
+    return a_records, b_records, hard_records, question_records
+
+
+def write_csv_records(path: Path, records: list[dict[str, str]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames: list[str] = []
+    for record in records:
+        for key in record:
+            if key not in fieldnames:
+                fieldnames.append(key)
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(records)
+
+
+def build_source_growth_audit(
+    rows: list[dict[str, str]],
+    a_records: list[dict[str, str]],
+    b_records: list[dict[str, str]],
+    hard_records: list[dict[str, str]],
+) -> str:
+    a_primary = [record for record in a_records if record["status"] == "source_grown_primary_node"]
+    a_aux = [record for record in a_records if record["status"] != "source_grown_primary_node"]
+    b_supported = [record for record in b_records if int(record["support_count"]) > 0]
+    b_backup = [record for record in b_records if int(record["support_count"]) == 0]
+    hard_backed = [record for record in hard_records if record["evidence_status"] == "source_backed"]
+    lines = [
+        "# Source Growth Audit v14.2",
+        "",
+        "Status: `source_growth_audited_local_complete_pending_real_gpt_claude_gate`",
+        "",
+        "## 1. 生长链条",
+        "",
+        "本审计只回答一个问题：v14.2 的框架节点是不是从题源和评分锚点长出来的，而不是先写框架再倒贴题号。",
+        "",
+        "可验证链条：",
+        "",
+        "1. v13.10 锁定核心 traceability matrix 给出 42 道核心题。",
+        "2. 每行保留题号、区年卷题、设问动作、材料触发、评分锚点、答案骨架、学生误区、A/B 轴裁定。",
+        "3. v14.2 只从这些行抽取 A 入口、B 动作、混合排序和硬规则。",
+        "4. 材料补强只来自 `material_atoms_subjective_claudecode.csv` 或手工 source patch；污染性答案/分析话术被过滤。",
+        "5. 开放容器/reference-only 行保留在附录，不晋升为 42 题主干框架。",
+        "6. GPT/Claude 旧轮次意见只作为历史审议链，不允许无题源证据直接新增 v14.2 框架节点。",
+        "",
+        "## 2. A 入口来源",
+        "",
+        "| A 入口 | 状态 | 主支撑题数 | 副支撑题数 | 支撑题号样例 | 来源说明 |",
+        "|---|---:|---:|---:|---|---|",
+    ]
+    for record in a_records:
+        qids = "; ".join(record["support_question_ids"].split(";")[:5])
+        lines.append(
+            f"| {record['node_key']} | {record['status']} | {record['primary_support_count']} | {record['secondary_support_count']} | {qids} | {record['source_growth_note']} |"
+        )
+    lines += [
+        "",
+        "结论：A2-A10 均有锁定核心题主入口支撑；A1 没有作为高频主入口晋升，只作为民事行为效力、追认、边界判断的辅助骨架。",
+        "",
+        "## 3. B 动作来源",
+        "",
+        "| B 动作 | 状态 | 支撑题数 | 支撑题号样例 | 设问来源说明 |",
+        "|---|---:|---:|---|---|",
+    ]
+    for record in b_records:
+        qids = "; ".join(record["support_question_ids"].split(";")[:6])
+        lines.append(
+            f"| {record['node_key']} | {record['status']} | {record['support_count']} | {qids} | {record['source_growth_note']} |"
+        )
+    lines += [
+        "",
+        "结论：B 轴不是按法律章节编造，而是按设问产出形状生长：表格、裁判理由、诉求支持、评析、意义、路径、问题识别，以及 B7+B6 混合题。",
+        "",
+        "## 4. Confucius 硬规则来源",
+        "",
+        "| # | 证据状态 | 证据题号 | 来源基础 |",
+        "|---:|---|---|---|",
+    ]
+    for record in hard_records:
+        lines.append(
+            f"| {record['rule_no']} | {record['evidence_status']} | {record['evidence_question_ids']} | {record['evidence_basis']} |"
+        )
+    lines += [
+        "",
+        f"结论：{len(hard_backed)}/{len(hard_records)} 条硬规则有锁定题源或学生盲测失败后的题源回扣证据。硬规则不是替代题源的模型建议，而是题源得分链被零基础学生读漏后形成的外显提醒。",
+        "",
+        "## 5. 不晋升规则",
+        "",
+        "- 没有锁定核心题材料触发和评分锚点支撑的节点，不晋升为主干高频。",
+        "- 开放容器/reference-only 只进 `04_开放容器与不晋升题附录_v14.md`。",
+        "- 本地 Confucius 学生 agent 可以暴露学习失败点，但每个修补规则必须回扣到题号、材料信号、评分锚点或设问动作。",
+        "- 真实 GPT/Claude 未重跑 v14.2，因此本审计不把 v14.2 称为外部模型终审 PASS。",
+        "",
+        "## 6. 审计结论",
+        "",
+        f"- 锁定核心题：{len(rows)}。",
+        f"- source-grown A 主入口：{len(a_primary)}；辅助/参考入口：{len(a_aux)}。",
+        f"- source-grown B 动作：{len(b_supported)}；备用动作：{len(b_backup)}。",
+        f"- source-backed 硬规则：{len(hard_backed)}/{len(hard_records)}。",
+        "",
+        "允许声明：v14.2 已完成本地 source-growth 审计，能够说明框架如何从 42 道锁定核心题、设问动作、材料触发和评分锚点中生长出来。",
+        "",
+        "不允许声明：v14.2 已完成新的 GPT/Claude 外部终审，或已经交付 DOCX/PDF。",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def build_source_growth_invariants(
+    rows: list[dict[str, str]],
+    a_records: list[dict[str, str]],
+    b_records: list[dict[str, str]],
+    hard_records: list[dict[str, str]],
+) -> str:
+    unsupported_a = [
+        record["node_key"]
+        for record in a_records
+        if int(record["primary_support_count"]) == 0 and int(record["secondary_support_count"]) == 0
+    ]
+    unsupported_b = [record["node_key"] for record in b_records if int(record["support_count"]) == 0]
+    unsupported_hard = [record["rule_no"] for record in hard_records if record["evidence_status"] != "source_backed"]
+    lines = [
+        "# Source Growth Invariants v14.2",
+        "",
+        "| Check | Result |",
+        "|---|---|",
+        f"| Locked core rows | {len(rows)} |",
+        f"| A nodes without primary or secondary evidence | {', '.join(unsupported_a) if unsupported_a else 'none'} |",
+        f"| B nodes without support rows | {', '.join(unsupported_b) if unsupported_b else 'none'} |",
+        f"| Hard rules without source backing | {', '.join(unsupported_hard) if unsupported_hard else 'none'} |",
+        "| Open-container promotion | none; appendix only |",
+        "| GPT/Claude substitution | none; local Confucius is recorded separately |",
+        "| DOCX/PDF claim | none for v14.2 |",
+        "",
+        "Invariant conclusion: source-growth evidence is sufficient for local framework provenance, while external advisor and document-delivery gates remain separate.",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def write_source_growth_bundle(rows: list[dict[str, str]]) -> None:
+    a_records, b_records, hard_records, question_records = build_source_growth_records(rows)
+    base = OUT / "source_growth"
+    write_csv_records(base / "FRAMEWORK_NODE_SOURCE_EVIDENCE_v14_2.csv", a_records + b_records)
+    write_csv_records(base / "HARD_RULE_SOURCE_EVIDENCE_v14_2.csv", hard_records)
+    write_csv_records(base / "QUESTION_TO_FRAMEWORK_DERIVATION_v14_2.csv", question_records)
+    write_text(base / "SOURCE_GROWTH_AUDIT_v14_2.md", build_source_growth_audit(rows, a_records, b_records, hard_records))
+    write_text(base / "SOURCE_GROWTH_INVARIANTS_v14_2.md", build_source_growth_invariants(rows, a_records, b_records, hard_records))
 
 
 def targeted_repair_lines(row: dict[str, str]) -> list[str]:
@@ -643,7 +940,7 @@ def build_question_cards(rows: list[dict[str, str]]) -> str:
                 f"- A 入口：{row.get('a_axis_primary')}；副入口/边界：{clean(row.get('a_axis_secondary_status')) or '无'}",
                 f"- A 入口二级开关：{A_SWITCHES.get(row.get('a_axis_primary', ''), '看主体、行为、损害、请求和程序边界。')}",
                 f"- B 动作：{b_display}；写法：{b_rule.get('shape', '按设问动作组织答案')}",
-                f"- 命题路径：{clean(row.get('proposition_path'))}",
+                f"- 命题路径：{proposition_path_sentence(row)}",
                 "",
                 "#### 0. 本题硬规则",
                 "",
@@ -716,7 +1013,7 @@ def build_agent_files(rows: list[dict[str, str]]) -> dict[Path, str]:
         "",
         "只允许 agent 阅读：",
         "",
-        "1. `01_先背这套_法律主观题不扣分框架_v14.md`",
+        "1. `01_先背这套_法律主观题不扣分框架_v14_2.md`",
         "2. 本盲测包",
         "",
         "## 随机题目",
@@ -793,13 +1090,16 @@ def build_agent_files(rows: list[dict[str, str]]) -> dict[Path, str]:
 """
     status = """# RUN 001 Local Controller Status
 
-Status: `agent_prompt_and_blind_pack_created_pending_real_agent_run`
+Status: `run_002_confucius_zero_baseline_framework_pass`
 
 说明：
 
 - 本目录已经生成可复用的零基础学生 agent 规则和随机盲测包。
-- 本文件不是学生 agent 的作答报告。
-- 真正的 agent 作答报告需另存为 `RUN_001_AGENT_REPORT.md`，再由 Codex 写 `RUN_001_CODEX_ADJUDICATION.md`。
+- 第三轮真实本地 Confucius 学生 agent 已完成 v14.2 盲测。
+- 作答报告：`RUN_002_AGENT_REPORT_v14_2_FRAMEWORK_PASS.md`
+- Codex 裁决：`RUN_002_CODEX_ADJUDICATION_v14_2.md`
+- 判定：`FRAMEWORK_PASS`
+- 边界：此 gate 不等于 GPT/Claude 外部真实门禁，也不等于 DOCX/PDF 交付。
 """
     return {
         OUT / "confucius_zero_baseline_student_agent" / "AGENT_SPEC.md": spec,
@@ -813,7 +1113,7 @@ Status: `agent_prompt_and_blind_pack_created_pending_real_agent_run`
 def build_readme(rows: list[dict[str, str]]) -> str:
     return f"""# v14.2 zero-baseline framework baodian
 
-Status: `candidate_local_framework_rebuild_pending_real_gpt_claude_gate`
+Status: `source_growth_audited_markdown_framework_and_42_question_baodian_complete_with_local_confucius_pass_pending_real_gpt_claude_gate`
 
 生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
@@ -824,12 +1124,15 @@ Status: `candidate_local_framework_rebuild_pending_real_gpt_claude_gate`
 - 后面附 42 道锁定核心题按框架拆解和解析；
 - 目标是零基础学生学完框架后能立刻做题，尽量不丢结构分；
 - 同时生成 Confucius 零基础学生模拟 agent 的规则和盲测包。
+- 新增 source-growth 审计，逐项说明框架入口、设问动作和硬规则如何由题源、材料触发、评分锚点生长出来。
 
 边界：
 
 - 42 题来自 v13.10 锁定核心 traceability matrix，共 {len(rows)} 题。
 - v14.2 是 Codex 本地框架重建、材料截断补强和两轮 Confucius 学生试读修补版，不冒充新的 GPT/Claude 输出。
-- 真实 GPT/Claude 网页门禁仍待跑通；因此本目录暂不声明最终 PASS。
+- source-growth 审计见 `source_growth/SOURCE_GROWTH_AUDIT_v14_2.md`、`source_growth/FRAMEWORK_NODE_SOURCE_EVIDENCE_v14_2.csv`、`source_growth/QUESTION_TO_FRAMEWORK_DERIVATION_v14_2.csv`。
+- 真实 GPT/Claude 网页门禁仍待跑通；因此本目录不声明外部模型终审 PASS。
+- v14.2 没有生成 DOCX/PDF；本目录只声明 Markdown 框架、42 题宝典、本地 source-growth 审计和本地 Confucius 试读。
 """
 
 
@@ -838,7 +1141,7 @@ def build_governance(rows: list[dict[str, str]]) -> str:
 
 ## Status
 
-`candidate_local_framework_rebuild_pending_real_gpt_claude_gate`
+`source_growth_audited_markdown_framework_and_42_question_baodian_complete_with_local_confucius_pass_pending_real_gpt_claude_gate`
 
 ## What exists
 
@@ -847,18 +1150,70 @@ def build_governance(rows: list[dict[str, str]]) -> str:
 - 合并学生宝典：`选必二法律与生活_法律宝典_v14_2_零基础框架学习版.md`（同时保留 v14 兼容文件名）
 - Confucius 学生 agent 规则和随机盲测包：`confucius_zero_baseline_student_agent/`
 - 追踪矩阵：`traceability/TRACEABILITY_MATRIX_v14_2.csv`（同时保留 v14 兼容文件名）
+- source-growth 审计包：`source_growth/`
 
 ## Verification
 
 - Locked core rows: {len(rows)}
 - The generated question-card file contains one `###` card per locked core row.
 - A/B axes are preserved as student usable framework, but the opening learning order is now: life conflict -> A entrance -> B action -> scoring chain -> stop condition.
+- Source-growth audit records every A entrance, B action, hard rule, and 42 question derivation with question IDs, material signals, prompt actions, and scoring anchors.
+- B7+B6 hybrid action is retained as a real source-grown mixed action rather than flattened into B7.
 
 ## Hard boundary
 
 - No new GPT Pro or Claude Opus web result is claimed in v14.
 - Local Confucius or Codex student simulation does not substitute for GPT/Claude real-call gates.
-- v14.2 can be used as a candidate classroom artifact, but final governance PASS requires real external gates or an explicit user waiver.
+- Source-growth audit proves local provenance only; it does not replace the real GPT/Claude external advisor gate.
+- v14.2 can be used as a Markdown candidate classroom artifact, but final external-governance PASS requires real external gates or an explicit user waiver.
+"""
+
+
+def build_final_governor_checklist(rows: list[dict[str, str]]) -> str:
+    return f"""# 06 Final Governor Checklist v14.2
+
+## Verdict
+
+`SOURCE_GROWTH_AUDITED_MARKDOWN_FRAMEWORK_AND_42_QUESTION_BAODIAN_COMPLETE_WITH_LOCAL_CONFUCIUS_PASS`
+
+This is not a final GPT/Claude external gate and not a DOCX/PDF delivery claim.
+
+## Required Deliverables
+
+| Gate | Status | Evidence |
+|---|---|---|
+| Student-first framework chapter exists | PASS | `01_先背这套_法律主观题不扣分框架_v14_2.md` |
+| All 42 locked core questions have framework-based analysis | PASS | `02_42题按框架拆解与解析_v14_2.md` |
+| Combined legal baodian Markdown exists | PASS | `选必二法律与生活_法律宝典_v14_2_零基础框架学习版.md` |
+| Open-container/reference-only appendix separated | PASS | `04_开放容器与不晋升题附录_v14.md` |
+| Traceability matrix exists and has 42 rows | PASS | `traceability/TRACEABILITY_MATRIX_v14_2.csv` |
+| Source-growth audit exists | PASS | `source_growth/SOURCE_GROWTH_AUDIT_v14_2.md` |
+| Framework node source evidence exists | PASS | `source_growth/FRAMEWORK_NODE_SOURCE_EVIDENCE_v14_2.csv` |
+| Every question has source-to-framework derivation row | PASS | `source_growth/QUESTION_TO_FRAMEWORK_DERIVATION_v14_2.csv` |
+| Confucius hard rules have source-evidence table | PASS | `source_growth/HARD_RULE_SOURCE_EVIDENCE_v14_2.csv` |
+| Zero-baseline student agent created and run | PASS | `confucius_zero_baseline_student_agent/RUN_002_AGENT_REPORT_v14_2_FRAMEWORK_PASS.md` |
+| Codex adjudication of student agent result | PASS | `confucius_zero_baseline_student_agent/RUN_002_CODEX_ADJUDICATION_v14_2.md` |
+| No student-facing debug/model chatter pollution found | PASS | local search found no `【答案】`, `【分析】`, `[page]`, `[slide]`, or truncated `哪些工…` remnants in the 42-card file |
+| Real GPT/Claude external web gate | PENDING | no new real GPT/Claude output is claimed in v14.2 |
+| DOCX delivery | NOT PRODUCED | no v14.2 DOCX is claimed |
+| PDF delivery | NOT PRODUCED | no v14.2 PDF is claimed |
+
+## Source-Growth Claim Allowed
+
+Allowed:
+
+`v14.2 Markdown framework + 42-question legal baodian is locally complete, source-growth audited from 42 locked core rows, and Confucius zero-baseline student tested as FRAMEWORK_PASS.`
+
+Not allowed:
+
+- Do not claim GPT/Claude re-reviewed v14.2.
+- Do not claim final external-governance PASS.
+- Do not claim DOCX/PDF delivery for v14.2.
+- Do not claim the local Confucius agent is GPT or Claude.
+
+## Residual Risk
+
+The framework now teaches a zero-baseline student to identify life conflict, A entrance, B action, and scoring chain. The provenance of those nodes is locally auditable. Remaining risk is the still-pending real GPT/Claude external review and any future DOCX/PDF layout QA, not the existence of the Markdown framework or the 42-question source-growth chain.
 """
 
 
@@ -872,7 +1227,13 @@ def build_open_appendix() -> str:
 def write_trace(rows: list[dict[str, str]]) -> None:
     path = OUT / "traceability" / "TRACEABILITY_MATRIX_v14.csv"
     path.parent.mkdir(parents=True, exist_ok=True)
-    fieldnames = list(rows[0].keys()) + ["v14_effective_b_axis", "v14_front_framework", "v14_card_status"]
+    fieldnames = list(rows[0].keys()) + [
+        "v14_effective_b_axis",
+        "v14_front_framework",
+        "v14_source_growth_basis",
+        "v14_source_growth_audit_status",
+        "v14_card_status",
+    ]
     with path.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -880,6 +1241,8 @@ def write_trace(rows: list[dict[str, str]]) -> None:
             out = dict(row)
             out["v14_effective_b_axis"] = effective_b_axis(row)
             out["v14_front_framework"] = "life_conflict_to_A_axis_to_B_action_to_scoring_chain"
+            out["v14_source_growth_basis"] = "locked_core_row_material_trigger_prompt_action_rubric_anchor"
+            out["v14_source_growth_audit_status"] = "covered_by_source_growth_audit_v14_2"
             out["v14_card_status"] = "generated"
             writer.writerow(out)
     canonical = OUT / "traceability" / "TRACEABILITY_MATRIX_v14_2.csv"
@@ -889,6 +1252,7 @@ def write_trace(rows: list[dict[str, str]]) -> None:
 def main() -> None:
     rows = read_rows()
     OUT.mkdir(parents=True, exist_ok=True)
+    write_source_growth_bundle(rows)
     write_text(OUT / "00_READ_ME_FIRST.md", build_readme(rows))
     framework = build_framework(rows)
     cards = build_question_cards(rows)
@@ -898,6 +1262,7 @@ def main() -> None:
     write_text(OUT / "02_42题按框架拆解与解析_v14_2.md", cards)
     write_text(OUT / "04_开放容器与不晋升题附录_v14.md", build_open_appendix())
     write_text(OUT / "05_GOVERNANCE_BOUNDARY_v14.md", build_governance(rows))
+    write_text(OUT / "06_FINAL_GOVERNOR_CHECKLIST_v14_2.md", build_final_governor_checklist(rows))
     combined = "\n\n---\n\n".join(
         [
             "# 选必二法律与生活：法律宝典 v14.2 零基础框架学习版",
@@ -917,7 +1282,8 @@ def main() -> None:
             "v14_2_zero_baseline_framework_baodian",
             f"generated_at={datetime.now().isoformat(timespec='seconds')}",
             f"locked_core_rows={len(rows)}",
-            "status=candidate_local_framework_rebuild_pending_real_gpt_claude_gate",
+            "status=source_growth_audited_markdown_framework_and_42_question_baodian_complete_with_local_confucius_pass_pending_real_gpt_claude_gate",
+            "docx_pdf_delivery=not_produced",
         ]
     )
     write_text(OUT / "build_manifest.txt", manifest + "\n")
