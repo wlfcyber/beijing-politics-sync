@@ -9,6 +9,9 @@ Status: `candidate_pending_real_gpt_claude_review`
 - 新建 v13.11 逻辑优先框架。
 - 将 42 道 locked core 题从 A/B 标签顺序改为争点链顺序。
 - 保留 v13.10 的题源、评分锚点、材料触发和答案骨架。
+- 准备真实 GPT/Claude 复核 payload：
+  - `advisor_payloads/GPT_PRO_V13_11_LOGIC_REVIEW_PAYLOAD.md`
+  - `advisor_payloads/CLAUDE_OPUS_ZERO_BASELINE_STUDENT_TEST_PAYLOAD_v13_11.md`
 
 ## 未完成
 

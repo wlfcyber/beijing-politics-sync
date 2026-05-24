@@ -497,6 +497,8 @@
   - `v13_11_logic_first_framework_rebuild/04_LOCAL_CONFUCIUS_PRECHECK_v13_11.md`
   - `v13_11_logic_first_framework_rebuild/05_GOVERNANCE_BOUNDARY_v13_11.md`
   - `v13_11_logic_first_framework_rebuild/06_USER_CRITIQUE_RESPONSE_AND_REBUILD_DECISION.md`
+  - `v13_11_logic_first_framework_rebuild/advisor_payloads/GPT_PRO_V13_11_LOGIC_REVIEW_PAYLOAD.md`
+  - `v13_11_logic_first_framework_rebuild/advisor_payloads/CLAUDE_OPUS_ZERO_BASELINE_STUDENT_TEST_PAYLOAD_v13_11.md`
 - Verification:
   - regenerated card count = 42.
   - no remaining first-stage wording that tells students to start by choosing A/B labels.

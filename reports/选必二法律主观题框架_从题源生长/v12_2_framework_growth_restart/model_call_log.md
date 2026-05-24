@@ -498,6 +498,7 @@ For each model call, record:
   - This step is a local Codex rebuild responding to the user's critique that v13.10 was not logically clear or learnable.
 - Output:
   - `v13_11_logic_first_framework_rebuild/`
+  - advisor payloads prepared under `v13_11_logic_first_framework_rebuild/advisor_payloads/`
 - Boundary:
   - No new GPT/Claude advisor gate is claimed.
   - v13.11 is `candidate_pending_real_gpt_claude_review`.

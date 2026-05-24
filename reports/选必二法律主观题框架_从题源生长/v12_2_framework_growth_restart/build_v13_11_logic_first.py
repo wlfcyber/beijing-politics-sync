@@ -616,6 +616,100 @@ Status: `candidate_pending_real_gpt_claude_review`
 """
 
 
+def build_gpt_payload(framework: str, question_rebuild: str) -> str:
+    excerpt = "\n".join(question_rebuild.splitlines()[:260])
+    return f"""# GPT Pro v13.11 Logic-First Framework Review Payload
+
+任务：请作为严格的高考政治《法律与生活》主观题框架审查者，评估 v13.11 是否真正修复了“框架逻辑不清、学生无法习得”的问题。
+
+背景：
+
+- v13.10 已有 42 题题源覆盖、真实 GPT/Claude 历史复核、PDF/DOCX 候选交付。
+- 但用户明确指出 v13.10 整体框架逻辑看不懂，学生无法习得。
+- v13.11 不改题源事实，不冒充新外部复核，只重构学生前台逻辑。
+
+请只评估以下问题：
+
+1. v13.11 是否比 v13.10 更像“框架”，而不是分类表、模板库或题目归档？
+2. “生活事实 -> 争点 -> 法律翻译 -> 法律结果 -> 价值收束”是否足以作为学生第一入口？
+3. A/B 双轴降级为后台检查是否合理？
+4. 哪些地方仍然会让学生卡住？
+5. 是否可以进入真实 Claude 零基础学生盲测？
+
+输出格式：
+
+- Verdict: PASS_TO_CLAUDE_STUDENT_TEST / MUST_FIX_BEFORE_TEST / REJECT
+- Top 5 strengths
+- Top 5 must-fix issues
+- Concrete rewrite instructions
+
+## v13.11 Framework
+
+{framework}
+
+## 42-Question Rebuild Excerpt
+
+{excerpt}
+"""
+
+
+def build_claude_student_payload(framework: str, cards) -> str:
+    sample_ids = [
+        "CC0084_2025_东城_二模_19",
+        "CC0305_2026_海淀_一模_18_3",
+        "CC0364_2026_通州_期中_19_1",
+        "CC0244_2026_东城_期中_18",
+        "CC0213_2025_门头沟_一模_20_2",
+        "CC0238_2026_东城_二模_19",
+    ]
+    card_map = {c["qid"]: c for c in cards}
+    question_lines = []
+    for qid in sample_ids:
+        c = card_map.get(qid)
+        if not c:
+            continue
+        f = c["fields"]
+        question_lines.extend(
+            [
+                f"### {qid}",
+                "",
+                f"- 区年卷题：{f.get('区年卷题', '')}",
+                f"- 设问动作：{f.get('设问动作', '')}",
+                f"- 材料压缩：{material_sentence(f.get('材料核心', ''))}",
+                "",
+            ]
+        )
+    return f"""# Claude Opus Zero-Baseline Student Test Payload v13.11
+
+任务：请你模拟一个“什么都不知道但很聪明的高三学生”。
+
+硬规则：
+
+1. 你只能使用下面给你的 v13.11 框架和题面压缩信息。
+2. 你不能调用外部资料，不能把自己当老师或阅卷人。
+3. 我不会给你答案骨架、评分锚点、材料触发链、后台 A/B 标签或标准答案。
+4. 每题按固定格式回答：
+   - 材料一句话
+   - 这题争什么
+   - 第一判断
+   - 材料事实如何翻译成法律语言
+   - 现场答案
+   - 自我估分和最可能丢分点
+
+测试目标：
+
+看 v13.11 是否真的让零基础聪明学生从“生活事实 -> 争点 -> 法律翻译 -> 法律结果 -> 价值收束”学会作答。
+
+## v13.11 Framework
+
+{framework}
+
+## Blind Questions
+
+{chr(10).join(question_lines)}
+"""
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     cards = parse_cards(read_text(CARD_FILE))
@@ -630,6 +724,16 @@ def main():
     write_text(OUT / "03_旧A_B双轴降级说明_v13_11.md", build_axis_demotion())
     write_text(OUT / "04_LOCAL_CONFUCIUS_PRECHECK_v13_11.md", build_confucius_precheck(cards))
     write_text(OUT / "05_GOVERNANCE_BOUNDARY_v13_11.md", build_governance())
+    framework = build_framework()
+    question_rebuild = build_question_file(cards)
+    write_text(
+        OUT / "advisor_payloads" / "GPT_PRO_V13_11_LOGIC_REVIEW_PAYLOAD.md",
+        build_gpt_payload(framework, question_rebuild),
+    )
+    write_text(
+        OUT / "advisor_payloads" / "CLAUDE_OPUS_ZERO_BASELINE_STUDENT_TEST_PAYLOAD_v13_11.md",
+        build_claude_student_payload(framework, cards),
+    )
     write_text(
         OUT / "build_manifest.txt",
         f"generated_at={datetime.now().isoformat(timespec='seconds')}\ncard_count={len(cards)}\nsource={CARD_FILE}\n",
