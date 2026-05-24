@@ -490,3 +490,18 @@ For each model call, record:
   - Real GPT/Claude evidence remains Round03/Round05/Round06/Round07.
   - The v13.8-v13.10 Confucius reader loop is local artifact-only testing, not a GPT/Claude substitute.
   - PDF rendered QA is passed; DOCX direct visual-render QA remains not claimed.
+
+## 2026-05-24 v13.11 logic-first rebuild after user critique
+
+- External model call:
+  - none.
+  - This step is a local Codex rebuild responding to the user's critique that v13.10 was not logically clear or learnable.
+- Output:
+  - `v13_11_logic_first_framework_rebuild/`
+- Boundary:
+  - No new GPT/Claude advisor gate is claimed.
+  - v13.11 is `candidate_pending_real_gpt_claude_review`.
+  - The real-model evidence chain remains Round03/Round05/Round06/Round07 until a new external gate is captured.
+- Substantive change:
+  - Student first-stage framework changed from A/B labels to `生活事实 -> 争点 -> 法律翻译 -> 法律结果 -> 价值收束`.
+  - 42 locked core question cards were regenerated in the new dispute-first structure.

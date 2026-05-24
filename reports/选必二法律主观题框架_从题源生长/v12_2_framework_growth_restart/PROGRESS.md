@@ -479,3 +479,28 @@
 - Preserved model boundary:
   - Round03/Round05/Round06/Round07 are the real GPT/Claude evidence chain.
   - v13.8-v13.10 Confucius repair loop is local artifact-only testing, not a GPT/Claude substitute.
+
+## STEP_161_USER_CRITIQUE_LOGIC_FIRST_REBUILD_20260524
+
+- User rejected v13.10 as a learnable framework: the whole framework logic was unclear and students could not acquire it.
+- Codex accepted the critique and stopped treating v13.10 as sufficient for the student-framework front stage.
+- New candidate directory:
+  - `v13_11_logic_first_framework_rebuild/`
+- Core repair:
+  - Student front stage changed from A/B label routing to `生活事实 -> 争点 -> 法律翻译 -> 法律结果 -> 价值收束`.
+  - A/B axes are retained only as backend checks for legal relationship and answer shape.
+  - All 42 locked core cards were regenerated in the new order: material one-sentence, dispute, first judgment, translation table, full-score sentences, wrong-fix, transfer.
+- New files:
+  - `v13_11_logic_first_framework_rebuild/01_学生先读_法律题基本模型_v13_11.md`
+  - `v13_11_logic_first_framework_rebuild/02_42题_按争点链重排_v13_11.md`
+  - `v13_11_logic_first_framework_rebuild/03_旧A_B双轴降级说明_v13_11.md`
+  - `v13_11_logic_first_framework_rebuild/04_LOCAL_CONFUCIUS_PRECHECK_v13_11.md`
+  - `v13_11_logic_first_framework_rebuild/05_GOVERNANCE_BOUNDARY_v13_11.md`
+  - `v13_11_logic_first_framework_rebuild/06_USER_CRITIQUE_RESPONSE_AND_REBUILD_DECISION.md`
+- Verification:
+  - regenerated card count = 42.
+  - no remaining first-stage wording that tells students to start by choosing A/B labels.
+- Boundary:
+  - This is a local Codex rebuild after user critique.
+  - No new real GPT/Claude external advisor gate has been run.
+  - No DOCX/PDF has been regenerated for v13.11.
