@@ -506,3 +506,35 @@
   - This is a local Codex rebuild after user critique.
   - No new real GPT/Claude external advisor gate has been run.
   - No DOCX/PDF has been regenerated for v13.11.
+
+## STEP_162_V14_2_ZERO_BASELINE_FRAMEWORK_BAODIAN_20260524
+
+- User requested a framework similar to the prior framework, with every exam question analyzed through the framework, aimed at a zero-baseline student who can learn and immediately answer.
+- New output directory:
+  - `v14_2_zero_baseline_framework_baodian/`
+- Core artifacts:
+  - `v14_2_zero_baseline_framework_baodian/01_先背这套_法律主观题不扣分框架_v14_2.md`
+  - `v14_2_zero_baseline_framework_baodian/02_42题按框架拆解与解析_v14_2.md`
+  - `v14_2_zero_baseline_framework_baodian/选必二法律与生活_法律宝典_v14_2_零基础框架学习版.md`
+  - `v14_2_zero_baseline_framework_baodian/traceability/TRACEABILITY_MATRIX_v14_2.csv`
+  - `v14_2_zero_baseline_framework_baodian/06_FINAL_GOVERNOR_CHECKLIST_v14_2.md`
+- What changed from v13.11/v14.1:
+  - Restored a learnable A/B framework front stage while keeping the student order: life conflict -> A entrance -> B action -> scoring chain -> stop.
+  - Added 14 hard rules from Confucius blind tests, including technology-secret premise, multi-subject evaluation order, B7+B6 “补充完整+任选其一”, and legal+economic meaning chains.
+  - Enriched truncated material only where source evidence required it; rejected raw rubric-atom pollution from the student artifact.
+  - Added canonical v14.2 filenames while preserving v14 compatibility filenames.
+- Confucius student simulation:
+  - Real local subagent `019e592f-1648-7b20-87ab-7171a2c41866` returned `FRAMEWORK_PASS_WITH_REPAIRS` on v14.1.
+  - Real local subagent `019e5933-a827-7322-95b0-b47f120eb73f` returned `FRAMEWORK_PASS` on v14.2.
+  - Captured report: `v14_2_zero_baseline_framework_baodian/confucius_zero_baseline_student_agent/RUN_002_AGENT_REPORT_v14_2_FRAMEWORK_PASS.md`
+  - Codex adjudication: `v14_2_zero_baseline_framework_baodian/confucius_zero_baseline_student_agent/RUN_002_CODEX_ADJUDICATION_v14_2.md`
+- Verification:
+  - 42 question cards.
+  - 42 traceability rows.
+  - 42/42 cards include `本题硬规则`.
+  - v14.2 framework contains the four repairs requested by the v14.1 student agent.
+  - Student-facing 42-card file search found no `【答案】`, `【分析】`, `【详解】`, `考点考查`, `核心素养`, `[page]`, `[slide]`, `原卷无答案`, `此答案仅供参考`, or truncated `哪些工…` remnants.
+- Boundary:
+  - v14.2 is a Markdown framework and baodian with local Confucius zero-baseline learnability PASS.
+  - No new GPT/Claude external web gate is claimed; browser gate attempt is recorded in `external_gate_attempts/BROWSER_GATE_ATTEMPT_20260524.md`.
+  - No v14.2 DOCX/PDF delivery is produced or claimed.

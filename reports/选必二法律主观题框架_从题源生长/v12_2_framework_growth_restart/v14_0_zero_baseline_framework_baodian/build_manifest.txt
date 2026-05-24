@@ -1,0 +1,4 @@
+v14_0_zero_baseline_framework_baodian
+generated_at=2026-05-24T16:40:10
+locked_core_rows=42
+status=candidate_local_framework_rebuild_pending_real_gpt_claude_gate

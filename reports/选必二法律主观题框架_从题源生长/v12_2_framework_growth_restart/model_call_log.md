@@ -506,3 +506,25 @@ For each model call, record:
 - Substantive change:
   - Student first-stage framework changed from A/B labels to `生活事实 -> 争点 -> 法律翻译 -> 法律结果 -> 价值收束`.
   - 42 locked core question cards were regenerated in the new dispute-first structure.
+
+## 2026-05-24 v14.2 zero-baseline framework baodian
+
+- External GPT/Claude model call:
+  - none completed for v14.2.
+  - Browser gate attempt reached logged-out ChatGPT/Claude pages; no v14.2 payload was submitted.
+  - Boundary file: `v14_2_zero_baseline_framework_baodian/external_gate_attempts/BROWSER_GATE_ATTEMPT_20260524.md`
+- Local agent calls:
+  - Confucius student agent `019e592f-1648-7b20-87ab-7171a2c41866` tested v14.1 and returned `FRAMEWORK_PASS_WITH_REPAIRS`.
+  - Confucius student agent `019e5933-a827-7322-95b0-b47f120eb73f` tested v14.2 and returned `FRAMEWORK_PASS`.
+- Captured local-agent output:
+  - `v14_2_zero_baseline_framework_baodian/confucius_zero_baseline_student_agent/RUN_002_AGENT_REPORT_v14_2_FRAMEWORK_PASS.md`
+  - `v14_2_zero_baseline_framework_baodian/confucius_zero_baseline_student_agent/RUN_002_CODEX_ADJUDICATION_v14_2.md`
+- Output:
+  - `v14_2_zero_baseline_framework_baodian/`
+  - `01_先背这套_法律主观题不扣分框架_v14_2.md`
+  - `02_42题按框架拆解与解析_v14_2.md`
+  - `选必二法律与生活_法律宝典_v14_2_零基础框架学习版.md`
+- Boundary:
+  - Local Confucius agents are artifact-only student-transfer tests.
+  - They do not substitute for GPT/Claude advisor gates.
+  - v14.2 DOCX/PDF is not generated.
