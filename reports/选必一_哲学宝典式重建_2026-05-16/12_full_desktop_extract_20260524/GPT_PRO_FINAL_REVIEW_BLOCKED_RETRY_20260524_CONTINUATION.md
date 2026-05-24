@@ -196,3 +196,32 @@ Required user-side recovery:
 1. Refresh or reinstall the Chrome plugin from the Codex plugin UI, or otherwise restore the plugin's selected Chrome profile to the profile that has the Codex Chrome Extension enabled.
 2. Alternatively, install and enable the Codex Chrome Extension in the currently selected Chrome profile shown by diagnostics as `Profile`.
 3. After that, rerun the ready prompt `GPT_PRO_FINAL_REVIEW_PROMPT_READY_20260524.md` against real GPT Pro and save the raw GPT output before claiming strict final PASS.
+
+## Fresh Resumed Retry After Blocked Status - 2026-05-24 21:00 +08:00
+
+This resumed goal turn treated the prior blocked state as a fresh blocked-audit cycle. It rechecked the local deliverable and retried the official Chrome-extension path.
+
+Local and Git evidence:
+
+- Local and remote repository pointers were both at `38742a20d985e811811dabcafea0634fc24c1912`.
+- Local handbook QA remained stable: `core_headings=138`, `main_cases=373`, `boundary_cases=7`, `total_h3=380`, `count_mismatches=0`, `sequence_mismatches=0`, `merged_title_flags=0`.
+- All five required student fields still counted `380`.
+
+Official extension retry result:
+
+- First connection attempt: `Browser is not available: extension`.
+- Second connection attempt after delay: `Browser is not available: extension`.
+
+Fresh Chrome diagnostics:
+
+| Check | Current result |
+|---|---|
+| Diagnostics-selected Chrome profile | `Profile 1` |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
+| Native host manifest | Correct |
+| Native host registry path | Matches manifest path |
+| `open-chrome-window.js --dry-run --json` target | `--profile-directory=Profile 1` |
+
+Current conclusion:
+
+The selected profile has drifted back to `Profile 1`, where the extension is installed and enabled, but the official extension connection still fails. This is a resumed blocked-audit recurrence of the same GPT Pro handoff blocker. Since this is the first resumed turn after the prior blocked state, it is recorded as evidence but should not by itself trigger another `blocked` goal update unless the same condition repeats for the required consecutive resumed turns.
