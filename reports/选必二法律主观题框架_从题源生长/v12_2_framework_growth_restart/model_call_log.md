@@ -478,3 +478,15 @@ For each model call, record:
   - `v13_10_final_baodian_integrated/qa_word_export_render_report.md`
 - Current status remains:
   - `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
+
+## 2026-05-24 v13.10 final acceptance report
+
+- External model call:
+  - none.
+  - This is a local final acceptance and boundary-recording step only.
+- Output:
+  - `v13_10_final_baodian_integrated/10_FINAL_ACCEPTANCE_REPORT_v13_10.md`
+- Boundary:
+  - Real GPT/Claude evidence remains Round03/Round05/Round06/Round07.
+  - The v13.8-v13.10 Confucius reader loop is local artifact-only testing, not a GPT/Claude substitute.
+  - PDF rendered QA is passed; DOCX direct visual-render QA remains not claimed.

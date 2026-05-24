@@ -467,3 +467,15 @@
 - 仍不得声明：
   - 不得声明新一轮 GPT/Claude advisor gate；v13.10 修复闭环是本地 Confucius artifact-only 试读门。
   - 不得声明 DOCX direct visual render QA passed。
+
+## STEP_160_FINAL_ACCEPTANCE_REPORT_20260524
+
+- Added final acceptance report for v13.10 delivery boundary:
+  - `v13_10_final_baodian_integrated/10_FINAL_ACCEPTANCE_REPORT_v13_10.md`
+- Clarified allowed final claim:
+  - v13.10 legal baodian Markdown/HTML/PDF/DOCX exist.
+  - PDF has rendered-page QA evidence.
+  - DOCX is generated and Word COM-openable, but DOCX direct visual-render QA is not claimed because LibreOffice/soffice is unavailable and Word export/Print-to-PDF hung.
+- Preserved model boundary:
+  - Round03/Round05/Round06/Round07 are the real GPT/Claude evidence chain.
+  - v13.8-v13.10 Confucius repair loop is local artifact-only testing, not a GPT/Claude substitute.
