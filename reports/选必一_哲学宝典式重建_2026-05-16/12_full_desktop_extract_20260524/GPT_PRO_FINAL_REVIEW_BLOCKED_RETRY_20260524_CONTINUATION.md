@@ -68,3 +68,31 @@ Fresh local checks still show:
 | Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
 
 This is the same blocker as before. It should not be treated as new content feedback, and it does not change the local handbook QA result. It only confirms that the real GPT Pro review gate is still externally blocked by the Chrome profile/extension mismatch.
+
+## Third Consecutive Resumed Retry - 2026-05-24 20:29 +08:00
+
+This was the third consecutive resumed goal turn with the same blocking condition.
+
+Current local evidence:
+
+- Local student handbook structural QA is still clean: `total_h3=380`, `main_cases=373`, `boundary_cases=7`, `merged_title_flags=0`.
+- Local Git pointers before this evidence patch: `HEAD=4fb34a12e9324bfe34a53e076b3501d9809a74da`, `origin/main=4fb34a12e9324bfe34a53e076b3501d9809a74da`.
+- A fresh `git fetch origin` attempt failed with `Proxy CONNECT aborted`, so the local `origin/main` pointer could not be refreshed in this retry before the evidence patch.
+- Browser-extension retry result stayed unchanged:
+  - first official extension connection attempt: `Browser is not available: extension`;
+  - second official extension connection attempt after delay: `Browser is not available: extension`.
+
+Fresh Chrome diagnostics stayed unchanged:
+
+| Check | Current result |
+|---|---|
+| Google Chrome running | Yes |
+| Google Chrome version | `148.0.7778.179` |
+| Native host manifest | Correct |
+| Current selected Chrome profile | `Default` |
+| Codex Chrome Extension in `Default` | Not installed, not registered, not enabled |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
+
+Blocking conclusion:
+
+The project remains unable to perform the required real GPT Pro final review from Codex because the official Codex Chrome Extension path still cannot connect to the selected Chrome profile. Under the active goal's blocked-audit rule, this is now the third consecutive resumed turn with the same blocker and should be marked as a true external blocker unless the user fixes the Chrome profile/extension state or explicitly waives the real GPT Pro gate.
