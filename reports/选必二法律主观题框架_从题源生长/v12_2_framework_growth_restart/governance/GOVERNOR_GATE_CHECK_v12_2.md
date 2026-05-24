@@ -205,3 +205,17 @@ Forbidden labels:
   - DOCX direct render QA is not passed or claimed because LibreOffice/soffice remains unavailable.
   - Open-container/reference-only rows remain separated and are not promoted.
   - Allowed final status: `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`.
+
+## 2026-05-24 v13.10 DOCX Word Export Rerun Overlay
+
+- Local QA rerun only; no new GPT/Claude call and no content-framework change.
+- Word COM open/pagination remains pass:
+  - `v13_10_final_baodian_integrated/qa_word_com_check.txt`
+  - 55 pages / 1684 paragraphs.
+- DOCX visual-render upgrade attempt is blocked:
+  - `v13_10_final_baodian_integrated/qa_word_export_render_report.md`
+  - Word `ExportAsFixedFormat`, ASCII temp export, `SaveAs2(..., wdFormatPDF)`, and Microsoft Print to PDF all hung without producing a QA PDF.
+- Governor ruling:
+  - Existing PDF-rendered baodian delivery remains valid.
+  - DOCX visual-render QA is still not passed or claimed.
+  - Allowed final status remains `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`.

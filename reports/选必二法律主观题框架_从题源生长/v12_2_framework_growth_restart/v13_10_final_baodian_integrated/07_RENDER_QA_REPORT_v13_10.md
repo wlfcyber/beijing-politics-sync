@@ -28,8 +28,9 @@ Date: 2026-05-23
 | blank-page check | pass | blank-like pages: none |
 | DOCX generated / structural check | pass (88684 bytes; paragraphs=1003; tables=19) | python-docx open check |
 | DOCX Word COM open check | pass: Word COM opened read-only; pages=55; paragraphs=1684 | `qa_word_com_check.txt` |
+| DOCX Word export / Print-to-PDF visual render | not passed / not claimed | `qa_word_export_render_report.md`: Word export and Microsoft Print to PDF hung without producing a QA PDF on 2026-05-24 |
 | DOCX direct render via `render_docx.py` | not passed / not claimed | not passed: render_docx failed; LibreOffice/soffice unavailable on this machine. python.exe : Traceback (most recent call last): |
 
 ## Governor Note
 
-The PDF delivery is rendered from the v13.10 HTML print source and then rasterized to page PNGs for blank-page and sample visual checks. The DOCX exists and is structurally readable, but this machine has no LibreOffice/soffice path, so DOCX direct visual-render QA is not claimed.
+The PDF delivery is rendered from the v13.10 HTML print source and then rasterized to page PNGs for blank-page and sample visual checks. The DOCX exists and is structurally readable. A 2026-05-24 Word-export rerun confirmed that Word COM can open and paginate the DOCX, but Word PDF export and Microsoft Print to PDF hung without producing a QA PDF. This machine also has no LibreOffice/soffice path, so DOCX direct visual-render QA is not claimed.

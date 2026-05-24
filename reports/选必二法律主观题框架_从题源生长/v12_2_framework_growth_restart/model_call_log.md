@@ -465,3 +465,16 @@ For each model call, record:
   - DOCX direct render remains not claimed because LibreOffice/soffice is unavailable.
 - Final status:
   - `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
+
+## 2026-05-24 v13.10 DOCX Word-export visual QA rerun
+
+- External model call:
+  - none.
+  - This step is a local render/QA rerun only; it does not claim a new GPT/Claude review.
+- Local QA result:
+  - Word COM open/pagination still passes: 55 pages / 1684 paragraphs.
+  - Word `ExportAsFixedFormat`, ASCII temp export, `SaveAs2(..., wdFormatPDF)`, and Microsoft Print to PDF all hung without producing a QA PDF.
+- Boundary file:
+  - `v13_10_final_baodian_integrated/qa_word_export_render_report.md`
+- Current status remains:
+  - `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`

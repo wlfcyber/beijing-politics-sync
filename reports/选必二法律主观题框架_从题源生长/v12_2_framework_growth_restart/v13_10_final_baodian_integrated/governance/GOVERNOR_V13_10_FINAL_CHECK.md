@@ -17,6 +17,7 @@
 | Confucius 学生试读 | pass | 五轮本地试读最终为 `FRAMEWORK_PASS` |
 | traceability | pass | `traceability/TRACEABILITY_MATRIX_v13_10_final.csv` |
 | DOCX generated | pass with render caveat | DOCX direct render QA 只有 LibreOffice/soffice 可用时才能声明通过 |
+| DOCX Word export visual render | not passed / not claimed | `qa_word_export_render_report.md`: 2026-05-24 rerun hung before producing a QA PDF |
 | PDF generated and rendered | pass | `07_RENDER_QA_REPORT_v13_10.md` |
 
 ## Governor Verdict
@@ -24,3 +25,5 @@
 当前允许状态为：`v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`。
 
 若状态仍为 pending，不得宣称 v13.10 DOCX/PDF 已完整交付。若状态为 `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`，可宣称 v13.10 宝典 Markdown/HTML/DOCX/PDF 已生成，PDF 已页面渲染检查，DOCX 已生成但 direct render QA 因本机缺 LibreOffice/soffice 不声明通过。
+
+2026-05-24 addendum: Word COM export/Print-to-PDF was retried for DOCX visual QA and blocked before producing a QA PDF. This does not downgrade the existing PDF-rendered delivery, but it also does not upgrade the DOCX render caveat.

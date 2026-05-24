@@ -1,5 +1,24 @@
 # v12.2 framework growth restart progress
 
+## STEP_147_V13_10_DOCX_WORD_EXPORT_RERUN_20260524
+
+- Rechecked the already delivered v13.10 final baodian DOCX after the v13.10 Markdown/HTML/DOCX/PDF delivery commit.
+- Word COM can still open the DOCX read-only and paginate it:
+  - `v13_10_final_baodian_integrated/qa_word_com_check.txt`
+  - result: 55 pages / 1684 paragraphs.
+- Tried three DOCX visual-render routes:
+  - Word `ExportAsFixedFormat`;
+  - ASCII temp DOCX + ASCII temp PDF export;
+  - Word `SaveAs2(..., wdFormatPDF)` and Microsoft Print to PDF.
+- All Word PDF-export/print routes hung without producing a QA PDF in this rerun.
+- Added explicit blocker record:
+  - `v13_10_final_baodian_integrated/qa_word_export_render_check.txt`
+  - `v13_10_final_baodian_integrated/qa_word_export_render_report.md`
+  - `FRAMEWORK_GROWTH_LEDGER_DOCX_WORD_EXPORT_ADDENDUM_20260524.md`
+- Current allowed status remains unchanged:
+  - `v13_10_final_baodian_integrated_pdf_rendered_docx_generated_with_docx_render_caveat`
+- Do not claim DOCX visual-render QA passed. The PDF-rendered baodian delivery remains valid; the DOCX remains generated and Word-readable with direct visual-render caveat.
+
 ## STEP_140_ROUND04_DOUBLE_AXIS_REAL_MODEL_REVIEW_20260523
 
 - User corrected that the first CDP-manager ChatGPT browser was the wrong non-Pro account.
