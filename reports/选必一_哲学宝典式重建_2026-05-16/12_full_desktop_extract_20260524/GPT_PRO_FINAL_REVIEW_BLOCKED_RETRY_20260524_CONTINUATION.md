@@ -46,3 +46,25 @@ One of these must happen before Codex can run the GPT Pro final-review prompt:
 2. Change the Codex Chrome plugin/browser control path so it uses `Profile 1`, where the extension is already installed and enabled.
 
 Until then, Codex cannot truthfully mark the GPT Pro lane as complete or promote the whole handbook to strict final PASS.
+
+## Follow-up Retry - 2026-05-24 20:23 +08:00
+
+The continuation run retried the same official Chrome-extension path again. The result remains unchanged:
+
+- First extension connection attempt: `Browser is not available: extension`
+- Second extension connection attempt after delay: `Browser is not available: extension`
+
+Fresh local checks still show:
+
+| Check | Current result |
+|---|---|
+| Local HEAD vs `origin/main` | Both at `8911f2cdb3cc05a07bd82d640c1c8fd94c559177` before this follow-up evidence patch |
+| Student handbook structural QA | `total_h3=380`, `main_cases=373`, `boundary_cases=7`, `merged_title_flags=0` |
+| Google Chrome running | Yes |
+| Google Chrome version | `148.0.7778.179` |
+| Native host manifest | Correct |
+| Current selected Chrome profile | `Default` |
+| Codex Chrome Extension in `Default` | Not installed, not registered, not enabled |
+| Codex Chrome Extension in `Profile 1` | Installed, registered, enabled, version `1.1.5_0` |
+
+This is the same blocker as before. It should not be treated as new content feedback, and it does not change the local handbook QA result. It only confirms that the real GPT Pro review gate is still externally blocked by the Chrome profile/extension mismatch.
