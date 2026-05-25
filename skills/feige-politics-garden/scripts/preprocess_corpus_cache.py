@@ -515,7 +515,9 @@ def main() -> int:
         old = existing.get(source_path)
         old_render_dir = Path(old.get("render_dir", "")) if old and old.get("render_dir") else None
         old_render_valid = bool(old_render_dir and old_render_dir.exists() and any(old_render_dir.glob("page_*.png")))
-        old_reusable = text_path.exists() or (old.get("status") == "rendered-ocr-needed" and old_render_valid)
+        old_reusable = text_path.exists() or (
+            bool(old) and old.get("status") == "rendered-ocr-needed" and old_render_valid
+        )
         if old and old.get("sha256") == file_hash and old_reusable and not args.force:
             row = dict(old)
             row["cache_action"] = "skipped-existing"

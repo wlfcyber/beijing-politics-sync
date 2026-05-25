@@ -1,0 +1,12 @@
+{
+  "output_root": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\选必一_哲学宝典式重建_2026-05-16\\14_full_source_recrawl_20260525\\cache",
+  "manifest": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\选必一_哲学宝典式重建_2026-05-16\\14_full_source_recrawl_20260525\\cache\\manifest.csv",
+  "jsonl": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\选必一_哲学宝典式重建_2026-05-16\\14_full_source_recrawl_20260525\\cache\\manifest.jsonl",
+  "rows": 249,
+  "processed": 249,
+  "skipped_existing": 0,
+  "status_counts": {
+    "text-extracted": 215,
+    "rendered-ocr-needed": 34
+  }
+}
