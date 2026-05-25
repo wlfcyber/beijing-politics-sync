@@ -1,0 +1,18 @@
+{
+  "models_observed": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "debug_model_mentions": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "thinking_block_seen": true,
+  "result_obj_summary": {},
+  "model_gate": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+  "started": "2026-05-25T09:57:18",
+  "finished": "2026-05-25T09:59:27",
+  "return_code": 0,
+  "timed_out": false,
+  "command": "claude -p --model claude-opus-4-7 --effort max --permission-mode auto --tools Read,Grep --output-format json --verbose --debug-file ... --no-session-persistence"
+}

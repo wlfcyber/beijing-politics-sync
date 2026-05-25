@@ -1,0 +1,81 @@
+{
+  "status": "CHAOYANG_2024_YIMO_LOCAL_QA_PASS_MODEL_GATES_OPEN",
+  "timestamp": "20260525_165316",
+  "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+  "docx_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_2024_chaoyang_yimo_insert_20260525_165316.docx",
+  "inserted_headings": [
+    "39. 2024朝阳一模 第5题（选择题）",
+    "40. 2024朝阳一模 第9题（选择题）"
+  ],
+  "skipped_existing": [],
+  "ledger_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger_backup_before_2024_chaoyang_yimo_insert_20260525_165316.csv",
+  "ledger_rows_added": [
+    "2024朝阳一模 第5题（选择题）",
+    "2024朝阳一模 第9题（选择题）"
+  ],
+  "matrix_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX_backup_before_2024_chaoyang_yimo_repair_20260525_165316.csv",
+  "updated_rows": [
+    "M0271",
+    "M0272",
+    "M0273",
+    "M0274",
+    "M0275",
+    "M0276",
+    "M0277",
+    "M0278",
+    "M0279",
+    "M0280",
+    "M0281",
+    "M0282",
+    "M0283",
+    "M0284",
+    "M0285",
+    "M0199",
+    "M0815"
+  ],
+  "added_rows": [
+    "M1514",
+    "M1515",
+    "M1516",
+    "M1517",
+    "M1518",
+    "M1519",
+    "M1520"
+  ],
+  "model_gates": {
+    "gptpro_web": "real_call_pending",
+    "claude_opus_web_app_full_artifact_review": "real_call_pending_direct_claude_ai",
+    "claudecode_model_confirmation": "BLOCKED_MODEL_CONFIRMATION_REQUIRED"
+  },
+  "render_qa": {
+    "timestamp": "20260525_165735",
+    "pdf_pages": 284,
+    "rendered_png_count": 284,
+    "docx_bytes": 438039,
+    "pdf_bytes": 4442109,
+    "docx_label_count": 2835,
+    "pdf_label_count": 2835,
+    "blank_like_pages_excluding_cover_foreword": [],
+    "contact_sheet": "word_render_qa_20260525_global_style_norm/global_style_norm_contact_sheet.png",
+    "target_pages_checked": [
+      {
+        "question": "2024???? ?9?",
+        "page": 96,
+        "image": "word_render_qa_20260525_global_style_norm/page_096.png"
+      },
+      {
+        "question": "2024???? ?5?",
+        "page": 249,
+        "image": "word_render_qa_20260525_global_style_norm/page_249.png"
+      }
+    ],
+    "visual_result": "pass_no_visible_overlap_clipping_page_number_drift_or_entry_style_mismatch"
+  },
+  "matrix_audit_after_render": {
+    "matrix_rows": 1520,
+    "in_book_body_rows": 502,
+    "risk_rows": 140,
+    "in_book_body_risk_rows": 0,
+    "exact_suite_risk_rows": 0
+  }
+}

@@ -8,10 +8,12 @@
    - 只有正文，没有覆盖矩阵。
    - 只有 Markdown PASS，没有 Word/PDF QA。
    - 只有 GPT/Claude 建议摘要，没有真实截图/原始回复/日志。
+   - Claude web/app 外审反复点 Google 登录或停在 Google 账号选择页，却没有先尝试直达 `https://claude.ai` 自动登录并留证。
    - 把参考答案写成评分细则。
    - 学生正文混入路径、debug、PASS、final、rubric、细则位置等审计语。
 4. 对每条线给出下一步硬任务，写入 `patch_orders/`。
 5. 更新 `snapshots/heartbeat_YYYYMMDD_HHMM.md`。
+6. 若三条线全部进入终态，执行 `ORDER_063_FINAL_GITHUB_UPLOAD_AFTER_ALL_THREADS_20260525.md`：选择性整理成果和过程日志，先做敏感信息扫描，再提交并推送 GitHub，最后写 `github_upload_YYYYMMDD_HHMM.md` 和最终 heartbeat。
 
 ## 三条线优先级
 
@@ -25,4 +27,3 @@
 - 不得让一个总报告覆盖三条线的逐题矩阵。
 - 不得把“看起来很好”当作 Confucius 通过。
 - 不得覆盖或重写已认可版本本体；所有改动先写补丁指令和候选产物。
-

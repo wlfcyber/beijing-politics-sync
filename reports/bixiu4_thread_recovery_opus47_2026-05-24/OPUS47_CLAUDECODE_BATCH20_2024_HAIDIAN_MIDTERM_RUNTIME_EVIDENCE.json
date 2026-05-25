@@ -1,0 +1,25 @@
+{
+  "models_observed": [
+    "claude-opus-4-7"
+  ],
+  "debug_model_mentions": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "thinking_block_seen": true,
+  "stderr_bytes": 0,
+  "raw_bytes": 397939,
+  "json_lines": 110,
+  "result_obj_summary": {
+    "type": "result",
+    "subtype": "success",
+    "duration_ms": 325742,
+    "duration_api_ms": 313121,
+    "is_error": false,
+    "num_turns": 44,
+    "session_id": "d61a6a78-ceff-41db-97f4-b56a29dfbee3"
+  },
+  "content_result_detected": "pass",
+  "local_policy_result": "pass_with_model_gate_blocked",
+  "model_gate": "BLOCKED_MODEL_CONFIRMATION_REQUIRED"
+}

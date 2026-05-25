@@ -1,0 +1,51 @@
+suite,year,phase,question_no,status,existing_coverage,proposed_framework_node,evidence_level,action,reason
+2024东城一模,2024,一模,Q16,covered_in_base,base_mentions_found+Codex_A_rubric_explicit,联系/矛盾普遍特殊/价值观/文化线,强细则,NO_ACTION,母版已收录2024东城一模Q16；blocked.jsonl未列入说明本轮无新增需要
+2024丰台一模,2024,一模,Q18(1)/Q21,covered_in_base,base_mentions_found,联系/发展/矛盾/唯物史观-新质生产力,参考答案,NO_ACTION,新质生产力是母版高频主题；本轮未识别题级缺口
+2024朝阳一模,2024,一模,Q待回源,need_evidence,base_mentions_found但题号未确认,(待定),(待定),HOLD,Codex A定位但题号待定；当前不可强行立条
+2024海淀一模,2024,一模,Q16,covered_in_base,base_mentions_found,主观能动性/联系/发展/实践/民族精神,参考答案,NO_ACTION,老套题母版已收；无新证据触发新增
+2024石景山一模,2024,一模,Q哲学,need_evidence,base_mentions_found但题级未核,(待定),弱参考答案,HOLD,试卷为docx教师版；哲学题位置和细则结构未完整核验
+2024西城一模,2024,一模,Q哲学,covered_in_base,base_mentions_found+rubric可读,生态价值观/实践认识/规律主观能动/联系发展/对立统一/辩证否定,强细则,NO_ACTION,母版已收录2024西城一模哲学题
+2025东城一模,2025,一模,Q16,covered_in_base,blocked_as_already_in_base_exact_source(4条),价值观/辩证否定/发展/矛盾普遍特殊,强细则,NO_ACTION,blocked.jsonl 4条均判 already_in_base_exact_source
+2025丰台一模,2025,一模,Q16,covered_in_base,blocked_culture_boundary+already_in_base(3条),价值判断价值选择/民族精神/中华传统美德,强细则,NO_ACTION,文化线节点入文化模块；价值判断节点母版已覆盖
+2025丰台一模,2025,一模,Q18(2),covered_in_base,blocked_already_in_base(4条),联系/发展/矛盾/价值观-AI与人,参考答案,NO_ACTION,4条均判已在base；不再独立列条
+2025延庆一模,2025,一模,Q16,covered_in_base,blocked_already_in_base(4条),具体问题具体分析/价值观/一切从实际出发/上层建筑适合经济基础,强细则,NO_ACTION,上层建筑规律虽罕见但母版已覆盖；blocked.jsonl 4条 already_in_base
+2025延庆一模,2025,一模,Q18,boundary_excluded,N/A,辩证思维(选必三),强细则,EXCLUDE,选必三《逻辑与思维》辩证思维方法非必修四
+2025房山一模,2025,一模,Q16(1),covered_in_base,blocked_already_in_base(2条),价值观导向/矛盾一分为二,强细则,NO_ACTION,价值观+全面矛盾观母版已覆盖
+2025朝阳一模,2025,一模,Q16,need_evidence,base_mentions_found(weak),实践决定认识/社会存在与社会意识/价值创造,弱参考答案,HOLD,弱参考答案仅列角度；不可包装为细则进新条
+2025海淀一模,2025,一模,Q16,need_evidence,base_mentions_found(weak),矛盾分析法/实践与认识/价值观,弱参考答案,HOLD,"""测试""主题待回源精确确认；不强行立条"
+2025海淀一模,2025,一模,Q21,covered_by_patch,accepted_JSONL_3条,系统观念/系统优化/主次矛盾,强细则,KEEP,2025海淀一模Q21 ClaudeCode B first mock 3条已入DOCX(ledger已记)
+2025石景山一模,2025,一模,Q16,covered_in_base,blocked_already_in_base+culture_boundary(3条),联系普遍性/发展观/中华文化当代价值,强细则,NO_ACTION,联系+发展母版已覆盖；文化部分入文化线
+2025石景山一模,2025,一模,Q21(1),boundary_excluded,N/A,科学思维+归纳推理+创新思维(选必三),强细则,EXCLUDE,选必三科学思维与创新思维方法非必修四
+2025西城一模,2025,一模,Q16,covered_in_base,blocked_already_in_base(3条),正确认识指导实践/实践决定认识/认识深化,强细则,NO_ACTION,认识论3条 已在base；不再独立列条
+2025西城一模,2025,一模,Q17,boundary_excluded,N/A,辩证思维/创新思维(选必三),强细则,EXCLUDE,选必三辩证思维与创新思维方法非必修四
+2025门头沟一模,2025,一模,Q16,covered_in_base,blocked_culture_boundary+resolved_by_final_docx,联系/发展/对立统一/价值判断价值选择,强细则,NO_ACTION,文化-科技联系入文化线；价值判断条 prompt_gate 已 resolved_by_final_docx
+2025门头沟一模,2025,一模,Q21(1),boundary_excluded,N/A,科学思维+辩证思维+创新思维(选必三),强细则,EXCLUDE,选必三逻辑与思维非必修四
+2025顺义一模,2025,一模,Q16,covered_in_base,blocked_already_in_base+culture_boundary(4条),辩证否定扬弃/联系/发展量变质变/价值观,强细则,NO_ACTION,量变质变 在文化创新情境母版已收；文化部分入文化线
+2026东城一模,2026,一模,Q16,need_evidence,base_mentions_found(weak),文艺主题(待回源),弱参考答案,HOLD,弱参考答案级别；母版可能已覆盖但题级未对比
+2026丰台一模,2026,一模,Q16,covered_in_base,blocked_question_prompt_not_verified->resolved_by_final_docx(4条),矛盾对立统一一分为二/两点论重点论-主流支流/联系-整体与部分/价值观,强细则,NO_ACTION,4条 prompt_gate 已 resolved_by_final_docx；主流支流已落入最终DOCX
+2026延庆一模,2026,一模,Q待定,need_evidence,base_mentions_found,(待定),(待定),HOLD,本轮 audit 未发现独立强细则候选；保持观察
+2026房山一模,2026,一模,Q16(2),covered_in_base,blocked_question_prompt_not_verified->resolved_by_final_docx(4条),矛盾普遍特殊统一/一切从实际/规律主观能动/联系立足整体,参考答案,NO_ACTION,4条 prompt_gate 已 resolved_by_final_docx
+2026朝阳一模,2026,一模,Q16,covered_in_base,blocked_already_in_base+culture_boundary(5条),规律主观能动/联系系统优化/矛盾普遍特殊/实践认识/文化自信,强细则,NO_ACTION,农历题5条原理母版已覆盖；文化自信入文化线
+2026朝阳一模,2026,一模,Q17(3),need_evidence,(未在 blocked/accepted 列出),(待定),(待定),HOLD,Q17(3)题号歧义需回源；当前不立条以免错位
+2026海淀一模,2026,一模,Q16,covered_in_base,hard_sample已锁定基线节点,物质决定意识/必要性+主观能动性意识的能动作用,强细则,NO_ACTION,硬样本：基线已稳定双节点入栏；不重复
+2026海淀一模,2026,一模,Q17,boundary_excluded,N/A,辩证思维/逻辑推理(选必三),强细则,EXCLUDE,辩证思维方法属选必三
+2026石景山一模,2026,一模,Q17(1),covered_in_base,blocked_already_in_base(4条),对立统一-阴阳/具体问题具体分析/系统-整体与部分/发展观,强细则,NO_ACTION,中医药4节点母版已覆盖
+2026西城一模,2026,一模,Q16,covered_in_base,blocked_already_in_base+module_boundary(4条),意识能动性-正确意识促进/联系普遍/发展/价值观,强细则,NO_ACTION,3节点母版已收；价值观条目走模块边界
+2026西城一模,2026,一模,Q21,covered_in_base,blocked_already_in_base+module_boundary(4条),实践-探索本质/矛盾特殊-关键时期/发展-前进性曲折性/规律主观能动,强细则,NO_ACTION,3节点母版已收；实践观条目走模块边界
+2026西城一模,2026,一模,Q19(3),boundary_excluded,N/A,辩证思维/创新思维(选必三),强细则,EXCLUDE,选必三逻辑与思维
+2026通州一模,2026,一模,Q18,covered_by_patch,accepted_JSONL_2条(Codex_continuation_repair),矛盾就是对立统一/辩证否定-守正创新,强细则,KEEP,通州一模原 OCR 全失败已通过 source repair 修复并入DOCX
+2026门头沟一模,2026,一模,Q16,covered_in_base,blocked_already_in_base(4条),发展观/矛盾对立统一-传承创新/辩证否定-扬弃/联系-客观性多样性,参考答案,NO_ACTION,文物活化4节点母版已覆盖
+2026顺义一模,2026,一模,Q21,covered_in_base,blocked_already_in_base(3条),规律主观能动-审势/主次矛盾-两点论重点论-乘势/人民群众历史主体-价值判断价值选择-驭势,参考答案,NO_ACTION,审势乘势驭势3节点母版已覆盖
+2026东城二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_6条,实践是认识的基础/物质决定意识/系统观念-系统优化/辩证否定-守正创新/矛盾的特殊性-具体问题具体分析/价值观的导向作用,强细则,KEEP,京彩课堂 6 条原理已入DOCX；厚度充分
+2026东城二模,2026,二模,Q18,boundary_excluded,N/A,类比推理(选必三),强细则,EXCLUDE,类比推理属选必三《逻辑与思维》
+2026丰台二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_5条,矛盾特殊性/规律与主观能动性/系统观念/发展观/价值观,强细则,KEEP,湿地守护 5 条已入DOCX
+2026房山二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_3条+blocked_culture_boundary_1条,规律主观能动性/系统观念/量变质变,强细则,KEEP,工匠精神 3 条入DOCX；中华传统文化连续性创新性条入文化线
+2026房山二模,2026,二模,Q18(2),covered_by_patch,accepted_JSONL_1条,辩证否定-扬弃,强细则,KEEP,辩证否定专项 5 分题已入DOCX
+2026朝阳二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_4条,矛盾对立统一/辩证否定-守正创新/具体问题具体分析/价值观,强细则,KEEP,城市文化建设 4 条已入DOCX
+2026朝阳二模,2026,二模,Q21,covered_by_patch,accepted_JSONL_2条,系统观念-系统优化/量变与质变,强细则,KEEP,五篇大文章 2 条已入DOCX；党的领导1分入政治模块不在此列
+2026海淀二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_4条(讲评细则升级),联系普遍性/矛盾就是对立统一/实践是认识的基础/认识对实践的反作用,讲评细则,KEEP,有字之书无字之书4条已基于海淀讲评 page_015/016 升级为强证据并入DOCX
+2026海淀二模,2026,二模,Q21,need_evidence,blocked_weak_evidence(1条 矛盾分析法),(待定),弱参考答案,HOLD,统筹方法 9 分题细则缺；不立条
+2026石景山二模,2026,二模,Q17(2),boundary_excluded,N/A,辩证思维(整体性/矛盾分析法/辩证否定观)-选必三,强细则,EXCLUDE,细则明确选必三《逻辑与思维》
+2026石景山二模,2026,二模,Q17(3),covered_by_patch,accepted_JSONL_3条(weak_gate_repair),联系的普遍性/矛盾就是对立统一/实践是认识的基础,正式细则允许角度,KEEP,3 条已入DOCX；boundary_note 明确标"任选角度"不写成累加细则
+2026西城二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_3条(weak_gate_repair),矛盾的普遍性和特殊性/实践是认识的基础/价值观的导向作用,强细则,KEEP,中式生活方式 3 条经评标 PNG 渲染补证后已入DOCX
+2026顺义二模,2026,二模,Q16,covered_by_patch,accepted_JSONL_5条(weak_gate_repair),人民群众/价值观的导向作用/两点论与重点论/实践是认识的基础/辩证否定-守正创新,强阅卷版,KEEP,新大众文艺 5 条经顺义阅卷版.txt 补证后入DOCX；两点论重点论已与矛盾对立统一区分

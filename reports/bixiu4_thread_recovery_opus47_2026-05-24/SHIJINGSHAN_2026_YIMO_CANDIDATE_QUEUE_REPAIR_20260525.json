@@ -1,0 +1,108 @@
+{
+  "timestamp": "20260525_180404",
+  "suite": "2026石景山一模",
+  "docx": {
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "docx_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_2026_shijingshan_yimo_repair_20260525_180404.docx",
+    "inserted_headings": [
+      {
+        "question_no": "Q2",
+        "heading": "39. 2026石景山一模 第2题（选择题）",
+        "node": "发展的观点 / 发展的普遍性"
+      },
+      {
+        "question_no": "Q3",
+        "heading": "39. 2026石景山一模 第3题（选择题）",
+        "node": "主观能动性 / 意识的能动作用"
+      }
+    ],
+    "skipped_existing": []
+  },
+  "ledger": {
+    "ledger": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger.csv",
+    "ledger_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger_backup_before_2026_shijingshan_yimo_repair_20260525_180404.csv",
+    "added_rows": [
+      {
+        "canonical_node": "发展的观点 / 发展的普遍性",
+        "source_suite": "2026石景山一模",
+        "question_no": "Q2",
+        "inserted_heading": "2026石景山一模 第2题（选择题）"
+      },
+      {
+        "canonical_node": "主观能动性 / 意识的能动作用",
+        "source_suite": "2026石景山一模",
+        "question_no": "Q3",
+        "inserted_heading": "2026石景山一模 第3题（选择题）"
+      }
+    ]
+  },
+  "matrix": {
+    "matrix": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX.csv",
+    "matrix_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX_backup_before_2026_shijingshan_yimo_repair_20260525_180404.csv",
+    "updated_row_ids": [
+      "M0066",
+      "M0067",
+      "M0068",
+      "M0069",
+      "M0164",
+      "M0227",
+      "M0599",
+      "M0600",
+      "M0601",
+      "M0602",
+      "M0603",
+      "M0604",
+      "M0605",
+      "M0606",
+      "M0607",
+      "M0608",
+      "M0609",
+      "M0610",
+      "M0611",
+      "M0612",
+      "M0613",
+      "M0614",
+      "M0615",
+      "M0616",
+      "M0617",
+      "M0801",
+      "M0854"
+    ]
+  },
+  "sources": {
+    "rubric_doc": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区一模\\2026石景山一模\\2026石景山区高三一模评分细则.doc",
+    "paper_pdf": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区一模\\2026石景山一模\\2026北京石景山高三一模政治（教师版）.pdf",
+    "source_bundle": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\01_source_inventory\\suite_source_bundles\\2026石景山一模.md"
+  },
+  "render_status": "RENDER_PASS",
+  "model_gate_status": {
+    "claude_web_app": "real_call_pending",
+    "claudecode_model_confirmation": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+    "gptpro_web": "real_call_pending"
+  },
+  "render_manifest": {
+    "timestamp": "20260525_180411",
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+    "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_style_normalization_render_20260525_180411.pdf",
+    "docx_bytes": 442775,
+    "pdf_bytes": 4498873,
+    "docx_label_count": 2879,
+    "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_global_style_norm\\global_style_norm_contact_sheet.png",
+    "pdf_pages": 288,
+    "rendered_png_count": 288,
+    "pdf_label_count": 2879,
+    "blank_like_pages_excluding_cover_foreword": []
+  },
+  "page_qa": {
+    "Q3": "page 34",
+    "Q2": "page 112"
+  },
+  "matrix_render_pass_rows": [
+    "M0600",
+    "M0601",
+    "M0617",
+    "M0801",
+    "M0854"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "models_observed": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "debug_model_mentions": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "thinking_block_seen": true,
+  "result_obj_summary": {
+    "type": "result",
+    "subtype": "success",
+    "duration_ms": 96745,
+    "duration_api_ms": 98151,
+    "is_error": false,
+    "num_turns": 15,
+    "session_id": "3b282758-c00f-4191-9db0-8442d77f0604",
+    "total_cost_usd": 0.6845245000000001,
+    "terminal_reason": "completed"
+  },
+  "model_gate": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+  "content_result_detected": "pass_with_notes",
+  "local_policy_result": "pass_with_model_gate_blocked",
+  "return_code": 0,
+  "timed_out": false,
+  "raw_bytes": 225614,
+  "stderr_bytes": 0,
+  "repair_note": "V2 raw output is a JSON array; previous parser expected an object and misclassified model-gate blocker as content blocked."
+}

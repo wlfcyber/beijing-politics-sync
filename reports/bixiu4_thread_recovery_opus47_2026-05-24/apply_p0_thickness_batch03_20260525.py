@@ -1,0 +1,272 @@
+from __future__ import annotations
+
+import csv
+import json
+import shutil
+import zipfile
+from datetime import datetime
+from pathlib import Path
+
+import apply_p0_thickness_batch01_20260525 as helper
+from docx import Document
+
+
+ROOT = Path(__file__).resolve().parent
+
+TARGETS = [
+    {
+        "queue_id": "T0095",
+        "heading": "13. 2026丰台期末 第22题（主观题）",
+        "node": "规律的客观性",
+        "old_answer_excerpt": "五年规划体现尊重规律。党和国家在认识经济社会发展规律、现代化建设规律的基础上作出接续谋划",
+        "evidence_note": "细则第444、452行两次列出“遵循规律”，当前框架第1441行把该题落到规律客观性。",
+        "new_why": "材料不是只描述五年规划的时间长度，而是强调从1953年至今接续制定、科学实施，并让长期战略与阶段任务相衔接。细则两次列出“遵循规律”，说明卷面要把规划理解为对经济社会发展规律、现代化建设规律和阶段性任务的客观把握，而不是凭主观愿望随意安排目标。",
+        "new_answer": "①规律具有客观性，制定和实施国家发展规划必须尊重经济社会发展规律和中国式现代化建设规律。②我国接续实施五年规划，正是在认识不同历史阶段发展条件、主要任务和发展趋势的基础上，科学安排目标、指标和重点任务。③把长期战略同阶段任务衔接起来，有利于按规律办事、连续推进实践，使现代化建设保持方向稳定和步骤有序。",
+    },
+    {
+        "queue_id": "T0465",
+        "heading": "13. 2026西城期末 第16题第（2）问（主观题）",
+        "node": "认识对实践的反作用",
+        "old_answer_excerpt": "真实认识能够正确指导实践、促进实践发展，使新闻、历史、司法、科学和纪录片等领域的活动形成可信力量",
+        "evidence_note": "正式评分细则page_002认识论角度写明“真实认识才能获得真理，对实践具有促进作用”。",
+        "new_why": "设问问“真实”为何直抵人心，不能只写情感感染力。细则明确写到“真实认识才能获得真理，对实践具有促进作用”，说明真实之所以有力量，是因为它使人们形成符合对象本来面貌的认识，并进一步指导新闻传播、历史叙述、司法判断、科学研究等实践。",
+        "new_answer": "①认识对实践具有反作用，正确认识能够指导实践、促进实践发展。②真实内容尊重事实和规律，使人们获得更接近真理的认识，因而能增强判断、沟通和行动的可信度。③新闻、历史、司法、科学和纪录片等领域越能坚持真实，越能形成对公共生活和社会实践的积极引导，所以“真实”具有直抵人心并推动实践的力量。",
+    },
+    {
+        "queue_id": "T0355",
+        "heading": "14. 2026房山一模 第18题第（1）问（主观题）",
+        "node": "矛盾的特殊性 / 具体问题具体分析",
+        "old_answer_excerpt": "北京实现“常态蓝天”，是因为治理中坚持具体问题具体分析，抓住重点区域、重点行业和重点时段精准施策",
+        "evidence_note": "材料和评标细则写明聚焦重点区域、重点行业、重点时段，分区分类、一企一策，避免一刀切。",
+        "new_why": "空气污染的成因在不同区域、行业、时段和企业之间并不完全相同。材料中的“聚焦重点区域、重点行业、重点时段”“分区分类”“一企一策”直接说明治理方案要根据矛盾特殊性来确定，不能用同一套办法机械套用到所有污染源，这正是具体问题具体分析。",
+        "new_answer": "①矛盾具有特殊性，要坚持具体问题具体分析。②北京治理空气污染时，没有搞笼统治理和“一刀切”，而是区分重点区域、重点行业、重点时段以及不同企业的排放特点，分区分类、一企一策、精准施策。③这种做法使治理措施同具体污染成因和治理对象相匹配，从而提高科学治理效果，推动空气质量稳定改善并实现“常态蓝天”。",
+    },
+    {
+        "queue_id": "T0096",
+        "heading": "14. 2026朝阳期中 第18题（主观题）",
+        "node": "规律的客观性",
+        "old_answer_excerpt": "可以有条件使用AI提供情绪价值，但必须按客观规律办事。既要看到AI作为工具可辅助疏导情绪",
+        "evidence_note": "正式评分细则第57-59行在支持理由中列“按规律办事/从实际出发/矛盾特殊性或具体问题具体分析等”。",
+        "new_why": "AI情绪陪伴能否使用，不能只从个人好恶判断。细则把“按规律办事”列入支持理由，说明作答要承认情绪疏导、技术工具和现实交往都有自身规律：AI可以在一定范围内提供回应和辅助，但人的深层共情、责任关系和现实社会交往不能被技术替代。",
+        "new_answer": "①规律具有客观性，使用AI提供情绪价值必须尊重人的情感发展规律、现实交往规律和技术工具运行规律。②AI可以作为辅助工具，在即时回应、倾诉表达、初步疏导等方面发挥一定作用，但它缺少真实生命体验和社会责任关系，不能代替人与人之间的深度理解。③因此应在规律允许的范围内适度使用，把AI定位为辅助而非替代，防止过度依赖削弱现实交往和自我调适能力。",
+    },
+    {
+        "queue_id": "T0563",
+        "heading": "14. 2026朝阳期中 第19题（主观题）",
+        "node": "价值观的导向作用",
+        "old_answer_excerpt": "要弘扬抗战精神，是因为这种正确价值观对实现中华民族伟大复兴提供方向引领与精神动力",
+        "evidence_note": "材料中总书记阐释抗战精神的爱国情怀、民族气节、英雄气概和必胜信念，并指向新时代砥砺前行。",
+        "new_why": "卷首语要说明抗战精神为什么值得继承弘扬。材料把爱国情怀、民族气节、英雄气概、必胜信念放在一起，并指向新时代砥砺前行，说明抗战精神不是抽象口号，而是正确价值观的集中体现，能够影响人们认识历史、判断责任和选择行动方向。",
+        "new_answer": "①价值观对人们认识世界、改造世界的活动具有重要导向作用，正确价值观能够引导人们作出正确价值判断和价值选择。②伟大抗战精神蕴含爱国情怀、民族气节、英雄气概和必胜信念，能够帮助青年理解民族独立、国家富强和人民幸福之间的责任关系。③新时代弘扬抗战精神，就是用正确价值观凝聚民族复兴的精神力量，引导青年把爱国情怀转化为担当奉献和砥砺前行的实际行动。",
+    },
+    {
+        "queue_id": "T0097",
+        "heading": "15. 2026朝阳期末 第16题（主观题）",
+        "node": "规律的客观性",
+        "old_answer_excerpt": "推动传统戏曲创新发展要尊重文化传承和艺术发展的客观规律，既保留行当、唱腔、人物塑造等精髓",
+        "evidence_note": "正式阅卷细则第21行补充列“规律”，第15-18行要求保留精髓并推动创造性转化、创新性发展。",
+        "new_why": "传统戏曲焕发生命力，不是把旧形式原封不动搬到今天，也不是任意改造到失去戏曲本体。细则补充列“规律”，并要求保留精髓、剔除脱节部分、推动创造性转化和创新性发展，说明作答要尊重戏曲艺术传承规律、文化发展规律和当代接受规律。",
+        "new_answer": "①规律具有客观性，传统戏曲创新发展必须尊重文化传承规律、艺术创作规律和当代观众接受规律。②一方面要保留行当、唱腔、人物塑造、审美精神等戏曲精髓，不能割断传统根脉；另一方面要剔除同当代生活脱节的表达，把题材、舞台、技术和传播方式进行创造性转化。③这样才能使传统戏曲既守住自身规律和文化内核，又适应时代需要，在当代文化生活中焕发新的生命力。",
+    },
+    {
+        "queue_id": "T0499",
+        "heading": "16. 2026丰台期末 第22题（主观题）",
+        "node": "社会存在与社会意识",
+        "old_answer_excerpt": "五年规划体现社会存在与社会意识的关系。它来源于我国经济社会发展的现实需要和实践经验",
+        "evidence_note": "细则第444行列“社会意识”，当前框架第1443行说明发展规划属于社会意识形态的重要内容并反作用于实践。",
+        "new_why": "五年规划不是单纯行政文本，而是党和国家对一定阶段经济社会发展状况、主要矛盾和实践任务的认识成果。细则列“社会意识”，说明应从社会存在决定社会意识、社会意识反作用于社会存在来写：规划来源于现实发展需要，又以目标和政策安排指导现实发展。",
+        "new_answer": "①社会存在决定社会意识，社会意识是对社会存在的反映。五年规划来源于我国不同历史阶段的经济社会发展实际、人民需要和现代化建设任务。②社会意识具有相对独立性，并能反作用于社会存在。科学规划把现实判断转化为战略目标、指标体系和政策安排，能够指导经济社会发展实践。③我国接续编制和实施五年规划，体现了把对发展实际的正确认识转化为治国理政安排，从而推动社会实践不断向前发展。",
+    },
+    {
+        "queue_id": "T0079",
+        "heading": "16. 2026房山一模 第16题第（2）问（主观题）",
+        "node": "尊重客观规律与发挥主观能动性相结合",
+        "old_answer_excerpt": "坚持因地制宜，要把尊重客观规律和发挥主观能动性结合起来：既承认地方资源禀赋和发展规律",
+        "evidence_note": "材料写当地依托客观区位和资源条件，同时主动推进口岸数字化、清洁能源基地、农牧产品加工和文化活动。",
+        "new_why": "“因地制宜，本质就是实事求是”既强调从地方实际出发，也要求把客观条件转化为发展路径。材料一方面写区位、资源、生态、产业基础等客观条件，另一方面写数字化转型、清洁能源基地、农牧产品深加工和文化活动等主动作为，因此应落到尊重客观规律与发挥主观能动性相结合。",
+        "new_answer": "①尊重客观规律是正确发挥主观能动性的前提，发挥主观能动性又是认识和利用规律、改造现实条件的必要环节。②因地制宜首先要承认当地资源禀赋、区位条件、生态环境和产业基础，不能脱离实际照搬模式。③同时要主动作为，通过口岸数字化升级、清洁能源基地建设、农牧产品精深加工和文化活动等，把客观条件转化为发展优势，这才是实事求是地推动高质量发展。",
+    },
+]
+
+
+def now() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M +08")
+
+
+def write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({field: row.get(field, "") for field in fields})
+
+
+def write_draft_files() -> None:
+    rows = []
+    for target in TARGETS:
+        rows.append(
+            {
+                "queue_id": target["queue_id"],
+                "heading": target["heading"],
+                "node": target["node"],
+                "evidence_note": target["evidence_note"],
+                "new_why_chars": len(target["new_why"]),
+                "new_answer_chars": len(target["new_answer"]),
+                "new_why": target["new_why"],
+                "new_answer": target["new_answer"],
+            }
+        )
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH03_DRAFT_20260525.json").write_text(
+        json.dumps({"updated": now(), "targets": rows}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    write_csv(
+        ROOT / "P0_THICKNESS_REPAIR_BATCH03_DRAFT_20260525.csv",
+        rows,
+        ["queue_id", "heading", "node", "evidence_note", "new_why_chars", "new_answer_chars", "new_why", "new_answer"],
+    )
+    lines = [
+        "# P0 Thickness Repair Batch03 Draft 20260525",
+        "",
+        f"Updated: {now()}",
+        "",
+        "Status: `DRAFT_READY_FOR_DOCX_APPLICATION`",
+        "",
+        "- Scope: next 8 P0 subjective triple-thin rows after Batch02 refresh.",
+        "- Repair method: thicken only existing why/answer paragraphs inside existing rubric-supported nodes.",
+        "- No new principle is introduced; evidence notes are copied from current node-level support.",
+        "",
+        "| queue_id | node | heading | new why chars | new answer chars | evidence note |",
+        "|---|---|---|---:|---:|---|",
+    ]
+    for row in rows:
+        lines.append(
+            f"| {row['queue_id']} | {row['node']} | {row['heading']} | {row['new_why_chars']} | {row['new_answer_chars']} | {row['evidence_note']} |"
+        )
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH03_DRAFT_20260525.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
+def main() -> int:
+    write_draft_files()
+    docx = helper.current_docx()
+    backup = docx.with_name(f"{docx.stem}_backup_before_p0_thickness_batch03_{datetime.now():%Y%m%d_%H%M%S}.docx")
+    shutil.copy2(docx, backup)
+
+    doc = Document(str(docx))
+    blocks = helper.entry_blocks(doc)
+    applied: list[dict[str, object]] = []
+    for target in TARGETS:
+        block = helper.matching_block(blocks, target)
+        fields = block["fields"]
+        field_paras = block["field_paras"]
+        before_why = str(fields.get("why", ""))
+        before_answer = str(fields.get("answer", ""))
+        helper.set_labeled_paragraph(doc.paragraphs[int(field_paras["why"])], "why", target["new_why"])
+        helper.set_labeled_paragraph(doc.paragraphs[int(field_paras["answer"])], "answer", target["new_answer"])
+        applied.append(
+            {
+                "queue_id": target["queue_id"],
+                "heading": target["heading"],
+                "node": target["node"],
+                "heading_para": block["heading_para"],
+                "why_para": field_paras["why"],
+                "answer_para": field_paras["answer"],
+                "before_why_chars": len(before_why),
+                "after_why_chars": len(target["new_why"]),
+                "before_answer_chars": len(before_answer),
+                "after_answer_chars": len(target["new_answer"]),
+                "evidence_note": target["evidence_note"],
+                "old_answer_excerpt": target["old_answer_excerpt"],
+            }
+        )
+
+    doc.save(str(docx))
+    with zipfile.ZipFile(docx) as z:
+        zip_ok = "[Content_Types].xml" in z.namelist() and "word/document.xml" in z.namelist()
+
+    result = {
+        "updated": now(),
+        "status": "P0_BATCH03_APPLIED_REQUIRES_RENDER_AND_EXTERNAL_RECHECK",
+        "docx": str(docx),
+        "backup_docx": str(backup),
+        "zip_ok": zip_ok,
+        "targets": len(TARGETS),
+        "applied": applied,
+        "boundary": [
+            "This is a local thickness repair batch, not final acceptance.",
+            "PDF/render outputs must be regenerated after this DOCX edit.",
+            "External review remains pending for the current post-repair artifact.",
+        ],
+    }
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH03_APPLY_20260525.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    write_csv(
+        ROOT / "P0_THICKNESS_REPAIR_BATCH03_APPLY_20260525.csv",
+        applied,
+        [
+            "queue_id",
+            "heading",
+            "node",
+            "heading_para",
+            "why_para",
+            "answer_para",
+            "before_why_chars",
+            "after_why_chars",
+            "before_answer_chars",
+            "after_answer_chars",
+            "evidence_note",
+            "old_answer_excerpt",
+        ],
+    )
+    lines = [
+        "# P0 Thickness Repair Batch03 Apply 20260525",
+        "",
+        f"Updated: {result['updated']}",
+        "",
+        f"Status: `{result['status']}`",
+        "",
+        f"- DOCX: `{docx.name}`.",
+        f"- Backup: `{backup.name}`.",
+        f"- Targets applied: `{len(applied)}` / `{len(TARGETS)}`.",
+        f"- DOCX zip structural check: `{str(zip_ok).lower()}`.",
+        "",
+        "## Applied Rows",
+        "",
+        "| queue_id | node | heading | why chars | answer chars | paragraph refs |",
+        "|---|---|---|---:|---:|---|",
+    ]
+    for row in applied:
+        lines.append(
+            f"| {row['queue_id']} | {row['node']} | {row['heading']} | "
+            f"{row['before_why_chars']} -> {row['after_why_chars']} | "
+            f"{row['before_answer_chars']} -> {row['after_answer_chars']} | "
+            f"h={row['heading_para']}; why={row['why_para']}; answer={row['answer_para']} |"
+        )
+    lines.extend(
+        [
+            "",
+            "## Boundary",
+            "",
+            "- This batch repairs only 8 additional P0 rows.",
+            "- Remaining thickness queue, render QA, and model gates stay open until rechecked.",
+        ]
+    )
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH03_APPLY_20260525.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

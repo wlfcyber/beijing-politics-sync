@@ -1,0 +1,267 @@
+{
+  "timestamp": "20260525_124940",
+  "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+  "backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_global_style_normalization_20260525_124940.docx",
+  "normalized_label_paragraphs": 2780,
+  "normalized_heading_paragraphs": 695,
+  "before_label_failures": 420,
+  "after_label_failures": 0,
+  "before_label_stats": {
+    "【材料触发点】": {
+      "count": 695,
+      "fail": 105,
+      "examples": [
+        {
+          "paragraph_index": 95,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【材料触发点】正式评分细则第60-62行在反对理由中列“意识依赖于物质”。"
+        },
+        {
+          "paragraph_index": 100,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【材料触发点】正式细则第16题唯物论角度写明“体现了物质决定意识”。"
+        },
+        {
+          "paragraph_index": 239,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【材料触发点】细则第444行把“与中国具体实际相结合”列为“是什么”维度可用知识。"
+        },
+        {
+          "paragraph_index": 244,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【材料触发点】教师版答案键第7题为D；正确题肢③明确“从具体实际出发，深入挖掘城市内涵，推动城市创新发展”。"
+        },
+        {
+          "paragraph_index": 249,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【材料触发点】正式阅卷细则第21行补充列“从实际出发”；题面第359-360行强调以当代之思叩问传统、在保留戏曲精髓基础上赋予时代内涵。"
+        },
+        {
+          "paragraph_index": 254,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【材料触发点】正式评分细则page_002写明“真实是指客观事物及其规律的本来面目，追求真实就是实现主观与客观事实相符合”。"
+        }
+      ]
+    },
+    "【设问】": {
+      "count": 695,
+      "fail": 105,
+      "examples": [
+        {
+          "paragraph_index": 96,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【设问】材料指出AI在情感共情和动机共情方面存在缺陷，无法真正理解或共鸣人类情感。"
+        },
+        {
+          "paragraph_index": 101,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【设问】结合材料，运用《哲学与文化》知识，阐释都江堰跨越千年的治水智慧。"
+        },
+        {
+          "paragraph_index": 240,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【设问】第22题围绕五年规划，要求综合运用所学，谈谈对“科学制定和接续实施五年规划是我们党治国理政一条重要经验，也是中国特色社会主义一个重要政治优势”的理解。"
+        },
+        {
+          "paragraph_index": 245,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【设问】北京市前门商圈以“老字号+国潮”、国粹体验、茉莉花茶推广和科技赋能中轴线等方式推动城市内涵式发展。"
+        },
+        {
+          "paragraph_index": 250,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【设问】结合材料，运用《哲学与文化》知识，谈谈你对“传统戏曲焕发新的生命力”的理解。"
+        },
+        {
+          "paragraph_index": 255,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【设问】从哲学角度，谈谈为什么“真实”往往具有直抵人心的力量。"
+        }
+      ]
+    },
+    "【为什么能想到】": {
+      "count": 695,
+      "fail": 105,
+      "examples": [
+        {
+          "paragraph_index": 97,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【为什么能想到】人的情感、意识和共情能力依赖现实的人脑、身体经验和社会交往实践，不能由算法模拟完全替代。"
+        },
+        {
+          "paragraph_index": 102,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【为什么能想到】细则把当地地理条件对治水方案的制约作为物质决定意识的明确得分点。"
+        },
+        {
+          "paragraph_index": 241,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【为什么能想到】五年规划不是抽象照搬，而是把现代化目标、发展阶段、群众意见和国家治理实际统一起来制定。"
+        },
+        {
+          "paragraph_index": 246,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【为什么能想到】前门商圈的更新不是抽象扩张，而是从中轴线、老字号、国粹体验和现实消费场景出发，挖掘本地文化资源。"
+        },
+        {
+          "paragraph_index": 251,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【为什么能想到】传统戏曲的当代化不是抽象复制，而是从当代审美、受众需求和传统戏曲自身条件出发，处理传统精髓与时代内涵的关系。"
+        },
+        {
+          "paragraph_index": 256,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【为什么能想到】“主观与客观事实相符合”是实事求是、一切从实际出发的核心表述，且出自正式细则。"
+        }
+      ]
+    },
+    "【答案落点】": {
+      "count": 695,
+      "fail": 105,
+      "examples": [
+        {
+          "paragraph_index": 98,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【答案落点】反对把AI情绪陪伴当作真实人际关系的替代品，因为意识依赖于物质。AI缺少人的生命体验、现实关系和共情基础，难以真正理解人类情感。"
+        },
+        {
+          "paragraph_index": 103,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【答案落点】治水方案不是主观臆造，而是由当地自然条件和水利实际所规定，体现物质决定意识。"
+        },
+        {
+          "paragraph_index": 242,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【答案落点】科学制定五年规划要坚持从中国具体实际出发。我国根据不同历史阶段的发展任务和现实条件接续编制规划，把顶层设计与实际国情结合起来，使战略安排符合现代化建设需要。"
+        },
+        {
+          "paragraph_index": 247,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【答案落点】本题只作客观选择题挂点。推动城市内涵式发展要从具体实际出发，立足前门商圈的历史文化资源和现实消费需求，通过文化挖掘与科技赋能推动创新发展。"
+        },
+        {
+          "paragraph_index": 252,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【答案落点】传统戏曲焕发新生命力要坚持一切从实际出发，立足当代文化生活和戏曲艺术特点，在保留传统精髓的基础上赋予新的时代内涵，而不是简单复制粘贴。"
+        },
+        {
+          "paragraph_index": 257,
+          "issues": [
+            "first_run_not_label"
+          ],
+          "text": "【答案落点】追求真实就是坚持从客观事实出发，使主观认识符合客观实际，反对主观臆造和偏见，因此能形成说服力和共鸣。"
+        }
+      ]
+    }
+  },
+  "after_label_stats": {
+    "【材料触发点】": {
+      "count": 695,
+      "fail": 0,
+      "examples": []
+    },
+    "【设问】": {
+      "count": 695,
+      "fail": 0,
+      "examples": []
+    },
+    "【为什么能想到】": {
+      "count": 695,
+      "fail": 0,
+      "examples": []
+    },
+    "【答案落点】": {
+      "count": 695,
+      "fail": 0,
+      "examples": []
+    }
+  },
+  "before_heading_stats": {
+    "style_5_count": 695,
+    "ppr_variant_count": 2,
+    "rpr_variant_count": 2,
+    "ppr_variants": [
+      [
+        "-8415109537280055633",
+        361
+      ],
+      [
+        "-5583644934433842484",
+        334
+      ]
+    ],
+    "rpr_variants": [
+      [
+        "3595727267086520314",
+        358
+      ],
+      [
+        "0",
+        337
+      ]
+    ]
+  },
+  "after_heading_stats": {
+    "style_5_count": 695,
+    "ppr_variant_count": 1,
+    "rpr_variant_count": 1,
+    "ppr_variants": [
+      [
+        "-8415109537280055633",
+        695
+      ]
+    ],
+    "rpr_variants": [
+      [
+        "3595727267086520314",
+        695
+      ]
+    ]
+  }
+}

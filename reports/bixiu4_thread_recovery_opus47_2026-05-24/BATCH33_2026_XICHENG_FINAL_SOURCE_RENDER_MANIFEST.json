@@ -1,0 +1,118 @@
+{
+  "rubric": {
+    "source": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区期末和期中\\2026西城期末\\细则\\2026西城期末细则.pdf",
+    "pages": 5,
+    "render_dir": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_rubric",
+    "rendered": [
+      {
+        "page": 1,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_rubric\\page_001.png",
+        "width": 1191,
+        "height": 1684
+      },
+      {
+        "page": 2,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_rubric\\page_002.png",
+        "width": 1191,
+        "height": 1684
+      },
+      {
+        "page": 3,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_rubric\\page_003.png",
+        "width": 1191,
+        "height": 1684
+      },
+      {
+        "page": 4,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_rubric\\page_004.png",
+        "width": 1191,
+        "height": 1684
+      },
+      {
+        "page": 5,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_rubric\\page_005.png",
+        "width": 1191,
+        "height": 1684
+      }
+    ]
+  },
+  "teacher": {
+    "source": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区期末和期中\\2026西城期末\\试卷\\2026北京西城高三（上）期末政治（教师版）.pdf",
+    "pages": 12,
+    "render_dir": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher",
+    "rendered": [
+      {
+        "page": 1,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_001.png",
+        "width": 1190,
+        "height": 1710
+      },
+      {
+        "page": 2,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_002.png",
+        "width": 1190,
+        "height": 1654
+      },
+      {
+        "page": 3,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_003.png",
+        "width": 1190,
+        "height": 1716
+      },
+      {
+        "page": 4,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_004.png",
+        "width": 1190,
+        "height": 1798
+      },
+      {
+        "page": 5,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_005.png",
+        "width": 1190,
+        "height": 1710
+      },
+      {
+        "page": 6,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_006.png",
+        "width": 1190,
+        "height": 1684
+      },
+      {
+        "page": 7,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_007.png",
+        "width": 1190,
+        "height": 1654
+      },
+      {
+        "page": 8,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_008.png",
+        "width": 1190,
+        "height": 1784
+      },
+      {
+        "page": 9,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_009.png",
+        "width": 1190,
+        "height": 1660
+      },
+      {
+        "page": 10,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_010.png",
+        "width": 1190,
+        "height": 1683
+      },
+      {
+        "page": 11,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_011.png",
+        "width": 1190,
+        "height": 1683
+      },
+      {
+        "page": 12,
+        "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\raw_render_batch33_2026_xicheng_final_teacher\\page_012.png",
+        "width": 1190,
+        "height": 1683
+      }
+    ]
+  }
+}

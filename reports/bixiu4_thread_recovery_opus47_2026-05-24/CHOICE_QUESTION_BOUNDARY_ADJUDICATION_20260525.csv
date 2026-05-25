@@ -1,0 +1,33 @@
+﻿matrix_row_id,题源,年份,阶段,题号,宝典节点,证据等级,当前处理,source_artifact
+M0256,2024丰台一模,2024,一模,Q8,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一；系统观念 / 系统优化,选择题官方答案键+题干正确项链条；选择题边界已明示,INSERTED_BATCH07_2024_FENGTAI_Q8_TWO_NODES_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2024丰台一模.md:221-235;422-458
+M0257,2024丰台一模,2024,一模,Q9,真理观/获得真理性认识受主客观条件制约,官方答案键+现有DOCX正文覆盖；选择题边界已明示,COVERED_BY_EXISTING_DOCX_BATCH07_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2024丰台一模.md:236-240;422-458
+M0287,2024海淀一模,2024,一模,Q2,主观能动性/固有联系,选择题官方答案键+题干；选择题边界已明示,Batch02回源闭合：Q2已在最终DOCX覆盖。_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:42
+M0290,2024海淀一模,2024,一模,Q5,矛盾双方对立统一/矛盾普遍性与特殊性,选择题官方答案键+题干；选择题边界已明示,Batch02回源闭合：Q5已在最终DOCX覆盖。_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:45
+M0334,2025东城一模,2025,一模,Q1,人民群众,选择题官方答案键+题干正确项链条；选择题边界已明示,INSERTED_BATCH08_2025_DONGCHENG_Q1_PEOPLE_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025东城一模.md:264-271;528-565
+M0337,2025东城一模,2025,一模,Q4,根据固有联系建立新的具体联系,选择题官方答案键+题干正确项链条；选择题边界已明示,INSERTED_BATCH08_2025_DONGCHENG_Q4_NEW_CONNECTION_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025东城一模.md:287-298;528-565
+M0338,2025东城一模,2025,一模,Q5,矛盾就是对立统一,选择题官方答案键+题干正确项链条+源页漫画图；选择题边界已明示,INSERTED_BATCH08_2025_DONGCHENG_Q5_CARTOON_CONTRADICTION_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025东城一模.md:299-303;528-565;reports/bixiu4_thread_recovery_opus47_2026-05-24/_source_image_extracts/2025_dongcheng_yimo_q5_cartoon.png
+M0339,2025东城一模,2025,一模,Q6,认识发展原理,官方答案键+现有DOCX正文覆盖；选择题边界已明示,COVERED_BY_EXISTING_DOCX_BATCH08_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025东城一模.md:304-310;528-565
+M0355,2025丰台一模,2025,一模,Q2,矛盾就是对立统一,选择题官方答案键+题干正确项链条+现有DOCX正文覆盖；选择题边界已明示,COVERED_BY_EXISTING_DOCX_BATCH09_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025丰台一模.md:187-197;468-504
+M0357,2025丰台一模,2025,一模,Q4,规律的客观性,选择题官方答案键+题干正确项链条+现有DOCX正文覆盖；选择题边界已明示,COVERED_BY_EXISTING_DOCX_BATCH09_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025丰台一模.md:214-226;468-504
+M0366,2025丰台一模,2025,一模,Q15,辩证否定 / 守正创新,选择题官方答案键+题干正确项链条；选择题边界已明示,INSERTED_BATCH09_2025_FENGTAI_Q15_CONTINUITY_INNOVATION_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025丰台一模.md:350-361;468-504
+M0416,2025朝阳一模,2025,一模,Q4,矛盾的特殊性 / 具体问题具体分析,选择题官方答案键+正确选项B；选择题边界已明示,COVERED_AND_REGISTERED_BATCH14_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025朝阳一模.md:552-562;818-853
+M0432,2025海淀一模,2025,一模,Q2,尊重客观规律与发挥主观能动性相结合,选择题官方答案键+题干正确项链条（正确项④）；选择题边界已明示,INSERTED_BATCH10_2025_HAIDIAN_Q2_RULE_SUBJECTIVITY_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025海淀一模.md:241-251;537-538
+M0435,2025海淀一模,2025,一模,Q5,矛盾就是对立统一,选择题官方答案键+题干正确项链条（正确项④）；选择题边界已明示,INSERTED_BATCH10_2025_HAIDIAN_Q5_CONTRADICTION_MOVEMENT_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2025海淀一模.md:278-287;537-541
+M0571,2026朝阳一模,2026,一模,Q1,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一；实践与认识（总）,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch05补入：18. 2026朝阳一模 第1题（选择题）；29. 2026朝阳一模 第1题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:326
+M0572,2026朝阳一模,2026,一模,Q2,价值观的导向作用,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch05补入：29. 2026朝阳一模 第2题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:327
+M0573,2026朝阳一模,2026,一模,Q3,辩证否定 / 守正创新,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch05补入：21. 2026朝阳一模 第3题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:328
+M0640,2026门头沟一模,2026,一模,Q4,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,选择题官方答案键+正确选项④；选择题边界已明示,COVERED_AND_REGISTERED_BATCH13_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2026门头沟一模.md:195-203;87-88;1012-1013
+M0641,2026门头沟一模,2026,一模,Q5,辩证否定 / 守正创新,选择题官方答案键+正确选项②；选择题边界已明示,COVERED_AND_REGISTERED_BATCH13_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2026门头沟一模.md:204-213;87-88;1012-1013
+M0642,2026门头沟一模,2026,一模,Q7,实践是认识的基础,选择题官方答案键+正确选项①；选择题边界已明示,INSERTED_BATCH13_2026_MENTOUGOU_Q7_PRACTICE_FIRST_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2026门头沟一模.md:230-238;87-88;1012-1013
+M0698,2026朝阳二模,2026,二模,Q1,价值观的导向作用,选择题官方答案键+题干；选择题边界已明示,Batch03新增选择题正确选项链。_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:453
+M0700,2026朝阳二模,2026,二模,Q3,实践是认识的基础/社会存在与社会意识,选择题官方答案键+题干；选择题边界已明示,Batch03新增两个选择题正确选项链。_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:455
+M0701,2026朝阳二模,2026,二模,Q4,联系的多样性/系统观念,选择题官方答案键+题干；选择题边界已明示,Batch03新增两个选择题正确选项链。_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:456
+M0719,2026海淀二模,2026,二模,Q2,社会存在与社会意识,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch06补入：13. 2026海淀二模 第2题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:474
+M0720,2026海淀二模,2026,二模,Q3,主观能动性 / 意识的能动作用,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch06补入：26. 2026海淀二模 第3题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:475
+M0721,2026海淀二模,2026,二模,Q4,联系的客观性,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch06补入：3. 2026海淀二模 第4题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:476
+M0736,2026石景山二模,2026,二模,Q1,系统观念 / 系统优化,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch04补入：25. 2026石景山二模 第1题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:491
+M0737,2026石景山二模,2026,二模,Q2,矛盾就是对立统一,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch04补入：36. 2026石景山二模 第2题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:492
+M0738,2026石景山二模,2026,二模,Q3,整体与部分；矛盾的特殊性 / 具体问题具体分析,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch04补入：16. 2026石景山二模 第3题（选择题）；27. 2026石景山二模 第3题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:493
+M0744,2026石景山二模,2026,二模,Q9,实践是认识的基础；人民群众,选择题官方答案键+题干正确项链条；选择题边界已明示,Batch04补入：27. 2026石景山二模 第9题（选择题）；26. 2026石景山二模 第9题（选择题）_CHOICE_CHAIN_BOUNDARY_CONFIRMED,02_codex_lane\codex_a_coverage_matrix.csv:499
+M0758,2026西城二模,2026,二模,Q3,联系的普遍性 / 联系的观点（总）,选择题官方答案键+题干正确项链条；选择题边界已明示,INSERTED_BATCH11_2026_XICHENG_Q3_CONNECTION_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2026西城二模.md:44-49;166-170
+M0759,2026西城二模,2026,二模,Q4,系统观念 / 系统优化,选择题官方答案键+题干正确项链条；选择题边界已明示,INSERTED_BATCH11_2026_XICHENG_Q4_SYSTEM_OPTIMIZATION_CHOICE_CHAIN_BOUNDARY_CONFIRMED,01_source_inventory/suite_source_bundles/2026西城二模.md:50-54;166-170

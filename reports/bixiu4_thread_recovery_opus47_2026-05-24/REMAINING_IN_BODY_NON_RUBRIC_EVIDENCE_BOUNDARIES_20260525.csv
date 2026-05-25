@@ -1,0 +1,6 @@
+row_id,suite,question,previous_issue,final_disposition,current_in_body_risk,evidence_file
+M0144,2024石景山一模,Q16/Q哲学,teacher-version broad answer only; no formal scoring source found,removed from current DOCX/PDF body and marked non-body boundary,no,SHIJINGSHAN_2024_YIMO_Q16_SOURCE_EXHAUSTION_AND_DOCX_REMOVAL_20260525.md
+M0195,2024石景山一模,Q16/Q哲学,teacher-version broad answer only; duplicate/source-lane body risk,removed from current DOCX/PDF body and marked non-body boundary,no,SHIJINGSHAN_2024_YIMO_Q16_SOURCE_EXHAUSTION_AND_DOCX_REMOVAL_20260525.md
+M0201,2024石景山一模,Q16/Q哲学,teacher-version broad answer only; duplicate/source-lane body risk,removed from current DOCX/PDF body and marked non-body boundary,no,SHIJINGSHAN_2024_YIMO_Q16_SOURCE_EXHAUSTION_AND_DOCX_REMOVAL_20260525.md
+M0315,2024石景山一模,Q16/Q哲学,teacher-version broad answer only; duplicate/source-lane body risk,removed from current DOCX/PDF body and marked non-body boundary,no,SHIJINGSHAN_2024_YIMO_Q16_SOURCE_EXHAUSTION_AND_DOCX_REMOVAL_20260525.md
+M0771,2026西城二模,Q20,teacher/reference broad-angle support only,"repaired with rendered formal pingbiao PDF evidence; broad-angle scoring support, not point-by-point unique scoring",no,XICHENG_2026_ERMO_Q20_FORMAL_PINGBIAO_REPAIR_20260525.md

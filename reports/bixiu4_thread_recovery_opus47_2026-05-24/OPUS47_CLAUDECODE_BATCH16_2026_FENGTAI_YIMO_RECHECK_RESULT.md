@@ -1,0 +1,29 @@
+# Batch16 Recheck - 2026丰台一模
+
+- `model_gate`: `BLOCKED_MODEL_CONFIRMATION_REQUIRED`
+  - Runtime stream identifies `claude-opus-4-7`, command flags include `--model claude-opus-4-7 --effort max`, and stream rows include thinking blocks/signatures.
+  - The local recovery policy still requires machine-readable proof of adaptive-thinking/max-effort configuration. The raw final-only Claude output attempted to mark this as `PASS_WITH_NOTE`; that is not accepted as the ledger status.
+- `content_result`: `pass`
+- `sonnet_haiku_used`: `no`
+  - No Sonnet, Haiku, or model-unknown output is counted as qualified evidence. Debug/model mentions include Haiku only as an auxiliary mention, not a qualified evidence model.
+- `answer_key_check`: `pass`
+  - Answer key is `1B 2A 3D 4A 5A 6D 7B 8C 9D 10C 11D 12B 13A 14A 15C`.
+  - The answer-version PDF and saved answer page are sufficient for objective-choice placement only, not for main-question scoring-rule claims.
+  - Q4 enters only `实践是认识的基础`; Q5 enters `根据固有联系建立新的具体联系` and `认识对实践的反作用`; Q6 enters `联系的多样性`.
+- `matrix_check`: `pass`
+  - Matrix has 33 `2026丰台一模` rows and 0 open-ish rows for this suite.
+  - Q16 early blocked/unknown rows are closed by source review and existing DOCX registrations.
+  - Q21 is registered as existing DOCX coverage with answer-version reference answer plus broad PPT angle; it is not upgraded to point-by-point scoring-rule evidence.
+- `docx_ledger_accepted_check`: `pass`
+  - Current ledger and accepted JSONL each contain 15 `2026丰台一模` records: Q4=1, Q5=2, Q6=1, Q16=8, Q21=3.
+- `boundary_check`: `pass`
+  - Q1-Q3, Q7-Q15, and Q17-Q20 remain module-boundary exclusions.
+  - Q4 item ② remains 选必三综合思维, and Q6 item ④ remains culture/aesthetic support only; neither is counted as a 必修四哲学 node.
+- `render_check`: `pass`
+  - Render manifest reports PDF/rendered PNG `247/247`, label counts DOCX/PDF `2292/2292`.
+  - Q4 page `182`, Q5 pages `60` and `184`, Q6 page `63`; Q16 and Q21 headings are located.
+  - Page `2` is an intentional `前言` divider, not a blank-page defect.
+- `required_fixes`:
+  - Model gate remains blocked pending external harness confirmation of adaptive-thinking/max-effort proof.
+  - GPTPro web / external Claude Opus full-artifact review remains `real_call_pending`.
+  - Q21 should remain at broad-reference evidence unless a point-by-point scoring-rule source is later found.

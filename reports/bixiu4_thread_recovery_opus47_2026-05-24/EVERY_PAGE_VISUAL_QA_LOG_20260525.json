@@ -1,0 +1,36 @@
+{
+  "updated": "2026-05-26 02:07 +08",
+  "render_manifest": "word_render_qa_20260525_heading_style_fix\\render_manifest.json",
+  "manifest_pdf_pages": 309,
+  "manifest_rendered_png_count": 309,
+  "page_png_count": 309,
+  "dimension_set": [
+    [
+      953,
+      1348
+    ]
+  ],
+  "rows_written": 309,
+  "metric_review_required_rows": 0,
+  "blank_like_body_pages": [],
+  "flag_counts": {},
+  "contact_sheets": [
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_001_030.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_031_060.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_061_090.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_091_120.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_121_150.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_151_180.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_181_210.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_211_240.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_241_270.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_271_300.png",
+    "every_page_visual_qa_20260525\\visual_contact_sheet_pages_301_309.png"
+  ],
+  "output_csv": "EVERY_PAGE_VISUAL_QA_LOG_20260525.csv",
+  "boundary": [
+    "This is an every-page metric screen plus contact-sheet review artifact.",
+    "It records every rendered page and surfaces pages needing human visual follow-up.",
+    "It does not change DOCX/PDF content and does not close thickness or model-confirmation gates."
+  ]
+}

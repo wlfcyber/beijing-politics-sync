@@ -1,0 +1,91 @@
+{
+  "timestamp": "20260525_183135",
+  "suite": "2026顺义二模",
+  "docx": {
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "docx_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_2026_shunyi_ermo_repair_20260525_183135.docx",
+    "inserted_headings": [
+      {
+        "question_no": "Q21",
+        "heading": "24. 2026顺义二模 第21题（主观题）",
+        "node": "尊重客观规律与发挥主观能动性相结合"
+      }
+    ],
+    "skipped_existing": []
+  },
+  "ledger": {
+    "ledger": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger.csv",
+    "ledger_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger_backup_before_2026_shunyi_ermo_repair_20260525_183135.csv",
+    "added_rows": [
+      {
+        "canonical_node": "尊重客观规律与发挥主观能动性相结合",
+        "source_suite": "2026顺义二模",
+        "question_no": "Q21",
+        "inserted_heading": "2026顺义二模 第21题（主观题）"
+      }
+    ]
+  },
+  "matrix": {
+    "matrix": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX.csv",
+    "matrix_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX_backup_before_2026_shunyi_ermo_repair_20260525_183135.csv",
+    "updated_row_ids": [
+      "M0029",
+      "M0030",
+      "M0031",
+      "M0032",
+      "M0033",
+      "M0043",
+      "M0044",
+      "M0045",
+      "M0120",
+      "M0121",
+      "M0122",
+      "M0123",
+      "M0124",
+      "M0159",
+      "M0246",
+      "M0773",
+      "M0774",
+      "M0775",
+      "M0776",
+      "M0777",
+      "M0778",
+      "M0813",
+      "M0855"
+    ]
+  },
+  "sources": {
+    "rubric_doc": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区二模\\2026顺义二模\\26顺义二模评标.doc",
+    "paper_pdf": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区二模\\2026顺义二模\\26顺义二模(1).pdf",
+    "source_bundle": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\01_source_inventory\\suite_source_bundles\\2026顺义二模.md",
+    "source_page_05": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\shunyi_ermo_source_pages_20260525\\page_05.png",
+    "source_page_12": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\shunyi_ermo_source_pages_20260525\\page_12.png"
+  },
+  "render_status": "RENDER_PASS_LOCAL_QA",
+  "model_gate_status": {
+    "claude_web_app_full_artifact_review": "real_call_pending",
+    "claudecode_model_confirmation": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+    "gptpro_web_full_artifact_review": "real_call_pending"
+  },
+  "render_manifest": {
+    "timestamp": "20260525_183143",
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+    "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_style_normalization_render_20260525_183143.pdf",
+    "docx_bytes": 444173,
+    "pdf_bytes": 4515044,
+    "docx_label_count": 2891,
+    "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_global_style_norm\\global_style_norm_contact_sheet.png",
+    "pdf_pages": 290,
+    "rendered_png_count": 290,
+    "pdf_label_count": 2891,
+    "blank_like_pages_excluding_cover_foreword": []
+  },
+  "target_page_qa": {
+    "Q21": {
+      "page": 44,
+      "png": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_global_style_norm\\page_044.png",
+      "status": "VISUAL_QA_PASS"
+    }
+  }
+}

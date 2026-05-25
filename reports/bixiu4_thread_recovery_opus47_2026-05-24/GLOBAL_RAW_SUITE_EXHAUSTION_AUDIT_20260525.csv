@@ -1,0 +1,65 @@
+﻿raw_suite,normalized_suite,year,stage_dir,stage_bucket,raw_path,source_file_count,in_full_source_vs_docx_audit,matrix_rows,current_docx_mentions,current_status,blocker_or_next_action
+2024东城一模,2024东城一模,2024,2024各区一模,first_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024东城一模,3,True,10,8,covered_by_current_audit_or_matrix,
+2024丰台一模,2024丰台一模,2024,2024各区一模,first_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024丰台一模,3,True,30,8,covered_by_current_audit_or_matrix,
+2024朝阳一模,2024朝阳一模,2024,2024各区一模,first_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模,4,True,19,5,covered_by_current_audit_or_matrix,
+2024海淀一模,2024海淀一模,2024,2024各区一模,first_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024海淀一模,3,True,23,9,covered_by_current_audit_or_matrix,
+2024石景山一模,2024石景山一模,2024,2024各区一模,first_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024石景山一模,2,True,23,5,covered_by_current_audit_or_matrix,
+2024西城一模,2024西城一模,2024,2024各区一模,first_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024西城一模,5,True,18,11,covered_by_current_audit_or_matrix,
+2024东城二模,2024东城二模,2024,2024各区二模,second_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区二模\2024东城二模,13,True,1,13,covered_by_current_audit_or_matrix,
+2024丰台二模,2024丰台二模,2024,2024各区二模,second_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区二模\2024丰台二模,2,True,1,5,covered_by_current_audit_or_matrix,
+2024朝阳二模,2024朝阳二模,2024,2024各区二模,second_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区二模\2024朝阳二模,3,True,1,12,covered_by_current_audit_or_matrix,
+2024海淀二模,2024海淀二模,2024,2024各区二模,second_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区二模\2024海淀二模,4,True,1,9,covered_by_current_audit_or_matrix,
+2024西城二模,2024西城二模,2024,2024各区二模,second_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区二模\2024西城二模,6,True,1,10,covered_by_current_audit_or_matrix,
+2024顺义思政二模,2024顺义二模,2024,2024各区二模,second_mock,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区二模\2024顺义思政二模,2,True,1,10,covered_by_current_audit_or_matrix,
+2024朝阳期中,2024朝阳期中,2024,2024各区期中,midterm_or_final,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区期中\2024朝阳期中,5,False,28,15,covered_by_batch19_recovery_matrix,question-level disposition rows added by Batch19; DOCX entries registered/inserted
+2024海淀期中,2024海淀期中,2024,2024各区期中,midterm_or_final,C:\Users\Administrator\Desktop\2024各区模拟题\2024各区期中\2024海淀期中,2,True,26,0,covered_by_batch20_recovery_matrix,Batch20 closed as module-boundary excluded and removed three misplaced Q18 DOCX entries.
+2025东城一模,2025东城一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025东城一模,2,True,31,15,covered_by_current_audit_or_matrix,
+2025丰台一模,2025丰台一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025丰台一模,2,True,36,12,covered_by_current_audit_or_matrix,
+2025延庆一模,2025延庆一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025延庆一模,2,True,30,9,covered_by_current_audit_or_matrix,
+2025房山一模,2025房山一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025房山一模,2,True,25,9,covered_by_current_audit_or_matrix,
+2025朝阳一模,2025朝阳一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025朝阳一模,6,True,26,12,covered_by_current_audit_or_matrix,
+2025海淀一模,2025海淀一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025海淀一模,3,True,31,12,covered_by_current_audit_or_matrix,
+2025石景山一模,2025石景山一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025石景山一模,2,True,28,7,covered_by_current_audit_or_matrix,
+2025西城一模,2025西城一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025西城一模,2,True,27,11,covered_by_current_audit_or_matrix,
+2025门头沟一模,2025门头沟一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025门头沟一模,2,True,30,10,covered_by_current_audit_or_matrix,
+2025顺义一模,2025顺义一模,2025,2025各区一模,first_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025顺义一模,2,True,25,9,covered_by_current_audit_or_matrix,
+2025东城二模,2025东城二模,2025,2025各区二模,second_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025东城二模,2,True,1,13,covered_by_current_audit_or_matrix,
+2025丰台二模,2025丰台二模,2025,2025各区二模,second_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025丰台二模,9,True,1,11,covered_by_current_audit_or_matrix,
+2025昌平二模,2025昌平二模,2025,2025各区二模,second_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025昌平二模,2,True,1,10,covered_by_current_audit_or_matrix,
+2025朝阳二模,2025朝阳二模,2025,2025各区二模,second_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模,3,True,1,19,covered_by_current_audit_or_matrix,
+2025海淀二模,2025海淀二模,2025,2025各区二模,second_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025海淀二模,4,True,1,8,covered_by_current_audit_or_matrix,
+2025西城二模,2025西城二模,2025,2025各区二模,second_mock,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025西城二模,2,True,1,13,covered_by_current_audit_or_matrix,
+2025东城期末,2025东城期末,2025,2025各区期末,midterm_or_final,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025东城期末,3,True,25,4,covered_by_batch21_recovery_matrix,Batch21 matrix/DOCX/render pass; ClaudeCode Opus 4.7 model-lane recheck pending.
+2025丰台期末,2025丰台期末,2025,2025各区期末,midterm_or_final,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025丰台期末,2,True,35,16,covered_by_batch22_recovery_matrix,Batch22 matrix/DOCX/render pass; ClaudeCode Opus 4.7 model-lane recheck pending.
+2025朝阳期末,2025朝阳期末,2025,2025各区期末,midterm_or_final,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末,3,True,41,21,covered_by_batch23_recovery_matrix,Batch23 matrix/DOCX/render pass; ClaudeCode Opus 4.7 model-lane recheck pending.
+2025海淀期中,2025海淀期中,2025,2025各区期末,midterm_or_final,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025海淀期中,2,True,23,0,covered_by_batch24_boundary_matrix_no_body,Batch24 added question-level boundary rows; no rubric-supported philosophy-body placement found; render not required because DOCX body unchanged; ClaudeCode Opus 4.7 recheck pending.
+2025海淀期末,2025海淀期末,2025,2025各区期末,midterm_or_final,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025海淀期末,2,True,46,28,covered_by_batch25_recovery_matrix,Batch25 matrix/DOCX/render pass; ClaudeCode V2 content_result=pass_with_notes; local_policy_result=pass_with_model_gate_blocked; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2025西城期末,2025西城期末,2025,2025各区期末,midterm_or_final,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025西城期末,2,True,31,14,covered_by_batch26_recovery_matrix,Batch26 matrix/DOCX/render pass; ClaudeCode content_result=pass; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026东城一模,2026东城一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026东城一模,24,True,21,12,covered_by_current_audit_or_matrix,
+2026丰台一模,2026丰台一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026丰台一模,4,True,33,15,covered_by_current_audit_or_matrix,
+2026延庆一模,2026延庆一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026延庆一模,4,True,20,12,covered_by_current_audit_or_matrix,
+2026房山一模,2026房山一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026房山一模,4,True,32,16,covered_by_current_audit_or_matrix,
+2026朝阳一模,2026朝阳一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026朝阳一模,5,True,32,13,covered_by_current_audit_or_matrix,
+2026海淀一模,2026海淀一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026海淀一模,4,True,12,6,covered_by_current_audit_or_matrix,
+2026石景山一模,2026石景山一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026石景山一模,4,True,27,8,covered_by_current_audit_or_matrix,
+2026西城一模,2026西城一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026西城一模,6,True,30,12,covered_by_current_audit_or_matrix,
+2026通州一模,2026通州一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026通州一模,2,True,11,2,covered_by_current_audit_or_matrix,
+2026门头沟一模,2026门头沟一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026门头沟一模,4,True,30,10,covered_by_current_audit_or_matrix,
+2026顺义一模,2026顺义一模,2026,2026各区一模,first_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026顺义一模,4,True,15,11,covered_by_current_audit_or_matrix,
+2026东城二模,2026东城二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026东城二模,8,True,27,6,covered_by_current_audit_or_matrix,
+2026丰台二模,2026丰台二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026丰台二模,3,True,20,5,covered_by_current_audit_or_matrix,
+2026房山二模,2026房山二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模,3,True,18,3,covered_by_current_audit_or_matrix,
+2026朝阳二模,2026朝阳二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026朝阳二模,2,True,32,11,covered_by_current_audit_or_matrix,
+2026海淀二模,2026海淀二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026海淀二模,2,True,37,5,covered_by_current_audit_or_matrix,
+2026石景山二模,2026石景山二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026石景山二模,2,True,36,9,covered_by_current_audit_or_matrix,
+2026西城二模,2026西城二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模,2,True,33,8,covered_by_current_audit_or_matrix,
+2026顺义二模,2026顺义二模,2026,2026各区二模,second_mock,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026顺义二模,2,True,23,5,covered_by_current_audit_or_matrix,
+2026东城期末,2026东城期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026东城期末,4,True,33,13,covered_by_batch27_recovery_matrix,Batch27 matrix/DOCX/render pass; ClaudeCode content_result=pass; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026丰台期末,2026丰台期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026丰台期末,4,True,37,18,covered_by_batch28_recovery_matrix,Batch28 matrix/DOCX/render pass; ClaudeCode content_result=pass_with_notes; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026朝阳期中,2026朝阳期中,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026朝阳期中,6,True,43,24,covered_by_batch29_recovery_matrix,Batch29 matrix/DOCX/render pass; ClaudeCode content_result=pass_with_notes; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026朝阳期末,2026朝阳期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026朝阳期末,4,True,32,10,covered_by_batch30_recovery_matrix,Batch30 matrix/DOCX/render pass; ClaudeCode content_result=pass; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026海淀期中,2026海淀期中,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026海淀期中,4,True,28,5,covered_by_batch31_recovery_matrix,Batch31 matrix/DOCX/render pass; ClaudeCode content_result=pass_with_notes; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026海淀期末,2026海淀期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026海淀期末,4,True,42,22,covered_by_batch32_recovery_matrix,Batch32 matrix/DOCX/render pass; ClaudeCode content_result=pass_with_notes; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026石景山期末,2026石景山期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026石景山期末,2,True,0,0,special_excluded_no_usable_scoring_rubric_user_confirmed,User confirmed no usable scoring rubric; do not process unless a real scoring/rubric source is supplied.
+2026西城期末,2026西城期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026西城期末,6,True,39,20,covered_by_batch33_recovery_matrix,Batch33 matrix/DOCX/render pass; ClaudeCode content_result=pass_with_notes; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.
+2026通州期末,2026通州期末,2026,2026各区期末和期中,midterm_or_final,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026通州期末,4,True,49,29,covered_by_batch34_recovery_matrix,Batch34 matrix/DOCX/render pass; ClaudeCode content_result=pass; model gate remains BLOCKED_MODEL_CONFIRMATION_REQUIRED.

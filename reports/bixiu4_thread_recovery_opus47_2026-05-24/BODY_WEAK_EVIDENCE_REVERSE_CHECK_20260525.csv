@@ -1,0 +1,276 @@
+﻿matrix_row_id,题源,题号,宝典节点,证据等级,formal_signal,objective_choice_boundary,verdict,support_excerpt
+M0002,2026东城二模,Q16,物质决定意识,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,东城第16题主观题细则16.pdf第4页知识表列“实践决定认识、物质决定意识（规律）”；本条只使用物质决定意识/一切从实际出发，不再展开主观能动性。
+M0026,2026海淀二模,Q16,实践与认识（总）,答案和评分参考角度（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,答案和评分参考只列“联系、实践与认识”等角度；当前只保留实践与认识总节点。
+M0034,2026石景山二模,Q17(3),联系的普遍性 / 联系的观点（总）,正式评分参考角度,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,答案评分参考第17(3)明确可从联系、矛盾、实践与认识关系等角度回答；仅为任选路径，不作累加采分。
+M0035,2026石景山二模,Q17(3),矛盾就是对立统一,正式评分参考角度,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,答案评分参考第17(3)明确可从联系、矛盾、实践与认识关系等角度回答；仅为任选路径，不作累加采分。
+M0036,2026石景山二模,Q17(3),实践与认识（总）,正式评分参考角度,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,答案评分参考第17(3)明确可从联系、矛盾、实践与认识关系等角度回答；仅为任选路径，不作累加采分。
+M0043,2026顺义二模,Q16,实践是认识的基础,正式评标doc/阅卷版-已由强证据行覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义二模评标doc第16题阅卷版已明确实践观点、人民主体、价值观、矛盾观、中华优秀传统文化等角度，当前DOCX已分别在实践是认识的基础、人民群众、价值观的导向作用、两点论与重点论、辩证否定/守正创新五个节点覆盖。
+M0044,2026顺义二模,Q16,价值观的导向作用,正式评标doc/阅卷版-已由强证据行覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义二模评标doc第16题阅卷版已明确实践观点、人民主体、价值观、矛盾观、中华优秀传统文化等角度，当前DOCX已分别在实践是认识的基础、人民群众、价值观的导向作用、两点论与重点论、辩证否定/守正创新五个节点覆盖。
+M0045,2026顺义二模,Q16,两点论与重点论,正式评标doc/阅卷版-已由强证据行覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义二模评标doc第16题阅卷版已明确实践观点、人民主体、价值观、矛盾观、中华优秀传统文化等角度，当前DOCX已分别在实践是认识的基础、人民群众、价值观的导向作用、两点论与重点论、辩证否定/守正创新五个节点覆盖。
+M0049,2026丰台一模,Q16,矛盾就是对立统一,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（1）点明确“坚持矛盾的观点，用全面、辩证的眼光看问题”，并要求看到AI积极作用和风险挑战。
+M0050,2026丰台一模,Q16,矛盾的主要方面和次要方面,正式阅卷细则（进阶阐述）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（1）点后写“或者进一步阐述：坚持两点论与重点论的统一。AI的积极作用是主流，风险与隐忧是支流”。
+M0051,2026丰台一模,Q16,系统观念 / 系统优化,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（2）点明确“坚持联系的观点，立足整体，统筹部分”，要求统筹科技、伦理与社会公平。
+M0052,2026丰台一模,Q16,价值观的导向作用,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（3）点明确“坚持正确的价值观，发挥科学价值观的导向作用”，并要求朝着有益、安全、公平方向健康发展。
+M0078,2026顺义一模,Q21,尊重客观规律与发挥主观能动性相结合,正式评分PPT-哲学角度+等级赋分（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义一模第21题正式评分PPT第10-11页写明哲学角度：客观性2分可用主观能动性和客观规律相结合、社会存在和社会意识、实践和认识等；辩证性2分可用主次矛盾和矛盾主次方面辩证关系、两点论和重点论、矛盾对立统一、整体部分/系统优化、前进性曲折性、量变质变、内外因；价值性2分可用人民群众是历史创造者、群众观点路线、价值判断价值选择遵循社会发展规律并站在最广大人民立场。当前DOCX已在相应节点多处覆盖第21题。
+M0079,2026顺义一模,Q21,矛盾的主要方面和次要方面 / 两点论与重点论 / 主要矛盾和次要矛盾（评分PPT综合角度）,正式评分PPT-哲学角度+等级赋分（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义一模第21题正式评分PPT第10-11页写明哲学角度：客观性2分可用主观能动性和客观规律相结合、社会存在和社会意识、实践和认识等；辩证性2分可用主次矛盾和矛盾主次方面辩证关系、两点论和重点论、矛盾对立统一、整体部分/系统优化、前进性曲折性、量变质变、内外因；价值性2分可用人民群众是历史创造者、群众观点路线、价值判断价值选择遵循社会发展规律并站在最广大人民立场。当前DOCX已在相应节点多处覆盖第21题。
+M0080,2026顺义一模,Q21,人民群众,正式评分PPT-哲学角度+等级赋分（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义一模第21题正式评分PPT第10-11页写明哲学角度：客观性2分可用主观能动性和客观规律相结合、社会存在和社会意识、实践和认识等；辩证性2分可用主次矛盾和矛盾主次方面辩证关系、两点论和重点论、矛盾对立统一、整体部分/系统优化、前进性曲折性、量变质变、内外因；价值性2分可用人民群众是历史创造者、群众观点路线、价值判断价值选择遵循社会发展规律并站在最广大人民立场。当前DOCX已在相应节点多处覆盖第21题。
+M0096,2025门头沟一模,Q16,价值判断与价值选择,强细则+当前DOCX,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则支持价值判断和价值选择的标准：符合社会发展的需求，满足人们对文化生活的更高追求。
+M0128,2026丰台一模,Q16,矛盾就是对立统一,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（1）点明确“坚持矛盾的观点，用全面、辩证的眼光看问题”，并要求看到AI积极作用和风险挑战。
+M0129,2026丰台一模,Q16,矛盾的主要方面和次要方面,正式阅卷细则（进阶阐述）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（1）点后写“或者进一步阐述：坚持两点论与重点论的统一。AI的积极作用是主流，风险与隐忧是支流”。
+M0130,2026丰台一模,Q16,系统观念 / 系统优化,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（2）点明确“坚持联系的观点，立足整体，统筹部分”，要求统筹科技、伦理与社会公平。
+M0131,2026丰台一模,Q16,价值观的导向作用,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,丰台一模主观题阅卷说明Q16哲学评分细则：第（3）点明确“坚持正确的价值观，发挥科学价值观的导向作用”，并要求朝着有益、安全、公平方向健康发展。
+M0141,2024丰台一模,Q21,矛盾的普遍性和特殊性；价值判断与价值选择,正式答案/评分参考-角度提示+现有DOCX正文覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,21题参考答案提示可从唯物辩证法、构建人类命运共同体等角度作答，等级赋分；当前DOCX已有2处第21题条目。
+M0142,2024海淀一模,Q16,主观能动性/联系/发展/实践,细则角度简列,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2024海淀一模 source bundle lines 23-24 / 63: Q16可从发挥主观能动性、联系的观点、发展的观点、实践的观点、民族精神等角度作答。 ????????/????????????????????
+M0159,2026顺义二模,Q16,实践是认识的基础；人民群众；价值观的导向作用；两点论与重点论；辩证否定 / 守正创新,正式评标doc/阅卷版-已由强证据行覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义二模评标doc第16题阅卷版已明确实践观点、人民主体、价值观、矛盾观、中华优秀传统文化等角度，当前DOCX已分别在实践是认识的基础、人民群众、价值观的导向作用、两点论与重点论、辩证否定/守正创新五个节点覆盖。
+M0163,2026海淀一模,Q16,物质决定意识；主观能动性 / 意识的能动作用；发展的观点；社会存在与社会意识；价值观的导向作用；价值判断与价值选择,正式评分标准-综合角度+当前DOCX覆盖（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,26海淀一模政治评分标准第1页第16题写明可从发展的观点、社会存在与社会意识、价值观、文化的功能等角度作答；源卷第5页第16题要求运用《哲学与文化》认识人工智能时代人文学科价值。当前DOCX已在物质决定意识、意识能动作用、发展观点、社会存在与社会意识、价值观导向、价值判断与价值选择六处覆盖。
+M0168,2026延庆一模,Q16,Q16多节点正文覆盖,正式评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则存在，并非参考答案无细则；当前DOCX覆盖矛盾观、群众观点、辩证否定、社会意识等。
+M0171,2026顺义一模,Q21,尊重客观规律与发挥主观能动性相结合；两点论与重点论；人民群众/价值判断价值选择,正式评分PPT-哲学角度+等级赋分（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义一模第21题正式评分PPT第10-11页写明哲学角度：客观性2分可用主观能动性和客观规律相结合、社会存在和社会意识、实践和认识等；辩证性2分可用主次矛盾和矛盾主次方面辩证关系、两点论和重点论、矛盾对立统一、整体部分/系统优化、前进性曲折性、量变质变、内外因；价值性2分可用人民群众是历史创造者、群众观点路线、价值判断价值选择遵循社会发展规律并站在最广大人民立场。当前DOCX已在相应节点多处覆盖第21题。
+M0177,2025朝阳一模,Q16,实践与认识（总）/实践是认识的基础/社会存在与社会意识/实现人生价值/辩证否定/尊重客观规律与发挥主观能动性/整体与部分,正式评分细则原图证据+题干/答案区闭环,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2025朝阳一模细则第16题渲染页page_001显示“答案变通说明”：①作为文化载体1分；②重视文化资源/传递正确价值观2分；③借助现代科技推动文化创新、传统文化与现代传播方式结合2分；④立足时代之基、面向人民需求，衔接传统文化内涵与时代审美愿望2分；⑤把握社会客观条件、个人与社会统一，弘扬劳动精神/工匠精神/创新精神，实现人生价值，以局部推动整体1分。
+M0192,2024丰台一模,Q21,唯物辩证法相关节点；价值判断与价值选择,正式答案/评分参考-角度提示+现有DOCX正文覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,21题为等级赋分角度提示，已由现有正文2处覆盖。
+M0194,2024海淀一模,Q16,主观能动性/联系/发展/实践,细则角度简列,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2024海淀一模 source bundle lines 23-24 / 63: Q16可从发挥主观能动性、联系的观点、发展的观点、实践的观点、民族精神等角度作答。 ????????/????????????????????
+M0205,2025丰台一模,Q18(3),联系观/发展观/矛盾观/价值观,正式评分标准-角度提示+现有DOCX正文覆盖（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,原行题号误写为Q18(2)，实际对应Q18(3)人与人工智能关系；证据为正式评分标准角度提示。
+M0209,2025朝阳一模,Q16,实践与认识（总）/实践是认识的基础/社会存在与社会意识/实现人生价值/辩证否定/尊重客观规律与发挥主观能动性/整体与部分,正式评分细则原图证据+题干/答案区闭环,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2025朝阳一模细则第16题渲染页page_001显示“答案变通说明”：①作为文化载体1分；②重视文化资源/传递正确价值观2分；③借助现代科技推动文化创新、传统文化与现代传播方式结合2分；④立足时代之基、面向人民需求，衔接传统文化内涵与时代审美愿望2分；⑤把握社会客观条件、个人与社会统一，弘扬劳动精神/工匠精神/创新精神，实现人生价值，以局部推动整体1分。
+M0223,2026朝阳一模,Q16,规律主观能动/联系系统优化/矛盾普特/实践认识；文化自信走文化线,正式阅卷细则必答/选答角度,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q16正式阅卷细则与教师版答案示例支持；当前DOCX已有对应正文。
+M0233,2026顺义一模,Q21,尊重客观规律与发挥主观能动性相结合；两点论与重点论；人民群众/价值判断价值选择,正式评分PPT-哲学角度+等级赋分（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义一模第21题正式评分PPT第10-11页写明哲学角度：客观性2分可用主观能动性和客观规律相结合、社会存在和社会意识、实践和认识等；辩证性2分可用主次矛盾和矛盾主次方面辩证关系、两点论和重点论、矛盾对立统一、整体部分/系统优化、前进性曲折性、量变质变、内外因；价值性2分可用人民群众是历史创造者、群众观点路线、价值判断价值选择遵循社会发展规律并站在最广大人民立场。当前DOCX已在相应节点多处覆盖第21题。
+M0282,2024朝阳一模,Q18,系统观念 / 系统优化；矛盾就是对立统一,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q18(2)当前DOCX已保留系统优化和矛盾对立统一条目；参考答案和细则明确系统优化、两点论重点论等。
+M0298,2024海淀一模,Q16,主观能动性/联系/发展/实践,细则角度简列,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2024海淀一模 source bundle lines 23-24 / 63: Q16可从发挥主观能动性、联系的观点、发展的观点、实践的观点、民族精神等角度作答。 ????????/????????????????????
+M0305,2024石景山一模,Q2,实践是认识的基础,客观答案表+题面正确项；非主观评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q2教师版答案B（①③）：①明确“农业生产实践具有历史性，其形式和水平不断发展”；本条只取①进入实践社会历史性/实践基础节点，③作为经济与社会背景不单独入哲学节点。
+M0306,2024石景山一模,Q3,社会存在与社会意识,客观答案表+题面正确项+当前DOCX；非主观评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q3教师版答案D（③④）：城市精神植根北京深厚历史并反映市民价值追求，体现社会存在决定社会意识；当前DOCX已有该题正文覆盖。
+M0308,2024石景山一模,Q5,根据固有联系建立新的具体联系 / 把握本质和规律,客观答案表+题面正确项+当前DOCX；非主观评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q5教师版答案C（②④）：人能够把握自然天气现象背后的本质和规律，并从事物固有联系中构建防灾减灾预案；当前DOCX已有该题正文覆盖。
+M0347,2025东城一模,Q16,价值观导向；价值判断与价值选择；社会存在与社会意识；辩证否定；发展；矛盾普遍性与特殊性,正式阅卷报告-哲学可用知识明示+现有DOCX正文覆盖,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q16正式阅卷报告哲学可用知识已逐项核定；发展节点本批补入。
+M0396,2025房山一模,Q3,矛盾的特殊性 / 具体问题具体分析,正式答案键+冲突披露（选择题链，非主观题评分细则）,true,true,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键为B；当前DOCX已放入“具体问题具体分析”选择题链。教师版详解处出现D项冲突，裁决以正式答案键为强来源。选择题边界已明示，非主观题评分细则。
+M0424,2025朝阳一模,Q16,实践与认识（总）/实践是认识的基础/社会存在与社会意识/实现人生价值/辩证否定/尊重客观规律与发挥主观能动性/整体与部分,正式评分细则原图证据+题干/答案区闭环,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2025朝阳一模细则第16题渲染页page_001显示“答案变通说明”：①作为文化载体1分；②重视文化资源/传递正确价值观2分；③借助现代科技推动文化创新、传统文化与现代传播方式结合2分；④立足时代之基、面向人民需求，衔接传统文化内涵与时代审美愿望2分；⑤把握社会客观条件、个人与社会统一，弘扬劳动精神/工匠精神/创新精神，实现人生价值，以局部推动整体1分。
+M0452,2025石景山一模,Q3,选择题链条：实践检验/主客观相符合/法宝话语辨析,选择题官方答案键+题干正确项；选择题边界已明示,true,true,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案键Q3=A；当前DOCX已有“法宝”选择题链条，作为选择题正确项/错误项辨析，不冒充主观题评分细则。
+M0453,2025石景山一模,Q4,选择题链条：一切从实际出发/适度原则/政策弹性,选择题官方答案键+题干正确项；选择题边界已明示,true,true,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案键Q4=D；当前DOCX已有“自愿/自主/允许”选择题链条，作为选择题正确项/错误项辨析，不冒充主观题评分细则。
+M0492,2025门头沟一模,Q6,认识受主客观因素影响 / 认识具有主体差异性,客观答案键+题干；非主观细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案键Q6=C；题干呈现支持者与反对者对AI著作权的不同看法，体现认识主体差异性。选择题只按客观答案链入宝典，非主观题细则。
+M0493,2025门头沟一模,Q7,人生价值的创造和实现 / 个人与社会的统一 / 主观能动性,客观答案键+题干；非主观细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案键Q7=C；②③正确，材料对应充分发挥主观能动性和在个人与社会统一中创造价值。
+M0585,2026朝阳一模,Q16,尊重客观规律与发挥主观能动性相结合；联系的普遍性；系统观念；矛盾的普遍性和特殊性；实践是认识的基础；认识对实践的反作用,正式阅卷细则必答/选答角度+教师版答案示例,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q16正式阅卷细则 lines 586-595 支持规律必答角度与哲学选答角度；教师版答案 lines 403-428 及 720-722 支持现有正文表达。
+M0590,2026朝阳一模,Q21,社会存在与社会意识；社会发展的两大基本规律和基本矛盾；人民群众,正式阅卷细则综合哲学角度,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q21正式阅卷细则 lines 683-696 明确综合运用，可用社会存在决定社会意识、上层建筑适应经济基础、以人民为中心等角度；当前DOCX已有三条对应正文。
+M0593,2026海淀一模,Q16,物质决定意识；主观能动性 / 意识的能动作用；发展的观点；社会存在与社会意识；价值观的导向作用；价值判断与价值选择,正式评分标准-综合角度+当前DOCX覆盖（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,26海淀一模政治评分标准第1页第16题写明可从发展的观点、社会存在与社会意识、价值观、文化的功能等角度作答；源卷第5页第16题要求运用《哲学与文化》认识人工智能时代人文学科价值。当前DOCX已在物质决定意识、意识能动作用、发展观点、社会存在与社会意识、价值观导向、价值判断与价值选择六处覆盖。
+M0663,2026顺义一模,Q21,尊重客观规律与发挥主观能动性相结合；两点论与重点论；人民群众/价值判断价值选择,正式评分PPT-哲学角度+等级赋分（非逐点细则）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,顺义一模第21题正式评分PPT第10-11页写明哲学角度：客观性2分可用主观能动性和客观规律相结合、社会存在和社会意识、实践和认识等；辩证性2分可用主次矛盾和矛盾主次方面辩证关系、两点论和重点论、矛盾对立统一、整体部分/系统优化、前进性曲折性、量变质变、内外因；价值性2分可用人民群众是历史创造者、群众观点路线、价值判断价值选择遵循社会发展规律并站在最广大人民立场。当前DOCX已在相应节点多处覆盖第21题。
+M0666,2026东城二模,Q2,辩证否定 / 守正创新,教师版答案键+题干正确项链（选择题，非主观题评分细则）,true,true,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q2答案C，本轮新增辩证否定/守正创新选择题链，只处理正确项②；正确项③为文化线索。
+M0668,2026东城二模,Q4,矛盾就是对立统一,教师版答案键+题干正确项链（选择题，非主观题评分细则）,true,true,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,Q4答案D，本轮新增矛盾对立统一选择题链。
+M0716,2026朝阳二模,Q21,Q21：系统观念/量变质变,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,"source bundle lines 424-440 give Q21 system thinking, strategic persistence, quantity-quality and required leadership points."
+M0913,2026丰台一模,Q21,尊重客观规律与发挥主观能动性相结合 / 系统观念 / 矛盾就是对立统一,正式PPT评分宽角度+等级描述+当前DOCX正文；非逐点细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,2026丰台一模Q21源包PPT第61-63页为正式评分材料：Q21（9分）可从党的领导、唯物辩证法、中国式现代化等角度作答；等级描述要求紧扣问题、综合运用所学、逻辑严密；典型示例写明“立足实际”“把握经济社会规律”“坚持系统思维、辩证思维”；第63页进一步列“系统思维（发展观）、辩证思维（矛盾观）、遵循规律”等角度。本行只登记正式PPT宽角度支持，不冒充逐点评分细则。
+M0969,2025东城期末,Q4,矛盾就是对立统一,教师版客观答案/解析+题面正确项；非主观评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案A，正确项①为“在笔画的对立统一中彰显中华汉字之美”；本证据只用于客观题节点定位。
+M0968,2025东城期末,Q16,主观能动性 / 意识的能动作用,正式讲评/评分细则+教师版解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,讲评细则第三层：正确发挥主观能动性，提高对器物价值的认识，做好搜集、保护、研究工作；教师版解析含意识能动作用。
+M0993,2025丰台期末,Q4,实现人生价值,教师版客观答案/解析+题面正确项；非主观评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案A，正确项①③明确为“在为国尽责、为民服务的实践中实现个人价值、展现人生风采”和修身立德、服务他人社会。
+M0994,2025丰台期末,Q7,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,教师版客观答案/解析+题面正确项；非主观评分细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案C，正确项为“从实际出发，从当下做起，生活才能少些迷茫”；漫画解析围绕把握当下现实处境。
+M0995,2025丰台期末,Q16,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M0996,2025丰台期末,Q16,主观能动性 / 意识的能动作用,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M0997,2025丰台期末,Q16,价值观的导向作用,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第257行明列正确的价值观；数据使用方向由正确价值观导向。
+M0998,2025丰台期末,Q16,发展的观点 / 发展的普遍性,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第208、257、260行明列发展/发展观；题干“看长远”支持发展过程视角。
+M0999,2025丰台期末,Q16,实践与认识（总）,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M1000,2025丰台期末,Q16,实践是认识的基础,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M1001,2025丰台期末,Q16,整体与部分,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M1002,2025丰台期末,Q16,矛盾的特殊性 / 具体问题具体分析,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M1003,2025丰台期末,Q16,系统观念 / 系统优化,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第256-257行明列系统优化、整体部分；示例答案要求坚持系统观念。
+M1004,2025丰台期末,Q16,联系的普遍性 / 联系的观点（总）,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M1005,2025丰台期末,Q16,规律的客观性,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第255行列“规律”，材料强调数量界限和不按规律会犯错。
+M1006,2025丰台期末,Q16,认识对实践的反作用,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第209、257行明列认识对实践的反作用；题干写做计划、定方案和国家治理。
+M1007,2025丰台期末,Q16,量变与质变 / 适度原则,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT细则第205-263行支持实践、实际出发、联系观、量变质变、矛盾观等，当前DOCX已有正文条目。
+M1008,2025丰台期末,Q17,人民群众,正式PPT评分细则+教师版题面/解析+当前DOCX正文,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式PPT评分细则第55、71行：人民性是马克思主义的本质属性/人民群众是历史的创造者；可替换群众观点。
+M1028,2025朝阳期末,Q2,联系的普遍性 / 联系的观点（总）,客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版客观题答案+正确项解析；非主观评分细则
+M1029,2025朝阳期末,Q9,系统观念 / 系统优化,客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版客观题答案+正确项解析；非主观评分细则
+M1030,2025朝阳期末,Q16,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第131行明列“实际/一切从实际出发”
+M1031,2025朝阳期末,Q16,主观能动性 / 意识的能动作用,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第132行明列“正确发挥主观能动性”
+M1032,2025朝阳期末,Q16,人民群众,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第137行明列“尊重人民群众主体地位/群众观点群众路线”
+M1033,2025朝阳期末,Q16,价值判断与价值选择,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第136行明列“正确的价值判断和价值选择/正确价值观”
+M1034,2025朝阳期末,Q16,发展的观点 / 发展的普遍性,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第134行明列“发展”
+M1035,2025朝阳期末,Q16,尊重客观规律与发挥主观能动性相结合,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第132行明列“尊重客观规律，正确发挥主观能动性”
+M1036,2025朝阳期末,Q16,矛盾的普遍性和特殊性,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第135行明列“普遍性与特殊性的具体的历史的统一”
+M1037,2025朝阳期末,Q16,联系的普遍性 / 联系的观点（总）,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第133行明列“联系”
+M1038,2025朝阳期末,Q16,规律的客观性,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第132行明列“文化发展有其自身规律，要尊重客观规律”
+M1039,2025朝阳期末,Q16,辩证否定 / 守正创新,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第134行明列“辩证的否定观”
+M1040,2025朝阳期末,Q22,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第329-330行明列“一切从实际出发，实事求是”
+M1041,2025朝阳期末,Q22,人民群众,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第342-344行明列“人民至上，站稳人民立场、把握人民愿望、尊重人民创造、集中人民智慧”
+M1042,2025朝阳期末,Q22,发展的观点 / 发展的普遍性,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第332-336行明列“发展的观点”
+M1043,2025朝阳期末,Q22,实践与认识（总）,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第337-340行明列“实践观点/理论与实践相结合”
+M1044,2025朝阳期末,Q22,实践是认识的基础,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第337-340行明列“实践基础上的理论创新”
+M1045,2025朝阳期末,Q22,矛盾的特殊性 / 具体问题具体分析,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第332-336行明列“问题导向/具体问题具体分析”
+M1046,2025朝阳期末,Q22,系统观念 / 系统优化,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第332-336行明列“系统观念”
+M1047,2025朝阳期末,Q22,认识对实践的反作用,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第337-340行明列“以新的理论指导新的实践”
+M1048,2025朝阳期末,Q22,辩证否定 / 守正创新,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT评分细则第332-336行明列“守正创新”
+M1092,2025海淀期末,Q16,主观能动性 / 意识的能动作用,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行列“坚持客观规律和发挥主观能动性相结合”；当前条目按组合原理理解
+M1093,2025海淀期末,Q16,价值判断与价值选择,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第28-44行列“人民立场”；当前条目以人民立场/正确价值选择处理
+M1094,2025海淀期末,Q16,发展的观点 / 发展的普遍性,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行明列“坚持发展的观点”
+M1095,2025海淀期末,Q16,尊重客观规律与发挥主观能动性相结合,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行明列“坚持客观规律和发挥主观能动性相结合”
+M1096,2025海淀期末,Q16,根据固有联系建立新的具体联系,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行明列“根据固有联系建立新的联系”
+M1097,2025海淀期末,Q16,矛盾就是对立统一,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-40行明列“坚持对立统一的观点”
+M1098,2025海淀期末,Q16,矛盾的普遍性和特殊性,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行明列“具体问题具体分析/矛盾普遍性和特殊性辩证统一”
+M1099,2025海淀期末,Q16,联系的普遍性 / 联系的观点（总）,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行明列“坚持联系观点/根据固有联系建立新的联系”
+M1100,2025海淀期末,Q16,辩证否定 / 守正创新,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第37-44行明列“坚持辩证否定，推动创新”
+M1101,2025海淀期末,Q17(2),事物发展是前进性与曲折性的统一,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第73-75、115-119行明列“事物发展是前进性和曲折性的统一”
+M1102,2025海淀期末,Q17(2),人民群众,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第78、125-126行明列“人民群众是社会历史的主体/历史的创造者/精神财富的创造者”
+M1103,2025海淀期末,Q17(2),实践与认识（总）,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第69-95行明列“实践是检验认识真理性的唯一标准/实践是认识发展的动力”
+M1104,2025海淀期末,Q17(2),实践是认识的基础,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第71、94行明列“实践是检验认识真理性的唯一标准/实践是认识发展的动力”
+M1105,2025海淀期末,Q17(2),真理观,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第69-70、91-94行支持追求真理过程；教师版参考答案写“追求真理是一个过程”
+M1106,2025海淀期末,Q17(2),矛盾就是对立统一,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第78-80、129-130行明列“矛盾双方在一定条件下相互转化/矛盾有同一性”
+M1107,2025海淀期末,Q17(2),认识发展原理,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第69-70、91-94行明列“认识有反复性或无限性/追求真理是一个过程”
+M1108,2025海淀期末,Q17(2),量变与质变 / 适度原则,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第69-130行明列“量变是质变的前提和必要准备”
+M1109,2025海淀期末,Q22,主观能动性 / 意识的能动作用,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第520-521行将“主观能动性”列为必修四可选知识
+M1110,2025海淀期末,Q22,人民群众,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第520-521行将“人民主体地位”列为必修四可选知识
+M1111,2025海淀期末,Q22,价值观的导向作用,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第520-521行将“价值观”列为必修四可选知识
+M1112,2025海淀期末,Q22,量变与质变 / 适度原则,强细则/PPT评标细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,PPT细则第520-521行将“质量互变规律”列为必修四可选知识
+M1113,2025海淀期末,Q4,主观能动性 / 意识的能动作用,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第4题C；客观选择题正确项文本支持“主观能动性”
+M1114,2025海淀期末,Q5,尊重客观规律与发挥主观能动性相结合,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第5题D；正确项③支持规律与能动性组合
+M1115,2025海淀期末,Q5,量变与质变 / 适度原则,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第5题D；正确项④支持渐进性与飞跃性统一
+M1116,2025海淀期末,Q6,实践与认识（总）,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第6题B；正确项④支持实践与认识相互作用
+M1117,2025海淀期末,Q6,真理观,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第6题B；正确项①支持真理具体性、条件性和真理谬误关系
+M1118,2025海淀期末,Q7,价值判断与价值选择,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第7题A；正确项①支持人民利益最高价值标准
+M1119,2025海淀期末,Q7,实践与认识（总）,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第7题A；正确项③支持从群众中来到群众中去工作方法
+M1138,2025西城期末,Q1,社会存在与社会意识,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第1题D；正确项④支持公共记忆折射社会发展和时代变迁
+M1139,2025西城期末,Q18,事物发展是前进性与曲折性的统一,强细则/节点解释延展,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第106-108行支持新事物发展过程和技术恐惧的两面性；按新事物成长曲折性登记
+M1140,2025西城期末,Q18,价值判断与价值选择,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第116-118行明列正确价值判断和价值选择要符合客观规律、符合人民根本利益
+M1141,2025西城期末,Q18,价值观的导向作用,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第116-118行明列“价值观具有导向作用”，科技要以人为本
+M1142,2025西城期末,Q18,发展的观点 / 发展的普遍性,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第80-118行明列“新事物的特点”：新事物从小到大、从不完善到完善
+M1143,2025西城期末,Q18,矛盾就是对立统一,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第111-113行明列“矛盾就是对立统一，要一分为二辩证看问题”
+M1144,2025西城期末,Q18,矛盾的普遍性,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第114-115行明列“矛盾具有普遍性”，要直面矛盾、解决矛盾
+M1145,2025西城期末,Q18,认识发展原理,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第109-110行明列认识受实践水平、立场观点方法、知识水平、思维能力等条件限制
+M1146,2025西城期末,Q2,实践是认识的基础,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第2题B；正确项④支持亲身实践改造主观世界、弘扬伟大建党精神
+M1147,2025西城期末,Q21,改革 / 改革的实质,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第190-193行明列改革是社会主义制度的自我完善和自我发展
+M1148,2025西城期末,Q21,社会发展的两大基本规律和基本矛盾,强细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第190-193行明列改革是解决社会基本矛盾、社会主义社会发展的直接动力
+M1149,2025西城期末,Q3,实践与认识（总）,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第3题C；正确项③支持亲眼所见、亲身所历有利于了解真实中国
+M1150,2025西城期末,Q4,发展的观点 / 发展的普遍性,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第4题D；正确项③支持着眼长远、从更长时限思考问题
+M1151,2025西城期末,Q7,矛盾就是对立统一,教师版客观题答案,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版答案第7题B；正确项④支持处理快与慢、同与异的辩证关系
+M1169,2026东城期末,Q16,主观能动性 / 意识的能动作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第156行列“意识能动作用（社会意识）”；第159-161行提示“表象→深意”和意识能动反映
+M1170,2026东城期末,Q16,价值判断与价值选择,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第156行列“价值判断和价值选择”；第174行以“清白”道德准则和责任担当作示例
+M1171,2026东城期末,Q16,价值观的导向作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第156行列“价值观”；第174行示例明确“价值观具有导向作用”
+M1172,2026东城期末,Q16,整体与部分,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第156行列“整体部分等”为哲学知识角度；用于说明“白”意象由局部表象联结整体文化深意
+M1173,2026东城期末,Q16,矛盾就是对立统一,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第156行列“矛盾对立统一”；第173行示例说明“留白”以无衬有、以虚映实
+M1174,2026东城期末,Q21,价值判断与价值选择,正式细则宽角度支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第550行列人民价值导向，第573、581行确认人民立场为核心知识点
+M1175,2026东城期末,Q21,整体与部分,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第551行要求立足整体、统筹全局，以优势地区带动其他地区发展
+M1176,2026东城期末,Q21,矛盾就是对立统一,正式细则宽角度支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第551行列“辩证思维/矛盾观”；按综合题宽角度说明区域落差可转化为发展动能
+M1177,2026东城期末,Q21,系统观念 / 系统优化,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第551行明列“系统观念”，并要求统筹东中西部、南北方协调发展、国内协同与内外联动
+M1178,2026东城期末,Q21,规律的客观性,正式细则宽角度支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,细则第551行明列“尊重客观规律等”；材料第539-541行强调区域自然禀赋和发展基础差异
+M1179,2026东城期末,Q3,矛盾就是对立统一,教师版客观题答案+细则详解,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第3题答案B；细则第269-274行确认“保障安全卫生与尊重人文需求的矛盾”推动治理
+M1180,2026东城期末,Q4,联系的客观性,教师版客观题答案+细则详解,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第4题答案D；正确项②及细则第340-344行确认核糖核酸与氨基酸的自在联系
+M1181,2026东城期末,Q4,认识对实践的反作用,教师版客观题答案+细则详解,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第4题答案D；正确项④及细则第343-344行确认基础科学突破推动生物工程与生物技术应用
+M1202,2026丰台期末,Q1,社会存在与社会意识,答案闭环表+试卷渲染页+当前框架,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,当前框架第1827行+current-state第218-222行答案闭环：第1题答案B，正确项支持社会意识反作用/精神力量
+M1203,2026丰台期末,Q16,尊重客观规律与发挥主观能动性相结合,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第54行：留白需要在尊重客观规律的基础上充分发挥主观能动性
+M1204,2026丰台期末,Q16,整体与部分,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第51-52行：立足整体、正确处理整体与部分关系
+M1205,2026丰台期末,Q16,矛盾就是对立统一,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第46-48行：矛盾双方对立统一、相互对立相互依存
+M1206,2026丰台期末,Q16,联系的客观性,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第52-53行：联系具有普遍性、客观性
+M1207,2026丰台期末,Q16,联系的普遍性 / 联系的观点（总）,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第51-53行：留白与周围事物相互联系、相互影响；坚持联系的观点
+M1208,2026丰台期末,Q16,量变与质变 / 适度原则,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第49-50行：量变质变与把握适度原则
+M1209,2026丰台期末,Q2,人民群众,答案闭环表+试卷渲染页+当前框架,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,当前框架第1828行+current-state第218-222行答案闭环：第2题答案C，正确项支持群众观点/人民立场
+M1210,2026丰台期末,Q22,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第444行：与中国具体实际相结合
+M1211,2026丰台期末,Q22,人民群众,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第448行：群众观点、群众路线；试卷材料问计于民
+M1212,2026丰台期末,Q22,社会发展的两大基本规律和基本矛盾,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第444行：上层建筑；试卷材料《国家发展规划法》提供法律支撑
+M1213,2026丰台期末,Q22,社会存在与社会意识,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第444行：社会意识；当前框架第1443行说明规划属于社会意识并反作用于实践
+M1214,2026丰台期末,Q22,系统观念 / 系统优化,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第452行：系统优化；材料中央统筹、地方分解、部门协同、全国一盘棋
+M1215,2026丰台期末,Q22,联系的普遍性 / 联系的观点（总）,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第452行：联系的观点；材料长期战略、中期灵活、中央地方部门协同
+M1216,2026丰台期末,Q22,规律的客观性,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第444、452行：遵循规律
+M1217,2026丰台期末,Q22,认识对实践的反作用,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第444行：正确认识；当前框架第1443行：正确认识指导实践
+M1218,2026丰台期末,Q4,主观能动性 / 意识的能动作用,答案闭环表+试卷渲染页+当前框架,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,当前框架第1829行+current-state第218-222行答案闭环：第4题答案B，正确项①支持实践工具革新是发挥主观能动性的结果
+M1219,2026丰台期末,Q4,实践与认识（总）,答案闭环表+试卷渲染页+当前框架,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,当前框架第1829行+current-state第218-222行答案闭环：第4题答案B，正确项④支持机器人延伸认识器官、提高实践水平
+M1239,2026朝阳期中,Q4,联系的多样性,教师版答案键+试卷原题,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第373-380行+答案键第584-585行：第4题答案A，正确题肢①为把握联系的多样性
+M1240,2026朝阳期中,Q7,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,教师版答案键+试卷原题,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第399-410行+答案键第584-585行：第7题答案D，正确题肢③为从具体实际出发
+M1241,2026朝阳期中,Q14,实践与认识（总）,教师版答案键+试卷原题,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第455-461行+答案键第584-585行：第14题答案B，正确题肢①为生活实践中产生并反作用于生活实践
+M1242,2026朝阳期中,Q18,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第57-59、69-71行：支持理由列从实际出发，并要求结合用户需求调整对话模式
+M1243,2026朝阳期中,Q18,主观能动性 / 意识的能动作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第60-62、78-81行：反对理由列主观能动性，并指向过度依赖削弱现实交往能力
+M1244,2026朝阳期中,Q18,价值判断与价值选择,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第63-66、72-85行：如何做列价值判断价值选择
+M1245,2026朝阳期中,Q18,价值观的导向作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第63-66、72-85行：如何做列正确价值观的导向作用
+M1246,2026朝阳期中,Q18,实践与认识（总）,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第60-62、78-81行：反对理由列实践等，并指向现实交往能力
+M1247,2026朝阳期中,Q18,物质决定意识,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第60-62行：反对理由列意识依赖于物质
+M1248,2026朝阳期中,Q18,矛盾就是对立统一,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第54-56行：总说列对立统一/一分为二/全面观点
+M1249,2026朝阳期中,Q18,矛盾的普遍性,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第54-56行：总说列矛盾的普遍性/一分为二/全面观点
+M1250,2026朝阳期中,Q18,矛盾的特殊性 / 具体问题具体分析,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第57-59、69-71行：支持理由列矛盾特殊性或具体问题具体分析
+M1251,2026朝阳期中,Q18,规律的客观性,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第57-59、69-71行：支持理由列按规律办事
+M1252,2026朝阳期中,Q18,辩证否定 / 守正创新,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第63-66、72-85行：如何做列辩证否定观
+M1253,2026朝阳期中,Q18,量变与质变 / 适度原则,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第60-62、78-81行：反对理由列适度原则
+M1254,2026朝阳期中,Q19,主观能动性 / 意识的能动作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第98-99行：为什么弘扬列正确意识的能动作用
+M1255,2026朝阳期中,Q19,价值判断与价值选择,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第100-102行：如何弘扬列价值判断与价值选择的标准
+M1256,2026朝阳期中,Q19,价值观的导向作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第98-99行：为什么弘扬列正确价值观的导向作用
+M1257,2026朝阳期中,Q19,发展的观点 / 发展的普遍性,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第100-102行：如何弘扬列发展的观点
+M1258,2026朝阳期中,Q19,实践与认识（总）,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第100-102行：如何弘扬列立足实践、知行合一
+M1259,2026朝阳期中,Q19,矛盾就是对立统一,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第100-102行：如何弘扬列矛盾的观点
+M1260,2026朝阳期中,Q19,社会存在与社会意识,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第98-99行：为什么弘扬列正确社会意识的推动作用
+M1261,2026朝阳期中,Q19,联系的普遍性 / 联系的观点（总）,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第100-102行：如何弘扬列联系的观点
+M1262,2026朝阳期中,Q19,认识对实践的反作用,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则第98-99行：为什么弘扬列正确认识对实践的反作用
+M1282,2026朝阳期末,Q16,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第21行补充“从实际出发”；题面第359-360行要求以当代之思叩问传统
+M1283,2026朝阳期末,Q16,发展的观点 / 发展的普遍性,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第18、21行：创造性转化、创新性发展，并补充“发展”
+M1284,2026朝阳期末,Q16,矛盾就是对立统一,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第21行补充“矛盾”；第15-18行材料逻辑围绕剔除与保留、传统与时代统一
+M1285,2026朝阳期末,Q16,联系的普遍性 / 联系的观点（总）,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第19-21行：连接过去、现在与未来，并补充“联系”
+M1286,2026朝阳期末,Q16,规律的客观性,正式细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第21行补充“规律”；第15-18行要求在传承创新中遵循辩证否定和文化发展逻辑
+M1287,2026朝阳期末,Q16,辩证否定 / 守正创新,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第15-18行：遵循辩证否定观，剔除脱节部分、保留精髓、赋予时代内涵并推动双创
+M1288,2026朝阳期末,Q21,人民群众,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第157-158行：坚持以人民为中心/群众观，激发人民群众投身现代化建设的积极性、主动性、创造性
+M1289,2026朝阳期末,Q21,整体与部分,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第152-153行：整体与部分的辩证统一；题面第469-470行：四大优势是相互依存、协同赋能的有机整体
+M1290,2026朝阳期末,Q21,系统观念 / 系统优化,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第152-153行：系统优化；题面第469-470行：四大优势相互依存、协同赋能
+M1291,2026朝阳期末,Q21,联系的普遍性 / 联系的观点（总）,正式细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则第152-153行：联系的观点看问题；题面第469-470行：相互依存、协同赋能、有机整体
+M1314,2026海淀期中,Q9,人民群众,教师版答案键+试卷原题,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第9题题面与答案键A：正确项①“坚持问计于民，激发人民群众的智慧和力量”、③“以人民为中心的价值取向”；仅作客观选择题挂点。
+M1315,2026海淀期中,Q22(2),主观能动性 / 意识的能动作用,正式阅卷细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则page_094 Q22(2)常见知识列明“发挥主观能动性”，并要求分析扣在“势”上、说明其在民族复兴中的作用。
+M1316,2026海淀期中,Q22(2),事物发展是前进性与曲折性的统一,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则page_094 Q22(2)常见知识列明“发展观（前途光明、道路曲折）”。
+M1317,2026海淀期中,Q22(2),人民群众,正式阅卷细则,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则page_094 Q22(2)常见知识列明“人民群众主体地位”，示例写明人民群众是推动中华民族伟大复兴的力量之源。
+M1318,2026海淀期中,Q22(2),社会发展的两大基本规律和基本矛盾,正式阅卷细则宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式阅卷细则page_094 Q22(2)常见知识列明“人类社会发展规律”，属于社会历史发展规律的宽口径正式支持。
+M1342,2026海淀期末,Q1,实践与认识（总）,教师版答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第1题答案键1B；题面和正确项包含圭表应用服务于社会实践并受历史条件制约，仅作客观选择题挂点。
+M1343,2026海淀期末,Q2,联系的普遍性 / 联系的观点（总）,教师版答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第2题答案键2A；正确项含“坚持全面的观点，既重视他人评价又不盲从”，仅作客观选择题挂点。
+M1344,2026海淀期末,Q3,认识发展原理,教师版答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第3题答案键3A；正确项说明具身智能机器人作为新型研究工具能深化人们对表演规律的认识，仅作客观选择题挂点。
+M1345,2026海淀期末,Q4,实践是认识的基础,教师版答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,教师版第4题答案键4C；题干与正确项把新时代人文经济学置于我国人文经济实践和中国式现代化实践中理解，仅作客观选择题挂点。
+M1346,2026海淀期末,Q16,两点论与重点论,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16矛盾观细则写“一分为二、两重统一”，并提示“重点论”出不来只能1分，支持两点论与重点论的宽口径登记。
+M1347,2026海淀期末,Q16,主观能动性 / 意识的能动作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16列明“意识的能动作用”，并在行动角度列出主观能动性。
+M1348,2026海淀期末,Q16,价值判断与价值选择,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16在“知”的角度列出“价值观、价值判断价值选择等”。
+M1349,2026海淀期末,Q16,价值观的导向作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16写明“价值观具有导向作用，正确价值观具有促进作用，应树立正确价值观”。
+M1350,2026海淀期末,Q16,实现人生价值,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16在行动角度列出“实践、主观能动性、实现人生价值”。
+M1351,2026海淀期末,Q16,实践与认识（总）,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16列明“实践的观点”，且设问要求结合材料或个人体验作答。
+M1352,2026海淀期末,Q16,实践是认识的基础,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16列明“实践的观点”，题干要求结合材料或个人体验说明数字原住民如何在技术使用实践中成长。
+M1353,2026海淀期末,Q16,矛盾就是对立统一,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_001 Q16列明“矛盾的观点”，细则写“一分为二、两重统一”。
+M1354,2026海淀期末,Q17,主观能动性 / 意识的能动作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17哲学知识栏列出“意识的能动作用/认识的作用/价值观的导向作用”。
+M1355,2026海淀期末,Q17,价值判断与价值选择,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17“红色文化滋养年轻人”维度写明形成正确价值观、明确价值选择和价值判断的标准。
+M1356,2026海淀期末,Q17,价值观的导向作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17哲学知识栏列出“价值观的导向作用”。
+M1357,2026海淀期末,Q17,发展的观点 / 发展的普遍性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17“红色文化的发展”维度列出“发展的观点/联系的观点”。
+M1358,2026海淀期末,Q17,根据固有联系建立新的具体联系,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17“红色文化的发展”维度列出“联系的观点”，材料通过体验、数字技术和青年讲述建立红色文化与青年生活的新具体联系。
+M1359,2026海淀期末,Q17,矛盾的普遍性和特殊性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17哲学知识栏列出“矛盾的普遍性和特殊性的辩证关系”。
+M1360,2026海淀期末,Q17,联系的普遍性 / 联系的观点（总）,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17“红色文化的发展”维度列出“发展的观点/联系的观点”。
+M1361,2026海淀期末,Q17,认识对实践的反作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_002 Q17写明“正确的认识有助于推动年轻人积极投身于实践”。
+M1362,2026海淀期末,Q21,人民群众,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_006 Q21“以人民为中心”角度写明人民群众是历史的主体，坚持群众观点、群众路线。
+M1363,2026海淀期末,Q21,矛盾就是对立统一,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分标准page_006 Q21要求运用对立统一观点分析“活力与秩序”的关系，原理1分+分析1分。
+M1384,2026西城期末,Q3,实践与认识（总）,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键3A；正确项②“加快实践与认识的循环过程”，仅作选择题客观挂点。
+M1385,2026西城期末,Q3,认识发展原理,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键3A；正确项①“促进人们认识能力的提高”，仅作选择题客观挂点。
+M1386,2026西城期末,Q4,矛盾的普遍性和特殊性,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键4D；正确项把不同古诗词的个性化描写与江豚生存的一般规律相连，仅作选择题客观挂点。
+M1387,2026西城期末,Q5,联系的普遍性 / 联系的观点（总）,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键5C；正确项直接写国家间联系的普遍性和客观性，仅作选择题客观挂点。
+M1388,2026西城期末,Q21,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_005 Q21角度3列出“实事求是”。
+M1389,2026西城期末,Q21,人民群众,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_005 Q21角度2变通写明“人民至上/人民群众观点等”。
+M1390,2026西城期末,Q21,发展的观点 / 发展的普遍性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_005 Q21角度3列出“发展观”。
+M1391,2026西城期末,Q21,实践与认识（总）,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_005 Q21角度3列出“实践与认识”。
+M1392,2026西城期末,Q16(1),人民群众,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_001 Q16(1)角度1变通写明“人民群众是精神财富的创造者，要坚持人民主体”。
+M1393,2026西城期末,Q16(2),一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002写明追求真实就是实现主观与客观事实相符合。
+M1394,2026西城期末,Q16(2),主观能动性 / 意识的能动作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002 Q16(2)唯物论角度写明正确意识有效发挥能动作用、正确指导实践。
+M1395,2026西城期末,Q16(2),人民群众,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002唯物史观角度写明人民群众是历史的主体、从群众中来到群众中去。
+M1396,2026西城期末,Q16(2),价值判断与价值选择,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002价值观角度写明引导人们作出正确价值判断与选择。
+M1397,2026西城期末,Q16(2),价值观的导向作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002价值观角度写明价值观对认识世界改造世界有重要导向作用。
+M1398,2026西城期末,Q16(2),实践是认识的基础,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002认识论角度写明扎根实践、经实践检验获得真实认识才能获得真理。
+M1399,2026西城期末,Q16(2),物质决定意识,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002 Q16(2)唯物论角度写明“世界统一于物质（物质决定意识）”。
+M1400,2026西城期末,Q16(2),真理观,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002认识论角度写明追求真理是人类认识活动根本任务，并在酌情原则列出真理最基本属性。
+M1401,2026西城期末,Q16(2),矛盾的普遍性和特殊性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002辩证法角度写明矛盾普遍性和特殊性相互联结。
+M1402,2026西城期末,Q16(2),社会存在与社会意识,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002酌情原则列明“社会存在社会意识”。
+M1403,2026西城期末,Q16(2),认识对实践的反作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式评分细则page_002认识论角度写明真实认识对实践具有促进作用。
+M1423,2026通州期末,Q5,人民群众,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键5C；正确选项含“基层问题的治理必须坚持群众观念”，仅作客观选择题挂点。
+M1424,2026通州期末,Q5,系统观念 / 系统优化,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键5C；正确选项含“系统思维和辩证思维”，仅作客观选择题挂点。
+M1425,2026通州期末,Q7,发展的观点 / 发展的普遍性,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键7B；正确选项①对应“事物是不断变化发展的”，仅作客观选择题挂点。
+M1426,2026通州期末,Q7,量变与质变 / 适度原则,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键7B；正确选项④对应“量变是质变的必要准备，要重视量的积累”，仅作客观选择题挂点。
+M1427,2026通州期末,Q8,根据固有联系建立新的具体联系,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键8D；正确选项③写明通过刺绣建立承载家国情怀的人为事物联系。
+M1428,2026通州期末,Q8,矛盾就是对立统一,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键8D；正确选项④写明个体差异性与民族记忆整体性在作品中对立统一。
+M1429,2026通州期末,Q9,系统观念 / 系统优化,正式答案键+试卷原题（客观选择题）,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式答案键9D；正确选项写明运用系统化、数字化模式整合保障资源，形成新机制。
+M1430,2026通州期末,Q16,一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题哲学角度写明“坚持一切从实际出发，实事求是”。
+M1431,2026通州期末,Q16,主观能动性 / 意识的能动作用,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题写明“同时发挥人的主观能动性，实现人与自然的和谐共生”。
+M1432,2026通州期末,Q16,事物发展是前进性与曲折性的统一,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题发展观括注“前途光明道路曲折”。
+M1433,2026通州期末,Q16,人民群众,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题唯物史观部分写明“人民群众是历史的创造者”。
+M1434,2026通州期末,Q16,价值判断与价值选择,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题价值观部分写明“自觉站在最广大人民群众的立场上”。
+M1435,2026通州期末,Q16,发展的观点 / 发展的普遍性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题发展观部分写明事物不断变化发展、与时俱进、开拓创新。
+M1436,2026通州期末,Q16,尊重客观规律与发挥主观能动性相结合,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题写明“尊重客观规律与发挥主观能动性相结合”。
+M1437,2026通州期末,Q16,整体与部分,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题联系观括注“系统观念/整体部分”。
+M1438,2026通州期末,Q16,物质决定意识,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题唯物论角度写明“体现了物质决定意识”。
+M1439,2026通州期末,Q16,系统观念 / 系统优化,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题联系观括注“系统观念/整体部分”。
+M1440,2026通州期末,Q16,联系的多样性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题联系观部分直接点名联系的多样性。
+M1441,2026通州期末,Q16,联系的客观性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题联系观部分直接点名联系的客观性。
+M1442,2026通州期末,Q16,联系的普遍性 / 联系的观点（总）,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题联系观部分写明“体现了联系的普遍性、客观性和多样性”。
+M1443,2026通州期末,Q16,规律的客观性,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题写明“要尊重客观规律”。
+M1444,2026通州期末,Q16,辩证否定 / 守正创新,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题写明辩证否定观、守正创新、扬弃。
+M1445,2026通州期末,Q16,量变与质变 / 适度原则,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第16题发展观括注“质变量变”。
+M1446,2026通州期末,Q21,人民群众,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第21题写明坚守人民立场、以人民为中心、增进民生福祉。
+M1447,2026通州期末,Q21,价值判断与价值选择,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第21题直接写明“坚持正确的价值判断，价值选择”。
+M1448,2026通州期末,Q21,实践与认识（总）,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第21题写明“坚持实践观，勇于探索中国式现代化理论、道路”。
+M1449,2026通州期末,Q21,系统观念 / 系统优化,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第21题思维方法角度列明“运用系统观念”。
+M1450,2026通州期末,Q21,联系的普遍性 / 联系的观点（总）,正式评分标准,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第21题写明“坚持联系观，国内协同与内外联动”。
+M1451,2026通州期末,Q21,规律的客观性,正式评分标准宽角度/术语支持,true,false,PASS_FORMAL_OR_CHOICE_BOUNDARY_PRESENT,正式细则第21题思维方法角度列明“尊重客观规律”。

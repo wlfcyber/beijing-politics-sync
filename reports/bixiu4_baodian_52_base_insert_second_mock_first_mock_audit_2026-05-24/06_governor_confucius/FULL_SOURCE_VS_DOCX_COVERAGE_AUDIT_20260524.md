@@ -1,0 +1,75 @@
+﻿# Full Source vs DOCX Coverage Audit 2026-05-24
+
+Final DOCX: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\05_delivery\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx
+
+## Summary
+
+| item | count |
+|---|---:|
+| raw source suites detected from Desktop 2024-2026 first/second mock folders | 47 |
+| suites present in final DOCX and current closure matrix | 35 |
+| suites present in final DOCX and inherited-base row-level rechecked | 12 |
+| suites missing from final DOCX | 0 |
+
+## Inherited Row-Level Sync
+
+- Synced after inherited second-mock row-level recheck: 12 suite rows updated from `not reopened` to `row-level rechecked scoped pass`.
+- Detailed evidence: `INHERITED_2024_2025_SECOND_MOCK_ROW_EXTRACT_20260524.csv`, `haidian_2025_second_mock_evidence_closeout_20260524.md`, and ClaudeCode recheck outputs.
+
+## Boundary
+
+- This audit proves suite-name coverage in the final DOCX against the current Desktop source folders.
+- The 12 inherited 2024/2025 second-mock suites were later row-level extracted and rechecked: 135 rows, 0 thin material/why/answer fields after patching, with ClaudeCode scoped PASS and the Haidian Q10/Q11 choice-only boundary preserved.
+- The 2024-2026 first-mock plus 2026 second-mock delta closure is still governed by `COVERAGE_CLOSURE_MATRIX_V2.csv`.
+
+## Suites
+
+| suite | final_docx_mentions | current_closure_status | coverage_bucket | source_example |
+|---|---:|---|---|---|
+| 2024朝阳二模 | 12 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2024各区二模\2024朝阳二模\其他材料\004202405朝阳高三政治质量检测二参考答案（以PDF为准）.docx |
+| 2024朝阳一模 | 5 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治一模试卷讲评.pptx |
+| 2024东城二模 | 13 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2024各区二模\2024东城二模\其他材料\002北京市东城区2023-2024学年度第二学期高三综合练习（二）思想政治答案.pdf |
+| 2024东城一模 | 8 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2024各区一模\2024东城一模\其他材料\北京市东城区2023-2024学年度第二学期高三综合练习（一）思想政治答案(1).pdf |
+| 2024丰台二模 | 5 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2024各区二模\2024丰台二模\细则\2024丰台二模细则.docx |
+| 2024丰台一模 | 6 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2024各区一模\2024丰台一模\细则\2024丰台一模细则.docx |
+| 2024海淀二模 | 9 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2024各区二模\2024海淀二模\其他材料\高三二模：政治答案(2).docx |
+| 2024海淀一模 | 10 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2024各区一模\2024海淀一模\其他材料\一模政治-答案.docx |
+| 2024石景山一模 | 4 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2024各区一模\2024石景山一模\其他材料\2024年石景山一模.pptx |
+| 2024顺义二模 | 10 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2024各区二模\2024顺义思政二模\细则\2024顺义思政二模细则.docx |
+| 2024西城二模 | 10 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2024各区二模\2024西城二模\其他材料\~$模拟测试思想政治试卷.docx |
+| 2024西城一模 | 11 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2024各区一模\2024西城一模\其他材料\2024.4高三统一测试思想政治答案.docx |
+| 2025昌平二模 | 10 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2025各区二模\2025昌平二模\细则\2025昌平二模细则.pptx |
+| 2025朝阳二模 | 19 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2025各区二模\2025朝阳二模\其他材料\扫描全能王 2025-05-13 21.42.pdf |
+| 2025朝阳一模 | 7 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025朝阳一模\其他材料\20250329高3阅卷总结17 1题 具身智能 任会波组 阐释论证.doc |
+| 2025东城二模 | 13 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2025各区二模\2025东城二模\细则\2025东城二模细则.pdf |
+| 2025东城一模 | 11 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025东城一模\细则\2025东城一模细则.pdf |
+| 2025房山一模 | 9 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025房山一模\细则\2025房山一模细则.pdf |
+| 2025丰台二模 | 11 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2025各区二模\2025丰台二模\细则\2025丰台二模细则\2025丰台二模评标细则\16.(1).doc |
+| 2025丰台一模 | 10 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025丰台一模\细则\2025丰台一模细则.docx |
+| 2025海淀二模 | 8 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2025各区二模\2025海淀二模\其他材料\2025届二模考试讲评0510.pdf |
+| 2025海淀一模 | 10 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025海淀一模\其他材料\EDU_1500334100000021014_61af1789-0742-472d-86cd-e6cb420b0ecb.pdf |
+| 2025门头沟一模 | 10 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025门头沟一模\细则\2025门头沟一模细则.doc |
+| 2025石景山一模 | 7 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025石景山一模\细则\2025石景山一模细则.doc |
+| 2025顺义一模 | 9 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025顺义一模\细则\2025顺义一模细则.docx |
+| 2025西城二模 | 13 | INHERITED_BASE_ROW_RECHECKED_SCOPED_PASS | DOCX_BASE_COVERED_ROW_RECHECKED_SCOPED_PASS | 2025各区二模\2025西城二模\细则\2025西城二模细则.docx |
+| 2025西城一模 | 11 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025西城一模\细则\2025西城一模细则.docx |
+| 2025延庆一模 | 9 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2025各区一模\2025延庆一模\细则\2025延庆一模细则.docx |
+| 2026朝阳二模 | 6 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026朝阳二模\细则\202605朝阳高三政治二模阅卷细则(1).docx |
+| 2026朝阳一模 | 9 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026朝阳一模\2026北京朝阳高三一模政治（教师版）.pdf |
+| 2026东城二模 | 6 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026东城二模\细则\16.pdf |
+| 2026东城一模 | 12 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026东城一模\2026东城一模 原卷扫描版.pdf |
+| 2026房山二模 | 4 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026房山二模\细则\26房山评标(2).docx |
+| 2026房山一模 | 9 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026房山一模\2026北京房山高三一模政治.pdf |
+| 2026丰台二模 | 5 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026丰台二模\细则\2026丰台区二模主观题阅卷细则(1).pptx |
+| 2026丰台一模 | 11 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026丰台一模\26 丰台一模政治(1).pptx |
+| 2026海淀二模 | 2 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026海淀二模\细则\26海淀高三政治二模讲评.pdf |
+| 2026海淀一模 | 6 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026海淀一模\2026海淀一模 试卷扫描版_去水印.pdf |
+| 2026门头沟一模 | 9 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026门头沟一模\门头沟区高三政治一模试卷.pdf |
+| 2026石景山二模 | 3 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026石景山二模\细则\石景山区高三政治第二次模拟考试答案评分细则(1).doc |
+| 2026石景山一模 | 8 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026石景山一模\2026北京石景山高三一模政治（教师版）.pdf |
+| 2026顺义二模 | 5 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026顺义二模\26顺义二模(1).pdf |
+| 2026顺义一模 | 11 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026顺义一模\2026年顺义一模  细则.pptx |
+| 2026通州一模 | 2 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026通州一模\2026北京通州高三一模政治.pdf |
+| 2026西城二模 | 3 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区二模\2026西城二模\细则\西城二模评标.pdf |
+| 2026西城一模 | 12 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026西城一模\2026北京西城高三一模政治.pdf |
+| 2026延庆一模 | 12 | COVERED_OR_PATCHED | DELTA_OR_FIRST_MOCK_MATRIX_CLOSED | 2026各区一模\2026延庆一模\2026北京延庆高三一模政治（教师版）.pdf |

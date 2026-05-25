@@ -1,0 +1,27 @@
+{
+  "status": "MATRIX_ONLY_REPAIR_COMPLETE",
+  "updated_at": "2026-05-25 18:49 +08",
+  "suite": "2024东城一模",
+  "rows_updated": [
+    "M0137",
+    "M0138",
+    "M0190",
+    "M0247",
+    "M0248",
+    "M0249",
+    "M0250",
+    "M0817"
+  ],
+  "docx_changed": false,
+  "source_renders": [
+    "dongcheng_2024_yimo_source_pages_20260525/paper_page_01.png",
+    "dongcheng_2024_yimo_source_pages_20260525/paper_page_02.png",
+    "dongcheng_2024_yimo_source_pages_20260525/answer_page_01.png"
+  ],
+  "decisions": [
+    "Q1 and Q2 are objective choice-question answer-key boundaries, not main-question rubric insertions.",
+    "Old Q4 candidate was a row-slicing error: the source Q4 is a choice question, while the three-circle rubric text belongs to Q21 already covered in DOCX.",
+    "Q16 and Q21 remain covered by current DOCX body entries; no DOCX insertion was needed.",
+    "Suite-level row was downgraded to a closed summary after row-level source review."
+  ]
+}

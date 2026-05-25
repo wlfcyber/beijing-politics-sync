@@ -1,0 +1,22 @@
+{
+  "status": "MATRIX_ONLY_RISK_QUEUE_CLOSED",
+  "updated_at": "2026-05-25 19:01 +08",
+  "suite_level_rows_closed": [
+    "M0814",
+    "M0816",
+    "M0818",
+    "M0820",
+    "M0823",
+    "M0824",
+    "M0826",
+    "M0827",
+    "M0829",
+    "M0832",
+    "M0834",
+    "M0839",
+    "M0842"
+  ],
+  "tongzhou_final_row_closed": "M1471",
+  "docx_changed": false,
+  "evidence_boundary": "suite-level rows remain summaries only; Tongzhou final Q21 broad thinking angle is not forced into body"
+}

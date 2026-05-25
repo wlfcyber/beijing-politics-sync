@@ -1,0 +1,18 @@
+{
+  "models_observed": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "debug_model_mentions": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "thinking_block_seen": true,
+  "result_obj_summary": {},
+  "model_gate": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+  "content_result_detected": "pass",
+  "local_policy_result": "pass_with_model_gate_blocked",
+  "reparsed_from_existing_raw": true,
+  "raw_bytes": 234884,
+  "stderr_bytes": 0
+}

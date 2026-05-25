@@ -1,0 +1,280 @@
+from __future__ import annotations
+
+import csv
+import json
+import shutil
+import zipfile
+from datetime import datetime
+from pathlib import Path
+
+import apply_p0_thickness_batch01_20260525 as helper
+from docx import Document
+
+
+ROOT = Path(__file__).resolve().parent
+BATCH = "15"
+
+TARGET_TEXTS = {
+    "T0132": {
+        "node": "整体与部分",
+        "evidence_note": "矩阵 M1172：正式细则第156行列“整体部分等”为哲学知识角度；用于说明“白”意象由局部表象联结整体文化深意。",
+        "new_why": "三幅图不是三个彼此孤立的素材：留白技法、清白品格和文明符号分别呈现“白”的不同侧面，又共同构成中国文明中“白”的整体意蕴。正式细则第156行列“整体部分等”，说明作答要把局部表象放回整体文化结构中理解，既看到每一幅图的独特含义，也看到它们在整体文明叙事中相互支撑、共同显义。",
+        "new_answer": "①整体统率部分，部分影响整体，整体与部分相互联系、不可割裂。②解读“白”的深意，不能只停留在某一幅图的孤立寓意上，而要把留白的审美技法、清白的人格追求、文明传承的符号意义放到中华文明整体脉络中把握。③三幅图各自提供不同维度，又共同说明“白”由技法之美上升为人格之美、文明之美；只有在整体与部分的统一中，才能读出“白”所承载的深层文化意义。",
+    },
+    "T0011": {
+        "node": "一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一",
+        "evidence_note": "矩阵 M1242：正式评分细则第57-59、69-71行支持理由列“从实际出发”，并要求结合用户需求调整对话模式。",
+        "new_why": "本条处理“支持AI提供情绪价值”的理由，材料强调AI可以根据用户即时情绪、表达习惯和具体需求调整回应方式。正式评分细则第57-59、69-71行把支持理由落到从实际出发，并要求结合用户需求调整对话模式，所以不能只写AI有用，而要写出主观回应方式如何以用户真实情绪状况为客观依据。",
+        "new_answer": "①物质决定意识，要求坚持一切从实际出发、实事求是，使主观认识和行动符合客观实际。②支持适度使用AI提供情绪价值，是因为它能够依据用户当下的真实情绪、表达内容和心理需求，生成更有针对性的回应，而不是用同一套话术机械应付所有人。③这种做法把技术服务建立在用户具体实际之上，有助于缓解部分情绪压力、提供表达空间；但前提仍是尊重真实生活和现实关系，不能脱离实际把AI替代成人的全部情感支持。",
+    },
+    "T0110": {
+        "node": "联系的客观性",
+        "evidence_note": "矩阵 M1441：正式评分标准第16题联系观部分直接点名“联系的客观性”。",
+        "new_why": "都江堰治水不是任意设计出来的工程奇观，而是顺应岷江水势、成都平原地势、分水排沙、灌溉防洪等客观联系形成的系统安排。矩阵 M1441 记录正式评分标准在第16题联系观部分直接点名联系的客观性，因此本条应突出这些水文地理联系不以人的意志为转移，人们只能在尊重和把握客观联系的基础上组织工程。",
+        "new_answer": "①联系具有客观性，事物之间的真实联系不以人的主观愿望为转移。②都江堰的治水功能建立在岷江水势、地形高差、分水排沙、灌溉防洪和区域生产生活之间的客观联系之上，不是凭空想象或任意拼接的结果。③人们只有尊重这些客观水文地理联系，按照水流运行和工程结构规律安排鱼嘴、飞沙堰、宝瓶口等功能，才能实现防洪、灌溉、生态和民生的统一，使千年水利工程持续发挥作用。",
+    },
+    "T0115": {
+        "node": "根据固有联系建立新的具体联系",
+        "evidence_note": "矩阵 M0170/M0232：门头沟一模正式细则明列“联系的观点”；当前正文将该角度落到依据固有联系建立“灌溉遗产+”的新联系。",
+        "new_why": "永定河古渠之所以不是沉睡文物，关键在于人们没有把它当成孤立遗址保存，而是依据其同京西古道、潭柘寺、水脉文脉、生态空间和首都文化记忆之间的固有联系，进一步建立“灌溉遗产+”的新联系。门头沟一模正式细则明列联系的观点，本条把该细则角度具体落到根据事物固有联系建立新的具体联系。",
+        "new_answer": "①联系具有普遍性和客观性，人们可以根据事物固有联系，改变条件、建立新的具体联系。②永定河古渠本身同水脉、文脉、交通、寺院、聚落和京西历史记忆存在真实联系，这些联系为活化利用提供了客观基础。③通过“灌溉遗产+”模式，把古渠同文化展示、旅游体验、生态教育、城市记忆等新场景连接起来，就不是把文物静态封存，而是在尊重固有联系的基础上创造新的现实联系，使古渠继续服务文化传承和城市发展。",
+    },
+    "T0393": {
+        "node": "认识对实践的反作用",
+        "evidence_note": "矩阵 M1006：2025丰台期末正式PPT细则第209、257行明列认识对实践的反作用；题干写“做计划、定方案”和国家治理。",
+        "new_why": "“数”为何所用不是单纯统计问题，而是把对客观情况、数量关系和发展趋势的认识转化为计划、方案、政策和治理行动。矩阵 M1006 记录正式PPT细则第209、257行明列认识对实践的反作用，题干也写“做计划、定方案”和国家治理，所以答案应写出正确数量认识如何指导实践、减少盲目决策。",
+        "new_answer": "①实践决定认识，认识对实践具有反作用，正确认识能够促进实践发展。②胸中有“数”意味着通过调查研究和科学分析形成对实际情况、数量关系、发展趋势的正确认识。③这些认识不能停留在统计表和口号中，而要进一步转化为计划安排、政策方案、资源配置和治理措施，用来指导实践、优化决策、减少随意性和盲目性。④因此，“数”最终服务于实践，正确把握“数”才能提高国家治理和工作推进的科学性。",
+    },
+    "T0200": {
+        "node": "量变与质变 / 适度原则",
+        "evidence_note": "矩阵 M1208：正式细则第49-50行写明“量变质变与把握适度原则”。",
+        "new_why": "留白的审美效果取决于量和度：适度留白能形成生机、张弛、含蓄和想象空间，但过度留白会让空间走向空旷、虚无，破坏整体意境。矩阵 M1208 记录正式细则第49-50行明列量变质变与把握适度原则，所以本条要把“留多少白”同数量界限、度的把握和效果转化联系起来。",
+        "new_answer": "①量变达到一定程度会引起质变，保持事物性质稳定需要把量变控制在一定范围内，坚持适度原则。②留白不是越多越好，适度留白可以涵养生机、形成张弛、留下想象空间，使画面或空间更有韵味。③一旦留白超过合理限度，就可能由含蓄深远转向空旷无奈、由审美张力转向意义稀释，导致整体效果发生负面变化。④因此，把握留白要处理好有与无、疏与密、实与虚的数量界限，在适度中实现审美效果。",
+    },
+    "T0005": {
+        "node": "物质决定意识",
+        "evidence_note": "矩阵 M1247：正式评分细则第60-62行在反对理由中列“意识依赖于物质”。",
+        "new_why": "本条处理“反对把AI情绪陪伴当作真实人际关系替代品”的理由。材料中的关键不是一般批评AI，而是指出人的情感理解、共情能力和关系责任依赖现实身体经验、社会交往和人的意识活动。矩阵 M1247 记录正式评分细则第60-62行列“意识依赖于物质”，因此要从物质决定意识角度说明AI模拟不能等同于真实人的情感理解。",
+        "new_answer": "①物质决定意识，意识依赖于人的现实身体、生活实践和社会关系。②真实的人际情感并不是简单语言回应，它来自人的生命体验、现实处境、长期交往、责任承担和共同实践。③AI可以模拟安慰话语，却没有人的身体经验、现实关系和真正的生活责任，难以完整理解人的复杂情感。④因此，不能把AI情绪陪伴当作真实人际关系的替代品；合理使用技术的同时，仍要回到现实交往中获得真实理解、支持和成长。",
+    },
+    "T0201": {
+        "node": "量变与质变 / 适度原则",
+        "evidence_note": "矩阵 M1007：2025丰台期末正式PPT细则第205-263行支持量变质变、适度原则等；题干强调数量界限和过犹不及。",
+        "new_why": "本题中的“数”既指来源于实际的数量事实，也指决定事物性质和治理效果的数量界限。正式PPT细则支持量变质变、适度原则等角度，题干又强调“数量界限”“过犹不及”“胸中无数”会导致失当，因此应把“数”写成量变质变规律和适度原则在计划、方案、治理中的具体运用。",
+        "new_answer": "①量变和质变相互联系，量的变化达到一定程度会引起质的变化；做事情要坚持适度原则，把握好数量界限。②“数”从对客观数量事实和统计关系的把握中来，说明决策不能脱离实际估计；“数”要按决定事物性质的数量界限来定，说明过多、过少或节奏失衡都可能造成质的变化。③“数”最终要服务计划、方案和治理决策，要求既重视数量积累和结构比例，又把握好度，避免胸中无数、过犹不及和决策失当。",
+    },
+}
+
+
+def now() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M +08")
+
+
+def load_queue_targets() -> list[dict[str, str]]:
+    queue_path = ROOT / "THICKNESS_REPAIR_PRIORITY_QUEUE_20260525.csv"
+    wanted = set(TARGET_TEXTS)
+    found: dict[str, dict[str, str]] = {}
+    with queue_path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            qid = row.get("queue_id", "")
+            if qid in wanted:
+                found[qid] = row
+    missing = wanted - set(found)
+    if missing:
+        raise RuntimeError(f"Missing target queue rows: {sorted(missing)}")
+    targets: list[dict[str, str]] = []
+    for qid in TARGET_TEXTS:
+        row = found[qid]
+        text = TARGET_TEXTS[qid]
+        targets.append(
+            {
+                "queue_id": qid,
+                "heading": row["heading"],
+                "node": text["node"],
+                "old_answer_excerpt": row["answer_excerpt"],
+                "evidence_note": text["evidence_note"],
+                "new_why": text["new_why"],
+                "new_answer": text["new_answer"],
+            }
+        )
+    return targets
+
+
+def write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({field: row.get(field, "") for field in fields})
+
+
+def write_draft_files(targets: list[dict[str, str]]) -> None:
+    rows = []
+    for target in targets:
+        rows.append(
+            {
+                "queue_id": target["queue_id"],
+                "heading": target["heading"],
+                "node": target["node"],
+                "evidence_note": target["evidence_note"],
+                "new_why_chars": len(target["new_why"]),
+                "new_answer_chars": len(target["new_answer"]),
+                "new_why": target["new_why"],
+                "new_answer": target["new_answer"],
+            }
+        )
+    (ROOT / f"P0_THICKNESS_REPAIR_BATCH{BATCH}_DRAFT_20260525.json").write_text(
+        json.dumps({"updated": now(), "targets": rows}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    write_csv(
+        ROOT / f"P0_THICKNESS_REPAIR_BATCH{BATCH}_DRAFT_20260525.csv",
+        rows,
+        ["queue_id", "heading", "node", "evidence_note", "new_why_chars", "new_answer_chars", "new_why", "new_answer"],
+    )
+    lines = [
+        f"# P0 Thickness Repair Batch{BATCH} Draft 20260525",
+        "",
+        f"Updated: {now()}",
+        "",
+        "Status: `DRAFT_READY_FOR_DOCX_APPLICATION`",
+        "",
+        "- Scope: next 8 P0 subjective triple-thin rows after Batch14 refresh.",
+        "- Repair method: thicken only existing why/answer paragraphs inside existing evidence-supported nodes.",
+        "- Evidence boundary: all evidence notes cite current matrix rows; ordinary reference answers are not upgraded into scoring rubrics.",
+        "",
+        "| queue_id | node | heading | new why chars | new answer chars | evidence note |",
+        "|---|---|---|---:|---:|---|",
+    ]
+    for row in rows:
+        lines.append(
+            f"| {row['queue_id']} | {row['node']} | {row['heading']} | {row['new_why_chars']} | {row['new_answer_chars']} | {row['evidence_note']} |"
+        )
+    (ROOT / f"P0_THICKNESS_REPAIR_BATCH{BATCH}_DRAFT_20260525.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
+def main() -> int:
+    targets = load_queue_targets()
+    write_draft_files(targets)
+    docx = helper.current_docx()
+    backup = docx.with_name(f"{docx.stem}_backup_before_p0_thickness_batch{BATCH}_{datetime.now():%Y%m%d_%H%M%S}.docx")
+    shutil.copy2(docx, backup)
+
+    doc = Document(str(docx))
+    blocks = helper.entry_blocks(doc)
+    applied: list[dict[str, object]] = []
+    for target in targets:
+        block = helper.matching_block(blocks, target)
+        fields = block["fields"]
+        field_paras = block["field_paras"]
+        before_why = str(fields.get("why", ""))
+        before_answer = str(fields.get("answer", ""))
+        helper.set_labeled_paragraph(doc.paragraphs[int(field_paras["why"])], "why", target["new_why"])
+        helper.set_labeled_paragraph(doc.paragraphs[int(field_paras["answer"])], "answer", target["new_answer"])
+        applied.append(
+            {
+                "queue_id": target["queue_id"],
+                "heading": target["heading"],
+                "node": target["node"],
+                "heading_para": block["heading_para"],
+                "why_para": field_paras["why"],
+                "answer_para": field_paras["answer"],
+                "before_why_chars": len(before_why),
+                "after_why_chars": len(target["new_why"]),
+                "before_answer_chars": len(before_answer),
+                "after_answer_chars": len(target["new_answer"]),
+                "evidence_note": target["evidence_note"],
+                "old_answer_excerpt": target["old_answer_excerpt"],
+            }
+        )
+
+    doc.save(str(docx))
+    with zipfile.ZipFile(docx) as z:
+        zip_ok = "[Content_Types].xml" in z.namelist() and "word/document.xml" in z.namelist()
+
+    result = {
+        "updated": now(),
+        "status": f"P0_BATCH{BATCH}_APPLIED_REQUIRES_RENDER_AND_EXTERNAL_RECHECK",
+        "docx": str(docx),
+        "backup_docx": str(backup),
+        "zip_ok": zip_ok,
+        "targets": len(targets),
+        "applied": applied,
+        "boundary": [
+            "This is a local thickness repair batch, not a terminal acceptance claim.",
+            "PDF/render outputs must be regenerated after this DOCX edit.",
+            "External review remains pending for the current post-repair artifact.",
+        ],
+    }
+    (ROOT / f"P0_THICKNESS_REPAIR_BATCH{BATCH}_APPLY_20260525.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    write_csv(
+        ROOT / f"P0_THICKNESS_REPAIR_BATCH{BATCH}_APPLY_20260525.csv",
+        applied,
+        [
+            "queue_id",
+            "heading",
+            "node",
+            "heading_para",
+            "why_para",
+            "answer_para",
+            "before_why_chars",
+            "after_why_chars",
+            "before_answer_chars",
+            "after_answer_chars",
+            "evidence_note",
+            "old_answer_excerpt",
+        ],
+    )
+    lines = [
+        f"# P0 Thickness Repair Batch{BATCH} Apply 20260525",
+        "",
+        f"Updated: {result['updated']}",
+        "",
+        f"Status: `{result['status']}`",
+        "",
+        f"- DOCX: `{docx.name}`.",
+        f"- Backup: `{backup.name}`.",
+        f"- Targets applied: `{len(applied)}` / `{len(targets)}`.",
+        f"- DOCX zip structural check: `{str(zip_ok).lower()}`.",
+        "",
+        "## Applied Rows",
+        "",
+        "| queue_id | node | heading | why chars | answer chars | paragraph refs |",
+        "|---|---|---|---:|---:|---|",
+    ]
+    for row in applied:
+        lines.append(
+            f"| {row['queue_id']} | {row['node']} | {row['heading']} | "
+            f"{row['before_why_chars']} -> {row['after_why_chars']} | "
+            f"{row['before_answer_chars']} -> {row['after_answer_chars']} | "
+            f"h={row['heading_para']}; why={row['why_para']}; answer={row['answer_para']} |"
+        )
+    lines.extend(
+        [
+            "",
+            "## Boundary",
+            "",
+            "- This batch repairs only 8 additional P0 rows.",
+            "- Remaining thickness queue, render QA, and model gates stay open until rechecked.",
+        ]
+    )
+    (ROOT / f"P0_THICKNESS_REPAIR_BATCH{BATCH}_APPLY_20260525.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

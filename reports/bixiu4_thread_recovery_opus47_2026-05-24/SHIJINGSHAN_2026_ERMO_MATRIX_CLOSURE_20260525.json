@@ -1,0 +1,19 @@
+{
+  "status": "MATRIX_ONLY_CLOSURE_COMPLETE",
+  "updated_at": "2026-05-25 18:54 +08",
+  "suite": "2026石景山二模",
+  "rows_updated": [
+    "M0046",
+    "M0047",
+    "M0048",
+    "M0853"
+  ],
+  "docx_changed": false,
+  "evidence_file": "shijingshan_2026_ermo_scoring_extracted_20260525.docx",
+  "current_docx_entries": [
+    "Q17(3) contact-view entry",
+    "Q17(3) contradiction-view entry",
+    "Q17(3) practice-knowledge entry"
+  ],
+  "evidence_boundary": "formal scoring reference gives broad philosophy angles and level scoring, not point-by-point scoring rules"
+}

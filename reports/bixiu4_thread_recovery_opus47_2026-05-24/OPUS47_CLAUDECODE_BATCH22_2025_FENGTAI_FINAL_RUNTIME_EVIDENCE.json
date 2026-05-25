@@ -1,0 +1,46 @@
+{
+  "models_observed": [
+    "claude-api",
+    "claude-opus-4-7"
+  ],
+  "debug_model_mentions": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "thinking_block_seen": true,
+  "stderr_bytes": 0,
+  "raw_bytes": 333567,
+  "json_lines": 71,
+  "result_obj_summary": {
+    "type": "result",
+    "subtype": "success",
+    "duration_ms": 211464,
+    "duration_api_ms": 204705,
+    "is_error": false,
+    "num_turns": 27,
+    "session_id": "dcb62616-2f1a-45e5-99b8-f446fa7fb9e3"
+  },
+  "content_result_detected": "pass_with_notes",
+  "local_policy_result": "pass_with_model_gate_blocked",
+  "model_gate": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+  "started": "2026-05-25T07:51:35",
+  "finished": "2026-05-25T07:55:09",
+  "timed_out": false,
+  "return_code": 0,
+  "command": [
+    "claude",
+    "-p",
+    "--model",
+    "claude-opus-4-7",
+    "--effort",
+    "max",
+    "--permission-mode",
+    "auto",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--debug-file",
+    "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\OPUS47_CLAUDECODE_BATCH22_2025_FENGTAI_FINAL_RECHECK_STREAM_UTF8_DEBUG.log",
+    "--no-session-persistence"
+  ]
+}

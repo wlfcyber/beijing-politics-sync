@@ -1,0 +1,72 @@
+{
+  "evidence_id": "OPUS47_BATCH18_SHIJINGSHAN_YIMO_RECHECK_001",
+  "timestamp_local": "2026-05-25 06:12-06:20 +08",
+  "command_flags": [
+    "claude",
+    "-p",
+    "--model",
+    "claude-opus-4-7",
+    "--effort",
+    "max",
+    "--permission-mode",
+    "auto",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--no-session-persistence"
+  ],
+  "prompt": "OPUS47_CLAUDECODE_BATCH18_2024_SHIJINGSHAN_YIMO_RECHECK_PROMPT.md",
+  "raw_stream": "OPUS47_CLAUDECODE_BATCH18_2024_SHIJINGSHAN_YIMO_RECHECK_STREAM_RAW_UTF8.jsonl",
+  "debug_log": "OPUS47_CLAUDECODE_BATCH18_2024_SHIJINGSHAN_YIMO_RECHECK_STREAM_UTF8_DEBUG.log",
+  "stderr_log": "OPUS47_CLAUDECODE_BATCH18_2024_SHIJINGSHAN_YIMO_RECHECK_STREAM_UTF8_STDERR.log",
+  "stderr_bytes": 0,
+  "result_file": "OPUS47_CLAUDECODE_BATCH18_2024_SHIJINGSHAN_YIMO_RECHECK_RESULT.md",
+  "models_observed": [
+    "claude-opus-4-7"
+  ],
+  "session_ids": [
+    "3e442ab9-2949-4639-b860-7ef8a0537c5d"
+  ],
+  "result_uuid": "64b60de4-5bdc-4bba-b9e7-8bc0f0fc8f55",
+  "thinking_block_seen": true,
+  "debug_model_mentions": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-7"
+  ],
+  "model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 2061,
+      "outputTokens": 25,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.002186,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    },
+    "claude-opus-4-7": {
+      "inputTokens": 53,
+      "outputTokens": 21322,
+      "cacheReadInputTokens": 3873426,
+      "cacheCreationInputTokens": 123921,
+      "webSearchRequests": 0,
+      "costUSD": 3.2445342500000005,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000
+    }
+  },
+  "result_summary": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 492650,
+    "duration_api_ms": 461111,
+    "num_turns": 44,
+    "stop_reason": "end_turn",
+    "total_cost_usd": 3.2467202500000005
+  },
+  "content_result": "pass_with_notes",
+  "local_policy_result": "pass_with_model_gate_blocked",
+  "model_gate": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+  "sonnet_haiku_used_as_qualified_evidence": "no",
+  "notes": "Stream/message events report claude-opus-4-7 and include a thinking block. Command requested --effort max. Runtime artifacts still do not expose machine-readable proof that max effort/adaptive thinking was active, so the local model gate remains blocked."
+}

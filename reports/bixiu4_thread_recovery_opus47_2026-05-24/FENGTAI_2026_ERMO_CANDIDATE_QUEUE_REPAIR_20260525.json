@@ -1,0 +1,123 @@
+{
+  "timestamp": "20260525_173503",
+  "suite": "2026丰台二模",
+  "docx": {
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "docx_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_2026_fengtai_ermo_repair_20260525_173503.docx",
+    "inserted_headings": [
+      "20. 2026丰台二模 第4题（选择题）",
+      "37. 2026丰台二模 第5题（选择题）",
+      "38. 2026丰台二模 第6题（选择题）",
+      "34. 2026丰台二模 第7题（选择题）",
+      "4. 2026丰台二模 第22题（主观题）"
+    ],
+    "skipped_existing": []
+  },
+  "ledger": {
+    "ledger": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger.csv",
+    "ledger_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger_backup_before_2026_fengtai_ermo_repair_20260525_173503.csv",
+    "added_rows": [
+      {
+        "canonical_node": "整体与部分",
+        "source_suite": "2026丰台二模",
+        "question_no": "Q4",
+        "inserted_heading": "2026丰台二模 第4题（选择题）"
+      },
+      {
+        "canonical_node": "主观能动性 / 意识的能动作用",
+        "source_suite": "2026丰台二模",
+        "question_no": "Q5",
+        "inserted_heading": "2026丰台二模 第5题（选择题）"
+      },
+      {
+        "canonical_node": "主观能动性 / 意识的能动作用",
+        "source_suite": "2026丰台二模",
+        "question_no": "Q6",
+        "inserted_heading": "2026丰台二模 第6题（选择题）"
+      },
+      {
+        "canonical_node": "实践是认识的基础",
+        "source_suite": "2026丰台二模",
+        "question_no": "Q7",
+        "inserted_heading": "2026丰台二模 第7题（选择题）"
+      },
+      {
+        "canonical_node": "主要矛盾和次要矛盾",
+        "source_suite": "2026丰台二模",
+        "question_no": "Q22",
+        "inserted_heading": "2026丰台二模 第22题（主观题）"
+      }
+    ]
+  },
+  "matrix": {
+    "matrix": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX.csv",
+    "matrix_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX_backup_before_2026_fengtai_ermo_repair_20260525_173503.csv",
+    "updated_or_added_row_ids": [
+      "M0153",
+      "M0236",
+      "M0680",
+      "M0681",
+      "M0682",
+      "M0683",
+      "M0684",
+      "M0685",
+      "M0686",
+      "M0687",
+      "M0688",
+      "M0689",
+      "M0690",
+      "M0848",
+      "M1527",
+      "M1528",
+      "M1529",
+      "M1530",
+      "M1531",
+      "M1532",
+      "M1533",
+      "M1534",
+      "M1535",
+      "M1536",
+      "M1537"
+    ]
+  },
+  "sources": {
+    "paper_pdf": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区二模\\2026丰台二模\\试卷\\2026北京丰台高三二模政治（教师版）.pdf",
+    "answer_docx": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区二模\\2026丰台二模\\细则\\高三政治答案.docx",
+    "rubric_ppt": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区二模\\2026丰台二模\\细则\\2026丰台区二模主观题阅卷细则(1).pptx"
+  },
+  "render_status": "RENDER_PASS",
+  "model_gate_status": {
+    "claude_web_app": "real_call_pending",
+    "claudecode_model_confirmation": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+    "gptpro_web": "real_call_pending"
+  },
+  "render_manifest": {
+    "timestamp": "20260525_173522",
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+    "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_style_normalization_render_20260525_173522.pdf",
+    "docx_bytes": 440674,
+    "pdf_bytes": 4471521,
+    "docx_label_count": 2859,
+    "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_global_style_norm\\global_style_norm_contact_sheet.png",
+    "pdf_pages": 285,
+    "rendered_png_count": 285,
+    "pdf_label_count": 2859,
+    "blank_like_pages_excluding_cover_foreword": []
+  },
+  "page_qa": {
+    "Q4": 81,
+    "Q5": 33,
+    "Q6": 33,
+    "Q7": 209,
+    "Q22": 173
+  },
+  "matrix_render_pass_rows": [
+    "M0683",
+    "M0684",
+    "M0690",
+    "M0848",
+    "M1527",
+    "M1528"
+  ]
+}

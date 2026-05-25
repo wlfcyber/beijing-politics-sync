@@ -1,0 +1,36 @@
+{
+  "timestamp": "20260525_183713",
+  "suite": "2026海淀一模",
+  "status": "MATRIX_REPAIRED_NO_DOCX_CHANGE",
+  "matrix": {
+    "matrix": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX.csv",
+    "matrix_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX_backup_before_2026_haidian_yimo_repair_20260525_183713.csv",
+    "updated_row_ids": [
+      "M0163",
+      "M0225",
+      "M0226",
+      "M0592",
+      "M0593",
+      "M0594",
+      "M0595",
+      "M0596",
+      "M0597",
+      "M0598",
+      "M0800",
+      "M0851"
+    ]
+  },
+  "sources": {
+    "rubric_pdf": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区一模\\2026海淀一模\\26海淀一模政治评分标准.pdf",
+    "paper_pdf": "C:\\Users\\Administrator\\Desktop\\2026各区模拟题\\2026各区一模\\2026海淀一模\\2026海淀一模 试卷扫描版_去水印.pdf",
+    "source_bundle": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\01_source_inventory\\suite_source_bundles\\2026海淀一模.md",
+    "source_page_04": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\haidian_yimo_source_pages_20260525\\page_04.png",
+    "source_page_05": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\haidian_yimo_source_pages_20260525\\page_05.png"
+  },
+  "render_status": "NO_DOCX_CHANGE_RENDER_NOT_REQUIRED",
+  "model_gate_status": {
+    "claude_web_app_full_artifact_review": "real_call_pending",
+    "claudecode_model_confirmation": "BLOCKED_MODEL_CONFIRMATION_REQUIRED",
+    "gptpro_web_full_artifact_review": "real_call_pending"
+  }
+}

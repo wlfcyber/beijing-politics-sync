@@ -1,0 +1,272 @@
+from __future__ import annotations
+
+import csv
+import json
+import shutil
+import zipfile
+from datetime import datetime
+from pathlib import Path
+
+import apply_p0_thickness_batch01_20260525 as helper
+from docx import Document
+
+
+ROOT = Path(__file__).resolve().parent
+
+TARGETS = [
+    {
+        "queue_id": "T0248",
+        "heading": "19. 2026朝阳期中 第18题（主观题）",
+        "node": "量变与质变 / 适度原则",
+        "old_answer_excerpt": "使用AI提供情绪价值要坚持适度原则。把AI作为短期辅助可以缓解压力",
+        "evidence_note": "正式评分细则第60-62行在反对理由中列“适度原则”。",
+        "new_why": "材料把“短期抚慰情绪”和“长期依赖会削弱真实互动能力、模糊现实与虚拟界限”放在一起，说明AI情绪陪伴有一个使用限度。偶尔辅助与过度依赖之间不是简单数量差别，长期累积到一定程度会改变人与现实交往、自我调适的状态，因此应落到适度原则。",
+        "new_answer": "①坚持适度原则，要求把握事物发展的度，防止过犹不及。②AI可以作为短期辅助工具，帮助个体表达情绪、获得即时回应、缓解部分压力，但它不能替代真实的人际理解和社会交往。③如果长期、过度依赖AI提供情绪价值，就可能削弱现实互动能力、模糊虚拟与现实边界，使辅助工具变成逃避现实的依赖，所以要合理、适度使用。",
+    },
+    {
+        "queue_id": "T0163",
+        "heading": "19. 2026通州期末 第16题（主观题）",
+        "node": "整体与部分",
+        "old_answer_excerpt": "都江堰各工程环节和治理措施要服务整体治水目标，整体功能又通过各部分协同实现",
+        "evidence_note": "正式细则第16题联系观括注“系统观念/整体部分”，属于正式细则宽角度支持。",
+        "new_why": "都江堰跨越千年的治水智慧不是某一个单独工程部位的作用，而是分水、泄洪、排沙、灌溉、维护和生态调节等环节共同服务防洪灌溉整体目标。细则在联系观下括注“系统观念/整体部分”，说明应从各部分协同形成整体功能来理解其治水智慧。",
+        "new_answer": "①整体由部分构成，整体统率部分，部分的功能及其变化影响整体功能。②都江堰的鱼嘴、飞沙堰、宝瓶口等工程环节以及历代维护治理措施，不是孤立发挥作用，而是围绕防洪、灌溉、排沙和生态协调这一整体治水目标相互配合。③正是各部分在整体系统中协同运行，才形成跨越千年的综合治水功能，体现了立足整体、优化部分关系的智慧。",
+    },
+    {
+        "queue_id": "T0133",
+        "heading": "2. 2025海淀期末 第16题（主观题）",
+        "node": "根据固有联系建立新的具体联系",
+        "old_answer_excerpt": "打造中医药新时尚不是任意跨界，而是抓住药食同源中食物与药物并无绝对界限的固有联系",
+        "evidence_note": "现有正文节点依据材料触发登记；该修补只加厚既有材料到原理链条，不升级证据等级。",
+        "new_why": "材料中的“药食同源”说明中医药与日常饮食之间本来就存在同源、相通、可转化的联系；中药曲奇、养生面包等做法不是随意拼贴，而是在这种固有联系基础上，借助现代烘焙工艺和消费场景建立新的具体联系。看到“本有联系+新工艺新场景”，就应想到根据固有联系建立新的具体联系。",
+        "new_answer": "①联系具有客观性，人们可以根据事物固有联系，改变事物状态，建立新的具体联系。②打造中医药新时尚，首先抓住药食同源中食物与药物并无绝对界限的固有联系，说明中医药元素进入日常食品有现实依据。③各地再通过现代烘焙工艺、口味设计和消费场景创新，把中药元素同曲奇、面包等日常食品联系起来，使中医药以年轻化、生活化方式进入大众生活。",
+    },
+    {
+        "queue_id": "T0234",
+        "heading": "2. 2025海淀期末 第22题（主观题）",
+        "node": "量变与质变 / 适度原则",
+        "old_answer_excerpt": "要发扬愚公移山精神，做好每一步量的积累，坚持不懈推进事业",
+        "evidence_note": "材料围绕愚公日复一日挖土移山、子孙相继、持之以恒终能搬走大山展开；当前条目登记为量变质变链条。",
+        "new_why": "愚公移山的关键不是一次性完成壮举，而是“一锹一锹挖土”“子孙相继”“坚持下去、不断工作”。这些表述共同指向量的持续积累；“总有一天会把大山搬走”则指向量变达到一定程度引起质变。围绕愚公移山写作时，可以用这一链条说明伟大事业靠长期奋斗实现根本变化。",
+        "new_answer": "①量变是质变的必要准备，质变是量变达到一定程度的必然结果。②愚公移山精神启示我们，面对压在人民和民族发展道路上的“大山”，不能指望一蹴而就，而要从每一锹土、每一步工作做起，长期坚持、持续积累。③只要方向正确、持之以恒，把一代又一代人的奋斗不断积累起来，就能推动事业发生质的飞跃，最终搬走“大山”、实现伟大目标。",
+    },
+    {
+        "queue_id": "T0330",
+        "heading": "2. 2026丰台一模 第16题（主观题）",
+        "node": "矛盾的普遍性",
+        "old_answer_excerpt": "推动人工智能健康发展，不能只看见效率和便利，也不能因风险而否定技术进步",
+        "evidence_note": "材料同一人工智能既有文明进步动能，也有深度伪造、算法窄化、智能鸿沟等风险隐忧。",
+        "new_why": "材料同时呈现人工智能的积极作用和风险隐忧：一方面为文明进步注入动能，另一方面带来深度伪造、算法推荐窄化文化视野、智能鸿沟等问题。这说明矛盾存在于人工智能发展全过程，不能片面肯定或片面否定，而要一分为二地看待并在发展中治理问题。",
+        "new_answer": "①矛盾具有普遍性，任何事物都包含对立统一的两个方面，人工智能发展也不例外。②一方面，人工智能能够提高效率、拓展知识生产和文化传播方式，为人类文明进步注入动能；另一方面，它也可能造成信息失真、文化视野窄化、智能鸿沟和治理风险。③推动人工智能健康发展，就要坚持全面观点，既发挥技术促进文明进步的积极作用，又正视并治理风险，使其朝着有益、安全、公平的方向发展。",
+    },
+    {
+        "queue_id": "T0025",
+        "heading": "21. 2026西城二模 第20题（主观题）",
+        "node": "一切从实际出发 / 实事求是 / 主观与客观具体的历史的统一",
+        "old_answer_excerpt": "树立正确政绩观，要坚持实事求是，从实际出发、按规律办事、科学决策",
+        "evidence_note": "材料直接引用“从实际出发、按规律办事、科学决策、苦干实干”，并指向经得起实践、人民、历史检验的实绩。",
+        "new_why": "正确政绩观反对脱离实际的形象工程、短期显绩和主观臆造。材料把“从实际出发、按规律办事、科学决策、苦干实干”连在一起，说明政绩必须建立在客观民情、发展条件和长期规律之上，并接受实践、人民和历史检验，因此应落到一切从实际出发、实事求是。",
+        "new_answer": "①物质决定意识，办事情要坚持一切从实际出发、实事求是，使主观认识符合客观实际。②树立正确政绩观，就要从真实民情、发展基础、资源条件和长期规律出发，按规律办事、科学决策，而不是为了个人声望制造表面工程或短期显绩。③只有把工作建立在客观实际和人民需要之上，苦干实干，才能创造经得起实践、人民和历史检验的实绩。",
+    },
+    {
+        "queue_id": "T0250",
+        "heading": "21. 2026通州期末 第16题（主观题）",
+        "node": "量变与质变 / 适度原则",
+        "old_answer_excerpt": "历代持续维护、技术迭代和文化表达创新不断积累，推动都江堰保护利用水平提升",
+        "evidence_note": "正式细则第16题发展观括注“质变量变”，属于正式细则宽角度支持。",
+        "new_why": "都江堰跨越千年不是一次建成后静止不变，而是依靠历代持续维护、技术调整、制度管理和文化表达不断积累。细则在发展观下括注“质变量变”，说明可以从长期量的积累推动保护利用水平提升来阐释其治水智慧。",
+        "new_answer": "①量变是质变的必要准备，事物发展要重视量的积累。②都江堰能够跨越千年，离不开历代人民持续维护水利工程、改进治理技术、完善管理方式，并在文化传承中不断丰富其时代价值。③这些长期、连续的实践积累，推动都江堰保护利用水平不断提升，使其从古代水利工程发展为兼具防洪灌溉、生态治理和文化传承价值的综合遗产。",
+    },
+    {
+        "queue_id": "T0083",
+        "heading": "22. 2025朝阳一模 第16题（主观题）",
+        "node": "尊重客观规律与发挥主观能动性相结合",
+        "old_answer_excerpt": "要把尊重客观条件和发挥主观能动性统一起来：国产动画立足新时代经济社会发展",
+        "evidence_note": "细则第16题写创作者团队把握社会提供的客观条件，把握个人与社会的统一，弘扬劳动精神、工匠精神、创新精神。",
+        "new_why": "导演的话把“好时代”与“心无旁骛投入创作”并列，细则也同时写把握社会提供的客观条件和弘扬劳动、工匠、创新精神。这说明国产动画成功既不是单靠客观环境自然发生，也不是创作者脱离条件任意创造，而是在尊重时代条件和文化传播规律的基础上发挥主观能动性。",
+        "new_answer": "①尊重客观规律和客观条件是正确发挥主观能动性的前提，发挥主观能动性又能把客观条件转化为现实成果。②国产动画电影能够让中华优秀传统文化绽放新光彩，首先依托新时代经济社会发展、技术进步、文化消费需求和传统文化资源等客观条件。③创作者又以劳动精神、工匠精神和创新精神长期投入创作，把传统故事、现代技术和观众需求结合起来，才把时代条件转化为优秀作品和文化传播成效。",
+    },
+]
+
+
+def now() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M +08")
+
+
+def write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({field: row.get(field, "") for field in fields})
+
+
+def write_draft_files() -> None:
+    rows = []
+    for target in TARGETS:
+        rows.append(
+            {
+                "queue_id": target["queue_id"],
+                "heading": target["heading"],
+                "node": target["node"],
+                "evidence_note": target["evidence_note"],
+                "new_why_chars": len(target["new_why"]),
+                "new_answer_chars": len(target["new_answer"]),
+                "new_why": target["new_why"],
+                "new_answer": target["new_answer"],
+            }
+        )
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH05_DRAFT_20260525.json").write_text(
+        json.dumps({"updated": now(), "targets": rows}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    write_csv(
+        ROOT / "P0_THICKNESS_REPAIR_BATCH05_DRAFT_20260525.csv",
+        rows,
+        ["queue_id", "heading", "node", "evidence_note", "new_why_chars", "new_answer_chars", "new_why", "new_answer"],
+    )
+    lines = [
+        "# P0 Thickness Repair Batch05 Draft 20260525",
+        "",
+        f"Updated: {now()}",
+        "",
+        "Status: `DRAFT_READY_FOR_DOCX_APPLICATION`",
+        "",
+        "- Scope: next 8 P0 subjective triple-thin rows after Batch04 refresh.",
+        "- Repair method: thicken only existing why/answer paragraphs inside existing nodes.",
+        "- Evidence boundary: formal-rubric support is named only where the existing row already carries it; material-trigger rows are not upgraded to formal rubric evidence.",
+        "",
+        "| queue_id | node | heading | new why chars | new answer chars | evidence note |",
+        "|---|---|---|---:|---:|---|",
+    ]
+    for row in rows:
+        lines.append(
+            f"| {row['queue_id']} | {row['node']} | {row['heading']} | {row['new_why_chars']} | {row['new_answer_chars']} | {row['evidence_note']} |"
+        )
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH05_DRAFT_20260525.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
+def main() -> int:
+    write_draft_files()
+    docx = helper.current_docx()
+    backup = docx.with_name(f"{docx.stem}_backup_before_p0_thickness_batch05_{datetime.now():%Y%m%d_%H%M%S}.docx")
+    shutil.copy2(docx, backup)
+
+    doc = Document(str(docx))
+    blocks = helper.entry_blocks(doc)
+    applied: list[dict[str, object]] = []
+    for target in TARGETS:
+        block = helper.matching_block(blocks, target)
+        fields = block["fields"]
+        field_paras = block["field_paras"]
+        before_why = str(fields.get("why", ""))
+        before_answer = str(fields.get("answer", ""))
+        helper.set_labeled_paragraph(doc.paragraphs[int(field_paras["why"])], "why", target["new_why"])
+        helper.set_labeled_paragraph(doc.paragraphs[int(field_paras["answer"])], "answer", target["new_answer"])
+        applied.append(
+            {
+                "queue_id": target["queue_id"],
+                "heading": target["heading"],
+                "node": target["node"],
+                "heading_para": block["heading_para"],
+                "why_para": field_paras["why"],
+                "answer_para": field_paras["answer"],
+                "before_why_chars": len(before_why),
+                "after_why_chars": len(target["new_why"]),
+                "before_answer_chars": len(before_answer),
+                "after_answer_chars": len(target["new_answer"]),
+                "evidence_note": target["evidence_note"],
+                "old_answer_excerpt": target["old_answer_excerpt"],
+            }
+        )
+
+    doc.save(str(docx))
+    with zipfile.ZipFile(docx) as z:
+        zip_ok = "[Content_Types].xml" in z.namelist() and "word/document.xml" in z.namelist()
+
+    result = {
+        "updated": now(),
+        "status": "P0_BATCH05_APPLIED_REQUIRES_RENDER_AND_EXTERNAL_RECHECK",
+        "docx": str(docx),
+        "backup_docx": str(backup),
+        "zip_ok": zip_ok,
+        "targets": len(TARGETS),
+        "applied": applied,
+        "boundary": [
+            "This is a local thickness repair batch, not final acceptance.",
+            "PDF/render outputs must be regenerated after this DOCX edit.",
+            "External review remains pending for the current post-repair artifact.",
+        ],
+    }
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH05_APPLY_20260525.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    write_csv(
+        ROOT / "P0_THICKNESS_REPAIR_BATCH05_APPLY_20260525.csv",
+        applied,
+        [
+            "queue_id",
+            "heading",
+            "node",
+            "heading_para",
+            "why_para",
+            "answer_para",
+            "before_why_chars",
+            "after_why_chars",
+            "before_answer_chars",
+            "after_answer_chars",
+            "evidence_note",
+            "old_answer_excerpt",
+        ],
+    )
+    lines = [
+        "# P0 Thickness Repair Batch05 Apply 20260525",
+        "",
+        f"Updated: {result['updated']}",
+        "",
+        f"Status: `{result['status']}`",
+        "",
+        f"- DOCX: `{docx.name}`.",
+        f"- Backup: `{backup.name}`.",
+        f"- Targets applied: `{len(applied)}` / `{len(TARGETS)}`.",
+        f"- DOCX zip structural check: `{str(zip_ok).lower()}`.",
+        "",
+        "## Applied Rows",
+        "",
+        "| queue_id | node | heading | why chars | answer chars | paragraph refs |",
+        "|---|---|---|---:|---:|---|",
+    ]
+    for row in applied:
+        lines.append(
+            f"| {row['queue_id']} | {row['node']} | {row['heading']} | "
+            f"{row['before_why_chars']} -> {row['after_why_chars']} | "
+            f"{row['before_answer_chars']} -> {row['after_answer_chars']} | "
+            f"h={row['heading_para']}; why={row['why_para']}; answer={row['answer_para']} |"
+        )
+    lines.extend(
+        [
+            "",
+            "## Boundary",
+            "",
+            "- This batch repairs only 8 additional P0 rows.",
+            "- Remaining thickness queue, render QA, and model gates stay open until rechecked.",
+        ]
+    )
+    (ROOT / "P0_THICKNESS_REPAIR_BATCH05_APPLY_20260525.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

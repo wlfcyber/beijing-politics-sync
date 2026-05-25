@@ -1,0 +1,12 @@
+{
+  "status": "MATRIX_ONLY_CLOSURE_COMPLETE",
+  "updated_at": "2026-05-25 18:56 +08",
+  "suite": "2024海淀一模",
+  "rows_updated": [
+    "M0200",
+    "M0299",
+    "M0821"
+  ],
+  "docx_changed": false,
+  "evidence_boundary": "Q16 has formal broad-angle scoring support and current DOCX body coverage; Q17 is a removed module-boundary misplacement"
+}

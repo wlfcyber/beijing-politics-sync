@@ -1,0 +1,9 @@
+suite,question_no,claudecode_status,codex_a_status,fusion_decision,action,reason
+2024朝阳一模,Q待回源,need_evidence/HOLD,covered_or_in_base,not_new_blocker,NO_INSERT,"最终 DOCX 已有 2024朝阳一模 第16题、第18题第（2）问及选择题条目；ClaudeCode 的题号待定项不构成新增条目依据，需保留为源清单提醒而非 open blocker。"
+2024石景山一模,Q哲学,need_evidence/HOLD,covered_or_boundary,not_new_blocker,NO_INSERT,"最终 DOCX 已含 2024石景山一模 第16题主观题条目；另有第7题误触发被 2024 队列闭环表判为选必三/概念关系边界。"
+2025朝阳一模,Q16,need_evidence/HOLD,covered_or_in_base,not_new_blocker,NO_INSERT,"最终 DOCX 已含 2025朝阳一模 第16题多处条目；ClaudeCode 标注为弱参考答案风险，故不新增，只保留已有母版覆盖。"
+2025海淀一模,Q16,need_evidence/HOLD,covered_or_patch,not_new_blocker,NO_INSERT,"最终 DOCX 已含 2025海淀一模 第16题与第21/22题条目；第21题本轮 accepted 补入主次矛盾/系统优化，Q16 弱参考答案不新增。"
+2026东城一模,Q16,need_evidence/HOLD,covered_or_in_base,not_new_blocker,NO_INSERT,"最终 DOCX 已含 2026东城一模 第16题等多处条目；当前无独立强细则新增点，避免把弱答案包装成新触发。"
+2026延庆一模,Q待定,need_evidence/HOLD,covered_or_in_base,not_new_blocker,NO_INSERT,"最终 DOCX 已含 2026延庆一模 第16题、第20题多处条目；ClaudeCode 未发现独立强细则候选，本轮不新增。"
+2026朝阳一模,Q17(3),need_evidence/HOLD,covered_or_in_base,not_new_blocker,NO_INSERT,"最终 DOCX 已含 2026朝阳一模 第16题、第21题多处条目；Q17(3) 题号歧义未形成强证据新增项。"
+2026海淀二模,Q21,need_evidence/HOLD,not_in_current_accepted,tracked_future_candidate,HOLD_NO_INSERT,"本轮二模已回源闭合 Q16 四条；Q21 统筹方法 9 分题仍缺正式细则，不进入学生版，不作为本轮 2026二模哲学强细则新增项。"

@@ -1,0 +1,69 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 414676,
+  "duration_api_ms": 408746,
+  "num_turns": 22,
+  "result": "## OPUS47 ClaudeCode Batch02 Recheck — Output\n\n**model_gate**: `BLOCKED_MODEL_CONFIRMATION_REQUIRED`\n- Environment identifies the runtime model as `claude-opus-4-7`, but I have no introspection channel that independently exposes/confirms `--effort max` or adaptive-thinking activation. Per the hard gate, the entire content review below MUST NOT be promoted to qualified-evidence status. Treat it as Lane B's preliminary recheck pending qualified re-run.\n\n**content_decision**: `pass_with_corrections` (preliminary — not qualified-evidence under the model gate above)\n\n**required_corrections**:\n1. **Downgrade Q16 evidence label in matrix rows M0142, M0194, M0298.** Currently tagged `强细则`. The source (`2024海淀一模.md` lines 23–24 / 63) reads `可从发挥主观能动性、联系的观点、发展的观点、实践的观点、民族精神等角度作答。` — this is a brief acceptable-angles list from the 答案/细则 doc, not a granular point-by-point rubric like Q17(2). Per the hard rule \"do not treat ordinary reference answers as scoring rubrics\", retag as `细则角度简列` (or equivalent) so downstream lanes don't infer detailed rubric backing. The decision (covered, no new insertion) does not change.\n2. **Investigate the boundary call for M0286 (2024海淀一模 Q1).** Q1 explicitly invokes `长征精神 / 精神谱系`, which is a `民族精神` node in 必修四《哲学与文化》. The current decision excludes it as `文化线另审`, framing the philosophy DOCX as principle-only. This is defensible but should be made explicit in `references/baodian-hard-rules-notebook.md` so future batches don't re-introduce the same candidate. No DOCX change required for Batch02; documentation note only.\n3. **TOC text-extraction artifact (cosmetic, not a defect):** `系统观念 / 系统优化64` appears at paragraph index 28. This is the TOC entry concatenated with its page number `64` after XML stripping; the rendered DOCX/PDF would have proper leader spacing. Add a note to the TOC scan so future automated audits don't false-positive on it.\n\n**batch02_row_decision_summary**:\n- 20/20 rows moved out of `待核` in `FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX.csv` (verified by grep — 0 residual `待核` for M0142, M0194, M0286–M0303). Global matrix still has 584 `待核` rows in other suites; Batch02 scope is closed.\n- Covered, no new insertion: M0142 / M0194 / M0298 (all Q16, 5-角度细则简列) + M0287 (Q2=A) + M0288 (Q3=C) + M0290 (Q5=C) — choice items grounded in answer key + stem, not upgraded to rubric.\n- Excluded by module boundary: M0286 (Q1, 文化线), M0289 (Q4, 文化/审美), M0291 (Q6, 选必三逻辑), M0292 (Q8, 政治与法治), M0293 (Q9, 政协), M0294 (Q11, 法律与生活), M0295 (Q12), M0296 (Q13, 经济与社会), M0297 (Q15, 当代国际), M0300 (Q18, 国际+选必三逻辑), M0301 (Q19, 法律与生活).\n- Excluded as activity-task: M0302 (Q20, 党史活动方案 — 水平4/3/2/1 层级描述, no specific philosophy principle).\n- Excluded as extraction residue: M0303 (Qunknown).\n- Misplacement removed: M0299 (Q17) — old 系统观念/系统优化 entry `2024海淀一模 第17题第（2）问` deleted; section renumbered; first item now `2024海淀期中 第18题`, last inserted item now `2025海淀一模 第22题` at slot 23. **Verified directly against DOCX (paragraph 886 header, monotone run 1→23 found).** Forbidden tokens (`2024海淀一模 第17题第（2）问`, `京津冀三地的功能定位和特色优势`, `在分析与综合的对立统一中`, `分析与综合`, `评标`, `NEED_EVIDENCE`, `source_lane`, `参考答案`, `correct_option_chain`, `答案写`, `/Users/`, `source_repair_basis`) all return 0 in DOCX text. `docx_insert_ledger.csv` has 36 rows; 0 missing-in-DOCX; 系统观念/系统优化 ledger block (19–23) aligns exactly with the DOCX numbered list.\n\n**source_authority_notes**:\n- Q16 (M0142/M0194/M0298) evidence is from the 细则.docx but is a brief `可从...等角度作答` list. Calling it `强细则` overstates granularity vs. Q17(2)'s genuinely detailed 3-point rubric (lines 67–82). Recommend downgrading to `细则角度简列` to honor the hard rule against treating reference answers as rubrics.\n- Q2/Q3/Q5 (M0287/M0288/M0290) correctly tagged `选择题官方答案键+题干`; no rubric upgrade. Source ground-truth: Q2=A → 主观能动性/固有联系; Q3=C → 实践检验真理/认识过程; Q5=C → 矛盾双方对立统一 / 矛盾普遍性与特殊性.\n- Q17(2) routing to 选必三《逻辑与思维》分析与综合 is grounded in (a) stem at source line 432 `运用分析与综合的思维方法`, and (b) detailed scoring rubric at lines 67–82 with three explicit subscores (强调分析 / 强调综合 / 强调辩证思维, 各 2 分). This IS a 强细则 case — for 选必三, not for current philosophy DOCX. Removal is correct.\n- Q20 (M0302) source rubric (lines 105–117 + 496–523) scores 活动主题/活动内容/设计依据 against generic 水平4–1 level descriptors with no philosophy-principle entry. Excluding it from current 哲学 nodes is correct; do not let `价值观` / `发展` token hits backdoor it in.\n- Q6/Q8/Q9/Q11/Q12/Q13/Q15/Q18/Q19 exclusions all anchored on stem + answer-key module (选必三逻辑, 政治与法治, 法律与生活, 经济与社会, 当代国际), not on stray-word matches. Correct application of module boundary.\n\n**final_acceptance**: `not_final`\n\n---\n\n### Scan artifact\nAdded `reports/bixiu4_thread_recovery_opus47_2026-05-24/_opus47_recheck_scan_20260525.py` (ad-hoc verification script — not part of the pipeline) so the recheck is reproducible. Remove if you do not want it tracked.",
+  "stop_reason": "end_turn",
+  "session_id": "3626bd3b-288b-4cca-a441-e0c7e1fe9d42",
+  "total_cost_usd": 1.6150157500000002,
+  "usage": {
+    "input_tokens": 23,
+    "cache_creation_input_tokens": 97753,
+    "cache_read_input_tokens": 773937,
+    "output_tokens": 24628,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 97753,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "",
+    "iterations": [
+      {
+        "input_tokens": 1,
+        "output_tokens": 2431,
+        "cache_read_input_tokens": 86187,
+        "cache_creation_input_tokens": 5966,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 5966
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 1201,
+      "outputTokens": 15,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.001276,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    },
+    "claude-opus-4-7": {
+      "inputTokens": 23,
+      "outputTokens": 24628,
+      "cacheReadInputTokens": 773937,
+      "cacheCreationInputTokens": 97753,
+      "webSearchRequests": 0,
+      "costUSD": 1.61373975,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "87084641-83b5-451a-8a3e-605443c85e76"
+}

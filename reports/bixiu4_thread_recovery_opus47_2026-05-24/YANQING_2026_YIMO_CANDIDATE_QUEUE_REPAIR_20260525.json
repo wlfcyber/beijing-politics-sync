@@ -1,0 +1,31 @@
+{
+  "timestamp": "20260525_155437",
+  "docx": {
+    "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+    "docx_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_2026_yanqing_yimo_choice_insert_20260525_155437.docx",
+    "inserted_headings": [
+      "36. 2026延庆一模 第2题（选择题）",
+      "27. 2026延庆一模 第3题（选择题）",
+      "45. 2026延庆一模 第4题（选择题）"
+    ]
+  },
+  "ledger": {
+    "ledger_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\docx_insert_ledger_backup_before_2026_yanqing_yimo_choice_insert_20260525_155437.csv",
+    "ledger_rows_added": [
+      "2026延庆一模 第2题（选择题）",
+      "2026延庆一模 第3题（选择题）",
+      "2026延庆一模 第4题（选择题）"
+    ]
+  },
+  "matrix": {
+    "matrix_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\FULL_QUESTION_COVERAGE_AND_PLACEMENT_MATRIX_backup_before_2026_yanqing_yimo_candidate_repair_20260525_155437.csv",
+    "added_rows": [
+      "M1485",
+      "M1486",
+      "M1487",
+      "M1488",
+      "M1489"
+    ],
+    "updated_rows": 19
+  }
+}

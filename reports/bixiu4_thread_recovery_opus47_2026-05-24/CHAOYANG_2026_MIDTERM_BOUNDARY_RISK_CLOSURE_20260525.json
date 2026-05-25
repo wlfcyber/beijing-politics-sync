@@ -1,0 +1,11 @@
+{
+  "status": "MATRIX_ONLY_CLOSURE_COMPLETE",
+  "updated_at": "2026-05-25 19:00 +08",
+  "suite": "2026朝阳期中",
+  "rows_updated": [
+    "M1277",
+    "M1278"
+  ],
+  "docx_changed": false,
+  "evidence_boundary": "Q16/Q17 are module-boundary rows; teacher-answer wording is not counted as philosophy rubric evidence"
+}

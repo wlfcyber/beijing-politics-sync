@@ -25,6 +25,7 @@
 - 框架：正文按用户框架组织，不按试卷流水账堆砌；同核合并但不抹平不同触发点。
 - 学生可用：材料信号 -> 知识/法律关系/答题动作 -> 答案落点，聪明高三学生可直接迁移。
 - 外部模型：GPT Pro 与 Claude 的真实调用记录、截图、原始回复或明确 pending/blocked 记录存在；Codex 自写“模拟意见”不计入。
+- Claude 入口：若 Claude web/app 外审需要重试，必须先直接打开 `https://claude.ai`，依赖本机已有会话自动登录；不得反复走 Google 登录按钮，也不得把 Google 账号选择页写成 blocker，除非直达 `https://claude.ai` 已实际失败并留证。
 - Governor：拒绝假闭环、缺证据、错挂框架、审计语污染学生正文。
 - Confucius：只读学生成品，从零基础/高三学生角度验证能否学会。
 - 交付：Markdown、Word、PDF 或渲染证据存在；Word/PDF 视觉 QA 不得由 Markdown PASS 代替。
@@ -67,4 +68,4 @@
 3. 若线程卡住，写入 `patch_orders/` 下的具体补丁命令，不写泛泛建议。
 4. 若发现“完成”但缺逐题覆盖、真实外部模型、Governor、Confucius、Word/PDF QA 任一项，立刻降级为 `DELIVERED_WITH_GOVERNANCE_GAPS` 或 `CANDIDATE_DELIVERY_NEEDS_AUDIT`。
 5. 任何新增正文内容必须回到本地证据核验后才能进入学生文档。
-
+6. 用户离开后的终态要求：等所有线程任务结束后，按 `ORDER_063_FINAL_GITHUB_UPLOAD_AFTER_ALL_THREADS_20260525.md` 选择性上传成果和过程日志到 GitHub。上传前必须生成 scope 清单、做敏感信息扫描、记录 commit/branch，不得在仍有运行中或假闭环时提前 push。
