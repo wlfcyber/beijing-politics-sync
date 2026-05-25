@@ -12,11 +12,18 @@ Closed in this checkpoint:
 - GPT Pro was run as the V2 main fusion editor and returned `V2_STRICT_ACCEPTED`.
 - GPT Pro found no must-fix patch and accepted the wording that the artifact may be registered as a Codex + ClaudeCode Opus double-thick-draft, GPT Pro main-fusion, Claude Opus second-review, Codex evidence-check final candidate, subject to the stated coverage limit.
 
-Still open:
+Closed after the checkpoint:
 
-- Claude Opus 4.7 Adaptive V2 second review has not returned a fresh V2 verdict in this run.
-- The old Claude review chat accepted the message and attachments but returned network/response-environment errors.
-- A fresh Claude page was opened and the model selector displayed `Opus 4.7 Adaptive`, but automated file submission hit a file-chooser timeout during the checkpoint push window.
+- Claude Opus 4.7 Adaptive V2 second review was rerun in a fresh Claude chat after the checkpoint push.
+- Result file: `CLAUDE_OPUS47_V2_SECOND_REVIEW_RESULT_20260525.md`.
+- Claude returned `STRICT_V2_ACCEPTED`.
+- Claude found no must-fix patch.
+- Claude accepted the GPT Pro main-fusion role and accepted the coverage limitation wording.
+
+Still open for the larger final-goal upgrade:
+
+- This V2 second-review closure proves the current SHA within the 104-row P0 candidate/adjudication universe.
+- It still does not prove a fresh recrawl of every Desktop source file across all 2024-2026 materials.
 
 ## Cause of the apparent regression
 
@@ -24,4 +31,4 @@ The earlier afternoon state had already closed the weaker final-quality external
 
 ## Next action after checkpoint
 
-Resume Claude Opus 4.7 Adaptive second review from a fresh Claude chat, capture the returned verdict into `CLAUDE_OPUS47_V2_SECOND_REVIEW_RESULT_20260525.md`, then run the final Codex evidence check and push the closure update.
+Run the next P1 hardening task: full-source recrawl / all-source inventory audit against every 2024-2026 Desktop source, then compare that source universe with the 104-row P0 candidate/adjudication universe and current final SHA.
