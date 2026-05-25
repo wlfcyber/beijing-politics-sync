@@ -1,0 +1,368 @@
+2026-05-25T03:23:20.702Z [DEBUG] MDM settings load completed in 7ms
+2026-05-25T03:23:20.713Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\.claude\settings.json
+2026-05-25T03:23:20.713Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\.claude\settings.local.json
+2026-05-25T03:23:20.713Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-05-25T03:23:20.714Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-05-25T03:23:20.714Z [DEBUG] [init] configureGlobalMTLS starting
+2026-05-25T03:23:20.714Z [DEBUG] [init] configureGlobalMTLS complete
+2026-05-25T03:23:20.714Z [DEBUG] [init] configureGlobalAgents starting
+2026-05-25T03:23:20.714Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-25T03:23:20.715Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-25T03:23:20.719Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-25T03:23:20.719Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-25T03:23:20.720Z [DEBUG] [init] configureGlobalAgents complete
+2026-05-25T03:23:20.720Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-05-25T03:23:20.721Z [DEBUG] Error log sink initialized
+2026-05-25T03:23:20.724Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-05-25T03:23:20.726Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-05-25T03:23:20.726Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-05-25T03:23:20.736Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-05-25T03:23:20.736Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-25T03:23:20.737Z [DEBUG] [STARTUP] Running setup()...
+2026-05-25T03:23:20.738Z [DEBUG] Loading skills from: managed=C:\Program Files\ClaudeCode\.claude\skills, user=C:\Users\Administrator\.claude\skills, project=[]
+2026-05-25T03:23:20.739Z [DEBUG] Error log sink initialized
+2026-05-25T03:23:20.739Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-05-25T03:23:20.739Z [DEBUG] Total plugin skills loaded: 0
+2026-05-25T03:23:20.739Z [DEBUG] Total plugin commands loaded: 0
+2026-05-25T03:23:20.740Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-05-25T03:23:20.740Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\commands: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\commands'
+2026-05-25T03:23:20.740Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\commands: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\commands'
+2026-05-25T03:23:20.740Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-05-25T03:23:20.740Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 10 bundled skills, 0 builtin plugin skills
+2026-05-25T03:23:20.741Z [DEBUG] [STARTUP] setup() completed in 4ms
+2026-05-25T03:23:20.741Z [DEBUG] Cleared CA certificates cache
+2026-05-25T03:23:20.741Z [DEBUG] Cleared mTLS configuration cache
+2026-05-25T03:23:20.741Z [DEBUG] Cleared proxy agent cache
+2026-05-25T03:23:20.741Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-25T03:23:20.741Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-25T03:23:20.741Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-25T03:23:20.742Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-25T03:23:20.742Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-05-25T03:23:20.748Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\agents: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\agents'
+2026-05-25T03:23:20.748Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\agents: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\agents'
+2026-05-25T03:23:20.748Z [DEBUG] Total plugin agents loaded: 0
+2026-05-25T03:23:20.748Z [DEBUG] [STARTUP] Commands and agents loaded in 6ms
+2026-05-25T03:23:20.749Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-05-25T03:23:20.749Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-05-25T03:23:20.749Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-05-25T03:23:20.749Z [DEBUG] Starting background startup prefetches
+2026-05-25T03:23:20.749Z [DEBUG] [Bootstrap] Fetching
+2026-05-25T03:23:20.749Z [DEBUG] Passes: Using fresh cached eligibility data
+2026-05-25T03:23:20.749Z [DEBUG] [STARTUP] MCP configs resolved in 10ms (awaited at +23ms)
+2026-05-25T03:23:20.750Z [DEBUG] Total LSP servers loaded: 0
+2026-05-25T03:23:20.751Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-05-25T03:23:20.752Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-05-25T03:23:20.752Z [DEBUG] LSP manager initialized with 0 servers
+2026-05-25T03:23:20.752Z [DEBUG] Cleared CA certificates cache
+2026-05-25T03:23:20.752Z [DEBUG] Cleared mTLS configuration cache
+2026-05-25T03:23:20.752Z [DEBUG] Cleared proxy agent cache
+2026-05-25T03:23:20.752Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-25T03:23:20.752Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-25T03:23:20.752Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-25T03:23:20.752Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-25T03:23:20.752Z [DEBUG] LSP server manager initialized successfully
+2026-05-25T03:23:20.752Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-05-25T03:23:20.755Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:20.756Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-05-25T03:23:20.756Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-05-25T03:23:20.761Z [DEBUG] Git remote URL: https://github.com/wlfcyber/beijing-politics-sync.git
+2026-05-25T03:23:20.762Z [DEBUG] Parsed repository: github.com/wlfcyber/beijing-politics-sync from URL: https://github.com/wlfcyber/beijing-politics-sync.git
+2026-05-25T03:23:20.807Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe)
+2026-05-25T03:23:20.807Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: C:\\Users\\Administrator\\.claude\\plugins\\cache: IO error for operation on C:\\Users\\Administrator\\.claude\\plugins\\cache: 系统找不到指定的路径。 (os error 3)\n), 0 results"
+2026-05-25T03:23:21.763Z [DEBUG] [MCP] claude.ai connectors config fetch not ready after 1000ms — proceeding; background connection continues
+2026-05-25T03:23:21.768Z [DEBUG] Grove: Using fresh cached config
+2026-05-25T03:23:21.771Z [DEBUG] Watching for changes in setting files C:\Users\Administrator\.claude\settings.json...
+2026-05-25T03:23:21.958Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-4-7 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-05-25T03:23:22.028Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-05-25T03:23:22.090Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)
+2026-05-25T03:23:22.097Z [DEBUG] [Bootstrap] Fetch ok
+2026-05-25T03:23:22.097Z [DEBUG] [Bootstrap] Cache unchanged, skipping write
+2026-05-25T03:23:23.217Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-05-25T03:23:23.218Z [DEBUG] installPluginsForHeadless: starting
+2026-05-25T03:23:23.218Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-25T03:23:23.219Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-05-25T03:23:23.219Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:23:23.219Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.220Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.220Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:23:23.220Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:23:23.223Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:23:23.223Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.224Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=675e18fd-0754-4210-9117-e645b361578d source=generate_session_title
+2026-05-25T03:23:23.225Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\output-styles: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\output-styles'
+2026-05-25T03:23:23.225Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\output-styles: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\output-styles'
+2026-05-25T03:23:23.225Z [DEBUG] Total plugin output styles loaded: 0
+2026-05-25T03:23:23.227Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:23:23.228Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:23:23.228Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-05-25T03:23:23.229Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.230Z [DEBUG] autocompact: tokens=1038 threshold=967000 effectiveWindow=980000
+2026-05-25T03:23:23.231Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:23:23.232Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:23:23.232Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.232Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.232Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:23:23.233Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:23:23.233Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:23:23.233Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:23.234Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=9abf169a-e8b3-4f8c-af33-5f838c71dc83 source=sdk
+2026-05-25T03:23:25.350Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:23:26.620Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:23:27.154Z [DEBUG] [mcp-registry] Loaded 197 official MCP URLs (legacy)
+2026-05-25T03:23:41.172Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01JZQ3aRpZHPSDKondmixqE6 permissionDecisionMs=2
+2026-05-25T03:23:41.174Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01JZQ3aRpZHPSDKondmixqE6 outcome=ok durationMs=2
+2026-05-25T03:23:42.354Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_011DB7snnKrpxkr9xNs8uGzB permissionDecisionMs=1
+2026-05-25T03:23:42.354Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_011DB7snnKrpxkr9xNs8uGzB outcome=ok durationMs=0
+2026-05-25T03:23:42.403Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:23:42.404Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:23:42.411Z [DEBUG] autocompact: tokens=17741 threshold=967000 effectiveWindow=980000
+2026-05-25T03:23:42.411Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:23:42.411Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:23:42.412Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:42.412Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:42.412Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:23:42.412Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:23:42.412Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:23:42.412Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:42.413Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=f18d62ec-b8bf-497d-a8f9-186aa314aa6d source=sdk
+2026-05-25T03:23:44.907Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:23:51.589Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01QqaSaYDFQm5kZ5bZWW5iD4 permissionDecisionMs=1
+2026-05-25T03:23:51.619Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01QqaSaYDFQm5kZ5bZWW5iD4 outcome=ok durationMs=30
+2026-05-25T03:23:54.220Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01L2pULpeqTiqYMjQToSoMg6 permissionDecisionMs=1
+2026-05-25T03:23:54.250Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01L2pULpeqTiqYMjQToSoMg6 outcome=ok durationMs=30
+2026-05-25T03:23:56.878Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01CmjRYH36bUZq7pqYBFeF9j permissionDecisionMs=1
+2026-05-25T03:23:56.909Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01CmjRYH36bUZq7pqYBFeF9j outcome=ok durationMs=31
+2026-05-25T03:23:59.171Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01Gocmxf4H895TF6aCMEguqP permissionDecisionMs=1
+2026-05-25T03:23:59.200Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01Gocmxf4H895TF6aCMEguqP outcome=ok durationMs=29
+2026-05-25T03:23:59.299Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:23:59.299Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:23:59.300Z [DEBUG] autocompact: tokens=20637 threshold=967000 effectiveWindow=980000
+2026-05-25T03:23:59.300Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:23:59.301Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:23:59.301Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:59.301Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:59.301Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:23:59.301Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:23:59.301Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:23:59.302Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:23:59.302Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=5ebe1e9b-c211-452f-843a-792c6079a694 source=sdk
+2026-05-25T03:24:02.442Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:24:09.383Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_017djKRhwiFY8Xr7GXsw4A2w permissionDecisionMs=1
+2026-05-25T03:24:09.412Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_017djKRhwiFY8Xr7GXsw4A2w outcome=ok durationMs=29
+2026-05-25T03:24:11.559Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01BMzG5qA9Gvejr1JGSVjoM6 permissionDecisionMs=1
+2026-05-25T03:24:11.589Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01BMzG5qA9Gvejr1JGSVjoM6 outcome=ok durationMs=30
+2026-05-25T03:24:13.626Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_014y9oJ9CUFyM9y8bAdmMrUC permissionDecisionMs=1
+2026-05-25T03:24:13.655Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_014y9oJ9CUFyM9y8bAdmMrUC outcome=ok durationMs=29
+2026-05-25T03:24:15.735Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01KFUZYTLSNnEnq3kHSPGKtk permissionDecisionMs=1
+2026-05-25T03:24:15.766Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01KFUZYTLSNnEnq3kHSPGKtk outcome=ok durationMs=31
+2026-05-25T03:24:17.895Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_019urM9pVigq7WoC1SMDR7g8 permissionDecisionMs=1
+2026-05-25T03:24:17.926Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_019urM9pVigq7WoC1SMDR7g8 outcome=ok durationMs=31
+2026-05-25T03:24:19.990Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01Q1qmpwpvLMpR225mPQjR68 permissionDecisionMs=1
+2026-05-25T03:24:20.021Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01Q1qmpwpvLMpR225mPQjR68 outcome=ok durationMs=31
+2026-05-25T03:24:21.872Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01DC4oycMmsDDAgJqja6rJoQ permissionDecisionMs=2
+2026-05-25T03:24:21.902Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01DC4oycMmsDDAgJqja6rJoQ outcome=ok durationMs=30
+2026-05-25T03:24:21.906Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:24:21.906Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:24:21.907Z [DEBUG] autocompact: tokens=23152 threshold=967000 effectiveWindow=980000
+2026-05-25T03:24:21.907Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:24:21.907Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:24:21.907Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:24:21.908Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:24:21.908Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:24:21.908Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:24:21.908Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:24:21.908Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:24:21.909Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=dfe5eef6-16cf-4811-a929-57ba060ce95b source=sdk
+2026-05-25T03:24:33.769Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:24:37.481Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01FC7F3DbKtziWrZqshpXpxx permissionDecisionMs=1
+2026-05-25T03:24:37.511Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01FC7F3DbKtziWrZqshpXpxx outcome=ok durationMs=30
+2026-05-25T03:24:40.128Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01Vi1CfVVYy8gbhFak6CwPnJ permissionDecisionMs=1
+2026-05-25T03:24:40.158Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01Vi1CfVVYy8gbhFak6CwPnJ outcome=ok durationMs=30
+2026-05-25T03:24:42.766Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01PJ95bWxoHpN3FWwZs9Mk86 permissionDecisionMs=1
+2026-05-25T03:24:42.799Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01PJ95bWxoHpN3FWwZs9Mk86 outcome=ok durationMs=33
+2026-05-25T03:24:44.687Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01FWaQxfSeuTL3eMhkqbijrA permissionDecisionMs=1
+2026-05-25T03:24:44.688Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01FWaQxfSeuTL3eMhkqbijrA outcome=ok durationMs=1
+2026-05-25T03:24:44.741Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:24:44.741Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:24:44.745Z [DEBUG] autocompact: tokens=25497 threshold=967000 effectiveWindow=980000
+2026-05-25T03:24:44.745Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:24:44.746Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:24:44.746Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:24:44.746Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:24:44.746Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:24:44.746Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:24:44.746Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:24:44.747Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:24:44.747Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=da563088-d910-4b9b-a6d6-b264c0a4ab4c source=sdk
+2026-05-25T03:24:55.481Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:25:02.282Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01PLTayUNYoBXhQftEaRgzBH permissionDecisionMs=1
+2026-05-25T03:25:02.312Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01PLTayUNYoBXhQftEaRgzBH outcome=ok durationMs=30
+2026-05-25T03:25:04.282Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01Mz4xNtp26EPTxRyd9U6FTo permissionDecisionMs=1
+2026-05-25T03:25:04.285Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01Mz4xNtp26EPTxRyd9U6FTo outcome=ok durationMs=3
+2026-05-25T03:25:04.351Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:25:04.351Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:25:04.355Z [DEBUG] autocompact: tokens=29013 threshold=967000 effectiveWindow=980000
+2026-05-25T03:25:04.355Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:25:04.355Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:25:04.355Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:04.355Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:04.356Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:25:04.356Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:25:04.356Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:25:04.356Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:04.357Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=3d9f00d0-ab69-43ed-9a2c-0cf4ee509de7 source=sdk
+2026-05-25T03:25:13.464Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:25:18.353Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_015y4dAQgtPsTyPpn3sYqjT1 permissionDecisionMs=1
+2026-05-25T03:25:18.390Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_015y4dAQgtPsTyPpn3sYqjT1 outcome=ok durationMs=37
+2026-05-25T03:25:22.213Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_018LedUNa5iriRWjGKM4ShEE permissionDecisionMs=1
+2026-05-25T03:25:22.244Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_018LedUNa5iriRWjGKM4ShEE outcome=ok durationMs=31
+2026-05-25T03:25:24.195Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01NgrMVVz6PgFVve6vZKzynR permissionDecisionMs=2
+2026-05-25T03:25:24.227Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01NgrMVVz6PgFVve6vZKzynR outcome=ok durationMs=32
+2026-05-25T03:25:26.281Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_0127BDveVBZU7u7NNLVN36X4 permissionDecisionMs=1
+2026-05-25T03:25:26.313Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_0127BDveVBZU7u7NNLVN36X4 outcome=ok durationMs=32
+2026-05-25T03:25:29.820Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01Tr9hBs3hMRtd989xQRG3z7 permissionDecisionMs=2
+2026-05-25T03:25:29.857Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01Tr9hBs3hMRtd989xQRG3z7 outcome=ok durationMs=37
+2026-05-25T03:25:30.062Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:25:30.063Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:25:30.063Z [DEBUG] autocompact: tokens=34132 threshold=967000 effectiveWindow=980000
+2026-05-25T03:25:30.064Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:25:30.065Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:25:30.065Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:30.065Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:30.066Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:25:30.066Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:25:30.066Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:25:30.066Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:30.067Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=13230bd7-2d3e-4c71-bf50-426ed1468bc7 source=sdk
+2026-05-25T03:25:32.474Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:25:35.046Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01WmCT8fHuocq4QGm14g7FxF permissionDecisionMs=1
+2026-05-25T03:25:35.047Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01WmCT8fHuocq4QGm14g7FxF outcome=ok durationMs=1
+2026-05-25T03:25:36.708Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01AdGq94Dqp9bE7zxc1eXm7W permissionDecisionMs=1
+2026-05-25T03:25:36.709Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01AdGq94Dqp9bE7zxc1eXm7W outcome=ok durationMs=1
+2026-05-25T03:25:37.401Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01Q3DyUMkaN7sRpqHmQbPFqa permissionDecisionMs=1
+2026-05-25T03:25:37.401Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01Q3DyUMkaN7sRpqHmQbPFqa outcome=ok durationMs=0
+2026-05-25T03:25:37.437Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:25:37.437Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:25:37.446Z [DEBUG] autocompact: tokens=36290 threshold=967000 effectiveWindow=980000
+2026-05-25T03:25:37.446Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:25:37.447Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:25:37.447Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:37.447Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:37.447Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:25:37.447Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:25:37.447Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:25:37.447Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:37.448Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=8f8eeb0e-1881-441e-9cc2-8d5b0aab7de7 source=sdk
+2026-05-25T03:25:41.601Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:25:47.761Z [DEBUG] Grep tool validation error: Path does not exist: C:\Users\Administrator\Desktop\beijing_politics_research\data\preprocessed_corpus\texts\8d19592ca0679f21_2026顺义高三一模.txt. Note: your current working directory is C:\Users\Administr
+2026-05-25T03:25:49.713Z [DEBUG] "Permission suggestions for Grep: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/data/preprocessed_corpus/texts/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:25:49.714Z [DEBUG] Skipping auto mode classifier for Grep: tool is on the safe allowlist
+2026-05-25T03:25:49.714Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01Ldtyxj14ATUW1MR7VZYKKx permissionDecisionMs=2
+2026-05-25T03:25:49.744Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01Ldtyxj14ATUW1MR7VZYKKx outcome=ok durationMs=30
+2026-05-25T03:25:49.825Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:25:49.825Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:25:49.826Z [DEBUG] autocompact: tokens=39136 threshold=967000 effectiveWindow=980000
+2026-05-25T03:25:49.826Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:25:49.827Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:25:49.827Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:49.827Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:49.827Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:25:49.827Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:25:49.827Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:25:49.827Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:25:49.828Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=acaf7385-74bb-4443-a1cf-503200f34816 source=sdk
+2026-05-25T03:25:56.230Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:26:06.796Z [DEBUG] "Permission suggestions for Read: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/data/preprocessed_corpus/texts/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:26:06.797Z [DEBUG] Skipping auto mode classifier for Read: tool is on the safe allowlist
+2026-05-25T03:26:06.798Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_0144A7afZFtvedKYfgAVsNvx permissionDecisionMs=3
+2026-05-25T03:26:06.799Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_0144A7afZFtvedKYfgAVsNvx outcome=ok durationMs=1
+2026-05-25T03:26:07.807Z [DEBUG] "Permission suggestions for Grep: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/data/preprocessed_corpus/texts/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:26:07.808Z [DEBUG] Skipping auto mode classifier for Grep: tool is on the safe allowlist
+2026-05-25T03:26:07.808Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01CyH7ceqX3RAhL8Cgt7qEbR permissionDecisionMs=2
+2026-05-25T03:26:07.849Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01CyH7ceqX3RAhL8Cgt7qEbR outcome=ok durationMs=41
+2026-05-25T03:26:07.850Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:26:07.851Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:26:07.851Z [DEBUG] autocompact: tokens=40835 threshold=967000 effectiveWindow=980000
+2026-05-25T03:26:07.851Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:26:07.852Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:26:07.852Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:26:07.852Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:26:07.852Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:26:07.852Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:26:07.852Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:26:07.853Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:26:07.853Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=51620fd4-4588-40ba-9792-1170c4b41e0a source=sdk
+2026-05-25T03:26:33.768Z [WARN] [Stall] stream_idle_partial lastChunkAgeMs=15000 bytesTotal=0 idleDeadlineMs=300000
+2026-05-25T03:26:37.860Z [WARN] Slow first byte: no stream chunk 30.0s after request sent (attempt 1)
+2026-05-25T03:26:40.624Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:26:51.174Z [DEBUG] "Permission suggestions for Grep: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:26:51.174Z [DEBUG] Skipping auto mode classifier for Grep: tool is on the safe allowlist
+2026-05-25T03:26:51.175Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01MYsX9vzaR2ZNUEj3BSdtzL permissionDecisionMs=3
+2026-05-25T03:26:51.218Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01MYsX9vzaR2ZNUEj3BSdtzL outcome=ok durationMs=43
+2026-05-25T03:26:56.593Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_019GDY5rS2VNbjRzpJhj2q5B permissionDecisionMs=1
+2026-05-25T03:26:56.625Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_019GDY5rS2VNbjRzpJhj2q5B outcome=ok durationMs=32
+2026-05-25T03:26:58.649Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_013S8KpJMgsNxFYH546Ha7Dk permissionDecisionMs=0
+2026-05-25T03:26:58.678Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_013S8KpJMgsNxFYH546Ha7Dk outcome=ok durationMs=29
+2026-05-25T03:27:00.379Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01Ng9EzPAfnd3YW877FHYGM6 permissionDecisionMs=1
+2026-05-25T03:27:00.414Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01Ng9EzPAfnd3YW877FHYGM6 outcome=ok durationMs=35
+2026-05-25T03:27:00.489Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:27:00.489Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:27:00.490Z [DEBUG] autocompact: tokens=45737 threshold=967000 effectiveWindow=980000
+2026-05-25T03:27:00.490Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:27:00.491Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:27:00.491Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:00.491Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:00.491Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:27:00.491Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:27:00.491Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:27:00.491Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:00.492Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=7e477fbd-0491-476b-baa1-1a0555dc83a3 source=sdk
+2026-05-25T03:27:08.573Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:27:10.952Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01DEXqWADPQeAmA789dV5vgD permissionDecisionMs=1
+2026-05-25T03:27:10.983Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01DEXqWADPQeAmA789dV5vgD outcome=ok durationMs=31
+2026-05-25T03:27:13.053Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01HBPBJkYzgcoQsscaRWRKje permissionDecisionMs=1
+2026-05-25T03:27:13.084Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01HBPBJkYzgcoQsscaRWRKje outcome=ok durationMs=31
+2026-05-25T03:27:15.139Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_013HxA3hCEz2Lpkj5wRVUD5e permissionDecisionMs=1
+2026-05-25T03:27:15.168Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_013HxA3hCEz2Lpkj5wRVUD5e outcome=ok durationMs=29
+2026-05-25T03:27:16.290Z [DEBUG] "Permission suggestions for Read: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/data/preprocessed_corpus/gpt_sources/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:27:16.291Z [DEBUG] Skipping auto mode classifier for Read: tool is on the safe allowlist
+2026-05-25T03:27:16.291Z [INFO] [Stall] tool_dispatch_start tool=Read toolUseId=toolu_01JYks4djhuhBhPUhDQshNTG permissionDecisionMs=2
+2026-05-25T03:27:16.292Z [INFO] [Stall] tool_dispatch_end tool=Read toolUseId=toolu_01JYks4djhuhBhPUhDQshNTG outcome=ok durationMs=1
+2026-05-25T03:27:16.328Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:27:16.328Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:27:16.329Z [DEBUG] autocompact: tokens=48010 threshold=967000 effectiveWindow=980000
+2026-05-25T03:27:16.329Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:27:16.330Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:27:16.330Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:16.330Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:16.330Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:27:16.330Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:27:16.331Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:27:16.331Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:16.332Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=a72cc4de-078e-45e3-9a4f-9266710024bd source=sdk
+2026-05-25T03:27:20.631Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:27:25.019Z [DEBUG] "Permission suggestions for Grep: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/data/preprocessed_corpus/gpt_sources/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:27:25.020Z [DEBUG] Skipping auto mode classifier for Grep: tool is on the safe allowlist
+2026-05-25T03:27:25.020Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01AdWtgoVVHQh5Cx7xtSPbAJ permissionDecisionMs=2
+2026-05-25T03:27:25.050Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01AdWtgoVVHQh5Cx7xtSPbAJ outcome=ok durationMs=30
+2026-05-25T03:27:26.817Z [DEBUG] "Permission suggestions for Grep: [\n  {\n    \"type\": \"addRules\",\n    \"rules\": [\n      {\n        \"toolName\": \"Read\",\n        \"ruleContent\": \"//c/Users/Administrator/Desktop/beijing_politics_research/data/preprocessed_corpus/gpt_sources/**\"\n      }\n    ],\n    \"behavior\": \"allow\",\n    \"destination\": \"session\"\n  }\n]"
+2026-05-25T03:27:26.818Z [DEBUG] Skipping auto mode classifier for Grep: tool is on the safe allowlist
+2026-05-25T03:27:26.818Z [INFO] [Stall] tool_dispatch_start tool=Grep toolUseId=toolu_01PQT2KakkhiMswYrWtebYtH permissionDecisionMs=2
+2026-05-25T03:27:26.847Z [INFO] [Stall] tool_dispatch_end tool=Grep toolUseId=toolu_01PQT2KakkhiMswYrWtebYtH outcome=ok durationMs=29
+2026-05-25T03:27:26.933Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-25T03:27:26.933Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-25T03:27:26.934Z [DEBUG] autocompact: tokens=50853 threshold=967000 effectiveWindow=980000
+2026-05-25T03:27:26.934Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-25T03:27:26.934Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.216; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-25T03:27:26.934Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:26.935Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:26.935Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-25T03:27:26.935Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-25T03:27:26.935Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-25T03:27:26.935Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:27:26.936Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=401fa112-8759-4c0b-89c0-e8c43b8b3068 source=sdk
+2026-05-25T03:27:45.031Z [WARN] [Stall] stream_idle_partial lastChunkAgeMs=15025 bytesTotal=0 idleDeadlineMs=300000
+2026-05-25T03:27:56.961Z [WARN] Slow first byte: no stream chunk 30.0s after request sent (attempt 1)
+2026-05-25T03:27:58.059Z [DEBUG] Stream started - received first chunk
+2026-05-25T03:28:44.046Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-25T03:28:44.048Z [DEBUG] LSP server manager shut down successfully
