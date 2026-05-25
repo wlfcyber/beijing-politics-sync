@@ -1,69 +1,80 @@
-> SUPERSEDED FOR CURRENT FINAL SHA: This file describes an older final state before the 2026 Shijingshan-final hard-exclusion repair and duplicate-core merge. Do not cite its `141/372/380` counts or GPT Pro `STRICT_FINAL_ACCEPTED` as applying to the current final. Current local baseline is `P2_FINAL_LOCAL_GOVERNOR_STATUS_20260525_105245.md`, SHA `CF5B597E3B05358F02F0A5B0FD61670A3419A8AC21CA62B94EBD71E00231B5AD`; current ClaudeCode P2 recheck is `CLAUDECODE_OPUS47_P2_RECHECK_CAPTURE_20260525_1053.json`. GPT Pro and Claude Desktop app gates remain pending for this SHA.
-
 # 选必一终稿验收状态与故障原因记录（2026-05-25）
 
-## 1. 为什么下午还能跑，后来又断了
-
-本地终稿没有丢，也不是正文倒退。断点出在外部审核通道：
-
-- Claude Windows 应用端从可用状态退化为白屏/登录态异常。日志和现场恢复显示，问题集中在本地应用缓存、Web 状态、代理/网络路径与登录态握手；白屏已恢复到登录/账号选择页，但仍需要用户侧完成账号选择，不能由 Codex 代点。
-- Chrome/网页通道曾卡在 Google/OpenAI 登录链路，无法作为稳定的 GPT Pro 上传通道。
-- ChatGPT Desktop 仍可用，并确认是 Pro 模式，因此最终 GPT Pro 审核链路改走 ChatGPT Desktop。
-
-结论：下午“还好好的”是因为外部应用会话当时还在；后来本机应用状态和登录态断裂，导致 Claude 应用审核不能继续。正文文件本身一直可恢复、可校验。
-
-## 2. 当前终稿
+## 1. 当前终稿
 
 - 终稿源文件：`reports/选必一_哲学宝典式重建_2026-05-16/12_external_acceptance_bixiu4_benchmark_2026-05-24/04_v7_rescue_fusion/选必一_当代国际政治与经济_主观题术语宝典_学生版_FINAL_20260525.md`
 - 桌面短文件名副本：`C:\Users\Administrator\Desktop\xuanbiyi_final_20260525.md`
-- SHA256：`E7043252D04AA265F2D48E7520DEC85DCAFD5018F0A527B327BF735DB9CFE5FF`
+- SHA256：`9963553832C57091832BC446326DE802FFD459B0FE1897C3247398EA02D7648A`
+- 两份文件 SHA 一致。
 
-本地硬指标复扫：
+## 2. 本地硬指标复扫
 
-- 核心答题点：141
-- 核心题例期望数：372
-- 核心题例实际数：372
-- 全文 `###`：380
-- 频次不匹配：0
-- `2025西城二模Q20(2)` 残留：0
-- `2024东城一模Q16` 主链内出现：0
-- `2024东城一模Q16` 边界独立题例：1
-- TODO/待补/待核/FIXME：0
-- 内部调试标记：0
-- 混题标题：0
-- `和平与发展仍是时代主题（出现18次）` 编号：1-18 连续
-- `推动构建人类命运共同体（出现10次）` 编号：1-10 连续
+- 核心答题点：136
+- 出现次数合计：362
+- 实际独立 `###` 题例：362
+- 频次不一致：0
+- 同一核心点内重复题号：0
+- 学生正文内部残留（`资料路径` / `TODO` / `FIXME` / `待补` / `待核` / 本机路径 / debug）：0
+- `"两区"` 与 `"卡脖子"` 的 ASCII 直引号残留：0
 
-## 3. GPT Pro 审核链
+## 3. 本轮故障根因
 
-已真实走 ChatGPT Desktop / GPT Pro：
+下午能跑、后来“看起来没提交”的直接原因，不是终稿文件丢失，也不是账号内容倒退，而是外部审核页面的提交动作没有闭环：
 
-- `GPTPRO_DESKTOP_FULLFILE_REVIEW_CAPTURE_20260525_1012.md`：GPT Pro 第一轮全文审查为 `FAIL_MUST_PATCH`，指出 Q16 边界、经济全球化拆分、WTO/开放型世界经济解释缺失、零关税题号等硬伤。
-- `GPTPRO_POST_PATCH_FUSION_REVIEW_CAPTURE_20260525_1008.md`：补丁后 GPT Pro 判定 `PASS_WITH_MINOR_PATCH`，只剩附录 Q16 独立结构和两处编号连续性问题。
-- `GPTPRO_FINAL_PATCH_CONFIRM_UIA_TEXT_20260525.md`：三处小修完成后，GPT Pro 最终确认 `VERDICT: STRICT_FINAL_ACCEPTED`。
+- 早先接管到的 Chrome 标签有一部分来自临时/代理配置窗口或自动化会话，深层页面操作不稳定。
+- 后续切换到正常登录态 Chrome 标签后，GPT Pro 与 Claude Opus 页面的文件和提示都曾停在输入框/附件框里；页面正文能看到内容，但没有真正点击发送。
+- 解决方式：改为接管用户正常登录态标签，截图核对“输入框 vs 已发送消息”状态，逐一点击发送按钮，再等待模型给出新版 verdict。
+
+## 4. GPT Pro 审核链
+
+已真实提交到 ChatGPT / GPT Pro 页面，使用修正版附件 `xuanbiyi_final_20260525(2).md`，对应 SHA `9963553832C57091832BC446326DE802FFD459B0FE1897C3247398EA02D7648A`。
+
+新版复核结论：
+
+- `VERDICT: PASS_WITH_MINOR_PATCH`
+- `must_fix_items`：无，上轮 5 个 must-fix 已全部关闭。
+- GPT Pro 确认已关闭：
+  - 政治多极化 H1 错位；
+  - “推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展”重复计数；
+  - “新型国际关系”同核心重复题例；
+  - 2025朝阳二模Q21 与 2025朝阳期末Q21 的归位；
+  - 学生正文内部语言。
+- GPT Pro 复核本地结构：136 个核心点、出现次数合计 362、独立 `###` 题例 362、频次不一致 0、同一核心点内重复题号 0、内部残留 0。
 
 GPT Pro 最终可宣称口径：
 
-> 当前终稿已完成 Codex + ClaudeCode 两线融合；上一轮 GPT Pro 要求的三处小修已闭合，核心点计数一致、Q16 边界独立、两处编号连续、无残留 Q20(2)、无混题标题、无待办和调试标记；经 GPT Pro 最终补丁确认，判定为 `STRICT_FINAL_ACCEPTED`。
+> 新版已关闭上轮全部 must_fix，结构、计数、模块边界和学生正文纯净度均达到交付要求；可以作为最终版交付，若追求印刷级质量，再做少量句式压缩和事实出处回源即可。
 
-## 4. Claude 应用端状态
+## 5. Claude Opus 4.7 Adaptive 审核链
 
-Claude 应用端已经从白屏恢复到登录/账号选择步骤，但账号选择涉及用户身份，Codex 不能代点。
+已真实提交到 Claude 页面，模型显示为 `Opus 4.7 Adaptive`，使用修正版附件 `xuanbiyi_final_20260525.md`，对应 SHA `9963553832C57091832BC446326DE802FFD459B0FE1897C3247398EA02D7648A`。
 
-因此当前严谨状态是：
+新版复核结论：
 
-- ClaudeCode Opus 4.7 生产/审计证据：已有。
-- Claude Windows 应用端 Opus Adaptive 最终审核：仍为 `real_call_pending`，不能宣称已通过。
+- `VERDICT: STRICT_FINAL_ACCEPTED`
+- Claude 确认 M1 与 S1-S6 全部关闭。
+- Claude 确认：
+  - `# 政治多极化` 全文唯一，位于 `## 主链判断表` 前；
+  - 经济全球化后半段已归回 `# 经济全球化`；
+  - 136 / 362 / 362 / 0 mismatch / 0 dup 全部通过；
+  - `资料路径` 全文 0 命中；
+  - `"两区"`、`"卡脖子"` 的直引号问题关闭；
+  - 两个“联合国创始会员国和安理会常任理事国”标题已按不同角度区分。
 
-## 5. 当前可对用户说的话
+Claude 最终可宣称口径：
+
+> All M1 + S1-S6 closed. Final integrity sweep confirms zero question-fusion remnants, zero stray module headers, zero audit/debug leakage, and zero within-point duplicate 题号.
+
+## 6. 当前可对用户说的话
 
 可以说：
 
-- 终稿正文和结构硬指标已修干净。
-- GPT Pro 最终补丁确认已通过。
-- Claude 应用白屏问题已恢复到账号授权步骤。
+- 当前终稿正文和桌面副本一致，SHA 为 `9963553832C57091832BC446326DE802FFD459B0FE1897C3247398EA02D7648A`。
+- 本地结构硬指标已通过。
+- GPT Pro 已真实复核并确认无 must-fix，允许作为最终版交付。
+- Claude Opus 4.7 Adaptive 已真实复核并给出 `STRICT_FINAL_ACCEPTED`。
 
-不能说：
+仍需谨慎说：
 
-- 不能说 Claude 应用端 Opus Adaptive 已完成最终审核。
-- 不能说所有外部通道都完全恢复。
+- GPT Pro 给的是 `PASS_WITH_MINOR_PATCH`，不是 `STRICT_FINAL_ACCEPTED`；它的 minor patch 是风格和教师版事实出处回源，不是终稿硬伤。
+- 如果后续要做公开印刷级教师版，具体数字和新近事实仍应单独回源核验。
