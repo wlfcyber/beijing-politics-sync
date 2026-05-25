@@ -1,3 +1,5 @@
+> SUPERSEDED FOR CURRENT FINAL SHA: This file describes an older final state before the 2026 Shijingshan-final hard-exclusion repair and duplicate-core merge. Do not cite its `141/372/380` counts or GPT Pro `STRICT_FINAL_ACCEPTED` as applying to the current final. Current local baseline is `P2_FINAL_LOCAL_GOVERNOR_STATUS_20260525_105245.md`, SHA `CF5B597E3B05358F02F0A5B0FD61670A3419A8AC21CA62B94EBD71E00231B5AD`; current ClaudeCode P2 recheck is `CLAUDECODE_OPUS47_P2_RECHECK_CAPTURE_20260525_1053.json`. GPT Pro and Claude Desktop app gates remain pending for this SHA.
+
 # 选必一宝典最终验收与阻断说明
 
 时间：2026-05-25 02:32
