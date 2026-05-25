@@ -1,0 +1,71 @@
+# GPT Pro Review Packet V14
+
+Status: `prepared_not_submitted`
+
+This packet supersedes V13. Chrome submission is still blocked, so no real GPT Pro review has been captured. V14 adds the GAP005 source-lock decision for 2025东城期末 Q18(2), creating Q0044 as a formal innovation-thinking main-question row.
+
+## Read
+
+1. `PROGRESS.md`
+2. `06_claude_review/CLAUDE_EXTERNAL_REVIEW_RESULT_V3.md`
+3. `06_claude_review/EXTERNAL_REVIEW_STATUS.md`
+4. `05_gptpro_review/EXTERNAL_REVIEW_STATUS.md`
+5. `04_fusion/PROMOTION_QUALITY_CHECK.md`
+6. `04_fusion/PROMOTION_LOG.md`
+7. `01_source_inventory/COVERAGE_GAP.csv`
+8. `04_fusion/THINKING_BAODIAN_V2_BODY_DRAFT.md`
+9. `04_fusion/REASONING_BAODIAN_V2_BODY_DRAFT.md`
+10. `02_codex_lane/MAIN_THINKING_LEDGER.csv`
+11. `02_codex_lane/REASONING_FORM_LEDGER.csv`
+12. `02_codex_lane/CHOICE_TRAP_LEDGER.csv`
+13. `02_codex_lane/GAP008_DISJUNCTIVE_REASONING_SOURCE_LOCK.md`
+14. `02_codex_lane/GAP002_2026_HAIDIAN_Q17_QUESTIONNAIRE_SOURCE_LOCK.md`
+15. `02_codex_lane/GAP001_2024_CHAOYANG_ERMO_Q7_SOURCE_LOCK.md`
+16. `02_codex_lane/GAP007_2024_BEIJING_GAOKAO_Q19_2_SOURCE_AUDIT.md`
+17. `02_codex_lane/GAP003_2026_SHUNYI_YIMO_CHOICE_CORPUS_SOURCE_LOCK.md`
+18. `02_codex_lane/GAP004_2026_CHAOYANG_YIMO_CHOICE_CORPUS_SOURCE_LOCK.md`
+19. `02_codex_lane/GAP005_2025_MENTOUGOU_YIMO_Q21_1_SOURCE_LOCK.md`
+20. `02_codex_lane/GAP005_2025_FANGSHAN_YIMO_Q16_2_Q16_3_SOURCE_LOCK.md`
+21. `02_codex_lane/GAP005_2025_DONGCHENG_QIMO_Q18_2_SOURCE_LOCK.md`
+22. `04_fusion/BLOCKER_RECONCILIATION.md`
+
+## Post-Claude-V3 Patches To Check
+
+- Q0026 甲 “材料分析” third reason was verified directly against 2026西城一模细则 line 75 and synced to the backcheck and suite report.
+- MAIN/REASONING ledgers now have `rubric_source`.
+- Q0004/Q0017 have main-thinking ledger entries.
+- Q0019 wording is unified as “迁移或想象”.
+- Q0020 has a question-specific answer sentence.
+- GAP008 now has Q0027/Q0028 source-lock coverage: Q0027 is an A-formal valid 不相容选言推理 sample; Q0028 is a B-choice-signal invalid-trap sample.
+- GAP002 now has Q0022 full questionnaire detail source-locked from rendered paper page 5.
+- GAP001 now has Q0029 source-locked from 2024朝阳二模 paper and reference answer key: Q7 answer D, with A as the 三段论小项不当扩大 trap.
+- GAP007 now has Q0030 as a missing/audit row only: the scoring-reference signal exists in 2026丰台期末细则, but the original 2024北京高考 青海防沙治沙 question is not locked and a checked public 2024北京卷 PDF mismatches.
+- GAP003 now has Q1-Q15 fully classified from 2026顺义一模 paper and formal answer key. Q0031-Q0034/Q0036 are local choice-trap/source-lock rows; Q0035 is held as an answer-conflict row.
+- GAP004 now has Q1-Q15 fully classified from 2026朝阳一模 teacher-version paper and objective answer key. Q0037-Q0040 are local choice-trap/source-lock rows; Q0039 carries an old-index conflict but the teacher answer key gives D.
+- GAP005 now has Q0041 2025门头沟一模 Q21(1) source-locked from paper/teacher answer/formal marking rule. The prompt uses “科学思维知识”, while the formal marking rule gives辩证思维、创新思维、科学思维 three scoring families; this advances GAP009 composite expansion but does not close the 2025 backlog.
+- GAP005 now also has Q0042-Q0043 from 2025房山一模 Q16(2)-Q16(3). Q0042 is an A-formal 三段论构造 row. Q0043 is an A-formal 创新思维建议 row. The teacher-version answer says the original paper had no answer, so the formal marking-rule cache is the evidence authority.
+- GAP005 now also has Q0044 from 2025东城期末 Q18(2). Q0044 is an A-formal 创新思维体现 row about登月服 design, with formal marking-rule support for三新、发散与聚合、联想思维、超前思维.
+- `PROMOTION_QUALITY_CHECK.md` still holds all rows because Claude V3 is NOT_PASS and GPT Pro is pending.
+
+## Required Review
+
+Check whether the current state is ready for a next Claude review, not final release.
+
+Return:
+
+- Verdict: `not_final / conditionally_ready_for_claude_review / reject`.
+- P0 findings.
+- P1 findings.
+- Gate audit.
+- Coverage priorities.
+- Whether GAP001, GAP002, GAP003, GAP004, GAP005, GAP008, and GAP009 can be treated as `source_locked_pending_external_review` / `open_partial_source_locked_pending_external_review` or must remain `open`.
+- Whether Q0035 should remain conflict-held, be accepted under the official answer key, or be removed pending manual review.
+- Whether Q0039 can be accepted under the teacher answer key despite the old-index conflict.
+- Whether Q0041 correctly handles a scientific-thinking prompt whose formal rubric splits into辩证、创新、科学 sub-hats.
+- Whether Q0042 correctly formalizes the三段论构造 task without relying on a non-formal teacher answer.
+- Whether Q0043 correctly binds创新思维术语 to concrete suggestions rather than giving empty publicity advice.
+- Whether Q0044 correctly maps登月服 material actions to三新、发散与聚合、联想、超前 without drifting into generic航天成就 or文化自信.
+- Whether GAP007 is correctly held as `source_identified_original_question_not_locked` and excluded from the student-facing body.
+- Forbidden claims.
+
+Do not mark PASS.

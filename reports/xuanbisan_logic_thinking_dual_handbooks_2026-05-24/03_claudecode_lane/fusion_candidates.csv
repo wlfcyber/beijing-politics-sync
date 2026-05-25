@@ -1,0 +1,33 @@
+candidate_id,entry_id,book,framework_node,suite,question,part,evidence_level,confidence,fusion_action,note
+FC-MT-001,MT-2026SY-19-2-A,思维册,科学思维/客观性+预见性+可检验性,2026顺义一模,19,(2),A-formal,high,accept,硬样本-科学思维三性 触发链清晰
+FC-MT-002,MT-2025HD2-20-A,思维册,辩证思维/分析与综合+整体性+质量互变+动态性+辩证否定,2025海淀二模,20,,A-formal,high,accept,硬样本-辩证三层 + 评标实录补充
+FC-MT-003,MT-2026CYQZ-20-A,思维册,辩证思维/矛盾分析+分析与综合+质量互变+动态性,2026朝阳期中,20,,A-formal,high,accept,辩证四方法任选三层
+FC-MT-004,MT-2026CYQZ-21-2-A,思维册,创新思维/超前+联想+转换/逆向+三新+发散聚合,2026朝阳期中,21,(2),A-formal,high,accept,硬样本-创新思维复合
+FC-MT-005,MT-2026CY1-17-1-B,思维册,创新思维/联想思维/迁移与想象,2026朝阳一模,17,(1),A-formal,high,accept,联想思维-迁移与想象 设计应用
+FC-MT-006,MT-2026HD-QM-20-2-A,思维册,科学思维/超前思维/调查研究+矛盾分析+推理与想象,2026海淀期末,20,(2),A-formal,high,accept,超前思维三件套
+FC-MT-007,MT-2026HD1-17-2-A,思维册,科学思维+辩证思维+创新思维+逻辑思维 任选两个,2026海淀一模,17,(2),A-formal,high,accept,四类思维方法 调研改进
+FC-MT-008,MT-2024HD2-17-1-A,思维册,科学思维/客观性+探索性+整体安排,2024海淀二模,17,(1),A-formal,medium,review,需 Codex 回源核验 028/029 阅卷总结与本轮设问是否仍为单角度;BLK-001
+FC-CT-001,CT-2026TZ-11-A,思维册(选择题),思维抽象与思维具体,2026通州期末,11,,A-formal,high,accept,永久硬样本
+FC-CT-002,CT-2026TZ-09-A,思维册(选择题边界),数字化治理 vs 创新思维,2026通州期末,9,,A-formal,high,accept,边界陷阱
+FC-CT-003,CT-2024CY2-7-A,推理册(选择题),三段论小项不当扩大,2024朝阳二模,7,,A-formal,medium,review,选项与答案 letter 待回源;BLK-002
+FC-CT-004,CT-2025SY-7-A,推理册(选择题),三段论大项不当扩大+谬误名称纠错,2025顺义一模,7,,A-formal,medium,review,选项与答案 letter 待回源;BLK-003
+FC-RE-001,RE-2026SY-19-1-A,推理册,演绎推理-三段论保真双条件,2026顺义一模,19,(1),A-formal,high,accept,反例:量子科技
+FC-RE-002,RE-2026TZ-19-2-A,推理册,充分条件假言-肯前肯后(有效),2026通州期末,19,(2)①,A-formal,high,accept,正例
+FC-RE-003,RE-2026TZ-19-2-B,推理册,必要条件假言-肯前肯后(无效),2026通州期末,19,(2)②,A-formal,high,accept,反例
+FC-RE-004,RE-2026DC-17-2-A,推理册,矛盾律+联言判断,2026东城期末,17,(2)/主张1,A-formal,high,accept,形式逻辑综合-主张1
+FC-RE-005,RE-2026DC-17-2-B,推理册,充分条件假言被误用为必要条件,2026东城期末,17,(2)/主张2,A-formal,high,accept,形式逻辑综合-主张2
+FC-RE-006,RE-2026DC-17-2-C,推理册,三段论-中项不周延,2026东城期末,17,(2)/主张3,A-formal,high,accept,形式逻辑综合-主张3
+FC-RE-007,RE-2026DC-6-A,推理册(选择题),三段论补大前提保真,2026东城期末,6,,A-formal,high,accept,选择题正例
+FC-RE-008,RE-2026DC-7-A,推理册(选择题),矛盾律真假定位+多人发言真假题,2026东城期末,7,,A-formal,high,accept,选择题正例
+FC-RE-009,RE-2024CY1-20-1-A,推理册,充分条件假言-否后否前(有效),2024朝阳一模,20,(1),A-formal,medium,review,题面+替代表达 待 Codex 回源补
+FC-RE-010,RE-2024CY1-20-2-A,推理册,必要条件假言-肯后肯前(有效),2024朝阳一模,20,(2),A-formal,high,accept,写两条前提-题面已锁定
+FC-RE-011,RE-2024CY1-6-A,推理册(选择题),越级划分+排中律+矛盾律+四概念 综合,2024朝阳一模,6,,A-formal,high,accept,选择题正例
+FC-RE-012,RE-2026FT1-18-2-A,推理册,必要条件假言-肯后肯前(有效),2026丰台一模,18,(2)/甲,A-formal,high,accept,正例
+FC-RE-013,RE-2026FT1-18-2-B,推理册,三段论-大项不当扩大,2026丰台一模,18,(2)/乙,A-formal,high,accept,反例
+FC-RE-014,RE-2024CYQZ-18-A,推理册,不完全归纳(轻率概括)+类比推理,2024.11朝阳期中,18,,A-formal,high,accept,楚王/晏子双推理
+FC-RE-015,RE-2026CY1-17-1-A,推理册,不完全归纳推理识别,2026朝阳一模,17,(1)前半,A-formal,high,accept,与 MT-2026CY1-17-1-B 同题
+FC-RE-016,RE-2026HD-QM-20-1-A,推理册,充分条件假言-肯后肯前(无效),2026海淀期末,20,(1),A-formal,high,accept,反例
+FC-RE-017,RE-2026HD1-17-1-A,推理册,概念划分规则+选言判断完整性,2026海淀一模,17,(1),A-formal,high,accept,综合识别
+FC-RE-018,RE-2026XC1-19-3-A,推理册,三段论-四概念错误,2026西城一模,19,(3)/甲,A-formal,high,accept,反例
+FC-RE-019,RE-2026XC1-19-3-B,推理册,对当关系-反对关系,2026西城一模,19,(3)/乙,A-formal,high,accept,正例
+FC-RE-020,RE-2026XC1-19-3-C,推理册,同一律-偷换概念,2026西城一模,19,(3)/丙,A-formal,high,accept,反例

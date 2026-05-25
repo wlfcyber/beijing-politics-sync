@@ -1,0 +1,14 @@
+suite,year,district,stage,paper_path,rubric_path,evidence_level,status,notes
+2026顺义一模,2026,顺义,一模,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026顺义一模\试卷\2026顺义一模.pdf,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026顺义一模\细则\2026顺义一模细则.pptx,A-formal,extracted,Q19(1)三段论推理判断 Q19(2)科学思维三性 主观题细则已锁定
+2025海淀二模,2025,海淀,二模,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025海淀二模\试卷\2025北京海淀高三二模政治.pdf,C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025海淀二模\细则\2025海淀二模细则.docx,A-formal,extracted,Q20 辩证思维三层(分析综合/质量互变/辩证否定) + 评标实录补充
+2026朝阳期中,2026,朝阳,期中,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026朝阳期中\试卷\2025北京朝阳高三（上）期中政治（教师版）.pdf,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026朝阳期中\细则\2026朝阳期中细则.docx,A-formal,extracted,Q20 辩证思维四方法 Q21(2) 创新思维三方法 双思维主链
+2026通州期末,2026,通州,期末,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026通州期末\试卷\2026北京通州高三（上）期末政治（教师版）.pdf,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026通州期末\细则\2026通州期末细则.pptx,A-formal,extracted,Q11 思维抽象/思维具体 选择题陷阱 Q19(2) 充分/必要条件假言推理
+2026东城期末,2026,东城,期末,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026东城期末\试卷\2026北京东城高三（上）期末政治（教师版）.pdf,C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026东城期末\细则\2026东城期末细则.pptx,A-formal,extracted,Q6 三段论补前提 Q7 矛盾律真假表 Q17(2) 形式逻辑三主张 (矛盾律/充分假言/三段论中项不周)
+2024朝阳一模,2024,朝阳,一模,见preprocessed_corpus,见preprocessed_corpus\d64506799887753e_2024朝阳一模细则.md,A-formal,extracted,旧索引提示充分假言/必要假言两小问 待回源核验
+2024朝阳二模,2024,朝阳,二模,见preprocessed_corpus,见preprocessed_corpus\84218459671af8ac_2024朝阳二模细则.md,A-formal,extracted,旧索引提示小项不当扩大三段论
+2024海淀二模,2024,海淀,二模,见preprocessed_corpus,见preprocessed_corpus\227192d22e10241b_2024海淀二模细则.md,A-formal,extracted,Q17(1) 科学思维(全面/真实/客观/探索/整体) 旧版本已锁定为科学思维单角度设问
+2024.11朝阳期中,2024,朝阳,期中,C:\Users\Administrator\Desktop\beijing_politics_research\data\preprocessed_corpus\gpt_sources\0a50f76fd1e1c50f_202411朝阳高三政治_期中1试题.md,C:\Users\Administrator\Desktop\beijing_politics_research\data\preprocessed_corpus\gpt_sources\92a268ce852f6944_2024.11期中政治朝阳评标2.md,A-formal,extracted,选必三专题密集套卷 待回源
+2025西城二模,2025,西城,二模,见preprocessed_corpus,见preprocessed_corpus\cfb0f19ef38aafd7_2025西城二模细则.md,A-formal,extracted,旧索引提示充分条件假言推理 待回源
+2026丰台一模,2026,丰台,一模,见preprocessed_corpus,见preprocessed_corpus\26649804f1de31f5_2026丰台一模细则.md,A-formal,extracted,旧索引提示必要条件假言+三段论大项扩大
+2026朝阳一模,2026,朝阳,一模,见preprocessed_corpus,见preprocessed_corpus\3a11db4bade216d1_2026朝阳一模细则.md,A-formal,extracted,待回源处理
+2026石景山期末,2026,石景山,期末,N/A,N/A,excluded,excluded,用户已确认无可用细则 全模块排除 除非新源出现
