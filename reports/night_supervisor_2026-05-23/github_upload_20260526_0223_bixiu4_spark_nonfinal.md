@@ -2,7 +2,7 @@
 
 Timestamp: 2026-05-26 02:23 +08
 
-Status: `NONFINAL_ARCHIVE_PUSH_PREPARED`
+Status: `NONFINAL_ARCHIVE_PUSHED_AND_THREAD_PAUSED`
 
 ## Boundary
 
@@ -28,6 +28,9 @@ Required condition from user: `5.5 xhigh`.
 - Rehydrated process group stopped after the session wrote again:
   - `codex.exe` PID `11888`
   - `node_repl.exe` PID `9448`
+- The target thread still advanced after process kills and wrote a Batch22 attempt locally.
+- The Codex goals database was backed up, then the target thread goal was changed from `active` to `paused` at 2026-05-26 02:28 +08.
+- Backup: `C:\Users\Administrator\.codex\backups\goals_1_before_pause_bixiu4_spark_20260526_022835.sqlite`
 
 Authoritative stop marker:
 
@@ -108,3 +111,9 @@ Open gates:
 - current-version Claude Opus full-artifact review pending
 - model gate blocked because the active Codex line was Spark, not `5.5 xhigh`
 - not strict final
+
+## Post-Archive Overrun
+
+After the first archive push, the Spark line produced additional local Batch22 files and modified the delivery DOCX before the thread-goal state was paused. Those local post-stop changes are not included in the archive commit `2a8e08ee750d28106b042448d16bba8b22ee213a`, because they were created after the user's stop order and did not complete the render/QA/external-review gates.
+
+The GitHub archive should be read as the consistent viewable Spark preview at the upload point, not as the later unqualified local overrun.

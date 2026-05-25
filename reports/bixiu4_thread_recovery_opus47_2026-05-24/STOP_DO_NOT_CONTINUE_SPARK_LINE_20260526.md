@@ -32,3 +32,11 @@ Process stop record:
   - `codex.exe` PID `11888`
   - `node_repl.exe` PID `9448`
 - This file is the authoritative instruction if the desktop app rehydrates the thread again: the Spark line must not continue production.
+
+Goal-state stop record:
+
+- The target thread still advanced after process kills and wrote a Batch22 attempt locally.
+- The Codex goals database was backed up, then the target thread goal was changed from `active` to `paused` at 2026-05-26 02:28 +08.
+- Backup: `C:\Users\Administrator\.codex\backups\goals_1_before_pause_bixiu4_spark_20260526_022835.sqlite`
+- Target thread id: `019e5a7d-0e79-7643-a03d-2e7614d2acec`
+- Post-stop Batch22 local overrun is not qualified final evidence and is not part of the original nonfinal archive commit unless separately archived with explicit caveat.
