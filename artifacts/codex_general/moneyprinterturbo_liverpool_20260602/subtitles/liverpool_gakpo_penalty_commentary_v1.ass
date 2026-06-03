@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,STHeiti,56,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,1,0,0,0,100,100,0,0,1,4,1,2,42,42,96,1
+Style: Title,STHeiti,66,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,1,0,0,0,100,100,0,0,1,5,1,5,40,40,40,1
+Style: Small,STHeiti,28,&H00F1F1F1,&H000000FF,&H00000000,&H70000000,0,0,0,0,100,100,0,0,1,2,0,8,28,28,34,1
+Style: Tag,STHeiti,34,&H0000E5FF,&H000000FF,&H00000000,&H70000000,1,0,0,0,100,100,0,0,1,3,0,8,32,32,92,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:33.94,Small,,0,0,0,,通用足球素材 | 事实参考：Premier League / PGMOL
+Dialogue: 2,0:00:00.00,0:00:03.60,Title,,0,0,0,,利物浦点球争议\N官方解释 vs 球迷观感
+Dialogue: 2,0:00:06.80,0:00:12.20,Tag,,0,0,0,,Bournemouth v Liverpool | 2025.02.01
+Dialogue: 3,0:00:00.00,0:00:03.30,Caption,,0,0,0,,这不是英超原始转播画面
+Dialogue: 3,0:00:03.30,0:00:06.80,Caption,,0,0,0,,我们只看一个有官方解释的争议点
+Dialogue: 3,0:00:06.80,0:00:11.30,Caption,,0,0,0,,2025年2月1日 伯恩茅斯对利物浦
+Dialogue: 3,0:00:11.30,0:00:15.00,Caption,,0,0,0,,Gakpo 在禁区内倒地 主裁给了点球
+Dialogue: 3,0:00:15.00,0:00:19.50,Caption,,0,0,0,,赛后官方解释：接触影响了他的动作
+Dialogue: 3,0:00:19.50,0:00:23.00,Caption,,0,0,0,,所以这个点球被维持
+Dialogue: 3,0:00:23.00,0:00:27.40,Caption,,0,0,0,,争议在于：接触有 但力度够不够？
+Dialogue: 3,0:00:27.40,0:00:31.00,Caption,,0,0,0,,球员有没有主动寻找身体接触？
+Dialogue: 3,0:00:31.00,0:00:33.94,Caption,,0,0,0,,有官方解释 但观感确实刺眼

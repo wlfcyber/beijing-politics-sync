@@ -11,3 +11,4 @@
 3. 执行任务层：读取当前 run 目录的 `TASK_BRIEF.md`、`DEVELOPMENT_PLAN.md`、`PROGRESS.md`、ledger、governor/acceptance 文件后，只推进一个最小完整步骤。
 
 如果三层 SOP 缺失、报告过期、当前任务没有对应 run/control 文件，先补齐控制文件或写入 `BLOCKED`，不得直接根据记忆或旧成果动资料。
+

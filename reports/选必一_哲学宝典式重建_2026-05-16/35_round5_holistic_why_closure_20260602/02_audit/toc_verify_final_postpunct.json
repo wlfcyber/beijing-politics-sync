@@ -1,0 +1,292 @@
+{
+  "summary": {
+    "pdf_pages": 371,
+    "toc_items": 47,
+    "toc_ok": true,
+    "mismatches": []
+  },
+  "results": [
+    {
+      "label": "时代背景",
+      "listed": 3,
+      "actual": 3,
+      "ok": true
+    },
+    {
+      "label": "机遇",
+      "listed": 3,
+      "actual": 3,
+      "ok": true
+    },
+    {
+      "label": "挑战",
+      "listed": 17,
+      "actual": 17,
+      "ok": true
+    },
+    {
+      "label": "理论",
+      "listed": 19,
+      "actual": 19,
+      "ok": true
+    },
+    {
+      "label": "合作",
+      "listed": 19,
+      "actual": 19,
+      "ok": true
+    },
+    {
+      "label": "竞争",
+      "listed": 30,
+      "actual": 30,
+      "ok": true
+    },
+    {
+      "label": "国家安全",
+      "listed": 36,
+      "actual": 36,
+      "ok": true
+    },
+    {
+      "label": "经济全球化",
+      "listed": 43,
+      "actual": 43,
+      "ok": true
+    },
+    {
+      "label": "国：成员国和相关国家发展",
+      "listed": 43,
+      "actual": 43,
+      "ok": true
+    },
+    {
+      "label": "环：经济环节与要素流动",
+      "listed": 45,
+      "actual": 45,
+      "ok": true
+    },
+    {
+      "label": "配：资源配置",
+      "listed": 47,
+      "actual": 47,
+      "ok": true
+    },
+    {
+      "label": "贸资：贸易投资自由化便利化",
+      "listed": 49,
+      "actual": 49,
+      "ok": true
+    },
+    {
+      "label": "总：开放包容普惠平衡共赢方向",
+      "listed": 63,
+      "actual": 63,
+      "ok": true
+    },
+    {
+      "label": "开：高水平对外开放",
+      "listed": 89,
+      "actual": 89,
+      "ok": true
+    },
+    {
+      "label": "兼：国内国际两种资源两个市场",
+      "listed": 106,
+      "actual": 106,
+      "ok": true
+    },
+    {
+      "label": "国际分工、企业出海与国际竞争新优势",
+      "listed": 124,
+      "actual": 124,
+      "ok": true
+    },
+    {
+      "label": "全球经济治理与规则权益",
+      "listed": 130,
+      "actual": 130,
+      "ok": true
+    },
+    {
+      "label": "产业链供应链与开放安全",
+      "listed": 139,
+      "actual": 139,
+      "ok": true
+    },
+    {
+      "label": "数字经济、绿色转型与新兴领域",
+      "listed": 147,
+      "actual": 147,
+      "ok": true
+    },
+    {
+      "label": "贸易保护主义与多边贸易体制",
+      "listed": 154,
+      "actual": 154,
+      "ok": true
+    },
+    {
+      "label": "政治多极化",
+      "listed": 160,
+      "actual": 160,
+      "ok": true
+    },
+    {
+      "label": "新国关：新型国际关系",
+      "listed": 160,
+      "actual": 160,
+      "ok": true
+    },
+    {
+      "label": "完全治：完善全球治理",
+      "listed": 177,
+      "actual": 177,
+      "ok": true
+    },
+    {
+      "label": "共体：人类命运共同体",
+      "listed": 208,
+      "actual": 208,
+      "ok": true
+    },
+    {
+      "label": "单边/斥：反对单边主义等错误倾向",
+      "listed": 224,
+      "actual": 224,
+      "ok": true
+    },
+    {
+      "label": "民主：国际关系民主化",
+      "listed": 232,
+      "actual": 232,
+      "ok": true
+    },
+    {
+      "label": "世界多极化、全球南方与发展中国家",
+      "listed": 242,
+      "actual": 242,
+      "ok": true
+    },
+    {
+      "label": "国际秩序与国际法治",
+      "listed": 251,
+      "actual": 251,
+      "ok": true
+    },
+    {
+      "label": "具体治理议题与文明互鉴",
+      "listed": 253,
+      "actual": 253,
+      "ok": true
+    },
+    {
+      "label": "中国",
+      "listed": 255,
+      "actual": 255,
+      "ok": true
+    },
+    {
+      "label": "政策",
+      "listed": 255,
+      "actual": 255,
+      "ok": true
+    },
+    {
+      "label": "智慧",
+      "listed": 268,
+      "actual": 268,
+      "ok": true
+    },
+    {
+      "label": "责任",
+      "listed": 307,
+      "actual": 307,
+      "ok": true
+    },
+    {
+      "label": "一条历史线",
+      "listed": 343,
+      "actual": 343,
+      "ok": true
+    },
+    {
+      "label": "一条主线",
+      "listed": 348,
+      "actual": 348,
+      "ok": true
+    },
+    {
+      "label": "联合国",
+      "listed": 351,
+      "actual": 351,
+      "ok": true
+    },
+    {
+      "label": "多边主义/多极化场所",
+      "listed": 351,
+      "actual": 351,
+      "ok": true
+    },
+    {
+      "label": "联合国宪章宗旨和原则",
+      "listed": 352,
+      "actual": 352,
+      "ok": true
+    },
+    {
+      "label": "联合国发展议程与全球治理贡献",
+      "listed": 361,
+      "actual": 361,
+      "ok": true
+    },
+    {
+      "label": "中国与联合国关系",
+      "listed": 363,
+      "actual": 363,
+      "ok": true
+    },
+    {
+      "label": "六大要素术语极简速记版",
+      "listed": 365,
+      "actual": 365,
+      "ok": true
+    },
+    {
+      "label": "时代背景",
+      "listed": 365,
+      "actual": 365,
+      "ok": true
+    },
+    {
+      "label": "理论",
+      "listed": 365,
+      "actual": 365,
+      "ok": true
+    },
+    {
+      "label": "经济全球化",
+      "listed": 365,
+      "actual": 365,
+      "ok": true
+    },
+    {
+      "label": "政治多极化",
+      "listed": 367,
+      "actual": 367,
+      "ok": true
+    },
+    {
+      "label": "中国",
+      "listed": 368,
+      "actual": 368,
+      "ok": true
+    },
+    {
+      "label": "联合国",
+      "listed": 370,
+      "actual": 370,
+      "ok": true
+    }
+  ]
+}

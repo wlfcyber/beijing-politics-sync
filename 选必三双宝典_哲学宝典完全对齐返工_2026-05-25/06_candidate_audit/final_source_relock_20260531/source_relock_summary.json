@@ -1,0 +1,43 @@
+{
+  "total_entries": 84,
+  "status_counts": {
+    "kept_from_prior_adjudication": 21,
+    "source_locked_rubric_question_method": 36,
+    "source_locked_by_paper_question_and_rubric_method": 8,
+    "manual_review_needed_but_evidence_found": 15,
+    "source_locked_rubric_question_general": 1,
+    "BLOCK_RECHECK_OR_DROP": 3
+  },
+  "issue_status_counts": {
+    "nonP0::kept_from_prior_adjudication": 21,
+    "P0::source_locked_rubric_question_method": 23,
+    "P0::source_locked_by_paper_question_and_rubric_method": 5,
+    "P0::manual_review_needed_but_evidence_found": 15,
+    "nonP0::source_locked_rubric_question_method": 13,
+    "P0::source_locked_rubric_question_general": 1,
+    "P0::BLOCK_RECHECK_OR_DROP": 3,
+    "nonP0::source_locked_by_paper_question_and_rubric_method": 3
+  },
+  "blocked_idxs": [
+    31,
+    53,
+    59
+  ],
+  "manual_review_idxs": [
+    12,
+    16,
+    21,
+    28,
+    29,
+    35,
+    41,
+    43,
+    45,
+    46,
+    51,
+    52,
+    61,
+    73,
+    74
+  ]
+}

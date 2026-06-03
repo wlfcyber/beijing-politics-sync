@@ -1,0 +1,10 @@
+{
+  "entries": 235,
+  "by_status": {
+    "SOURCE_LOCATED_PENDING_HUMAN_PASS": 191,
+    "NEEDS_MANUAL_SURFACE_CHECK": 15,
+    "ISSUE_FIXED_DATA": 28,
+    "SOURCE_LOCATED_ANSWER_ONLY": 1
+  },
+  "hard_fixes": 29
+}

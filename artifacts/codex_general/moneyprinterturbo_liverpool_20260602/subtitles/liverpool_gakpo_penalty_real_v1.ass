@@ -1,0 +1,34 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,STHeiti,46,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,1,0,0,0,100,100,0,0,1,4,1,2,50,50,90,1
+Style: Title,STHeiti,58,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,1,0,0,0,100,100,0,0,1,5,1,5,36,36,34,1
+Style: Small,STHeiti,24,&H00F0F0F0,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,0,8,26,26,28,1
+Style: Tag,STHeiti,30,&H0000E5FF,&H000000FF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,3,0,8,32,32,82,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:38.88,Small,,0,0,0,,真实比赛画面 | NBC Sports 公开集锦 | Premier League / PGMOL 解释
+Dialogue: 2,0:00:00.00,0:00:04.20,Title,,0,0,0,,Gakpo 点球争议\N官方解释 vs 球迷观感
+Dialogue: 2,0:00:00.00,0:00:08.00,Tag,,0,0,0,,真实比赛画面
+Dialogue: 2,0:00:08.00,0:00:17.00,Tag,,0,0,0,,禁区接触
+Dialogue: 2,0:00:17.00,0:00:25.00,Tag,,0,0,0,,主裁判罚
+Dialogue: 2,0:00:25.00,0:00:35.00,Tag,,0,0,0,,VAR 检查
+Dialogue: 2,0:00:35.00,0:00:38.88,Tag,,0,0,0,,争议点
+Dialogue: 3,0:00:00.00,0:00:02.51,Caption,,0,0,0,,这次直接看\N真实比赛画面
+Dialogue: 3,0:00:02.51,0:00:05.87,Caption,,0,0,0,,2025年2月1日\N伯恩茅斯对利物浦
+Dialogue: 3,0:00:05.87,0:00:10.31,Caption,,0,0,0,,Gakpo 在禁区里\N和 Lewis Cook 接触后倒地
+Dialogue: 3,0:00:10.31,0:00:13.74,Caption,,0,0,0,,主裁 Darren England\N指向点球点
+Dialogue: 3,0:00:13.74,0:00:17.09,Caption,,0,0,0,,VAR 随后检查\N犯规和越位
+Dialogue: 3,0:00:17.09,0:00:19.19,Caption,,0,0,0,,最终维持原判
+Dialogue: 3,0:00:19.19,0:00:23.46,Caption,,0,0,0,,英超官方解释：\NCook 的接触影响了动作
+Dialogue: 3,0:00:23.46,0:00:26.23,Caption,,0,0,0,,这被认定为\Ncareless contact
+Dialogue: 3,0:00:26.23,0:00:29.33,Caption,,0,0,0,,争议点在于\N接触确实存在
+Dialogue: 3,0:00:29.33,0:00:31.84,Caption,,0,0,0,,但力度是不是足够？
+Dialogue: 3,0:00:31.84,0:00:35.03,Caption,,0,0,0,,Gakpo 有没有主动\N寻找接触？
+Dialogue: 3,0:00:35.03,0:00:38.88,Caption,,0,0,0,,规则解释成立\N球迷观感很不舒服

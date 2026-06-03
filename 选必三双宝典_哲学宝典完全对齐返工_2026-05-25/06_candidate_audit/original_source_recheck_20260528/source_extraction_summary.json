@@ -1,0 +1,11 @@
+{
+  "user_entries": 84,
+  "unique_question_keys": 42,
+  "unique_original_paths": 80,
+  "extract_status_counts": {
+    "empty_text_needs_visual": 7,
+    "ok": 73
+  },
+  "manifest": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/original_source_recheck_20260528/source_extraction_manifest.csv",
+  "row_path_map": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/original_source_recheck_20260528/USER_DOCX_84_TO_ORIGINAL_SOURCE_PATHS_20260528.csv"
+}

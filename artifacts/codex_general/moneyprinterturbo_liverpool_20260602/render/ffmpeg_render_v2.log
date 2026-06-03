@@ -1,0 +1,400 @@
+
+--- STDERR ---
+ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-postproc --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[Parsed_subtitles_81 @ 0x13e10d470] libass API version: 0x1701000
+[Parsed_subtitles_81 @ 0x13e10d470] libass source: tarball: 0.17.1
+[Parsed_subtitles_81 @ 0x13e10d470] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/AppleSDGothicNeo.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Menlo.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/STHeiti Medium.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Symbol.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Geneva.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Hiragino Sans GB.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/LastResort.otf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NotoSerifMyanmar.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/HelveticaNeue.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFNSMono.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W8.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Noteworthy.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NotoSansOriya.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W9.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ThonburiUI.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFGeorgian.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFHebrew.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Optima.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ZapfDingbats.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFArmenian.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Braille.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Avenir Next Condensed.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/LucidaGrande.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Courier.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFCompact.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Braille Outline 6 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/KohinoorTelugu.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Braille Pinpoint 6 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/MuktaMahee.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NewYork.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFNSMonoItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFNS.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFCamera.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Avenir.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Kohinoor.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NotoSansMyanmar.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFArmenianRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ明朝 ProN.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Supplemental'
+[Parsed_subtitles_81 @ 0x13e10d470] Read failed, 21: Is a directory
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Avenir Next.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/KohinoorGujarati.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/AquaKana.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Palatino.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Monaco.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Symbols.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NotoNastaliq.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/STHeiti Light.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NewYorkItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/HelveLTMM'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/GeezaPro.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/TimesLTMM'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFCompactItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W7.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Times.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ADTNumeric.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W4.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NotoSansKannada.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFArabic.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFNSRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W5.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/CJKSymbolsFallback.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/DecoTypeNastaleeqUrdu.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/MarkerFelt.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Braille Pinpoint 8 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Keyboard.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W1.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFIndia.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFGeorgianRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFCompactRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ArialHB.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Braille Outline 8 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W0.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Apple Color Emoji.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W2.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFNSItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/Helvetica.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/KohinoorBangla.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFArabicRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/NotoSansArmenian.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Loading font file '/System/Library/Fonts/SFHebrewRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e10d470] Error getting metadata for embedded font 'Apple Color Emoji.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Error getting metadata for embedded font 'Apple Color Emoji.ttc'
+[Parsed_subtitles_81 @ 0x13e10d470] Using font provider coretext
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-36296347-soccer-referee.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:14.36, start: 0.000000, bitrate: 9554 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 9550 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc60.31.102 libx264
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-37179914-soccer-referee.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6dby1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:14.83, start: 0.000000, bitrate: 11817 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt2020nc/bt2020/arib-std-b67, progressive), 720x1280, 11812 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+      Metadata:
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc60.31.102 libx264
+Input #2, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-11710901-soccer-referee.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2022-04-04T14:15:20.000000Z
+  Duration: 00:00:16.17, start: 0.000000, bitrate: 3079 kb/s
+  Stream #2:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2818 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+      Metadata:
+        creation_time   : 2022-04-04T14:15:20.000000Z
+        handler_name    : L-SMASH Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 253 kb/s (default)
+      Metadata:
+        creation_time   : 2022-04-04T14:15:20.000000Z
+        handler_name    : L-SMASH Audio Handler
+        vendor_id       : [0][0][0][0]
+Input #3, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-6077715-football-penalty.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2020-12-04T19:33:18.000000Z
+  Duration: 00:00:16.56, start: 0.000000, bitrate: 1820 kb/s
+  Stream #3:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 1817 kb/s, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2020-12-04T19:33:18.000000Z
+        handler_name    : L-SMASH Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+Input #4, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-6077727-football-penalty.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2020-12-04T19:41:10.000000Z
+  Duration: 00:00:15.28, start: 0.000000, bitrate: 1229 kb/s
+  Stream #4:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 1226 kb/s, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2020-12-04T19:41:10.000000Z
+        handler_name    : L-SMASH Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+Input #5, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-18616276-soccer-referee.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2023-10-03T19:33:43.000000Z
+  Duration: 00:00:14.57, start: 0.000000, bitrate: 3108 kb/s
+  Stream #5:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2922 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+      Metadata:
+        creation_time   : 2023-10-03T19:33:43.000000Z
+        handler_name    : Vimeo Artax Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+  Stream #5:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 189 kb/s (default)
+      Metadata:
+        creation_time   : 2023-10-03T19:33:43.000000Z
+        handler_name    : Vimeo Artax Audio Handler
+        vendor_id       : [0][0][0][0]
+Input #6, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-34631716-soccer-referee.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:07.87, start: 0.000000, bitrate: 8329 kb/s
+  Stream #6:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 8326 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandle
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc60.31.102 libx264
+Input #7, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/pexels_stock/pexels-18616326-soccer-referee.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2023-10-03T19:35:58.000000Z
+  Duration: 00:00:44.61, start: 0.000000, bitrate: 3008 kb/s
+  Stream #7:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2814 kb/s, 59.94 fps, 59.94 tbr, 60k tbn (default)
+      Metadata:
+        creation_time   : 2023-10-03T19:35:58.000000Z
+        handler_name    : Vimeo Artax Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+  Stream #7:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 189 kb/s (default)
+      Metadata:
+        creation_time   : 2023-10-03T19:35:58.000000Z
+        handler_name    : Vimeo Artax Audio Handler
+        vendor_id       : [0][0][0][0]
+[mp3 @ 0x13e31cb20] Estimating duration from bitrate, this may be inaccurate
+Input #8, mp3, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/work/audio/gakpo_penalty_commentary_zh.mp3':
+  Duration: 00:00:33.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #8:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+Input #9, mp3, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/MoneyPrinterTurbo/resource/songs/output013.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:03:00.00, start: 0.011021, bitrate: 84 kb/s
+  Stream #9:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 84 kb/s
+      Metadata:
+        encoder         : Lavc60.31
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  Stream #1:0 (h264) -> scale:default
+  Stream #2:0 (h264) -> scale:default
+  Stream #3:0 (h264) -> scale:default
+  Stream #4:0 (h264) -> scale:default
+  Stream #5:0 (h264) -> scale:default
+  Stream #6:0 (h264) -> scale:default
+  Stream #7:0 (h264) -> scale:default
+  Stream #8:0 (mp3float) -> volume:default
+  Stream #9:0 (mp3float) -> volume:default
+  subtitles:default -> Stream #0:0 (libx264)
+  amix:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[Parsed_subtitles_81 @ 0x13e347d00] libass API version: 0x1701000
+[Parsed_subtitles_81 @ 0x13e347d00] libass source: tarball: 0.17.1
+[Parsed_subtitles_81 @ 0x13e347d00] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/AppleSDGothicNeo.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Menlo.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/STHeiti Medium.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Symbol.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Geneva.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Hiragino Sans GB.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/LastResort.otf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NotoSerifMyanmar.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/HelveticaNeue.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFNSMono.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W8.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Noteworthy.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NotoSansOriya.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W9.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ThonburiUI.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFGeorgian.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFHebrew.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Optima.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ZapfDingbats.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFArmenian.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Braille.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Avenir Next Condensed.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/LucidaGrande.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Courier.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFCompact.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Braille Outline 6 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/KohinoorTelugu.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Braille Pinpoint 6 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/MuktaMahee.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NewYork.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFNSMonoItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFNS.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFCamera.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Avenir.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Kohinoor.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NotoSansMyanmar.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFArmenianRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ明朝 ProN.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Supplemental'
+[Parsed_subtitles_81 @ 0x13e347d00] Read failed, 21: Is a directory
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Avenir Next.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/KohinoorGujarati.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/AquaKana.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Palatino.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Monaco.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Symbols.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NotoNastaliq.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/STHeiti Light.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NewYorkItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/HelveLTMM'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/GeezaPro.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/TimesLTMM'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFCompactItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W7.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Times.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ADTNumeric.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W4.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NotoSansKannada.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFArabic.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFNSRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W5.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/CJKSymbolsFallback.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/DecoTypeNastaleeqUrdu.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/MarkerFelt.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Braille Pinpoint 8 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Keyboard.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W1.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFIndia.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFGeorgianRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFCompactRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ArialHB.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Braille Outline 8 Dot.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W0.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Apple Color Emoji.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W2.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFNSItalic.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/Helvetica.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/KohinoorBangla.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFArabicRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/NotoSansArmenian.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Loading font file '/System/Library/Fonts/SFHebrewRounded.ttf'
+[Parsed_subtitles_81 @ 0x13e347d00] Error getting metadata for embedded font 'Apple Color Emoji.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Error getting metadata for embedded font 'Apple Color Emoji.ttc'
+[Parsed_subtitles_81 @ 0x13e347d00] Using font provider coretext
+[swscaler @ 0x154020000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x154040000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x154060000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x154080000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1540a0000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1540c0000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x1540e0000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x154100000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x154120000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x154140000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[swscaler @ 0x155c48000] No accelerated colorspace conversion found from yuv420p to bgr24.
+[Parsed_subtitles_81 @ 0x13e347d00] fontselect: (STHeiti, 400, 0) -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523ccd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf, -1, STHeiti
+[Parsed_subtitles_81 @ 0x13e347d00] fontselect: (STHeiti, 700, 0) -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523ccd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf, -1, STHeiti
+[libx264 @ 0x10d614de0] using SAR=1/1
+[libx264 @ 0x10d614de0] MB rate (3600000000) > level limit (16711680)
+[libx264 @ 0x10d614de0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x10d614de0] profile High, level 6.2, 4:2:0, 8-bit
+[libx264 @ 0x10d614de0] 264 - core 164 r3190 7ed753b - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[aac @ 0x10d616060] Too many bits 6826.666667 > 6144 per frame requested, clamping to max
+Output #0, mp4, to '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/exports/liverpool_gakpo_penalty_commentary_v2.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280 [SAR 1:1 DAR 9:16], q=2-31, 1000k tbn
+      Metadata:
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 24000 Hz, mono, fltp, 144 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 aac
+frame=   28 fps=0.0 q=26.0 size=     768KiB time=00:00:00.83 bitrate=7550.2kbits/s speed=1.65x    
+frame=   95 fps= 94 q=26.0 size=    2816KiB time=00:00:03.06 bitrate=7522.5kbits/s speed=3.03x    
+frame=  153 fps=101 q=26.0 size=    4608KiB time=00:00:05.00 bitrate=7549.8kbits/s speed= 3.3x    
+frame=  222 fps=110 q=26.0 size=    7936KiB time=00:00:07.30 bitrate=8905.8kbits/s speed=3.61x    
+frame=  341 fps=135 q=26.0 size=    9728KiB time=00:00:11.26 bitrate=7073.3kbits/s speed=4.46x    
+frame=  487 fps=161 q=26.0 size=   11008KiB time=00:00:16.13 bitrate=5589.5kbits/s speed=5.32x    
+frame=  611 fps=173 q=26.0 size=   12032KiB time=00:00:20.26 bitrate=4863.5kbits/s speed=5.73x    
+frame=  697 fps=173 q=26.0 size=   13824KiB time=00:00:23.13 bitrate=4895.4kbits/s speed=5.73x    
+frame=  774 fps=170 q=26.0 size=   16640KiB time=00:00:25.69 bitrate=5304.1kbits/s speed=5.66x    
+frame=  861 fps=171 q=26.0 size=   19456KiB time=00:00:28.59 bitrate=5572.9kbits/s speed=5.67x    
+frame=  950 fps=171 q=26.0 size=   21248KiB time=N/A bitrate=N/A speed=N/A    
+[mp4 @ 0x10d60c540] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x10d60c200] video:22304KiB audio:409KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.144804%
+frame= 1015 fps=174 q=-1.0 Lsize=   22746KiB time=00:00:33.73 bitrate=5523.8kbits/s speed=5.79x    
+[libx264 @ 0x10d614de0] frame I:5     Avg QP:19.10  size:123398
+[libx264 @ 0x10d614de0] frame P:342   Avg QP:20.50  size: 49157
+[libx264 @ 0x10d614de0] frame B:668   Avg QP:24.49  size:  8099
+[libx264 @ 0x10d614de0] consecutive B-frames:  8.0% 10.6%  6.5% 74.9%
+[libx264 @ 0x10d614de0] mb I  I16..4: 13.8% 62.9% 23.3%
+[libx264 @ 0x10d614de0] mb P  I16..4:  3.4%  8.0%  2.0%  P16..4: 37.5% 18.2% 14.4%  0.0%  0.0%    skip:16.5%
+[libx264 @ 0x10d614de0] mb B  I16..4:  0.2%  0.7%  0.2%  B16..8: 35.5%  5.1%  2.3%  direct: 3.5%  skip:52.4%  L0:41.3% L1:46.1% BI:12.7%
+[libx264 @ 0x10d614de0] 8x8 transform intra:60.2% inter:64.1%
+[libx264 @ 0x10d614de0] coded y,uvDC,uvAC intra: 58.0% 54.0% 26.0% inter: 21.2% 14.8% 0.8%
+[libx264 @ 0x10d614de0] i16 v,h,dc,p: 60% 14%  6% 20%
+[libx264 @ 0x10d614de0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 14% 21% 25%  5%  8%  6%  9%  5%  8%
+[libx264 @ 0x10d614de0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 19% 14%  6% 10%  8%  9%  7%  8%
+[libx264 @ 0x10d614de0] i8c dc,h,v,p: 60% 20% 14%  5%
+[libx264 @ 0x10d614de0] Weighted P-Frames: Y:8.2% UV:5.3%
+[libx264 @ 0x10d614de0] ref P L0: 66.0% 16.6% 12.3%  5.0%  0.2%
+[libx264 @ 0x10d614de0] ref B L0: 90.3%  8.0%  1.7%
+[libx264 @ 0x10d614de0] ref B L1: 95.8%  4.2%
+[libx264 @ 0x10d614de0] kb/s:5400.35
+[aac @ 0x10d616060] Qavg: 65497.305

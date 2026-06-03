@@ -1,0 +1,115 @@
+
+ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-postproc --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[Parsed_subtitles_63 @ 0x1566261e0] libass API version: 0x1701000
+[Parsed_subtitles_63 @ 0x1566261e0] libass source: tarball: 0.17.1
+[Parsed_subtitles_63 @ 0x1566261e0] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[Parsed_subtitles_63 @ 0x1566261e0] Using font provider coretext
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/real_match/nbc_bournemouth_liverpool_gakpo_penalty_50-195_432p.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:02:25.03, start: 0.000000, bitrate: 1483 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(progressive), 768x432 [SAR 1:1 DAR 16:9], 1302 kb/s, 29.97 fps, 29.97 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 96 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/assets/source_clips/real_match/nbc_bournemouth_liverpool_gakpo_penalty_195-240_432p.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:45.01, start: 0.000000, bitrate: 1488 kb/s
+  Stream #1:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(progressive), 768x432 [SAR 1:1 DAR 16:9], 1296 kb/s, 29.97 fps, 29.97 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 95 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+[mp3 @ 0x156628040] Estimating duration from bitrate, this may be inaccurate
+Input #2, mp3, from '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/work/audio/gakpo_penalty_real_zh.mp3':
+  Duration: 00:00:38.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #2:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+Stream mapping:
+  Stream #0:0 (h264) -> split:default
+  Stream #1:0 (h264) -> split:default
+  subtitles:default -> Stream #0:0 (libx264)
+  Stream #2:0 -> #0:1 (mp3 (mp3float) -> aac (native))
+Press [q] to stop, [?] for help
+[aac @ 0x1566214d0] Too many bits 6826.666667 > 6144 per frame requested, clamping to max
+[Parsed_subtitles_63 @ 0x1167125d0] libass API version: 0x1701000
+[Parsed_subtitles_63 @ 0x1167125d0] libass source: tarball: 0.17.1
+[Parsed_subtitles_63 @ 0x1167125d0] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[Parsed_subtitles_63 @ 0x1167125d0] Using font provider coretext
+[Parsed_subtitles_63 @ 0x1167125d0] fontselect: (STHeiti, 400, 0) -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523ccd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf, -1, STHeiti
+[Parsed_subtitles_63 @ 0x1167125d0] fontselect: (STHeiti, 700, 0) -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523ccd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf, -1, STHeiti
+[libx264 @ 0x1566201e0] using SAR=4095/4096
+[libx264 @ 0x1566201e0] MB rate (3600000000) > level limit (16711680)
+[libx264 @ 0x1566201e0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0x1566201e0] profile High, level 6.2, 4:2:0, 8-bit
+[libx264 @ 0x1566201e0] 264 - core 164 r3190 7ed753b - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=15 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/Users/wanglifei/Documents/Codex/2026-06-01/moneyprinterturbo-github/work/liverpool-referee-materials/exports/liverpool_gakpo_penalty_real_footage_v1.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 720x1280 [SAR 5120:5121 DAR 320:569], q=2-31, 1000k tbn
+      Metadata:
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 24000 Hz, mono, fltp, 144 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 aac
+frame=   56 fps=0.0 q=26.0 size=     512KiB time=00:00:01.76 bitrate=2372.0kbits/s speed=3.51x    
+frame=  115 fps=114 q=26.0 size=    1024KiB time=00:00:03.73 bitrate=2244.8kbits/s speed= 3.7x    
+frame=  175 fps=116 q=26.0 size=    1792KiB time=00:00:05.73 bitrate=2558.0kbits/s speed=3.79x    
+[out_#0:0 @ 0x1567209a0] 100 buffers queued in out_#0:0, something may be wrong.
+frame=  286 fps=142 q=26.0 size=    3072KiB time=00:00:09.44 bitrate=2665.1kbits/s speed=4.68x    
+frame=  286 fps=113 q=26.0 size=    3072KiB time=00:00:09.44 bitrate=2665.1kbits/s speed=3.74x    
+frame=  286 fps= 94 q=26.0 size=    3072KiB time=00:00:09.44 bitrate=2665.1kbits/s speed=3.12x    
+frame=  340 fps= 96 q=26.0 size=    3584KiB time=00:00:11.24 bitrate=2611.1kbits/s speed=3.18x    
+frame=  442 fps=110 q=26.0 size=    4608KiB time=00:00:14.64 bitrate=2577.1kbits/s speed=3.63x    
+frame=  539 fps=119 q=26.0 size=    5632KiB time=00:00:17.88 bitrate=2579.8kbits/s speed=3.94x    
+frame=  645 fps=128 q=26.0 size=    6400KiB time=00:00:21.42 bitrate=2447.5kbits/s speed=4.24x    
+frame=  755 fps=136 q=26.0 size=    6912KiB time=00:00:25.09 bitrate=2256.7kbits/s speed=4.52x    
+frame=  871 fps=144 q=26.0 size=    7424KiB time=00:00:28.96 bitrate=2099.9kbits/s speed=4.78x    
+frame=  996 fps=152 q=26.0 size=    8448KiB time=00:00:33.13 bitrate=2088.7kbits/s speed=5.05x    
+[mp4 @ 0x15662aa30] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x15662a6b0] video:10808KiB audio:489KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.342013%
+frame= 1166 fps=169 q=-1.0 Lsize=   11336KiB time=00:00:38.80 bitrate=2393.0kbits/s speed=5.63x    
+[libx264 @ 0x1566201e0] frame I:5     Avg QP:16.04  size: 70235
+[libx264 @ 0x1566201e0] frame P:401   Avg QP:18.57  size: 15782
+[libx264 @ 0x1566201e0] frame B:760   Avg QP:20.56  size:  5772
+[libx264 @ 0x1566201e0] consecutive B-frames: 10.8%  4.1%  8.2% 76.8%
+[libx264 @ 0x1566201e0] mb I  I16..4: 39.2% 29.8% 31.1%
+[libx264 @ 0x1566201e0] mb P  I16..4: 14.5% 13.3%  2.2%  P16..4: 17.0%  7.1%  3.9%  0.0%  0.0%    skip:42.0%
+[libx264 @ 0x1566201e0] mb B  I16..4:  3.2%  3.2%  0.2%  B16..8: 16.6%  6.0%  0.9%  direct: 6.5%  skip:63.4%  L0:43.1% L1:45.3% BI:11.7%
+[libx264 @ 0x1566201e0] 8x8 transform intra:45.2% inter:21.5%
+[libx264 @ 0x1566201e0] coded y,uvDC,uvAC intra: 30.7% 35.7% 9.9% inter: 6.7% 10.7% 1.0%
+[libx264 @ 0x1566201e0] i16 v,h,dc,p: 46% 29%  7% 19%
+[libx264 @ 0x1566201e0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 31% 18%  2%  6%  6%  6%  5%  4%
+[libx264 @ 0x1566201e0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 30% 15%  3%  8%  5%  6%  5%  6%
+[libx264 @ 0x1566201e0] i8c dc,h,v,p: 54% 26% 14%  7%
+[libx264 @ 0x1566201e0] Weighted P-Frames: Y:0.2% UV:0.2%
+[libx264 @ 0x1566201e0] kb/s:2275.58
+[aac @ 0x1566214d0] Qavg: 65505.773

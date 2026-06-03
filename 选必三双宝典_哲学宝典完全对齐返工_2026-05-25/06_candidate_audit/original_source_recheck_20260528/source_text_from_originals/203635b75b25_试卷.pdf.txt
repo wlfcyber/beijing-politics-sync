@@ -1,0 +1,5 @@
+SOURCE_PATH: /Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/试卷/试卷.pdf
+EXTRACT_STATUS: empty_text_needs_visual
+PAGE_COUNT: 8
+ERROR: 
+---

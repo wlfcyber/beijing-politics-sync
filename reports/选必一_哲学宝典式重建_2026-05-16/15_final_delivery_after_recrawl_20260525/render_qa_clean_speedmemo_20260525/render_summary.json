@@ -1,0 +1,15 @@
+{
+  "pdf": "reports/选必一_哲学宝典式重建_2026-05-16/15_final_delivery_after_recrawl_20260525/选必一_当代国际政治与经济_主观题术语宝典_学生版_FINAL_精简开头_含速记版_20260525.pdf",
+  "pages": 145,
+  "rendered_sample_pages": [
+    1,
+    2,
+    3,
+    143,
+    144,
+    145
+  ],
+  "blank_suspects_light_ratio_gt_0_995": [],
+  "max_light_ratio": 0.9603114102668072,
+  "contact_sheet": "reports/选必一_哲学宝典式重建_2026-05-16/15_final_delivery_after_recrawl_20260525/render_qa_clean_speedmemo_20260525/first_last_contact_sheet.png"
+}

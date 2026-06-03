@@ -1,0 +1,253 @@
+{
+  "input": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/32_report_driven_fix_20260602/03_outputs/选必一6.1最终版_三维报告修订版_补题_带水印.docx",
+  "output": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/32_report_driven_fix_20260602/03_outputs/选必一6.1最终版_三维报告修订版_补题去重_带水印.docx",
+  "duplicate_why_text_groups": 15,
+  "updated_entries": 35,
+  "changed": [
+    {
+      "entry_index": 10,
+      "entry_title": "11. 2026石景山二模Q18",
+      "h1": "时代背景",
+      "h3": "核心答题点：和平与发展仍是时代主题",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 55,
+      "entry_title": "2. 2024朝阳期中Q20(3)\"数字驱动商通全球\"短评",
+      "h1": "经济全球化",
+      "h3": "核心答题点：共享经济全球化成果，促进世界经济共同繁荣",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 56,
+      "entry_title": "3. 2026门头沟一模Q20——海南自贸港全岛封关的国内国际意义",
+      "h1": "经济全球化",
+      "h3": "核心答题点：共享经济全球化成果，促进世界经济共同繁荣",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 57,
+      "entry_title": "1. 2026朝阳期中Q17",
+      "h1": "经济全球化",
+      "h3": "核心答题点：处理好自力更生和对外开放的关系，参与经济全球化和国际分工",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 80,
+      "entry_title": "5. 2026石景山二模Q18",
+      "h1": "经济全球化",
+      "h3": "核心答题点：顺应经济全球化趋势，主动融入并推动深化",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 94,
+      "entry_title": "13. 2026石景山一模Q20",
+      "h1": "经济全球化",
+      "h3": "核心答题点：推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 102,
+      "entry_title": "2. 2026石景山一模Q20",
+      "h1": "经济全球化",
+      "h3": "核心答题点：推进普惠包容的经济全球化",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 118,
+      "entry_title": "2. 2024朝阳期中Q20(3)\"数字驱动商通全球\"短评",
+      "h1": "经济全球化",
+      "h3": "核心答题点：发展更高层次开放型经济并稳步扩大制度型开放",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 133,
+      "entry_title": "3. 2026门头沟一模Q20——海南自贸港全岛封关的国内国际意义",
+      "h1": "经济全球化",
+      "h3": "核心答题点：互利共赢的开放战略",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 152,
+      "entry_title": "5. 2026朝阳期中Q17",
+      "h1": "经济全球化",
+      "h3": "核心答题点：内外联通畅通国内国际双循环，提升国际循环质量",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 157,
+      "entry_title": "3. 2026朝阳期中Q17",
+      "h1": "经济全球化",
+      "h3": "核心答题点：加强技术创新、提高产品质量，增强竞争力",
+      "duplicate_group_item": 3
+    },
+    {
+      "entry_index": 245,
+      "entry_title": "10. 2026东城期末Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动国际秩序和全球治理体系更加公正合理",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 249,
+      "entry_title": "2. 2025丰台二模Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：坚持开放合作、共享共赢、包容互鉴、共商共建",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 252,
+      "entry_title": "2. 2025东城一模Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动全球治理体系变革完善，建立更加公正合理的国际政治经济新秩序",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 254,
+      "entry_title": "4. 2024丰台二模Q19",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动全球治理体系变革完善，建立更加公正合理的国际政治经济新秩序",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 255,
+      "entry_title": "5. 2025丰台二模Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动全球治理体系变革完善，建立更加公正合理的国际政治经济新秩序",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 266,
+      "entry_title": "11. 2026石景山二模Q18",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动构建人类命运共同体",
+      "duplicate_group_item": 3
+    },
+    {
+      "entry_index": 270,
+      "entry_title": "15. 2026朝阳期末Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动构建人类命运共同体",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 271,
+      "entry_title": "16. 2025西城一模Q21",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动构建人类命运共同体",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 272,
+      "entry_title": "17. 2026东城期末Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动构建人类命运共同体",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 273,
+      "entry_title": "18. 2026顺义一模Q21",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动构建人类命运共同体",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 274,
+      "entry_title": "19. 2025丰台二模Q20",
+      "h1": "政治多极化",
+      "h3": "核心答题点：推动构建人类命运共同体",
+      "duplicate_group_item": 3
+    },
+    {
+      "entry_index": 279,
+      "entry_title": "4. 2026顺义一模Q21",
+      "h1": "政治多极化",
+      "h3": "核心答题点：促进共同发展、维护持久和平，共同推进现代化",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 346,
+      "entry_title": "14. 2026顺义一模Q21",
+      "h1": "中国",
+      "h3": "核心答题点：贡献中国智慧、中国方案、中国力量",
+      "duplicate_group_item": 3
+    },
+    {
+      "entry_index": 363,
+      "entry_title": "17. 2026朝阳期中Q17",
+      "h1": "中国",
+      "h3": "核心答题点：中国推动构建人类命运共同体",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 367,
+      "entry_title": "21. 2026朝阳期末Q20",
+      "h1": "中国",
+      "h3": "核心答题点：中国推动构建人类命运共同体",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 369,
+      "entry_title": "2. 2025西城一模Q21",
+      "h1": "中国",
+      "h3": "核心答题点：四大全球倡议相互促进、有机统一，系统推动构建人类命运共同体",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 386,
+      "entry_title": "4. 2026东城期末Q20",
+      "h1": "中国",
+      "h3": "核心答题点：倡导文明平等互鉴，弘扬全人类共同价值，尊重世界文明多样性",
+      "duplicate_group_item": 3
+    },
+    {
+      "entry_index": 402,
+      "entry_title": "3. 2025东城一模Q20",
+      "h1": "中国",
+      "h3": "核心答题点：与发展中国家共享发展新机遇，惠民生增福祉，实现互利共赢",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 403,
+      "entry_title": "4. 2026朝阳期中Q17",
+      "h1": "中国",
+      "h3": "核心答题点：与发展中国家共享发展新机遇，惠民生增福祉，实现互利共赢",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 416,
+      "entry_title": "3. 2024丰台二模Q19",
+      "h1": "中国",
+      "h3": "核心答题点：南南合作与全球南方共同发展",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 438,
+      "entry_title": "2. 2025丰台二模Q20",
+      "h1": "中国",
+      "h3": "核心答题点：中国作为联合国创始会员国和安理会常任理事国，是国际政治经济格局中的重要力量〔中国国际地位综合表达角度〕",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 440,
+      "entry_title": "2. 2025海淀二模Q21",
+      "h1": "中国",
+      "h3": "核心答题点：中国积极参与国际组织，在联合国、金砖国家、二十国集团、博鳌亚洲论坛等国际组织中的作用日益显著，已成为全球治理体系的重要参与者、贡献者和改革者",
+      "duplicate_group_item": 1
+    },
+    {
+      "entry_index": 454,
+      "entry_title": "2. 2025海淀二模Q21",
+      "h1": "联合国",
+      "h3": "核心答题点：坚定维护以联合国为核心的国际体系和以国际法为基础的国际秩序",
+      "duplicate_group_item": 2
+    },
+    {
+      "entry_index": 455,
+      "entry_title": "3. 2025丰台二模Q20",
+      "h1": "联合国",
+      "h3": "核心答题点：坚定维护以联合国为核心的国际体系和以国际法为基础的国际秩序",
+      "duplicate_group_item": 2
+    }
+  ]
+}

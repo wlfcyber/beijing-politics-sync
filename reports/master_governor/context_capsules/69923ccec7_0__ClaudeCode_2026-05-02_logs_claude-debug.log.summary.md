@@ -4,7 +4,7 @@
 - size_bytes: 2306624
 - sha256: 8583584e52a66758a02fdd8285699d61635901355b387c1d52e948695b1a376e
 - line_count_estimate: 20250
-- generated_at: 2026-05-18T12:25:09+08:00
+- generated_at: 2026-06-03T20:07:20+08:00
 - warning: This capsule is an index only. Open the original file for exact evidence.
 
 ## Key Lines

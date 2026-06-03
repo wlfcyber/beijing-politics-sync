@@ -1,0 +1,44 @@
+{
+  "input": "/Users/wanglifei/Desktop/选必一6.1终极版_同题组细颗粒全量修正_核心答题点红色强化_标点话术清理版_学生版_带水印_20260603.docx",
+  "output": "/Users/wanglifei/Desktop/选必一6.1终极版_同题组细颗粒全量修正_核心答题点红色强化_标点话术清理_终检完善版_学生版_带水印_20260603.docx",
+  "inserted_notes": [
+    "核心答题点：积极\"走出去\"、对外直接投资、克服贸易壁垒",
+    "核心答题点：反对单边主义、霸权主义和强权政治",
+    "核心答题点：我国外交政策的宗旨是维护世界和平、促进共同发展"
+  ],
+  "before": {
+    "core_heading_count": 131,
+    "empty_core_without_question_or_note": [
+      {
+        "index": 2300,
+        "heading": "核心答题点：积极\"走出去\"、对外直接投资、克服贸易壁垒"
+      },
+      {
+        "index": 4175,
+        "heading": "核心答题点：反对单边主义、霸权主义和强权政治"
+      },
+      {
+        "index": 4781,
+        "heading": "核心答题点：我国外交政策的宗旨是维护世界和平、促进共同发展"
+      }
+    ],
+    "samegroup_count": 561,
+    "answer_halfwidth_commas_remaining": 0,
+    "forbidden_remaining": {
+      "可写为": 0,
+      "得分点": 0,
+      "中国版本点出": 0
+    }
+  },
+  "after": {
+    "core_heading_count": 131,
+    "empty_core_without_question_or_note": [],
+    "samegroup_count": 561,
+    "answer_halfwidth_commas_remaining": 0,
+    "forbidden_remaining": {
+      "可写为": 0,
+      "得分点": 0,
+      "中国版本点出": 0
+    }
+  }
+}

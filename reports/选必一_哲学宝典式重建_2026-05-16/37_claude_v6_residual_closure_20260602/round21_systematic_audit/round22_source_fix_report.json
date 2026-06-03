@@ -1,0 +1,64 @@
+{
+  "input": "/Users/wanglifei/Desktop/选必一6.1最终版_第21轮系统同题组与设问校正_带水印_20260603.docx",
+  "output": "/Users/wanglifei/Desktop/选必一6.1最终版_第22轮源卡补证与书名纠错_带水印_20260603.docx",
+  "counts": {
+    "remove_backend_phrase_yaoluodao": 1,
+    "xicheng_qimo_q20_book_title_exact_source": 8
+  },
+  "touched_paragraphs": [
+    {
+      "paragraph_index": 1892,
+      "label": "remove_backend_phrase_yaoluodao",
+      "before": "【为什么能想到】 甲同学反复强调芯片、算法、大模型等核心环节要自主可控、把握创新主动权；这层技术自立要落到能力上，便是加强技术创新、提高质量以增强核心竞争力。",
+      "after": "【为什么能想到】 甲同学反复强调芯片、算法、大模型等核心环节要自主可控、把握创新主动权；这些信息说明人工智能发展不能只依赖外部技术输入，而要通过技术创新和质量提升形成核心竞争力。"
+    },
+    {
+      "paragraph_index": 2782,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 2975,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 4070,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 4947,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 4951,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 4955,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 4974,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    },
+    {
+      "paragraph_index": 4983,
+      "label": "xicheng_qimo_q20_book_title_exact_source",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，阐释参与全球气候治理的中国实践。",
+      "after": "【设问】 结合材料，运用《国际政治与经济》知识，阐释参与全球气候治理的中国实践。"
+    }
+  ]
+}

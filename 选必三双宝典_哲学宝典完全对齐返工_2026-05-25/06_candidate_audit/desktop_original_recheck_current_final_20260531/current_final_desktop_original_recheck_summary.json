@@ -1,0 +1,50 @@
+{
+  "entries": 84,
+  "pass_total": 84,
+  "status_counts": {
+    "PASS_DESKTOP_ORIGINAL_TEXT_LOCKED": 66,
+    "PASS_MANUAL_DESKTOP_ORIGINAL_LOCKED": 18
+  },
+  "module_counts": {
+    "一、科学思维": 20,
+    "二、辩证思维": 28,
+    "三、创新思维": 36
+  },
+  "node_counts": {
+    "追求认识的客观性": 11,
+    "结果具有预见性": 4,
+    "结果具有可检验性": 5,
+    "整体性": 7,
+    "动态性": 2,
+    "分析与综合": 7,
+    "矛盾分析法": 4,
+    "量变与质变": 2,
+    "适度原则": 1,
+    "辩证否定": 4,
+    "认识发展历程": 1,
+    "特点与三新": 9,
+    "联想思维": 6,
+    "发散思维与聚合思维": 6,
+    "逆向思维": 3,
+    "超前思维": 12
+  },
+  "qa": {
+    "docx_valid": "YES",
+    "fldChar": 0,
+    "instrText": 0,
+    "externalLinks": 0,
+    "material_count": 84,
+    "renyong_count": 1,
+    "renxuan_count": 0,
+    "hint_count": 0,
+    "bad_node_terms": {
+      "方法更新": 0,
+      "整体安排": 0,
+      "探索性与方法更新": 0,
+      "三性与三新": 0,
+      "本条目建议归": 0
+    }
+  },
+  "csv": "/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/desktop_original_recheck_current_final_20260531/CURRENT_FINAL_84_DESKTOP_ORIGINAL_RECHECK_20260531.csv",
+  "report": "/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/desktop_original_recheck_current_final_20260531/CURRENT_FINAL_84_DESKTOP_ORIGINAL_RECHECK_REPORT_20260531.md"
+}

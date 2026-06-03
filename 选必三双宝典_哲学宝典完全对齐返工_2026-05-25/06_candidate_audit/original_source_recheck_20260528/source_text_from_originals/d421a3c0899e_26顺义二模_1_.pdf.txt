@@ -1,0 +1,5 @@
+SOURCE_PATH: /Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026顺义二模/试卷/26顺义二模(1).pdf
+EXTRACT_STATUS: empty_text_needs_visual
+PAGE_COUNT: 12
+ERROR: 
+---

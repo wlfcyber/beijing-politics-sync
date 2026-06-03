@@ -1,0 +1,49 @@
+{
+  "entries": 84,
+  "sources": 80,
+  "source_status_counts": {
+    "ok_pdf": 38,
+    "ok_pptx": 8,
+    "ok_doc_textutil": 5,
+    "ok_docx": 27,
+    "ok_txt": 2
+  },
+  "verdict_counts": {
+    "NEEDS_MANUAL_RECHECK": 32,
+    "PASS_AUTO": 52
+  },
+  "manual_idxs": [
+    1,
+    2,
+    5,
+    6,
+    10,
+    11,
+    12,
+    15,
+    18,
+    19,
+    20,
+    24,
+    27,
+    34,
+    36,
+    38,
+    40,
+    45,
+    53,
+    55,
+    57,
+    59,
+    60,
+    62,
+    64,
+    65,
+    68,
+    74,
+    75,
+    78,
+    79,
+    84
+  ]
+}

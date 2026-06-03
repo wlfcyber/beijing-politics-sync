@@ -1,0 +1,23 @@
+# PROGRESS
+
+- 2026-05-26T05:10:00+08:00：建立 Confucius 学会性预验收子目录。
+- 2026-05-26T05:10:00+08:00：完成 `CONFUCIUS_PRECHECK_20260526.md`，结论为 `PRECHECK_NOT_PASS_ACTIONABLE_GAPS_REMAIN`。当前只证明文档骨架和节点覆盖有本地预检查依据，不能证明零基础学生已能迁移。
+- 2026-05-26T05:10:00+08:00：完成 `CONFUCIUS_TRANSFER_EXAM_PACKET_20260526.md`，状态为 `prepared_not_run`。该包仅为审计用模拟迁移题，不进入学生正文，不作为北京真题证据。
+- 2026-05-26T05:10:00+08:00：已同步两份文件至 `09_external_review/` 并刷新外审 zip。下一步最小动作：只用两本 Word/PDF 运行 artifact-only 学生模拟，保存答卷、评分和错因后再判断是否需要返修正文。
+- 2026-05-26T05:28:00+08:00：完成 `CONFUCIUS_LOCAL_SIMULATION_ROUND1_20260526.md`。本轮为污染环境本地预演，因为执行者已读过评分参考，不能算严格盲测；8 道迁移题本地作答均为 `local_pass`，未暴露 PDF 文本层支撑不足的硬失败。最终仍阻断：fresh-context 盲测、真实 GPT Pro / Claude、ClaudeCode 厚内容融合、本 run 全量逐题重跑证据链均未完成。
+- 2026-05-26T05:42:00+08:00：完成 fresh-context 盲测投喂包隔离：`fresh_context_blind_test/student_packet_20260526.zip` 与 `fresh_context_blind_test/grader_packet_20260526.zip`。学生包只含两本英文别名 PDF、README 和学生提示；评分包单独保存答案和评分规则。审计写入 `FRESH_CONTEXT_BLIND_TEST_PACKET_AUDIT_20260526.md`。当前只是 `PACKETS_PREPARED_NOT_RUN`，尚未产生独立学生答卷。
+- 2026-05-26T06:22:08+08:00：完成本地 fresh-context Codex 盲测与评分：`FRESH_CONTEXT_CODEX_BLIND_TEST_RESULT_20260526.md`，原始答卷为 `fresh_context_blind_test/FRESH_CONTEXT_CODEX_STUDENT_RAW_20260526.md`。本轮学生模拟只读取学生包两份 PDF 和提示，未读取评分包；8 题通过。该结果不能替代 GPT Pro / Claude 真实外审。
+- 2026-05-26T06:34:16+08:00：已同步 style/PAGEREF 补丁后的新版 PDF 至 `fresh_context_blind_test/` 和 `student_packet_20260526/`，并重建 `student_packet_20260526.zip`。上一轮盲测可作为正文迁移能力参考，但最新样式版尚未严格重跑。
+- 2026-05-26T06:40:00+08:00：完成最新版式 PDF 的本地 Codex fresh-context 盲测复测。结果文件为 `FRESH_CONTEXT_CODEX_BLIND_TEST_RESULT_STYLE_PATCH_20260526.md`，原始输出为 `fresh_context_blind_test/FRESH_CONTEXT_CODEX_STUDENT_RAW_STYLE_PATCH_20260526.md`。8 题均达 grader 通过标准。边界：运行开头触发本地 xuanbisan skill，因此只能记为 `LOCAL_FRESH_CONTEXT_CODEX_BLIND_TEST_PASS_WITH_SKILL_BOOTSTRAP_CAVEAT_NOT_EXTERNAL_PASS`，不能替代 GPT Pro / Claude 真实外审。
+- 2026-05-26T06:54:45+08:00：哲学格式 V4 补丁后，两份最新 PDF 已重新同步到 fresh-context 学生包并重建 zip；但 V4 PDF 尚未重跑 fresh-context 盲测。上一轮 06:40 盲测可作为正文迁移能力参考，不能直接冒充 V4 文件盲测通过。
+- 2026-05-26T07:04:00+08:00：完成 V4 PDF 的本地 Codex fresh-context 盲测重跑。结果文件为 `FRESH_CONTEXT_CODEX_BLIND_TEST_RESULT_FORMAT_V4_20260526.md`，原始答卷为 `fresh_context_blind_test/FRESH_CONTEXT_CODEX_STUDENT_RAW_FORMAT_V4_20260526.md`。学生 lane 使用 `codex exec --ignore-rules --ephemeral --skip-git-repo-check`，工作目录限制在学生包内；8 题均达 grader 通过标准，A4 仅保留“三新”显性表述提醒，不构成正文硬返修。该结果关闭 V4 文件未重跑盲测缺口，但仍不能替代真实 GPT Pro / Claude 外审。
+- 2026-05-26T07:35:15+08:00：完成 V6 PDF 的本地 Codex fresh-context 盲测评分落盘。结果文件为 `FRESH_CONTEXT_CODEX_BLIND_TEST_RESULT_FORMAT_V6_20260526.md`，原始答卷为 `fresh_context_blind_test/FRESH_CONTEXT_CODEX_STUDENT_RAW_FORMAT_V6_20260526.md`。A1-A4、B1-B4 八题均达通过标准；边界是本地 student run 开头触发并读取 xuanbisan skill，因此只能记为 `LOCAL_FRESH_CONTEXT_CODEX_BLIND_TEST_PASS_FORMAT_V6_WITH_SKILL_BOOTSTRAP_CAVEAT_NOT_EXTERNAL_PASS`，不能替代 GPT Pro / Claude 真实外审。
+- 2026-05-26T07:50:00+08:00：完成 V7 PDF 的本地 Codex fresh-context 盲测评分落盘。结果文件为 `FRESH_CONTEXT_CODEX_BLIND_TEST_RESULT_FORMAT_V7_20260526.md`，原始答卷为 `fresh_context_blind_test/FRESH_CONTEXT_CODEX_STUDENT_RAW_FORMAT_V7_20260526.md`。A1-A4、B1-B4 八题均达通过标准；A4 仍保留“三新”显性表述提醒但不构成正文硬返修。边界不变：student run 开头触发并读取本地 skill，因此只能作为本地 Confucius 证据，不能替代 GPT Pro / Claude 真实外审。
+- 2026-05-26T14:18:00+08:00：V29 仅对学生语言、Word 更新域提示与目录页码域做文件体验修补；正文题目条目与触发链数量未变。当前 V29 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V29 PASS。
+- 2026-05-26T14:33:00+08:00：V30 修复 V29 推理目录页码为 0 的文件体验硬错误；正文题目条目与触发链数量未变。当前 V30 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V30 PASS。
+- 2026-05-26T14:55:00+08:00：V31 清理推理册 4 个主观题答案落点的题号/地区/“可以写”后台口吻，并重新生成 Word/PDF。当前 V31 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V31 PASS。
+- 2026-05-26T15:28:00+08:00：V32 将思维册科学思维三性从合并二级节点拆为 `追求认识的客观性`、`结果具有预见性`、`结果具有可检验性`，并重新生成 Word/PDF。当前 V32 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V32 PASS。
+- 2026-05-26T15:35:00+08:00：V33 将思维册辩证思维中的 `分析与综合、整体性与系统观念` 合并节点拆为多个独立节点，并修复 Word 更新域弹窗与 `矛盾分析与适度原则` 目录书签错误。当前 V33 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V33 PASS。
+- 2026-05-26T21:55:17+08:00：V34 将思维册辩证思维下残留的 `综合运用`、`补充例题`、`专项题` 施工桶清理掉，并重挂为五个纯方法节点。当前 V34 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V34 PASS。
+- 2026-05-26T22:08:38+08:00：V35 将思维册科学思维下残留的 `科学思维的综合运用` 施工桶清理掉，并重挂为五个纯方法节点。当前 V35 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V35 PASS。
+- 2026-05-26T22:30:00+08:00：V36 修补推理宝典 `2024海淀二模 第5题` 四选项显示，并完成推理选择题完整题干/选项、答案字母、错项分析可见性审计。当前 V36 文件尚未重跑 fresh-context 盲测，因此本目录不得把 V7 盲测结果直接改写为 V36 PASS。

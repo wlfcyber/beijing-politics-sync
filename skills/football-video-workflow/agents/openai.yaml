@@ -1,0 +1,6 @@
+interface:
+  display_name: "Football Video Workflow"
+  short_description: "Grounded football highlight workflow"
+  default_prompt: "Use $football-video-workflow to plan a grounded football highlight video from real clips, with an event ledger, EDL, narration, and QC checks."
+policy:
+  allow_implicit_invocation: true

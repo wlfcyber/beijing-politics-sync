@@ -1,0 +1,5 @@
+SOURCE_PATH: /Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026西城二模/细则/西城二模评标.pdf
+EXTRACT_STATUS: empty_text_needs_visual
+PAGE_COUNT: 14
+ERROR: 
+---

@@ -1,0 +1,34 @@
+{
+  "input": "/Users/wanglifei/Desktop/选必一6.1最终版_第22轮源卡补证与书名纠错_带水印_20260603.docx",
+  "output": "/Users/wanglifei/Desktop/选必一6.1最终版_第23轮设问逐字回源_带水印_20260603.docx",
+  "counts": {
+    "haidian_2026_er_mo_q20_2_restore_theme_quotes_score": 4,
+    "haidian_2026_midterm_q22_1_restore_original_comma_score": 0
+  },
+  "touched_paragraphs": [
+    {
+      "paragraph_index": 218,
+      "label": "haidian_2026_er_mo_q20_2_restore_theme_quotes_score",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕全球发展倡议从合作理念到丰富实践这一主题，撰写一篇短评。",
+      "after": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕“全球发展倡议从合作理念到丰富实践”这一主题，撰写一篇短评。（7分）"
+    },
+    {
+      "paragraph_index": 411,
+      "label": "haidian_2026_er_mo_q20_2_restore_theme_quotes_score",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕全球发展倡议从合作理念到丰富实践这一主题，撰写一篇短评。",
+      "after": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕“全球发展倡议从合作理念到丰富实践”这一主题，撰写一篇短评。（7分）"
+    },
+    {
+      "paragraph_index": 2831,
+      "label": "haidian_2026_er_mo_q20_2_restore_theme_quotes_score",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕全球发展倡议从合作理念到丰富实践这一主题，撰写一篇短评。",
+      "after": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕“全球发展倡议从合作理念到丰富实践”这一主题，撰写一篇短评。（7分）"
+    },
+    {
+      "paragraph_index": 3414,
+      "label": "haidian_2026_er_mo_q20_2_restore_theme_quotes_score",
+      "before": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕全球发展倡议从合作理念到丰富实践这一主题，撰写一篇短评。",
+      "after": "【设问】 结合材料，运用《当代国际政治与经济》知识，围绕“全球发展倡议从合作理念到丰富实践”这一主题，撰写一篇短评。（7分）"
+    }
+  ]
+}

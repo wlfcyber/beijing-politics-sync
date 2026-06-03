@@ -1,0 +1,13 @@
+{
+  "input": "/Users/wanglifei/Desktop/选必一6.1最终版_第24轮海淀期中设问标点回源_带水印_20260603.docx",
+  "output": "/Users/wanglifei/Desktop/选必一6.1最终版_第25轮材料污染与细则层纠错_带水印_20260603.docx",
+  "text_replacements": {
+    "fengtai_2026_er_mo_q20_remove_dongcheng_pollution": 1,
+    "shijingshan_2025_q17_answer_exact_rubric": 1,
+    "shijingshan_2025_q17_why_exact_rubric": 1
+  },
+  "heading_changes": {
+    "inserted_headings": 2
+  },
+  "shijingshan_tongtizu_replacements": 0
+}

@@ -1,0 +1,122 @@
+# FINAL_REVIEW_AUDIT_SUMMARY
+
+- DOCX: `/Users/wanglifei/Desktop/选必一_当代国际政治与经济_主观题术语宝典_终极版_20260531.docx`
+- Parsed entries: 461
+- Unique card IDs: 55
+- Flagged entries: 268
+- Flag types: {'SAMEGROUP_ITEM_NOT_CORE': 72, 'BAD_SEQUENCE_EXPECT_9': 2, 'MISSING_WHY': 228, 'BAD_SEQUENCE_EXPECT_10': 2, 'BAD_SEQUENCE_EXPECT_15': 1, 'BAD_SEQUENCE_EXPECT_4': 1, 'BAD_SEQUENCE_EXPECT_16': 1, 'BAD_SEQUENCE_EXPECT_7': 1, 'BAD_SEQUENCE_EXPECT_5': 2}
+- Prompt check: {'EXACT': 429, 'PARTIAL': 32}
+- Answer text check: {'NO_MATCH': 307, 'PARTIAL': 150, 'EXACT': 4}
+- Samegroup check: {'OK': 389, 'ITEM_NOT_CORE': 72}
+- Source path existence/Desktop: {('YES', 'YES'): 1102}
+
+## Forbidden Residue
+
+- `细则依据`: 0
+- `细则位置`: 0
+- `证据层级`: 0
+- `源文件`: 0
+- `/Users/`: 0
+- `【得分层次】`: 0
+- `【判别标注】`: 0
+- `【术语家族】`: 0
+- `【使用标注】`: 0
+- `【双要素判别规则】`: 0
+- `采分点`: 0
+- `要落到`: 0
+- `先写`: 0
+- `要写`: 0
+- `答题时`: 0
+- `后台`: 0
+- `设问要求`: 0
+- `细则要求`: 0
+- `本题需要`: 0
+- `v7`: 0
+- `材料中`: 0
+- `【飞哥说】`: 0
+- `235 条`: 0
+- `104 术语`: 0
+- `Claude`: 0
+
+## Flag Examples
+
+- 2024西城二模Q19 | 和平与发展仍是时代主题 | SAMEGROUP_ITEM_NOT_CORE
+- 2026朝阳期末Q20 | 和平与发展仍是时代主题 | SAMEGROUP_ITEM_NOT_CORE
+- 2025朝阳期末Q21 | 和平与发展仍是时代主题 | BAD_SEQUENCE_EXPECT_9;SAMEGROUP_ITEM_NOT_CORE
+- 2026顺义一模Q20 | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026石景山二模Q18 | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026延庆一模Q19(2) | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026朝阳一模Q20 | 和平与发展仍是时代主题 | MISSING_WHY
+- 2025东城二模Q20 | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026石景山一模Q20 | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026海淀二模Q20(2) | 和平与发展仍是时代主题 | MISSING_WHY
+- 2025房山一模Q18(2) | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026顺义一模Q21 | 和平与发展仍是时代主题 | MISSING_WHY
+- 2026顺义一模Q20 | 国家间共同利益是国家合作的基础 | MISSING_WHY
+- 2024朝阳二模Q20 | 国家间共同利益是国家合作的基础 | MISSING_WHY
+- 2026海淀二模Q20(2) | 国家间共同利益是国家合作的基础 | BAD_SEQUENCE_EXPECT_10;MISSING_WHY
+- 2024西城二模Q19 | 国家间共同利益是国家合作的基础 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2025延庆一模Q20(2) | 国家间共同利益是国家合作的基础 | MISSING_WHY
+- 2026朝阳期末Q20 | 国家间共同利益是国家合作的基础 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2025东城一模Q21 | 当前国际竞争的实质是以经济和科技实力为基础的综合国力较量 | MISSING_WHY
+- 2026石景山二模Q18 | 当前国际竞争的实质是以经济和科技实力为基础的综合国力较量 | MISSING_WHY
+- 2025房山一模Q18(2) | 当前国际竞争的实质是以经济和科技实力为基础的综合国力较量 | MISSING_WHY
+- 2024西城二模Q17 | 科教兴国战略与人才强国战略（人才与国际竞争力） | MISSING_WHY
+- 2026朝阳期中Q17 | 科教兴国战略与人才强国战略（人才与国际竞争力） | MISSING_WHY
+- 2025东城期末Q20 | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2026朝阳期末Q20 | 维护国家利益是主权国家对外活动的出发点和落脚点 | SAMEGROUP_ITEM_NOT_CORE
+- 2024西城二模Q17 | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2025朝阳期末Q21 | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2024顺义思政二模Q19(2) | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2026朝阳期中Q17 | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2024西城一模Q19(6) | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2026石景山二模Q18 | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2026延庆一模Q19(2) | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2025延庆一模Q20(2) | 维护国家利益是主权国家对外活动的出发点和落脚点 | MISSING_WHY
+- 2026朝阳期末Q20 | 共享经济全球化成果，促进世界经济共同繁荣 | SAMEGROUP_ITEM_NOT_CORE
+- 2024朝阳期中Q20(3) | 共享经济全球化成果，促进世界经济共同繁荣 | MISSING_WHY
+- 2026门头沟一模Q20 | 共享经济全球化成果，促进世界经济共同繁荣 | MISSING_WHY
+- 2026东城一模Q19(3) | 处理好自力更生和对外开放的关系，参与经济全球化和国际分工 | MISSING_WHY
+- 2024朝阳期中Q20(3) | 促进全球资源优化配置和国际贸易发展 | MISSING_WHY
+- 2024海淀一模Q18(1) | 促进全球资源优化配置和国际贸易发展 | MISSING_WHY
+- 2026朝阳一模Q20 | 促进全球资源优化配置和国际贸易发展 | MISSING_WHY
+- 2024朝阳期中Q20(3) | 推进贸易和投资自由化便利化 | MISSING_WHY
+- 2025东城一模Q20 | 推进贸易和投资自由化便利化 | MISSING_WHY
+- 2025西城二模Q19(2) | 推进贸易和投资自由化便利化 | MISSING_WHY
+- 2025东城期末Q20 | 推进贸易和投资自由化便利化 | MISSING_WHY
+- 2026石景山一模Q20 | 推进贸易和投资自由化便利化 | MISSING_WHY
+- 2025西城一模Q18 | 推进贸易和投资自由化便利化 | MISSING_WHY
+- 2024西城二模Q17 | 顺应经济全球化趋势，主动融入并推动深化 | MISSING_WHY
+- 2026石景山二模Q18 | 顺应经济全球化趋势，主动融入并推动深化 | MISSING_WHY
+- 2025海淀期中Q16(2) | 顺应经济全球化趋势，主动融入并推动深化 | MISSING_WHY
+- 2025顺义一模Q20 | 推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展 | SAMEGROUP_ITEM_NOT_CORE
+- 2025朝阳期末Q21 | 推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展 | SAMEGROUP_ITEM_NOT_CORE
+- 2026顺义二模Q20 | 推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2024海淀一模Q18(1) | 推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展 | MISSING_WHY
+- 2026朝阳一模Q20 | 推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展 | MISSING_WHY
+- 2026石景山一模Q20 | 推动经济全球化朝着更加开放、包容、普惠、平衡、共赢方向发展 | MISSING_WHY
+- 2026顺义二模Q20 | 推进普惠包容的经济全球化，推动构建更加开放、包容的全球经济格局 | SAMEGROUP_ITEM_NOT_CORE
+- 2025朝阳期末Q21 | 推进普惠包容的经济全球化，推动构建更加开放、包容的全球经济格局 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2026房山一模Q19 | 推动建设开放型世界经济，深化国际分工与合作 | MISSING_WHY
+- 2024朝阳一模Q21 | 推动建设开放型世界经济，深化国际分工与合作 | MISSING_WHY
+- 2026石景山一模Q20 | 推进普惠包容的经济全球化 | MISSING_WHY
+- 2026通州期末Q20 | 推进普惠包容的经济全球化 | MISSING_WHY
+- 2026石景山一模Q20 | 建设开放型世界经济 | MISSING_WHY
+- 2026朝阳期末Q20 | 建设开放型世界经济，扩大开放合作 | SAMEGROUP_ITEM_NOT_CORE
+- 2026东城一模Q19(3) | 建设开放型世界经济，扩大开放合作 | MISSING_WHY
+- 2025顺义一模Q20 | 提高开放型经济水平 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2025丰台一模Q20 | 提高开放型经济水平 | MISSING_WHY
+- 2025昌平二模Q21 | 提高开放型经济水平 | MISSING_WHY
+- 2024海淀一模Q18(1) | 提高开放型经济水平 | MISSING_WHY
+- 2024朝阳一模Q21 | 提高开放型经济水平 | MISSING_WHY
+- 2025西城一模Q18 | 提高开放型经济水平 | MISSING_WHY
+- 2025房山一模Q18(2) | 提高开放型经济水平 | MISSING_WHY
+- 2024朝阳期中Q20(3) | 发展更高层次开放型经济并稳步扩大制度型开放 | MISSING_WHY
+- 2026门头沟一模Q20 | 发展更高层次开放型经济并稳步扩大制度型开放 | MISSING_WHY
+- 2024海淀一模Q18(1) | 发展更高层次开放型经济并稳步扩大制度型开放 | MISSING_WHY
+- 2025朝阳期末Q21 | 中国扩大高水平对外开放与制度型开放 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2025东城一模Q20 | 中国扩大高水平对外开放与制度型开放 | MISSING_WHY
+- 2024东城一模Q20 | 中国扩大高水平对外开放与制度型开放 | MISSING_WHY
+- 2026海淀一模Q20 | 中国扩大高水平对外开放与制度型开放 | MISSING_WHY
+- 2026顺义二模Q20 | 互利共赢的开放战略 | MISSING_WHY;SAMEGROUP_ITEM_NOT_CORE
+- 2026门头沟一模Q20 | 互利共赢的开放战略 | MISSING_WHY

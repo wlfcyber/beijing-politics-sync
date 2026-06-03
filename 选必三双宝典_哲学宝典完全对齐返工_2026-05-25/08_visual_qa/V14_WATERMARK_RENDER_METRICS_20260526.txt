@@ -1,0 +1,16 @@
+thinking: pages=35 file=选必三_逻辑与思维_思维宝典_哲学完全对齐版.pdf
+thinking p1: chars=55 watermark_text_hits=1
+thinking p2: chars=17 watermark_text_hits=0
+thinking p3: chars=2851 watermark_text_hits=0
+thinking p4: chars=882 watermark_text_hits=0
+thinking p22: chars=948 watermark_text_hits=0
+thinking p23: chars=890 watermark_text_hits=0
+thinking p35: chars=134 watermark_text_hits=0
+reasoning: pages=54 file=选必三_逻辑与思维_推理宝典_哲学完全对齐版.pdf
+reasoning p1: chars=56 watermark_text_hits=1
+reasoning p2: chars=17 watermark_text_hits=0
+reasoning p3: chars=5207 watermark_text_hits=0
+reasoning p4: chars=4821 watermark_text_hits=0
+reasoning p5: chars=840 watermark_text_hits=0
+reasoning p36: chars=862 watermark_text_hits=0
+reasoning p54: chars=75 watermark_text_hits=0

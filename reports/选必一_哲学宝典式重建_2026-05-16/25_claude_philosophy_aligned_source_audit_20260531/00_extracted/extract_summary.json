@@ -1,0 +1,22 @@
+{
+  "input": "/Users/wanglifei/Library/Application Support/Claude/local-agent-mode-sessions/2c0a1a14-78ce-4ddc-8f72-9d4f74dbff6e/703c2d6a-ade6-4ee8-94a4-92b2abb47bf1/local_ea19f1a6-c672-4010-9aa6-235ad1631aa4/outputs/选必一_当代国际政治与经济_主观题术语宝典_哲学对齐版_20260531.docx",
+  "paragraphs": 3391,
+  "nonempty_paragraphs": 3385,
+  "entries": 235,
+  "buckets": [
+    "中国",
+    "政治多极化",
+    "时代背景",
+    "理论",
+    "经济全球化",
+    "联合国"
+  ],
+  "entries_by_bucket": {
+    "时代背景": 13,
+    "理论": 15,
+    "经济全球化": 76,
+    "政治多极化": 49,
+    "中国": 73,
+    "联合国": 9
+  }
+}

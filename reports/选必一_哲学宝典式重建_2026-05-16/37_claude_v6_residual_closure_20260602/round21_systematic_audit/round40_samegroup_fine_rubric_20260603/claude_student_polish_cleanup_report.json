@@ -1,0 +1,29 @@
+{
+  "input": "/Users/wanglifei/Desktop/选必一6.1终极版_同题组细颗粒全量修正_核心答题点红色强化_学生版_带水印_20260603.docx",
+  "output": "/Users/wanglifei/Desktop/选必一6.1终极版_同题组细颗粒全量修正_核心答题点红色强化_标点话术清理版_学生版_带水印_20260603.docx",
+  "changes": {
+    "answer_halfwidth_commas_replaced": 50,
+    "ke_xie_wei_replaced": 6,
+    "defen_point_replaced": 2,
+    "awkward_china_version_phrase_replaced": 1,
+    "mixed_full_open_half_close_replaced": 0
+  },
+  "before": {
+    "answer_halfwidth_commas_remaining": 50,
+    "ke_xie_wei_remaining": 6,
+    "defen_point_remaining": 2,
+    "awkward_china_version_phrase_remaining": 1,
+    "mixed_full_open_half_close_remaining": 0,
+    "core_heading_count": 131,
+    "samegroup_count": 561
+  },
+  "after": {
+    "answer_halfwidth_commas_remaining": 0,
+    "ke_xie_wei_remaining": 0,
+    "defen_point_remaining": 0,
+    "awkward_china_version_phrase_remaining": 0,
+    "mixed_full_open_half_close_remaining": 0,
+    "core_heading_count": 131,
+    "samegroup_count": 561
+  }
+}

@@ -1,7 +1,1307 @@
 {
-  "generated_at": "2026-05-18T12:25:09+08:00",
+  "generated_at": "2026-06-03T20:07:20+08:00",
   "workspace": "/Users/wanglifei/Desktop/北京高考政治",
   "lanes": [
+    {
+      "root": "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor",
+      "last_update": 1780390451.24382,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor/GOVERNOR.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/07_acceptance",
+      "last_update": 1780390436.0461957,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/07_acceptance/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02",
+      "last_update": 1780390422.3089952,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "oversized_control:选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/DEVELOPMENT_PLAN.md",
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/PROGRESS.md",
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/TASK_BRIEF.md",
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv",
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/COVERAGE_MATRIX.csv",
+        "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/DECISION_LOG.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25",
+      "last_update": 1780294838.2992864,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/00_control/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/00_control/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/00_control/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/00_control/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/00_control/TASK_BRIEF.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/00_control/QUESTION_COVERAGE_MATRIX.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/claudecode_lane/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/claudecode_lane/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/claudecode_lane/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/claudecode_lane/COVERAGE_MATRIX.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/claudecode_lane/DECISION_LOG.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601",
+      "last_update": 1780246432.5665438,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601",
+      "last_update": 1780245887.9889808,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531",
+      "last_update": 1780243934.8210917,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531",
+      "last_update": 1780222102.363757,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "未完成"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/final_delivery_ultimate_20260531",
+      "last_update": 1780209053.214013,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "create or align PROGRESS.md before executing",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/final_delivery_ultimate_20260531/THINKING_ULTIMATE_FINAL_ACCEPTANCE_20260531.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/06_governor",
+      "last_update": 1780029146.792228,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress"
+      ],
+      "risk_hits": [
+        "blocked",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/06_governor/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/07_acceptance",
+      "last_update": 1780029122.8603978,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/07_acceptance/FINAL_ACCEPTANCE_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29",
+      "last_update": 1780029106.2264562,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "待",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/GOVERNOR.md",
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/DEVELOPMENT_PLAN.md",
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/PROGRESS.md",
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/TASK_BRIEF.md",
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/00_control/SOURCE_LEDGER.csv",
+        "选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/00_control/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance",
+      "last_update": 1779805568.864841,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance/FINAL_ACCEPTANCE_REPORT_20260526.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance/PROGRESS.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_governor_confucius",
+      "last_update": 1779805553.8928983,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_governor_confucius/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_governor_confucius/PROGRESS.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review",
+      "last_update": 1779774427.6842864,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/FINAL_ACCEPTANCE_REPORT_20260526.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/CONFUCIUS_GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/CLAUDECODE_THICK_CONTENT_ACCEPTANCE_GATE_20260526.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "claude_zero_run",
+      "last_update": 1779742702.1732874,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "claude_zero_run/SOURCE_LEDGER.csv",
+        "claude_zero_run/DEVELOPMENT_PLAN.md",
+        "claude_zero_run/PROGRESS.md",
+        "claude_zero_run/10_QA_acceptance.md",
+        "claude_zero_run/COVERAGE_MATRIX.csv",
+        "claude_zero_run/DECISION_LOG.md",
+        "claude_zero_run/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/11_claudecode_thick_lane_packet",
+      "last_update": 1779742181.3561695,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "blocked",
+        "real_call_pending",
+        "待",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/11_claudecode_thick_lane_packet/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/11_claudecode_thick_lane_packet/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/11_claudecode_thick_lane_packet/CLAUDECODE_THICK_CONTENT_ACCEPTANCE_GATE_20260526.md"
+      ]
+    },
+    {
+      "root": "claude_zero_run/supervision/backups_20260526_041947",
+      "last_update": 1779740387.2957833,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "claude_zero_run/supervision/backups_20260526_041947/10_QA_acceptance.md"
+      ]
+    },
+    {
+      "root": "claude_zero_run/governor",
+      "last_update": 1779735286.3713102,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "claude_zero_run/governor/acceptance_register.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25",
+      "last_update": 1779723078.966997,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/COVERAGE_MATRIX.csv",
+        "选必三双宝典_哲学对齐重做_2026-05-25/ACCEPTANCE.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/00_control/MASTER_REQUIREMENTS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/00_control/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/00_control/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/00_control/DECISION_LOG.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/00_control/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525",
+      "last_update": 1779723078.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "blocked",
+        "real_call_pending",
+        "blocked_advisor",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/COVERAGE_MATRIX.csv",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/ACCEPTANCE.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/00_control/MASTER_REQUIREMENTS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/00_control/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/00_control/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/00_control/DECISION_LOG.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/00_control/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/06_governor_confucius",
+      "last_update": 1779723014.7617772,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/06_governor_confucius/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/06_governor_confucius/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/06_governor_confucius/GOVERNOR_CHECKLIST.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/06_governor_confucius/COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/06_governor_confucius",
+      "last_update": 1779723014.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/06_governor_confucius/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/06_governor_confucius/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/06_governor_confucius/GOVERNOR_CHECKLIST.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/06_governor_confucius/COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v9_q2_all_wrong_options_review",
+      "last_update": 1779722886.0720725,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v9_q2_all_wrong_options_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v9_q2_all_wrong_options_review/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v9_q2_all_wrong_options_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v9_q2_all_wrong_options_review",
+      "last_update": 1779722886.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v9_q2_all_wrong_options_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v9_q2_all_wrong_options_review/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v9_q2_all_wrong_options_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v8_p1_closure_review",
+      "last_update": 1779716026.9573529,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "缺",
+        "未完成"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v8_p1_closure_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v8_p1_closure_review/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v8_p1_closure_review",
+      "last_update": 1779716026.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "缺",
+        "未完成"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v8_p1_closure_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v8_p1_closure_review/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/02_source_index",
+      "last_update": 1779715936.2882671,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/02_source_index/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学对齐重做_2026-05-25/02_source_index/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/02_source_index/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/02_source_index/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/02_source_index",
+      "last_update": 1779715936.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/02_source_index/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/02_source_index/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/02_source_index/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/02_source_index/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v7_gpt_full_pdf_review",
+      "last_update": 1779714759.0618517,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v7_gpt_full_pdf_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v7_gpt_full_pdf_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v7_gpt_full_pdf_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v7_gpt_full_pdf_review",
+      "last_update": 1779714758.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v7_gpt_full_pdf_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v7_gpt_full_pdf_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v7_gpt_full_pdf_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_gpt_light_review",
+      "last_update": 1779712996.5345693,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_gpt_light_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_gpt_light_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_gpt_light_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_gpt_light_review",
+      "last_update": 1779712996.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_gpt_light_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_gpt_light_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_gpt_light_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_pdf_fix_review",
+      "last_update": 1779712683.8480453,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "real_call_pending",
+        "待",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_pdf_fix_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_pdf_fix_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_pdf_fix_review/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_pdf_fix_review/GOVERNOR_CHECKLIST.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v6_pdf_fix_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_pdf_fix_review",
+      "last_update": 1779712682.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "real_call_pending",
+        "待",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_pdf_fix_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_pdf_fix_review/GOVERNOR.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_pdf_fix_review/PROGRESS.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_pdf_fix_review/GOVERNOR_CHECKLIST.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v6_pdf_fix_review/ACCEPTANCE.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v5_full_review",
+      "last_update": 1779711740.7192514,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v5_full_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/05_external_review/review_packets/v5_full_review/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v5_full_review",
+      "last_update": 1779711740.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v5_full_review/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学对齐重做_2026-05-25/04_delivery/选必三双宝典_哲学对齐重做_最终交付包_20260525/05_external_review/review_packets/v5_full_review/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v4",
+      "last_update": 1779711102.5205407,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v4/FINAL_ACCEPTANCE_REPORT.md",
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v4/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v3",
+      "last_update": 1779710541.3788962,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v3/FINAL_ACCEPTANCE_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v2",
+      "last_update": 1779709712.587716,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/gpt_textonly_v2/FINAL_ACCEPTANCE_REPORT.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v12_1_reference_cleanup_and_stage_integration",
+      "last_update": 1779436430.8771505,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v12_1_reference_cleanup_and_stage_integration/v12_1_acceptance.md",
+        "选必二法律主观题框架_从题源生长/v12_1_reference_cleanup_and_stage_integration/07_v12_1_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长",
+      "last_update": 1779436365.4672048,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "BLOCKED",
+        "blocked",
+        "real_call_pending",
+        "TODO",
+        "待",
+        "缺",
+        "未完成",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/DEVELOPMENT_PLAN.md",
+        "选必二法律主观题框架_从题源生长/PROGRESS.md",
+        "选必二法律主观题框架_从题源生长/FINAL_ACCEPTANCE_REPORT_BOUNDARY_PATCHED.md",
+        "选必二法律主观题框架_从题源生长/FINAL_ACCEPTANCE_REPORT_STUDENT_FULLSCORE_V4_20260520.md",
+        "选必二法律主观题框架_从题源生长/FINAL_ACCEPTANCE_REPORT_GUARDED_V2.md",
+        "选必二法律主观题框架_从题源生长/FINAL_ACCEPTANCE_REPORT_NIGHT_BATCH_20260520.md",
+        "选必二法律主观题框架_从题源生长/TASK_BRIEF.md",
+        "选必二法律主观题框架_从题源生长/QUESTION_COVERAGE_MATRIX.csv",
+        "选必二法律主观题框架_从题源生长/governor_board.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_ascii_20260522/v11_1",
+      "last_update": 1779433034.2540183,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_ascii_20260522/v11_1/06_v11_1_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_ascii_20260522/v12",
+      "last_update": 1779433034.2086196,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "待",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_ascii_20260522/v12/07_v12_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_20260522/v11_1_written_chain_patch",
+      "last_update": 1779432976.9503667,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_20260522/v11_1_written_chain_patch/06_v11_1_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v12_24_question_backfill",
+      "last_update": 1779426946.4455633,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "待",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v12_24_question_backfill/07_v12_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_20260522/v12_24_question_backfill",
+      "last_update": 1779426946.0,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "待",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/05_reasoner_packets/v12_24_backfill_gptpro_review_20260522/v12_24_question_backfill/07_v12_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v11_1_written_chain_patch",
+      "last_update": 1779424025.727226,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v11_1_written_chain_patch/06_v11_1_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild",
+      "last_update": 1779377942.0074155,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/06_v11_acceptance.md",
+        "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/06_v11_acceptance_stats.json"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/07_packet_for_gpt_review_ascii_20260521",
+      "last_update": 1779377942.0074155,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/07_packet_for_gpt_review_ascii_20260521/06_v11_acceptance.md",
+        "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/07_packet_for_gpt_review_ascii_20260521/06_v11_acceptance_stats.json"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/07_packet_for_gpt_review_20260521",
+      "last_update": 1779377942.0074155,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/07_packet_for_gpt_review_20260521/06_v11_acceptance.md",
+        "选必二法律主观题框架_从题源生长/v11_source_locked_rebuild/07_packet_for_gpt_review_20260521/06_v11_acceptance_stats.json"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v10_exhaustive_framework_and_all_questions",
+      "last_update": 1779375184.2952936,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v10_exhaustive_framework_and_all_questions/05_v10_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v9_feige_style_rebuild",
+      "last_update": 1779371596.4827814,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "待",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v9_feige_style_rebuild/08_v9_style_acceptance.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v8_1_student_delivery_fix",
+      "last_update": 1779369700.4429724,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v8_1_student_delivery_fix/08_v8_1_acceptance_report.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild/09_packet_for_user_gpt_review_20260521",
+      "last_update": 1779367291.200962,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild/09_packet_for_user_gpt_review_20260521/03_acceptance_report_v8.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild",
+      "last_update": 1779358012.2483485,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild/08_v8_acceptance_report.md"
+      ]
+    },
+    {
+      "root": "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild/00_model_packet/files",
+      "last_update": 1779355478.2545946,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild/00_model_packet/files/FINAL_ACCEPTANCE_REPORT_BOUNDARY_PATCHED.md",
+        "选必二法律主观题框架_从题源生长/v8_student_usable_rebuild/00_model_packet/files/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "新题增补_哲学_选必一_2026-05-18/08_governor",
+      "last_update": 1779117328.6608005,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_progress",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "blocked",
+        "real_call_pending",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "新题增补_哲学_选必一_2026-05-18/08_governor/FINAL_ACCEPTANCE_REPORT.md",
+        "新题增补_哲学_选必一_2026-05-18/08_governor/GOVERNOR_CHECKLIST.md"
+      ]
+    },
+    {
+      "root": "新题增补_哲学_选必一_2026-05-18",
+      "last_update": 1779117328.6601756,
+      "completed_steps": 11,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "real_call_pending",
+        "缺",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "新题增补_哲学_选必一_2026-05-18/00_control/SOURCE_LEDGER.csv",
+        "新题增补_哲学_选必一_2026-05-18/00_control/DEVELOPMENT_PLAN.md",
+        "新题增补_哲学_选必一_2026-05-18/00_control/PROGRESS.md",
+        "新题增补_哲学_选必一_2026-05-18/00_control/DECISION_LOG.md",
+        "新题增补_哲学_选必一_2026-05-18/00_control/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "run_control/desktop_mock_sort_2026-05-18",
+      "last_update": 1779111553.8281157,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "missing_governor"
+      ],
+      "risk_hits": [],
+      "next_action": "add governor check before claiming completion",
+      "controls": [
+        "run_control/desktop_mock_sort_2026-05-18/PROGRESS.md",
+        "run_control/desktop_mock_sort_2026-05-18/TASK_BRIEF.md"
+      ]
+    },
     {
       "root": "选必三逻辑与思维_四线从0重跑_2026-05-04/claude_cowork/phase13_framework_rebuild/input_packet",
       "last_update": 1778002304.016701,

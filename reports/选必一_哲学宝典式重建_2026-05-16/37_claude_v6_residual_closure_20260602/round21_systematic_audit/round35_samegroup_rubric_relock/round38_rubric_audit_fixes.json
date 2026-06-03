@@ -1,0 +1,550 @@
+{
+  "samegroups_replaced": 89,
+  "details": [
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026西城一模Q20(2)",
+      "removed_lines": 5,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2025东城一模Q21",
+      "removed_lines": 2,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （综合题提醒）"
+    },
+    {
+      "key": "2025东城一模Q21",
+      "removed_lines": 2,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （综合题提醒）"
+    },
+    {
+      "key": "2024丰台一模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （按原题得分方式）"
+    },
+    {
+      "key": "2025海淀一模Q21(2)",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台二模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026西城一模Q20(2)",
+      "removed_lines": 5,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024石景山一模Q19(2)",
+      "removed_lines": 4,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台二模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台二模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026通州期末Q21",
+      "removed_lines": 2,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （综合题提醒）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台二模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024丰台一模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （按原题得分方式）"
+    },
+    {
+      "key": "2024石景山一模Q19(2)",
+      "removed_lines": 4,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2025海淀一模Q21(2)",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024石景山一模Q19(2)",
+      "removed_lines": 4,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026西城一模Q20(2)",
+      "removed_lines": 5,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026西城一模Q20(2)",
+      "removed_lines": 5,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026西城一模Q20(2)",
+      "removed_lines": 5,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024丰台一模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （按原题得分方式）"
+    },
+    {
+      "key": "2026丰台二模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024丰台一模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （按原题得分方式）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024丰台一模Q20",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （按原题得分方式）"
+    },
+    {
+      "key": "2026西城一模Q20(2)",
+      "removed_lines": 5,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2025海淀一模Q21(2)",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026海淀一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2024朝阳一模Q21",
+      "removed_lines": 4,
+      "inserted_lines": 5,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026通州期末Q21",
+      "removed_lines": 2,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （综合题提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026房山二模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026顺义一模Q20",
+      "removed_lines": 4,
+      "inserted_lines": 4,
+      "marker": "【同题组】 （按原题答题层次）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2024石景山一模Q19(2)",
+      "removed_lines": 4,
+      "inserted_lines": 2,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台期末Q20",
+      "removed_lines": 3,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    },
+    {
+      "key": "2026丰台一模Q19",
+      "removed_lines": 5,
+      "inserted_lines": 3,
+      "marker": "【同题组】 （同主题练习提醒）"
+    }
+  ],
+  "paragraphs_cleaned": 57,
+  "core_headings_emphasized": 131,
+  "audit": {
+    "forbidden_counts": {},
+    "core_headings_total": 131,
+    "core_headings_red_bold": 131,
+    "marker_counts": {
+      "同主题练习提醒": 38,
+      "综合题提醒": 4
+    }
+  }
+}

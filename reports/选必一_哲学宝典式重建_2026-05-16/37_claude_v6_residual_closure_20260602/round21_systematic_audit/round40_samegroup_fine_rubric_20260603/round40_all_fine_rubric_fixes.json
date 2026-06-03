@@ -1,0 +1,2239 @@
+{
+  "input": "/Users/wanglifei/Desktop/选必一6.1终极版_同题组细颗粒修正_延庆回归版_学生版_带水印_20260603.docx",
+  "output": "/Users/wanglifei/Desktop/选必一6.1终极版_同题组细颗粒全量修正_核心答题点红色强化_学生版_带水印_20260603.docx",
+  "report_summary": {
+    "round40_slice_1.md": {
+      "FIX_FINE": 11,
+      "OK_FINE": 6,
+      "NO_FORMAL_RUBRIC": 1,
+      "EXCLUDE": 0
+    },
+    "round40_slice_2.md": {
+      "FIX_FINE": 11,
+      "OK_FINE": 5,
+      "NO_FORMAL_RUBRIC": 2,
+      "EXCLUDE": 0
+    },
+    "round40_slice_3.md": {
+      "FIX_FINE": 12,
+      "OK_FINE": 3,
+      "NO_FORMAL_RUBRIC": 3,
+      "EXCLUDE": 0
+    },
+    "round40_slice_4.md": {
+      "FIX_FINE": 6,
+      "OK_FINE": 7,
+      "NO_FORMAL_RUBRIC": 2,
+      "EXCLUDE": 3
+    }
+  },
+  "parsed_fix_overrides": 40,
+  "manual_override_keys": [
+    "2024海淀二模Q18(1)",
+    "2026海淀期中Q22(1)"
+  ],
+  "no_formal_light_touch_keys": [
+    "2025海淀期中Q16(2)",
+    "2025海淀期中Q21(2)"
+  ],
+  "replacement_report": {
+    "samegroups_replaced": 364,
+    "details": [
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026丰台期末Q21",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026海淀期中Q22(1)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳二模Q20(2)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024西城二模Q17",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025东城一模Q21",
+        "removed": 2,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025东城一模Q21",
+        "removed": 2,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024西城二模Q17",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024西城二模Q17",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024丰台一模Q20",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀一模Q21(2)",
+        "removed": 3,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026东城二模Q20(3)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024东城一模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024西城二模Q17",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025海淀期中Q16(2)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025朝阳一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025西城一模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024东城一模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026东城二模Q20(3)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024东城一模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025海淀期中Q16(2)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2024丰台一模Q20",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025海淀一模Q21(2)",
+        "removed": 3,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026东城二模Q20(3)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026东城二模Q20(3)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026东城二模Q20(3)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025西城期末Q20(2)",
+        "removed": 6,
+        "inserted": 7,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025海淀期中Q16(2)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025西城期末Q20(2)",
+        "removed": 6,
+        "inserted": 7,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025海淀期中Q16(2)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025昌平二模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025西城期末Q20(2)",
+        "removed": 6,
+        "inserted": 7,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025海淀期中Q16(2)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026门头沟一模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀期中Q16(2)",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2024丰台一模Q20",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024丰台一模Q20",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024丰台一模Q20",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025海淀一模Q21(2)",
+        "removed": 3,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024西城一模Q19(6)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025朝阳一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026丰台期末Q21",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳二模Q20(2)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024朝阳期中Q20(3)",
+        "removed": 4,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026丰台期末Q21",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳二模Q20(1)",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026海淀期中Q22(1)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2026朝阳二模Q20(2)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026海淀期中Q22(1)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳二模Q20(2)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025西城一模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026丰台期末Q21",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026海淀期中Q22(1)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2026朝阳二模Q20(2)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳二模Q20(1)",
+        "removed": 3,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024西城二模Q17",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024海淀二模Q18(1)",
+        "removed": 5,
+        "inserted": 4,
+        "source_report": "manual_user_correction"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳二模Q20",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024朝阳一模Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025朝阳一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025西城一模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026房山一模Q19",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024西城二模Q17",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳二模Q20(2)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026石景山一模Q20",
+        "removed": 4,
+        "inserted": 7,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025西城一模Q21",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024丰台一模Q21",
+        "removed": 3,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026延庆一模Q19(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026房山二模Q20",
+        "removed": 4,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026顺义二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026顺义一模Q20",
+        "removed": 4,
+        "inserted": 3,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025东城期末Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2024丰台二模Q19",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025顺义一模Q20",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳期中Q17",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2026朝阳一模Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025延庆一模Q20(2)",
+        "removed": 6,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025门头沟一模Q19",
+        "removed": 5,
+        "inserted": 8,
+        "source_report": "round40_slice_3.md"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀期中Q21(2)",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2026朝阳期末Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2024东城二模Q20",
+        "removed": 5,
+        "inserted": 5,
+        "source_report": "round40_slice_1.md"
+      },
+      {
+        "key": "2026海淀期中Q22(1)",
+        "removed": 4,
+        "inserted": 5,
+        "source_report": "manual_no_formal_rubric_safety"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025朝阳期末Q21",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025丰台二模Q20",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2026西城期末Q20",
+        "removed": 4,
+        "inserted": 4,
+        "source_report": "round40_slice_4.md"
+      },
+      {
+        "key": "2025石景山一模Q17(2)",
+        "removed": 5,
+        "inserted": 6,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      },
+      {
+        "key": "2025海淀二模Q21",
+        "removed": 3,
+        "inserted": 3,
+        "source_report": "round40_slice_2.md"
+      }
+    ]
+  },
+  "paragraphs_cleaned": 0,
+  "core_headings_emphasized": 131,
+  "audit": {
+    "forbidden_counts": {},
+    "core_headings_total": 131,
+    "core_headings_red_bold_12": 131,
+    "core_failures": [],
+    "override_key_count": 44,
+    "haidian_2024_2mo_has_old_reason_layer": false,
+    "yanqing_replacement_count": 11
+  }
+}

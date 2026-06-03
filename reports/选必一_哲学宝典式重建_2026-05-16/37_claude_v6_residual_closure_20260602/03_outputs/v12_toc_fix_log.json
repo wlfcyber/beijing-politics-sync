@@ -1,0 +1,243 @@
+{
+  "source_docx": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/37_claude_v6_residual_closure_20260602/03_outputs/选必一6.1最终版_第12轮Claude复核修订版_带水印.docx",
+  "source_pdf": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/37_claude_v6_residual_closure_20260602/03_outputs/选必一6.1最终版_第12轮Claude复核修订版_带水印.pdf",
+  "out_docx": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/37_claude_v6_residual_closure_20260602/03_outputs/选必一6.1最终版_第12轮Claude复核修订版_带水印_目录修正版.docx",
+  "pages": 355,
+  "changes": [
+    {
+      "title": "时代背景",
+      "old": 3,
+      "new": 3
+    },
+    {
+      "title": "机遇",
+      "old": 3,
+      "new": 3
+    },
+    {
+      "title": "挑战",
+      "old": 17,
+      "new": 16
+    },
+    {
+      "title": "理论",
+      "old": 19,
+      "new": 18
+    },
+    {
+      "title": "合作",
+      "old": 19,
+      "new": 18
+    },
+    {
+      "title": "竞争",
+      "old": 30,
+      "new": 29
+    },
+    {
+      "title": "国家安全",
+      "old": 36,
+      "new": 35
+    },
+    {
+      "title": "经济全球化",
+      "old": 43,
+      "new": 41
+    },
+    {
+      "title": "国：成员国和相关国家发展",
+      "old": 43,
+      "new": 42
+    },
+    {
+      "title": "环：经济环节与要素流动",
+      "old": 45,
+      "new": 43
+    },
+    {
+      "title": "配：资源配置",
+      "old": 47,
+      "new": 45
+    },
+    {
+      "title": "贸资：贸易投资自由化便利化",
+      "old": 49,
+      "new": 47
+    },
+    {
+      "title": "总：开放包容普惠平衡共赢方向",
+      "old": 63,
+      "new": 60
+    },
+    {
+      "title": "开：高水平对外开放",
+      "old": 89,
+      "new": 85
+    },
+    {
+      "title": "兼：国内国际两种资源两个市场",
+      "old": 106,
+      "new": 101
+    },
+    {
+      "title": "国际分工、企业出海与国际竞争新优势",
+      "old": 124,
+      "new": 118
+    },
+    {
+      "title": "全球经济治理与规则权益",
+      "old": 130,
+      "new": 124
+    },
+    {
+      "title": "产业链供应链与开放安全",
+      "old": 139,
+      "new": 132
+    },
+    {
+      "title": "数字经济、绿色转型与新兴领域",
+      "old": 147,
+      "new": 140
+    },
+    {
+      "title": "贸易保护主义与多边贸易体制",
+      "old": 154,
+      "new": 147
+    },
+    {
+      "title": "政治多极化",
+      "old": 160,
+      "new": 153
+    },
+    {
+      "title": "新国关：新型国际关系",
+      "old": 160,
+      "new": 153
+    },
+    {
+      "title": "完全治：完善全球治理",
+      "old": 177,
+      "new": 170
+    },
+    {
+      "title": "共体：人类命运共同体",
+      "old": 208,
+      "new": 199
+    },
+    {
+      "title": "单边/斥：反对单边主义等错误倾向",
+      "old": 224,
+      "new": 214
+    },
+    {
+      "title": "民主：国际关系民主化",
+      "old": 232,
+      "new": 222
+    },
+    {
+      "title": "世界多极化、全球南方与发展中国家",
+      "old": 242,
+      "new": 232
+    },
+    {
+      "title": "国际秩序与国际法治",
+      "old": 251,
+      "new": 240
+    },
+    {
+      "title": "具体治理议题与文明互鉴",
+      "old": 253,
+      "new": 242
+    },
+    {
+      "title": "中国",
+      "old": 255,
+      "new": 244
+    },
+    {
+      "title": "政策",
+      "old": 255,
+      "new": 244
+    },
+    {
+      "title": "智慧",
+      "old": 268,
+      "new": 256
+    },
+    {
+      "title": "责任",
+      "old": 307,
+      "new": 294
+    },
+    {
+      "title": "一条历史线",
+      "old": 343,
+      "new": 327
+    },
+    {
+      "title": "一条主线",
+      "old": 348,
+      "new": 332
+    },
+    {
+      "title": "联合国",
+      "old": 351,
+      "new": 335
+    },
+    {
+      "title": "多边主义/多极化场所",
+      "old": 351,
+      "new": 335
+    },
+    {
+      "title": "联合国宪章宗旨和原则",
+      "old": 352,
+      "new": 336
+    },
+    {
+      "title": "联合国发展议程与全球治理贡献",
+      "old": 361,
+      "new": 345
+    },
+    {
+      "title": "中国与联合国关系",
+      "old": 363,
+      "new": 347
+    },
+    {
+      "title": "六大要素术语极简速记版",
+      "old": 365,
+      "new": 349
+    },
+    {
+      "title": "时代背景",
+      "old": 365,
+      "new": 349
+    },
+    {
+      "title": "理论",
+      "old": 365,
+      "new": 349
+    },
+    {
+      "title": "经济全球化",
+      "old": 365,
+      "new": 349
+    },
+    {
+      "title": "政治多极化",
+      "old": 367,
+      "new": 351
+    },
+    {
+      "title": "中国",
+      "old": 368,
+      "new": 352
+    },
+    {
+      "title": "联合国",
+      "old": 370,
+      "new": 354
+    }
+  ]
+}

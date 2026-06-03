@@ -1,0 +1,34 @@
+node_id,book,framework_parent,framework_node,required_status,body_count,index_count,blocked_count,representative_entries,hard_sample_status,notes
+TH01,thinking,科学思维,客观性,covered,3,0,0,T-2026-SHUNYI-1MO-Q19-2-A;T-2024-HAIDIAN-2MO-Q17-1-A;T-2026-XICHENG-2MO-Q18-4,hard_sample_present,2026顺义一模Q19(2)与2024海淀二模Q17(1)双硬样本支撑
+TH02,thinking,科学思维,预见性,covered,1,0,0,T-2026-SHUNYI-1MO-Q19-2-B,hard_sample_present,硬样本含此节点单独 entry
+TH03,thinking,科学思维,可检验性,covered,2,0,0,T-2026-SHUNYI-1MO-Q19-2-C;RM-2026-SHUNYI-1MO-Q19-1,hard_sample_present,Q19(2)主挂+Q19(1)推理证据
+TH04,thinking,科学思维,探索性与方法更新,covered,1,0,0,T-2024-HAIDIAN-2MO-Q17-1-B,hard_sample_present,硬样本科学思维内部三节点之一
+TH05,thinking,科学思维,整体安排,covered,1,0,0,T-2024-HAIDIAN-2MO-Q17-1-C,hard_sample_present,硬样本科学思维内部三节点之三
+TH06,thinking,辩证思维,整体性,covered,2,0,0,T-2025-HAIDIAN-2MO-Q20-B;T-2026-DONGCHENG-1MO-Q19-4,hard_sample_present,海淀二模Q20硬样本+东城一模系统观念
+TH07,thinking,辩证思维,动态性,covered,2,0,0,T-2025-HAIDIAN-2MO-Q20-C;T-2024-CHAOYANG-2MO-Q19-1,hard_sample_present,
+TH08,thinking,辩证思维,分析与综合,covered,3,0,0,T-2025-HAIDIAN-2MO-Q20-A;T-2026-HAIDIAN-2MO-Q18-1;T-2024-HAIDIAN-1MO-Q17-2,hard_sample_present,V23修正后门头沟转型不再作分析综合主挂
+TH09,thinking,辩证思维,质量互变,covered,1,0,0,T-2025-HAIDIAN-2MO-Q20-C,hard_sample_present,与动态性合写为同一硬样本节点
+TH10,thinking,辩证思维,辩证否定,covered,3,0,0,T-2025-HAIDIAN-2MO-Q20-D;T-2024-DONGCHENG-1MO-Q18-3;T-2026-HOUSHAN-2MO-Q18-2,hard_sample_present,
+TH11,thinking,认识发展历程,感性具体,covered,1,0,0,T-2024-HAIDIAN-2MO-Q17-2,covered_by_chain_sample,与思维抽象/思维具体共证一条
+TH12,thinking,认识发展历程,思维抽象,covered,1,0,0,T-2024-HAIDIAN-2MO-Q17-2,covered_by_chain_sample,同上
+TH13,thinking,认识发展历程,思维具体,covered,1,0,0,T-2024-HAIDIAN-2MO-Q17-2,covered_by_chain_sample,同上；与硬样本2026通州期末Q11同口令(Q0004 已excluded不入正文)
+TH14,thinking,创新思维,思路新/方法新/结果新,covered,3,0,0,T-2026-CHAOYANG-MID-Q21-2-(总特征);T-2025-DONGCHENG-FINAL-Q18-2;T-2026-YANQING-1MO-Q18-2,hard_sample_present,Q21(2)虽未单写三新独立 entry，但 A 节点超前 + B 联想 + C 逆向 + D 发散聚合构成总特征
+TH15,thinking,创新思维,联想思维,covered,3,0,0,T-2026-CHAOYANG-MID-Q21-2-B;T-2026-CHAOYANG-1MO-Q17-1-LATER;T-2025-HAIDIAN-FINAL-Q18,hard_sample_present,
+TH16,thinking,创新思维,发散思维与聚合思维,covered,2,0,0,T-2026-CHAOYANG-MID-Q21-2-D;T-2025-HAIDIAN-FINAL-Q18,hard_sample_present,
+TH17,thinking,创新思维,逆向思维,covered,1,0,0,T-2026-CHAOYANG-MID-Q21-2-C,hard_sample_present,
+TH18,thinking,创新思维,超前思维,covered,3,0,0,T-2026-CHAOYANG-MID-Q21-2-A;T-2024-XICHENG-1MO-Q19-5;T-2026-HAIDIAN-FINAL-Q20-2,hard_sample_present,
+TH19,thinking,创新思维,改变条件与建立新联系,covered,1,0,0,T-2026-DONGCHENG-1MO-Q19-4,covered,V23学生正文补入中关村创新思维复挂
+TH20,thinking,创新思维,迁移和想象,covered_by_support,2,0,0,T-2026-CHAOYANG-1MO-Q17-1-LATER;T-2025-HAIDIAN-FINAL-Q18,covered_by_support,以联想思维 entry 共证迁移和想象；如 Codex 需独立节点，建议再请 B 线补独立 entry
+RE01,reasoning,概念,概念与定义,covered,3,0,0,RM-2024-XICHENG-1MO-Q19-2;RM-2026-DONGCHENG-FINAL-Q17-2;RC-2026-SHIJINGSHAN-1MO-Q5,hard_sample_present,硬样本2024西城一模Q19(2)定义构成
+RE02,reasoning,概念,概念外延关系,covered,4,0,0,RM-2024-XICHENG-1MO-Q19-3;RM-2026-WESTCITY-1MO-Q19-3;RM-2026-HAIDIAN-2MO-Q20-1;RC-2024-HAIDIAN-2MO-Q6,hard_sample_present,含属种、划分规则、外延评析多场景
+RE03,reasoning,判断,判断类型识别,covered,3,0,0,RC-2024-FENGTAI-1MO-Q7;RC-2026-SHIJINGSHAN-1MO-Q5;RM-2024-FENGTAI-1MO-Q19-1,covered,含性质判断周延、特称肯定换质位、AAA-1
+RE04,reasoning,判断,联言判断与联言推理,covered_by_support,0,1,0,RC-2024-DONGCHENG-1MO-Q8,blocked_no_question,本 run 题源池没有单纯联言推理主条目；以复合推理选择题作辅助索引；待 Codex 在融合阶段决定是否合并到充要条件或单列 blocker
+RE05,reasoning,选言推理,相容/不相容选言推理,covered,3,1,0,RC-2026-XICHENG-2MO-Q5;RM-2026-HAIDIAN-1MO-Q17-1;RM-2025-HAIDIAN-1MO-Q21-1;RC-2026-SHUNYI-2MO-Q6-INDEX,covered,相容选言+二难推理评析；2025海淀一模Q21(1)锁定不相容选言否定肯定式
+RE06,reasoning,假言推理,充分条件假言推理,covered,4,0,0,RM-2024-CHAOYANG-1MO-Q20-1;RM-2025-XICHENG-2MO-Q16-2;RM-2026-TONGZHOU-FINAL-Q19-2;RM-2026-HAIDIAN-FINAL-Q20-1,hard_sample_present,2024朝阳一模Q20(1)硬样本
+RE07,reasoning,假言推理,必要条件假言推理,covered,7,0,0,RM-2024-CHAOYANG-1MO-Q20-2;RM-2026-FENGTAI-1MO-Q18-2;RC-2026-HAIDIAN-2MO-Q5;RC-2026-HAIDIAN-2MO-Q6;RC-2026-CHAOYANG-2MO-Q6;RC-2024-FENGTAI-1MO-Q11;RC-2026-SHIJINGSHAN-1MO-Q6,hard_sample_present,2024朝阳一模Q20(2)硬样本+多场景
+RE08,reasoning,假言推理,充要条件假言推理,blocked_no_question,0,0,1,N/A,blocked_no_question,本 run 题源池中未发现独立的充要条件假言推理主题题；以复合假言出现在 RC-2024-DONGCHENG-1MO-Q8（“当且仅当”分支）作为索引；建议 Codex 在融合时决定是否合并入复合假言或开 blocker
+RE09,reasoning,三段论,三段论结构题与谬误题,covered,6,0,0,RM-2024-FENGTAI-1MO-Q19-1;RM-2026-SHUNYI-1MO-Q19-1;RC-2025-SHUNYI-1MO-Q7;RC-2024-CHAOYANG-2MO-Q7;RC-2024-DONGCHENG-1MO-Q7;RM-2026-FENGTAI-1MO-Q18-2,hard_sample_present,2025顺义一模Q7谬误名称纠错硬样本+小项不当扩大正例+形式有效与前提真假
+RE10,reasoning,逻辑规律,逻辑三律(同一律/矛盾律/排中律),covered,2,0,0,RC-2024-XICHENG-1MO-Q11;RC-2024-DONGCHENG-1MO-Q6,covered,2024西城一模Q19(5)已回正为思维册超前思维；逻辑规律由Q11与矛盾律选择题覆盖
+RE11,reasoning,归纳推理,归纳推理(完全/不完全),covered,7,0,0,RM-2024-HAIDIAN-1MO-Q18-2;RM-2025-CHAOYANG-FINAL-Q19;RM-2025-CHAOYANG-2MO-Q17;RM-2024-DONGCHENG-2MO-Q17-2;RM-2025-XICHENG-FINAL-Q17-2;RC-2026-HAIDIAN-2MO-Q7;RC-2026-SHIJINGSHAN-1MO-Q7,hard_sample_present,
+RE12,reasoning,类比推理,类比推理,covered,8,0,0,RM-2024-XICHENG-2MO-Q18-1;RM-2024-CHAOYANG-MID-Q18;RM-2025-FENGTAI-2MO-Q16-2;RM-2026-CHAOYANG-2MO-Q19-1;RM-2025-HAIDIAN-FENGSHAN-Q16-2;RM-2024-CHAOYANG-2MO-Q19-2;RM-2024-FENGTAI-2MO-Q18-1;RC-2026-SHUNYI-1MO-Q4,hard_sample_present,
+RE13,reasoning,论证评价,论证评价与逻辑错误,covered_by_support,6,0,0,RC-2024-DONGCHENG-1MO-Q7;RC-2024-CHAOYANG-1MO-Q6;RC-2024-CHAOYANG-2MO-Q7;RC-2025-SHUNYI-1MO-Q7;RC-2024-FENGTAI-1MO-Q11;RM-2026-FENGTAI-1MO-Q18-2,covered_by_support,以三段论谬误、可能性边界、复合错误式覆盖；专门“论证评价”整体题待 Codex 决定是否额外开节点

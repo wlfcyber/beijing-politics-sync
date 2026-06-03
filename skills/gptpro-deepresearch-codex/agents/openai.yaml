@@ -1,0 +1,3 @@
+display_name: GPT Pro DeepResearch Codex
+short_description: Use ChatGPT Pro and Deep Research as external advisor lanes from Codex.
+default_prompt: Use $gptpro-deepresearch-codex to prepare a safe prompt pack, call ChatGPT Pro or Deep Research when available, and turn the result into locally verified Codex tasks.

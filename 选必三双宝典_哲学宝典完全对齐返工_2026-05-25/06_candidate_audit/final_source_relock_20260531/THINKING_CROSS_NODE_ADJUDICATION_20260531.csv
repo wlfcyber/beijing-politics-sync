@@ -1,0 +1,26 @@
+﻿idx,node,title,issue_severity,final_status,source_lock_status,final_adjudication
+27,整体性,7. 2026西城二模 第18题第（4）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原细则为科学思维、辩证思维、创新思维多角度；整体性条目只抓全面看待AI，不自创节点。
+34,分析与综合,5. 2026海淀二模 第18题第（1）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+40,矛盾分析法,4. 2024丰台二模 第18题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原细则要求评析“准确预测”观点，超前/预见性为合理处，辩证思维用于指出预测不是充分且唯一条件；对应节点正文已拆开讲。
+46,辩证否定,3. 2026房山二模 第18题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,manual_window_confirmed_source_locked,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+49,特点与三新,1. 2025昌平二模 第19题（主观题）,P2,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+50,特点与三新,2. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）,P2,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+51,特点与三新,3. 2026门头沟一模 第18题第（2）问（主观题）,P2,KEEP_SOURCE_SUPPORTED,manual_window_confirmed_source_locked,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+52,特点与三新,4. 2026延庆一模 第18题第（2）问（主观题）,P2,KEEP_SOURCE_SUPPORTED,manual_window_confirmed_source_locked,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+53,特点与三新,5. 2026石景山一模 第17题第（2）问（主观题）,P2,KEEP_SOURCE_SUPPORTED,manual_source_locked,保留：2026石景山一模17(2)原卷/细则列联想、发散/聚合、超前三类建议；特点与三新条目只作总入口，具体方法分别落到合法子节点。
+54,特点与三新,6. 2026丰台二模 第21题（主观题）,P2,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+55,特点与三新,7. 2026西城二模 第18题第（4）问（主观题）,P2,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+59,联想思维,2. 2026石景山一模 第17题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,manual_source_locked,保留：2026石景山一模17(2)原卷/细则列联想、发散/聚合、超前三类建议；特点与三新条目只作总入口，具体方法分别落到合法子节点。
+63,联想思维,6. 2025门头沟一模 第21题第（1）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+65,发散思维与聚合思维,2. 2025东城期末 第18题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+69,发散思维与聚合思维,6. 2024丰台一模 第19题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留但限定：卷面方法名必须写问卷调查法、访谈法、抽样调查法、文献查找法、头脑风暴法等具体方法；最终正文不把“发散思维”当具体研究方法直接写。
+70,逆向思维,1. 2025房山一模 第16题第（3）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+73,超前思维,1. 2024西城一模 第19题第（5）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,manual_window_confirmed_source_locked,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+76,超前思维,4. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+77,超前思维,5. 2026海淀期末 第20题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+78,超前思维,6. 2025东城期末 第18题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+79,超前思维,7. 2025海淀期末 第18题（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_by_paper_question_and_rubric_method,保留：原细则PPT除逆向、联想外，也列发散/聚合与超前思维，超前角度对应京津冀公共服务功能新文化地标和共建共享条件。
+80,超前思维,8. 2024朝阳期中 第19题（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+81,超前思维,9. 2024顺义二模 第16题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：原卷/细则支持该题多角度或该节点角度；最终正文只在对应框架节点中讲对应触发链，不新增非法二级标题。
+82,超前思维,10. 2026石景山一模 第17题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,kept_from_prior_adjudication,保留：2026石景山一模17(2)原卷/细则列联想、发散/聚合、超前三类建议；特点与三新条目只作总入口，具体方法分别落到合法子节点。
+84,超前思维,12. 2024丰台二模 第18题第（2）问（主观题）,P1,KEEP_SOURCE_SUPPORTED,source_locked_rubric_question_method,保留：原细则要求评析“准确预测”观点，超前/预见性为合理处，辩证思维用于指出预测不是充分且唯一条件；对应节点正文已拆开讲。

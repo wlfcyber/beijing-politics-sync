@@ -1,0 +1,70 @@
+{
+  "yanqing_replaced": 11,
+  "details": [
+    {
+      "paragraph_index": 98,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 455,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 751,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 1249,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 2513,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 3737,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 4056,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 4264,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 4430,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 5065,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    },
+    {
+      "paragraph_index": 5935,
+      "removed_lines": 5,
+      "inserted_lines": 6
+    }
+  ],
+  "audit": {
+    "forbidden_counts": {},
+    "yanqing_replacement_phrase_count": 11,
+    "yanqing_key_count": 11,
+    "core_style": {
+      "core_total": 131,
+      "core_red_bold_12": 131,
+      "core_failures": []
+    }
+  }
+}

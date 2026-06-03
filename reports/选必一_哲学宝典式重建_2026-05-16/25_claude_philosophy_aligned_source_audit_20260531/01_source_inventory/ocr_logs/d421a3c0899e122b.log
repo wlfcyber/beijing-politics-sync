@@ -1,0 +1,10 @@
+OCR 26顺义二模(1).pdf: 12 pages -> /Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/25_claude_philosophy_aligned_source_audit_20260531/01_source_inventory/texts/d421a3c0899e122b.txt
+
+--- STDERR ---
+/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/25_claude_philosophy_aligned_source_audit_20260531/scripts/ocr_pdf_vision.swift:64:45: warning: conditional downcast from '[VNRecognizedTextObservation]?' to '[VNRecognizedTextObservation]' does nothing
+62 |     do {
+63 |         try handler.perform([request])
+64 |         let observations = (request.results as? [VNRecognizedTextObservation]) ?? []
+   |                                             `- warning: conditional downcast from '[VNRecognizedTextObservation]?' to '[VNRecognizedTextObservation]' does nothing
+65 |         let lines = observations.compactMap { $0.topCandidates(1).first?.string }
+66 |         allLines.append("[page \(pageIndex + 1)]")

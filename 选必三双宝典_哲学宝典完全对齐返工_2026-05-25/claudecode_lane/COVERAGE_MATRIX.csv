@@ -1,0 +1,148 @@
+coverage_id,source_suite,question_id,question_type,module_decision,handbook_target,decision,evidence_level,framework_node_or_reasoning_family,source_lock,blocked_reason,fusion_priority
+BCV0001,2026顺义一模,Q0001,main_question,thinking,thinking_main,body,A-formal,科学思维/客观性+预见性+可检验性(三节点复挂),run_question_id=Q0001;suite=2026顺义一模;no=19(2);rubric_state_from_run_ledger,,P1
+BCV0002,2025海淀二模,Q0002,main_question,thinking,thinking_main,body,A-formal,辩证思维/分析综合+整体性+动态性质量互变+辩证否定(多节点复挂),run_question_id=Q0002;suite=2025海淀二模;no=20;rubric_state_from_run_ledger,,P1
+BCV0003,2026朝阳期中(2025-11),Q0003,main_question,thinking,thinking_main,body,A-formal,创新思维/超前+联想+逆向+发散聚合(多节点复挂),run_question_id=Q0003;suite=2026朝阳期中(2025-11);no=21(2);rubric_state_from_run_ledger,,P1
+BCV0004,2026通州期末,Q0004,choice_question,choice_trap,excluded_or_boundary,excluded,A-formal,思维选择题/通州期末11,run_question_id=Q0004;suite=2026通州期末;no=11;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0005,2026东城期末,Q0005,main_question,reasoning,reasoning_main,body,A-formal,概念外延关系/属种与种差(定义),run_question_id=Q0005;suite=2026东城期末;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0006,2024朝阳一模,Q0006,main_question,reasoning,reasoning_main,body,A-formal,充分条件假言推理,run_question_id=Q0006;suite=2024朝阳一模;no=20(1);rubric_state_from_run_ledger,,P1
+BCV0007,2024朝阳一模,Q0007,main_question,reasoning,reasoning_main,body,A-formal,必要条件假言推理,run_question_id=Q0007;suite=2024朝阳一模;no=20(2);rubric_state_from_run_ledger,,P1
+BCV0008,2025西城二模,Q0008,main_question,reasoning,reasoning_main,body,A-formal,充分条件假言推理(肯前推后),run_question_id=Q0008;suite=2025西城二模;no=16(2);rubric_state_from_run_ledger,,P2
+BCV0009,2026通州期末,Q0009,main_question,reasoning,reasoning_main,body,A-formal,充分条件+必要条件复合判断,run_question_id=Q0009;suite=2026通州期末;no=19(2);rubric_state_from_run_ledger,,P2
+BCV0010,2026丰台一模,Q0010,main_question,reasoning,reasoning_main,body,A-formal,必要条件假言推理+三段论大项不当扩大,run_question_id=Q0010;suite=2026丰台一模;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0011,2024海淀二模,Q0011,main_question,thinking,thinking_main,body,A-formal,科学思维/客观性+探索性与方法更新+整体安排(三节点复挂),run_question_id=Q0011;suite=2024海淀二模;no=17(1);rubric_state_from_run_ledger,,P1
+BCV0012,2025顺义一模,Q0012,choice_question,choice_trap,reasoning_choice,body,A-formal,三段论/大项不当扩大谬误名称纠错,run_question_id=Q0012;suite=2025顺义一模;no=7;rubric_state_from_run_ledger,,P1
+BCV0013,2026顺义一模,Q0013,main_question,reasoning,reasoning_main,body,A-formal,三段论+论证评价(科学思维结构),run_question_id=Q0013;suite=2026顺义一模;no=19(1);rubric_state_from_run_ledger,,P2
+BCV0014,2026朝阳期中(2025-11),Q0014,main_question,thinking,thinking_main,body,A-formal,辩证思维/分析综合+动态性,run_question_id=Q0014;suite=2026朝阳期中(2025-11);no=20;rubric_state_from_run_ledger,,P2
+BCV0015,2026东城期末,Q0015,choice_question,reasoning,reasoning_choice,body,A-formal,三段论/补大前提,run_question_id=Q0015;suite=2026东城期末;no=6;rubric_state_from_run_ledger,,P2
+BCV0016,2026东城期末,Q0016,choice_question,reasoning,reasoning_choice,body,A-formal,三段论/小项不当扩大(辨析),run_question_id=Q0016;suite=2026东城期末;no=7;rubric_state_from_run_ledger,,P2
+BCV0017,2026通州期末,Q0017,choice_question,choice_trap,excluded_or_boundary,excluded,A-formal,思维选择题/通州期末9,run_question_id=Q0017;suite=2026通州期末;no=9;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0018,2026朝阳一模,Q0018,main_question,reasoning,reasoning_main,body,A-formal,归纳推理(不完全归纳),run_question_id=Q0018;suite=2026朝阳一模;no=17(1)前半;rubric_state_from_run_ledger,,P2
+BCV0019,2026朝阳一模,Q0019,main_question,thinking,thinking_main,body,A-formal,联想思维/迁移和想象设计文创方案,run_question_id=Q0019;suite=2026朝阳一模;no=17(1)后半;rubric_state_from_run_ledger;corrected_from_stale_three_new_label_v23,,P2
+BCV0020,2026海淀期末,Q0020,main_question,reasoning,reasoning_main,body,A-formal,充分条件假言推理肯定后件不能肯定前件,run_question_id=Q0020;suite=2026海淀期末;no=20(1);rubric_state_from_run_ledger;corrected_from_stale_division_label_v23,,P2
+BCV0021,2026海淀期末,Q0021,main_question,thinking,thinking_main,body,A-formal,超前思维调查研究+矛盾分析+推理和想象,run_question_id=Q0021;suite=2026海淀期末;no=20(2);rubric_state_from_run_ledger;corrected_from_stale_city_library_label_v23,,P2
+BCV0022,2026海淀一模,Q0022,main_question,reasoning,reasoning_main,body,A-formal,选言判断+概念划分规则,run_question_id=Q0022;suite=2026海淀一模;no=17(1);rubric_state_from_run_ledger,,P2
+BCV0023,2026海淀一模,Q0023,main_question,thinking,thinking_main,body,A-formal,科学思维/客观性+可检验性,run_question_id=Q0023;suite=2026海淀一模;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0024,2024朝阳一模,Q0024,choice_question,reasoning,reasoning_choice,body,A-formal,判断类型识别/性质判断,run_question_id=Q0024;suite=2024朝阳一模;no=6;rubric_state_from_run_ledger,,P2
+BCV0025,2024.11朝阳期中,Q0025,main_question,reasoning,reasoning_main,body,A-formal,类比推理评析,run_question_id=Q0025;suite=2024.11朝阳期中;no=18;rubric_state_from_run_ledger,,P2
+BCV0026,2026西城一模,Q0026,main_question,reasoning,reasoning_main,body,A-formal,概念外延窄化(公共利益四概念),run_question_id=Q0026;suite=2026西城一模;no=19(3);rubric_state_from_run_ledger,,P2
+BCV0027,2025海淀一模,Q0027,main_question,reasoning,reasoning_main,body,A-formal,不相容选言推理否定肯定式有效样本,run_question_id=Q0027;suite=2025海淀一模;no=21(1);rubric_state_from_run_ledger;corrected_from_stale_trisyllogism_label_v23,,P2
+BCV0028,2025丰台期末,Q0028,choice_question,reasoning,reasoning_choice,body,B-choice-signal,推理形式选择题(B-choice-signal),run_question_id=Q0028;suite=2025丰台期末;no=9;rubric_state_from_run_ledger,,P2
+BCV0029,2024朝阳二模,Q0029,choice_question,reasoning,reasoning_choice,body,A-formal,三段论/小项不当扩大,run_question_id=Q0029;suite=2024朝阳二模;no=7;rubric_state_from_run_ledger,,P2
+BCV0030,2024北京高考,Q0030,main_question,thinking,excluded_or_boundary,blocked,missing,思维主观/北京高考19(2),run_question_id=Q0030;suite=2024北京高考;no=19(2);rubric_state_from_run_ledger,missing_official_rubric_for_2024_beijing_gaokao_q192,P4
+BCV0031,2026顺义一模,Q0031,choice_question,reasoning,reasoning_choice,body,B-choice-signal,概念外延关系(选择题),run_question_id=Q0031;suite=2026顺义一模;no=2;rubric_state_from_run_ledger,,P2
+BCV0032,2026顺义一模,Q0032,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026顺义一模 3,run_question_id=Q0032;suite=2026顺义一模;no=3;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0033,2026顺义一模,Q0033,choice_question,reasoning,reasoning_choice,body,B-choice-signal,必要条件假言推理(选择题),run_question_id=Q0033;suite=2026顺义一模;no=4;rubric_state_from_run_ledger,,P2
+BCV0034,2026顺义一模,Q0034,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026顺义一模 5,run_question_id=Q0034;suite=2026顺义一模;no=5;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0035,2026顺义一模,Q0035,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026顺义一模 6,run_question_id=Q0035;suite=2026顺义一模;no=6;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0036,2026顺义一模,Q0036,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026顺义一模 7,run_question_id=Q0036;suite=2026顺义一模;no=7;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0037,2026朝阳一模,Q0037,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026朝阳一模 3,run_question_id=Q0037;suite=2026朝阳一模;no=3;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0038,2026朝阳一模,Q0038,choice_question,reasoning,reasoning_choice,body,B-choice-signal,三段论结构题(选择题),run_question_id=Q0038;suite=2026朝阳一模;no=5;rubric_state_from_run_ledger,,P2
+BCV0039,2026朝阳一模,Q0039,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026朝阳一模 6,run_question_id=Q0039;suite=2026朝阳一模;no=6;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0040,2026朝阳一模,Q0040,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026朝阳一模 7,run_question_id=Q0040;suite=2026朝阳一模;no=7;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0041,2025门头沟一模,Q0041,main_question,thinking,thinking_main,body,A-formal,科学思维设问下辩证思维+创新思维+科学思维复合,run_question_id=Q0041;suite=2025门头沟一模;no=21(1);rubric_state_from_run_ledger;corrected_from_stale_eldercare_label_v23,,P2
+BCV0042,2025房山一模,Q0042,main_question,reasoning,reasoning_main,body,A-formal,类比推理评析,run_question_id=Q0042;suite=2025房山一模;no=16(2);rubric_state_from_run_ledger,,P2
+BCV0043,2025房山一模,Q0043,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0043;suite=2025房山一模;no=16(3);rubric_state_from_run_ledger,,P2
+BCV0044,2025东城期末,Q0044,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0044;suite=2025东城期末;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0045,2025昌平二模,Q0045,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0045;suite=2025昌平二模;no=19;rubric_state_from_run_ledger,,P2
+BCV0046,2025西城一模,Q0046,main_question,thinking,thinking_main,body,A-formal,温榆生态心科学思维客观性+辩证思维+创新思维,run_question_id=Q0046;suite=2025西城一模;no=17;rubric_state_from_run_ledger;corrected_from_stale_urban_renewal_label_v23,,P2
+BCV0047,2025石景山一模,Q0047,main_question,thinking,thinking_main,body,A-formal,科学思维/客观性+可检验性,run_question_id=Q0047;suite=2025石景山一模;no=19;rubric_state_from_run_ledger,,P2
+BCV0048,2025丰台一模,Q0048,main_question,thinking,thinking_main,body,A-formal,科学思维客观性+预见性+可检验性,run_question_id=Q0048;suite=2025丰台一模;no=18(1);rubric_state_from_run_ledger;corrected_from_stale_dialectic_label_v23,,P2
+BCV0049,2025朝阳期末,Q0049,main_question,reasoning,reasoning_main,body,A-formal,归纳推理评析,run_question_id=Q0049;suite=2025朝阳期末;no=19;rubric_state_from_run_ledger,,P2
+BCV0050,2025海淀期末,Q0050,main_question,thinking,thinking_main,body,A-formal,北京城市图书馆创新思维：逆向+联想+发散聚合+超前,run_question_id=Q0050;suite=2025海淀期末;no=18;rubric_state_from_run_ledger;corrected_from_stale_factory_label_v23,,P2
+BCV0051,2025东城一模,Q0051,main_question,thinking,thinking_main,body,A-formal,辩证思维/分析综合+整体性,run_question_id=Q0051;suite=2025东城一模;no=18(1);rubric_state_from_run_ledger,,P2
+BCV0052,2025朝阳一模,Q0052,main_question,reasoning,reasoning_main,body,A-formal,类比推理评析,run_question_id=Q0052;suite=2025朝阳一模;no=17(1);rubric_state_from_run_ledger,,P2
+BCV0053,2025朝阳二模,Q0053,main_question,reasoning,reasoning_main,body,A-formal,归纳推理评析,run_question_id=Q0053;suite=2025朝阳二模;no=17;rubric_state_from_run_ledger,,P2
+BCV0054,2025延庆一模,Q0054,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0054;suite=2025延庆一模;no=18;rubric_state_from_run_ledger,,P2
+BCV0055,2025海淀二模,Q0055,main_question,thinking,thinking_main,body,A-formal,辩证思维/分析综合+整体性+动态性+辩证否定,run_question_id=Q0055;suite=2025海淀二模;no=20;rubric_state_from_run_ledger,,P2
+BCV0056,2024朝阳期中,Q0056,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0056;suite=2024朝阳期中;no=19;rubric_state_from_run_ledger,,P2
+BCV0057,2024顺义二模,Q0057,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0057;suite=2024顺义二模;no=16(2);rubric_state_from_run_ledger,,P2
+BCV0058,2024东城一模,Q0058,main_question,thinking,thinking_main,body,A-formal,辩证否定观,run_question_id=Q0058;suite=2024东城一模;no=18(3);rubric_state_from_run_ledger,,P2
+BCV0059,2024丰台一模,Q0059,main_question,thinking,thinking_main,body,A-formal,垃圾分类标识模拟政协提案研究方法：科学思维综合,run_question_id=Q0059;suite=2024丰台一模;no=19(2);rubric_state_from_run_ledger;corrected_from_stale_future_industry_label_v23,,P2
+BCV0060,2024丰台一模,Q0060,main_question,reasoning,reasoning_main,body,A-formal,三段论结构题与谬误题,run_question_id=Q0060;suite=2024丰台一模;no=19(1);rubric_state_from_run_ledger,,P1
+BCV0061,2024丰台二模,Q0061,main_question,reasoning,reasoning_main,body,A-formal,类比推理评析,run_question_id=Q0061;suite=2024丰台二模;no=18(1);rubric_state_from_run_ledger,,P2
+BCV0062,2024丰台二模,Q0062,main_question,thinking,thinking_main,body,A-formal,科学思维/预见性,run_question_id=Q0062;suite=2024丰台二模;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0063,2024西城二模,Q0063,main_question,reasoning,reasoning_main,body,A-formal,类比推理,run_question_id=Q0063;suite=2024西城二模;no=18(1);rubric_state_from_run_ledger,,P1
+BCV0064,2024海淀一模,Q0064,main_question,reasoning,reasoning_main,body,A-formal,归纳推理,run_question_id=Q0064;suite=2024海淀一模;no=18(2);rubric_state_from_run_ledger,,P1
+BCV0065,2024石景山一模,Q0065,main_question,thinking,thinking_main,body,A-support,科学思维/客观性(A-support),run_question_id=Q0065;suite=2024石景山一模;no=19(3);rubric_state_from_run_ledger,,P2
+BCV0066,2024西城一模,Q0066,main_question,thinking,thinking_main,body,A-formal,未来产业方向研判：超前思维调查研究+矛盾分析+推理和想象,run_question_id=Q0066;suite=2024西城一模;no=19(5);rubric_state_from_run_ledger;corrected_from_stale_logic_law_label_v23,,P1
+BCV0067,2024西城一模,Q0067,main_question,reasoning,reasoning_main,body,A-formal,概念与定义,run_question_id=Q0067;suite=2024西城一模;no=19(2);rubric_state_from_run_ledger,,P1
+BCV0068,2024西城一模,Q0068,main_question,reasoning,reasoning_main,body,A-formal,概念外延关系/属种与新形态,run_question_id=Q0068;suite=2024西城一模;no=19(3);rubric_state_from_run_ledger,,P1
+BCV0069,2024门头沟一模,Q0069,main_question,thinking,excluded_or_boundary,excluded,B-compilation,辩证思维/分析综合+发散聚合(B-compilation),run_question_id=Q0069;suite=2024门头沟一模;no=20;rubric_state_from_run_ledger,compilation_only_no_official_district_source,P4
+BCV0070,2024房山一模,Q0070,main_question,thinking,excluded_or_boundary,excluded,B-compilation,思维主观/房山2024 20(1),run_question_id=Q0070;suite=2024房山一模;no=20(1);rubric_state_from_run_ledger,compilation_only_no_official_district_source,P4
+BCV0071,2024东城一模,Q0071,choice_question,reasoning,reasoning_choice,body,A-formal,三段论选择题,run_question_id=Q0071;suite=2024东城一模;no=6;rubric_state_from_run_ledger,,P2
+BCV0072,2024东城一模,Q0072,choice_question,reasoning,reasoning_choice,body,A-formal,形式有效与前提不真(三段论),run_question_id=Q0072;suite=2024东城一模;no=7;rubric_state_from_run_ledger,,P2
+BCV0073,2024东城一模,Q0073,choice_question,reasoning,reasoning_choice,body,A-formal,充分条件假言推理(选择题),run_question_id=Q0073;suite=2024东城一模;no=8;rubric_state_from_run_ledger,,P2
+BCV0074,2024石景山一模,Q0074,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2024石景山一模 6,run_question_id=Q0074;suite=2024石景山一模;no=6;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0075,2024石景山一模,Q0075,choice_question,reasoning,reasoning_choice,body,A-support,三段论小项不当扩大(选择题),run_question_id=Q0075;suite=2024石景山一模;no=7;rubric_state_from_run_ledger,,P2
+BCV0076,2024西城一模,Q0076,choice_question,reasoning,reasoning_choice,body,A-formal,逻辑规律/同一律(枚举概括与同一对象替换),run_question_id=Q0076;suite=2024西城一模;no=11;rubric_state_from_run_ledger,,P1
+BCV0077,2024西城一模,Q0077,choice_question,thinking,excluded_or_boundary,excluded,A-formal,思维选择题/2024西城一模 12,run_question_id=Q0077;suite=2024西城一模;no=12;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0078,2024西城一模,Q0078,choice_question,thinking,excluded_or_boundary,excluded,A-formal,思维选择题/2024西城一模 13,run_question_id=Q0078;suite=2024西城一模;no=13;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0079,2024朝阳一模,Q0079,choice_question,thinking,excluded_or_boundary,excluded,A-formal,思维选择题/2024朝阳一模 7,run_question_id=Q0079;suite=2024朝阳一模;no=7;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0080,2024丰台一模,Q0080,choice_question,reasoning,reasoning_choice,body,A-support,性质判断/谓项不周延,run_question_id=Q0080;suite=2024丰台一模;no=7;rubric_state_from_run_ledger,,P2
+BCV0081,2024海淀一模,Q0081,choice_question,reasoning,reasoning_choice,body,A-formal,概念外延关系(选择题),run_question_id=Q0081;suite=2024海淀一模;no=6;rubric_state_from_run_ledger,,P2
+BCV0082,2024海淀一模,Q0082,choice_question,reasoning,reasoning_choice,body,A-formal,三段论结构题(选择题),run_question_id=Q0082;suite=2024海淀一模;no=7;rubric_state_from_run_ledger,,P2
+BCV0083,2024海淀一模,Q0083,main_question,thinking,thinking_main,body,A-formal,思维(待Codex回源细化),run_question_id=Q0083;suite=2024海淀一模;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0084,2024朝阳二模,Q0084,main_question,thinking+reasoning,reasoning_main,body,A-formal,推理+思维交叉(待Codex回源细化),run_question_id=Q0084;suite=2024朝阳二模;no=19(1);rubric_state_from_run_ledger,,P3
+BCV0084T,2024朝阳二模,Q0084(thinking-mount),main_question,thinking+reasoning,thinking_main,body,A-formal,思维(交叉挂载),run_question_id=Q0084;suite=2024朝阳二模;no=19(1);cross_mount_reasoning_primary,,P3
+BCV0085,2024朝阳二模,Q0085,main_question,reasoning,reasoning_main,body,A-formal,类比推理+归纳推理评析(主观),run_question_id=Q0085;suite=2024朝阳二模;no=19(2);rubric_state_from_run_ledger,,P2
+BCV0086,2024顺义二模,Q0086,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2024顺义二模 3,run_question_id=Q0086;suite=2024顺义二模;no=3;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0087,2024顺义二模,Q0087,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2024顺义二模 5,run_question_id=Q0087;suite=2024顺义二模;no=5;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0088,2024顺义二模,Q0088,choice_question,reasoning,reasoning_choice,body,A-formal,必要条件假言推理(选择题),run_question_id=Q0088;suite=2024顺义二模;no=6;rubric_state_from_run_ledger,,P2
+BCV0089,2024顺义二模,Q0089,choice_question,reasoning,reasoning_choice,body,A-formal,必要条件假言推理(选择题),run_question_id=Q0089;suite=2024顺义二模;no=7;rubric_state_from_run_ledger,,P2
+BCV0090,2024丰台一模,Q0090,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2024丰台一模 10,run_question_id=Q0090;suite=2024丰台一模;no=10;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0091,2024丰台一模,Q0091,choice_question,reasoning,reasoning_choice,body,A-support,必要条件假言推理(可能性证据边界),run_question_id=Q0091;suite=2024丰台一模;no=11;rubric_state_from_run_ledger,,P2
+BCV0092,2024顺义二模,Q0092,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2024顺义二模 2,run_question_id=Q0092;suite=2024顺义二模;no=2;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0093,2024海淀二模,Q0093,choice_question,reasoning,reasoning_choice,body,A-formal,三段论结构(选择题),run_question_id=Q0093;suite=2024海淀二模;no=5;rubric_state_from_run_ledger,,P2
+BCV0094,2024海淀二模,Q0094,choice_question,reasoning,reasoning_choice,body,A-formal,概念外延+换位推理边界(选择题),run_question_id=Q0094;suite=2024海淀二模;no=6;rubric_state_from_run_ledger,,P2
+BCV0095,2026门头沟一模,Q0095,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026门头沟一模 5,run_question_id=Q0095;suite=2026门头沟一模;no=5;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0096,2026门头沟一模,Q0096,choice_question,reasoning,reasoning_choice,body,A-formal,推理形式选择题,run_question_id=Q0096;suite=2026门头沟一模;no=6;rubric_state_from_run_ledger,,P2
+BCV0097,2026门头沟一模,Q0097,main_question,thinking,thinking_main,body,A-formal,辩证思维+创新思维,run_question_id=Q0097;suite=2026门头沟一模;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0098,2024海淀二模,Q0098,main_question,thinking,thinking_main,body,A-formal,认识发展历程/感性具体+思维抽象+思维具体,run_question_id=Q0098;suite=2024海淀二模;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0099,2026门头沟一模,Q0099,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026门头沟一模 7,run_question_id=Q0099;suite=2026门头沟一模;no=7;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0100,2026延庆一模,Q0100,main_question,thinking,thinking_main,body,A-formal,创新思维/规范中创新发展,run_question_id=Q0100;suite=2026延庆一模;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0101,2026东城一模,Q0101,main_question,thinking,thinking_main,body,A-formal,中关村把1拉长推进：系统观念+创新思维,run_question_id=Q0101;suite=2026东城一模;no=19(4);rubric_state_from_run_ledger;corrected_from_stale_jiesu_jiban_entry_v23,,P2
+BCV0102,2026房山一模,Q0102,main_question,thinking,thinking_main,body,A-formal,辩证思维/系统治理+精准施策+久久为功,run_question_id=Q0102;suite=2026房山一模;no=18(1);rubric_state_from_run_ledger,,P2
+BCV0103,2026石景山一模,Q0103,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026石景山一模 2,run_question_id=Q0103;suite=2026石景山一模;no=2;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0104,2026石景山一模,Q0104,choice_question,reasoning,reasoning_choice,body,A-formal,性质判断/特称换质位边界(选择题),run_question_id=Q0104;suite=2026石景山一模;no=5;rubric_state_from_run_ledger,,P2
+BCV0105,2026石景山一模,Q0105,choice_question,reasoning,reasoning_choice,body,A-formal,必要条件假言推理(选择题),run_question_id=Q0105;suite=2026石景山一模;no=6;rubric_state_from_run_ledger,,P2
+BCV0106,2026石景山一模,Q0106,choice_question,reasoning,reasoning_choice,body,A-formal,概念外延关系(选择题),run_question_id=Q0106;suite=2026石景山一模;no=7;rubric_state_from_run_ledger,,P2
+BCV0107,2026石景山一模,Q0107,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0107;suite=2026石景山一模;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0108,2025丰台二模,Q0108,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2025丰台二模 12,run_question_id=Q0108;suite=2025丰台二模;no=12;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0109,2025丰台二模,Q0109,choice_question,reasoning,reasoning_choice,body,A-support,推理形式选择题(A-support),run_question_id=Q0109;suite=2025丰台二模;no=13;rubric_state_from_run_ledger,,P2
+BCV0110,2025丰台二模,Q0110,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2025丰台二模 14,run_question_id=Q0110;suite=2025丰台二模;no=14;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0111,2025丰台二模,Q0111,main_question,reasoning,reasoning_main,body,A-formal,类比推理评析(主观),run_question_id=Q0111;suite=2025丰台二模;no=16(2);rubric_state_from_run_ledger,,P2
+BCV0112,2025丰台二模,Q0112,main_question,thinking+reasoning,reasoning_main,body,A-formal,推理+思维交叉主观,run_question_id=Q0112;suite=2025丰台二模;no=19(1);rubric_state_from_run_ledger,,P3
+BCV0112T,2025丰台二模,Q0112(thinking-mount),main_question,thinking+reasoning,thinking_main,body,A-formal,思维(交叉挂载),run_question_id=Q0112;suite=2025丰台二模;no=19(1);cross_mount_reasoning_primary,,P3
+BCV0113,2026丰台二模,Q0113,choice_question,reasoning,reasoning_choice,body,A-support,推理形式选择题,run_question_id=Q0113;suite=2026丰台二模;no=8;rubric_state_from_run_ledger,,P2
+BCV0114,2026丰台二模,Q0114,choice_question,reasoning,reasoning_choice,body,A-support,推理形式选择题,run_question_id=Q0114;suite=2026丰台二模;no=9;rubric_state_from_run_ledger,,P2
+BCV0115,2026丰台二模,Q0115,main_question,thinking,thinking_main,body,A-formal,创新思维/思路新方法新结果新,run_question_id=Q0115;suite=2026丰台二模;no=21;rubric_state_from_run_ledger,,P2
+BCV0116,2026东城二模,Q0116,choice_question,reasoning,reasoning_choice,body,A-support,推理形式选择题,run_question_id=Q0116;suite=2026东城二模;no=12;rubric_state_from_run_ledger,,P2
+BCV0117,2026东城二模,Q0117,main_question,thinking+reasoning,reasoning_main,body,A-formal,推理+思维交叉主观,run_question_id=Q0117;suite=2026东城二模;no=18;rubric_state_from_run_ledger,,P3
+BCV0117T,2026东城二模,Q0117(thinking-mount),main_question,thinking+reasoning,thinking_main,body,A-formal,创新思维/思路新方法新结果新(交叉),run_question_id=Q0117;suite=2026东城二模;no=18;cross_mount_reasoning_primary,,P3
+BCV0118,2026朝阳二模,Q0118,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2026朝阳二模 5,run_question_id=Q0118;suite=2026朝阳二模;no=5;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0119,2026朝阳二模,Q0119,choice_question,reasoning,reasoning_choice,body,A-support,必要条件假言推理(双重否定),run_question_id=Q0119;suite=2026朝阳二模;no=6;rubric_state_from_run_ledger,,P2
+BCV0120,2026朝阳二模,Q0120,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2026朝阳二模 7,run_question_id=Q0120;suite=2026朝阳二模;no=7;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0121,2026朝阳二模,Q0121,main_question,reasoning,reasoning_main,body,A-formal,类比推理评析(主观),run_question_id=Q0121;suite=2026朝阳二模;no=19(1);rubric_state_from_run_ledger,,P2
+BCV0122,2026海淀二模,Q0122,choice_question,thinking,excluded_or_boundary,excluded,B-choice-signal,思维选择题/2026海淀二模 3,run_question_id=Q0122;suite=2026海淀二模;no=3;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0123,2026海淀二模,Q0123,choice_question,reasoning,reasoning_choice,index,B-choice-signal,必要条件假言推理/海淀二模 Q4,run_question_id=Q0123;suite=2026海淀二模;no=4;rubric_state_from_run_ledger,b_choice_signal_audit_field_only_not_student_body,P4
+BCV0124,2026海淀二模,Q0124,choice_question,reasoning,reasoning_choice,body,A-support,必要条件假言推理(选择题),run_question_id=Q0124;suite=2026海淀二模;no=5;rubric_state_from_run_ledger,,P2
+BCV0125,2026海淀二模,Q0125,choice_question,reasoning,reasoning_choice,body,A-support,充分条件假言推理+组合判断(选择题),run_question_id=Q0125;suite=2026海淀二模;no=6;rubric_state_from_run_ledger,,P2
+BCV0126,2026海淀二模,Q0126,choice_question,reasoning,reasoning_choice,body,A-support,不完全归纳推理(选择题),run_question_id=Q0126;suite=2026海淀二模;no=7;rubric_state_from_run_ledger,,P2
+BCV0127,2026海淀二模,Q0127,main_question,thinking,thinking_main,body,A-formal,月季育种复合链：分析与综合+联想思维+科学思维客观性/实践检验,run_question_id=Q0127;suite=2026海淀二模;no=18(1);rubric_state_from_run_ledger;science_cross_mount_added_v23,,P2
+BCV0128,2026海淀二模,Q0128,main_question,reasoning,reasoning_main,body,A-formal,概念外延/划分规则(主观),run_question_id=Q0128;suite=2026海淀二模;no=20(1);rubric_state_from_run_ledger,,P2
+BCV0129,2026房山二模,Q0129,main_question,thinking,thinking_main,body,A-formal,辩证否定观,run_question_id=Q0129;suite=2026房山二模;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0130,2026西城二模,Q0130,choice_question,reasoning,reasoning_choice,body,A-support,相容选言推理(选择题),run_question_id=Q0130;suite=2026西城二模;no=5;rubric_state_from_run_ledger,,P2
+BCV0131,2026西城二模,Q0131,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2026西城二模 6,run_question_id=Q0131;suite=2026西城二模;no=6;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0132,2026西城二模,Q0132,main_question,thinking,thinking_main,body,A-formal,科学思维客观性+辩证思维+创新思维综合,run_question_id=Q0132;suite=2026西城二模;no=18(4);rubric_state_from_run_ledger;corrected_from_single_science_mount_v23,,P2
+BCV0133,2026石景山二模,Q0133,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2026石景山二模 6,run_question_id=Q0133;suite=2026石景山二模;no=6;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0134,2026石景山二模,Q0134,choice_question,reasoning,reasoning_choice,body,A-support,推理形式选择题,run_question_id=Q0134;suite=2026石景山二模;no=7;rubric_state_from_run_ledger,,P2
+BCV0135,2026石景山二模,Q0135,main_question,thinking,thinking_main,body,A-formal,辩证思维/分析综合,run_question_id=Q0135;suite=2026石景山二模;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0136,2026顺义二模,Q0136,choice_question,thinking,excluded_or_boundary,excluded,A-support,思维选择题/2026顺义二模 5,run_question_id=Q0136;suite=2026顺义二模;no=5;rubric_state_from_run_ledger,out_of_thinking_handbook_scope_user_confirmed,P4
+BCV0137,2026顺义二模,Q0137,choice_question,reasoning,reasoning_choice,index,B-choice-signal,选言推理/顺义二模 Q6,run_question_id=Q0137;suite=2026顺义二模;no=6;rubric_state_from_run_ledger,b_choice_signal_audit_field_only_not_student_body,P4
+BCV0138,2026顺义二模,Q0138,choice_question,reasoning,reasoning_choice,index,B-choice-signal,三段论/顺义二模 Q7,run_question_id=Q0138;suite=2026顺义二模;no=7;rubric_state_from_run_ledger,b_choice_signal_audit_field_only_not_student_body,P4
+BCV0139,2026顺义二模,Q0139,main_question,thinking+reasoning,reasoning_main,body,A-formal,推理+思维交叉主观,run_question_id=Q0139;suite=2026顺义二模;no=18(1);rubric_state_from_run_ledger,,P3
+BCV0139T,2026顺义二模,Q0139(thinking-mount),main_question,thinking+reasoning,thinking_main,body,A-formal,推理+思维交叉,run_question_id=Q0139;suite=2026顺义二模;no=18(1);cross_mount_reasoning_primary,,P3
+BCV0140,2026顺义二模,Q0140,main_question,thinking,thinking_main,body,A-formal,超前思维+战略思维预判发展大势和底线思维,run_question_id=Q0140;suite=2026顺义二模;no=21;rubric_state_from_run_ledger;corrected_from_stale_three_new_label_v23,,P2
+BCV0141,2024东城二模,Q0141,main_question,reasoning,reasoning_main,body,A-formal,演绎+归纳综合(主观),run_question_id=Q0141;suite=2024东城二模;no=17(2);rubric_state_from_run_ledger,,P2
+BCV0142,2025东城二模,Q0142,main_question,reasoning,reasoning_main,body,A-formal,类比/归纳评析(主观),run_question_id=Q0142;suite=2025东城二模;no=18(2);rubric_state_from_run_ledger,,P2
+BCV0143,2025西城期末,Q0143,main_question,reasoning,reasoning_main,body,A-formal,归纳+类比评析(主观),run_question_id=Q0143;suite=2025西城期末;no=17(2);rubric_state_from_run_ledger,,P2

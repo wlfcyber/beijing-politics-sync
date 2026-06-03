@@ -1,0 +1,3 @@
+思维: pages=35, file=选必三_逻辑与思维_思维宝典_哲学完全对齐版.pdf, bytes=1053116
+推理: pages=54, file=选必三_逻辑与思维_推理宝典_哲学完全对齐版.pdf, bytes=1423161
+contact_sheet=/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/08_visual_qa/V15_SECTION_STRUCTURE_CONTACT_SHEET_20260526.png

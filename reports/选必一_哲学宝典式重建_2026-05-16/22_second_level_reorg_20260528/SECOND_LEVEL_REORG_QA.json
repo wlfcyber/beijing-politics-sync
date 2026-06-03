@@ -1,0 +1,58 @@
+{
+  "source_md": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/21_claude_review_patch_20260528/选必一_当代国际政治与经济_主观题术语宝典_237条逐条核实二次复核最终稿_20260528.md",
+  "out_md": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/22_second_level_reorg_20260528/选必一_当代国际政治与经济_主观题术语宝典_237条_二级结构版_20260528.md",
+  "out_docx": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/22_second_level_reorg_20260528/选必一_当代国际政治与经济_主观题术语宝典_237条_二级结构版_20260528.docx",
+  "out_mapping": "/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/reports/选必一_哲学宝典式重建_2026-05-16/22_second_level_reorg_20260528/SECOND_LEVEL_CORE_MAPPING.csv",
+  "source_counts": {
+    "source_core_count": 104,
+    "source_entry_count": 237,
+    "source_when_count": 248,
+    "source_question_count": 248,
+    "source_answer_count": 248
+  },
+  "output_counts": {
+    "output_core_count": 104,
+    "output_entry_count": 237,
+    "output_when_count": 248,
+    "output_question_count": 248,
+    "output_answer_count": 248
+  },
+  "checks": {
+    "core_count_ok": true,
+    "entry_count_ok": true,
+    "when_count_ok": true,
+    "question_count_ok": true,
+    "answer_count_ok": true,
+    "forbidden_terms_ok": true
+  },
+  "forbidden_hits": {},
+  "second_level_counts": {
+    "时代背景 / 时代主题与世界大势": 1,
+    "时代背景 / 百年变局与外部风险": 1,
+    "时代背景 / 全球治理议题与共同挑战": 1,
+    "理论 / 国家利益与国家安全": 1,
+    "理论 / 共同利益与合作基础": 1,
+    "理论 / 国际竞争与综合国力": 2,
+    "经济全球化 / 经济全球化趋势与开放型世界经济": 11,
+    "经济全球化 / 两个市场两种资源与国际分工": 4,
+    "经济全球化 / 贸易投资自由化便利化与制度型开放": 5,
+    "经济全球化 / 全球经济治理、规则制定与权益维护": 5,
+    "经济全球化 / 产业链供应链与开放安全": 3,
+    "经济全球化 / 数字经济、绿色转型与新兴领域": 7,
+    "经济全球化 / 贸易保护主义、多边贸易体制与开放环境": 4,
+    "政治多极化 / 全球治理观与治理体系变革": 2,
+    "政治多极化 / 国际关系民主化与新型国际关系": 4,
+    "政治多极化 / 人类命运共同体与共同现代化": 2,
+    "政治多极化 / 多边主义、国际秩序与国际法治": 5,
+    "政治多极化 / 世界多极化、全球南方与发展中国家": 3,
+    "政治多极化 / 气候治理、安全治理与文明互鉴": 3,
+    "中国 / 政策": 6,
+    "中国 / 智慧": 12,
+    "中国 / 责任": 11,
+    "中国 / 地位": 3,
+    "联合国 / 《联合国宪章》与国际体系": 3,
+    "联合国 / 联合国地位作用与多边舞台": 1,
+    "联合国 / 中国与联合国相互需要": 1,
+    "联合国 / 联合国发展议程与全球治理贡献": 2
+  }
+}
