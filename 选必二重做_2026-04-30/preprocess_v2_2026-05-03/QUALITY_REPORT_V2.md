@@ -1,0 +1,127 @@
+# 预处理 v2 质量报告
+
+状态：v2 已重新从原始三年模拟题目录与原始文件抽取文本生成；旧预处理仅隔离说明，不作为输入证据。
+
+- 扫描套卷：54
+- has_xuanbier：48
+- no_xuanbier：0
+- uncertain：6
+- 候选法律题：148
+- 选择题：95
+- 主观题：53
+- 证据类型：{'missing': 98, 'formal_or_scoring_source': 40, 'unknown': 4, 'support_lecture': 6}
+- 选择题答案未锁定：65
+
+v2 硬规则：
+
+- 主观题只接受 exact question-number block，不再用 legal-rich fallback 冒充对应细则。
+- 选择题没有可靠答案表或逐题解析时，不生成实质错项判断。
+- `讲评`、`答案`、`细则/评标/阅卷` 分证据类型保存，不混成 formal。
+- 题面锁定与细则锁定分开；任一缺失都进入 missing/uncertain。
+
+## Missing / Uncertain
+
+- `2024 东城 一模 第9题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 东城 一模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 东城 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024朝阳一模` `uncertain`：题面未锁定候选，但细则/讲评中有法律信号，需人工复核是否 OCR 或切题失败。 路径：`/Users/wanglifei/Desktop/2024模拟题/2024朝阳一模`
+- `2024 朝阳 二模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 朝阳 二模 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024朝阳期中` `uncertain`：题面有零散私法/程序法信号，但未形成稳定题段。 路径：`/Users/wanglifei/Desktop/2024模拟题/2024朝阳期中`
+- `2024 海淀 一模 第8题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 海淀 一模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 海淀 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 海淀 一模 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024海淀期中` `uncertain`：题面未锁定候选，但细则/讲评中有法律信号，需人工复核是否 OCR 或切题失败。 路径：`/Users/wanglifei/Desktop/2024模拟题/2024海淀期中`
+- `2024 东城 二模 第6题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 东城 二模 第7题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 东城 二模 第8题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 东城 二模 第19题`：题面已锁定，细则 exact qno block 未锁定。
+- `丰台一模` `uncertain`：题面未锁定候选，但细则/讲评中有法律信号，需人工复核是否 OCR 或切题失败。 路径：`/Users/wanglifei/Desktop/2024模拟题/丰台一模`
+- `2024 丰台 二模 第5题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 丰台 二模 第6题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 石景山 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 石景山 一模 第17题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 石景山 一模 第18题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 西城 一模 第6题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 西城 一模 第7题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 西城 二模 第4题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 西城 二模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 西城 二模 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 顺义 二模 第7题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 顺义 二模 第8题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 顺义 二模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2024 顺义 二模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 一模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 一模 第14题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 延庆 一模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 延庆 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 延庆 一模 第19题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 房山 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 朝阳 一模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 朝阳 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 石景山 一模 第8题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 石景山 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 石景山 一模 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 西城 一模 第9题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 门头沟 一模 第6题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 门头沟 一模 第20题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 顺义 一模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 顺义 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 顺义 一模 第19题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 顺义 一模 第21题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 二模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 二模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 二模 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 二模 第9题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 二模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 二模 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 二模 第14题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 昌平 二模 第5题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 昌平 二模 第9题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 昌平 二模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 昌平 二模 第14题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 朝阳 二模 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 二模 第5题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 期末 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 期末 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 期末 第17题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 东城 期末 第19题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 期末 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 期末 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 丰台 期末 第19题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第14题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第15题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第20题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 海淀 期末 第21题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 西城 期末 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2025 西城 期末 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 丰台 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 丰台 一模 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 延庆 一模 第2题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 延庆 一模 第8题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 房山 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 朝阳 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 海淀 一模 第9题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 海淀 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 海淀 一模 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 石景山 一模 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 石景山 一模 第13题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 石景山 一模 第14题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 门头沟 一模 第7题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 门头沟 一模 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026顺义一模` `uncertain`：题面未锁定候选，但细则/讲评中有法律信号，需人工复核是否 OCR 或切题失败。 路径：`/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026顺义一模`
+- `2026 东城 期末 第10题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 东城 期末 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 丰台 期末 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 朝阳 期中 第14题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 朝阳 期末 第11题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 朝阳 期末 第18题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026西城期末` `uncertain`：试卷文本层不足，需 OCR/渲染复核。 路径：`/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026西城期末`
+- `2026 通州 期末 第12题`：题面已锁定，细则 exact qno block 未锁定。
+- `2026 通州 期末 第13题`：题面已锁定，细则 exact qno block 未锁定。

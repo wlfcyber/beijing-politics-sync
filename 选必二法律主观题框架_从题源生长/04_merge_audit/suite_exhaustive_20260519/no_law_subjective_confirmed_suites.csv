@@ -1,0 +1,3 @@
+﻿year,district,exam_stage,suite_status,question_ids_in_suite_exhaustive_core,source_file_ids,paper_file_ids,rubric_or_answer_file_ids,core_question_count,boundary_or_blocked_case_ids,notes
+2024,朝阳,期中,no_law_subjective_confirmed,,F0019;F0020;F0021;F0022;F0023;F0244;F0245;F0246;F0247;F0248,F0022;F0023;F0246;F0247,F0019;F0020;F0021;F0244;F0245;F0248,0,,主观题为文化/哲学/逻辑/经济，未见选必二法律主观题。
+2026,朝阳,期中,no_law_subjective_confirmed,,F0209;F0210;F0211;F0212;F0213;F0389;F0390;F0391;F0392;F0393,F0211;F0213;F0391;F0392,F0209;F0210;F0212;F0389;F0390;F0393,0,,主观题为当代国际、哲学、文化、辩证思维，未见法律主观题。

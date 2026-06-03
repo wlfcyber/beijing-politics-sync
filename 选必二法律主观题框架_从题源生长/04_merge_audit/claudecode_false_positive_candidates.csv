@@ -1,0 +1,62 @@
+﻿codex_question_id,year,district,exam_stage,question_no,sub_question_no,codex_module_risk,codex_evidence_type,codex_evidence_level,claudecode_reason_for_rejection,codex_ask_text
+Q0001_2024_东城_一模_16,2024,东城,一模,16,,选必二,evaluation_standard,formal,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,"结合材料意思---资源优化配置/区域协调/产业升级／现化产业体系等
+（每一层2分，满分7分）
+细则：
+[slide 72]
+示例：
+坚持以人民为中心／新发展理念，发挥有为政府公共服务职能，完善交通基础设施，促进区域内资源要素流动，优化资源配置，促进共享发展，助推首都都市圈高质量发展；
+坚持系统优化的方法，既疏解非首都功能又发挥一核两翼的作用，促进区域协调发展，助推首都都市圈高质量发展；
+坚持创新绿色发展，发挥三地比较优势，促进产业优化升级，构建创新引领协调发展的现化化产业体系，助推首都都市圈高质量发展。"
+Q0003_2024_东城_二模_18_2,2024,东城,二模,18,2,选必二,marking_report,formal,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,请你运用相关知识，针对不同主体各提一条建议，并说明其理论依据。
+Q0004_2024_东城_二模_19_1,2024,东城,二模,19,1,选必二,marking_report,formal,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,"请求”，其是被告向原告主张的利益，不少学生对原告提出诉讼请求
+3.不能始终如一的站在自己立场的上提出主张
+4.审题不清，将当事人的情况和诉求弄混 | 试卷讲评建议 | 锻炼学生概括情境案例的能力，尤其是提取关键信息的能力。"
+Q0010_2024_朝阳_一模_20_2404,2024,朝阳,一模,20,2404,选必二,missing,missing,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,结合上述资料ꎬ在分析我国当前经济形势的基础上ꎬ运用«当代国际政治与经济»知识ꎬ
+Q0013_2024_海淀_一模_18,2024,海淀,一模,18,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 当代国际政治与经济：ask names other module: 运用《当代国际政治与经济》,分析认识对象与有关现象之间的因果关系等方法。（1分，可替换：运用求同法、求异法、共变法等探求因果关系的具体方法）
+Q0015_2024_海淀_一模_20,2024,海淀,一模,20,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 不确定：no clear module signal,
+Q0020_2024_石景山_一模_18,2024,石景山,一模,18,,选必二,teacher_reference_answer,reference_only,"ClaudeCode 模块判定为 必修三：必修三 frame ['基层治理'], weak 选必二 signal",
+Q0023_2024_顺义_二模_17,2024,顺义,二模,17,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 不确定：no clear module signal,
+Q0027_2025_东城_期末_18_2,2025,东城,期末,18,2,选必二,marking_rubric,formal,ClaudeCode 模块判定为 逻辑与思维：ask names other module: 运用《逻辑与思维》,"结合材料，中
+国式现代化，
+民生为大是价
+值取向，更是
+实践要求。"
+Q0034_2025_丰台_二模_17,2025,丰台,二模,17,,选必二,evaluation_standard,formal,"ClaudeCode 模块判定为 必修三：必修三 frame ['法治政府', '党的领导'], weak 选必二 signal","结合材料，运用《法律与生活》知识，谈谈在中华优秀传统文化传承与创新中，法律规定著作权并对其加以限制的意义.
+【答案】①法律对知识产权的限制在著作权上包括合理使用和法定许可使用。"
+Q0035_2025_丰台_二模_18,2025,丰台,二模,18,,选必二,evaluation_standard,formal,ClaudeCode 模块判定为 不确定：no clear module signal,"4.拓展延伸方面:关注经济热点,定期引入如消费新业态发展、促消费政策实施等经济热点案例，组织学生讨论分析，将所学知识与现实经济现象紧密结合，增强知识运用能力和对经济问题的敏感度。"
+Q0036_2025_丰台_二模_19,2025,丰台,二模,19,,选必二,missing,missing,ClaudeCode 模块判定为 不确定：only weak 选必二 tokens: ['版权'],
+Q0037_2025_丰台_二模_20,2025,丰台,二模,20,,选必二,missing,missing,ClaudeCode 模块判定为 当代国际政治与经济：ask names other module: 运用《当代国际政治与经济》,"请求开发这款AI 产品的互联网企业承担侵权责
+任。
+
+调研
+法院在深入调研后，发现 AI 产品拥有千亿级参数规模的通用大模型，生成的具体内
+容具有高度的不可预测性。该互联网企业已经从语料输入、模型运行到内容输出等各
+个环节进行了定期跟踪和核查，尽到了相应的义务。
+
+建议
+法院遂开出具有前瞻性、可操作性的司法建议：给AI 装上“版权雷达”,提前扫描
+问 题指令；在输出端部署“数字巡警”,实时扫描可疑链接；定期开展“安全体
+检”,关 注 AI 健康。"
+Q0041_2025_延庆_一模_17,2025,延庆,一模,17,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 必修三：ask names other module: 运用《政治与法治》,结合材料分析1分（落在护航）。
+Q0045_2025_昌平_二模_19,2025,昌平,二模,19,,逻辑,evaluation_standard,formal,ClaudeCode 模块判定为 不确定：no clear module signal,"结合材料1分）
+如果以上任何知识点都没写，写创新思维的定义也可得知识点1分。"
+Q0052_2025_海淀_一模_20,2025,海淀,一模,20,,选必二,missing,missing,ClaudeCode 模块判定为 不确定：only weak 选必二 tokens: ['欺诈'],
+Q0053_2025_海淀_二模_18,2025,海淀,二模,18,,选必二,evaluation_standard,formal,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,
+Q0055_2025_海淀_期中_16,2025,海淀,期中,16,,选必二,missing,missing,"ClaudeCode 模块判定为 不确定：only weak 选必二 tokens: ['商标权', '知识产权']",结合材料三，从经济角度，为中国咖啡企业“出海”提出建议。
+Q0058_2025_海淀_期末_19,2025,海淀,期末,19,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 不确定：no clear module signal,
+Q0066_2025_西城_二模_20,2025,西城,二模,20,,选必二,missing,missing,ClaudeCode 模块判定为 不确定：only weak 选必二 tokens: ['遗产'],结合材料，综合运用所学，谈谈你对“始终坚持文化建设着眼于人、落脚于人”的理解。
+Q0070_2025_门头沟_一模_20_3,2025,门头沟,一模,20,3,选必二,marking_rubric,formal,"ClaudeCode 模块判定为 不确定：only weak 选必二 tokens: ['劳动者', '用人单位']",3.结合法律依据事实分析清楚得当
+Q0071_2025_顺义_一模_18,2025,顺义,一模,18,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 不确定：no clear module signal,
+Q0082_2026_丰台_二模_20_26,2026,丰台,二模,20,26,选必二,missing,missing,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,!!综合运用所学$ 谈谈对(建设社会主义现代化强国$ 关键在科技自立自强) 的
+Q0084_2026_延庆_一模_18,2026,延庆,一模,18,,选必二,evaluation_standard,formal,ClaudeCode 模块判定为 综合：both explicit 法律与生活 and 逻辑与思维,"请求：停止侵害、赔偿损失、承担诉讼费用、赔礼道歉。
+事实与理由：M 公司未经李某允许，利用AI 技术合成李某形象用于虚假直播营销活动，不当攫取流量。"
+Q0085_2026_房山_一模_17_1,2026,房山,一模,17,1,选必二,evaluation_standard,formal,"ClaudeCode 模块判定为 不确定：only weak 选必二 tokens: ['民事主体', '承诺']",
+Q0097_2026_海淀_期中_22,2026,海淀,期中,22,,选必二,missing,missing,"ClaudeCode 模块判定为 必修三：必修三 frame ['基层治理', '党的领导'], weak 选必二 signal",
+Q0099_2026_石景山_二模_18,2026,石景山,二模,18,,选必二,missing,missing,ClaudeCode 模块判定为 当代国际政治与经济：ask names other module: 运用《当代国际政治与经济》,
+Q0101_2026_石景山_期末_17,2026,石景山,期末,17,,选必二,marking_rubric,formal,ClaudeCode 按硬规则12 剔除 2026石景山期末,
+Q0103_2026_西城_一模_21,2026,西城,一模,21,,选必二,missing,missing,ClaudeCode 模块判定为 不确定：no clear module signal,结合材料，综合运用所学，分析为什么“中国式现代化处于关键时期，更要坚持探索”。
+Q0104_2026_西城_二模_18,2026,西城,二模,18,,选必二,missing,missing,ClaudeCode 模块判定为 逻辑与思维：ask names other module: 运用《逻辑与思维》,结合材料二，从法治的角度，阐释最高人民法院发布典型案例对推进国家治理能力现代化的意义。
+Q0105_2026_西城_期中_16,2026,西城,期中,16,,选必二,evaluation_standard,formal,ClaudeCode 模块判定为 不确定：no clear module signal,
+Q0108_2026_通州_期中_16,2026,通州,期中,16,,选必二,marking_rubric,formal,ClaudeCode 模块判定为 哲学与文化：ask names other module: 运用《哲学与文化》,
+Q0112_2026_门头沟_一模_21,2026,门头沟,一模,21,,选必二,evaluation_standard,formal,ClaudeCode 模块判定为 不确定：no clear module signal,结合材料，只给1分。
+Q0113_2026_顺义_一模_18,2026,顺义,一模,18,,选必二,marking_rubric,formal,ClaudeCode 在题号16-22主观槽位未识别到该题或证据全部缺失,

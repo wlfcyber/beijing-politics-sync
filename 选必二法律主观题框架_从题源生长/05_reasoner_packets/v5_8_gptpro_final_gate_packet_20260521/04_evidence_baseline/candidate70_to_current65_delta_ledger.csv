@@ -1,0 +1,54 @@
+﻿question_id,old70_status,current65_status,year,district,exam_stage,question_no,evidence_level,delta_type,replacement_or_tracking_id,reason
+CC0001_2024_丰台_一模_16,present,absent,2024,丰台,一模,16,formal,excluded,,剔除：Q16 正文/细则是《政治与法治》四下基层，ask_text 串入 CC0002 法律题。
+CC0026_2024_朝阳_二模_18,present,absent,2024,朝阳,二模,18,formal,excluded,,剔除：细则主干为《政治与法治》全过程人民民主，另有选择题/OCR 串页。
+CC0047_2024_海淀_二模_21,present,absent,2024,海淀,二模,21,formal,excluded,,剔除：新质/民生综合题，采分来自党、制度、经济、治理、文化等模块。
+CC0051_2024_海淀_期中_21_1,present,absent,2024,海淀,期中,21,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0070_2024_顺义_二模_19,present,absent,2024,顺义,二模,19,formal,excluded,,剔除：经济/国际/马克思主义中国化综合题，非法律规则采分。
+CC0091_2025_东城_期末_19,present,absent,2025,东城,期末,19,formal,not_counted_parent_unit,,父题含法律小问、利益主体、民主协商小问；整题不计入法律题，法律小问由拆分项承载。
+CC0094_2025_东城_期末_19_3,present,absent,2025,东城,期末,19,reference_only,pending_split_not_open,CC0094_2025_东城_期末_19_3_LAW_PENDING,GPT 修正：不能整题 keep_reference_open。小问法律+政治混合，且当前 rubric atoms 串到新能源/欧盟/贸易保护；须拆出法律 2 分相邻关系后再决定。
+CC0118_2025_丰台_期末_18_2,present,absent,2025,丰台,期末,18,formal,duplicate_or_reextract_pending,CC0118_2025_丰台_期末_18_2_LAW,跟踪待核：尹某劳动合同小问可能是 CC0119 学生问题页，不宜新增计数。
+CC0132_2025_房山_一模_20,present,absent,2025,房山,一模,20,formal,excluded,,剔除：奋斗主题综合论述，非法律规则采分。
+CC0168_2025_海淀_二模_20,present,absent,2025,海淀,二模,20,formal,excluded,,剔除：共享发展/国际组织/粮食安全等非选必二法律采分。
+CC0182_2025_海淀_期末_22,present,absent,2025,海淀,期末,22,formal,excluded,,剔除：愚公精神综合论述，法律片段为串页或干扰。
+CC0218_2025_顺义_一模_16,present,absent,2025,顺义,一模,16,formal,excluded,,剔除：哪吒、哲学与文化、联系发展矛盾等采分，非法律题。
+CC0240_2026_东城_二模_21,present,absent,2026,东城,二模,21,formal,excluded,,剔除：金融五篇大文章/党和政府经济职能/辩证思维。
+CC0244_2026_东城_期中_18,present,absent,2026,东城,期中,18,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0245_2026_东城_期中_18_2,present,absent,2026,东城,期中,18,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0250_2026_丰台_一模_19,present,absent,2026,丰台,一模,19,formal,excluded,,GPT 明确要求从 v2 开放容器删除：本题为人类命运共同体/2030 议程/可持续发展，复练页法律提示不能带动恢复。
+CC0259_2026_丰台_期中_19,present,absent,2026,丰台,期中,19,formal,pending_missing_legal_rubric,CC0259_2026_丰台_期中_19_LAW,跟踪待补：遗赠扶养协议题面明确，但正式法律细则未匹配，暂不入框架归纳或宝典闭环。
+CC0294_2026_朝阳_二模_20_2,present,absent,2026,朝阳,二模,20,formal,excluded,,剔除：当代国际政治与经济/人类命运共同体/系统思维串页，非法律主观题。
+CC0305_2026_海淀_一模_18,present,absent,2026,海淀,一模,18,formal,not_counted_parent_unit,CC0305_2026_海淀_一模_18_3,父题前两问为消费数据/经济意义；只拆 Q18(3) 法律小问，父题不计入法律题。
+CC0311_2026_海淀_二模_18,present,absent,2026,海淀,二模,18,reference_only,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0317_2026_海淀_期中_18,present,absent,2026,海淀,期中,18,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0318_2026_海淀_期中_18_2,present,absent,2026,海淀,期中,18,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0319_2026_海淀_期中_19,present,absent,2026,海淀,期中,19,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0353_2026_西城_期中_17,present,absent,2026,西城,期中,17,reference_only,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0358_2026_通州_一模_17,present,absent,2026,通州,一模,17,formal,excluded,,剔除：实际为《逻辑与思维》辩证思维看 AI，隐私/法律治理只是材料风险词。
+CC0363_2026_通州_期中_19,present,absent,2026,通州,期中,19,formal,not_counted_parent_unit,,父题含法律相邻加装电梯与逻辑推理；法律小问已由 CC0364 PASS 承载，父题不重复计数。
+CC0364_2026_通州_期中_19_1,present,absent,2026,通州,期中,19,formal,removed_or_replaced_after_source_audit,,Removed/replaced during suite-exhaustive + ClaudeCode/Cowork correction; see current 65 corpus.
+CC0373_2026_顺义_一模_17,present,absent,2026,顺义,一模,17,formal,not_counted_parent_unit,CC0373_2026_顺义_一模_18,原行首为 Q17 政治题，后续 slide 有 Q18 劳动就业歧视/竞业限制法律细则；父题不计。
+CC0380_2026_顺义_二模_18,present,absent,2026,顺义,二模,18,formal,not_counted_parent_unit,CC0380_2026_顺义_二模_18_2,整题含逻辑与开源智能体法律小问，当前 atoms 只抽逻辑；需重抽 Q18(2)。
+CC0244_2026_东城_期末_18,absent,present,2026,东城,期末,18,formal,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | claudecode_suite_audit_20260519: exam_stage corrected from 期中 to 期末.
+CC0245_2026_东城_期末_18_2,absent,present,2026,东城,期末,18,formal,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | claudecode_suite_audit_20260519: exam_stage corrected from 期中 to 期末.
+CC0305_2026_海淀_一模_18_3,absent,present,2026,海淀,一模,18,formal,added_recovered_split_or_stage_corrected,,boundary_split_patch_20260519 from CC0305_2026_海淀_一模_18: 题面材料仍需 OCR 回补；当前可先用正式细则生成法律原子。
+CC0311_2026_海淀_二模_18_2,absent,present,2026,海淀,二模,18,reference_only,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | missing17_corrected_20260519 | boundary_patched_20260519: keep_reference_open / open_reference_or_weak. 弱示范：知识产权财产权、质押融资、作价出资、专利奖励；reference_on
+CC0317_2026_海淀_期末_18,absent,present,2026,海淀,期末,18,formal,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | claudecode_suite_audit_20260519: exam_stage corrected from 期中 to 期末.
+CC0318_2026_海淀_期末_18_2,absent,present,2026,海淀,期末,18,formal,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | boundary_patched_20260519: recover_core_existing_unit / core_recovered. 恢复并可支撑既有核心：住房租赁示范合同、格式条款、诚信、合同纠纷、市场监管。 | claudecode_suite_audit_2026051
+CC0319_2026_海淀_期末_19,absent,present,2026,海淀,期末,19,formal,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | claudecode_suite_audit_20260519: exam_stage corrected from 期中 to 期末.
+CC0353_2026_西城_期末_17,absent,present,2026,西城,期末,17,reference_only,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | boundary_patched_20260519: keep_reference_open / open_reference_or_weak. 弱示范：不正当竞争与未成年人保护方向明确，但 reference_only。 | claudecode_suite_audit_202605
+CC0364_2026_通州_期末_19_1,absent,present,2026,通州,期末,19,formal,added_recovered_split_or_stage_corrected,,ClaudeCode B independent extraction from text-layer corpus; PDF OCR not regenerated this pass. | claudecode_suite_audit_20260519: exam_stage corrected from 期中 to 期末.
+CC0373_2026_顺义_一模_18,absent,present,2026,顺义,一模,18,formal,added_recovered_split_or_stage_corrected,,boundary_split_patch_20260519 from CC0373_2026_顺义_一模_17: 旧 CC0373 父题是 Q17 政治题，不能作为法律题；本记录只代表 Q18 劳动法律小问。
+CC0380_2026_顺义_二模_18_2,absent,present,2026,顺义,二模,18,formal,added_recovered_split_or_stage_corrected,,boundary_split_patch_20260519 from CC0380_2026_顺义_二模_18: 该题同时允许必修三角度，只进入开放/综合边界容器，不单独支撑核心。
+RECOVER_2024_东城_一模_19,absent,present,2024,东城,一模,19,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered from previously empty 2024东城一模 suite
+RECOVER_2024_东城_二模_19_1,absent,present,2024,东城,二模,19,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered from 2024东城二模
+RECOVER_2024_东城_二模_19_2,absent,present,2024,东城,二模,19,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered from 2024东城二模
+RECOVER_2025_丰台_二模_19_2,absent,present,2025,丰台,二模,19,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered
+RECOVER_2025_海淀_二模_18,absent,present,2025,海淀,二模,18,formal,added_recovered_split_or_stage_corrected,,"Recovered in STEP_26 after net17 recheck; old excluded row CC0168 was non-law Q20, but same suite Q18 was missed."
+RECOVER_2026_延庆_一模_18_1,absent,present,2026,延庆,一模,18,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered
+RECOVER_2026_房山_一模_17_1,absent,present,2026,房山,一模,17,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered
+RECOVER_2026_朝阳_期末_18_1,absent,present,2026,朝阳,期末,18,formal,added_recovered_split_or_stage_corrected,,Recovered from ClaudeCode suite-exhaustion audit 20260519; original PDFs are OCR-blocked and require OCR_recovered_via_render metadata.
+RECOVER_2026_西城_二模_18_1,absent,present,2026,西城,二模,18,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered from 2026西城二模
+RECOVER_2026_西城_二模_18_2,absent,present,2026,西城,二模,18,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered from 2026西城二模
+RECOVER_2026_西城_二模_18_3,absent,present,2026,西城,二模,18,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered from 2026西城二模
+RECOVER_2026_通州_一模_20,absent,present,2026,通州,一模,20,formal,added_recovered_split_or_stage_corrected,,"Recovered in STEP_26 after net17 recheck; old excluded row CC0358 was logic Q17, but same suite Q20 was missed."
+RECOVER_2026_门头沟_一模_18_1,absent,present,2026,门头沟,一模,18,formal,added_recovered_split_or_stage_corrected,,suite-level exhaustion recovered

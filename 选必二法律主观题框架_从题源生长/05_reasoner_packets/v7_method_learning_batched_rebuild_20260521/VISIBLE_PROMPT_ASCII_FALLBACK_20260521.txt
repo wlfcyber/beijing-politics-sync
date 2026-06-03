@@ -1,0 +1,1 @@
+Please open PROMPT_FOR_GPTPRO_AND_CLAUDE_OPUS_V7_METHOD_FIRST_REBUILD_20260521.md in the attached zip. If Chinese text renders incorrectly, use the UTF-8 markdown files inside the zip. First learn the prior-framework method, then process the legal evidence batch by batch, and only then propose V7. Do not write a one-shot framework.

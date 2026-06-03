@@ -1,0 +1,2 @@
+﻿case_id,year,district,exam_stage,question_no,status,why_not_counted_yet,source_locator,evidence_summary,next_action
+UNCERTAIN_2026_丰台_期末_18_MIXED,2026,丰台,期末,18,uncertain_mixed_law_boundary_do_not_count_yet,题面要求“运用法治知识”阐述检察公益诉讼意义，评标标注“政治与法治 / 法律与生活”混合。它不能静默丢弃，但也不能直接进入核心法律闭合。,F0208:rendered page_007 | F0207:lines 180-212,未成年人保护、检察公益诉讼、政府履职、市场主体法定义务、维护未成年人合法权益、法治意识和法治环境。,单独做 mixed-boundary 复核，决定是否作为 open_formal_mixed 而非核心。

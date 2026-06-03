@@ -1,0 +1,58 @@
+question_id,label,codex_a_status,laneb_decision,laneb_reason
+2024_东城_一模_001_Q9,2024 东城 一模 第9题,included,confirm,题面明确《法律与生活》物权变动/登记主题；细则有对应答案块。
+2024_东城_一模_001_Q10,2024 东城 一模 第10题,included,confirm,遗嘱效力/遗赠扶养协议主题；答案 C 与民法典1131条对应。
+2024_东城_一模_001_Q11,2024 东城 一模 第11题,excluded_by_curation,confirm,选择题虽含法律词，但锚点为公共法治治理，私法/程序法锚点不足。
+2024_朝阳_二模_003_Q11,2024 朝阳 二模 第11题,included,confirm,继承/婚姻家庭主题清晰。
+2024_朝阳_二模_003_Q12,2024 朝阳 二模 第12题,included,confirm,纠纷解决程序主题清晰。
+2024_朝阳_二模_003_Q17,2024 朝阳 二模 第17题,included,confirm_with_caveat,主观题以劳动保护为核心，正式细则匹配；命题路径（劳动关系→事实争议→规则条件→补偿落点）成立。
+2024_海淀_一模_005_Q8,2024 海淀 一模 第8题,excluded_by_curation,confirm,锚点偏宪法/法治价值，私法锚点弱。
+2024_海淀_一模_005_Q10,2024 海淀 一模 第10题,included,confirm,劳动就业边界，主体关系明确。
+2024_海淀_一模_005_Q11,2024 海淀 一模 第11题,included,confirm,程序救济主题清晰。
+2024_海淀_一模_005_Q13,2024 海淀 一模 第13题,excluded_by_curation,challenge,题面涉及职业资格/劳动者保护，可能仍属选必二范畴；建议复核题面。
+2024_海淀_一模_005_Q19,2024 海淀 一模 第19题,included,confirm,知识产权主观题，细则匹配（一模政治-答案.docx）。
+2024_海淀_二模_010_Q11,2024 海淀 二模 第11题,included,challenge_evidence,evidence_type=unknown，应改为 rubric_match_pending；题归位本身可信。
+2024_石景山_一模_011_Q11,2024 石景山 一模 第11题,included,challenge_evidence,paper_source 无正式细则匹配；rubric_match_pending。
+2024_石景山_一模_011_Q17,2024 石景山 一模 第17题,included_needs_review,confirm,合同/民法基本原则混合题；需拆分小问后再正式归位。
+2024_石景山_一模_011_Q18,2024 石景山 一模 第18题,included_needs_review,confirm,含纠纷解决与其他模块设问，待拆分。
+2024_西城_一模_012_Q18,2024 西城 一模 第18题,included_needs_review,confirm,法律材料与其他模块混排，需拆分小问。
+2024_西城_二模_013_Q16,2024 西城 二模 第16题,included,confirm,惩罚性赔偿/消费者保护主观题，正式细则匹配。
+2024_顺义_二模_014_Q10,2024 顺义 二模 第10题,included,confirm,直播带货合同/仲裁/诉讼，主体关系明确。
+2025_东城_一模_017_Q19,2025 东城 一模 第19题,included,confirm,正式细则支撑；命题路径清晰。
+2025_丰台_一模_016_Q11,2025 丰台 一模 第11题,included,challenge_evidence,paper_source 无正式细则；rubric_match_pending。
+2025_丰台_一模_016_Q19,2025 丰台 一模 第19题,included,confirm,正式细则支撑。
+2025_丰台_一模_016_Q14,2025 丰台 一模 第14题,excluded_by_curation,confirm,泛法治治理噪声大。
+2025_朝阳_一模_019_Q10,2025 朝阳 一模 第10题,included,challenge_evidence,paper_source 无答案/讲评匹配；rubric_match_pending。
+2025_海淀_一模_020_Q18,2025 海淀 一模 第18题,included,challenge_evidence,主观题 evidence_type=unknown；需复扫细则.docx 第18题块。
+2025_石景山_一模_021_Q8,2025 石景山 一模 第8题,included,challenge_evidence,paper_source 无评标匹配。
+2025_石景山_一模_021_Q11,2025 石景山 一模 第11题,included,challenge_evidence,paper_source 无评标匹配。
+2025_石景山_一模_021_Q20,2025 石景山 一模 第20题,included_needs_review,confirm,法律与其他模块混合，需拆小问。
+2025_门头沟_一模_023_Q20,2025 门头沟 一模 第20题,included_needs_review,confirm,题面像选必二，正式细则未锁。
+2025_顺义_一模_024_Q21,2025 顺义 一模 第21题,included_needs_review,confirm,题面像选必二，需拆小问。
+2025_朝阳_二模_028_Q20,2025 朝阳 二模 第20题,included_needs_review,confirm,人格权与其他模块混排。
+2025_海淀_二模_029_Q5,2025 海淀 二模 第5题,included_answer_candidate_only,confirm_with_pending_answer,选择题答案未锁，仅 D 为本地候选；不得作为官方答案使用。
+2025_海淀_二模_029_Q6,2025 海淀 二模 第6题,included_answer_candidate_only,confirm_with_pending_answer,候选 B；命题路径属婚姻家庭。
+2025_海淀_二模_029_Q7,2025 海淀 二模 第7题,included_answer_candidate_only,confirm_with_pending_answer,候选 A；属合同消费。
+2025_海淀_二模_029_Q17,2025 海淀 二模 第17题,excluded_by_module_boundary,confirm,显性设问非选必二；保持模块边界排除。
+2025_西城_二模_030_Q19,2025 西城 二模 第19题,excluded_by_module_boundary,confirm,显性设问非选必二。
+2025_东城_期末_031_Q17,2025 东城 期末 第17题,included_needs_review,confirm,题面像选必二，正式细则未锁。
+2025_东城_期末_031_Q19,2025 东城 期末 第19题,excluded_by_curation,confirm_with_caveat,Codex A 排除理由为政治法治噪声；可接受但应保留题面留痕。
+2025_海淀_期中_034_Q21,2025 海淀 期中 第21题,included_needs_review,confirm,法律材料与其他模块混排。
+2025_海淀_期末_035_Q11,2025 海淀 期末 第11题,included,challenge_evidence,paper_source；rubric_match_pending。
+2025_海淀_期末_035_Q12,2025 海淀 期末 第12题,included,challenge_evidence,同上。
+2025_海淀_期末_035_Q14,2025 海淀 期末 第14题,included,challenge_evidence,同上。
+2025_海淀_期末_035_Q15,2025 海淀 期末 第15题,included,challenge_evidence,同上。
+2025_海淀_期末_035_Q20,2025 海淀 期末 第20题,included_needs_review,confirm,题面像选必二，待拆分。
+2026_东城_一模_037_Q10,2026 东城 一模 第10题,included,challenge_evidence,扫描件 evidence_type=unknown；需 vision OCR 按题号重切。
+2026_东城_一模_037_Q11,2026 东城 一模 第11题,included,challenge_evidence,同上。
+2026_丰台_一模_038_Q11,2026 丰台 一模 第11题,included_answer_candidate_only,confirm_with_pending_answer,候选 D；不得作为官方答案。
+2026_延庆_一模_039_Q18,2026 延庆 一模 第18题,included_needs_review,confirm,知识产权与其他模块混排，需拆小问。
+2026_房山_一模_040_Q11,2026 房山 一模 第11题,included_answer_candidate_only,confirm_with_pending_answer,候选 D；属合同消费。
+2026_朝阳_一模_041_Q11,2026 朝阳 一模 第11题,included,challenge_evidence,paper_source；rubric_match_pending。
+2026_海淀_一模_042_Q18,2026 海淀 一模 第18题,included_needs_review,confirm,合同与其他模块混排，需拆小问。
+2026_门头沟_一模_045_Q18,2026 门头沟 一模 第18题,included_needs_review,confirm,纠纷解决与其他模块混排，需拆小问。
+2026_东城_期末_047_Q19,2026 东城 期末 第19题,excluded_by_module_boundary,confirm,显性设问非选必二，模块边界排除成立。
+2026_丰台_期末_048_Q11,2026 丰台 期末 第11题,included_answer_candidate_only,confirm_with_pending_answer,候选 D。
+2026_朝阳_期末_050_Q11,2026 朝阳 期末 第11题,included_answer_candidate_only,confirm_with_pending_answer,候选 B。
+2026_朝阳_期末_050_Q18,2026 朝阳 期末 第18题,included_needs_review,confirm,合同混合题，待拆小问。
+2024_丰台_二模_009_Q5,2024 丰台 二模 第5题,included_answer_candidate_only,confirm_with_pending_answer,候选 A；①②对应条例正向描述，③④绝对化。
+2024_丰台_二模_009_Q6,2024 丰台 二模 第6题,included_answer_candidate_only,confirm_with_pending_answer,候选 B；劳动者权益主题。

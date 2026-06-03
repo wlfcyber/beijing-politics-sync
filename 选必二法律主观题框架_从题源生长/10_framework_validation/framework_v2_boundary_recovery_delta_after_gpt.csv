@@ -1,0 +1,39 @@
+﻿case_id,source_question_id,new_question_id,action_bucket,final_count_bucket,evidence_level,should_enter_revised_baodian,should_support_core_code,requires_atom_patch,revised_count_status,reason,source_locator
+CC0001_2024_丰台_一模_16,CC0001_2024_丰台_一模_16,,exclude_duplicate_mismatch,excluded,formal,no,no,no,no,剔除：Q16 正文/细则是《政治与法治》四下基层，ask_text 串入 CC0002 法律题。,F0044:text | F0045:page 4 | F0045:page 8
+CC0026_2024_朝阳_二模_18,CC0026_2024_朝阳_二模_18,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：细则主干为《政治与法治》全过程人民民主，另有选择题/OCR 串页。,F0018:page 2 | F0018:page 7
+CC0040_2024_海淀_一模_19,CC0040_2024_海淀_一模_19,CC0040_2024_海淀_一模_19,keep_reference_open,open_reference_or_weak,reference_only,yes,no,no,yes,弱示范：虚拟数字人、著作权、不正当竞争方向明确，但只有 reference_only，不支撑核心。,F0026:page 7
+CC0045_2024_海淀_二模_19,CC0045_2024_海淀_二模_19,CC0045_2024_海淀_二模_19,recover_formal_low_frequency,core_recovered,formal,yes,no,no,yes,恢复为低频正式法律样本：遗赠扶养协议、继承、养老价值。GPT 明确不建议自动扩主干核心。,F0054:page 7
+CC0047_2024_海淀_二模_21,CC0047_2024_海淀_二模_21,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：新质/民生综合题，采分来自党、制度、经济、治理、文化等模块。,F0054:page 8
+CC0051_2024_海淀_期中_21_1,CC0051_2024_海淀_期中_21_1,CC0051_2024_海淀_期中_21_1,recover_formal_low_frequency,core_recovered,formal,yes,no,no,yes,恢复为低频正式法律样本：婚姻法、民法典共同债务、良法评析，注意必修三化风险。,F0027:page 50 | F0027:page 52
+CC0061_2024_西城_一模_18,CC0061_2024_西城_一模_18,CC0061_2024_西城_一模_18,recover_formal_low_frequency,core_recovered,formal,yes,no,no,yes,恢复为低频正式法律样本：成年子女赡养义务、精神慰藉、督促履行义务告知书。,F0058:text | F0061:text
+CC0070_2024_顺义_二模_19,CC0070_2024_顺义_二模_19,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：经济/国际/马克思主义中国化综合题，非法律规则采分。,F0068:text
+CC0091_2025_东城_期末_19,CC0091_2025_东城_期末_19,,split_or_deduplicate_parent,not_counted_parent_unit,formal,partial,no,no,pending,父题含法律小问、利益主体、民主协商小问；整题不计入法律题，法律小问由拆分项承载。,F0129:slides 11-15
+CC0092_2025_东城_期末_19_1,CC0092_2025_东城_期末_19_1,CC0092_2025_东城_期末_19_1,recover_core_existing_unit,core_recovered,formal,yes,yes,no,yes,恢复并可支撑既有核心：充电柜方案、消防规定、共有部分用途、业主共有权/相邻权/侵权。,F0129:slide 11 | F0129:slide 12
+CC0094_2025_东城_期末_19_3,CC0094_2025_东城_期末_19_3,CC0094_2025_东城_期末_19_3_LAW_PENDING,split_or_deduplicate,pending_split_not_open,reference_only,partial,no,yes,pending,GPT 修正：不能整题 keep_reference_open。小问法律+政治混合，且当前 rubric atoms 串到新能源/欧盟/贸易保护；须拆出法律 2 分相邻关系后再决定。,F0129:slide 14
+CC0118_2025_丰台_期末_18_2,CC0118_2025_丰台_期末_18_2,CC0118_2025_丰台_期末_18_2_LAW,reextract_needed,duplicate_or_reextract_pending,formal,no,no,yes,pending,当前行绑定经济题；后续 PPT 才出现尹某劳动合同裁判反馈，可能与 CC0119 去重，需定向重抽。,F0131:slide 31
+CC0132_2025_房山_一模_20,CC0132_2025_房山_一模_20,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：奋斗主题综合论述，非法律规则采分。,F0081:page 15
+CC0162_2025_海淀_一模_18,CC0162_2025_海淀_一模_18,CC0162_2025_海淀_一模_18,keep_reference_open,open_reference_or_weak,reference_only,yes,no,no,yes,弱示范：主题乐园年卡、格式合同、诚信、解除合同；reference_only，不作满分闭环。,F0090:page 5 | F0090:page 8
+CC0168_2025_海淀_二模_20,CC0168_2025_海淀_二模_20,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：共享发展/国际组织/粮食安全等非选必二法律采分。,F0120:page 43
+CC0182_2025_海淀_期末_22,CC0182_2025_海淀_期末_22,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：愚公精神综合论述，法律片段为串页或干扰。,F0138:slide 60 | F0138:slide 61
+CC0189_2025_石景山_一模_20,CC0189_2025_石景山_一模_20,CC0189_2025_石景山_一模_20,recover_core_existing_unit,core_recovered,formal,yes,yes,no,yes,恢复并可支撑既有核心：委托合同违约、反不正当竞争、创新保护。,F0092:page 8 | F0092:page 11
+CC0218_2025_顺义_一模_16,CC0218_2025_顺义_一模_16,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：哪吒、哲学与文化、联系发展矛盾等采分，非法律题。,F0098:page 13
+CC0229_2026_东城_一模_18,CC0229_2026_东城_一模_18,CC0229_2026_东城_一模_18,recover_core_atom_patched,core_recovered,formal,yes_after_section_regen,yes,no,yes,已完成 CC0229 rubric_atom 边界补丁：从 F0153/F0146 替换为知识产权、诉讼调解、惩罚性赔偿、恶意诉讼等 8 条 formal 法律细则原子；可计入严格闭合核心，但最终宝典相关段落仍需重生成。,F0153:page 7-8 | F0146:slide 3-4
+CC0240_2026_东城_二模_21,CC0240_2026_东城_二模_21,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：金融五篇大文章/党和政府经济职能/辩证思维。,F0186:text
+CC0250_2026_丰台_一模_19,CC0250_2026_丰台_一模_19,,exclude_nonlaw,excluded,formal,no,no,no,no,GPT 明确要求从 v2 开放容器删除：本题为人类命运共同体/2030 议程/可持续发展，复练页法律提示不能带动恢复。,F0156:slide 42
+CC0259_2026_丰台_期中_19,CC0259_2026_丰台_期中_19,CC0259_2026_丰台_期中_19_LAW,reextract_needed,pending_missing_legal_rubric,missing,pending,no,yes,pending,题面显示遗赠扶养协议，但 rubric atoms 严重串入经济/逻辑/全球倡议；补到正式法律细则前不得进入归纳或满分闭环。,F0207:page 33
+CC0276_2026_房山_二模_17,CC0276_2026_房山_二模_17,CC0276_2026_房山_二模_17,recover_formal_low_frequency,core_recovered,formal,yes,no,no,yes,恢复为低频正式样本：涉外法律法规体系、调解仲裁诉讼衔接；注意必修三边界。,F0191:page 10
+CC0294_2026_朝阳_二模_20_2,CC0294_2026_朝阳_二模_20_2,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：当代国际政治与经济/人类命运共同体/系统思维串页，非法律主观题。,F0193:text
+CC0305_2026_海淀_一模_18,CC0305_2026_海淀_一模_18,CC0305_2026_海淀_一模_18_3,split_parent,not_counted_parent_unit,formal,partial,no,yes,pending,父题前两问为消费数据/经济意义；只拆 Q18(3) 法律小问，父题不计入法律题。,F0165:page 3
+CC0311_2026_海淀_二模_18,CC0311_2026_海淀_二模_18,CC0311_2026_海淀_二模_18,keep_reference_open,open_reference_or_weak,reference_only,yes,no,no,yes,弱示范：知识产权财产权、质押融资、作价出资、专利奖励；reference_only，不支撑核心。,F0197:text
+CC0318_2026_海淀_期中_18_2,CC0318_2026_海淀_期中_18_2,CC0318_2026_海淀_期中_18_2,recover_core_existing_unit,core_recovered,formal,yes,yes,no,yes,恢复并可支撑既有核心：住房租赁示范合同、格式条款、诚信、合同纠纷、市场监管。,F0216:page 2
+CC0332_2026_石景山_二模_19,CC0332_2026_石景山_二模_19,CC0332_2026_石景山_二模_19,recover_formal_low_frequency,core_recovered,formal,yes,no,no,yes,恢复为低频正式样本：校园欺凌、人格权/财产权、父母教育惩戒义务，不扩主干。,F0198:text
+CC0353_2026_西城_期中_17,CC0353_2026_西城_期中_17,CC0353_2026_西城_期中_17,keep_reference_open,open_reference_or_weak,reference_only,yes,no,no,yes,弱示范：不正当竞争与未成年人保护方向明确，但 reference_only。,F0221:page 11
+CC0358_2026_通州_一模_17,CC0358_2026_通州_一模_17,,exclude_nonlaw,excluded,formal,no,no,no,no,剔除：实际为《逻辑与思维》辩证思维看 AI，隐私/法律治理只是材料风险词。,F0172:page 5
+CC0363_2026_通州_期中_19,CC0363_2026_通州_期中_19,,split_or_deduplicate_parent,not_counted_parent_unit,formal,partial,no,no,pending,父题含法律相邻加装电梯与逻辑推理；法律小问已由 CC0364 PASS 承载，父题不重复计数。,F0223:slide 10
+CC0373_2026_顺义_一模_17,CC0373_2026_顺义_一模_17,CC0373_2026_顺义_一模_18,split_parent,not_counted_parent_unit,formal,partial,no,yes,pending,原行首为 Q17 政治题，后续 slide 有 Q18 劳动就业歧视/竞业限制法律细则；父题不计。,F0176:slide 3
+CC0380_2026_顺义_二模_18,CC0380_2026_顺义_二模_18,CC0380_2026_顺义_二模_18_2,reextract_needed,not_counted_parent_unit,formal,no,no,yes,pending,整题含逻辑与开源智能体法律小问，当前 atoms 只抽逻辑；需重抽 Q18(2)。,F0202:text
+CC0305_2026_海淀_一模_18_3,CC0305_2026_海淀_一模_18,CC0305_2026_海淀_一模_18_3,split_recovered_core,core_recovered_split,formal,yes,yes,no,yes,拆分恢复：Q18(3) 是隐私权、消费者知情权、虚假宣传、欺诈赔偿 formal 法律小问。,F0165:lines 87-96
+CC0373_2026_顺义_一模_18,CC0373_2026_顺义_一模_17,CC0373_2026_顺义_一模_18,split_recovered_core,core_recovered_split,formal,yes,yes,no,yes,拆分恢复：Q18 劳动就业歧视与竞业限制有 formal 细则，应单独入库。,F0177:lines 302-327 | F0176:lines 35-47
+CC0380_2026_顺义_二模_18_2,CC0380_2026_顺义_二模_18,CC0380_2026_顺义_二模_18_2,split_recovered_open_formal,open_formal_split,formal,yes,no,yes,yes,拆分为开放容器：有 formal 法律给分口径，但同时允许必修三角度，不单独支撑核心。,F0202:lines 53-55
+CC0259_2026_丰台_期中_19_LAW,CC0259_2026_丰台_期中_19,CC0259_2026_丰台_期中_19_LAW,pending_reextract_missing_legal_rubric,pending_missing_legal_rubric,missing,pending,no,yes,pending,跟踪待补：遗赠扶养协议题面明确，但正式法律细则未匹配，暂不入框架归纳或宝典闭环。,F0207:page 33
+CC0118_2025_丰台_期末_18_2_LAW,CC0118_2025_丰台_期末_18_2,CC0118_2025_丰台_期末_18_2_LAW,duplicate_or_reextract_pending,duplicate_or_reextract_pending,formal,pending,no,yes,pending,跟踪待核：尹某劳动合同小问可能是 CC0119 学生问题页，不宜新增计数。,F0131:slides 45-52 | F0132:pages 16-17

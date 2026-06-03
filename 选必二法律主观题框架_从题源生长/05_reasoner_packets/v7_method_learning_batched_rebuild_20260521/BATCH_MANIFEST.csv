@@ -1,0 +1,5 @@
+﻿batch_id,batch_name,question_count,file_md,file_csv
+BATCH_01_HIGH_FREQ_CORE_JUDGMENT,高频实体判断：合同、消费、劳动、一般责任,10,batches/BATCH_01_HIGH_FREQ_CORE_JUDGMENT.md,batches/BATCH_01_HIGH_FREQ_CORE_JUDGMENT.csv
+BATCH_02_PROCEDURE_TABLE,程序救济与表格补全：路径、证据、请求、表格格子,8,batches/BATCH_02_PROCEDURE_TABLE.md,batches/BATCH_02_PROCEDURE_TABLE.csv
+BATCH_03_INNOVATION_AI_VALUE,创新竞争、AI边界、价值收束,9,batches/BATCH_03_INNOVATION_AI_VALUE.md,batches/BATCH_03_INNOVATION_AI_VALUE.csv
+BATCH_04_NON_CORE_OPEN_CONTAINER,38道非核心与开放容器：保分、边界、reference_only,38,batches/BATCH_04_NON_CORE_OPEN_CONTAINER.md,batches/BATCH_04_NON_CORE_OPEN_CONTAINER.csv

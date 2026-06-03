@@ -1,0 +1,47 @@
+framework_layer,domain,trunk_node,sub_node,questions_placed,coverage_evidence,is_high_frequency_trunk,placement_notes
+一核,以事实为根据 以法律为准绳 定分止争,—,—,SUB-001/SUB-002/SUB-003/SUB-004,formal_rubric+marking_record,trunk,贯穿全部主观题; 是答题动作总指挥
+二线,权利保护与权利边界,—,—,SUB-003/SUB-004/CHO-001/CHO-002,marking_record,trunk,劳动者权利义务相一致(SUB-003)/消费者三大权利(SUB-004)/限制民事行为能力人保护(CHO-001)/相邻权边界(CHO-002)
+二线,法治规则与德治价值,—,—,SUB-001/SUB-004,marking_record,trunk,合同诚信原则(SUB-001)/意义层面法治价值(SUB-004)
+三问,判什么/怎么处理,—,—,SUB-001/SUB-004,formal_rubric+marking_record,trunk,起诉状判什么/法院支持什么处理
+三问,凭什么(法律依据),—,—,SUB-001/SUB-002/SUB-003/SUB-004,formal_rubric+marking_record,trunk,合同法/民法典/消保法/劳动法
+三问,有什么意义,—,—,SUB-004,marking_record,trunk,先回扣本案再上升制度/秩序/价值
+四步,1.定主体关系,—,—,SUB-001/SUB-003/SUB-004,formal_rubric+marking_record,trunk,起诉状原被告/三主体建议/王某-A公司
+四步,2.找争点事实,—,—,SUB-001/SUB-004,marking_record,trunk,3条材料必写全(SUB-004); 时间-约定-默示(SUB-001)
+四步,3.套法定要件/规则条件/程序要求,—,—,SUB-001/SUB-002/SUB-003/SUB-004,formal_rubric+marking_record,trunk,合同变更要件/欺诈构成要件/消保法适用要件
+四步,4.落责任/效力/归属/救济/价值,—,—,SUB-001/SUB-004,marking_record,trunk,违约责任/可撤销/三倍赔偿/意义
+五域-1-交易交换域,合同生命周期,要约与承诺/合同成立,—,reference_signal_only,—,trunk,合同生命周期是高频起点; 朝阳一模19典型用'要约/承诺/合同成立'1分
+五域-1-交易交换域,合同生命周期,变更/默示/交易习惯,SUB-001,formal_rubric+marking_record,trunk,2024东城二模19(1) 默示续约+交易习惯
+五域-1-交易交换域,合同生命周期,全面履行/诚信原则,SUB-001/SUB-003,formal_rubric+marking_record,trunk,违约责任前置原则
+五域-1-交易交换域,合同效力瑕疵,欺诈→可撤销,SUB-004,marking_record,trunk,2025朝阳一模19典型
+五域-1-交易交换域,合同效力瑕疵,格式条款,—,—,gap,需补题源
+五域-1-交易交换域,合同实践指引,合同条款清晰明确,SUB-002,formal_rubric+marking_record,branch,反向预防训练
+五域-1-交易交换域,消费者权益,消费者三大权利(知情/公平交易/自主选择),SUB-004,marking_record,trunk,与合同欺诈并行触发
+五域-1-交易交换域,消费者权益,惩罚性赔偿(三倍),SUB-004,marking_record,trunk,法律名称必须写全'消费者权益保护法'
+五域-1-交易交换域,劳务交易-劳动关系,劳动者权利(报酬/休息/培训权),SUB-003,formal_rubric+marking_record,trunk,2024东城二模18(2) 选必二小问
+五域-1-交易交换域,劳务交易-劳动关系,劳动者义务(技能提升/全面履行),SUB-003,formal_rubric+marking_record,trunk,权利义务相一致
+五域-1-交易交换域,劳务交易-劳动关系,用人单位义务(守法经营/培训提供),SUB-003,formal_rubric+marking_record,trunk,主体适格匹配
+五域-2-身份财产域,所有权,占有/使用/收益/处分四权能,CHO-002,marking_record(讲评 PPT),trunk,选择题题肢识别
+五域-2-身份财产域,所有权,赃物所有权对抗善意取得,CHO-002,marking_record,branch,选择题情境
+五域-2-身份财产域,用益物权,土地承包经营权,CHO-002,marking_record,branch,选择题情境
+五域-2-身份财产域,不动产物权变动,登记/一物二卖,CHO-002,marking_record,branch,选择题情境
+五域-2-身份财产域,相邻关系,光污染/通风采光/排水,CHO-002,marking_record,branch,选择题情境
+五域-2-身份财产域,婚姻成立,—,—,—,gap,需补题源
+五域-2-身份财产域,夫妻共同财产 vs 个人财产,—,—,—,gap,需补题源
+五域-2-身份财产域,继承(法定/遗嘱/遗赠扶养),—,—,—,gap,需补题源
+五域-3-人身权益域,民事行为能力,限制行为能力人 / 法代代理与追认,CHO-001,marking_record(讲评 PPT),trunk,选择题题肢识别
+五域-3-人身权益域,民事行为能力,纯获利益 / 智力精神适应行为,CHO-001,marking_record,trunk,两类例外
+五域-3-人身权益域,人格权,—,—,—,gap,需补题源
+五域-3-人身权益域,一般侵权,—,—,—,gap,需补题源
+五域-3-人身权益域,特殊侵权(产品/动物/高空抛物),—,—,—,gap,需补题源
+五域-4-创新竞争域,专利-实用新型,授权机关/保护期/公共领域,CHO-003,marking_record(讲评 PPT),trunk,选择题
+五域-4-创新竞争域,专利-外观设计,—,—,—,gap,只有反例(CHO-003 D 选项识别)
+五域-4-创新竞争域,著作权,—,—,—,gap,需补题源
+五域-4-创新竞争域,商标权,—,—,—,gap,需补题源
+五域-4-创新竞争域,反不正当竞争,识别为'反不正当竞争 ≠ 合同欺诈',SUB-004 反例提示,marking_record(反例),branch,常见错误警示作用
+五域-5-救济公共域,诉讼程序-起诉状,原被告/诉讼请求/事实与理由,SUB-001,formal_rubric+marking_record,trunk,2024东城二模19(1) 典型
+五域-5-救济公共域,诉讼程序-诉讼请求识别,多请求逐一对应,SUB-004,marking_record,trunk,2025朝阳一模19典型
+五域-5-救济公共域,司法说理,事实+法理+因果+意义层级,SUB-004,marking_record,trunk,2025朝阳一模19 阅卷总结
+五域-5-救济公共域,调解/仲裁,—,—,—,gap,需补题源
+五域-5-救济公共域,举证责任,—,—,—,gap,需补题源
+五域-5-救济公共域,执行,—,—,—,gap,需补题源
+五域-5-救济公共域,生态损害公益,—,—,—,gap,需补题源

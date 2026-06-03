@@ -1,0 +1,13 @@
+﻿year,district,exam_stage,question_no,sub_question_no,codex_evidence_type,codex_evidence_level,claudecode_evidence_type,claudecode_evidence_level,direction,claudecode_question_id,codex_question_id
+2024,丰台,一模,17,,teacher_reference_answer,reference_only,missing,missing,type_differ,CC0002_2024_丰台_一模_17,Q0006_2024_丰台_一模_17
+2024,朝阳,二模,18,,missing,missing,marking_report,formal,codex_downgraded,CC0026_2024_朝阳_二模_18,Q0012_2024_朝阳_二模_18
+2024,海淀,二模,19,,teacher_reference_answer,reference_only,marking_rubric,formal,codex_downgraded,CC0045_2024_海淀_二模_19,Q0016_2024_海淀_二模_19
+2024,海淀,二模,21,,missing,missing,marking_rubric,formal,codex_downgraded,CC0047_2024_海淀_二模_21,Q0017_2024_海淀_二模_21
+2024,石景山,一模,17,,teacher_reference_answer,reference_only,missing,missing,type_differ,CC0054_2024_石景山_一模_17,Q0019_2024_石景山_一模_17
+2024,顺义,二模,19,,missing,missing,marking_rubric,formal,codex_downgraded,CC0070_2024_顺义_二模_19,Q0024_2024_顺义_二模_19
+2025,房山,一模,20,,missing,missing,marking_rubric,formal,codex_downgraded,CC0132_2025_房山_一模_20,Q0044_2025_房山_一模_20
+2025,海淀,期末,20,,marking_rubric,formal,missing,missing,codex_upgraded,CC0180_2025_海淀_期末_20,Q0059_2025_海淀_期末_20
+2026,东城,一模,18,,evaluation_standard,formal,marking_rubric,formal,type_differ,CC0229_2026_东城_一模_18,Q0074_2026_东城_一模_18
+2026,东城,二模,19,,marking_rubric,formal,missing,missing,codex_upgraded,CC0238_2026_东城_二模_19,Q0075_2026_东城_二模_19
+2026,东城,二模,21,,missing,missing,marking_rubric,formal,codex_downgraded,CC0240_2026_东城_二模_21,Q0076_2026_东城_二模_21
+2026,朝阳,二模,20,2,missing,missing,marking_rubric,formal,codex_downgraded,CC0294_2026_朝阳_二模_20_2,Q0090_2026_朝阳_二模_20_2

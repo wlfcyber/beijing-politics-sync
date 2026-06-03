@@ -1,0 +1,28 @@
+blocker_id,year,district,exam_stage,file_path,file_id_if_known,blocker_type,effect_on_exhaustion,suggested_recovery_action
+BLK_2026_朝阳_期末_试卷,2026,朝阳,期末,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期末/试卷/试卷.pdf,F0213,ocr_no_text_layer,paper text 不可机读；CC 抽取脚本对该 suite 默认无证据 → 直接导致 Q18(1) 法律与生活遗漏。rendered_pages 1-8 可视读，Q15-Q22 内容可辨。,立即用 vision OCR 或人工对 F0213 的 page_005 (Q17/Q18 题面) 与 page_006-007 (Q18 设问) 生成文本，并补 paper_text 与 question_no/sub_question_no。
+BLK_2026_朝阳_期末_细则,2026,朝阳,期末,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026朝阳期末/细则/细则.pdf,F0212,ocr_no_text_layer,rubric text 不可机读；rendered_pages 中 page_002 完整显示 Q18(1) 法律与生活 7分细则。,vision OCR F0212 page_002 提取细则全文。Gaokao 副本 F0393 同样 OCR_blocked 但 page_002 一致可视。
+BLK_2026_朝阳_期末_试卷_副本,2026,朝阳,期末,/Users/wanglifei/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026朝阳期末/2026北京朝阳高三（上）期末政治.pdf,F0392,ocr_no_text_layer,与 F0213 同卷副本。,同 BLK_2026_朝阳_期末_试卷。
+BLK_2026_朝阳_期末_细则_副本,2026,朝阳,期末,/Users/wanglifei/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026朝阳期末/2026朝阳期末细则.pdf,F0393,ocr_no_text_layer,与 F0212 同细则副本。,同 BLK_2026_朝阳_期末_细则。
+BLK_2026_丰台_期末_试卷,2026,丰台,期末,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026丰台期末/试卷/试卷.pdf,F0208,ocr_no_text_layer,Q18 题面无法机读；但 F0207 细则文本可读，已能定位 Q18 是 政治与法治+法律与生活 mixed。,vision OCR F0208 page_007 取 Q18 题面，确认是否能拆出仅 法律与生活 子问。
+BLK_2026_丰台_期末_试卷_副本,2026,丰台,期末,/Users/wanglifei/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026丰台期末/2026北京丰台高三（上）期末政治.pdf,F0387,ocr_no_text_layer,同上副本。,同上。
+BLK_2026_西城_期末_细则,2026,西城,期末,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026西城期末/细则/细则.pdf,F0219,ocr_no_text_layer,正式阅卷细则不可机读；目前 Q17 入核心是基于 F0221 参考答案 (reference_only)。,vision OCR F0219 与 F0400，如能拿到正式 marking_rubric，CC0353 可由 reference_only 升 formal。
+BLK_2026_西城_期末_细则_副本,2026,西城,期末,/Users/wanglifei/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026西城期末/2026西城期末细则.pdf,F0400,ocr_no_text_layer,同 F0219 副本。,同上。
+BLK_2026_海淀_期中_期中讲评,2026,海淀,期中,/Users/wanglifei/Desktop/2026模拟题/2026各区期末和期中/2026海淀期中/其他材料/期中讲评20251106.pdf,F0214,ocr_no_text_layer,讲评不可机读；但试卷+答案均可读，已确认 海淀期中无法律与生活主观题。,可选 vision OCR 验证讲评是否含遗漏点；优先级低。
+BLK_2026_海淀_期中_讲评_副本,2026,海淀,期中,/Users/wanglifei/GaokaoPolitics/2026各区模拟题/2026各区期末和期中/2026海淀期中/期中讲评20251106.pdf,F0395,ocr_no_text_layer,同 F0214。,同上。
+BLK_2026_石景山_期末_全部,2026,石景山,期末,/Users/wanglifei/Desktop/2026模拟题/已放弃/2026石景山期末/...,F0225 F0226 F0398,user_excluded + paper_missing,试卷 PDF 缺；用户 hard-rule 明确该 suite 暂不入。,等待用户显式确认是否提供新试卷+评标。
+BLK_2024_东城_一模_试卷,2024,东城,一模,/Users/wanglifei/Desktop/2024模拟题/2024东城一模/试卷/试卷.pdf,F0011 F0236,ocr_no_text_layer,Q19 法律与生活已通过 F0010 答案+F0009 细则 ppt 补回；rendered_pages 可视读。,补 OCR 提升 metadata 完整性；不影响核心入库。
+BLK_2024_东城_二模_试卷,2024,东城,二模,/Users/wanglifei/Desktop/2024模拟题/东城二模/试卷/试卷.pdf,F0043 F0254,ocr_no_text_layer,RECOVER_2024_东城_二模_19_1/_2 已通过 rubric F0037/F0038 入核心。,同上。
+BLK_2024_东城_二模_细则补充,2024,东城,二模,/Users/wanglifei/Desktop/2024模拟题/东城二模/细则/补充材料/细则.pdf,F0042 F0255,ocr_no_text_layer,补充资料；已有 docx 细则。,同上。
+BLK_2024_丰台_二模_试卷,2024,丰台,二模,/Users/wanglifei/Desktop/2024模拟题/丰台二模/试卷/试卷.pdf,F0048 F0271,ocr_no_text_layer,CC0011 Q17 已通过 F0047 细则.docx 入核心。,同上。
+BLK_2025_朝阳_一模_细则,2025,朝阳,一模,/Users/wanglifei/Desktop/2025模拟题/2025各区一模/2025朝阳一模/细则/细则.pdf,F0083 F0303,ocr_no_text_layer,CC0143 Q19 已通过 F0084/F0085/F0086 补充材料+ppt 入核心。,同上。
+BLK_2025_朝阳_二模_试卷补充,2025,朝阳,二模,/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025朝阳二模/试卷/补充材料/扫描全能王 2025-05-13 21.42.pdf,F0118 F0330,ocr_no_text_layer,正卷 docx (F0117) 已捕获 Q20 法律与生活；该扫描件为补充。,优先级低。
+BLK_2025_海淀_二模_试卷,2025,海淀,二模,/Users/wanglifei/Desktop/2025模拟题/2025各区二模/2025海淀二模/试卷/试卷.pdf,F0123 F0332,ocr_no_text_layer,RECOVER_2025_海淀_二模_18 通过 rubric F0121/F0122 进入核心。,补 OCR 验 Q18 题面与 paper_page。
+BLK_2025_朝阳_期末_细则,2025,朝阳,期末,/Users/wanglifei/Desktop/2025模拟题/2025各区期末/2025朝阳期末/细则/细则.pdf,F0134 F0344,ocr_no_text_layer,CC0157 Q20 已通过试卷与 评标 入核心。,同上。
+BLK_2026_东城_一模_细则及扫描,2026,东城,一模,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026东城一模/细则/细则.pdf + 2026东城一模 原卷扫描版.pdf,F0152 F0154 F0354 F0357,ocr_no_text_layer,CC0229 Q18 已通过其它文本可读源入核心。,同上。
+BLK_2026_丰台_一模_试卷,2026,丰台,一模,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026丰台一模/试卷/试卷.pdf,F0157 F0367,ocr_no_text_layer,CC0251 Q20 已入核心。,同上。
+BLK_2026_房山_一模_试卷,2026,房山,一模,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026房山一模/试卷/试卷.pdf,F0161 F0370,ocr_no_text_layer,RECOVER_2026_房山_一模_17_1 已入核心；17_2 在 boundary。,vision OCR 看 Q17_2 是否可拆出仅法律与生活子问。
+BLK_2026_海淀_一模_试卷,2026,海淀,一模,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026海淀一模/试卷/试卷.pdf,F0166 F0374,ocr_no_text_layer,CC0305 Q18_3 已通过细则入核心。,同上。
+BLK_2026_西城_一模_试卷,2026,西城,一模,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026西城一模/试卷/补充材料/2026北京西城高三一模政治.pdf,F0170 F0378,ocr_no_text_layer,CC0340 Q17 已入核心。,同上。
+BLK_2026_通州_一模_试卷,2026,通州,一模,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026通州一模/试卷/2026北京通州高三一模政治.pdf,F0173,ocr_no_text_layer,RECOVER_2026_通州_一模_20 已入核心。,同上。
+BLK_2026_西城_二模_细则,2026,西城,二模,/Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026西城二模/细则/西城二模评标.pdf,F0200,ocr_no_text_layer,RECOVER_2026_西城_二模_18_1/2/3 已通过 rendered_pages 入核心。,同上。
+BLK_2026_顺义_二模_试卷,2026,顺义,二模,/Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026顺义二模/试卷/26顺义二模(1).pdf,F0203,ocr_no_text_layer,CC0380 Q18_2 已入核心。,同上。

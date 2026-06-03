@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-19T15:25:33+08:00",
+  "source_base_rows": 56,
+  "new_core_recoveries": 10,
+  "suite_exhaustive_core_rows": 66,
+  "evidence_level_counts": {
+    "formal": 61,
+    "reference_only": 5
+  },
+  "suite_count": 63,
+  "suite_status_counts": {
+    "has_suite_exhaustive_core_rows": 57,
+    "no_law_subjective_confirmed": 2,
+    "midterm_mixed_law_reference_not_core": 1,
+    "stage_mapping_conflict_mixed_review": 1,
+    "stage_mapping_conflict": 1,
+    "special_user_excluded_or_source_blocked": 1
+  },
+  "material_atoms": 571,
+  "ask_atoms": 66,
+  "rubric_atoms": 367,
+  "boundary_or_blocked_cases": 6
+}

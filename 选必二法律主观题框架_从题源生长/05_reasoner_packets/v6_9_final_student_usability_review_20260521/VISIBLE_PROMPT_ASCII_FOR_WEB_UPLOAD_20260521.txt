@@ -1,0 +1,5 @@
+Please review the uploaded packet only. Open PACKET_README.md first, then follow PROMPT_FOR_GPTPRO_AND_CLAUDE_V6_9_FINAL_STUDENT_REVIEW_20260521.md exactly.
+
+Important: ignore previous chat context. This is V6.9 final student usability review, not evidence-only review. Judge whether a smart zero-baseline Grade 12 student can use the handbook to answer unfamiliar Law and Life subjective questions close to full score.
+
+Output PASS / CONDITIONAL_PASS / FAIL, with P0/P1/P2 issues and concrete rewrite instructions.

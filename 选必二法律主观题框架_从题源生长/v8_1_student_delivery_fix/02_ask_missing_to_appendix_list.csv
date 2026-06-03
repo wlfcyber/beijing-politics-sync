@@ -1,0 +1,21 @@
+﻿question_id,evidence_level,status,backfilled_ask_text,source_basis,student_body_handling
+CC0019_2024_朝阳_一模_19,formal,backfilled,结合材料，运用《法律与生活》知识，分析诚信原则对促进社会主义市场经济健康发展的积极作用。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0077_2025_东城_一模_19,formal,backfilled,阅读材料，完成下表。,full_question_text,rewrite_in_student_run
+CC0084_2025_东城_二模_19,formal,backfilled,阅读材料，完成下表。,full_question_text,rewrite_in_student_run
+CC0092_2025_东城_期末_19_1,formal,backfilled,运用《法律与生活》和《政治与法治》知识，完成任务：（1）写出该方案遇到的法律问题。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0131_2025_房山_一模_19,formal,backfilled,结合材料，谈谈“真创新”受到“真保护”的法治价值。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0157_2025_朝阳_期末_20,formal,backfilled,了解案件，分析事实，印证法理，参考示例，完成下表。,full_question_text,rewrite_in_student_run
+CC0180_2025_海淀_期末_20,formal,backfilled,下表列出了《解释》部分条款。参考示例，完成下表。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0189_2025_石景山_一模_20,formal,backfilled,阅读材料，参考示例，完成下表。,full_question_text,rewrite_in_student_run
+CC0195_2025_西城_一模_20,formal,backfilled,结合材料，综合运用经济和法律的知识，说明上述做法能促进社会公平与经济效率的平衡。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0213_2025_门头沟_一模_20,formal,backfilled,请结合以下案例，参照所给示例完成下表。,full_question_text,rewrite_in_student_run
+CC0214_2025_门头沟_一模_20_2,formal,backfilled,请结合案例二，参照所给示例完成裁判要点中的裁判理由。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0245_2026_东城_期中_18_2,formal,backfilled,维权成功需要做好充分准备和策略选择。你认为陈某需要做好哪些工作？,rubric_slide_contains_prompt,rewrite_in_student_run
+CC0276_2026_房山_二模_17,formal,backfilled,中国走向世界，以负责任大国参与国际事务，必须善于运用法治。结合材料，运用法治知识，谈谈中国是如何加强涉外法治建设的。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0277_2026_房山_二模_18,formal,backfilled,结合材料一，运用《法律与生活》知识，分析上述场景可能涉及的法律边界，并提出应对措施。,source_recovered_from_step29_active_backup,rewrite_in_student_run
+CC0311_2026_海淀_二模_18,reference_only,backfilled,结合材料二，运用《法律与生活》知识，分析上述关于知识产权的法律规定是如何助力企业创新与发展的。,answer_text_contains_prompt_reference_run,reference_run_only
+CC0317_2026_海淀_期中_18,formal,appendix_only,,"paper text for Q18 is political-module; current legal text is answer/rubric only, prompt not recovered",remove_from_student_body
+CC0318_2026_海淀_期中_18_2,formal,appendix_only,,same source mismatch as CC0317; prompt not recovered,remove_from_student_body
+CC0319_2026_海淀_期中_19,formal,appendix_only,,"paper text for Q19 is political-module; current legal text is answer/rubric only, prompt not recovered",remove_from_student_body
+CC0325_2026_石景山_一模_18,formal,backfilled,阅读材料，参考示例，分析案件中举证责任的分配方式及理由，完成下表。,full_question_text,rewrite_in_student_run
+CC0353_2026_西城_期中_17,reference_only,appendix_only,,reference run only and prompt not recovered,remove_from_student_body

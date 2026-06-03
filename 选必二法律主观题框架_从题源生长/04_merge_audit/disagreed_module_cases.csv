@@ -1,0 +1,36 @@
+﻿year,district,exam_stage,question_no,sub_question_no,codex_module_risk,claudecode_verdict,note
+2024,东城,一模,16,,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2024,东城,二模,18,2,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2024,东城,二模,19,1,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2024,朝阳,一模,20,2404,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2024,海淀,一模,18,,选必二,当代国际政治与经济,ask names other module: 运用《当代国际政治与经济》
+2024,海淀,一模,20,,选必二,不确定,no clear module signal
+2024,石景山,一模,18,,选必二,必修三,"必修三 frame ['基层治理'], weak 选必二 signal"
+2024,顺义,二模,17,,选必二,不确定,no clear module signal
+2025,东城,期末,18,2,选必二,逻辑与思维,ask names other module: 运用《逻辑与思维》
+2025,东城,期末,19,,综合,选必二,ClaudeCode 上调为 选必二，但仍需仔细复核
+2025,丰台,二模,17,,选必二,必修三,"必修三 frame ['法治政府', '党的领导'], weak 选必二 signal"
+2025,丰台,二模,18,,选必二,不确定,no clear module signal
+2025,丰台,二模,19,,选必二,不确定,only weak 选必二 tokens: ['版权']
+2025,丰台,二模,20,,选必二,当代国际政治与经济,ask names other module: 运用《当代国际政治与经济》
+2025,丰台,期末,21,,逻辑,选必二,ClaudeCode 上调为 选必二，但仍需仔细复核
+2025,延庆,一模,17,,选必二,必修三,ask names other module: 运用《政治与法治》
+2025,海淀,一模,20,,选必二,不确定,only weak 选必二 tokens: ['欺诈']
+2025,海淀,二模,18,,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2025,海淀,期中,16,,选必二,不确定,"only weak 选必二 tokens: ['商标权', '知识产权']"
+2025,海淀,期末,19,,选必二,不确定,no clear module signal
+2025,西城,二模,20,,选必二,不确定,only weak 选必二 tokens: ['遗产']
+2025,门头沟,一模,20,3,选必二,不确定,"only weak 选必二 tokens: ['劳动者', '用人单位']"
+2025,顺义,一模,18,,选必二,不确定,no clear module signal
+2026,丰台,二模,20,26,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2026,延庆,一模,18,,选必二,综合,both explicit 法律与生活 and 逻辑与思维
+2026,房山,一模,17,1,选必二,不确定,"only weak 选必二 tokens: ['民事主体', '承诺']"
+2026,海淀,期中,22,,选必二,必修三,"必修三 frame ['基层治理', '党的领导'], weak 选必二 signal"
+2026,石景山,二模,18,,选必二,当代国际政治与经济,ask names other module: 运用《当代国际政治与经济》
+2026,石景山,期末,17,,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题
+2026,西城,一模,21,,选必二,不确定,no clear module signal
+2026,西城,二模,18,,选必二,逻辑与思维,ask names other module: 运用《逻辑与思维》
+2026,西城,期中,16,,选必二,不确定,no clear module signal
+2026,通州,期中,16,,选必二,哲学与文化,ask names other module: 运用《哲学与文化》
+2026,门头沟,一模,21,,选必二,不确定,no clear module signal
+2026,顺义,一模,18,,选必二,rejected/not-found,ClaudeCode 未识别此题为选必二主观题

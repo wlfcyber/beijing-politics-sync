@@ -1,0 +1,1 @@
+现在请综合 METHOD_LEARNING_NOTES、WHY_V6_9_STILL_NOT_ENOUGH 和 batch 01 到 04 的发现，生成 V7_FRAMEWORK_PROPOSAL、V7_STUDENT_FIRST_10_PAGES_PLAN、QUESTION_BY_QUESTION_STRESS_TEST_PLAN、WHAT_YOU_NEED_FROM_CODEX_NEXT。必须保留 question_id 和 rubric_atom_id。框架前台不能用教材目录或九个战场，必须能让零基础聪明学生知道第一句、材料翻译、法律规则、落分终点。

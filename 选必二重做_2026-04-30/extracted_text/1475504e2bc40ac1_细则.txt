@@ -1,0 +1,3 @@
+source: /Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026东城一模/细则/细则.pdf
+status: text_empty_or_scan_ocr_needed
+

@@ -1,0 +1,11 @@
+comparison_id,gpt_observation,claude_observation,match_type,decision,reason
+V62CMP_001,CONDITIONALPASS,CONDITIONAL_PASS,same,keep,双模型一致认为 V6.2 可教但不能封版
+V62CMP_002,YES_WITH_GUARDS,Word/PDF 暂不允许,conflict,pending,采保守侧先修 Claude P1 再判断 candidate
+V62CMP_003,不得宣布学生读完稳定满分,不得宣布学生读完能答到满分,same,keep,双模型一致禁止满分宣称
+V62CMP_004,C/E/H 补丁未重测,C/E 只是文本改了未验证,similar,keep,修后对 C/E/H 做回归裸测
+V62CMP_005,CC0223 source-card 风险,CC0223 答案污染+设问污染,same,keep,必须清洗 CC0223 或降级锁定
+V62CMP_006,CC0244 canonical ask 与 two-ask patch 需统一,CC0244 无过错责任硬句不贴案,similar,merge,统一两问口径并改成销售者/生产者条件辨析
+V62CMP_007,表格题补模拟格子,固定四格会盖过真实列名,similar,merge,先抄真实列名，模拟格子只作示例
+V62CMP_008,三句保底可能被误当满分,三句保底刹车基本够但材料翻译表崩坏,similar,keep,保底句继续上锁，同时修 27 题材料翻译表
+V62CMP_009,A/D/F 干净核心题接近满分,A/D/F 干净核心题接近满分,same,keep,证明主干方向有效
+V62CMP_010,38 non-core guard 有效,38 non-core guard 有效,same,keep,继续保留 27 core + 38 guard/index 纪律

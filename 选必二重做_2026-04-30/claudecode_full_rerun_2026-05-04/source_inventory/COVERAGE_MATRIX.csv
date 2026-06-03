@@ -1,0 +1,30 @@
+domain,topic,evidence_questions,evidence_grade,coverage_status,framework_node
+交易交换域,合同成立与生效（要约/承诺/意思表示）,2024东城二模19(1) 起诉状(默示续约),formal_rubric+marking_record,covered,框架版-交易交换域-合同生命周期-成立生效
+交易交换域,合同条款变更与履行（全面履行/诚信/单方变更/违约责任）,2024东城二模19(1) 起诉状,formal_rubric+marking_record,covered,框架版-交易交换域-合同生命周期-变更履行违约
+交易交换域,合同条款建议（清晰明确避免歧义）,2024东城二模19(2) 建议,formal_rubric+marking_record,covered,框架版-交易交换域-合同实践指引
+交易交换域,合同欺诈与可撤销（民法典）,2025朝阳一模19 合同欺诈,marking_record,covered,框架版-交易交换域-合同效力瑕疵-欺诈
+交易交换域,消费者权益保护法-三倍赔偿,2025朝阳一模19,marking_record,covered,框架版-交易交换域-消费者权益-惩罚性赔偿
+交易交换域,消费者三大权利（知情/公平交易/自主选择）,2025朝阳一模19,marking_record,covered,框架版-交易交换域-消费者权益-基本权利
+交易交换域,劳动者权利义务+用人单位义务+合同履行+培训,2024东城二模18(2)选必二小问,formal_rubric+marking_record,covered,框架版-交易交换域-劳务交易-劳动关系
+交易交换域,格式条款解释,—,—,gap_only_partial_evidence,框架版-交易交换域-合同效力瑕疵-格式条款(待源补)
+交易交换域,要约邀请 vs 要约,—,—,gap_only_partial_evidence,框架版-交易交换域-合同生命周期-要约邀请
+身份财产域,所有权（占有/使用/收益/处分）选择题,2024朝阳一模选择题第11题,marking_record(讲评 PPT),covered_choice_only,选择题专属-身份财产域-所有权识别
+身份财产域,物权-相邻关系（光污染/通风采光）,2024朝阳一模选择题第11题(选项),marking_record,covered_choice_only,选择题专属-身份财产域-相邻关系
+身份财产域,土地承包经营权 / 集体土地处分,2024朝阳一模选择题第11题(选项),marking_record,covered_choice_only,选择题专属-身份财产域-用益物权
+身份财产域,不动产登记 / 一物二卖,2024朝阳一模选择题第11题(选项),marking_record,covered_choice_only,选择题专属-身份财产域-不动产登记
+身份财产域,婚姻成立条件,—,—,gap_only_partial_evidence,框架版-身份财产域-婚姻(待源补)
+身份财产域,继承（法定/遗嘱/遗赠扶养）,—,—,gap_only_partial_evidence,框架版-身份财产域-继承(待源补)
+身份财产域,夫妻共同财产 / 个人财产,—,—,gap_only_partial_evidence,框架版-身份财产域-夫妻财产(待源补)
+人身权益域,限制民事行为能力人 / 民事法律行为效力,2024朝阳一模选择题第10题,marking_record(讲评 PPT),covered_choice_only,选择题专属-人身权益域-民事行为能力
+人身权益域,人格权（生命健康 / 名誉 / 隐私 / 肖像）,—,—,gap_only_partial_evidence,框架版-人身权益域-人格权(待源补)
+人身权益域,一般侵权 / 过错责任,—,—,gap_only_partial_evidence,框架版-人身权益域-侵权(待源补)
+人身权益域,特殊侵权（产品责任/饲养动物/高空抛物等）,—,—,gap_only_partial_evidence,框架版-人身权益域-特殊侵权(待源补)
+创新竞争域,实用新型专利 / 专利保护期,2024朝阳一模选择题第12题,marking_record(讲评 PPT),covered_choice_only,选择题专属-创新竞争域-专利
+创新竞争域,著作权 / 商标权,—,—,gap_only_partial_evidence,框架版-创新竞争域-著作权商标权(待源补)
+创新竞争域,反不正当竞争（在 朝阳一模合同欺诈题中作为反面常见错误被提及）,2025朝阳一模19题学生错误反馈,marking_record(反例),covered_negative_only,框架版-创新竞争域-反不正当竞争(反例引导)
+救济公共域,民事诉讼-起诉状结构（原被告/诉讼请求/事实与理由）,2024东城二模19(1),formal_rubric+marking_record,covered,框架版-救济公共域-诉讼程序-起诉状
+救济公共域,诉讼请求识别（多请求逐一对应）,2025朝阳一模19,marking_record,covered,框架版-救济公共域-诉讼程序-请求识别
+救济公共域,法院裁判理由（事实+法理+因果），意义类层次,2025朝阳一模19,marking_record,covered,框架版-救济公共域-司法说理
+救济公共域,调解 / 仲裁,—,—,gap_only_partial_evidence,框架版-救济公共域-多元解纷(待源补)
+救济公共域,举证责任,—,—,gap_only_partial_evidence,框架版-救济公共域-举证(待源补)
+救济公共域,生态损害公益保护,—,—,gap_only_partial_evidence,框架版-救济公共域-公益(待源补)

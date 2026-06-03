@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-05-21",
+  "packet": "v11_source_locked_for_gpt_review_20260521",
+  "files": [
+    "01A_关键污染题回源修复补丁.csv",
+    "01A_关键污染题回源修复补丁.md",
+    "01_53题回源审判_stats.json",
+    "01_53题回源审判报告.md",
+    "01_53题回源审判表.csv",
+    "02_强分诊框架清单.csv",
+    "02_强分诊框架清单.md",
+    "03_下篇_53题全量题链_v11.csv",
+    "03_下篇_53题全量题链_v11.md",
+    "04_上篇_选必二法律主观题强分诊框架.md",
+    "05_真实覆盖矩阵.csv",
+    "05_真实覆盖矩阵.md",
+    "06_v11_acceptance.md",
+    "06_v11_acceptance_stats.json",
+    "PROMPT_FOR_GPT55PRO_V11_SOURCE_LOCKED_REVIEW.md",
+    "README_FOR_GPT.md"
+  ]
+}

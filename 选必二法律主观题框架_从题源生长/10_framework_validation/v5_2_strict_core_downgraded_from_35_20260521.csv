@@ -1,0 +1,9 @@
+﻿question_id,year,district,exam_stage,question_no,old_status,downgrade_reason,ask_text
+CC0061_2024_西城_一模_18,2024,西城,一模,18,PASS_CANDIDATE,claude_v5_2_review_source_check_pending,运用法治知识，谈谈对二审法院向郭某的三个儿子发出《督促履行义务告知书》的认识。
+CC0119_2025_丰台_期末_19,2025,丰台,期末,19,PASS_CANDIDATE,claude_v5_2_review_source_check_pending,运用《法律与生活》相关知识阐释法院的裁判理由”→可分析法院裁判对构建合理健康的 劳动关系的意义。
+CC0137_2025_昌平_二模_20,2025,昌平,二模,20,PASS_CANDIDATE,claude_v5_2_review_source_check_pending,运用《法律与生活》知识，完成裁判理由。
+CC0251_2026_丰台_一模_20,2026,丰台,一模,20,PASS_CANDIDATE,source_check_pending,运用所学知识展开论述；逻辑严密，条理清晰 水平3 | 观点比较明确，能表达自己的见解；能扣住观点展开论述，知识运用比较准确；逻辑性较强，有条理 水平2 | 观点不明确；论述不能集中指向问题，罗列知识；知识运用不正确；论述缺乏逻辑，条理性差 水平1 | 应答与试题无关；或重复试题内容；或没有应答
+CC0283_2026_朝阳_一模_18,2026,朝阳,一模,18,PASS_CANDIDATE,source_check_pending,运用纠纷的多元解决方式的知识，从调解的作用角度分析，说明人民法院坚持调解优先，减少了诉讼对 创新的干扰。
+CC0289_2026_朝阳_二模_18,2026,朝阳,二模,18,PASS_CANDIDATE,claude_v5_2_review_source_check_pending,结合材料，《法律与生活》，补充完整。
+CC0364_2026_通州_期末_19_1,2026,通州,期末,19,PASS_CANDIDATE,logic_boundary_not_core,根据材料，判断推理①和②的逻辑正误，并结合《逻辑与思维》知识说明理由。
+RECOVER_2026_西城_二模_18_2,2026,西城,二模,18,PASS_CANDIDATE,boundary_open_container,结合该案判决对生成式AI权责边界的认定，分析其对促进AI产业发展的影响。（）

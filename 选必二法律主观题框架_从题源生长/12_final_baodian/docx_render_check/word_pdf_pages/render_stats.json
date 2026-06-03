@@ -1,0 +1,3030 @@
+{
+  "summary": {
+    "pdf": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/选必二法律主观题满分宝典_BOUNDARY_PATCHED_WORDSAVED.pdf",
+    "page_count": 198,
+    "render_dir": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages",
+    "contact_sheet": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/contact_first_pages.png",
+    "min_nonwhite": 0.0657,
+    "max_nonwhite": 0.1525,
+    "suspect_blank_pages": [],
+    "sample_pages": [
+      {
+        "page": 1,
+        "width": 735,
+        "height": 951,
+        "white_ratio": 0.9136,
+        "nonwhite_ratio": 0.0864,
+        "darkish_ratio": 0.0801,
+        "content_bbox": [
+          67,
+          75,
+          667,
+          845
+        ],
+        "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-001.png"
+      },
+      {
+        "page": 100,
+        "width": 735,
+        "height": 951,
+        "white_ratio": 0.8832,
+        "nonwhite_ratio": 0.1168,
+        "darkish_ratio": 0.107,
+        "content_bbox": [
+          68,
+          70,
+          670,
+          866
+        ],
+        "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-100.png"
+      },
+      {
+        "page": 198,
+        "width": 735,
+        "height": 951,
+        "white_ratio": 0.9123,
+        "nonwhite_ratio": 0.0877,
+        "darkish_ratio": 0.0806,
+        "content_bbox": [
+          69,
+          70,
+          670,
+          688
+        ],
+        "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-198.png"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9136,
+      "nonwhite_ratio": 0.0864,
+      "darkish_ratio": 0.0801,
+      "content_bbox": [
+        67,
+        75,
+        667,
+        845
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-001.png"
+    },
+    {
+      "page": 2,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8758,
+      "nonwhite_ratio": 0.1242,
+      "darkish_ratio": 0.114,
+      "content_bbox": [
+        69,
+        72,
+        668,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-002.png"
+    },
+    {
+      "page": 3,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8825,
+      "nonwhite_ratio": 0.1175,
+      "darkish_ratio": 0.1079,
+      "content_bbox": [
+        69,
+        70,
+        659,
+        828
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-003.png"
+    },
+    {
+      "page": 4,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8666,
+      "nonwhite_ratio": 0.1334,
+      "darkish_ratio": 0.1221,
+      "content_bbox": [
+        69,
+        72,
+        669,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-004.png"
+    },
+    {
+      "page": 5,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8786,
+      "nonwhite_ratio": 0.1214,
+      "darkish_ratio": 0.111,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        879
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-005.png"
+    },
+    {
+      "page": 6,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8852,
+      "nonwhite_ratio": 0.1148,
+      "darkish_ratio": 0.105,
+      "content_bbox": [
+        69,
+        70,
+        668,
+        821
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-006.png"
+    },
+    {
+      "page": 7,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8653,
+      "nonwhite_ratio": 0.1347,
+      "darkish_ratio": 0.1239,
+      "content_bbox": [
+        69,
+        67,
+        669,
+        824
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-007.png"
+    },
+    {
+      "page": 8,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8903,
+      "nonwhite_ratio": 0.1097,
+      "darkish_ratio": 0.1001,
+      "content_bbox": [
+        69,
+        72,
+        669,
+        832
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-008.png"
+    },
+    {
+      "page": 9,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8587,
+      "nonwhite_ratio": 0.1413,
+      "darkish_ratio": 0.1295,
+      "content_bbox": [
+        69,
+        72,
+        664,
+        864
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-009.png"
+    },
+    {
+      "page": 10,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8739,
+      "nonwhite_ratio": 0.1261,
+      "darkish_ratio": 0.1154,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        870
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-010.png"
+    },
+    {
+      "page": 11,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.872,
+      "nonwhite_ratio": 0.128,
+      "darkish_ratio": 0.1172,
+      "content_bbox": [
+        69,
+        70,
+        661,
+        836
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-011.png"
+    },
+    {
+      "page": 12,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.896,
+      "nonwhite_ratio": 0.104,
+      "darkish_ratio": 0.0952,
+      "content_bbox": [
+        69,
+        67,
+        660,
+        858
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-012.png"
+    },
+    {
+      "page": 13,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8879,
+      "nonwhite_ratio": 0.1121,
+      "darkish_ratio": 0.1029,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        864
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-013.png"
+    },
+    {
+      "page": 14,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8824,
+      "nonwhite_ratio": 0.1176,
+      "darkish_ratio": 0.1074,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        858
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-014.png"
+    },
+    {
+      "page": 15,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.918,
+      "nonwhite_ratio": 0.082,
+      "darkish_ratio": 0.0754,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        856
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-015.png"
+    },
+    {
+      "page": 16,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9026,
+      "nonwhite_ratio": 0.0974,
+      "darkish_ratio": 0.0889,
+      "content_bbox": [
+        68,
+        70,
+        665,
+        845
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-016.png"
+    },
+    {
+      "page": 17,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9,
+      "nonwhite_ratio": 0.1,
+      "darkish_ratio": 0.0913,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-017.png"
+    },
+    {
+      "page": 18,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9073,
+      "nonwhite_ratio": 0.0927,
+      "darkish_ratio": 0.0851,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-018.png"
+    },
+    {
+      "page": 19,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8584,
+      "nonwhite_ratio": 0.1416,
+      "darkish_ratio": 0.1298,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        870
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-019.png"
+    },
+    {
+      "page": 20,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9231,
+      "nonwhite_ratio": 0.0769,
+      "darkish_ratio": 0.0704,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        841
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-020.png"
+    },
+    {
+      "page": 21,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8867,
+      "nonwhite_ratio": 0.1133,
+      "darkish_ratio": 0.1037,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        866
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-021.png"
+    },
+    {
+      "page": 22,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9049,
+      "nonwhite_ratio": 0.0951,
+      "darkish_ratio": 0.0873,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        870
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-022.png"
+    },
+    {
+      "page": 23,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8929,
+      "nonwhite_ratio": 0.1071,
+      "darkish_ratio": 0.0987,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-023.png"
+    },
+    {
+      "page": 24,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8848,
+      "nonwhite_ratio": 0.1152,
+      "darkish_ratio": 0.1062,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-024.png"
+    },
+    {
+      "page": 25,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9134,
+      "nonwhite_ratio": 0.0866,
+      "darkish_ratio": 0.0795,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-025.png"
+    },
+    {
+      "page": 26,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8711,
+      "nonwhite_ratio": 0.1289,
+      "darkish_ratio": 0.118,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        837
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-026.png"
+    },
+    {
+      "page": 27,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8689,
+      "nonwhite_ratio": 0.1311,
+      "darkish_ratio": 0.1202,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        847
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-027.png"
+    },
+    {
+      "page": 28,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8718,
+      "nonwhite_ratio": 0.1282,
+      "darkish_ratio": 0.1176,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        840
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-028.png"
+    },
+    {
+      "page": 29,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9175,
+      "nonwhite_ratio": 0.0825,
+      "darkish_ratio": 0.0757,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        844
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-029.png"
+    },
+    {
+      "page": 30,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8939,
+      "nonwhite_ratio": 0.1061,
+      "darkish_ratio": 0.0971,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        834
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-030.png"
+    },
+    {
+      "page": 31,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8966,
+      "nonwhite_ratio": 0.1034,
+      "darkish_ratio": 0.0948,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        861
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-031.png"
+    },
+    {
+      "page": 32,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9011,
+      "nonwhite_ratio": 0.0989,
+      "darkish_ratio": 0.0908,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-032.png"
+    },
+    {
+      "page": 33,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8865,
+      "nonwhite_ratio": 0.1135,
+      "darkish_ratio": 0.1042,
+      "content_bbox": [
+        69,
+        70,
+        662,
+        879
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-033.png"
+    },
+    {
+      "page": 34,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9061,
+      "nonwhite_ratio": 0.0939,
+      "darkish_ratio": 0.0863,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-034.png"
+    },
+    {
+      "page": 35,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8757,
+      "nonwhite_ratio": 0.1243,
+      "darkish_ratio": 0.1134,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        854
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-035.png"
+    },
+    {
+      "page": 36,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8993,
+      "nonwhite_ratio": 0.1007,
+      "darkish_ratio": 0.0925,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-036.png"
+    },
+    {
+      "page": 37,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9126,
+      "nonwhite_ratio": 0.0874,
+      "darkish_ratio": 0.0803,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        849
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-037.png"
+    },
+    {
+      "page": 38,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8529,
+      "nonwhite_ratio": 0.1471,
+      "darkish_ratio": 0.1345,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        875
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-038.png"
+    },
+    {
+      "page": 39,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8779,
+      "nonwhite_ratio": 0.1221,
+      "darkish_ratio": 0.1117,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        833
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-039.png"
+    },
+    {
+      "page": 40,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9196,
+      "nonwhite_ratio": 0.0804,
+      "darkish_ratio": 0.074,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        833
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-040.png"
+    },
+    {
+      "page": 41,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8939,
+      "nonwhite_ratio": 0.1061,
+      "darkish_ratio": 0.0968,
+      "content_bbox": [
+        68,
+        70,
+        670,
+        872
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-041.png"
+    },
+    {
+      "page": 42,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9132,
+      "nonwhite_ratio": 0.0868,
+      "darkish_ratio": 0.0793,
+      "content_bbox": [
+        69,
+        70,
+        661,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-042.png"
+    },
+    {
+      "page": 43,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8982,
+      "nonwhite_ratio": 0.1018,
+      "darkish_ratio": 0.0935,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        806
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-043.png"
+    },
+    {
+      "page": 44,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8836,
+      "nonwhite_ratio": 0.1164,
+      "darkish_ratio": 0.1069,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        857
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-044.png"
+    },
+    {
+      "page": 45,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8512,
+      "nonwhite_ratio": 0.1488,
+      "darkish_ratio": 0.1368,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        861
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-045.png"
+    },
+    {
+      "page": 46,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9267,
+      "nonwhite_ratio": 0.0733,
+      "darkish_ratio": 0.0671,
+      "content_bbox": [
+        69,
+        70,
+        658,
+        872
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-046.png"
+    },
+    {
+      "page": 47,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8772,
+      "nonwhite_ratio": 0.1228,
+      "darkish_ratio": 0.1124,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        874
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-047.png"
+    },
+    {
+      "page": 48,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8978,
+      "nonwhite_ratio": 0.1022,
+      "darkish_ratio": 0.0936,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        867
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-048.png"
+    },
+    {
+      "page": 49,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8846,
+      "nonwhite_ratio": 0.1154,
+      "darkish_ratio": 0.1059,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        863
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-049.png"
+    },
+    {
+      "page": 50,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8475,
+      "nonwhite_ratio": 0.1525,
+      "darkish_ratio": 0.1401,
+      "content_bbox": [
+        69,
+        70,
+        672,
+        871
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-050.png"
+    },
+    {
+      "page": 51,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9177,
+      "nonwhite_ratio": 0.0823,
+      "darkish_ratio": 0.0758,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        827
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-051.png"
+    },
+    {
+      "page": 52,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8927,
+      "nonwhite_ratio": 0.1073,
+      "darkish_ratio": 0.098,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        879
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-052.png"
+    },
+    {
+      "page": 53,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8638,
+      "nonwhite_ratio": 0.1362,
+      "darkish_ratio": 0.1246,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        851
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-053.png"
+    },
+    {
+      "page": 54,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8743,
+      "nonwhite_ratio": 0.1257,
+      "darkish_ratio": 0.1149,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        829
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-054.png"
+    },
+    {
+      "page": 55,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9148,
+      "nonwhite_ratio": 0.0852,
+      "darkish_ratio": 0.078,
+      "content_bbox": [
+        69,
+        67,
+        669,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-055.png"
+    },
+    {
+      "page": 56,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8734,
+      "nonwhite_ratio": 0.1266,
+      "darkish_ratio": 0.1157,
+      "content_bbox": [
+        69,
+        68,
+        666,
+        872
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-056.png"
+    },
+    {
+      "page": 57,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8668,
+      "nonwhite_ratio": 0.1332,
+      "darkish_ratio": 0.1219,
+      "content_bbox": [
+        69,
+        70,
+        661,
+        872
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-057.png"
+    },
+    {
+      "page": 58,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9266,
+      "nonwhite_ratio": 0.0734,
+      "darkish_ratio": 0.0674,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        831
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-058.png"
+    },
+    {
+      "page": 59,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8943,
+      "nonwhite_ratio": 0.1057,
+      "darkish_ratio": 0.0962,
+      "content_bbox": [
+        68,
+        68,
+        663,
+        868
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-059.png"
+    },
+    {
+      "page": 60,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9343,
+      "nonwhite_ratio": 0.0657,
+      "darkish_ratio": 0.0604,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        810
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-060.png"
+    },
+    {
+      "page": 61,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8946,
+      "nonwhite_ratio": 0.1054,
+      "darkish_ratio": 0.0958,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        874
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-061.png"
+    },
+    {
+      "page": 62,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8788,
+      "nonwhite_ratio": 0.1212,
+      "darkish_ratio": 0.1105,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-062.png"
+    },
+    {
+      "page": 63,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9201,
+      "nonwhite_ratio": 0.0799,
+      "darkish_ratio": 0.0734,
+      "content_bbox": [
+        69,
+        71,
+        664,
+        870
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-063.png"
+    },
+    {
+      "page": 64,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8828,
+      "nonwhite_ratio": 0.1172,
+      "darkish_ratio": 0.1073,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        838
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-064.png"
+    },
+    {
+      "page": 65,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.867,
+      "nonwhite_ratio": 0.133,
+      "darkish_ratio": 0.1218,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        862
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-065.png"
+    },
+    {
+      "page": 66,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9028,
+      "nonwhite_ratio": 0.0972,
+      "darkish_ratio": 0.0892,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        830
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-066.png"
+    },
+    {
+      "page": 67,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.878,
+      "nonwhite_ratio": 0.122,
+      "darkish_ratio": 0.1116,
+      "content_bbox": [
+        69,
+        70,
+        668,
+        852
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-067.png"
+    },
+    {
+      "page": 68,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8684,
+      "nonwhite_ratio": 0.1316,
+      "darkish_ratio": 0.1207,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        844
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-068.png"
+    },
+    {
+      "page": 69,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9132,
+      "nonwhite_ratio": 0.0868,
+      "darkish_ratio": 0.08,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        857
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-069.png"
+    },
+    {
+      "page": 70,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8902,
+      "nonwhite_ratio": 0.1098,
+      "darkish_ratio": 0.1005,
+      "content_bbox": [
+        68,
+        70,
+        670,
+        858
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-070.png"
+    },
+    {
+      "page": 71,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8833,
+      "nonwhite_ratio": 0.1167,
+      "darkish_ratio": 0.1068,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        844
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-071.png"
+    },
+    {
+      "page": 72,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.924,
+      "nonwhite_ratio": 0.076,
+      "darkish_ratio": 0.0696,
+      "content_bbox": [
+        69,
+        70,
+        660,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-072.png"
+    },
+    {
+      "page": 73,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8984,
+      "nonwhite_ratio": 0.1016,
+      "darkish_ratio": 0.0927,
+      "content_bbox": [
+        68,
+        70,
+        661,
+        845
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-073.png"
+    },
+    {
+      "page": 74,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9006,
+      "nonwhite_ratio": 0.0994,
+      "darkish_ratio": 0.0905,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-074.png"
+    },
+    {
+      "page": 75,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9149,
+      "nonwhite_ratio": 0.0851,
+      "darkish_ratio": 0.0779,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        827
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-075.png"
+    },
+    {
+      "page": 76,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8909,
+      "nonwhite_ratio": 0.1091,
+      "darkish_ratio": 0.0999,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        825
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-076.png"
+    },
+    {
+      "page": 77,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9094,
+      "nonwhite_ratio": 0.0906,
+      "darkish_ratio": 0.0832,
+      "content_bbox": [
+        69,
+        70,
+        661,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-077.png"
+    },
+    {
+      "page": 78,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8952,
+      "nonwhite_ratio": 0.1048,
+      "darkish_ratio": 0.0958,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        871
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-078.png"
+    },
+    {
+      "page": 79,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8915,
+      "nonwhite_ratio": 0.1085,
+      "darkish_ratio": 0.0991,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-079.png"
+    },
+    {
+      "page": 80,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9162,
+      "nonwhite_ratio": 0.0838,
+      "darkish_ratio": 0.077,
+      "content_bbox": [
+        69,
+        67,
+        670,
+        854
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-080.png"
+    },
+    {
+      "page": 81,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8908,
+      "nonwhite_ratio": 0.1092,
+      "darkish_ratio": 0.0998,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-081.png"
+    },
+    {
+      "page": 82,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9018,
+      "nonwhite_ratio": 0.0982,
+      "darkish_ratio": 0.09,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-082.png"
+    },
+    {
+      "page": 83,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8992,
+      "nonwhite_ratio": 0.1008,
+      "darkish_ratio": 0.0922,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        831
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-083.png"
+    },
+    {
+      "page": 84,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8858,
+      "nonwhite_ratio": 0.1142,
+      "darkish_ratio": 0.1043,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        853
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-084.png"
+    },
+    {
+      "page": 85,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9004,
+      "nonwhite_ratio": 0.0996,
+      "darkish_ratio": 0.091,
+      "content_bbox": [
+        69,
+        69,
+        664,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-085.png"
+    },
+    {
+      "page": 86,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8968,
+      "nonwhite_ratio": 0.1032,
+      "darkish_ratio": 0.0946,
+      "content_bbox": [
+        69,
+        70,
+        661,
+        867
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-086.png"
+    },
+    {
+      "page": 87,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8756,
+      "nonwhite_ratio": 0.1244,
+      "darkish_ratio": 0.1141,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-087.png"
+    },
+    {
+      "page": 88,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8801,
+      "nonwhite_ratio": 0.1199,
+      "darkish_ratio": 0.1104,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        848
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-088.png"
+    },
+    {
+      "page": 89,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9156,
+      "nonwhite_ratio": 0.0844,
+      "darkish_ratio": 0.077,
+      "content_bbox": [
+        69,
+        67,
+        670,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-089.png"
+    },
+    {
+      "page": 90,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8917,
+      "nonwhite_ratio": 0.1083,
+      "darkish_ratio": 0.0988,
+      "content_bbox": [
+        68,
+        70,
+        660,
+        864
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-090.png"
+    },
+    {
+      "page": 91,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9176,
+      "nonwhite_ratio": 0.0824,
+      "darkish_ratio": 0.0755,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        819
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-091.png"
+    },
+    {
+      "page": 92,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8892,
+      "nonwhite_ratio": 0.1108,
+      "darkish_ratio": 0.1013,
+      "content_bbox": [
+        68,
+        67,
+        669,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-092.png"
+    },
+    {
+      "page": 93,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.891,
+      "nonwhite_ratio": 0.109,
+      "darkish_ratio": 0.0996,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-093.png"
+    },
+    {
+      "page": 94,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9121,
+      "nonwhite_ratio": 0.0879,
+      "darkish_ratio": 0.0805,
+      "content_bbox": [
+        69,
+        67,
+        670,
+        857
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-094.png"
+    },
+    {
+      "page": 95,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8982,
+      "nonwhite_ratio": 0.1018,
+      "darkish_ratio": 0.0928,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-095.png"
+    },
+    {
+      "page": 96,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9168,
+      "nonwhite_ratio": 0.0832,
+      "darkish_ratio": 0.0766,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-096.png"
+    },
+    {
+      "page": 97,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9002,
+      "nonwhite_ratio": 0.0998,
+      "darkish_ratio": 0.0913,
+      "content_bbox": [
+        68,
+        67,
+        664,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-097.png"
+    },
+    {
+      "page": 98,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8913,
+      "nonwhite_ratio": 0.1087,
+      "darkish_ratio": 0.0996,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        829
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-098.png"
+    },
+    {
+      "page": 99,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9186,
+      "nonwhite_ratio": 0.0814,
+      "darkish_ratio": 0.0747,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        847
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-099.png"
+    },
+    {
+      "page": 100,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8832,
+      "nonwhite_ratio": 0.1168,
+      "darkish_ratio": 0.107,
+      "content_bbox": [
+        68,
+        70,
+        670,
+        866
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-100.png"
+    },
+    {
+      "page": 101,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8943,
+      "nonwhite_ratio": 0.1057,
+      "darkish_ratio": 0.097,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        837
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-101.png"
+    },
+    {
+      "page": 102,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9128,
+      "nonwhite_ratio": 0.0872,
+      "darkish_ratio": 0.0799,
+      "content_bbox": [
+        69,
+        67,
+        665,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-102.png"
+    },
+    {
+      "page": 103,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.884,
+      "nonwhite_ratio": 0.116,
+      "darkish_ratio": 0.1056,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        882
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-103.png"
+    },
+    {
+      "page": 104,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9157,
+      "nonwhite_ratio": 0.0843,
+      "darkish_ratio": 0.0773,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-104.png"
+    },
+    {
+      "page": 105,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8942,
+      "nonwhite_ratio": 0.1058,
+      "darkish_ratio": 0.0964,
+      "content_bbox": [
+        69,
+        67,
+        663,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-105.png"
+    },
+    {
+      "page": 106,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8576,
+      "nonwhite_ratio": 0.1424,
+      "darkish_ratio": 0.1302,
+      "content_bbox": [
+        69,
+        69,
+        664,
+        868
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-106.png"
+    },
+    {
+      "page": 107,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9106,
+      "nonwhite_ratio": 0.0894,
+      "darkish_ratio": 0.0821,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        862
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-107.png"
+    },
+    {
+      "page": 108,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8812,
+      "nonwhite_ratio": 0.1188,
+      "darkish_ratio": 0.1092,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        863
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-108.png"
+    },
+    {
+      "page": 109,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8844,
+      "nonwhite_ratio": 0.1156,
+      "darkish_ratio": 0.1066,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-109.png"
+    },
+    {
+      "page": 110,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9147,
+      "nonwhite_ratio": 0.0853,
+      "darkish_ratio": 0.0783,
+      "content_bbox": [
+        69,
+        71,
+        664,
+        799
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-110.png"
+    },
+    {
+      "page": 111,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.85,
+      "nonwhite_ratio": 0.15,
+      "darkish_ratio": 0.1379,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        874
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-111.png"
+    },
+    {
+      "page": 112,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9203,
+      "nonwhite_ratio": 0.0797,
+      "darkish_ratio": 0.0731,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-112.png"
+    },
+    {
+      "page": 113,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8726,
+      "nonwhite_ratio": 0.1274,
+      "darkish_ratio": 0.1164,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        859
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-113.png"
+    },
+    {
+      "page": 114,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9078,
+      "nonwhite_ratio": 0.0922,
+      "darkish_ratio": 0.0846,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-114.png"
+    },
+    {
+      "page": 115,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8897,
+      "nonwhite_ratio": 0.1103,
+      "darkish_ratio": 0.1006,
+      "content_bbox": [
+        68,
+        70,
+        669,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-115.png"
+    },
+    {
+      "page": 116,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8977,
+      "nonwhite_ratio": 0.1023,
+      "darkish_ratio": 0.0936,
+      "content_bbox": [
+        69,
+        70,
+        660,
+        841
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-116.png"
+    },
+    {
+      "page": 117,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9177,
+      "nonwhite_ratio": 0.0823,
+      "darkish_ratio": 0.0754,
+      "content_bbox": [
+        69,
+        72,
+        669,
+        848
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-117.png"
+    },
+    {
+      "page": 118,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8779,
+      "nonwhite_ratio": 0.1221,
+      "darkish_ratio": 0.1116,
+      "content_bbox": [
+        68,
+        70,
+        664,
+        862
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-118.png"
+    },
+    {
+      "page": 119,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9079,
+      "nonwhite_ratio": 0.0921,
+      "darkish_ratio": 0.0845,
+      "content_bbox": [
+        69,
+        70,
+        661,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-119.png"
+    },
+    {
+      "page": 120,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9032,
+      "nonwhite_ratio": 0.0968,
+      "darkish_ratio": 0.0886,
+      "content_bbox": [
+        69,
+        67,
+        669,
+        851
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-120.png"
+    },
+    {
+      "page": 121,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8635,
+      "nonwhite_ratio": 0.1365,
+      "darkish_ratio": 0.1253,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        879
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-121.png"
+    },
+    {
+      "page": 122,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9209,
+      "nonwhite_ratio": 0.0791,
+      "darkish_ratio": 0.0728,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-122.png"
+    },
+    {
+      "page": 123,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8982,
+      "nonwhite_ratio": 0.1018,
+      "darkish_ratio": 0.0928,
+      "content_bbox": [
+        68,
+        70,
+        662,
+        851
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-123.png"
+    },
+    {
+      "page": 124,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.898,
+      "nonwhite_ratio": 0.102,
+      "darkish_ratio": 0.0936,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        856
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-124.png"
+    },
+    {
+      "page": 125,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8997,
+      "nonwhite_ratio": 0.1003,
+      "darkish_ratio": 0.092,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        838
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-125.png"
+    },
+    {
+      "page": 126,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8938,
+      "nonwhite_ratio": 0.1062,
+      "darkish_ratio": 0.0971,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        841
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-126.png"
+    },
+    {
+      "page": 127,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8772,
+      "nonwhite_ratio": 0.1228,
+      "darkish_ratio": 0.1129,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        879
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-127.png"
+    },
+    {
+      "page": 128,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8906,
+      "nonwhite_ratio": 0.1094,
+      "darkish_ratio": 0.1003,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        870
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-128.png"
+    },
+    {
+      "page": 129,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9056,
+      "nonwhite_ratio": 0.0944,
+      "darkish_ratio": 0.0864,
+      "content_bbox": [
+        68,
+        70,
+        669,
+        852
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-129.png"
+    },
+    {
+      "page": 130,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8924,
+      "nonwhite_ratio": 0.1076,
+      "darkish_ratio": 0.0984,
+      "content_bbox": [
+        69,
+        70,
+        655,
+        775
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-130.png"
+    },
+    {
+      "page": 131,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.925,
+      "nonwhite_ratio": 0.075,
+      "darkish_ratio": 0.0688,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-131.png"
+    },
+    {
+      "page": 132,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8925,
+      "nonwhite_ratio": 0.1075,
+      "darkish_ratio": 0.0983,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-132.png"
+    },
+    {
+      "page": 133,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8851,
+      "nonwhite_ratio": 0.1149,
+      "darkish_ratio": 0.1058,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        845
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-133.png"
+    },
+    {
+      "page": 134,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9231,
+      "nonwhite_ratio": 0.0769,
+      "darkish_ratio": 0.0704,
+      "content_bbox": [
+        69,
+        72,
+        669,
+        823
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-134.png"
+    },
+    {
+      "page": 135,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8795,
+      "nonwhite_ratio": 0.1205,
+      "darkish_ratio": 0.11,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-135.png"
+    },
+    {
+      "page": 136,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8569,
+      "nonwhite_ratio": 0.1431,
+      "darkish_ratio": 0.1307,
+      "content_bbox": [
+        69,
+        70,
+        671,
+        876
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-136.png"
+    },
+    {
+      "page": 137,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.927,
+      "nonwhite_ratio": 0.073,
+      "darkish_ratio": 0.0667,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        852
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-137.png"
+    },
+    {
+      "page": 138,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8768,
+      "nonwhite_ratio": 0.1232,
+      "darkish_ratio": 0.1125,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-138.png"
+    },
+    {
+      "page": 139,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8715,
+      "nonwhite_ratio": 0.1285,
+      "darkish_ratio": 0.1173,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        877
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-139.png"
+    },
+    {
+      "page": 140,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8999,
+      "nonwhite_ratio": 0.1001,
+      "darkish_ratio": 0.0921,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        804
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-140.png"
+    },
+    {
+      "page": 141,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9054,
+      "nonwhite_ratio": 0.0946,
+      "darkish_ratio": 0.087,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-141.png"
+    },
+    {
+      "page": 142,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8703,
+      "nonwhite_ratio": 0.1297,
+      "darkish_ratio": 0.1193,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-142.png"
+    },
+    {
+      "page": 143,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8801,
+      "nonwhite_ratio": 0.1199,
+      "darkish_ratio": 0.1098,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        848
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-143.png"
+    },
+    {
+      "page": 144,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9124,
+      "nonwhite_ratio": 0.0876,
+      "darkish_ratio": 0.0802,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-144.png"
+    },
+    {
+      "page": 145,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8968,
+      "nonwhite_ratio": 0.1032,
+      "darkish_ratio": 0.0945,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        833
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-145.png"
+    },
+    {
+      "page": 146,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8816,
+      "nonwhite_ratio": 0.1184,
+      "darkish_ratio": 0.1085,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        845
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-146.png"
+    },
+    {
+      "page": 147,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9057,
+      "nonwhite_ratio": 0.0943,
+      "darkish_ratio": 0.0866,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        827
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-147.png"
+    },
+    {
+      "page": 148,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8968,
+      "nonwhite_ratio": 0.1032,
+      "darkish_ratio": 0.0945,
+      "content_bbox": [
+        69,
+        67,
+        670,
+        866
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-148.png"
+    },
+    {
+      "page": 149,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8819,
+      "nonwhite_ratio": 0.1181,
+      "darkish_ratio": 0.1087,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        854
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-149.png"
+    },
+    {
+      "page": 150,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9259,
+      "nonwhite_ratio": 0.0741,
+      "darkish_ratio": 0.0679,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        872
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-150.png"
+    },
+    {
+      "page": 151,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8751,
+      "nonwhite_ratio": 0.1249,
+      "darkish_ratio": 0.1141,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        852
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-151.png"
+    },
+    {
+      "page": 152,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9064,
+      "nonwhite_ratio": 0.0936,
+      "darkish_ratio": 0.0854,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-152.png"
+    },
+    {
+      "page": 153,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.901,
+      "nonwhite_ratio": 0.099,
+      "darkish_ratio": 0.0905,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        834
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-153.png"
+    },
+    {
+      "page": 154,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8815,
+      "nonwhite_ratio": 0.1185,
+      "darkish_ratio": 0.1085,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        864
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-154.png"
+    },
+    {
+      "page": 155,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.911,
+      "nonwhite_ratio": 0.089,
+      "darkish_ratio": 0.0815,
+      "content_bbox": [
+        69,
+        70,
+        662,
+        870
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-155.png"
+    },
+    {
+      "page": 156,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9062,
+      "nonwhite_ratio": 0.0938,
+      "darkish_ratio": 0.086,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        831
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-156.png"
+    },
+    {
+      "page": 157,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8863,
+      "nonwhite_ratio": 0.1137,
+      "darkish_ratio": 0.1041,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        815
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-157.png"
+    },
+    {
+      "page": 158,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.872,
+      "nonwhite_ratio": 0.128,
+      "darkish_ratio": 0.1173,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        812
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-158.png"
+    },
+    {
+      "page": 159,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9189,
+      "nonwhite_ratio": 0.0811,
+      "darkish_ratio": 0.0742,
+      "content_bbox": [
+        69,
+        67,
+        665,
+        857
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-159.png"
+    },
+    {
+      "page": 160,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8877,
+      "nonwhite_ratio": 0.1123,
+      "darkish_ratio": 0.1026,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        862
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-160.png"
+    },
+    {
+      "page": 161,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.866,
+      "nonwhite_ratio": 0.134,
+      "darkish_ratio": 0.1221,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-161.png"
+    },
+    {
+      "page": 162,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8999,
+      "nonwhite_ratio": 0.1001,
+      "darkish_ratio": 0.0914,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        871
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-162.png"
+    },
+    {
+      "page": 163,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.889,
+      "nonwhite_ratio": 0.111,
+      "darkish_ratio": 0.1013,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        866
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-163.png"
+    },
+    {
+      "page": 164,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8888,
+      "nonwhite_ratio": 0.1112,
+      "darkish_ratio": 0.1015,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        815
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-164.png"
+    },
+    {
+      "page": 165,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9155,
+      "nonwhite_ratio": 0.0845,
+      "darkish_ratio": 0.0775,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-165.png"
+    },
+    {
+      "page": 166,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8814,
+      "nonwhite_ratio": 0.1186,
+      "darkish_ratio": 0.1089,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        868
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-166.png"
+    },
+    {
+      "page": 167,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8964,
+      "nonwhite_ratio": 0.1036,
+      "darkish_ratio": 0.0948,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-167.png"
+    },
+    {
+      "page": 168,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.877,
+      "nonwhite_ratio": 0.123,
+      "darkish_ratio": 0.1124,
+      "content_bbox": [
+        68,
+        70,
+        662,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-168.png"
+    },
+    {
+      "page": 169,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9178,
+      "nonwhite_ratio": 0.0822,
+      "darkish_ratio": 0.0753,
+      "content_bbox": [
+        69,
+        70,
+        662,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-169.png"
+    },
+    {
+      "page": 170,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9033,
+      "nonwhite_ratio": 0.0967,
+      "darkish_ratio": 0.0883,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        849
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-170.png"
+    },
+    {
+      "page": 171,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9047,
+      "nonwhite_ratio": 0.0953,
+      "darkish_ratio": 0.0873,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-171.png"
+    },
+    {
+      "page": 172,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.904,
+      "nonwhite_ratio": 0.096,
+      "darkish_ratio": 0.0878,
+      "content_bbox": [
+        69,
+        70,
+        663,
+        817
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-172.png"
+    },
+    {
+      "page": 173,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8844,
+      "nonwhite_ratio": 0.1156,
+      "darkish_ratio": 0.1058,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        857
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-173.png"
+    },
+    {
+      "page": 174,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8969,
+      "nonwhite_ratio": 0.1031,
+      "darkish_ratio": 0.0943,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-174.png"
+    },
+    {
+      "page": 175,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.868,
+      "nonwhite_ratio": 0.132,
+      "darkish_ratio": 0.1208,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        871
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-175.png"
+    },
+    {
+      "page": 176,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9263,
+      "nonwhite_ratio": 0.0737,
+      "darkish_ratio": 0.0675,
+      "content_bbox": [
+        69,
+        70,
+        664,
+        842
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-176.png"
+    },
+    {
+      "page": 177,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8923,
+      "nonwhite_ratio": 0.1077,
+      "darkish_ratio": 0.0984,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        837
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-177.png"
+    },
+    {
+      "page": 178,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8743,
+      "nonwhite_ratio": 0.1257,
+      "darkish_ratio": 0.1154,
+      "content_bbox": [
+        69,
+        69,
+        670,
+        848
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-178.png"
+    },
+    {
+      "page": 179,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9062,
+      "nonwhite_ratio": 0.0938,
+      "darkish_ratio": 0.086,
+      "content_bbox": [
+        69,
+        67,
+        670,
+        825
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-179.png"
+    },
+    {
+      "page": 180,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8671,
+      "nonwhite_ratio": 0.1329,
+      "darkish_ratio": 0.1214,
+      "content_bbox": [
+        69,
+        68,
+        665,
+        872
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-180.png"
+    },
+    {
+      "page": 181,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9035,
+      "nonwhite_ratio": 0.0965,
+      "darkish_ratio": 0.0886,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        866
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-181.png"
+    },
+    {
+      "page": 182,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8793,
+      "nonwhite_ratio": 0.1207,
+      "darkish_ratio": 0.1105,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        867
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-182.png"
+    },
+    {
+      "page": 183,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9092,
+      "nonwhite_ratio": 0.0908,
+      "darkish_ratio": 0.083,
+      "content_bbox": [
+        69,
+        70,
+        671,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-183.png"
+    },
+    {
+      "page": 184,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8878,
+      "nonwhite_ratio": 0.1122,
+      "darkish_ratio": 0.1025,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        867
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-184.png"
+    },
+    {
+      "page": 185,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9042,
+      "nonwhite_ratio": 0.0958,
+      "darkish_ratio": 0.0877,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        865
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-185.png"
+    },
+    {
+      "page": 186,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8738,
+      "nonwhite_ratio": 0.1262,
+      "darkish_ratio": 0.1161,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        866
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-186.png"
+    },
+    {
+      "page": 187,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8842,
+      "nonwhite_ratio": 0.1158,
+      "darkish_ratio": 0.1065,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        858
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-187.png"
+    },
+    {
+      "page": 188,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9082,
+      "nonwhite_ratio": 0.0918,
+      "darkish_ratio": 0.0844,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        873
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-188.png"
+    },
+    {
+      "page": 189,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8869,
+      "nonwhite_ratio": 0.1131,
+      "darkish_ratio": 0.1035,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        867
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-189.png"
+    },
+    {
+      "page": 190,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8549,
+      "nonwhite_ratio": 0.1451,
+      "darkish_ratio": 0.1325,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-190.png"
+    },
+    {
+      "page": 191,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9167,
+      "nonwhite_ratio": 0.0833,
+      "darkish_ratio": 0.0765,
+      "content_bbox": [
+        69,
+        70,
+        665,
+        849
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-191.png"
+    },
+    {
+      "page": 192,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8789,
+      "nonwhite_ratio": 0.1211,
+      "darkish_ratio": 0.1108,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        881
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-192.png"
+    },
+    {
+      "page": 193,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8658,
+      "nonwhite_ratio": 0.1342,
+      "darkish_ratio": 0.1229,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        855
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-193.png"
+    },
+    {
+      "page": 194,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8689,
+      "nonwhite_ratio": 0.1311,
+      "darkish_ratio": 0.1199,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        869
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-194.png"
+    },
+    {
+      "page": 195,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9151,
+      "nonwhite_ratio": 0.0849,
+      "darkish_ratio": 0.0777,
+      "content_bbox": [
+        69,
+        67,
+        669,
+        867
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-195.png"
+    },
+    {
+      "page": 196,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.8727,
+      "nonwhite_ratio": 0.1273,
+      "darkish_ratio": 0.1164,
+      "content_bbox": [
+        69,
+        70,
+        669,
+        880
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-196.png"
+    },
+    {
+      "page": 197,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9122,
+      "nonwhite_ratio": 0.0878,
+      "darkish_ratio": 0.0806,
+      "content_bbox": [
+        69,
+        67,
+        665,
+        859
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-197.png"
+    },
+    {
+      "page": 198,
+      "width": 735,
+      "height": 951,
+      "white_ratio": 0.9123,
+      "nonwhite_ratio": 0.0877,
+      "darkish_ratio": 0.0806,
+      "content_bbox": [
+        69,
+        70,
+        670,
+        688
+      ],
+      "path": "/Users/wanglifei/Desktop/北京高考政治/选必二法律主观题框架_从题源生长/12_final_baodian/docx_render_check/word_pdf_pages/page-198.png"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+请先读取已上传的方法学习包。你现在只做两件事：一，输出 METHOD_LEARNING_NOTES，说明你从我的旧框架里学到的“怎么教学生”的方法；二，输出 WHY_V6_9_STILL_NOT_ENOUGH，严厉说明当前法律稿为什么还不够好。暂时不要生成总框架，不要写宝典。法律题我会按 batch 01 到 04 分批上传。请用中文，保留证据编号 question_id 和 rubric_atom_id。

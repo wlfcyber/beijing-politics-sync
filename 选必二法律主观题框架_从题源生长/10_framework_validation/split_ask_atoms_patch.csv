@@ -1,0 +1,4 @@
+﻿ask_atom_id,question_id,ask_text,ask_function_plain,module_requirement,requires_material_connection,requires_value_discussion,requires_behavior_evaluation,requires_solution_or_measure,student_task_plain,source_locator
+A_CC0305_2026_海淀_一模_18_3_P01,CC0305_2026_海淀_一模_18_3,判断是否支持原告诉讼请求，并说明隐私权、消费者知情权、虚假宣传/欺诈、侵权责任和惩罚性赔偿等依据。,评析,《法律与生活》,yes,no,yes,no,先表态支持，再分隐私权侵权和消费者欺诈两层说明。,F0165:lines 87-96
+A_CC0373_2026_顺义_一模_18_P01,CC0373_2026_顺义_一模_18,结合材料，运用《法律与生活》知识，闫某和张某的诉求能否得到法院的支持，并说明理由。,评析,《法律与生活》,yes,no,yes,no,分别对闫某和张某表态，再用劳动平等就业和竞业限制规则说明。,F0177:lines 302-327 | F0176:lines 35-47
+A_CC0380_2026_顺义_二模_18_2_P01,CC0380_2026_顺义_二模_18_2,从选必2《法律与生活》角度分析开源智能体可能侵害的权益及救济路径。,综合,《法律与生活》/综合边界,yes,yes,no,yes,识别财产权、隐私权、个人信息利益，再写协商调解仲裁诉讼和民事责任。,F0202:lines 53-55

@@ -1,0 +1,3 @@
+source: /Users/wanglifei/Desktop/2025模拟题/2025各区一模/2025朝阳一模/细则/细则.pdf
+status: text_empty_or_scan_ocr_needed
+

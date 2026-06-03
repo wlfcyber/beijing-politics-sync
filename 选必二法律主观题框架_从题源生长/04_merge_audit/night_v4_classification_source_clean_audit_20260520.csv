@@ -1,0 +1,66 @@
+﻿question_id,ask_source,source_clean_flags,classification_trust,decision,reason
+CC0002_2024_丰台_一模_17,ask_text,,high,keep_core,评判裁判任务信号。
+CC0011_2024_丰台_二模_17,ask_text,,high,low_frequency_container,formal 但低频单例，进入全量容器。
+CC0019_2024_朝阳_一模_19,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0025_2024_朝阳_二模_17,ask_text,,high,keep_core,平台劳动关系三从属性，不是 AI 风险题。
+CC0040_2024_海淀_一模_19,ask_text,,high,reference_only_container,普通参考答案，只能看写法，不支撑核心。
+CC0045_2024_海淀_二模_19,ask_text,,high,keep_core,评判裁判任务信号。
+CC0054_2024_石景山_一模_17,ask_text,,high,keep_core,核心是要约承诺与诚信/公平价值。
+CC0061_2024_西城_一模_18,ask_text,,high,keep_core,认识法院告知书，先判程序意义。
+CC0063_2024_西城_二模_16,ask_text,,high,keep_core,程序/证据/救济信号。
+CC0077_2025_东城_一模_19,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0084_2025_东城_二模_19,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0092_2025_东城_期末_19_1,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0103_2025_丰台_一模_19,ask_text,,high,keep_core,创新竞争定性信号。
+CC0119_2025_丰台_期末_19,ask_text,,high,keep_core,程序/证据/救济信号。
+CC0125_2025_延庆_一模_19,ask_text,,high,keep_core,程序/证据/救济信号。
+CC0131_2025_房山_一模_19,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0137_2025_昌平_二模_20,ask_text,,high,keep_core,表格/填空任务决定颗粒度。
+CC0143_2025_朝阳_一模_19,ask_text,,high,keep_core,核心是说明法院支持消费者诉讼请求的理由，先判后证。
+CC0150_2025_朝阳_二模_20,ask_text,,high,keep_core,程序/证据/救济信号。
+CC0157_2025_朝阳_期末_20,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0162_2025_海淀_一模_18,ask_text,,high,reference_only_container,普通参考答案，只能看写法，不支撑核心。
+CC0180_2025_海淀_期末_20,derived_from_question_or_rubric,derived_from_question_or_rubric|answer_text_contains_other_questions,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0181_2025_海淀_期末_21,ask_text,answer_text_contains_other_questions,medium,keep_core,创新竞争定性信号。
+CC0189_2025_石景山_一模_20,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0195_2025_西城_一模_20,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0200_2025_西城_二模_18,ask_text,,high,keep_core,评判裁判任务信号。
+CC0206_2025_西城_期末_19,ask_text,,high,keep_core,不正当竞争核心，不是泛风险题。
+CC0213_2025_门头沟_一模_20,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0214_2025_门头沟_一模_20_2,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0223_2025_顺义_一模_19,ask_text,,high,keep_core,材料奖励纠纷解决方式和相邻权/知识产权等理由。
+CC0229_2026_东城_一模_18,ask_text,,high,keep_core,创新竞争定性信号。
+CC0238_2026_东城_二模_19,ask_text,,high,keep_core,创新竞争定性信号。
+CC0244_2026_东城_期末_18,ask_text,,high,keep_core,核心为合同/责任，不是知识产权。
+CC0245_2026_东城_期末_18_2,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0251_2026_丰台_一模_20,ask_text,answer_text_contains_other_questions,medium,keep_core,原 ask 被等级表污染，核心是法院判决论述。
+CC0254_2026_丰台_二模_18,ask_text,answer_text_contains_other_questions,medium,low_frequency_container,formal 但低频单例，进入全量容器。
+CC0276_2026_房山_二模_17,derived_from_rubric_atom,derived_from_rubric_atom|boundary_open_container,medium,boundary_open_container,原 ask_text 缺失，临时用首个细则原子定位。
+CC0277_2026_房山_二模_18,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0283_2026_朝阳_一模_18,ask_text,,high,keep_core,主线是司法保护知识产权以护航新质生产力。
+CC0289_2026_朝阳_二模_18,ask_text,,high,keep_core,表格/填空任务决定颗粒度。
+CC0311_2026_海淀_二模_18_2,ask_text,,high,reference_only_container,普通参考答案，只能看写法，不支撑核心。
+CC0317_2026_海淀_期末_18,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0318_2026_海淀_期末_18_2,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0319_2026_海淀_期末_19,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0325_2026_石景山_一模_18,derived_from_question_or_rubric,derived_from_question_or_rubric,medium,keep_core,原 ask_text 缺失或污染，已从题干/细则邻近句反推。
+CC0332_2026_石景山_二模_19,ask_text,,high,low_frequency_container,formal 但低频单例，进入全量容器。
+CC0340_2026_西城_一模_17,ask_text,,high,low_frequency_container,formal 但低频单例，进入全量容器。
+CC0353_2026_西城_期末_17,derived_from_rubric_atom,derived_from_rubric_atom,medium,reference_only_container,原 ask_text 缺失，临时用首个细则原子定位。
+CC0364_2026_通州_期末_19_1,reconstructed_from_legal_rubric,reconstructed_from_legal_rubric|ask_module_contamination,source_check,core_candidate,原 ask_text 串入《逻辑与思维》小问。
+CC0305_2026_海淀_一模_18_3,derived_from_rubric_atom,derived_from_rubric_atom,medium,keep_core,原 ask_text 缺失，临时用首个细则原子定位。
+CC0373_2026_顺义_一模_18,ask_text,,high,keep_core,劳动者平等就业权与侵权/责任。
+CC0380_2026_顺义_二模_18_2,derived_from_rubric_atom,derived_from_rubric_atom|ask_module_contamination|boundary_open_container,source_check,boundary_open_container,原 ask_text 缺失，临时用首个细则原子定位。
+RECOVER_2025_海淀_二模_18,ask_text,,high,keep_core,表格/填空任务决定颗粒度。
+RECOVER_2026_通州_一模_20,ask_text,,high,keep_core,表格/填空任务决定颗粒度。
+RECOVER_2024_东城_一模_19,ask_text,,high,low_frequency_container,formal 但低频单例，进入全量容器。
+RECOVER_2024_东城_二模_19_1,ask_text,,high,keep_core,程序/证据/救济信号。
+RECOVER_2024_东城_二模_19_2,ask_text,,high,keep_core,私法权利义务责任信号。
+RECOVER_2025_丰台_二模_19_2,ask_text,,high,keep_core,新技术/数据/合规边界信号。
+RECOVER_2026_延庆_一模_18_1,ask_text,,high,keep_core,新技术/数据/合规边界信号。
+RECOVER_2026_房山_一模_17_1,ask_text,,high,keep_core,新技术/数据/合规边界信号。
+RECOVER_2026_西城_二模_18_1,ask_text,,high,keep_core,新技术/数据/合规边界信号。
+RECOVER_2026_西城_二模_18_2,ask_text,,high,keep_core,新技术/数据/合规边界信号。
+RECOVER_2026_西城_二模_18_3,ask_text,boundary_open_container,medium,boundary_open_container,综合/开放边界，保留法律点但不升核心。
+RECOVER_2026_门头沟_一模_18_1,ask_text,,high,keep_core,新技术/数据/合规边界信号。
+RECOVER_2026_朝阳_期末_18_1,ask_text,,high,keep_core,评判裁判任务信号。

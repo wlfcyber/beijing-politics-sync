@@ -1,0 +1,14 @@
+{
+  "gpt_observations": 25,
+  "claude_observations": 19,
+  "comparisons": 37,
+  "merge_decisions": 7,
+  "pending_or_source_check": 23,
+  "codebook_rows": 7,
+  "gpt_missing_required_ids": [],
+  "claude_missing_required_ids": [
+    "OBS_LAWLIFE_C_016_module_boundary_in_论证",
+    "OBS_LAWLIFE_NF_018_anchor_socialist_core_values",
+    "OBS_LAWLIFE_NF_019_民法典_universal_anchor"
+  ]
+}
