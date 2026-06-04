@@ -1,0 +1,798 @@
+{
+  "summary": {
+    "entry_count": 111,
+    "paragraph_count": 736,
+    "same_question_note_count": 89,
+    "missing_core_count": 0,
+    "duplicate_same_note_count": 0,
+    "answer_bad_pattern_count": 0,
+    "method_keyword_missing_count": 0,
+    "student_clean_risk_entry_count": 51,
+    "student_clean_risk_occurrence_count": 54,
+    "hard_exclusion_count": 0,
+    "by_category": {
+      "一、科学思维": 23,
+      "二、辩证思维": 45,
+      "三、创新思维": 43
+    },
+    "by_method": {
+      "追求认识的客观性": 14,
+      "结果具有预见性": 4,
+      "结果具有可检验性": 5,
+      "整体性": 8,
+      "动态性": 6,
+      "分析与综合": 10,
+      "矛盾分析法": 9,
+      "量变与质变": 3,
+      "适度原则": 2,
+      "辩证否定": 6,
+      "认识发展历程": 1,
+      "特点与三新": 9,
+      "联想思维": 7,
+      "发散思维与聚合思维": 8,
+      "逆向思维": 4,
+      "超前思维": 15
+    },
+    "other_note_labels": {
+      "答题提醒": 17,
+      "图示信息": 4,
+      "术语提示": 1,
+      "方法小引": 15,
+      "白话提示": 1
+    }
+  },
+  "group_results": [
+    {
+      "label": "2024东城一模18(3)",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        63,
+        98
+      ],
+      "methods": [
+        "辩证否定",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2024丰台二模18(2)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        18,
+        52,
+        106
+      ],
+      "methods": [
+        "结果具有预见性",
+        "矛盾分析法",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2024分类汇编模拟政协",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        13,
+        46,
+        91
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "分析与综合",
+        "发散思维与聚合思维"
+      ]
+    },
+    {
+      "label": "2024石景山一模19(3)",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        39,
+        67
+      ],
+      "methods": [
+        "分析与综合",
+        "辩证否定"
+      ]
+    },
+    {
+      "label": "2025东城期末18(2)",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        84,
+        86
+      ],
+      "methods": [
+        "联想思维",
+        "发散思维与聚合思维"
+      ]
+    },
+    {
+      "label": "2025丰台一模18(1)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        3,
+        16,
+        20
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "结果具有预见性",
+        "结果具有可检验性"
+      ]
+    },
+    {
+      "label": "2025延庆一模18",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        50,
+        58
+      ],
+      "methods": [
+        "矛盾分析法",
+        "量变与质变"
+      ]
+    },
+    {
+      "label": "2025昌平二模19",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        69,
+        94
+      ],
+      "methods": [
+        "特点与三新",
+        "逆向思维"
+      ]
+    },
+    {
+      "label": "2025海淀期末18",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        78,
+        96
+      ],
+      "methods": [
+        "联想思维",
+        "逆向思维"
+      ]
+    },
+    {
+      "label": "2025石景山一模19",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        6,
+        21,
+        77
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "结果具有可检验性",
+        "特点与三新"
+      ]
+    },
+    {
+      "label": "2025西城一模17",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        9,
+        29,
+        76
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "整体性",
+        "特点与三新"
+      ]
+    },
+    {
+      "label": "2025门头沟一模21(1)",
+      "expected_count": 5,
+      "actual_count": 5,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        8,
+        17,
+        65,
+        83,
+        105
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "结果具有预见性",
+        "辩证否定",
+        "联想思维",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2026东城一模19(4)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        26,
+        85,
+        111
+      ],
+      "methods": [
+        "整体性",
+        "发散思维与聚合思维",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2026丰台二模21",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        74,
+        87
+      ],
+      "methods": [
+        "特点与三新",
+        "发散思维与聚合思维"
+      ]
+    },
+    {
+      "label": "2026丰台期末20",
+      "expected_count": 6,
+      "actual_count": 6,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        12,
+        31,
+        45,
+        55,
+        90,
+        107
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "整体性",
+        "分析与综合",
+        "矛盾分析法",
+        "发散思维与聚合思维",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2026延庆一模18(2)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        51,
+        60,
+        72
+      ],
+      "methods": [
+        "矛盾分析法",
+        "适度原则",
+        "特点与三新"
+      ]
+    },
+    {
+      "label": "2026朝阳期中21(2)",
+      "expected_count": 5,
+      "actual_count": 5,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        70,
+        82,
+        88,
+        95,
+        100
+      ],
+      "methods": [
+        "特点与三新",
+        "联想思维",
+        "发散思维与聚合思维",
+        "逆向思维",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2026海淀一模17建议",
+      "expected_count": 4,
+      "actual_count": 4,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        5,
+        23,
+        43,
+        89
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "结果具有可检验性",
+        "分析与综合",
+        "发散思维与聚合思维"
+      ]
+    },
+    {
+      "label": "2026海淀二模18(1)",
+      "expected_count": 4,
+      "actual_count": 4,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        11,
+        22,
+        41,
+        81
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "结果具有可检验性",
+        "分析与综合",
+        "联想思维"
+      ]
+    },
+    {
+      "label": "2026石景山一模17(2)",
+      "expected_count": 4,
+      "actual_count": 4,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        73,
+        79,
+        92,
+        104
+      ],
+      "methods": [
+        "特点与三新",
+        "联想思维",
+        "发散思维与聚合思维",
+        "超前思维"
+      ]
+    },
+    {
+      "label": "2026西城二模18(4)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        10,
+        48,
+        75
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "矛盾分析法",
+        "特点与三新"
+      ]
+    },
+    {
+      "label": "2026通州一模17(2)",
+      "expected_count": 6,
+      "actual_count": 6,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        30,
+        34,
+        44,
+        53,
+        61,
+        66
+      ],
+      "methods": [
+        "整体性",
+        "动态性",
+        "分析与综合",
+        "矛盾分析法",
+        "适度原则",
+        "辩证否定"
+      ]
+    },
+    {
+      "label": "2026门头沟一模18(2)",
+      "expected_count": 2,
+      "actual_count": 2,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        28,
+        71
+      ],
+      "methods": [
+        "整体性",
+        "特点与三新"
+      ]
+    },
+    {
+      "label": "2026顺义一模19(2)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        1,
+        15,
+        19
+      ],
+      "methods": [
+        "追求认识的客观性",
+        "结果具有预见性",
+        "结果具有可检验性"
+      ]
+    },
+    {
+      "label": "2025海淀二模20",
+      "expected_count": 5,
+      "actual_count": 5,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        24,
+        32,
+        38,
+        57,
+        62
+      ],
+      "methods": [
+        "整体性",
+        "动态性",
+        "分析与综合",
+        "量变与质变",
+        "辩证否定"
+      ]
+    },
+    {
+      "label": "2026房山一模18(1)",
+      "expected_count": 3,
+      "actual_count": 3,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        27,
+        36,
+        56
+      ],
+      "methods": [
+        "整体性",
+        "动态性",
+        "矛盾分析法"
+      ]
+    },
+    {
+      "label": "2026朝阳期中20",
+      "expected_count": 4,
+      "actual_count": 4,
+      "all_have_note": true,
+      "missing_note_entries": [],
+      "entry_numbers": [
+        37,
+        47,
+        49,
+        59
+      ],
+      "methods": [
+        "动态性",
+        "分析与综合",
+        "矛盾分析法",
+        "量变与质变"
+      ]
+    }
+  ],
+  "missing_core": [],
+  "duplicate_notes": [],
+  "answer_bad": [],
+  "method_keyword_missing": [],
+  "student_clean_risks": [
+    {
+      "entry_no": 3,
+      "title": "3. 2025丰台一模 第18题第（1）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 6,
+      "title": "6. 2025石景山一模 第19题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 9,
+      "title": "9. 2025西城一模 第17题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 10,
+      "title": "10. 2026西城二模 第18题第（4）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 13,
+      "title": "13. 2024各区一模分类汇编·模拟政协题（拓展训练题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 13,
+      "title": "13. 2024各区一模分类汇编·模拟政协题（拓展训练题）",
+      "pattern": "分类汇编"
+    },
+    {
+      "entry_no": 16,
+      "title": "2. 2025丰台一模 第18题第（1）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 18,
+      "title": "4. 2024丰台二模 第18题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 20,
+      "title": "2. 2025丰台一模 第18题第（1）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 21,
+      "title": "3. 2025石景山一模 第19题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 24,
+      "title": "1. 2025海淀二模 第20题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 26,
+      "title": "3. 2026东城一模 第19题第（4）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 27,
+      "title": "4. 2026房山一模 第18题第（1）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 28,
+      "title": "5. 2026门头沟一模 第18题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 29,
+      "title": "6. 2025西城一模 第17题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 30,
+      "title": "8. 2026通州一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 32,
+      "title": "1. 2025海淀二模 第20题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 34,
+      "title": "3. 2026通州一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 36,
+      "title": "补充：2026房山一模 第18题第（1）问（动态性路径）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 37,
+      "title": "补充：2026朝阳期中(2025-11) 第20题（动态性路径）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 38,
+      "title": "1. 2025海淀二模 第20题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 44,
+      "title": "8. 2026通州一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 46,
+      "title": "10. 2024各区一模分类汇编·模拟政协题（拓展训练题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 46,
+      "title": "10. 2024各区一模分类汇编·模拟政协题（拓展训练题）",
+      "pattern": "分类汇编"
+    },
+    {
+      "entry_no": 47,
+      "title": "补充：2026朝阳期中(2025-11) 第20题（分析与综合路径）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 48,
+      "title": "7. 2026西城二模 第18题第（4）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 49,
+      "title": "1. 2026朝阳期中(2025-11) 第20题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 52,
+      "title": "4. 2024丰台二模 第18题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 53,
+      "title": "5. 2026通州一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 56,
+      "title": "补充：2026房山一模 第18题第（1）问（矛盾分析法路径）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 57,
+      "title": "1. 2025海淀二模 第20题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 59,
+      "title": "补充：2026朝阳期中(2025-11) 第20题（量变质变路径）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 61,
+      "title": "2. 2026通州一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 62,
+      "title": "1. 2025海淀二模 第20题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 66,
+      "title": "5. 2026通州一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 70,
+      "title": "2. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 71,
+      "title": "3. 2026门头沟一模 第18题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 73,
+      "title": "5. 2026石景山一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 75,
+      "title": "7. 2026西城二模 第18题第（4）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 76,
+      "title": "8. 2025西城一模 第17题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 77,
+      "title": "9. 2025石景山一模 第19题（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 79,
+      "title": "2. 2026石景山一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 82,
+      "title": "5. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 85,
+      "title": "1. 2026东城一模 第19题第（4）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 88,
+      "title": "4. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 91,
+      "title": "8. 2024各区一模分类汇编·模拟政协题（拓展训练题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 91,
+      "title": "8. 2024各区一模分类汇编·模拟政协题（拓展训练题）",
+      "pattern": "分类汇编"
+    },
+    {
+      "entry_no": 92,
+      "title": "补充：2026石景山一模 第17题第（2）问（发散思维路径）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 95,
+      "title": "3. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 100,
+      "title": "4. 2026朝阳期中(2025-11) 第21题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 104,
+      "title": "8. 2026石景山一模 第17题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 106,
+      "title": "10. 2024丰台二模 第18题第（2）问（主观题）",
+      "pattern": "细则"
+    },
+    {
+      "entry_no": 110,
+      "title": "14. 2024各区一模分类汇编·房山未来产业题（拓展训练题）",
+      "pattern": "分类汇编"
+    },
+    {
+      "entry_no": 111,
+      "title": "补充：2026东城一模 第19题第（4）问（超前思维路径）",
+      "pattern": "细则"
+    }
+  ],
+  "hard_exclusions": []
+}
