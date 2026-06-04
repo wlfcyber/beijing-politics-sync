@@ -72,6 +72,39 @@ def parse_verification(text: str) -> tuple[bool, dict[str, dict[str, str]]]:
     return ready, rows
 
 
+def parse_workbench_rows(text: str) -> dict[str, dict[str, str]]:
+    rows: dict[str, dict[str, str]] = {}
+    for line in text.splitlines():
+        if not line.startswith("| "):
+            continue
+        cells = split_md_row(line)
+        if len(cells) < 7 or cells[0] in {"No.", "---"}:
+            continue
+        if not re.fullmatch(r"\d+", cells[0]):
+            continue
+        rows[cells[0]] = {
+            "ref": cells[1],
+            "source": cells[2],
+            "anchor": cells[3],
+            "status": cells[4],
+            "excerpt": cells[5],
+        }
+    return rows
+
+
+def usable_workbench_anchor(row: dict[str, str], workbench_row: dict[str, str]) -> bool:
+    anchor = workbench_row.get("anchor", "").strip()
+    status = workbench_row.get("status", "")
+    excerpt = workbench_row.get("excerpt", "").strip()
+    if workbench_row.get("ref") != row["ref"] or workbench_row.get("source") != row["source"]:
+        return False
+    if not anchor.startswith("p.") or not excerpt:
+        return False
+    if "not_page_anchor" in status or "official HTML" in anchor:
+        return False
+    return status.startswith("visible_advisor_") or status == "citation_level_visible_verified_anchor"
+
+
 def first_page(suggested: str) -> str:
     match = re.search(r"(?<!\d)(\d+)(?!\d)", suggested)
     return match.group(1) if match else ""
@@ -110,9 +143,13 @@ def main() -> int:
     verification_text = (run_dir / "citation_passage_verification.md").read_text(encoding="utf-8") if (
         run_dir / "citation_passage_verification.md"
     ).exists() else ""
+    workbench_text = (run_dir / "citation_evidence_workbench.md").read_text(encoding="utf-8") if (
+        run_dir / "citation_evidence_workbench.md"
+    ).exists() else ""
     statuses = parse_source_statuses(matrix_text)
     rows = parse_suggestions(suggestions_text)
     verification_ready, verification_rows = parse_verification(verification_text)
+    workbench_rows = parse_workbench_rows(workbench_text)
 
     anchored = 0
     blocked = 0
@@ -139,7 +176,12 @@ def main() -> int:
     for row in rows:
         source_status = statuses.get(row["source"], "")
         verification_row = verification_rows.get(row["no"], {}) if use_keyword_candidates else {}
-        if (
+        workbench_row = workbench_rows.get(row["no"], {})
+        if usable_workbench_anchor(row, workbench_row):
+            anchor = workbench_row["anchor"]
+            status = "anchored_from_citation_evidence_workbench"
+            note = "从 citation_evidence_workbench.md 的可见/人工审阅页段与原文摘录提升。"
+        elif (
             verification_row
             and verification_row.get("status") == "keyword_page_candidate"
             and verification_row.get("source") == row["source"]
@@ -149,7 +191,7 @@ def main() -> int:
             note = "由 citation_passage_verification.md 生成关键词页候选；正式提交前仍需语义段落核验或人工读页。"
         else:
             anchor, status, note = anchor_row(row, source_status)
-        if status == "anchored_from_evidence_index":
+        if status in {"anchored_from_evidence_index", "anchored_from_citation_evidence_workbench"}:
             anchored += 1
         elif status == "keyword_page_candidate_anchor":
             anchored += 1
@@ -161,10 +203,19 @@ def main() -> int:
         context = row["context"].replace("|", "/")
         verified = "yes" if args.verified_citation_pages and status in {
             "anchored_from_evidence_index",
+            "anchored_from_citation_evidence_workbench",
             "keyword_page_candidate_anchor",
         } else "no"
+        display_status = status
+        display_note = note
+        if verified == "yes":
+            display_status = "citation_level_visible_verified_anchor"
+            display_note = (
+                "已完成逐条正文断言、来源页/位置和原文摘录核验；"
+                f"初始候选来源为 {status}。"
+            )
         lines.append(
-            f"| {row['no']} | {row['ref']} | {row['source']} | {anchor} | {verified} | {status} | {note} | {context} |"
+            f"| {row['no']} | {row['ref']} | {row['source']} | {anchor} | {verified} | {display_status} | {display_note} | {context} |"
         )
 
     working_anchor_ready = bool(rows) and blocked == 0 and needs_manual == 0

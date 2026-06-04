@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -27,6 +28,11 @@ def status_line(status: str, evidence: str) -> str:
     return f"{status} | {evidence.strip() or '未记录'} |"
 
 
+def parse_summary_value(text: str, key: str) -> str:
+    match = re.search(rf"^- {re.escape(key)}:\s*(.+)$", text, flags=re.MULTILINE)
+    return match.group(1).strip() if match else "unknown"
+
+
 def normalize_status(value: str) -> str:
     value = value.strip().lower()
     allowed = {"pass", "fail", "unknown", "waiting_user", "blocked", "partial"}
@@ -47,16 +53,53 @@ def main() -> int:
     parser.add_argument("--computer-use-note", default="")
     parser.add_argument("--current-url-status", type=normalize_status, default="unknown")
     parser.add_argument("--current-url-note", default="")
+    parser.add_argument("--probe-report", help="Defaults to <run_dir>/chrome_cdp_probe.md when present.")
     args = parser.parse_args()
 
     run_dir = Path(args.run_dir).expanduser().resolve()
     out_path = Path(args.out).expanduser().resolve() if args.out else run_dir / "12_浏览器准入验收.md"
+    probe_path = Path(args.probe_report).expanduser().resolve() if args.probe_report else run_dir / "chrome_cdp_probe.md"
 
     search_text = read(run_dir / "02_检索日志.md")
     matrix_text = read(run_dir / "03_文献矩阵.md")
     inventory_text = read(run_dir / "source_inventory.md")
     queue_text = read(run_dir / "10_候选下载队列.md")
     audit_text = read(run_dir / "09_完成度审计.md")
+    probe_text = read(probe_path)
+
+    browser_path_status = args.browser_path_status
+    current_url_status = args.current_url_status
+    browser_path_note = args.browser_path_note
+    current_url_note = args.current_url_note
+    user_verification_status = args.user_verification_status
+    probe_run_id_status = "not_present"
+    probe_note = ""
+    if probe_text:
+        probe_run_id = parse_summary_value(probe_text, "run_id")
+        if probe_run_id == run_dir.name:
+            probe_run_id_status = "match"
+        else:
+            probe_run_id_status = "mismatch"
+            probe_note = f"probe run_id mismatch: {probe_run_id} != {run_dir.name}"
+        probe_browser_path = parse_summary_value(probe_text, "browser_path_status")
+        probe_authorized_page = parse_summary_value(probe_text, "authorized_page_status")
+        probe_user_action = parse_summary_value(probe_text, "user_action_status")
+        probe_title = parse_summary_value(probe_text, "selected_title")
+        probe_url = parse_summary_value(probe_text, "selected_url")
+        probe_blocker = parse_summary_value(probe_text, "blocker")
+        if probe_run_id_status == "match":
+            probe_note = f"Chrome CDP 探针: {probe_title}; {probe_url}"
+            if probe_blocker not in {"none", "unknown", ""}:
+                probe_note = f"{probe_note}; blocker={probe_blocker}"
+            if browser_path_status == "unknown" and probe_browser_path in {"pass", "fail"}:
+                browser_path_status = probe_browser_path
+                browser_path_note = probe_note
+            if current_url_status == "unknown" and probe_authorized_page in {"pass", "fail", "waiting_user"}:
+                current_url_status = probe_authorized_page
+                current_url_note = probe_note
+            if user_verification_status == "unknown" and probe_user_action == "waiting_user":
+                user_verification_status = "waiting_user"
+                args.user_verification_note = probe_note
 
     verified = count_verified_sources(matrix_text)
     ruc_route = "pass" if ("libproxy.ruc.edu.cn" in search_text or "人大图书馆" in search_text) else "fail"
@@ -66,13 +109,12 @@ def main() -> int:
     ledger_status = "pass" if matrix_text and inventory_text else "fail"
     waiting_terms_present = any(term in queue_text or term in audit_text or term in search_text for term in CAPTCHA_TERMS)
 
-    user_verification_status = args.user_verification_status
     if user_verification_status == "unknown" and waiting_terms_present:
         user_verification_status = "waiting_user"
 
     checks = {
-        "browser_path": args.browser_path_status,
-        "current_url": args.current_url_status,
+        "browser_path": browser_path_status,
+        "current_url": current_url_status,
         "computer_use": args.computer_use_status,
         "user_verification": user_verification_status,
         "ruc_route": ruc_route,
@@ -101,10 +143,13 @@ def main() -> int:
         "",
         "## 结论",
         "",
+        f"- run_id: {run_dir.name}",
+        f"- generated_at: {datetime.now(timezone.utc).isoformat(timespec='seconds')}",
         f"- hands_free_ready: {'yes' if hands_free_ready else 'no'}",
         f"- verified_fulltext: {verified}",
-        f"- browser_path_status: {args.browser_path_status}",
-        f"- current_url_status: {args.current_url_status}",
+        f"- probe_run_id_status: {probe_run_id_status}",
+        f"- browser_path_status: {browser_path_status}",
+        f"- current_url_status: {current_url_status}",
         f"- computer_use_status: {args.computer_use_status}",
         f"- user_verification_status: {user_verification_status}",
         "",
@@ -112,8 +157,9 @@ def main() -> int:
         "",
         "| 检查项 | 状态 | 证据 |",
         "| --- | --- | --- |",
-        f"| Chrome/浏览器控制路径 | {status_line(args.browser_path_status, args.browser_path_note)}",
-        f"| 当前 URL 可确认 | {status_line(args.current_url_status, args.current_url_note)}",
+        f"| 探针 run-id 绑定 | {status_line(probe_run_id_status, probe_note)}",
+        f"| Chrome/浏览器控制路径 | {status_line(browser_path_status, browser_path_note)}",
+        f"| 当前 URL 可确认 | {status_line(current_url_status, current_url_note)}",
         f"| Computer Use 备用路径 | {status_line(args.computer_use_status, args.computer_use_note)}",
         f"| 用户验证状态 | {status_line(user_verification_status, args.user_verification_note)}",
         f"| 人大图书馆代理路径 | {status_line(ruc_route, '检索日志含 libproxy.ruc.edu.cn 或 人大图书馆 记录')}",
@@ -131,8 +177,9 @@ def main() -> int:
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"hands_free_ready={'yes' if hands_free_ready else 'no'}")
-    print(f"browser_path_status={args.browser_path_status}")
-    print(f"current_url_status={args.current_url_status}")
+    print(f"probe_run_id_status={probe_run_id_status}")
+    print(f"browser_path_status={browser_path_status}")
+    print(f"current_url_status={current_url_status}")
     print(f"computer_use_status={args.computer_use_status}")
     print(f"user_verification_status={user_verification_status}")
     print(f"verified_fulltext={verified}")

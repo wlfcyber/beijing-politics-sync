@@ -60,7 +60,7 @@ def main() -> int:
     files: list[Path] = []
     for download_dir in download_dirs:
         for pattern in patterns:
-            files.extend(p for p in download_dir.glob(pattern) if p.suffix.lower() in {".pdf", ".caj"})
+            files.extend(p for p in download_dir.glob(pattern) if p.suffix.lower() in {".pdf", ".caj", ".html", ".htm"})
     files = sorted(set(files), key=lambda p: (str(p.parent), p.name))
 
     lines = [
@@ -76,6 +76,9 @@ def main() -> int:
         text = find_text(path.stem, text_dir)
         if ext == "pdf" and text:
             status = "PDF_or_user_exported; full_text_read"
+            usable += 1
+        elif ext in {"html", "htm"} and text:
+            status = "official_html_full_text; full_text_read"
             usable += 1
         elif ext == "pdf":
             status = "needs_text_extraction"

@@ -38,16 +38,27 @@ def scrub(text: str) -> str:
     text = text.replace(r"C:\Users\Administrator\Documents\论文写作", "<workspace>")
     text = text.replace(r"C:\Users\Administrator\\", r"<user-home>\\")
     text = text.replace(r"C:\Users\Administrator", "<user-home>")
+    home = str(Path.home())
+    text = text.replace(f"{home}/Documents/论文写作/", "<workspace>/")
+    text = text.replace(f"{home}/Documents/论文写作", "<workspace>")
+    text = text.replace(f"{home}/", "<user-home>/")
+    text = text.replace(home, "<user-home>")
     return text
 
 
 def command_env() -> dict[str, str]:
     env = os.environ.copy()
-    bun_paths = [
+    home = Path.home()
+    extra_paths = [
+        str(home / ".bun/bin"),
+        str(home / ".local/bin"),
+        "/opt/homebrew/bin",
+        "/usr/local/bin",
         str(Path(env.get("LOCALAPPDATA", "")) / "Microsoft/WinGet/Packages/Oven-sh.Bun_Microsoft.Winget.Source_8wekyb3d8bbwe/bun-windows-x64"),
         str(Path(env.get("USERPROFILE", "")) / ".bun/bin"),
     ]
-    path_value = ";".join(bun_paths + [env.get("Path", env.get("PATH", ""))])
+    existing_path = env.get("Path", env.get("PATH", ""))
+    path_value = os.pathsep.join([path for path in extra_paths if path] + [existing_path])
     env["Path"] = path_value
     env["PATH"] = path_value
     return env
@@ -123,20 +134,76 @@ def build_prompt(run_dir: Path, lane: str, review_mode: str = "final-gate") -> s
     )
 
 
-def write_external_review_status(run_dir: Path, claude_status: str | None, gpt_status: str | None, run_folder: Path) -> None:
+def upsert_summary_line(text: str, key: str, value: str) -> str:
+    line = f"- {key}: {value}"
+    pattern = rf"^- {re.escape(key)}: .+$"
+    if re.search(pattern, text, flags=re.MULTILINE):
+        return re.sub(pattern, line, text, flags=re.MULTILINE)
+    return text.rstrip() + "\n" + line + "\n"
+
+
+def advisor_gate_passed(summary: dict[str, object]) -> bool:
+    required = [summary.get("claude", {}), summary.get("gpt_pro", {})]
+    for item in required:
+        if not isinstance(item, dict):
+            return False
+        if item.get("status") != "pass":
+            return False
+        if item.get("channel") not in {"web_session", "app_session"}:
+            return False
+        if item.get("real_submission") is not True:
+            return False
+        if not item.get("review_run_id"):
+            return False
+        if not item.get("recorded_at"):
+            return False
+        raw_record = str(item.get("raw_record", ""))
+        if not raw_record or "omitted" in raw_record:
+            return False
+    return True
+
+
+def write_external_review_status_from_summary(run_dir: Path, summary: dict[str, object], run_folder: Path) -> None:
     path = run_dir / "15_外部评审与迭代计划.md"
     text = read(path)
     if not text:
         return
-    if claude_status:
-        text = re.sub(r"^- claude_opus_review_status: .+$", f"- claude_opus_review_status: {claude_status}", text, flags=re.MULTILINE)
-    if gpt_status:
-        text = re.sub(r"^- gpt_pro_review_status: .+$", f"- gpt_pro_review_status: {gpt_status}", text, flags=re.MULTILINE)
+
+    claude = summary.get("claude", {})
+    gpt = summary.get("gpt_pro", {})
+    if not isinstance(claude, dict):
+        claude = {}
+    if not isinstance(gpt, dict):
+        gpt = {}
+
+    text = upsert_summary_line(text, "external_review_passed", "yes" if advisor_gate_passed(summary) else "no")
+    for prefix, item in [("claude_opus", claude), ("gpt_pro", gpt)]:
+        if item.get("status"):
+            text = upsert_summary_line(text, f"{prefix}_review_status", str(item.get("status")))
+        if item.get("channel"):
+            text = upsert_summary_line(text, f"{prefix}_review_channel", str(item.get("channel")))
+        if "real_submission" in item:
+            text = upsert_summary_line(
+                text,
+                f"{prefix}_real_submission",
+                "true" if item.get("real_submission") is True else "false",
+            )
+        if item.get("review_run_id"):
+            text = upsert_summary_line(text, f"{prefix}_review_run_id", str(item.get("review_run_id")))
+        if item.get("recorded_at"):
+            text = upsert_summary_line(text, f"{prefix}_review_recorded_at", str(item.get("recorded_at")))
+        if item.get("raw_record"):
+            text = upsert_summary_line(text, f"{prefix}_raw_record", str(item.get("raw_record")))
+
     note = (
         "\n\n## 最新外部评审编排记录\n\n"
         f"- run_folder: `{run_folder}`\n"
-        f"- claude_opus_review_status: {claude_status or 'unchanged'}\n"
-        f"- gpt_pro_review_status: {gpt_status or 'unchanged'}\n"
+        f"- claude_opus_review_status: {claude.get('status', 'unchanged')}\n"
+        f"- claude_opus_review_channel: {claude.get('channel', 'unknown')}\n"
+        f"- claude_opus_real_submission: {claude.get('real_submission', False)}\n"
+        f"- gpt_pro_review_status: {gpt.get('status', 'unchanged')}\n"
+        f"- gpt_pro_review_channel: {gpt.get('channel', 'unknown')}\n"
+        f"- gpt_pro_real_submission: {gpt.get('real_submission', False)}\n"
     )
     if "## 最新外部评审编排记录" in text:
         text = re.sub(r"\n## 最新外部评审编排记录\n\n[\s\S]*$", lambda _match: note, text)
@@ -145,10 +212,18 @@ def write_external_review_status(run_dir: Path, claude_status: str | None, gpt_s
     path.write_text(text, encoding="utf-8")
 
 
-def parse_claude_status(raw: str) -> str:
+def write_external_review_status(run_dir: Path, claude_status: str | None, gpt_status: str | None, run_folder: Path) -> None:
+    summary = {
+        "claude": {"status": claude_status or "unchanged"},
+        "gpt_pro": {"status": gpt_status or "unchanged"},
+    }
+    write_external_review_status_from_summary(run_dir, summary, run_folder)
+
+
+def parse_advisor_status(raw: str) -> str:
     try:
         data = json.loads(raw)
-        result = data.get("result", "")
+        result = json.dumps(data, ensure_ascii=False)
     except json.JSONDecodeError:
         result = raw
     if "REVISE" in result:
@@ -158,6 +233,14 @@ def parse_claude_status(raw: str) -> str:
     if re.search(r"`?PASS`?", result):
         return "pass"
     return "real_call_completed_unparsed"
+
+
+def parse_claude_status(raw: str) -> str:
+    return parse_advisor_status(raw)
+
+
+def parse_gpt_status(raw: str) -> str:
+    return parse_advisor_status(raw)
 
 
 def main() -> int:
@@ -188,7 +271,8 @@ def main() -> int:
         "review_mode": args.review_mode,
         "provenance_gate": {
             "web_session": "submitted in a user-visible web chat/session",
-            "cli_or_api_real_call": "submitted through a local CLI/API/backend tool and saved locally; web history is not guaranteed",
+            "app_session": "submitted in a visible ChatGPT or Claude app session",
+            "cli_or_api_real_call": "submitted through a local CLI/API/backend tool and saved locally; useful for skill-building advice but not final pass evidence",
             "preflight_only": "readiness check only; no advisor review was submitted",
         },
         "claude": {"requested": args.run_claude, "status": "not_requested"},
@@ -301,11 +385,12 @@ def main() -> int:
                     "raw_record": str(review_dir / "gpt_pro_raw.json"),
                     "web_history_expected": "unknown_without_web_verification",
                 }
-                gpt_status = "real_call_completed" if code == 0 else "call_failed"
+                gpt_status = parse_gpt_status(output) if code == 0 else "call_failed"
+                summary["gpt_pro"]["status"] = gpt_status
 
     (review_dir / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     if args.update_status:
-        write_external_review_status(run_dir, claude_status, gpt_status, review_dir)
+        write_external_review_status_from_summary(run_dir, summary, review_dir)
 
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     if args.run_gpt and gpt_status not in {None, "real_call_completed"}:

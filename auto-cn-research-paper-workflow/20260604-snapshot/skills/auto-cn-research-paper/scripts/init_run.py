@@ -152,6 +152,30 @@ FILES: dict[str, str] = {
 | 证据与引用可追溯 |  | pending |
 | 彻底解放双手 |  | pending |
 """,
+    "15_外部评审与迭代计划.md": """# 外部评审与迭代计划
+
+## 闸口状态
+
+- external_review_passed: no
+- claude_opus_review_status: pending
+- claude_opus_review_channel: unknown
+- claude_opus_real_submission: false
+- claude_opus_review_run_id: unknown
+- claude_opus_review_recorded_at: unknown
+- claude_opus_raw_record: unknown
+- gpt_pro_review_status: pending
+- gpt_pro_review_channel: unknown
+- gpt_pro_real_submission: false
+- gpt_pro_review_run_id: unknown
+- gpt_pro_review_recorded_at: unknown
+- gpt_pro_raw_record: unknown
+
+## 规则
+
+Claude Opus / Opus 4.8 Max 和 GPT Pro / GPT-5.5 Pro 必须分别在真实可见的网页版或 App 会话中给出 `pass`，且每一路都必须记录 `web_session` 或 `app_session` 渠道、当前 run id、记录时间、原始记录和 `real_submission=true`，才允许把 `external_review_passed` 改为 `yes`。CLI/API 调用可作构建 skill 的参考意见，但不能算最终论文审阅通过。
+
+`REVISE` 或 `CONDITIONAL_PASS` 必须先转化为修订单，完成本地修改、复验与重新评审后，才能再次尝试通过外部评审闸口。
+""",
 }
 
 

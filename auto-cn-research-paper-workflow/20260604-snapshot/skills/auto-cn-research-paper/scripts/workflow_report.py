@@ -37,6 +37,30 @@ def parse_summary_value(text: str, key: str) -> str:
     return match.group(1).strip() if match else "unknown"
 
 
+def parse_boolish(text: str, key: str) -> bool:
+    return parse_summary_value(text, key).lower() in {"true", "yes", "1"}
+
+
+def external_review_gate_passed(text: str, run_dir: Path) -> bool:
+    if parse_summary_value(text, "external_review_passed") != "yes":
+        return False
+    for prefix in ["claude_opus", "gpt_pro"]:
+        if parse_summary_value(text, f"{prefix}_review_status") != "pass":
+            return False
+        if parse_summary_value(text, f"{prefix}_review_channel") not in {"web_session", "app_session"}:
+            return False
+        if not parse_boolish(text, f"{prefix}_real_submission"):
+            return False
+        if parse_summary_value(text, f"{prefix}_review_run_id") != run_dir.name:
+            return False
+        if parse_summary_value(text, f"{prefix}_review_recorded_at") in {"unknown", "", "omitted"}:
+            return False
+        raw_record = parse_summary_value(text, f"{prefix}_raw_record")
+        if raw_record in {"unknown", "", "omitted"} or "omitted" in raw_record:
+            return False
+    return True
+
+
 def parse_queue_rows(text: str) -> list[tuple[str, str, str]]:
     rows: list[tuple[str, str, str]] = []
     for line in text.splitlines():
@@ -141,9 +165,7 @@ def main() -> int:
     current_url_status = parse_summary_value(browser_gate_text, "current_url_status")
     computer_use_status = parse_summary_value(browser_gate_text, "computer_use_status")
     user_verification_status = parse_summary_value(browser_gate_text, "user_verification_status")
-    external_review_passed = parse_summary_value(external_review_text, "external_review_passed")
-    if external_review_passed == "unknown":
-        external_review_passed = "no"
+    external_review_passed = "yes" if external_review_gate_passed(external_review_text, run_dir) else "no"
     claude_review_status = parse_summary_value(external_review_text, "claude_opus_review_status")
     if claude_review_status == "unknown":
         claude_review_status = "not_run"

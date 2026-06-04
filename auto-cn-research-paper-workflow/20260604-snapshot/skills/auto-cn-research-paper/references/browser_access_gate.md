@@ -14,9 +14,40 @@ Use this gate before claiming that live RUC Library/CNKI automation is available
 | Full text/export | Full text was opened/downloaded, or the need for user export was recorded | pass / blocked |
 | Ledger | Search log and source status were recorded | pass / fail |
 
+## Mac Revalidation Rule
+
+When moving from the earlier Windows trial to this Mac, do not inherit browser readiness. Re-run the gate on the Mac and record fresh evidence:
+
+- Chrome tab title and URL are readable from the active Mac browser-control path;
+- the current page is the RUC Library portal, a `libproxy.ruc.edu.cn` CNKI page, or a task-relevant CNKI result/detail page;
+- any RUC login, CAPTCHA, SSO, identity check, or download confirmation was completed by the user;
+- a task-relevant search, result-detail open, and full-text/export attempt happened in the Mac session;
+- the search log and source ledger were updated after the Mac run.
+
+Old Windows evidence can explain the workflow design, but it cannot make `hands_free_ready: yes` on macOS.
+
 ## Run Artifact
 
 For each live database run, generate or update `12_浏览器准入验收.md` with `scripts/browser_gate_report.py`.
+
+On macOS, first generate `chrome_cdp_probe.md`:
+
+```bash
+python scripts/ruc_cnki_entry.py <run-dir> --open --mode offcampus
+python scripts/chrome_cdp_probe.py <run-dir>
+```
+
+The entry script opens the official RUC Library CNKI journal database entry. The probe may prove that Chrome CDP can list a tab and read its title/URL. It is not enough for hands-free readiness unless the selected tab is an authenticated authorized RUC/CNKI page and later checks prove search, result-detail, and full-text/export flow. If the selected tab is `登录 - 中国人民大学`, SSO, CAPTCHA, slider, or identity verification, record `waiting_user`. The probe must not read cookies, browser passwords, local storage, form values, or page text. The probe must also carry the current run id; browser gate reports reject probes copied from a different run.
+
+Keep these layers separate:
+
+| Layer | Meaning | Evidence | Can support paper claims? |
+| --- | --- | --- | --- |
+| CDP visible | Chrome tab title and URL can be read | `chrome_cdp_probe.md` says `browser_path_status: pass` | no |
+| Authorized URL | Current tab is RUC/CNKI or RUC proxy route | `chrome_cdp_probe.md` says `authorized_page_status: pass` | no |
+| Source access | Full text or export exists and is recorded | `source_provenance_ledger.md` with route, retrieval time, and sha256 for files | yes |
+
+Never use the first two layers as proof that Codex accessed source content.
 
 The run is not hands-free unless the report says:
 
@@ -49,6 +80,7 @@ Stop and ask for user action when any of these appears:
 
 - login page;
 - CAPTCHA;
+- `verify/home` safety-verification page;
 - slider or puzzle verification;
 - SSO or university identity page;
 - payment, permission, or download confirmation;

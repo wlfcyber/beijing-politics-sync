@@ -14,6 +14,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 RUN_AUDIT = SCRIPT_DIR / "run_audit.py"
 WORKFLOW_REPORT = SCRIPT_DIR / "workflow_report.py"
 QUALITY_GATE_AUDIT = SCRIPT_DIR / "quality_gate_audit.py"
+TOPIC_ENGINE_AUDIT = SCRIPT_DIR / "topic_engine_audit.py"
+SOURCE_FILE_AUDIT = SCRIPT_DIR / "source_file_audit.py"
 
 
 @dataclass
@@ -51,18 +53,42 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run_dir")
     parser.add_argument("--min-fulltext", type=int, default=8)
+    parser.add_argument(
+        "--source-search-root",
+        action="append",
+        default=[],
+        help="Extra directory to search for migrated source PDFs/text files. Can be repeated.",
+    )
     parser.add_argument("--out", help="Markdown output path. Defaults to <run_dir>/16_总闸口矩阵.md")
     args = parser.parse_args()
 
     run_dir = Path(args.run_dir).expanduser().resolve()
     out = Path(args.out).expanduser().resolve() if args.out else run_dir / "16_总闸口矩阵.md"
     py = sys.executable
+    inferred_source_roots = [run_dir.parent]
+    if run_dir.parent.name == "runs":
+        inferred_source_roots.append(run_dir.parent.parent)
+    source_search_args: list[str] = []
+    for root in [*inferred_source_roots, *(Path(root).expanduser().resolve() for root in args.source_search_root)]:
+        source_search_args.extend(["--search-root", str(root)])
 
     gates = [
+        Gate(
+            "topic_engine",
+            "选题层：20-30 个候选、评分维度齐全、1 个主选和 3 个备选",
+            [py, str(TOPIC_ENGINE_AUDIT), str(run_dir)],
+            "topic_selection_ready",
+        ),
         Gate(
             "material",
             "材料层：8 篇可读全文/证据、引用映射、页码候选",
             [py, str(RUN_AUDIT), str(run_dir), "--min-fulltext", str(args.min_fulltext)],
+            "paper_material_ready",
+        ),
+        Gate(
+            "source_files",
+            "当前设备材料文件层：正式全文源文件与提取文本在本机可复验",
+            [py, str(SOURCE_FILE_AUDIT), str(run_dir), "--min-current-fulltext", str(args.min_fulltext), *source_search_args],
             "paper_material_ready",
         ),
         Gate(
@@ -77,6 +103,12 @@ def main() -> int:
                 "--require-comparison-table",
             ],
             "paper_text_quality",
+        ),
+        Gate(
+            "source_provenance",
+            "来源溯源层：正式全文来源有检索/获取/本地文件/hash台账",
+            [py, str(RUN_AUDIT), str(run_dir), "--min-fulltext", str(args.min_fulltext), "--require-source-provenance"],
+            "paper_material_ready",
         ),
         Gate(
             "policy",
@@ -124,13 +156,15 @@ def main() -> int:
         rows.append((gate, code, parse_status_line(output), output))
 
     all_passed = all(code == 0 for _, code, _, _ in rows)
-    material_passed = rows[0][1] == 0
+    topic_passed = next((code == 0 for gate, code, _, _ in rows if gate.key == "topic_engine"), False)
+    material_passed = next((code == 0 for gate, code, _, _ in rows if gate.key == "material"), False)
 
     lines = [
         "# 自动科研流总闸口矩阵",
         "",
         "## 总结",
         "",
+        f"- topic_selection_ready: {'yes' if topic_passed else 'no'}",
         f"- paper_material_ready: {'yes' if material_passed else 'no'}",
         f"- final_user_goal_ready: {'yes' if all_passed else 'no'}",
         f"- workflow_report_exit_code: {report_code}",

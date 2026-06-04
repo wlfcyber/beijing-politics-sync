@@ -1,0 +1,59 @@
+# Citation Evidence Repairs 011-020
+
+These are replacement candidates for the 011-020 citation review batch. They are not final anchors. They must pass visible web/app review or manual citation-level page verification before being copied into `citation_evidence_overrides.md`.
+
+Source record for the revise batch: `citation_visible_reviews/2026-06-04T15-12-29-242Z_chatgpt_citation_batch_011_020.md`.
+
+| No. | Ref | Source | Old candidate | Repair candidate | Status | Reason |
+| --- | --- | --- | --- | --- | --- | --- |
+| 11 | [4] | S-004 | p.6 | p.7, p.11-p.13 | pending_visible_review | p.7 ties the Y town case to the idea-institution-technology gap framework; p.11-p.13 gives body evidence on registration/forwarding targets, digital traces, data-sharing fragmentation, accountability by online submission, and tool/scenario mismatch. |
+| 12 | [12] | S-012 | p.6 | p.3-p.7 | pending_visible_review | p.3-p.4 describes the smart-code platform's coverage, issue categories, roles, scan/upload/work-order flow, and closed-loop control; p.5-p.7 shows data, rules, knowledge, and operation suspension. |
+| 13 | [7] | S-007 | p.4 | p.1-p.2, p.5-p.9 | pending_visible_review_local_hold | The old p.4 excerpt supports platform burden but not autonomy buffering. Replacement combines the article's Z town setup with the autonomy mechanisms: autonomous coping, soft assessment, dual elites, face mobilization, and liaison-cadre lubrication. |
+| 14 | [13] | S-013 | p.5 | p.7-p.11 | pending_visible_review | p.7-p.9 gives Z street-town One Network Management empowerment through integrated platform, cross-level coordination, public-demand channels, and department linkage; p.10-p.11 gives digital suspension and weak public interaction. |
+| 15 | [14] | S-014 | p.3 | p.1, p.5, p.8-p.11 | pending_visible_review | Replacement covers the abstract's two-way activation thesis, Yuexiu platform modules, demand-first/service feedback mechanism, resource expansion/reorganization, public problem reporting, progress display, and online evaluation. |
+| 16 | [10] | S-010 | p.2 | p.1, p.4, p.7, p.14-p.15 | pending_visible_review_local_hold | The old p.2 excerpt is research setup. Replacement names accountability risk, digital technology, discretion compression, and the action sequence from rent seeking to formalism/avoidance/procedural action. |
+| 18 | [10] | S-010 | p.2 | p.1, p.4, p.7, p.14-p.15 | pending_visible_review | Same mechanism candidate as No.16, focused on the risk-avoidance and procedural-action wording. |
+
+## Candidate Excerpts
+
+### No. 11 [4] S-004 p.7, p.11-p.13
+
+Citation context: 安徽Y镇案例用于观察理念、制度和技术错位如何生成基层数字形式主义。
+
+Source-page excerpt: p.7: 具体表现为: 第一，理念层面。传统行政文化中对上负责、留痕管理等根深蒂固的认知体系并不会因数字技术的引入而自动转变……第二，制度层面……现有技术水平已具备精细量化的能力，与之配套的考核、问责与激励机制却未同步调整，从而产生制度堕距。第三，技术层面……人机交互的简约化与基层社会治理的复杂性之间存在较大的差距，从而产生技术堕距。基于上述分析，论文以“文化堕距”为理论基础，构建“理念－制度－技术”三重堕距综合分析框架，系统性地剖析安徽省Y镇基层数字形式主义的生成机理。/ p.11: “就拿政务APP来说，上级检查主要看那些注册量、转发量，我们为了达标，只能想尽办法让居民去注册、转发”。长此以往，基层干部就会因痕迹管理、电子台账、质检留痕等“数字绩效”行为，深陷数字形式主义的泥潭，背离了解决实际问题和为人民服务的初衷。/ p.11-p.12: 在数字技术应用到政府治理的过程中，各部门出现了以数据保护为由而单打独斗、各自为政的堕距现象……数据共享的碎片化状态，导致很多工作难以高效推进。/ p.12-p.13: 上级政府将行政行为的合规性简化为线上数据的完整性……标准化的数字流程并不能完全覆盖基层治理的复杂性和情境性，形成“两张皮”现象。
+
+### No. 12 [12] S-012 p.3-p.7
+
+Citation context: C镇“智能码”平台用于观察平台数据、规则、知识和运行如何悬浮于基层情境。
+
+Source-page excerpt: p.3-p.4: 2020年11月，C镇印发《C镇“智能码”一码通用试点方案》……目前“智能码”已经覆盖45个居委辖区的30条路段的1851家商户和1个工作站的15849间房屋……C镇“智能码”平台做的第一件事情，就是梳理需要管理的事项，进行精细化分类……“智能码”平台根据不同职能部门的分工与权限，叠加不同行政人员的角色分工，形成系统角色清单……目前C镇“智能码”平台已经形成了应用场景指挥规程和管理事项指挥手册两项标准化操作规则……实现了扫码、处置、派单和结案的闭环管理。/ p.4-p.5: 从2020年11月25日到2021年12月31日，平台共生成巡检工单333720件……平台的全部工单中，有95%以上工单是完全没有问题的……在自动化运行流程背后，C镇“智能码”平台逐渐偏离了解决社会问题的初衷，被数字、程序和规则裹挟，多数情况下只是在处置任务工单，悬浮于真实城市基层治理过程。/ p.5-p.7: 平台数据悬浮于真实社会问题；平台规则悬浮于问题处置需求；平台知识悬浮于社会治理情境；平台运行悬浮于基层治理过程。
+
+### No. 13 [7] S-007 p.1-p.2, p.5-p.9
+
+Citation context: 东部Z镇案例用于观察村庄自治如何缓冲数治负能。
+
+Source-page excerpt: p.1-p.2: 乡村治理借助“自主应付”“软性考核”“二元精英协作”“面子动员”“联村干部‘润滑’”等各种机制联动，实现了村庄自治赋能，有效消解了乡村数字治理的负外部性影响……本文拟以东部地区Z镇为研究个案……Z镇作为东部乡村数字治理的重要示范地区……其村庄自治发挥了较强的治理功能，明显消解了乡村数字治理嵌入过程中数字平台、数字技术扩张带来的不适和意外后果。/ p.5: “自主应付”是乡村两级干部在应对乡镇政府下派“虚的”工作时，尤其是面对数字治理中的大量形式主义问题时……采用自主应付的策略……村干部多采取“打太极拳”和应付的工作策略……村干部才能节省工作精力，减轻数字治理负担，减少数字形式主义。/ p.5-p.6: “软性考核”……用最少的时间应付完成线上“虚的”不那么重要的工作即可，而用最大的注意力和精力完成对人民有益的事情。/ p.7-p.9: 联村干部嵌入……有助于防止乡村数字治理导致的脱嵌和悬浮化困厄……村庄自治还保存得较为完好，乡村关系的构建性、灵活性较强……即便乡村数字治理产生负面后果，也能被村庄自治消解。
+
+### No. 14 [13] S-013 p.7-p.11
+
+Citation context: S市Z街镇“一网统管”案例用于观察数字赋能与数字悬浮如何并存。
+
+Source-page excerpt: p.7-p.9: 从Z街镇“一网统管”治理的实践来看，其借助“一网统管”的整体数字平台及城市运行管理中心枢纽机构来提升事项流转速度，统筹条块资源，降低沟通协调成本，柔化条块边界以压缩条块结构……依托“一网统管”平台开通社情民意一键直连的快车道，拓展公众有效参与治理的小程序……依托12345市民服务热线、随申办以及职能部门热线等来获取公众诉求……借助“一网统管”平台及数据共享底座优化部门交互关系规则……构建互动共生、即时协同的部门网络化联动交互关系。/ p.10-p.11: 第一，基层数字“悬浮”问题较为突出……Z街镇城运中心工作人员及城管等都致力于将尽可能多的问题线上化、数字化、算法化、程序化……直接目标不再是回应公众的实际需求，解决公众的实际问题，而是按照相关考核要求来进行数字生产与数据留痕，维护面子工程并服务于最终的绩效考核。/ p.11: 基层“政民互动”实效有待强化……数字化渠道及形式确实多元丰富，但是互动的程度与深度还相对不足。
+
+### No. 15 [14] S-014 p.1, p.5, p.8-p.11
+
+Citation context: 广州越秀“越秀越有数”案例用于观察有效数字赋能如何依赖需求牵引、资源重组和反馈闭环。
+
+Source-page excerpt: p.1: 一方面，通过基层治理前后端的需求牵引，数字技术将公务人员、企业和公众的多元需求成功灌注到全链条的基层治理过程中……另一方面，通过组织内外部资源重组，数字技术将党建、群团、行政和市场等分散的社会力量和闲置社会资源再组织化，激活社会自身活力。/ p.5: “越秀人家”覆盖全区18个街道222个社区……搭建各街道资源共享平台；“越秀商家”建设诉求响应模块……专业部门点对点响应、高效处理；“越秀先锋”联通越秀区46个职能部门、18条街道、222个社区……实现事件“指尖”扁平化处理。/ p.8: 政府针对性地开发不同模块数字平台，建构了植根于需求牵引的数字化公共服务生产体制……“需求在先、开发在后”机制……服务质量持续的“反馈”。/ p.9-p.11: 数字技术对闲置和未利用资源进行整合……数字技术对已纳入基层治理的资源进行重组……居民可以在线上针对公共物业区域的问题发起会话……居民全过程参与协商解决，结果也是公开和知情的……居民可随时、随地、随手拍照上传公共区域发现的问题……事件处理进度和结果实时在“越秀人家”呈现，居民可对问题处理情况做线上评价，将社会的反馈纳入治理过程。
+
+### No. 16 [10] S-010 p.1, p.4, p.7, p.14-p.15
+
+Citation context: X市精准扶贫政策执行；问责机制和数字化技术共同改变政策执行方式，基层干部更重视可被确认的程序和结果。
+
+Source-page excerpt: p.1: 研究发现，技术治理通过加大政策执行风险的问责机制与压缩自由裁量权的数字化技术两种路径影响乡镇干部行动；在对政策特征进行识别的基础上，乡镇干部根据技术治理介入程度，策略式地采取权力寻租、形式主义、避责和程序性行动。/ p.4: 通过问责机制与数字化技术两种路径，技术治理介入政策执行过程……问责机制从制度赋能层面影响乡镇干部行动；数字化技术通过对政策目标与任务进行项目化与指标化的管理，不断压缩乡镇干部的自由裁量权，从工具赋能层面影响乡镇干部行动。/ p.7: 问责机制介入低、中、高；数字化技术介入低、中、高；乡镇干部行动倾向由权力寻租行动、形式主义与避责行动到程序性行动。/ p.14-p.15: 问责机制通过在科层体系内部建立责任追究机制，加大越轨行动惩罚风险来影响乡镇干部的行动。数字化技术利用严密的数字化、指标量化管理对政策执行过程进行管理与控制，通过减少乡镇干部的自由裁量权来约束乡镇干部的行动……政策风险性低且自由裁量权低时，乡镇干部倾向于采取形式主义行动策略；政策风险高且自由裁量权高时……倾向于采取避责行动策略；政策风险高而自由裁量权低时……倾向于采取选择程序性行动策略。
+
+### No. 18 [10] S-010 p.1, p.4, p.7, p.14-p.15
+
+Citation context: 数字化技术与问责结合后压缩乡镇干部裁量；风险规避和程序性执行上升，显示“做错会被罚”的压力逻辑。
+
+Source-page excerpt: Same replacement passage as No.16. The candidate specifically targets accountability risk, discretion compression, risk avoidance, and procedural action.

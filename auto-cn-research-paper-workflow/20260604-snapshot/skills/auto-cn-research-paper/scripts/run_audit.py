@@ -53,6 +53,10 @@ def parse_summary_value(text: str, key: str) -> str:
     return match.group(1).strip() if match else "unknown"
 
 
+def parse_boolish(text: str, key: str) -> bool:
+    return parse_summary_value(text, key).lower() in {"true", "yes", "1"}
+
+
 def parse_summary_count(text: str, key: str) -> int:
     match = re.search(rf"{re.escape(key)}:\s*(\d+)", text)
     return int(match.group(1)) if match else 0
@@ -102,6 +106,10 @@ def citation_working_anchor_ready(text: str) -> bool:
     return "- working_anchor_ready: yes" in text
 
 
+def source_provenance_ready(text: str) -> bool:
+    return "- provenance_ready: yes" in text
+
+
 def run_source_id_freeze_audit(run_dir: Path) -> tuple[bool, str]:
     completed = subprocess.run(
         [sys.executable, str(SOURCE_ID_FREEZE_AUDIT), str(run_dir)],
@@ -112,6 +120,40 @@ def run_source_id_freeze_audit(run_dir: Path) -> tuple[bool, str]:
         stderr=subprocess.STDOUT,
     )
     return completed.returncode == 0, completed.stdout.strip()
+
+
+def external_review_gate_issues(text: str, run_dir: Path) -> list[str]:
+    issues: list[str] = []
+    external_review_passed = parse_summary_value(text, "external_review_passed")
+    if external_review_passed != "yes":
+        issues.append("external advisor review gate has not passed")
+
+    required = [
+        ("claude_opus", "Claude Opus / Opus 4.8 Max"),
+        ("gpt_pro", "GPT Pro / GPT-5.5 Pro"),
+    ]
+    allowed_channels = {"web_session", "app_session"}
+    for prefix, label in required:
+        status = parse_summary_value(text, f"{prefix}_review_status")
+        channel = parse_summary_value(text, f"{prefix}_review_channel")
+        raw_record = parse_summary_value(text, f"{prefix}_raw_record")
+        review_run_id = parse_summary_value(text, f"{prefix}_review_run_id")
+        recorded_at = parse_summary_value(text, f"{prefix}_review_recorded_at")
+        real_submission = parse_boolish(text, f"{prefix}_real_submission")
+
+        if status != "pass":
+            issues.append(f"{label} review status is not pass: {status}")
+        if channel not in allowed_channels:
+            issues.append(f"{label} review channel is not a web/app visible session: {channel}")
+        if not real_submission:
+            issues.append(f"{label} review does not prove real_submission=true")
+        if review_run_id != run_dir.name:
+            issues.append(f"{label} review run_id mismatch: {review_run_id} != {run_dir.name}")
+        if recorded_at in {"unknown", "", "omitted"}:
+            issues.append(f"{label} review recorded_at is missing")
+        if raw_record in {"unknown", "", "omitted"} or "omitted" in raw_record:
+            issues.append(f"{label} review raw record is missing or omitted")
+    return issues
 
 
 def main() -> int:
@@ -148,6 +190,11 @@ def main() -> int:
         action="store_true",
         help="Require stable S/C source-number freeze checks to pass.",
     )
+    parser.add_argument(
+        "--require-source-provenance",
+        action="store_true",
+        help="Require source_provenance_ledger.md to prove verified sources have retrieval/file/hash provenance.",
+    )
     args = parser.parse_args()
 
     run_dir = Path(args.run_dir).expanduser().resolve()
@@ -167,6 +214,7 @@ def main() -> int:
     citation_plan_path = run_dir / "citation_plan.md"
     citation_page_suggestions_path = run_dir / "citation_page_suggestions.md"
     citation_final_path = run_dir / "citation_final.md"
+    source_provenance_path = run_dir / "source_provenance_ledger.md"
     browser_gate_path = run_dir / "12_浏览器准入验收.md"
     external_review_path = run_dir / "15_外部评审与迭代计划.md"
     policy_check_path = run_dir / "14_S008原刊与政策核验记录.md"
@@ -182,14 +230,18 @@ def main() -> int:
         citation_page_suggestions_path.read_text(encoding="utf-8") if citation_page_suggestions_path.exists() else ""
     )
     citation_final_text = citation_final_path.read_text(encoding="utf-8") if citation_final_path.exists() else ""
+    source_provenance_text = source_provenance_path.read_text(encoding="utf-8") if source_provenance_path.exists() else ""
     browser_gate_text = browser_gate_path.read_text(encoding="utf-8") if browser_gate_path.exists() else ""
     external_review_text = external_review_path.read_text(encoding="utf-8") if external_review_path.exists() else ""
     policy_check_text = policy_check_path.read_text(encoding="utf-8") if policy_check_path.exists() else ""
     user_verification_status = parse_summary_value(browser_gate_text, "user_verification_status")
     external_review_passed = parse_summary_value(external_review_text, "external_review_passed")
+    claude_review_status = parse_summary_value(external_review_text, "claude_opus_review_status")
+    gpt_pro_review_status = parse_summary_value(external_review_text, "gpt_pro_review_status")
     policy_ready = policy_citation_merged(draft_text, policy_check_text)
     final_pages_ready = citation_final_ready(citation_final_text)
     working_pages_ready = citation_working_anchor_ready(citation_final_text)
+    source_provenance_ok = source_provenance_ready(source_provenance_text)
     manual_verified_anchors = parse_summary_count(citation_final_text, "manual_verified_anchors")
     agent_verified_anchors = parse_summary_count(citation_final_text, "agent_verified_anchors")
     citation_level_verified_anchors = parse_summary_count(citation_final_text, "citation_level_verified_anchors")
@@ -246,8 +298,8 @@ def main() -> int:
     if args.require_external_review:
         if not external_review_text:
             issues.append("external review report is missing: 15_外部评审与迭代计划.md")
-        elif external_review_passed != "yes":
-            issues.append("external advisor review gate has not passed")
+        else:
+            issues.extend(external_review_gate_issues(external_review_text, run_dir))
 
     if args.require_policy_citation_merged and not policy_ready:
         issues.append("verified official policy source has not been merged into formal draft references/notes")
@@ -263,6 +315,12 @@ def main() -> int:
             for line in freeze_output.splitlines():
                 if line.startswith("- "):
                     issues.append(line.removeprefix("- ").strip())
+
+    if args.require_source_provenance:
+        if not source_provenance_text:
+            issues.append("source provenance ledger is missing: source_provenance_ledger.md")
+        elif not source_provenance_ok:
+            issues.append("source provenance ledger is incomplete or invalid")
 
     if verified < args.min_fulltext and queue_text:
         if user_verification_status == "waiting_user" or (
@@ -280,6 +338,8 @@ def main() -> int:
     print(f"verified_fulltext={verified}")
     print(f"public_reprint_fulltext={public_reprints}")
     print(f"external_review_passed={external_review_passed}")
+    print(f"claude_opus_review_status={claude_review_status}")
+    print(f"gpt_pro_review_status={gpt_pro_review_status}")
     print(f"policy_citation_merged={'yes' if policy_ready else 'no'}")
     print(f"working_anchor_ready={'yes' if working_pages_ready else 'no'}")
     print(f"manual_verified_anchors={manual_verified_anchors}")
@@ -289,6 +349,7 @@ def main() -> int:
     print(f"citation_final_ready={'yes' if final_pages_ready else 'no'}")
     print(f"page_numbers_ready={'yes' if pages_ready else 'no'}")
     print(f"source_id_freeze_ready={source_id_freeze_ready}")
+    print(f"source_provenance_ready={'yes' if source_provenance_ok else 'no'}")
     for issue in issues:
         print(f"- {issue}")
 

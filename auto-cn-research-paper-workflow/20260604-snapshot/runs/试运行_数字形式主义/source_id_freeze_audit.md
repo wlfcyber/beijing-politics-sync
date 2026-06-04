@@ -1,7 +1,7 @@
 # Source ID Freeze Audit
 
 - status: PASS
-- matrix_path: `C:\Users\Administrator\Documents\论文写作\试运行_数字形式主义\03_文献矩阵.md`
+- matrix_path: `/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/03_文献矩阵.md`
 
 | Rule | Status | Evidence |
 | --- | --- | --- |

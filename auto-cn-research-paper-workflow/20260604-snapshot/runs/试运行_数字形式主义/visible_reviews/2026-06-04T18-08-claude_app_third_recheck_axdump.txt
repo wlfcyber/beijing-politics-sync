@@ -1,0 +1,5 @@
+[AXApplication ] AXTitle=Claude
+  [AXWindow AXStandardWindow] AXTitle=Claude
+    [AXGroup ] AXTitle=Claude
+    [AXButton AXFullScreenButton] AXHelp=此按钮也可以执行缩放窗口的操作
+    [AXMenuBarItem ] AXTitle=View
