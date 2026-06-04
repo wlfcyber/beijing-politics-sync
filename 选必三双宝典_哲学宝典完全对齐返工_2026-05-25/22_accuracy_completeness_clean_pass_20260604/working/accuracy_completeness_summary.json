@@ -1,0 +1,14 @@
+{
+  "entry_count": 111,
+  "structure_pass": 111,
+  "clean_pass": 111,
+  "current_accuracy_pass": 111,
+  "old_audit_matched": 97,
+  "old_audit_uncovered_current_entries": 14,
+  "same_question_groups": 27,
+  "same_question_group_pass": 27,
+  "old_audit_rows": 106,
+  "old_audit_high_mid_rows": 51,
+  "coverage_rows": 45,
+  "coverage_pending": 2
+}

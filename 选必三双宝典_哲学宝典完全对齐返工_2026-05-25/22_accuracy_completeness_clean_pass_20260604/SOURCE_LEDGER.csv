@@ -1,0 +1,6 @@
+source_id,path,role,status,notes
+input_docx,/Users/wanglifei/Desktop/选必三claude美化版_最终学生版_20260604.docx,source,copied,Current student-facing DOCX to clean and audit.
+claude_audit_csv,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604/work/audit_rows_mapped_to_106_entries.csv,audit_source,used,Old Claude Opus 4.8 Max mapped row audit used for issue disposition.
+claude_coverage_csv,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604/work/覆盖遗漏表.csv,audit_source,used,Old coverage omission table used for coverage resolution.
+final_docx,/Users/wanglifei/Desktop/选必三claude美化版_逐条核对清洁版_20260604.docx,delivery,created,Desktop copy for direct Word review.
+final_pdf,/Users/wanglifei/Desktop/选必三claude美化版_逐条核对清洁版_20260604.pdf,delivery,created,Desktop PDF rendered from final DOCX.
