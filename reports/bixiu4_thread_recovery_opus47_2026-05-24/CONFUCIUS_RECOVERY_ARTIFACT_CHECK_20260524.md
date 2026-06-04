@@ -1838,3 +1838,25 @@ Status: `ARTIFACTS_PRESENT_BATCH21_P1_INCREMENT_GATES_OPEN`
   - `EVERY_PAGE_VISUAL_QA_CONTACT_SHEET_REVIEW_20260525.md`.
 - Student-learning boundary: P0 is still cleared, but 442 thinner rows remain across P1/P2/P3; the whole handbook is not yet uniformly thick for zero-baseline learners.
 - External boundary: current-version GPTPro/Claude review remains pending, and ClaudeCode model confirmation remains blocked.
+
+## Confucius P1 Thickness Batch22 Artifact Check 20260526
+
+Updated: 2026-05-26 02:30 +08
+
+Status: `ARTIFACTS_PRESENT_BATCH22_P1_INCREMENT_GATES_OPEN`
+
+- Inspection artifact present: `P1_BATCH22_MATRIX_CANDIDATE_INSPECTION_20260526.md`.
+- Draft artifacts present: `P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.md/.csv/.json`.
+- Apply artifacts present: `P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.md/.csv/.json`.
+- Repair script present: `apply_p1_thickness_batch22_20260526.py`.
+- Governance update script present: `append_p1_batch22_governance_updates_20260526.py`.
+- Backup present: current DOCX has a `backup_before_p1_thickness_batch22` copy in `05_delivery`.
+- Refreshed QA artifacts present:
+  - `THICKNESS_DENSITY_AUDIT_20260525.md/.csv`;
+  - `THICKNESS_REPAIR_PRIORITY_QUEUE_20260525.md/.csv/.json`;
+  - `DOCX_STYLE_CONSISTENCY_AUDIT_20260525.md/.json`;
+  - `word_render_qa_20260525_heading_style_fix/render_manifest.json`;
+  - `EVERY_PAGE_VISUAL_QA_LOG_20260525.md/.csv/.json`;
+  - `EVERY_PAGE_VISUAL_QA_CONTACT_SHEET_REVIEW_20260525.md`.
+- Student-learning boundary: P0 is still cleared, but 425 thinner rows remain across P1/P2/P3; the whole handbook is not yet uniformly thick for zero-baseline learners.
+- External boundary: current-version GPTPro/Claude review remains pending, and ClaudeCode model confirmation remains blocked.

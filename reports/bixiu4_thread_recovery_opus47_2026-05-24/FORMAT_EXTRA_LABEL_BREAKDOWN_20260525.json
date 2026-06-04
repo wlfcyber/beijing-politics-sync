@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26 02:05 +08",
+  "updated": "2026-05-26 02:25 +08",
   "status": "EXTRA_LABEL_BREAKDOWN_CLOSED",
   "required_label_counts": {
     "material": 721,
@@ -8,8 +8,8 @@
     "answer": 721
   },
   "required_label_total": 2884,
-  "extra_left_bracket_total": 7,
-  "docx_left_bracket_total": 2891,
+  "extra_left_bracket_total": 6,
+  "docx_left_bracket_total": 2890,
   "extra_rows": [
     {
       "xml_paragraph_index": 546,
@@ -34,12 +34,6 @@
       "required_label_role": "material",
       "extra_left_bracket_count": 1,
       "text_excerpt": "【材料触发点】 材料：“编纂生态环境法典是以习近平同志为核心的党中央部署的重大政治任务和立法任务……该法典具有以下几个特点”，并在【第一特点】部分突出“整合重构分散的生态环境单行法、形成逻辑严谨的法律体系、消除法律重叠与矛盾”——把分散单行法系统优化为完整法典。"
-    },
-    {
-      "xml_paragraph_index": 2131,
-      "required_label_role": "why",
-      "extra_left_bracket_count": 1,
-      "text_excerpt": "【为什么能想到】 材料【主动求变】部分把“风险挑战”与“光明未来”“重大科技突破”“首健布局”“高水平对外开放”同时摆出，呈现风险与机遇的对立统一。学生看到“必然面临各类风险挑战，唯有主动求变才能开辟光明未来”这种“危—机”转化时，应当从矛盾对立统一角度作答。"
     },
     {
       "xml_paragraph_index": 3002,

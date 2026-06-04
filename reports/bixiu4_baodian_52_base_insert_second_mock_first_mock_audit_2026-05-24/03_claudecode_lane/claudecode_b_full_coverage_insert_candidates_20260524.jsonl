@@ -1,0 +1,1 @@
+{"_meta": "本轮 ClaudeCode B 全量重跑后无新增/重写候选。所有强细则一模候选已由 accepted JSONL (26条) + Codex continuation 修复条目 + prompt_gate_resolution 闭环；所有强细则二模条目经厚度复核无 REWRITE/DELETE 触发；剩余 HOLD 项均为弱参考答案/题号待定/OCR 重残/选必三边界，按硬规则不立条。详见同目录 claudecode_b_full_coverage_rerun_20260524.md 第 3.4 节 need_evidence 清单。ClaudeCode B 本轮已到融合审核前，不代表最终 PASS。"}

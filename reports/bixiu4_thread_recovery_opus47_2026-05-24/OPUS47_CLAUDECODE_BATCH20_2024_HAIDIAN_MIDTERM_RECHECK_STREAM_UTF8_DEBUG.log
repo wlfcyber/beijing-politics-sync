@@ -1,0 +1,23 @@
+{
+  "cmd": [
+    "claude",
+    "-p",
+    "--model",
+    "claude-opus-4-7",
+    "--effort",
+    "max",
+    "--permission-mode",
+    "auto",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--no-session-persistence"
+  ],
+  "cwd": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24",
+  "start": "2026-05-25T07:04:11",
+  "end": "2026-05-25T07:09:40",
+  "seconds": 328.54,
+  "returncode": 0,
+  "raw": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\OPUS47_CLAUDECODE_BATCH20_2024_HAIDIAN_MIDTERM_RECHECK_STREAM_RAW_UTF8.jsonl",
+  "stderr": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\OPUS47_CLAUDECODE_BATCH20_2024_HAIDIAN_MIDTERM_RECHECK_STREAM_UTF8_STDERR.log"
+}

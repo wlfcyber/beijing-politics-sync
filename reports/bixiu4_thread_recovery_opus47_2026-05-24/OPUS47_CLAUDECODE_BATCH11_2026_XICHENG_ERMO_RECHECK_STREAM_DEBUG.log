@@ -1,0 +1,78 @@
+2026-05-24T19:50:48.479Z [DEBUG] MDM settings load completed in 7ms
+2026-05-24T19:50:48.490Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\.claude\settings.json
+2026-05-24T19:50:48.490Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\.claude\settings.local.json
+2026-05-24T19:50:48.490Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-05-24T19:50:48.490Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-05-24T19:50:48.491Z [DEBUG] [init] configureGlobalMTLS starting
+2026-05-24T19:50:48.491Z [DEBUG] [init] configureGlobalMTLS complete
+2026-05-24T19:50:48.491Z [DEBUG] [init] configureGlobalAgents starting
+2026-05-24T19:50:48.491Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-24T19:50:48.491Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-24T19:50:48.495Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-24T19:50:48.495Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-24T19:50:48.496Z [DEBUG] [init] configureGlobalAgents complete
+2026-05-24T19:50:48.496Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-05-24T19:50:48.497Z [DEBUG] Error log sink initialized
+2026-05-24T19:50:48.502Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-05-24T19:50:48.502Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-05-24T19:50:48.511Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-05-24T19:50:48.511Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-24T19:50:48.512Z [DEBUG] [STARTUP] Running setup()...
+2026-05-24T19:50:48.513Z [DEBUG] Loading skills from: managed=C:\Program Files\ClaudeCode\.claude\skills, user=C:\Users\Administrator\.claude\skills, project=[]
+2026-05-24T19:50:48.514Z [DEBUG] Error log sink initialized
+2026-05-24T19:50:48.514Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-05-24T19:50:48.514Z [DEBUG] Total plugin skills loaded: 0
+2026-05-24T19:50:48.514Z [DEBUG] Total plugin commands loaded: 0
+2026-05-24T19:50:48.514Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-05-24T19:50:48.515Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\commands: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\commands'
+2026-05-24T19:50:48.515Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\commands: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\commands'
+2026-05-24T19:50:48.515Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-05-24T19:50:48.515Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 10 bundled skills, 0 builtin plugin skills
+2026-05-24T19:50:48.516Z [DEBUG] [STARTUP] setup() completed in 4ms
+2026-05-24T19:50:48.516Z [DEBUG] Cleared CA certificates cache
+2026-05-24T19:50:48.516Z [DEBUG] Cleared mTLS configuration cache
+2026-05-24T19:50:48.516Z [DEBUG] Cleared proxy agent cache
+2026-05-24T19:50:48.516Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-24T19:50:48.516Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-24T19:50:48.516Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-24T19:50:48.516Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-24T19:50:48.516Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-05-24T19:50:48.517Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-05-24T19:50:48.523Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\agents: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\agents'
+2026-05-24T19:50:48.523Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\agents: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\agents'
+2026-05-24T19:50:48.523Z [DEBUG] Total plugin agents loaded: 0
+2026-05-24T19:50:48.524Z [DEBUG] [STARTUP] Commands and agents loaded in 8ms
+2026-05-24T19:50:48.524Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-05-24T19:50:48.524Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-05-24T19:50:48.524Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-05-24T19:50:48.524Z [DEBUG] Starting background startup prefetches
+2026-05-24T19:50:48.524Z [DEBUG] [Bootstrap] Fetching
+2026-05-24T19:50:48.525Z [DEBUG] Passes: Using fresh cached eligibility data
+2026-05-24T19:50:48.525Z [DEBUG] [STARTUP] MCP configs resolved in 9ms (awaited at +23ms)
+2026-05-24T19:50:48.526Z [DEBUG] Total LSP servers loaded: 0
+2026-05-24T19:50:48.527Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-05-24T19:50:48.527Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-05-24T19:50:48.527Z [DEBUG] LSP manager initialized with 0 servers
+2026-05-24T19:50:48.527Z [DEBUG] Cleared CA certificates cache
+2026-05-24T19:50:48.527Z [DEBUG] Cleared mTLS configuration cache
+2026-05-24T19:50:48.527Z [DEBUG] Cleared proxy agent cache
+2026-05-24T19:50:48.528Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-24T19:50:48.528Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-24T19:50:48.528Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-24T19:50:48.528Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-24T19:50:48.528Z [DEBUG] LSP server manager initialized successfully
+2026-05-24T19:50:48.528Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-05-24T19:50:48.531Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T19:50:48.531Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-05-24T19:50:48.532Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-05-24T19:50:48.536Z [DEBUG] Git remote URL: https://github.com/wlfcyber/beijing-politics-sync.git
+2026-05-24T19:50:48.536Z [DEBUG] Parsed repository: github.com/wlfcyber/beijing-politics-sync from URL: https://github.com/wlfcyber/beijing-politics-sync.git
+2026-05-24T19:50:48.580Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe)
+2026-05-24T19:50:48.581Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: C:\\Users\\Administrator\\.claude\\plugins\\cache: IO error for operation on C:\\Users\\Administrator\\.claude\\plugins\\cache: 系统找不到指定的路径。 (os error 3)\n), 0 results"
+2026-05-24T19:50:49.448Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-05-24T19:50:49.452Z [DEBUG] Grove: Using fresh cached config
+2026-05-24T19:50:49.454Z [DEBUG] Watching for changes in setting files C:\Users\Administrator\.claude\settings.json...
+2026-05-24T19:50:49.459Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-4-7 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-05-24T19:50:49.503Z [DEBUG] [Bootstrap] Fetch ok
+2026-05-24T19:50:49.504Z [DEBUG] [Bootstrap] Cache unchanged, skipping write
+2026-05-24T19:50:49.602Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)

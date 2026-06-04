@@ -83,3 +83,16 @@ Current state:
 - `opus_adaptive_app_review_gate`: still `real_call_pending`
 
 This is enough to explain the afternoon-to-now regression: the app was not missing; its local app state and auth bootstrap failed, then recovery reached an account-selection gate. It is not enough to count Claude app Opus review as complete.
+
+## User Direct-Login Correction (2026-05-25 12:45 +08)
+
+This recovery log is superseded for the next retry path. Future Claude web/app review attempts must not keep walking through `Continue with Google` or stop at the Google account chooser as the default blocker.
+
+Correct next retry:
+
+1. Open `https://claude.ai` directly.
+2. Rely on the current machine's existing Claude session and expected automatic login.
+3. If the chat surface opens, verify/select Opus 4.7 Adaptive and run the review.
+4. If direct `https://claude.ai` redirects to login or fails, record that exact direct-path failure and keep `opus_adaptive_app_review_gate` as `real_call_pending`.
+
+The prior Google chooser observation remains historical recovery evidence, but it is not the accepted next action.

@@ -1,12 +1,12 @@
 # DOCX_STYLE_CONSISTENCY_AUDIT_20260525
 
 Status: `PASS`
-Updated: 2026-05-26 02:07:26 +08
+Updated: 2026-05-26 02:27:16 +08
 
 ## Scope
 
-- DOCX bytes: `474956`.
-- PDF bytes: `4698422`.
+- DOCX bytes: `476243`.
+- PDF bytes: `4693630`.
 - Question entries audited: `721`.
 - Entries matched to insertion ledger: `415`.
 - Legacy or inherited entries: `306`.
@@ -31,7 +31,7 @@ Updated: 2026-05-26 02:07:26 +08
 
 ## Render Cross-Check
 
-- Latest retained render: `309/309 pages, labels 2891/2891, blank-like pages 0`.
+- Latest retained render: `309/309 pages, labels 2890/2890, blank-like pages 0`.
 
 ## Boundary
 

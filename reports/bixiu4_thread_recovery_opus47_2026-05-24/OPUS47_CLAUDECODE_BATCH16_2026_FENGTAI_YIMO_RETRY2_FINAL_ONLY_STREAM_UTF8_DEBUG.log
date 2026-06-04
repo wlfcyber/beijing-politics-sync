@@ -1,0 +1,114 @@
+2026-05-24T21:43:08.071Z [DEBUG] MDM settings load completed in 8ms
+2026-05-24T21:43:08.082Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\.claude\settings.json
+2026-05-24T21:43:08.082Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\.claude\settings.local.json
+2026-05-24T21:43:08.082Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-05-24T21:43:08.083Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-05-24T21:43:08.083Z [DEBUG] [init] configureGlobalMTLS starting
+2026-05-24T21:43:08.083Z [DEBUG] [init] configureGlobalMTLS complete
+2026-05-24T21:43:08.083Z [DEBUG] [init] configureGlobalAgents starting
+2026-05-24T21:43:08.083Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-24T21:43:08.084Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-24T21:43:08.087Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-24T21:43:08.088Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-24T21:43:08.089Z [DEBUG] [init] configureGlobalAgents complete
+2026-05-24T21:43:08.089Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-05-24T21:43:08.090Z [DEBUG] Error log sink initialized
+2026-05-24T21:43:08.093Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-05-24T21:43:08.095Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-05-24T21:43:08.095Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-05-24T21:43:08.104Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-05-24T21:43:08.104Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-24T21:43:08.106Z [DEBUG] [STARTUP] Running setup()...
+2026-05-24T21:43:08.108Z [DEBUG] Loading skills from: managed=C:\Program Files\ClaudeCode\.claude\skills, user=C:\Users\Administrator\.claude\skills, project=[]
+2026-05-24T21:43:08.108Z [DEBUG] Error log sink initialized
+2026-05-24T21:43:08.108Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-05-24T21:43:08.108Z [DEBUG] Total plugin skills loaded: 0
+2026-05-24T21:43:08.108Z [DEBUG] Total plugin commands loaded: 0
+2026-05-24T21:43:08.109Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-05-24T21:43:08.109Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\commands: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\commands'
+2026-05-24T21:43:08.109Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\commands: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\commands'
+2026-05-24T21:43:08.109Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-05-24T21:43:08.109Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 10 bundled skills, 0 builtin plugin skills
+2026-05-24T21:43:08.110Z [DEBUG] [STARTUP] setup() completed in 4ms
+2026-05-24T21:43:08.110Z [DEBUG] Cleared CA certificates cache
+2026-05-24T21:43:08.110Z [DEBUG] Cleared mTLS configuration cache
+2026-05-24T21:43:08.110Z [DEBUG] Cleared proxy agent cache
+2026-05-24T21:43:08.110Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-24T21:43:08.110Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-24T21:43:08.110Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-24T21:43:08.110Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-24T21:43:08.111Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-05-24T21:43:08.117Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\agents: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\agents'
+2026-05-24T21:43:08.117Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\agents: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\agents'
+2026-05-24T21:43:08.117Z [DEBUG] Total plugin agents loaded: 0
+2026-05-24T21:43:08.117Z [DEBUG] [STARTUP] Commands and agents loaded in 6ms
+2026-05-24T21:43:08.118Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-05-24T21:43:08.118Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-05-24T21:43:08.118Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-05-24T21:43:08.118Z [DEBUG] Starting background startup prefetches
+2026-05-24T21:43:08.118Z [DEBUG] [Bootstrap] Fetching
+2026-05-24T21:43:08.118Z [DEBUG] Passes: Using fresh cached eligibility data
+2026-05-24T21:43:08.119Z [DEBUG] [STARTUP] MCP configs resolved in 10ms (awaited at +24ms)
+2026-05-24T21:43:08.120Z [DEBUG] Total LSP servers loaded: 0
+2026-05-24T21:43:08.121Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-05-24T21:43:08.121Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-05-24T21:43:08.121Z [DEBUG] LSP manager initialized with 0 servers
+2026-05-24T21:43:08.121Z [DEBUG] Cleared CA certificates cache
+2026-05-24T21:43:08.121Z [DEBUG] Cleared mTLS configuration cache
+2026-05-24T21:43:08.121Z [DEBUG] Cleared proxy agent cache
+2026-05-24T21:43:08.122Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-24T21:43:08.122Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-24T21:43:08.122Z [DEBUG] CA certs: Loaded 102 system CA certificates
+2026-05-24T21:43:08.122Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-24T21:43:08.122Z [DEBUG] LSP server manager initialized successfully
+2026-05-24T21:43:08.122Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-05-24T21:43:08.125Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:08.126Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-05-24T21:43:08.126Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-05-24T21:43:08.131Z [DEBUG] Git remote URL: https://github.com/wlfcyber/beijing-politics-sync.git
+2026-05-24T21:43:08.131Z [DEBUG] Parsed repository: github.com/wlfcyber/beijing-politics-sync from URL: https://github.com/wlfcyber/beijing-politics-sync.git
+2026-05-24T21:43:08.174Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe)
+2026-05-24T21:43:08.174Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: C:\\Users\\Administrator\\.claude\\plugins\\cache: IO error for operation on C:\\Users\\Administrator\\.claude\\plugins\\cache: 系统找不到指定的路径。 (os error 3)\n), 0 results"
+2026-05-24T21:43:08.376Z [DEBUG] Prior session exited uncleanly: 8aab1412-4ebc-41ab-80e4-c2d573a09c20 (v2.1.119)
+2026-05-24T21:43:09.010Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-4-7 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-05-24T21:43:09.053Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-05-24T21:43:09.056Z [DEBUG] Grove: Using fresh cached config
+2026-05-24T21:43:09.058Z [DEBUG] Watching for changes in setting files C:\Users\Administrator\.claude\settings.json...
+2026-05-24T21:43:09.110Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)
+2026-05-24T21:43:09.123Z [DEBUG] [Bootstrap] Fetch ok
+2026-05-24T21:43:09.123Z [DEBUG] [Bootstrap] Cache unchanged, skipping write
+2026-05-24T21:43:10.072Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-05-24T21:43:10.073Z [DEBUG] installPluginsForHeadless: starting
+2026-05-24T21:43:10.073Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-24T21:43:10.073Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-05-24T21:43:10.074Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.9b9; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-24T21:43:10.074Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.075Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.075Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-24T21:43:10.075Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-24T21:43:10.078Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-24T21:43:10.078Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.079Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=9058a567-e2a6-4091-afed-5ae6f839b53a source=generate_session_title
+2026-05-24T21:43:10.080Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\output-styles: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\output-styles'
+2026-05-24T21:43:10.080Z [DEBUG] Failed to stat directory C:\Users\Administrator\.claude\output-styles: ENOENT: no such file or directory, stat 'C:\Users\Administrator\.claude\output-styles'
+2026-05-24T21:43:10.080Z [DEBUG] Total plugin output styles loaded: 0
+2026-05-24T21:43:10.081Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-24T21:43:10.081Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-24T21:43:10.082Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-05-24T21:43:10.082Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.083Z [DEBUG] autocompact: tokens=1008 threshold=967000 effectiveWindow=980000
+2026-05-24T21:43:10.084Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-24T21:43:10.084Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.119.9b9; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-24T21:43:10.084Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.084Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.084Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-24T21:43:10.084Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-24T21:43:10.084Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-24T21:43:10.085Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:10.085Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=8e180e91-b6da-49d4-8e8f-7601a35efcec source=sdk
+2026-05-24T21:43:11.762Z [DEBUG] Stream started - received first chunk
+2026-05-24T21:43:12.589Z [DEBUG] [mcp-registry] Loaded 197 official MCP URLs (legacy)
+2026-05-24T21:43:13.403Z [DEBUG] Stream started - received first chunk
+2026-05-24T21:43:28.412Z [WARN] [Stall] stream_idle_partial lastChunkAgeMs=15010 bytesTotal=647 idleDeadlineMs=300000
+2026-05-24T21:43:52.549Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-24T21:43:52.550Z [DEBUG] LSP server manager shut down successfully

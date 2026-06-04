@@ -1,0 +1,131 @@
+{
+  "suite": "2026海淀期末",
+  "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+  "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+  "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_batch32_render_20260525.pdf",
+  "docx_bytes": 427917,
+  "pdf_bytes": 4734660,
+  "pdf_pages": 273,
+  "rendered_png_count": 273,
+  "blank_like_pages_all": [
+    2
+  ],
+  "blank_like_pages_excluding_cover_foreword": [],
+  "docx_label_count": 2667,
+  "pdf_label_count": 2667,
+  "docx_suite_heading_count": 22,
+  "word_visible_heading_count": 22,
+  "word_visible_headings": [
+    {
+      "heading": "2. 2026海淀期末 第16题（主观题）",
+      "page": 18
+    },
+    {
+      "heading": "33. 2026海淀期末 第17题（主观题）",
+      "page": 31
+    },
+    {
+      "heading": "38. 2026海淀期末 第2题（选择题）",
+      "page": 62
+    },
+    {
+      "heading": "39. 2026海淀期末 第17题（主观题）",
+      "page": 62
+    },
+    {
+      "heading": "1. 2026海淀期末 第17题（主观题）",
+      "page": 65
+    },
+    {
+      "heading": "37. 2026海淀期末 第17题（主观题）",
+      "page": 105
+    },
+    {
+      "heading": "1. 2026海淀期末 第16题（主观题）",
+      "page": 126
+    },
+    {
+      "heading": "44. 2026海淀期末 第21题（主观题）",
+      "page": 144
+    },
+    {
+      "heading": "16. 2026海淀期末 第17题（主观题）",
+      "page": 163
+    },
+    {
+      "heading": "1. 2026海淀期末 第16题（主观题）",
+      "page": 166
+    },
+    {
+      "heading": "34. 2026海淀期末 第1题（选择题）",
+      "page": 186
+    },
+    {
+      "heading": "35. 2026海淀期末 第16题（主观题）",
+      "page": 187
+    },
+    {
+      "heading": "1. 2026海淀期末 第16题（主观题）",
+      "page": 187
+    },
+    {
+      "heading": "33. 2026海淀期末 第4题（选择题）",
+      "page": 200
+    },
+    {
+      "heading": "12. 2026海淀期末 第17题（主观题）",
+      "page": 204
+    },
+    {
+      "heading": "12. 2026海淀期末 第3题（选择题）",
+      "page": 209
+    },
+    {
+      "heading": "33. 2026海淀期末 第21题（主观题）",
+      "page": 237
+    },
+    {
+      "heading": "2. 2026海淀期末 第16题（主观题）",
+      "page": 239
+    },
+    {
+      "heading": "3. 2026海淀期末 第17题（主观题）",
+      "page": 240
+    },
+    {
+      "heading": "41. 2026海淀期末 第16题（主观题）",
+      "page": 269
+    },
+    {
+      "heading": "42. 2026海淀期末 第17题（主观题）",
+      "page": 269
+    },
+    {
+      "heading": "10. 2026海淀期末 第16题（主观题）",
+      "page": 273
+    }
+  ],
+  "pdf_suite_text_count": 0,
+  "suite_hit_pages": [
+    18,
+    31,
+    62,
+    65,
+    105,
+    126,
+    144,
+    163,
+    166,
+    186,
+    187,
+    200,
+    204,
+    209,
+    237,
+    239,
+    240,
+    269,
+    273
+  ],
+  "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_batch32_word\\batch32_hit_pages_contact_sheet.png"
+}

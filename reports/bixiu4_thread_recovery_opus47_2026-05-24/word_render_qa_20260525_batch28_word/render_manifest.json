@@ -1,0 +1,112 @@
+{
+  "suite": "2026丰台期末",
+  "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+  "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+  "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_batch28_render_20260525.pdf",
+  "docx_bytes": 417565,
+  "pdf_bytes": 4555772,
+  "pdf_pages": 264,
+  "rendered_png_count": 264,
+  "blank_like_pages_all": [
+    2
+  ],
+  "blank_like_pages_excluding_cover_foreword": [],
+  "docx_label_count": 2503,
+  "pdf_label_count": 2503,
+  "docx_suite_heading_count": 18,
+  "word_visible_heading_count": 18,
+  "word_visible_headings": [
+    {
+      "heading": "23. 2026丰台期末 第22题（主观题）",
+      "page": 17
+    },
+    {
+      "heading": "30. 2026丰台期末 第4题（选择题）",
+      "page": 30
+    },
+    {
+      "heading": "11. 2026丰台期末 第16题（主观题）",
+      "page": 34
+    },
+    {
+      "heading": "13. 2026丰台期末 第22题（主观题）",
+      "page": 44
+    },
+    {
+      "heading": "33. 2026丰台期末 第16题（主观题）",
+      "page": 59
+    },
+    {
+      "heading": "34. 2026丰台期末 第22题（主观题）",
+      "page": 59
+    },
+    {
+      "heading": "5. 2026丰台期末 第16题（主观题）",
+      "page": 61
+    },
+    {
+      "heading": "12. 2026丰台期末 第16题（主观题）",
+      "page": 72
+    },
+    {
+      "heading": "32. 2026丰台期末 第22题（主观题）",
+      "page": 87
+    },
+    {
+      "heading": "7. 2026丰台期末 第16题（主观题）",
+      "page": 103
+    },
+    {
+      "heading": "18. 2026丰台期末 第16题（主观题）",
+      "page": 128
+    },
+    {
+      "heading": "31. 2026丰台期末 第4题（选择题）",
+      "page": 180
+    },
+    {
+      "heading": "10. 2026丰台期末 第22题（主观题）",
+      "page": 196
+    },
+    {
+      "heading": "15. 2026丰台期末 第1题（选择题）",
+      "page": 212
+    },
+    {
+      "heading": "16. 2026丰台期末 第22题（主观题）",
+      "page": 212
+    },
+    {
+      "heading": "8. 2026丰台期末 第22题（主观题）",
+      "page": 215
+    },
+    {
+      "heading": "28. 2026丰台期末 第2题（选择题）",
+      "page": 228
+    },
+    {
+      "heading": "29. 2026丰台期末 第22题（主观题）",
+      "page": 229
+    }
+  ],
+  "pdf_suite_text_count": 0,
+  "suite_hit_pages": [
+    17,
+    30,
+    34,
+    44,
+    59,
+    61,
+    72,
+    87,
+    103,
+    128,
+    180,
+    196,
+    212,
+    215,
+    228,
+    229
+  ],
+  "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_batch28_word\\batch28_hit_pages_contact_sheet.png"
+}

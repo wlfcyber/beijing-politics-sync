@@ -851,3 +851,28 @@ When ORDER_063 eventually permits the final GitHub upload, include these additio
 - current DOCX/PDF after Batch21 and the `backup_before_p1_thickness_batch21` DOCX backup.
 
 Upload remains deferred. Before any final push, generate a concrete upload-scope file, scan the selected scope for secret patterns, record the actual clean-scan or blocked-file result, then commit and push only selected project artifacts to `origin https://github.com/wlfcyber/beijing-politics-sync.git`.
+
+## Deferred Upload Scope Addition: P1 Batch22 20260526
+
+Updated: 2026-05-26 02:30 +08
+
+When ORDER_063 eventually permits the final GitHub upload, include these additional recovery-line artifacts in the upload scope:
+
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/inspect_p1_batch22_matrix_candidates_20260526.py`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_BATCH22_MATRIX_CANDIDATE_INSPECTION_20260526.md`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/apply_p1_thickness_batch22_20260526.py`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/append_p1_batch22_governance_updates_20260526.py`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.md`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.csv`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.json`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.md`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.csv`
+- `reports/bixiu4_thread_recovery_opus47_2026-05-24/P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.json`
+- refreshed `THICKNESS_DENSITY_AUDIT_20260525.*` and `THICKNESS_REPAIR_PRIORITY_QUEUE_20260525.*`
+- refreshed `FORMAT_RENDER_QA_20260524.md`
+- refreshed `DOCX_STYLE_CONSISTENCY_AUDIT_20260525.*`
+- refreshed `word_render_qa_20260525_heading_style_fix/`
+- refreshed `EVERY_PAGE_VISUAL_QA_LOG_20260525.*`, `EVERY_PAGE_VISUAL_QA_CONTACT_SHEET_REVIEW_20260525.md`, and `every_page_visual_qa_20260525/`
+- current DOCX/PDF after Batch22 and the `backup_before_p1_thickness_batch22` DOCX backup.
+
+Upload remains deferred. Before any final push, generate a concrete upload-scope file, scan the selected scope for sensitive patterns, record the actual clean-scan or blocked-file result, then commit and push only selected project artifacts to `origin https://github.com/wlfcyber/beijing-politics-sync.git`.

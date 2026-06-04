@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-26 02:07:26 +08",
+  "timestamp": "2026-05-26 02:27:16 +08",
   "status": "PASS",
   "failures": [],
   "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
   "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
-  "docx_bytes": 474956,
-  "pdf_bytes": 4698422,
+  "docx_bytes": 476243,
+  "pdf_bytes": 4693630,
   "question_entry_count": 721,
   "inserted_entry_count": 415,
   "legacy_entry_count": 306,
@@ -36,17 +36,17 @@
     "【答案落点】": 721
   },
   "render_manifest": {
-    "timestamp": "20260526_020606",
+    "timestamp": "20260526_022608",
     "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
     "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
-    "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_heading_style_fix_render_20260526_020606.pdf",
-    "docx_bytes": 474956,
-    "pdf_bytes": 4698422,
-    "docx_label_count": 2891,
+    "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_heading_style_fix_render_20260526_022608.pdf",
+    "docx_bytes": 476243,
+    "pdf_bytes": 4693630,
+    "docx_label_count": 2890,
     "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_heading_style_fix\\heading_style_fix_contact_sheet.png",
     "pdf_pages": 309,
     "rendered_png_count": 309,
-    "pdf_label_count": 2891,
+    "pdf_label_count": 2890,
     "blank_like_pages_excluding_cover_foreword": []
   }
 }

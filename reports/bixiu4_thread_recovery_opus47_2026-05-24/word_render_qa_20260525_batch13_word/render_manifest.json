@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-05-25T04:29:13",
+  "status": "BATCH13_RENDERED_AND_LABEL_QA_COMPLETE",
+  "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+  "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_batch13_word",
+  "pdf_pages": 243,
+  "rendered_png_pages": 243,
+  "docx_student_label_count": 2240,
+  "mentougou_heading_count": 10,
+  "blank_like_pages": [],
+  "page_records_sample": [
+    {
+      "page": 1,
+      "png": "page_001.png",
+      "width": 893,
+      "height": 1263,
+      "mean_luma": 252.02,
+      "min_luma": 53,
+      "max_luma": 255,
+      "nonwhite_ratio": 0.03713
+    },
+    {
+      "page": 2,
+      "png": "page_002.png",
+      "width": 893,
+      "height": 1263,
+      "mean_luma": 254.86,
+      "min_luma": 0,
+      "max_luma": 255,
+      "nonwhite_ratio": 0.00212
+    },
+    {
+      "page": 3,
+      "png": "page_003.png",
+      "width": 893,
+      "height": 1263,
+      "mean_luma": 249.08,
+      "min_luma": 0,
+      "max_luma": 255,
+      "nonwhite_ratio": 0.16142
+    },
+    {
+      "page": 241,
+      "png": "page_241.png",
+      "width": 893,
+      "height": 1263,
+      "mean_luma": 239.87,
+      "min_luma": 0,
+      "max_luma": 255,
+      "nonwhite_ratio": 0.25156
+    },
+    {
+      "page": 242,
+      "png": "page_242.png",
+      "width": 893,
+      "height": 1263,
+      "mean_luma": 239.11,
+      "min_luma": 0,
+      "max_luma": 255,
+      "nonwhite_ratio": 0.27039
+    },
+    {
+      "page": 243,
+      "png": "page_243.png",
+      "width": 893,
+      "height": 1263,
+      "mean_luma": 244.5,
+      "min_luma": 0,
+      "max_luma": 255,
+      "nonwhite_ratio": 0.18265
+    }
+  ],
+  "contact_sheets": [
+    "contact_sheet_01.png",
+    "contact_sheet_02.png",
+    "contact_sheet_03.png",
+    "contact_sheet_04.png",
+    "contact_sheet_05.png",
+    "contact_sheet_06.png",
+    "contact_sheet_07.png"
+  ],
+  "mentougou_heading_sample": [
+    "17. 2026门头沟一模 第4题（选择题）",
+    "14. 2026门头沟一模 第21题（主观题）",
+    "16. 2026门头沟一模 第16题（主观题）",
+    "6. 2026门头沟一模 第16题（主观题）",
+    "15. 2026门头沟一模 第21题（主观题）",
+    "18. 2026门头沟一模 第16题（主观题）",
+    "12. 2026门头沟一模 第16题（主观题）",
+    "16. 2026门头沟一模 第5题（选择题）",
+    "22. 2026门头沟一模 第16题（主观题）",
+    "28. 2026门头沟一模 第7题（选择题）"
+  ]
+}

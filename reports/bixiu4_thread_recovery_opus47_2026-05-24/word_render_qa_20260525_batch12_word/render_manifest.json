@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-25T04:18:00+08:00",
+  "batch": "batch12_2026_fangshan_yimo",
+  "docx_bytes": 393235,
+  "pdf_bytes": 3994832,
+  "pdf_page_count": 243,
+  "rendered_png_count": 243,
+  "blank_like_pages": [],
+  "docx_label_count": 2236,
+  "pdf_label_count": 2236,
+  "docx_fangshan_heading_count": 12,
+  "fangshan_2026_pdf_pages": [11, 35, 48, 68, 73, 75, 96, 127, 133, 143, 153, 161],
+  "notes": [
+    "PDF text extraction inserts a space between 2026 and 房山一模, so exact compact-title search is not reliable.",
+    "All rendered page_*.png files were generated from the regenerated PDF through PyMuPDF."
+  ]
+}

@@ -1,0 +1,125 @@
+# P1 final heading evidence index summary
+
+- time: 20260525_104957
+- final sha256: `DBC89C7DDDCF84994F04AA045879124D87D9A3B4A7FD7D12D8C12304AC16E4B9`
+- total h3 headings: 373
+- unmatched h3 headings: 24
+- core headings without rubric_source field from P0 row: 118
+
+## Counts
+
+- ('core', 'matched', 'rubric'): 247
+- ('core', 'matched', 'no_rubric_source'): 95
+- ('core', 'unmatched', 'no_rubric_source'): 23
+- ('boundary', 'matched', 'rubric'): 7
+- ('boundary', 'unmatched', 'no_rubric_source'): 1
+
+## Unmatched Headings Sample
+
+- L239 ### 14. 2026朝阳期末Q20 | scope=core
+- L487 ### 6. 2026朝阳期末Q20 | scope=core
+- L756 ### 1. 2026顺义一模Q19(3) | scope=core
+- L2589 ### 1. 2026朝阳期末Q20 | scope=core
+- L2604 ### 1. 2026朝阳期末Q20 | scope=core
+- L2619 ### 1. 2026朝阳期末Q20 | scope=core
+- L2924 ### 5. 2026西城期末Q20——参与全球气候治理中的中国实践 | scope=core
+- L3780 ### 3. 2026朝阳期末Q20 | scope=core
+- L4189 ### 5. 2026西城期末Q20——参与全球气候治理中的中国实践 | scope=core
+- L4333 ### 3. 2025海淀二模Q21 | scope=core
+- L4504 ### 3. 2026朝阳期末Q20 | scope=core
+- L4906 ### 14. 2024东城二模Q20 | scope=core
+- L4950 ### 1. 2025海淀二模Q21 | scope=core
+- L5129 ### 2. 2024东城二模Q20 | scope=core
+- L5176 ### 2. 2024东城二模Q20 | scope=core
+- L5208 ### 2. 2024东城二模Q20 | scope=core
+- L5308 ### 1. 2026西城期末Q20 | scope=core
+- L5374 ### 1. 2026西城期末Q20 | scope=core
+- L5391 ### 1. 2026西城期末Q20 | scope=core
+- L5869 ### 2. 2025海淀二模Q21 | scope=core
+- L5946 ### 1. 2025海淀二模Q21 | scope=core
+- L5980 ### 1. 2025海淀二模Q21 | scope=core
+- L6119 ### 1. 2026朝阳期末Q20 | scope=core
+- L6237 ### 1. 2024东城一模Q16 | scope=boundary
+
+## Core No Rubric Source Sample
+
+- L169 ### 9. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L225 ### 13. 2026海淀期中Q22(1) | matched=2026海淀期中 Q22 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026海淀期中\2025北京海淀高三（上）期中政治（教师版）.docx
+- L239 ### 14. 2026朝阳期末Q20 | matched= | paper=
+- L253 ### 15. 2026海淀二模Q20(2) | matched=2026海淀二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026海淀二模\试卷\2026北京海淀高三二模政治（教师版）.docx
+- L267 ### 16. 2026西城二模Q19(1) | matched=2026西城二模 Q19 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模\试卷\2026北京西城高三二模政治（教师版）.docx
+- L312 ### 2. 2024朝阳一模Q21 | matched=2024朝阳一模 Q21 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治质量检测一参考答案 上交版.docx
+- L487 ### 6. 2026朝阳期末Q20 | matched= | paper=
+- L603 ### 7. 2026房山二模Q20 | matched=2026房山二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模\试卷\2026北京房山高三二模政治（教师版）.pdf
+- L645 ### 10. 2025朝阳二模Q21（周边工作新局面） | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L756 ### 1. 2026顺义一模Q19(3) | matched= | paper=
+- L867 ### 1. 2024东城一模Q20 | matched=2024一模 Q20 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\其他材料\202404各区一模试题分类（按模块）\2024届各区一模试题分类汇编选必1.docx
+- L882 ### 2. 2024石景山一模Q19(2)，迁移提醒 | matched=2024石景山一模 Q19 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024石景山一模\试卷\2024北京石景山高三一模政治（教师版带答案）.docx
+- L927 ### 5. 2025朝阳一模Q20 | matched=2025朝阳一模 Q20 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025朝阳一模\试卷\2025北京朝阳高三一模政治（教师版）.pdf
+- L959 ### 1. 2024东城一模Q20 | matched=2024一模 Q20 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\其他材料\202404各区一模试题分类（按模块）\2024届各区一模试题分类汇编选必1.docx
+- L1034 ### 6. 2024朝阳一模Q21中国经济在变局中开新局 | matched=2024朝阳一模 Q21 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治质量检测一参考答案 上交版.docx
+- L1049 ### 7. 2024丰台一模Q20供应链如何成为"共赢链" | matched=2024丰台一模 Q20 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024丰台一模\试卷\2024北京丰台高三一模政治试题及答案.pdf
+- L1064 ### 8. 2024石景山一模Q19(2)新能源车企"扎下根" | matched=2024石景山一模 Q19 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024石景山一模\试卷\2024北京石景山高三一模政治（教师版带答案）.docx
+- L1188 ### 2. 2025海淀一模Q21(2) | matched=2025海淀一模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025海淀一模\试卷\2025北京海淀高三一模政治（教师版）.pdf
+- L1283 ### 4. 2025门头沟一模Q19 | matched=2025门头沟一模 Q19 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025门头沟一模\试卷\2025北京门头沟高三一模政治（教师版）.pdf
+- L1298 ### 5. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L1358 ### 9. 2026房山二模Q20 | matched=2026房山二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模\试卷\2026北京房山高三二模政治（教师版）.pdf
+- L1388 ### 11. 2026海淀二模Q20(2) | matched=2026海淀二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026海淀二模\试卷\2026北京海淀高三二模政治（教师版）.docx
+- L1484 ### 3. 2025朝阳二模Q21 | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L1529 ### 6. 2025海淀一模Q21(2) | matched=2025海淀一模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025海淀一模\试卷\2025北京海淀高三一模政治（教师版）.pdf
+- L1574 ### 9. 2024丰台一模Q20 | matched=2024丰台一模 Q20 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024丰台一模\试卷\2024北京丰台高三一模政治试题及答案.pdf
+- L1649 ### 14. 2025朝阳一模Q20 | matched=2025朝阳一模 Q20 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025朝阳一模\试卷\2025北京朝阳高三一模政治（教师版）.pdf
+- L1664 ### 15. 2026东城二模Q20(3) | matched=2026东城二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026东城二模\试卷\2026北京东城高三二模政治（教师版）.docx
+- L1711 ### 2. 2024石景山一模Q19(2)，迁移提醒 | matched=2024石景山一模 Q19 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024石景山一模\试卷\2024北京石景山高三一模政治（教师版带答案）.docx
+- L1758 ### 3. 2024丰台一模Q20 | matched=2024丰台一模 Q20 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024丰台一模\试卷\2024北京丰台高三一模政治试题及答案.pdf
+- L1822 ### 1. 2024丰台一模Q20， | matched=2024丰台一模 Q20 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024丰台一模\试卷\2024北京丰台高三一模政治试题及答案.pdf
+- L1963 ### 6. 2026东城二模Q20(3) | matched=2026东城二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026东城二模\试卷\2026北京东城高三二模政治（教师版）.docx
+- L2010 ### 1. 2025朝阳二模Q21 | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L2251 ### 1. 2025海淀一模Q21(2) | matched=2025海淀一模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025海淀一模\试卷\2025北京海淀高三一模政治（教师版）.pdf
+- L2319 ### 1. 2024朝阳一模Q21 | matched=2024朝阳一模 Q21 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治质量检测一参考答案 上交版.docx
+- L2353 ### 1. 2025门头沟一模Q19 | matched=2025门头沟一模 Q19 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025门头沟一模\试卷\2025北京门头沟高三一模政治（教师版）.pdf
+- L2385 ### 2. 2025朝阳一模Q20 | matched=2025朝阳一模 Q20 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025朝阳一模\试卷\2025北京朝阳高三一模政治（教师版）.pdf
+- L2589 ### 1. 2026朝阳期末Q20 | matched= | paper=
+- L2604 ### 1. 2026朝阳期末Q20 | matched= | paper=
+- L2619 ### 1. 2026朝阳期末Q20 | matched= | paper=
+- L2633 ### 1. 2026东城二模Q20(3) | matched=2026东城二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026东城二模\试卷\2026北京东城高三二模政治（教师版）.docx
+- L2650 ### 1. 2026东城二模Q20(3) | matched=2026东城二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026东城二模\试卷\2026北京东城高三二模政治（教师版）.docx
+- L2667 ### 1. 2026东城二模Q20(3) | matched=2026东城二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026东城二模\试卷\2026北京东城高三二模政治（教师版）.docx
+- L2684 ### 1. 2026房山二模Q20 | matched=2026房山二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模\试卷\2026北京房山高三二模政治（教师版）.pdf
+- L2701 ### 1. 2026西城二模Q19(2) | matched=2026西城二模 Q19 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模\试卷\2026北京西城高三二模政治（教师版）.docx
+- L2757 ### 1. 2025朝阳二模Q21 | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L2924 ### 5. 2026西城期末Q20——参与全球气候治理中的中国实践 | matched= | paper=
+- L2994 ### 10. 2026海淀期中Q22(1)全球治理倡议中的共商共建共享治理观 | matched=2026海淀期中 Q22 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026海淀期中\2025北京海淀高三（上）期中政治（教师版）.docx
+- L3050 ### 14. 2026房山二模Q20 | matched=2026房山二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模\试卷\2026北京房山高三二模政治（教师版）.pdf
+- L3064 ### 15. 2026西城二模Q19(1) | matched=2026西城二模 Q19 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模\试卷\2026北京西城高三二模政治（教师版）.docx
+- L3124 ### 3. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L3263 ### 6. 2024朝阳一模Q21 | matched=2024朝阳一模 Q21 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治质量检测一参考答案 上交版.docx
+- L3355 ### 2. 2025朝阳二模Q21 | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L3370 ### 3. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L3385 ### 4. 2025门头沟一模Q19 | matched=2025门头沟一模 Q19 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025门头沟一模\试卷\2025北京门头沟高三一模政治（教师版）.pdf
+- L3477 ### 1. 2025朝阳二模Q21 | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L3494 ### 1. 2026东城期末Q20四大全球倡议系统推动构建人类命运共同体 | matched=2026东城期中 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026东城期末\2026北京东城高三（上）期末政治（教师版）.pdf
+- L3508 ### 2. 2025朝阳二模Q21我国为什么要努力开创周边工作新局面 | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L3550 ### 5. 2026海淀期中Q22(1)全球治理倡议指引公正合理治理体系建设 | matched=2026海淀期中 Q22 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026海淀期中\2025北京海淀高三（上）期中政治（教师版）.docx
+- L3592 ### 8. 2026西城二模Q19(1) | matched=2026西城二模 Q19 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模\试卷\2026北京西城高三二模政治（教师版）.docx
+- L3606 ### 9. 2026西城二模Q19(2) | matched=2026西城二模 Q19 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模\试卷\2026北京西城高三二模政治（教师版）.docx
+- L3620 ### 10. 2026海淀二模Q20(2) | matched=2026海淀二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026海淀二模\试卷\2026北京海淀高三二模政治（教师版）.docx
+- L3682 ### 2. 2026海淀期中Q22(1) | matched=2026海淀期中 Q22 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026海淀期中\2025北京海淀高三（上）期中政治（教师版）.docx
+- L3750 ### 1. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L3780 ### 3. 2026朝阳期末Q20 | matched= | paper=
+- L3795 ### 4. 2026房山二模Q20 | matched=2026房山二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模\试卷\2026北京房山高三二模政治（教师版）.pdf
+- L3846 ### 1. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L3895 ### 1. 2026西城二模Q19(2) | matched=2026西城二模 Q19 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026西城二模\试卷\2026北京西城高三二模政治（教师版）.docx
+- L3932 ### 1. 2025朝阳二模Q21（国际关系民主化） | matched=2025朝阳二模 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区二模\2025朝阳二模\试卷\2025北京朝阳高三二模政治（教师版）.pdf
+- L3970 ### 1. 2025朝阳期末Q21（共商共建共享观念） | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L3989 ### 1. 2025朝阳期末Q21（国际秩序公正合理） | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L4116 ### 2. 2024朝阳一模Q21 | matched=2024朝阳一模 Q21 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治质量检测一参考答案 上交版.docx
+- L4189 ### 5. 2026西城期末Q20——参与全球气候治理中的中国实践 | matched= | paper=
+- L4231 ### 8. 2025门头沟一模Q19 | matched=2025门头沟一模 Q19 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区一模\2025门头沟一模\试卷\2025北京门头沟高三一模政治（教师版）.pdf
+- L4333 ### 3. 2025海淀二模Q21 | matched= | paper=
+- L4363 ### 5. 2026房山二模Q20 | matched=2026房山二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026房山二模\试卷\2026北京房山高三二模政治（教师版）.pdf
+- L4378 ### 6. 2026海淀二模Q20(2) | matched=2026海淀二模 Q20 | paper=C:\Users\Administrator\Desktop\2026各区模拟题\2026各区二模\2026海淀二模\试卷\2026北京海淀高三二模政治（教师版）.docx
+- L4427 ### 2. 2024朝阳一模Q21 | matched=2024朝阳一模 Q21 | paper=C:\Users\Administrator\Desktop\2024各区模拟题\2024各区一模\2024朝阳一模\其他材料\202404朝阳高三政治质量检测一参考答案 上交版.docx
+- L4457 ### 4. 2025朝阳期末Q21 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf
+- L4504 ### 3. 2026朝阳期末Q20 | matched= | paper=
+- L4588 ### 3. 2025朝阳期末Q21〔本题可同时联系外交政策层与准则层〕 | matched=2025朝阳期末 Q21 | paper=C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\试卷\2025北京朝阳高三（上）期末政治（教师版）.pdf

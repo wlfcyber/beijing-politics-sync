@@ -1,35 +1,35 @@
 # Thickness Repair Priority Queue 20260525
 
-Updated: 2026-05-26 02:05 +08
+Updated: 2026-05-26 02:25 +08
 
 Status: `THICKNESS_REPAIR_PRIORITY_QUEUE_CREATED_REPAIR_NOT_DONE`
 
 - Source audit: `THICKNESS_DENSITY_AUDIT_20260525.csv`.
 - Total density-audit entries: `721`.
-- Thin candidates queued: `442`.
+- Thin candidates queued: `425`.
 - Queue CSV: `THICKNESS_REPAIR_PRIORITY_QUEUE_20260525.csv`.
 - JSON summary: `THICKNESS_REPAIR_PRIORITY_QUEUE_20260525.json`.
 
 ## Priority Counts
 
-- `P1`: `210`
+- `P1`: `193`
 - `P2`: `207`
 - `P3`: `25`
 
 ## Group Counts
 
 - `legacy`: `232`
-- `inserted`: `210`
+- `inserted`: `193`
 
 ## Question Kind Counts
 
-- `subjective`: `314`
+- `subjective`: `297`
 - `choice`: `128`
 
 ## Flag Counts
 
-- `SHORT_WITHOUT_POINT_MARKERS`: `373`
-- `ANSWER_LT_120_CHARS`: `277`
+- `SHORT_WITHOUT_POINT_MARKERS`: `356`
+- `ANSWER_LT_120_CHARS`: `273`
 - `WHY_LT_90_CHARS`: `75`
 
 ## Repair Rule

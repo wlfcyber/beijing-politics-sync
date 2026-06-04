@@ -1,0 +1,26 @@
+{
+  "name": "student",
+  "dir": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\选必一_哲学宝典式重建_2026-05-16\\06_final_handbook\\word_render_qa_20260524_student_manual",
+  "pages": 200,
+  "dims": [
+    [
+      1275,
+      1650
+    ]
+  ],
+  "blank_like_pages": [],
+  "sheets": [
+    "contact_sheet_01.png",
+    "contact_sheet_02.png",
+    "contact_sheet_03.png",
+    "contact_sheet_04.png",
+    "contact_sheet_05.png",
+    "contact_sheet_06.png",
+    "contact_sheet_07.png",
+    "contact_sheet_08.png",
+    "contact_sheet_09.png",
+    "contact_sheet_10.png"
+  ],
+  "min_bytes": 46527,
+  "max_bytes": 428691
+}

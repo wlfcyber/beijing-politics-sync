@@ -1,26 +1,26 @@
 {
-  "updated": "2026-05-26 02:05 +08",
+  "updated": "2026-05-26 02:25 +08",
   "source": "THICKNESS_DENSITY_AUDIT_20260525.csv",
   "total_entries_in_density_audit": 721,
-  "thin_candidates": 442,
-  "queue_rows": 442,
+  "thin_candidates": 425,
+  "queue_rows": 425,
   "priority_counts": {
-    "P1": 210,
+    "P1": 193,
     "P2": 207,
     "P3": 25
   },
   "group_counts": {
-    "inserted": 210,
+    "inserted": 193,
     "legacy": 232
   },
   "question_kind_counts": {
     "choice": 128,
-    "subjective": 314
+    "subjective": 297
   },
   "flag_counts": {
-    "ANSWER_LT_120_CHARS": 277,
+    "ANSWER_LT_120_CHARS": 273,
     "WHY_LT_90_CHARS": 75,
-    "SHORT_WITHOUT_POINT_MARKERS": 373
+    "SHORT_WITHOUT_POINT_MARKERS": 356
   },
   "output_csv": "THICKNESS_REPAIR_PRIORITY_QUEUE_20260525.csv",
   "boundary": [

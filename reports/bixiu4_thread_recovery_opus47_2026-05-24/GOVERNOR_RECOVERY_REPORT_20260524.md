@@ -2003,3 +2003,27 @@ Status: `PASS_LOCAL_BATCH21_P1_INCREMENT_WITH_OPEN_GATES`
 - Governor verdict: local Batch21 is accepted as an incremental P1 repair. The line remains non-terminal because P1/P2/P3 thickness candidates remain and current-version external review is pending.
 - Claude web/app retry rule: direct `https://claude.ai` auto-login is the required path; do not record this as Google-login failure.
 - Upload rule: ORDER_063 remains deferred; Batch21 artifacts must be included in the eventual upload scope, but no push is allowed while gates remain open.
+
+## Governor P1 Thickness Batch22 Update 20260526
+
+Updated: 2026-05-26 02:30 +08
+
+Status: `PASS_LOCAL_BATCH22_P1_INCREMENT_WITH_OPEN_GATES`
+
+- What changed: 17 additional P1 subjective thin rows were locally thickened in the DOCX under their existing framework nodes.
+- Precision guard: every edited row was matched by exact heading plus current queue old-answer excerpt; duplicate same-question rows in other nodes were not overwritten.
+- Evidence guard:
+  - Batch22 used only rows with same-question current matrix support from formal scoring/rubric, formal marking-rule, official scoring-standard, or formal wide-angle PPT evidence;
+  - wide-angle formal evidence was labeled as such and not promoted into point-by-point scoring rules;
+  - ordinary reference answers were not upgraded into scoring rubrics;
+  - Sonnet/Haiku/model-unknown material was not used as qualified model evidence.
+- Verification:
+  - DOCX backup exists before edit;
+  - DOCX structural zip check passed;
+  - style consistency audit passed;
+  - refreshed thickness queue dropped from 442 to 425 candidates and P1 from 210 to 193;
+  - PDF re-export/render passed at `309/309` pages with no blank-like body pages;
+  - regenerated contact sheets for pages `001-309` were opened and thumbnail-reviewed, including tail pages `301-309`.
+- Governor verdict: local Batch22 is accepted as an incremental P1 repair. The line remains non-terminal because P1/P2/P3 thickness candidates remain and current-version external review is pending.
+- Claude web/app retry rule: direct `https://claude.ai` auto-login is the required path; do not record this as Google-login failure.
+- Upload rule: ORDER_063 remains deferred; Batch22 artifacts must be included in the eventual upload scope, but no push is allowed while gates remain open.

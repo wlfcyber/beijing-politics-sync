@@ -1,0 +1,166 @@
+{
+  "suite": "2026通州期末",
+  "docx": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.docx",
+  "pdf": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24.pdf",
+  "pdf_backup": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\\05_delivery\\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_batch34_render_20260525.pdf",
+  "docx_bytes": 433781,
+  "pdf_bytes": 4817621,
+  "pdf_pages": 280,
+  "rendered_png_count": 280,
+  "blank_like_pages_all": [
+    2
+  ],
+  "blank_like_pages_excluding_cover_foreword": [],
+  "docx_label_count": 2787,
+  "pdf_label_count": 2787,
+  "docx_suite_heading_count": 29,
+  "word_visible_heading_count": 29,
+  "word_visible_headings": [
+    {
+      "heading": "8. 2026通州期末 第16题（主观题）",
+      "page": 8
+    },
+    {
+      "heading": "11. 2026通州期末 第16题（主观题）",
+      "page": 12
+    },
+    {
+      "heading": "35. 2026通州期末 第16题（主观题）",
+      "page": 32
+    },
+    {
+      "heading": "17. 2026通州期末 第16题（主观题）",
+      "page": 39
+    },
+    {
+      "heading": "16. 2026通州期末 第16题（主观题）",
+      "page": 47
+    },
+    {
+      "heading": "17. 2026通州期末 第21题（主观题）",
+      "page": 47
+    },
+    {
+      "heading": "19. 2026通州期末 第16题（主观题）",
+      "page": 55
+    },
+    {
+      "heading": "41. 2026通州期末 第21题（主观题）",
+      "page": 64
+    },
+    {
+      "heading": "6. 2026通州期末 第16题（主观题）",
+      "page": 66
+    },
+    {
+      "heading": "10. 2026通州期末 第8题（选择题）",
+      "page": 70
+    },
+    {
+      "heading": "4. 2026通州期末 第16题（主观题）",
+      "page": 71
+    },
+    {
+      "heading": "19. 2026通州期末 第16题（主观题）",
+      "page": 80
+    },
+    {
+      "heading": "17. 2026通州期末 第21题（主观题）",
+      "page": 87
+    },
+    {
+      "heading": "34. 2026通州期末 第5题（选择题）",
+      "page": 93
+    },
+    {
+      "heading": "35. 2026通州期末 第9题（选择题）",
+      "page": 94
+    },
+    {
+      "heading": "36. 2026通州期末 第16题（主观题）",
+      "page": 94
+    },
+    {
+      "heading": "22. 2026通州期末 第16题（主观题）",
+      "page": 103
+    },
+    {
+      "heading": "38. 2026通州期末 第7题（选择题）",
+      "page": 108
+    },
+    {
+      "heading": "20. 2026通州期末 第7题（选择题）",
+      "page": 115
+    },
+    {
+      "heading": "21. 2026通州期末 第16题（主观题）",
+      "page": 116
+    },
+    {
+      "heading": "10. 2026通州期末 第16题（主观题）",
+      "page": 119
+    },
+    {
+      "heading": "13. 2026通州期末 第16题（主观题）",
+      "page": 124
+    },
+    {
+      "heading": "45. 2026通州期末 第8题（选择题）",
+      "page": 148
+    },
+    {
+      "heading": "17. 2026通州期末 第21题（主观题）",
+      "page": 182
+    },
+    {
+      "heading": "20. 2026通州期末 第16题（主观题）",
+      "page": 238
+    },
+    {
+      "heading": "36. 2026通州期末 第5题（选择题）",
+      "page": 243
+    },
+    {
+      "heading": "37. 2026通州期末 第21题（主观题）",
+      "page": 243
+    },
+    {
+      "heading": "22. 2026通州期末 第21题（主观题）",
+      "page": 266
+    },
+    {
+      "heading": "44. 2026通州期末 第16题（主观题）",
+      "page": 276
+    }
+  ],
+  "pdf_suite_text_count": 0,
+  "suite_hit_pages": [
+    8,
+    12,
+    32,
+    39,
+    47,
+    55,
+    64,
+    66,
+    70,
+    71,
+    80,
+    87,
+    93,
+    94,
+    103,
+    108,
+    115,
+    116,
+    119,
+    124,
+    148,
+    182,
+    238,
+    243,
+    266,
+    276
+  ],
+  "contact_sheet": "C:\\Users\\Administrator\\Desktop\\02_代码项目与工具\\mac-thread-restore\\beijing-politics-sync-visible\\reports\\bixiu4_thread_recovery_opus47_2026-05-24\\word_render_qa_20260525_batch34_word\\batch34_hit_pages_contact_sheet.png"
+}

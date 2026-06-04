@@ -26,3 +26,14 @@ ClaudeCode `--model opus --effort max` was run as a fallback content review afte
 ## Next action
 
 After the user confirms Claude web is logged in on a controllable Chrome profile, submit the unchanged v6 artifact and saved GPT Pro PASS packet to Claude Opus / Adaptive for final review.
+
+## Superseding Correction - 2026-05-25
+
+The next action above is superseded for future retries. The user clarified that the correct retry path is direct `https://claude.ai` auto-login, not repeatedly choosing a Google login route or waiting on an account chooser.
+
+Future retry rule:
+
+- Open `https://claude.ai` directly.
+- Use the current machine's existing Claude session and expected automatic login.
+- Do not call the Claude gate blocked by Google login/account chooser unless the direct path was tried and failed with evidence.
+- If direct auto-login succeeds, run and capture the required Opus 4.7 Adaptive review before counting the gate.

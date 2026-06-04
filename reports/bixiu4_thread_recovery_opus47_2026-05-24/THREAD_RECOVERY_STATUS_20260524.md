@@ -2128,3 +2128,39 @@ Updated: 2026-05-25 19:04 +08
   - current-version GPTPro/Claude external review is `real_call_pending`;
   - ClaudeCode model confirmation remains `BLOCKED_MODEL_CONFIRMATION_REQUIRED`;
   - ORDER_063 upload remains deferred; no GitHub push attempted.
+
+## P1 Thickness Batch22 Recovery Update 20260526
+
+- Updated: 2026-05-26 02:30 +08
+- Status: `RECOVERED_EXECUTION_IN_PROGRESS_P1_BATCH22_APPLIED_GATES_OPEN`.
+- Created inspection artifact: `P1_BATCH22_MATRIX_CANDIDATE_INSPECTION_20260526.md`.
+- Created repair script: `apply_p1_thickness_batch22_20260526.py`.
+- Created draft/apply artifacts:
+  - `P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.md`
+  - `P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.csv`
+  - `P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.json`
+  - `P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.md`
+  - `P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.csv`
+  - `P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.json`
+- DOCX backup before repair: `05_delivery/*_backup_before_p1_thickness_batch22_20260526_022441.docx`.
+- Local repair scope: 17 P1 subjective thin rows with same-question matrix support from formal scoring/rubric, official marking rule, or formal wide-angle PPT/scoring-standard evidence.
+- Applied rows: T0241, T0053, T0242, T0188, T0076, T0421, T0055, T0127, T0211, T0031, T0422, T0373, T0212, T0129, T0285, T0130, T0213.
+- Matrix evidence cited in apply artifact: M0921, M0913, M1002, M1444, M1001/M1003/M1004, M0429, M0655, M0920, M0996/M1005, M0927, M1008, M1449/M1450, M1448, M0003, M1205.
+- Evidence boundary:
+  - Batch22 did not use ordinary reference answers as scoring rubrics;
+  - rows supported only by formal wide-angle scoring materials are labeled as non-point-by-point support;
+  - all selected rows were accepted only because current matrix rows provided same-question formal support;
+  - Sonnet, Haiku, and model-unknown outputs remain excluded from qualified model evidence.
+- Refreshed thickness result after Batch22: thin candidates `425` out of `721`; priority counts P0 `0`, P1 `193`, P2 `207`, P3 `25`.
+- Refreshed grouping after Batch22: legacy `232`, inserted `193`; subjective `297`, choice `128`.
+- Refreshed flag counts after Batch22: `ANSWER_LT_120_CHARS` 273, `WHY_LT_90_CHARS` 75, `SHORT_WITHOUT_POINT_MARKERS` 356.
+- Cumulative local repairs in this recovery thread: at least `218` rows, including `152` P0 rows and `66` P1 rows.
+- Re-export/render result after DOCX edit: render timestamp `20260526_022608`; DOCX bytes `476243`; PDF bytes `4693630`; PDF pages/rendered PNGs `309/309`; DOCX/PDF visible label counts `2890/2890`; required four-label counts remain `721` each; blank-like body pages `0`.
+- DOCX style consistency audit after render: `PASS`.
+- Every-page visual QA refreshed: `309` rows, metric review-required rows `0`, regenerated contact sheets pages `001-309` opened and reviewed at thumbnail level.
+- Tail-page check: pages `301-309` contain visible content and footers; no tail blanking detected.
+- Current blockers:
+  - thickness queue remains open: P1 `193`, P2 `207`, P3 `25`;
+  - current-version GPTPro/Claude external review is `real_call_pending`;
+  - ClaudeCode model confirmation remains `BLOCKED_MODEL_CONFIRMATION_REQUIRED`;
+  - ORDER_063 upload remains deferred; no GitHub push attempted.

@@ -169,3 +169,11 @@ Updated: 2026-05-26 02:11 +08
 - No new Claude web/app external review has been completed after P1 Batch21 changed the DOCX/PDF.
 - Current-version Claude Opus 4.7 adaptive-thinking full-artifact review remains `real_call_pending`.
 - The next retry must use the already signed-in direct Claude session and must not use the Google login button.
+
+## Current Boundary After P1 Batch22
+Updated: 2026-05-26 02:30 +08
+
+- Direct `https://claude.ai` remains the required retry path for any further Claude web/app review.
+- No new Claude web/app external review has been completed after P1 Batch22 changed the DOCX/PDF.
+- Current-version Claude Opus 4.7 adaptive-thinking full-artifact review remains `real_call_pending`.
+- The next retry must use the already signed-in direct Claude session and must not use the Google login button.

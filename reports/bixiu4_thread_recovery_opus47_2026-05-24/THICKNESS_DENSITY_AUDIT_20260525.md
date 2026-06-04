@@ -1,18 +1,18 @@
 # Thickness Density Audit 20260525
 
-Updated: 2026-05-26 02:05 +08
+Updated: 2026-05-26 02:25 +08
 
 Status: `THICKNESS_QUEUE_CREATED_REQUIRES_REVIEW`
 
 - Question entries audited: `721`.
 - Inserted/legacy entries: `415/306`.
-- Thin-candidate entries: `442`.
-- Inserted/legacy thin candidates: `210/232`.
+- Thin-candidate entries: `425`.
+- Inserted/legacy thin candidates: `193/232`.
 
 ## Thin Flag Counts
 
-- `SHORT_WITHOUT_POINT_MARKERS`: `373`
-- `ANSWER_LT_120_CHARS`: `277`
+- `SHORT_WITHOUT_POINT_MARKERS`: `356`
+- `ANSWER_LT_120_CHARS`: `273`
 - `WHY_LT_90_CHARS`: `75`
 
 ## Top Thin Candidates
@@ -39,13 +39,11 @@ Status: `THICKNESS_QUEUE_CREATED_REQUIRES_REVIEW`
 | 38. 2026海淀期末 第2题（选择题） | inserted | 51 | 46 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 看待评价和自我认识要坚持全面观点，既看到他人评价的参考意义，也看到评价背后的动机和条件，避免片面盲从。 |
 | 2. 2024东城二模 第16题（主观题） | legacy | 51 | 109 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 桑基鱼塘历久未老，是因为它尊重并按人与自然和谐共生的客观规律处理农业生产，所以能跨越千年持续发挥作用。 |
 | 17. 2026西城期末 第4题（选择题） | inserted | 52 | 42 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 不同诗词的具体描写是特殊表现，其中可能蕴含江豚生存与分布的一般规律，要在普遍性与特殊性的统一中提取线索。 |
-| 17. 2026通州期末 第21题（主观题） | inserted | 52 | 135 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 谱写中国式现代化篇章，要坚持联系观与系统观念，统筹改革、开放、创新、民生等多领域，推动国内国际联动发展。 |
 | 13. 2026西城期末 第3题（选择题） | inserted | 53 | 55 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 虚拟模拟作为新的研究工具扩展了人们处理复杂医学对象的能力，能够促进认识能力提高，推动认识在技术条件中发展。 |
 | 31. 2026丰台期末 第4题（选择题） | inserted | 54 | 33 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 本题只作客观选择题挂点。水务机器人延伸人的认识器官和实践工具，使人能够更有效获取治理信息并改进水务治理实践。 |
 | 27. 2026房山一模 第4题（选择题） | inserted | 55 | 54 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 本题应选A。作答可写：坚持系统优化方法，统筹理论、实践和交流等要素，促进各部分协同发力，推动自主知识体系创新。 |
 | 20. 2026通州期末 第16题（主观题） | inserted | 55 | 110 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 都江堰之所以能跨越千年，根本在于尊重和依靠民众力量——李冰率民修堰、历代百姓接力护堰，治水智慧扎根于人民实践。 |
 | 12. 2025延庆一模 第16题（主观题） | legacy | 56 | 101 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 从中老年观众的认知特点和精神文化需要出发，简化操作、优化推荐与付费模式，让作品内容与其审美习惯、生活经验相契合。 |
-| 17. 2026通州期末 第21题（主观题） | inserted | 56 | 108 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 谱写中国式现代化篇章，必须坚持实践观，在实践中探索道路，用理论创新指导新实践，让党的创新理论持续引领现代化建设。 |
 | 8. 2024东城二模 第16题（主观题） | legacy | 56 | 114 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 桑基鱼塘历久未老，是因为它把多要素联系为相互依存的整体，通过系统优化实现整体大于部分之和，从而具备持久的生命力。 |
 | 9. 2025东城一模 第16题（主观题） | inserted | 57 | 103 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 春节承载的和睦幸福价值取向作为正确价值观，发挥导向作用并指引人们在价值判断与选择中维护、传承、奋斗，故能生生不息。 |
 | 28. 2026丰台期末 第2题（选择题） | inserted | 58 | 37 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 本题只作客观选择题挂点。基层治理和公共服务要坚持群众观点，站稳人民立场，解决群众身边事，增强获得感、幸福感和安全感。 |
@@ -59,6 +57,8 @@ Status: `THICKNESS_QUEUE_CREATED_REQUIRES_REVIEW`
 | 12. 2024东城二模 第16题（主观题） | legacy | 61 | 90 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 桑基鱼塘历久未老，是因为它体现了科学的价值取向，同时符合社会发展规律和最广大人民根本利益，所以被实践和人民长期选择和延续。 |
 | 11. 2025朝阳二模 第22题（主观题） | legacy | 61 | 97 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 顶层设计要着眼整体、把握各要素的关联性与动态性，统筹各阶段各领域，实现整体功能大于部分功能之和，从而科学推进中国式现代化。 |
 | 30. 2026丰台期末 第4题（选择题） | inserted | 62 | 38 | ANSWER_LT_120_CHARS|WHY_LT_90_CHARS|SHORT_WITHOUT_POINT_MARKERS | 本题只作客观选择题挂点。机器人不会自行生成治理模式，其作为实践工具的革新，是人在认识水务治理问题基础上发挥主观能动性的结果。 |
+| 2. 2025海淀期末 第17题第（2）问（主观题） | inserted | 62 | 94 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 纪念失败者，是因为他们的失败实践是认识发展的动力，正是这些实践推动了人类对能量规律的认识，最终奠定了能量守恒定律的实践基础。 |
+| 4. 2026西城一模 第21题（主观题） | legacy | 62 | 110 | ANSWER_LT_120_CHARS|SHORT_WITHOUT_POINT_MARKERS | 所以关键时期更要坚持探索，在攻坚突破中克服困难、积累经验和条件，推动现代化由量变向质变跃升，让现代化在关键节点上跨上新台阶。 |
 
 ## Boundary
 

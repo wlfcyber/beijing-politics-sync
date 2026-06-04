@@ -673,14 +673,14 @@ Updated: 2026-05-25 19:02 +08
 
 
 ## Heading Style Consistency Render QA 20260525
-Updated: 20260526_020606
+Updated: 20260526_022608
 
 - Status: `RENDER_PASS_HEADING_STYLE_CONSISTENCY_PASS_MODEL_GATES_OPEN`.
-- DOCX bytes after heading style normalization: `474956`.
-- PDF bytes after re-export: `4698422`.
-- PDF export backup: `C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\05_delivery\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_heading_style_fix_render_20260526_020606.pdf`.
+- DOCX bytes after heading style normalization: `476243`.
+- PDF bytes after re-export: `4693630`.
+- PDF export backup: `C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\bixiu4_baodian_52_base_insert_second_mock_first_mock_audit_2026-05-24\05_delivery\哲学宝典最终版-飞哥正志讲堂_2026二模与一模漏项补强版_2026-05-24_backup_before_heading_style_fix_render_20260526_022608.pdf`.
 - Rendered PNGs: `309/309` under `word_render_qa_20260525_heading_style_fix`.
-- DOCX/PDF label counts: `2891/2891`.
+- DOCX/PDF label counts: `2890/2890`.
 - Blank-like body pages excluding cover/foreword: `0`.
 - Independent style audit status: `PASS`.
 - Question entries audited: `721`; inserted/legacy entries: `415/306`.
@@ -690,18 +690,19 @@ Updated: 20260526_020606
 - Contact sheet: `C:\Users\Administrator\Desktop\02_代码项目与工具\mac-thread-restore\beijing-politics-sync-visible\reports\bixiu4_thread_recovery_opus47_2026-05-24\word_render_qa_20260525_heading_style_fix\heading_style_fix_contact_sheet.png`.
 - Boundary: this is local structural/render QA. GPTPro web and Claude Opus web/app external reviews remain `real_call_pending`; ClaudeCode model gate remains `BLOCKED_MODEL_CONFIRMATION_REQUIRED`.
 
-## P1 Batch21 Render/Format Delta 20260526
+## P1 Batch22 Render/Format Delta 20260526
 
-Updated: 2026-05-26 02:11 +08
+Updated: 2026-05-26 02:30 +08
 
-- Status: `RENDER_PASS_AFTER_P1_BATCH21_GATES_OPEN`.
-- Render timestamp: `20260526_020606`.
-- DOCX bytes: `474956`.
-- PDF bytes: `4698422`.
+- Status: `RENDER_PASS_AFTER_P1_BATCH22_GATES_OPEN`.
+- Render timestamp: `20260526_022608`.
+- DOCX bytes: `476243`.
+- PDF bytes: `4693630`.
 - PDF pages/rendered PNGs: `309/309`.
-- DOCX/PDF label counts: `2891/2891`.
+- DOCX/PDF visible label counts: `2890/2890`.
+- Required four-label counts: `721` each for material, question, why, and answer.
 - Blank-like body pages: `0`.
 - DOCX style consistency audit: `PASS`.
 - Every-page visual metric rows: `309`; review-required rows `0`.
 - Contact-sheet review: pages `001-309` opened at thumbnail level; no obvious full-page blank, missing page, severe clipping, page-order break, or page-scale layout drift. Pages `301-309` are visible tail pages with content/footer.
-- Boundary: this is render/format QA after local Batch21 only; it does not close remaining P1/P2/P3 thickness or model gates.
+- Boundary: this is render/format QA after local Batch22 only; it does not close remaining P1/P2/P3 thickness or model gates.

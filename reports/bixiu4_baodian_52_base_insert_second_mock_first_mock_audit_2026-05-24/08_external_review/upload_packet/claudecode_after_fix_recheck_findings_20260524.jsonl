@@ -1,0 +1,5 @@
+{"verdict":"SCOPED_PASS","row_id":"26","suite":"2026海淀二模","question_no":"Q16","reason":"answer_landing无系统优化模板语言，结尾为联系语言：在联系中理解、检验和发展认识，形成真本领。","required_action":"none"}
+{"verdict":"SCOPED_PASS","row_id":"36","suite":"2026石景山二模","question_no":"Q17(3)","reason":"answer_landing无系统优化模板语言，结尾为联系语言：不能只看治理效果而忽视制度基础。","required_action":"none"}
+{"verdict":"SCOPED_PASS","row_id":"16","suite":"2026丰台二模","question_no":"Q16","reason":"question_prompt已含《哲学与文化》书名号及中文引号"守护湿地，就是守护生态之美与文化根脉"，湿地题干确认。","required_action":"none"}
+{"verdict":"SCOPED_PASS","row_id":"3,11,15,19,22","suite":"系统观念各套","question_no":"multiple","reason":"五条系统优化节点why_trigger已改写为材料具体语言，原通用元指令句已全部清除。","required_action":"none"}
+{"verdict":"SCOPED_PASS","row_id":"all_other","suite":"all","question_no":"all","reason":"本次delta仅改动rows 3/11/15/16/19/22/26/36，其余行未被触及，已接受的base-handbook表述未被重开。","required_action":"none"}

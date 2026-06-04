@@ -133,3 +133,14 @@ Updated: 2026-05-26 02:11 +08
 - Required future pre-push gate remains: exact upload scope first, sensitive-information scan second, actual clean-scan or blocked-file result third, then selective commit/push.
 - Current line state remains open-gate: P0 `0`, P1 `210`, P2 `207`, P3 `25`, GPTPro/Claude current-version external review `real_call_pending`, ClaudeCode model confirmation `BLOCKED_MODEL_CONFIRMATION_REQUIRED`.
 - The prohibited terminal acceptance label must not be used for this line while these gates remain open.
+
+## Final Upload Binding Refresh After P1 Batch22 20260526
+
+Updated: 2026-05-26 02:30 +08
+
+- User hard instruction is active: do not push now.
+- Final GitHub upload is allowed only after all active Beijing politics lines enter a clear terminal state or a user-approved blocker state.
+- At that later point, this Bixiu4 recovery line must contribute the final deliverables, coverage matrix, Claude/GPT records, Governor/Confucius reports, Word/PDF QA, render artifacts, and process logs to the upload scope.
+- Required future pre-push gate remains: exact upload scope first, sensitive-information scan second, actual clean-scan or blocked-file result third, then selective commit/push.
+- Current line state remains open-gate: P0 `0`, P1 `193`, P2 `207`, P3 `25`, GPTPro/Claude current-version external review `real_call_pending`, ClaudeCode model confirmation `BLOCKED_MODEL_CONFIRMATION_REQUIRED`.
+- The prohibited terminal acceptance label must not be used for this line while these gates remain open.

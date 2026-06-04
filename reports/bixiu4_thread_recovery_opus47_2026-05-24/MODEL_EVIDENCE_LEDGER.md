@@ -1633,3 +1633,28 @@ status: `NO_NEW_EXTERNAL_MODEL_EVIDENCE_LOCAL_P1_BATCH21_APPLIED`
   - if a Claude web/app retry is attempted, use direct `https://claude.ai` auto-login instead of any Google-login path.
 - Sonnet, Haiku, and model-unknown outputs remain excluded from qualified evidence.
 - ClaudeCode production-lane replacement evidence remains `BLOCKED_MODEL_CONFIRMATION_REQUIRED`.
+
+## MODEL_GATE_P1_THICKNESS_BATCH22_20260526
+
+status: `NO_NEW_EXTERNAL_MODEL_EVIDENCE_LOCAL_P1_BATCH22_APPLIED`
+
+- Updated: 2026-05-26 02:30 +08
+- Local production artifacts:
+  - `inspect_p1_batch22_matrix_candidates_20260526.py`
+  - `P1_BATCH22_MATRIX_CANDIDATE_INSPECTION_20260526.md`
+  - `apply_p1_thickness_batch22_20260526.py`
+  - `P1_THICKNESS_REPAIR_BATCH22_DRAFT_20260526.md/.csv/.json`
+  - `P1_THICKNESS_REPAIR_BATCH22_APPLY_20260526.md/.csv/.json`
+- Local validation after repair:
+  - DOCX zip structural check: `true`;
+  - DOCX style consistency audit: `PASS`;
+  - refreshed thickness queue: total candidates `425`, P0 `0`, P1 `193`, P2 `207`, P3 `25`;
+  - Word/PDF render: timestamp `20260526_022608`, `309/309` pages, visible label counts `2890/2890`, required four-label counts `721` each, blank-like body pages `0`;
+  - every-page metric QA: `309` rows, review-required rows `0`;
+  - contact-sheet visual review: pages `001-309` reviewed, pages `301-309` confirmed visible content/footer.
+- Model-evidence boundary:
+  - this is local Codex production repair and QA, not new GPTPro, Claude web/app, or ClaudeCode evidence;
+  - the current DOCX/PDF changed after prior external web reviews, so current-version GPTPro/Claude external review remains pending after remaining thickness gates are handled or explicitly bounded;
+  - if a Claude web/app retry is attempted, use direct `https://claude.ai` auto-login instead of any Google-login path.
+- Sonnet, Haiku, and model-unknown outputs remain excluded from qualified evidence.
+- ClaudeCode production-lane replacement evidence remains `BLOCKED_MODEL_CONFIRMATION_REQUIRED`.
