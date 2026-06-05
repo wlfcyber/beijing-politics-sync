@@ -1,0 +1,267 @@
+{
+  "title": "ChatGPT",
+  "url": "https://chatgpt.com/",
+  "bodyHead": "跳至内容\n历史聊天记录\nChatGPT\n新聊天\n搜索聊天\n库\n应用\nCodex\n更多\n项目\n新项目\n含“金”量最高的项目\n计量经济学\n北京高考政治教研\n世界经济概论pre\n小红书自媒体\n更多\n最近\n线代期中考题分析\nWeb App Review Pass\nExternal Review Context\nv11 Review Pass\nWeb App Review Pass\nWeb/App Review Pass\nWeb App Review Analysis\nWeb Review Pass\nWeb Review Pass\nFile compilation review\nDocument review summary\nVerification Results\nTranscript review summary\nVisa卡充值方法\nTest Result Summary\n网页外审精简包\n网页外审精简包\n网页外审精简包\n论文外审反馈\n网页外审精简包\n引文核验报告\n数字形式主义核验\n网页外审精简包\n严格论文引用核验\n引用核验与审稿\n严格复核论文引用\n引用核验与审稿\n引用修复核查\n引用修复复核\nLifei Wang\nPro\n我们先从哪里开始呢？\n\n进阶专业",
+  "modelMentions": [
+    "Pro",
+    "进阶",
+    "专业"
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "aria": "打开边栏",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "关闭边栏",
+      "testid": "close-sidebar-button"
+    },
+    {
+      "text": "搜索聊天",
+      "aria": "",
+      "testid": null
+    },
+    {
+      "text": "项目",
+      "aria": "",
+      "testid": null
+    },
+    {
+      "text": "新项目",
+      "aria": "",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开项目首页",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开 含“金”量最高的项目 的项目选项",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开项目首页",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开 计量经济学 的项目选项",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开项目首页",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开 北京高考政治教研 的项目选项",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开项目首页",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开 世界经济概论pre 的项目选项",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开项目首页",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开 小红书自媒体 的项目选项",
+      "testid": null
+    },
+    {
+      "text": "最近",
+      "aria": "",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "打开“线代期中考题分析”的对话选项",
+      "testid": "undefined-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Web App Review Pass”的对话选项",
+      "testid": "history-item-0-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“External Review Context”的对话选项",
+      "testid": "history-item-1-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“v11 Review Pass”的对话选项",
+      "testid": "history-item-2-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Web App Review Pass”的对话选项",
+      "testid": "history-item-3-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Web/App Review Pass”的对话选项",
+      "testid": "history-item-4-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Web App Review Analysis”的对话选项",
+      "testid": "history-item-5-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Web Review Pass”的对话选项",
+      "testid": "history-item-6-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Web Review Pass”的对话选项",
+      "testid": "history-item-7-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“File compilation review”的对话选项",
+      "testid": "history-item-8-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Document review summary”的对话选项",
+      "testid": "history-item-9-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Verification Results”的对话选项",
+      "testid": "history-item-10-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Transcript review summary”的对话选项",
+      "testid": "history-item-11-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Visa卡充值方法”的对话选项",
+      "testid": "history-item-12-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“Test Result Summary”的对话选项",
+      "testid": "history-item-13-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“网页外审精简包”的对话选项",
+      "testid": "history-item-14-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“网页外审精简包”的对话选项",
+      "testid": "history-item-15-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“网页外审精简包”的对话选项",
+      "testid": "history-item-16-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“论文外审反馈”的对话选项",
+      "testid": "history-item-17-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“网页外审精简包”的对话选项",
+      "testid": "history-item-18-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“引文核验报告”的对话选项",
+      "testid": "history-item-19-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“数字形式主义核验”的对话选项",
+      "testid": "history-item-20-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“网页外审精简包”的对话选项",
+      "testid": "history-item-21-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“严格论文引用核验”的对话选项",
+      "testid": "history-item-22-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“引用核验与审稿”的对话选项",
+      "testid": "history-item-23-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“严格复核论文引用”的对话选项",
+      "testid": "history-item-24-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“引用核验与审稿”的对话选项",
+      "testid": "history-item-25-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“引用修复核查”的对话选项",
+      "testid": "history-item-26-options"
+    },
+    {
+      "text": "",
+      "aria": "打开“引用修复复核”的对话选项",
+      "testid": "history-item-27-options"
+    },
+    {
+      "text": "",
+      "aria": "下载应用",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "开启临时聊天",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "添加文件等",
+      "testid": "composer-plus-btn"
+    },
+    {
+      "text": "进阶专业",
+      "aria": "",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "开始听写",
+      "testid": null
+    },
+    {
+      "text": "",
+      "aria": "启动语音功能",
+      "testid": null
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+4 | AXButton | Open sidebar
+7 | AXStaticText | New chat
+8 | AXStaticText | Chats
+8 | AXStaticText | Projects
+7 | AXStaticText | Artifacts
+8 | AXStaticText | Customize
+9 | AXStaticText | Code
+9 | AXStaticText | Cowork
+9 | AXStaticText | Design
+5 | AXPopUpButton | LaceyFitzgerald, Settings
+3 | AXButton | Claude Opus 4.8 Max 网页应用复审结论, rename chat
+3 | AXPopUpButton | More options for Claude Opus 4.8 Max 网页应用复审结论
+3 | AXStaticText | Claude finished the response
+3 | AXButton | Pasted Text, pasted, 6,382 lines
+4 | AXStaticText | missing value
+4 | AXButton | Retry
+4 | AXButton | Edit
+4 | AXButton | Copy
+3 | AXHeading | Claude responded: 以下为 Claude Opus 4.
+4 | AXStaticText | Claude responded: 以下为 Claude Opus 4.
+3 | AXButton | Conducted comprehensive quality audit of educational documents
+4 | AXStaticText | Conducted comprehensive quality audit of educational documents
+4 | AXStaticText | 以下为 Claude Opus 4.8 Max 网页/应用端复审结论。说明：本轮为纯文本复审，未运行 CLI，未渲染 PDF，因此图片保真/裁切无法在本端核验，相关项归入「需 Codex 本地复核」。
+3 | AXHeading | 1. verdict
+4 | AXStaticText | 1. verdict
+4 | AXStaticText | FAIL
+4 | AXStaticText | v9 四个阻断项（东城二模19(1)、海淀一模19、西城一模18(3)、昌平二模20(1)）与 v10 四个阻断项（朝阳二模18、通州一模20、通州期末19(1)、朝阳期末18(1)）经逐条核对
+4 | AXStaticText | 均已真正修复
+4 | AXStaticText | ，噪音扫描维度（source_id / entry_E / 本机路径 / 三十秒速记 / 制作记录 等）在两份学生文档正文中
+4 | AXStaticText | 确实为零
+4 | AXStaticText | 。但本轮全量复审新发现两处阻断项，故不能作为学生可发版。
+3 | AXHeading | 2. BLOCKING defects（必须先修）
+4 | AXStaticText | 2. BLOCKING defects（必须先修）
+4 | AXStaticText | B1｜2024 · 朝阳 · 二模 · 第17题（汇编 + 宝典 A8 两处，细则与答案落点均中招）
+4 | AXStaticText | 问题：该条目「细则」与「答案落点」整段保留了 OCR 乱码，字符「辩」系统性替代了左括号「（」，全条约 14 处，例如「人格从属性
+4 | AXStaticText | 辩
+4 | AXStaticText | 1分）」「
+4 | AXStaticText | 辩
+4 | AXStaticText | 二）意义」「
+4 | AXStaticText | 辩
+4 | AXStaticText | 此三点答出两点给2分）」「
+4 | AXStaticText | 辩
+4 | AXStaticText | 或践行社会主义核心价值观）
+4 | AXStaticText | 辩
+4 | AXStaticText | 1分）」；并含义级错字「
+4 | AXStaticText | 实社社会
+4 | AXStaticText | 公平正义」（应为「实现社会公平正义」）。同时「答案落点」是细则的逐字转储，开头还带编辑标签「
+4 | AXStaticText | 原答案：
+4 | AXStaticText | 」。学生无法正常读出给分点结构，性质与 v10 已阻断的「基本紫情 / 张菜」同级。
+4 | AXStaticText | 本地必须怎样修：
+5 | AXStaticText | 从原细则图重新校对该条，将所有「辩」恢复为正确括号「（…）」，将「实社社会」改为「实现社会」；
+5 | AXStaticText | 删除「原答案：」编辑标签；
+5 | AXStaticText | 将「答案落点」重写为干净的提炼式条目（对齐 v9/v10 已清理条目的形态），不要再逐字转储带乱码的细则；
+5 | AXStaticText | 汇编与宝典 A8 两处同步修改并重渲。
+4 | AXStaticText | B2｜2026 · 房山 · 二模 · 第18题第1问（宝典 A 轴明显错位）
+4 | AXStaticText | 问题：该分问被归入「
+4 | AXStaticText | A1 民事行为与时效
+4 | AXStaticText | 」，但题目三类风险（虚假负面数据＝商业诋毁/不正当竞争＋名誉权、上传核心代码＝商业秘密泄露、国潮图案＝著作权）与细则给分（不正当竞争/商业诋毁、名誉权、商业秘密、著作权各 1 分）完全是知识产权与公平竞争范畴，
+4 | AXStaticText | 无任何
+4 | AXStaticText | 行为能力 / 意思表示 / 代理 / 追认 / 诉讼时效内容。学生在 A1 复习时遇到完全离题的题，而在 A5 复习知识产权时又找不到此题，直接破坏 AB 双轴的迁移价值，属用户检查项中的「明显错位」。
+4 | AXStaticText | 本地必须怎样修：
+5 | AXStaticText | 将该分问从 A1 移入「
+5 | AXStaticText | A5 知识产权与公平竞争
+5 | AXStaticText | 」（其名誉权点可在 A5 内说明兼涉 A2）；
+5 | AXStaticText | 同步更新 A1 题量（4→3）、A5 题量（14→15）及两节「本节共 N 个分问」表头与 LOCAL QA 的 A 轴题量表。
+3 | AXHeading | 3. NONBLOCKING issues
+4 | AXStaticText | 3. NONBLOCKING issues
+5 | AXStaticText | 零散单字 OCR 错字（义可推但应改）
+5 | AXStaticText | ：2025 东城二模19「钱某
+5 | AXStaticText | 事
+5 | AXStaticText | 限制民事行为能力人」（应「是」，细则+答案落点）；2026 丰台二模18 材料「
+5 | AXStaticText | 予盾
+5 | AXStaticText | 化解」（应「矛盾」）；2025 东城期末19(1) 材料「建车
+5 | AXStaticText | 栩
+5 | AXStaticText | 」（应「车棚」）；2025 丰台期末19 正文「驳回了
+5 | AXStaticText | 尹荣
+5 | AXStaticText | 的诉讼请求」（前后皆为「尹某」）；2024 东城一模19 材料「李某 郭某出具欠据」（疑缺「向」字）；2026 丰台一模20 材料「低头看手机 监控画面」缺标点。以上汇编/宝典两处同步。
+5 | AXStaticText | 答案落点一致性（中优先）
+5 | AXStaticText | ：相当一批条目（如 2024 丰台一模17、2024 丰台二模17、2025 东城一模19、2025 东城二模19、2025 东城期末19(1)、2025 丰台二模19(2)、2025 海淀一模18、2025 西城一模20、2025 昌平二模20(2)、2026 西城一模17、2026 延庆一模18(1)）的「答案落点」仍是细则逐字转储，夹带给分注记（「（2分，多选一）」「层次1-4」「水平1-4」「评分标准说明」）、官方标签「参考答案/参考答 案」与表格竖线「|」。这些官方评分标签本身可保留，但答案落点应是提炼层，不应与细则重复整段，建议统一为 v9/v10 已修条目的干净形态。
+5 | AXStaticText | 表格压平残留
+5 | AXStaticText | ：2025 丰台二模19(2)、2025 海淀期末21 等条目细则含残留「|」与词内空格（「参考答 案」「答 案示例」），属观感问题。
+5 | AXStaticText | 图片替代文字偏泛
+5 | AXStaticText | ：所有图统一为「原题图1」「细则图1/2」，可用但信息量低。
+3 | AXHeading | 4. Required Codex local verification
+4 | AXStaticText | 4. Required Codex local verification
+5 | AXStaticText | 图片保真/裁切（本端不可见，须可视化复核）
+5 | AXStaticText | ：确认 23 个已嵌原题图/细则图清晰、裁切正确、足以替代文字，重点核多图条目：2025 东城一模19（题图2+细则图2）、2024 朝阳二模17（题图1+细则图2，且本条文字已含 B1 乱码）、2026 东城一模18、2026 东城期末18(1)（各细则图2）。
+5 | AXStaticText | E072 = 2026 · 顺义 · 二模 · 第18题第2问
+5 | AXStaticText | ：LOCAL QA 标「图像保真优先但缺原题图」（题图0、细则图0）。该题材料二为自足文本，需外部确认是否需补截图，还是文本即可。
+5 | AXStaticText | E009 = 2024 · 石景山 · 一模 · 第18题第2问
+5 | AXStaticText | ：LOCAL QA 自述「正式点分布细则仍缺失，仅定位到答案式文字」。须确认嵌入的细则图是否补足分布细则，否则仍为内容缺口。
+5 | AXStaticText | 语料完整性 SHA/结构核对
+5 | AXStaticText | ：74 分问是否在「汇编」与「宝典（核心轴+跨模块）」全部出现且材料/设问/细则一致——此为 Codex 本地交叉核对项，肉眼本轮未逐条全验。
+3 | AXHeading | 5. 是否可作为学生可发版
+4 | AXStaticText | 5. 是否可作为学生可发版
+4 | AXStaticText | NO
+4 | AXStaticText | 修完 B1（朝阳二模17 乱码与答案落点重写）与 B2（房山二模18(1) 改归 A5 并同步计数）即可消除阻断；NONBLOCKING 建议同批处理以达「学生可发版」一致度。考虑到 v9/v10 全部阻断项已确认修复、后台痕迹清扫干净，剩余差距很窄，回到本端复审即可闭合。
+3 | AXButton | Copy
+3 | AXButton | Give positive feedback
+3 | AXButton | Give negative feedback
+3 | AXButton | Retry
+3 | AXButton | Pasted Text, pasted, 210 lines
+4 | AXStaticText | missing value
+4 | AXButton | Retry
+4 | AXButton | Edit
+4 | AXButton | Copy
+3 | AXHeading | Claude responded: 以下为 Claude Opus 4.
+4 | AXStaticText | Claude responded: 以下为 Claude Opus 4.
+3 | AXButton | Verified blocking items resolved, confirmed no new defects introduced
+4 | AXStaticText | Verified blocking items resolved, confirmed no new defects introduced
+4 | AXStaticText | 以下为 Claude Opus 4.8 Max 网页/应用端对 v12 的定向复核（仅限两个原阻断项 + 是否引入新的学生端阻断；未运行 CLI，图像保真仍属本端不可核验项）。
+3 | AXHeading | verdict
+4 | AXStaticText | verdict
+4 | AXStaticText | PASS
+3 | AXHeading | 两个原阻断项是否解除
+4 | AXStaticText | 两个原阻断项是否解除
+4 | AXStaticText | B1｜2024 · 朝阳 · 二模 · 第17题：YES
+4 | AXStaticText |  汇编与宝典两处的细则、答案落点逐字复核：
+6 | AXStaticText | 原答案：
+5 | AXStaticText |  已替换为合规官方标签 
+6 | AXStaticText | 参考答案：
+5 | AXStaticText |  / 
+6 | AXStaticText | 评分细则：
+5 | AXStaticText | ；
+6 | AXStaticText | 辩
+5 | AXStaticText |  系统性乱码已全部恢复为正确括号——
+6 | AXStaticText | （一）理由
+5 | AXStaticText | 、
+6 | AXStaticText | （二）意义
+5 | AXStaticText | 、各从属性改为规范编号 
+6 | AXStaticText | 1./2./3./4.
+5 | AXStaticText | ，未见任何 
+6 | AXStaticText | 辩1
+5 | AXStaticText | 、
+6 | AXStaticText | 辩一
+5 | AXStaticText | 、
+6 | AXStaticText | 辩二
+5 | AXStaticText | 、
+6 | AXStaticText | 辩如果
+5 | AXStaticText | 、
+6 | AXStaticText | 辩 合法
+5 | AXStaticText | 、
+6 | AXStaticText | 辩 或
+5 | AXStaticText | ；
+5 | AXStaticText | 义级错字 
+6 | AXStaticText | 实社社会
+5 | AXStaticText |  已改为 
+6 | AXStaticText | 维护或实现社会公平正义
+5 | AXStaticText | ；
+5 | AXStaticText | 答案落点已由「细则逐字转储」改写为干净提炼式条目（先判劳动关系→三从属性→结论→法律/劳动者权益意义），无给分注记、无编辑标签、无乱码。
+5 | AXStaticText | 重写后的细则与原评分口径一致（理由4分=三从属性各1+归纳1，意义5分=法律/道德/经济三维），未引入内容错误。
+4 | AXStaticText | B2｜2026 · 房山 · 二模 · 第18题第1问：YES
+4 | AXStaticText |  框架归位已由 A1 改为 
+5 | AXStaticText | A5 知识产权与公平竞争｜B4 评析认识（兼涉名誉权）
+4 | AXStaticText | ，与题目实质（商业诋毁/不正当竞争＋名誉权＋商业秘密＋著作权）匹配，「兼涉名誉权」标注准确。材料、设问、细则、答案落点与 v11 完全一致，属纯重归位、无内容回归。A 轴统计 render QA 声明已同步为 A1=3、A5=15。
+3 | AXHeading | 新增 BLOCKING defects
+4 | AXStaticText | 新增 BLOCKING defects
+4 | AXStaticText | 无。
+4 | AXStaticText |  两处改动均未引入学生端阻断问题：E005 为干净重写（标点、编号、口径均规范），E066 为零修改重归位。
+5 | AXStaticText | 原答案 / 实社社会 / 辩* / source_id / entry_E / /Users/wanglifei
+4 | AXStaticText | 文本复扫在两份 v12 Markdown 片段中确认无命中，与本端所见一致。
+3 | AXHeading | 是否可进入最终交付
+4 | AXStaticText | 是否可进入最终交付
+4 | AXStaticText | YES（文本/阻断维度）。
+4 | AXStaticText |  两个阻断项已实质解除且未引入新阻断，文本侧无遗留阻断障碍。但最终交付前仍应完成本端无法替代的两道流水线关口：①图像保真/裁切可视化核验（v12 page-104/77/78 抽查通过，但全量嵌图未逐张核验）；②GPT-5.5 Pro 网页/应用复审。这两项是 render QA 自身列出的待办，非本轮新增条件。
+3 | AXHeading | 仍需 Codex 本地复核
+4 | AXStaticText | 仍需 Codex 本地复核
+5 | AXStaticText | A 轴计数一致性
+5 | AXStaticText | ：确认 A1 节「本节共 3 个分问」、A5 节「本节共 15 个分问」表头，及总览/LOCAL QA 的 A 轴题量表均与 A1=3、A5=15 同步（render QA 已声明同步，但全量宝典未在本端逐节核对）。
+5 | AXStaticText | E066 在 A5 段的排位
+5 | AXStaticText | ：确认按年份顺序正确插入 2026 组、未产生重复条目（page-77/78 抽查为连续呈现，建议本地核 A5 完整顺序）。
+5 | AXStaticText | 图像保真/裁切可视化核验
+5 | AXStaticText | ：含本轮未变动但从未在文本端核验的全部嵌图，以及 E072（2026 顺义二模18(2)）是否需补截图——延续 v11 未闭合项。
+5 | AXStaticText | （非本轮范围，提示不遗漏）
+5 | AXStaticText |  v11 已判 NONBLOCKING 的零散 OCR 错字（钱某事 / 予盾 / 建车栩 / 尹荣 等）与部分条目答案落点逐字转储尾部，在 v12 仍存在；若要在最终交付前一并清理，需 Codex 单独处理，但不影响本轮 PASS 结论。
+3 | AXButton | Copy
+3 | AXButton | Give positive feedback
+3 | AXButton | Give negative feedback
+3 | AXButton | Retry
+2 | AXButton | Scroll to bottom
+4 | AXStaticText | Want to be notified when Claude responds?
+4 | AXButton | Notify
+4 | AXButton | missing value
+3 | AXTextArea | Write your prompt to Claude
+5 | AXStaticText |  
+4 | AXPopUpButton | Add files, connectors, and more
+4 | AXPopUpButton | Model: Opus 4.8 Max
+3 | AXPopUpButton | Settings
+3 | AXButton | Press and hold to record
+3 | AXButton | Use voice mode
+4 | AXStaticText | Claude is AI and can make mistakes. Please double-check responses.
+3 | AXButton | Share
+
