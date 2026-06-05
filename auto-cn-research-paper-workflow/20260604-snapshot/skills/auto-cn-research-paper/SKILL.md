@@ -38,14 +38,15 @@ This workflow must spend local checks before spending visible GPT/Claude attenti
 
 ## Empirical Route Contract
 
-When the user asks for "实证", "empirical", "案例", "数据", "访谈", "问卷", "政策文本", or a topic naturally requires empirical support, choose and record one route before drafting:
+When the user asks for "实证", "empirical", "案例", "数据", "访谈", "问卷", "政策文本", or a topic naturally requires empirical support, choose and record one route before drafting. Do not treat self-run surveys or interviews as the default. For normal course-paper work, public or authorized online data that Codex can lawfully collect by crawler, API, official download, or user-authorized database export can be valid empirical material if the collection process is reproducible.
 
+- `online_public_dataset`: use when the empirical section can be built from 公开或授权在线数据: official websites, public web pages, APIs, public datasets, platform-visible pages, policy databases, announcements, reports, or authorized library/database pages. Codex may use a crawler/爬虫 or scripted download when access rules allow it; record source URLs, access route, crawl time, query parameters, fields, sample window, inclusion/exclusion rules, cleaning steps, row count, and dataset hash in `empirical_data_ledger.md`.
 - `secondary_case_comparison`: default for a graduate course paper when the material is verified literature, policy texts, public cases, reports, and official web materials. This is empirical in a secondary-material/case-analysis sense, not fieldwork.
 - `policy_text_corpus`: use when the evidence base is a defined corpus of policy documents, official notices, web pages, or regulatory texts; record inclusion rules, source path, and coding dimensions.
-- `quantitative_dataset_required`: use when the claim requires statistics, panel data, survey data, or measurable variables. If no usable dataset is available, stop and ask for data or narrow the topic.
-- `primary_fieldwork_required`: use when the claim requires interviews, observations, questionnaires, or internal material. If the user has not supplied those data, stop; do not invent fieldwork.
+- `quantitative_dataset_required`: use when the claim requires statistics, panel data, survey data, or measurable variables. First try to construct the dataset from public or authorized online sources. If no legal crawl, API, official download, or user-exported source is available, stop and ask for data or narrow the topic.
+- `primary_fieldwork_required`: use only when the research question truly requires interviews, observations, questionnaires, or internal material. If the user has not supplied those data, stop or redesign the topic around online/secondary empirical material; do not invent fieldwork.
 
-If primary fieldwork or a quantitative dataset is unavailable, revise the research question toward a defensible secondary-case or policy-text paper instead of pretending the paper has an empirical section.
+Online data collection must respect site rules, robots.txt where applicable, rate limits, login/paywall/CAPTCHA boundaries, privacy constraints, and database license limits. Do not collect private credentials, cookies, direct personal identifiers, or sensitive personal data. If the needed data cannot be legally or safely collected, revise the research question toward a defensible online-public-data, secondary-case, or policy-text paper instead of pretending the paper has an empirical section.
 
 ## Non-Negotiable Rules
 

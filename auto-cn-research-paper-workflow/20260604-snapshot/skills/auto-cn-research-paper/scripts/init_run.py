@@ -22,6 +22,8 @@ FILES: dict[str, str] = {
 | 引用格式 | GB/T 7714，先做元数据核验 |
 | 数据库入口 | 中国人民大学图书馆电子资源平台进入的中国知网代理页 |
 | 强制入口规则 | 只使用 `libproxy.ruc.edu.cn` 代理路径，不使用知网个人登录路径 |
+| 实证路线 | 待选择：online_public_dataset / secondary_case_comparison / policy_text_corpus / quantitative_dataset_required / primary_fieldwork_required |
+| 在线数据采集 | 可使用公开或授权在线数据、官方下载/API、用户授权数据库导出或合规爬虫；必须记录来源、字段、时间范围、清洗步骤和数据 hash |
 | 当前阶段 | initialized |
 
 ## 门槛状态
@@ -177,6 +179,50 @@ FILES: dict[str, str] = {
 Claude Opus / Opus 4.8 Max 和 GPT Pro / GPT-5.5 Pro 必须分别在真实可见的网页版或 App 会话中给出 `pass`，且每一路都必须记录 `web_session` 或 `app_session` 渠道、`review_scope=full_draft`、当前 run id、记录时间、原始记录和 `real_submission=true`，才允许把 `external_review_passed` 改为 `yes`。CLI/API 调用可作构建 skill 的参考意见；修订差异审阅、引用页码抽查和预检也可作为补充证据，但不能算最终论文全文审阅通过。
 
 `REVISE` 或 `CONDITIONAL_PASS` 必须先转化为修订单，完成本地修改、复验与重新评审后，才能再次尝试通过外部评审闸口。
+""",
+    "empirical_data_ledger.md": """# 实证数据采集台账
+
+## 路线状态
+
+- empirical_route: pending
+- data_collection_status: pending
+- source_access_type: pending
+- crawler_compliance: pending
+- records_collected: 0
+- dataset_hash: pending
+
+## 路线选项
+
+- online_public_dataset: 公开或授权在线数据，可来自官方网页、公开网页、API、公开数据集、平台可见页面、政策数据库、公告、报告、授权图书馆/数据库导出，允许在合规条件下使用爬虫或脚本下载。
+- secondary_case_comparison: 二手案例、文献、政策、报告、官方材料组成的案例比较。
+- policy_text_corpus: 政策文本、规章、通知、官方网页组成的文本语料。
+- quantitative_dataset_required: 需要统计、面板、变量或可量化数据；优先尝试由公开或授权在线数据构造。
+- primary_fieldwork_required: 只有研究问题确实需要访谈、问卷、观察或内部材料时才使用。
+
+## 采集计划
+
+| 项目 | 内容 |
+| --- | --- |
+| 数据来源 | 待定 |
+| URL/API/数据库路径 | 待定 |
+| 访问权限 | 待定 |
+| 是否允许爬取/下载 | 待定 |
+| 采集时间范围 | 待定 |
+| 样本纳入规则 | 待定 |
+| 样本排除规则 | 待定 |
+| 字段清单 | 待定 |
+| 清洗步骤 | 待定 |
+| 导出文件 | 待定 |
+| 可复现命令或脚本 | 待定 |
+
+## 采集日志
+
+| 时间 | 来源 | 动作 | 数量 | 输出 | 备注 |
+| --- | --- | --- | --- | --- | --- |
+
+## 使用规则
+
+不得绕过登录、验证码、付费、下载限制或访问控制；不得采集密码、cookie、直接个人身份信息或敏感个人数据。若无法合法、安全采集，则改写研究问题或改用二手案例/政策文本路线。
 """,
 }
 

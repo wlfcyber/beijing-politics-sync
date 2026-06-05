@@ -11,6 +11,7 @@ from pathlib import Path
 
 REVIEW_FILES = [
     "06_论文初稿.md",
+    "empirical_data_ledger.md",
     "05_论证骨架.md",
     "20_质量差距诊断与重写方案.md",
     "source_inventory.md",
@@ -218,6 +219,7 @@ def build_web_packet(run_dir: Path) -> str:
     external_text = read(run_dir / "15_外部评审与迭代计划.md")
     gate_text = read(run_dir / "16_总闸口矩阵.md")
     inventory_text = read(run_dir / "source_inventory.md")
+    empirical_text = read(run_dir / "empirical_data_ledger.md")
 
     inventory_summary = "\n".join(
         line
@@ -289,6 +291,19 @@ def build_web_packet(run_dir: Path) -> str:
         lines.extend(["## 总闸口摘录", "", *gates, ""])
     if inventory_summary:
         lines.extend(["## 材料清单摘要", "", inventory_summary, ""])
+
+    empirical_summary = "\n".join(
+        line
+        for line in empirical_text.splitlines()
+        if line.startswith("- empirical_route:")
+        or line.startswith("- data_collection_status:")
+        or line.startswith("- source_access_type:")
+        or line.startswith("- crawler_compliance:")
+        or line.startswith("- records_collected:")
+        or line.startswith("- dataset_hash:")
+    )
+    if empirical_summary:
+        lines.extend(["## 实证数据采集摘要", "", empirical_summary, ""])
 
     lines.extend(["## 论文全文", "", "```markdown", draft, "```", ""])
     return "\n".join(lines).rstrip() + "\n"
