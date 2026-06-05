@@ -48,19 +48,19 @@
 
 ## 证据文件
 
-- 文献矩阵：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/03_文献矩阵.md`
-- 下载清单：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/source_inventory.md`
-- KDH/CAJ 转换清单：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/kdh_caj_conversion_manifest.md`
-- 转换全文提取清单：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/fulltext_manifest_converted_caj.md`
-- 页码/位置索引：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/evidence_index.md`
-- 引用映射计划：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/citation_plan.md`
-- 正文引用页码建议：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/citation_page_suggestions.md`
-- 正文引用终稿定锚：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/citation_final.md`
-- 浏览器准入验收：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/12_浏览器准入验收.md`
-- 浏览器恢复尝试记录：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/13_浏览器恢复尝试记录.md`
-- S-008 原刊与政策核验：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/14_S008原刊与政策核验记录.md`
-- 外部评审与迭代计划：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/15_外部评审与迭代计划.md`
-- 总闸口矩阵：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/16_总闸口矩阵.md`
-- 外部评审修订单：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/17_外部评审修订单.md`
-- 候选队列：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/10_候选下载队列.md`
-- 完成度审计：`/Users/wanglifei/GaokaoPolitics/beijing-politics-sync/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/09_完成度审计.md`
+- 文献矩阵：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/03_文献矩阵.md`
+- 下载清单：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/source_inventory.md`
+- KDH/CAJ 转换清单：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/kdh_caj_conversion_manifest.md`
+- 转换全文提取清单：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/fulltext_manifest_converted_caj.md`
+- 页码/位置索引：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/evidence_index.md`
+- 引用映射计划：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/citation_plan.md`
+- 正文引用页码建议：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/citation_page_suggestions.md`
+- 正文引用终稿定锚：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/citation_final.md`
+- 浏览器准入验收：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/12_浏览器准入验收.md`
+- 浏览器恢复尝试记录：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/13_浏览器恢复尝试记录.md`
+- S-008 原刊与政策核验：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/14_S008原刊与政策核验记录.md`
+- 外部评审与迭代计划：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/15_外部评审与迭代计划.md`
+- 总闸口矩阵：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/16_总闸口矩阵.md`
+- 外部评审修订单：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/17_外部评审修订单.md`
+- 候选队列：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/10_候选下载队列.md`
+- 完成度审计：`/Users/wanglifei/Documents/论文写作/workflows/auto-cn-research-paper-workflow/20260604-snapshot/runs/试运行_数字形式主义/09_完成度审计.md`
