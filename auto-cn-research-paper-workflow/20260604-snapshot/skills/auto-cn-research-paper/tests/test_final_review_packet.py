@@ -107,11 +107,15 @@ def test_packet_blocks_final_pass_when_anchors_are_not_final() -> None:
     assert "- final_anchor_ready: no" in citation_packet
     assert "工作锚点不能视为最终页码" in citation_packet
     assert "如果 `final_anchor_ready` 不是 `yes`，不得给出 `PASS`" in review_packet
+    assert "只审修订差异、引用页码抽查包、登录预检或交接提示" in review_packet
     assert "不得仅因该 lane 尚未登记通过" in review_packet
     assert "研究生课程论文/机制性二次分析" in review_packet
+    assert "review_scope: full_draft" in review_packet
+    assert "full_text_reviewed: yes/no" in review_packet
     assert "timestamp_note: generated_at uses UTC" in web_packet
     assert "不得仅因论文诚实声明无一手访谈" in web_packet
     assert "授权数据库来源不要求公开 URL" in web_packet
+    assert "review_scope: full_draft" in web_packet
     assert "verdict: PASS / REVISE" in review_packet
     assert "GPT Pro / GPT-5.5 Pro" in review_packet
     assert "## 论文全文" in web_packet
@@ -126,6 +130,7 @@ def test_packet_blocks_final_pass_when_anchors_are_not_final() -> None:
     assert "source_provenance_ledger.md 来源获取与 hash 台账" in claude_full_packet
     assert "网络首发 J/OL 文献若尚无正式卷期页码" in claude_full_packet
     assert "if your verdict is PASS" in claude_full_packet
+    assert "review_scope: full_draft" in claude_full_packet
     assert "早期 `citation_page_suggestions.md` 只是关键词候选生成物" in claude_full_packet
     assert "## citation_page_suggestions.md 页码候选来源" not in claude_full_packet
 

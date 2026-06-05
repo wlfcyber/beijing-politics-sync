@@ -24,6 +24,29 @@ For the user's current goal, the target is not just a paper helper. The target i
 
 `CONDITIONAL_PASS`, `REVISE`, missing login, preflight-only checks, CLI calls without raw records, keyword-only page candidates, and material-count success are not completion. They are work queues.
 
+## Efficiency And Anti-Waste Contract
+
+This workflow must spend local checks before spending visible GPT/Claude attention:
+
+1. Run local gates before external review. Do not ask GPT Pro or Claude to rediscover failures already detectable by `run_audit.py`, `source_file_audit.py`, `citation_plan.py`, `citation_page_suggestions.py`, `citation_final.py`, `quality_gate_audit.py`, or `workflow_gate_matrix.py`.
+2. Use visible GPT/Claude in bounded, named passes: first full-draft review, then local repair, then a small revision-delta or citation-page spotcheck only for the changed blocker, then final full-draft recheck if final approval is needed.
+3. Never resubmit the full paper repeatedly for a narrow page-number or metadata blocker. Build the smallest source-backed packet for that blocker, repair locally, and reserve full-draft review for the final gate.
+4. A supplemental pass cannot close the final gate. Final approving GPT Pro and Claude records must both have `review_scope: full_draft`.
+5. Do not wait indefinitely on browser/app state. After opening or handing off a visible app/browser prompt, poll in bounded intervals, record the latest visible state, and stop with a concrete blocker when login, CAPTCHA, permissions, loading, or manual submission blocks progress.
+6. Do not consume advisor tokens on "can you review this workflow?" when the question is local plumbing, path migration, macOS readiness, missing files, or script behavior. Fix or test those locally first.
+7. Do not claim "ideal workflow" from a pretty draft. Completion requires source-backed materials, citation/page gates, method-material fit, text-quality gate, both full-draft visible advisor passes, and `final_user_goal_ready=yes`.
+
+## Empirical Route Contract
+
+When the user asks for "实证", "empirical", "案例", "数据", "访谈", "问卷", "政策文本", or a topic naturally requires empirical support, choose and record one route before drafting:
+
+- `secondary_case_comparison`: default for a graduate course paper when the material is verified literature, policy texts, public cases, reports, and official web materials. This is empirical in a secondary-material/case-analysis sense, not fieldwork.
+- `policy_text_corpus`: use when the evidence base is a defined corpus of policy documents, official notices, web pages, or regulatory texts; record inclusion rules, source path, and coding dimensions.
+- `quantitative_dataset_required`: use when the claim requires statistics, panel data, survey data, or measurable variables. If no usable dataset is available, stop and ask for data or narrow the topic.
+- `primary_fieldwork_required`: use when the claim requires interviews, observations, questionnaires, or internal material. If the user has not supplied those data, stop; do not invent fieldwork.
+
+If primary fieldwork or a quantitative dataset is unavailable, revise the research question toward a defensible secondary-case or policy-text paper instead of pretending the paper has an empirical section.
+
 ## Non-Negotiable Rules
 
 - Do not fabricate references, authors, journal names, years, DOI, URL, CNKI records, page numbers, quotations, data, interviews, surveys, advisor comments, or school rules.
@@ -53,17 +76,27 @@ For this user's target, the external-review status file must contain these field
 - `claude_opus_review_status: pass`;
 - `claude_opus_review_channel: web_session` or `app_session`;
 - `claude_opus_real_submission: true`;
+- `claude_opus_review_scope: full_draft`;
 - `claude_opus_review_run_id: <current-run-id>`;
 - `claude_opus_review_recorded_at: <ISO timestamp>`;
 - `claude_opus_raw_record: <path-or-url>`;
 - `gpt_pro_review_status: pass`;
 - `gpt_pro_review_channel: web_session` or `app_session`;
 - `gpt_pro_real_submission: true`;
+- `gpt_pro_review_scope: full_draft`;
 - `gpt_pro_review_run_id: <current-run-id>`;
 - `gpt_pro_review_recorded_at: <ISO timestamp>`;
 - `gpt_pro_raw_record: <path-or-url>`.
 
 If the user explicitly asks for web-visible history, both channels must be `web_session`. If the review is done in a visible desktop/mobile app, use `app_session`. A command-line or API call can still be useful advisory evidence, but it does not satisfy the final approval gate.
+
+Use review scopes precisely:
+
+- `full_draft`: the visible model reviewed the full paper plus the current evidence/gate packet. This is required for final approval.
+- `revision_delta`: the visible model reviewed only local changes after a previous pass. Useful for repair, not final approval.
+- `citation_page_spotcheck`: the visible model reviewed a citation/page/PDF evidence packet. Useful for citation blockers, not final approval.
+- `preflight_or_handoff`: login/app readiness or pending manual handoff only. It is never a review.
+- `unspecified`: legacy or incomplete record. It cannot pass the final gate.
 
 Before submitting a visible web/app review, verify the lane is actually usable:
 
@@ -130,8 +163,8 @@ Use bundled scripts instead of rewriting the same mechanics:
 - `scripts/workflow_report.py`: create a one-page status report combining full-text count, source inventory, evidence index, queue status, browser access, external review, policy-citation merge, page-number readiness, and user-verification waits.
 - `scripts/workflow_gate_matrix.py`: run all major gates and write `16_总闸口矩阵.md`; use it before making any final completion claim.
 - `scripts/external_review_orchestrator.py`: build sanitized prompt packs for Claude Opus and GPT Pro/GPT-5.5 Pro, run available CLI advisor lanes for non-final skill-building advice, save raw outputs, and update `15_外部评审与迭代计划.md` without pretending unavailable lanes ran. CLI/API lanes are not final approval for this user's paper goal; final pass must be recorded from visible web/app sessions.
-- `scripts/final_review_packet.py`: build `25_引用页码终核包.md` and `26_最终外部评审包.md` for visible ChatGPT/Claude web/app review. Use it before final visible reviews so advisors see the draft, gate matrix, external-review status, and the rule that keyword-derived working anchors cannot be treated as final page numbers.
-- `scripts/pdf_page_anchor_audit_pack.py`: build a visible PDF/page-image audit pack for disputed citation anchors by rendering source PDF pages from the provenance ledger and current citation workbench. Use it when a visible reviewer requires independent page-level verification beyond self-reported anchor tables.
+- `scripts/final_review_packet.py`: build `25_引用页码终核包.md`, `26_最终外部评审包.md`, `27_网页外审精简包.md`, and `29_Claude可见外审全证据包.md` for visible ChatGPT/Claude web/app review. Use it before final visible reviews so advisors see the full draft, gate matrix, external-review status, and the rule that keyword-derived working anchors and supplemental spotchecks cannot be treated as final full-draft review.
+- `scripts/pdf_page_anchor_audit_pack.py`: build a visible PDF/page-image audit pack for disputed citation anchors by rendering source PDF pages from the provenance ledger and current citation workbench. Use it when a visible reviewer requires independent page-level verification beyond self-reported anchor tables. Its output is `citation_page_spotcheck` evidence, not final full-draft approval.
 - `scripts/visible_app_handoff.py`: prepare a manual visible-app advisor handoff on macOS by writing a pending prompt file, optionally copying it to the clipboard and opening the app. It never updates `15_外部评审与迭代计划.md`, never records `real_submission=true`, and never counts as a review.
 - `scripts/visible_review_record.py`: record a final visible ChatGPT/Claude web or app review after the user or Codex has captured the visible review transcript/export/screenshot note. Use this, not CLI output, to update the final external-review gate.
 
@@ -148,8 +181,9 @@ Use this ladder after `citation_evidence_workbench.py` and before any final visi
 3. If an advisor gives a broad batch pass but local evidence looks title-only, abstract-only, adjacent-context-only, or source-near rather than citation-exact, run a stricter repair prompt for those rows. Do not promote the row just because a broad batch response was positive.
 4. An official HTML full text can support content, but it is not a formal page anchor unless the citation style explicitly accepts URL/location-only evidence. Mark it separately and keep `final_anchor_ready=no` until the page/location rule is solved.
 5. `visible_reviewed_rows=all`, `rows_with_source_excerpt=all`, or `missing_excerpt=0` does not imply `citation_level_verified_anchors>0`. These are readiness facts, not final page-number facts.
-6. After every visible citation batch or repair, rerun `citation_evidence_workbench.py`, `final_review_packet.py`, and `workflow_gate_matrix.py`. The final visible GPT/Claude review packet must still block `PASS` whenever `final_anchor_ready` is not `yes`.
-7. If a final visible advisor returns `REVISE`, keep it as a work queue and record the raw response. If a final visible advisor returns `PASS` while the packet says `final_anchor_ready=no`, reject that as an invalid pass or resubmit a stricter prompt.
+6. A visible page-anchor audit can clear a citation blocker, but it must be recorded as `review_scope: citation_page_spotcheck`; after the draft is repaired, final approval still requires both visible advisor lanes to review the full draft packet with `review_scope: full_draft`.
+7. After every visible citation batch or repair, rerun `citation_evidence_workbench.py`, `final_review_packet.py`, and `workflow_gate_matrix.py`. The final visible GPT/Claude review packet must still block `PASS` whenever `final_anchor_ready` is not `yes`.
+8. If a final visible advisor returns `REVISE`, keep it as a work queue and record the raw response. If a final visible advisor returns `PASS` while the packet says `final_anchor_ready=no`, reject that as an invalid pass or resubmit a stricter prompt.
 
 ## Default Target
 
@@ -454,12 +488,12 @@ Before claiming the user's final external-review target is achieved, run:
 
 ```bash
 python scripts/run_audit.py <run-dir> --min-fulltext 8 --require-source-id-freeze
-python scripts/visible_review_record.py <run-dir> --lane gpt_pro --status pass --channel web_session --raw-record <visible-chatgpt-review-record>
-python scripts/visible_review_record.py <run-dir> --lane claude_opus --status pass --channel app_session --raw-record <visible-claude-review-record>
+python scripts/visible_review_record.py <run-dir> --lane gpt_pro --status pass --channel web_session --review-scope full_draft --raw-record <visible-chatgpt-review-record>
+python scripts/visible_review_record.py <run-dir> --lane claude_opus --status pass --channel app_session --review-scope full_draft --raw-record <visible-claude-review-record>
 python scripts/run_audit.py <run-dir> --min-fulltext 8 --require-external-review
 ```
 
-The source-ID freeze audit must pass before external review so S/C source numbers are not silently reused after a source is demoted. The external-review gate must pass only after real visible web/app Claude Opus and GPT Pro/GPT-5.5 Pro review records exist, both say `pass`, each lane records channel, current run id, recorded time, raw record, and `real_submission=true`, and Codex has locally verified and adopted the required revisions. A single summary line such as `external_review_passed: yes` is insufficient unless the per-lane evidence fields also pass.
+The source-ID freeze audit must pass before external review so S/C source numbers are not silently reused after a source is demoted. The external-review gate must pass only after real visible web/app Claude Opus and GPT Pro/GPT-5.5 Pro review records exist, both say `pass`, each lane records channel, `review_scope=full_draft`, current run id, recorded time, raw record, and `real_submission=true`, and Codex has locally verified and adopted the required revisions. A single summary line such as `external_review_passed: yes` is insufficient unless the per-lane evidence fields also pass.
 
 For an end-to-end completion audit, run:
 

@@ -136,6 +136,7 @@ def external_review_gate_issues(text: str, run_dir: Path) -> list[str]:
     for prefix, label in required:
         status = parse_summary_value(text, f"{prefix}_review_status")
         channel = parse_summary_value(text, f"{prefix}_review_channel")
+        review_scope = parse_summary_value(text, f"{prefix}_review_scope")
         raw_record = parse_summary_value(text, f"{prefix}_raw_record")
         review_run_id = parse_summary_value(text, f"{prefix}_review_run_id")
         recorded_at = parse_summary_value(text, f"{prefix}_review_recorded_at")
@@ -145,6 +146,8 @@ def external_review_gate_issues(text: str, run_dir: Path) -> list[str]:
             issues.append(f"{label} review status is not pass: {status}")
         if channel not in allowed_channels:
             issues.append(f"{label} review channel is not a web/app visible session: {channel}")
+        if review_scope != "full_draft":
+            issues.append(f"{label} review scope is not full_draft: {review_scope}")
         if not real_submission:
             issues.append(f"{label} review does not prove real_submission=true")
         if review_run_id != run_dir.name:
@@ -238,6 +241,8 @@ def main() -> int:
     external_review_passed = parse_summary_value(external_review_text, "external_review_passed")
     claude_review_status = parse_summary_value(external_review_text, "claude_opus_review_status")
     gpt_pro_review_status = parse_summary_value(external_review_text, "gpt_pro_review_status")
+    claude_review_scope = parse_summary_value(external_review_text, "claude_opus_review_scope")
+    gpt_pro_review_scope = parse_summary_value(external_review_text, "gpt_pro_review_scope")
     policy_ready = policy_citation_merged(draft_text, policy_check_text)
     final_pages_ready = citation_final_ready(citation_final_text)
     working_pages_ready = citation_working_anchor_ready(citation_final_text)
@@ -339,7 +344,9 @@ def main() -> int:
     print(f"public_reprint_fulltext={public_reprints}")
     print(f"external_review_passed={external_review_passed}")
     print(f"claude_opus_review_status={claude_review_status}")
+    print(f"claude_opus_review_scope={claude_review_scope}")
     print(f"gpt_pro_review_status={gpt_pro_review_status}")
+    print(f"gpt_pro_review_scope={gpt_pro_review_scope}")
     print(f"policy_citation_merged={'yes' if policy_ready else 'no'}")
     print(f"working_anchor_ready={'yes' if working_pages_ready else 'no'}")
     print(f"manual_verified_anchors={manual_verified_anchors}")

@@ -49,6 +49,8 @@ def external_review_gate_passed(text: str, run_dir: Path) -> bool:
             return False
         if parse_summary_value(text, f"{prefix}_review_channel") not in {"web_session", "app_session"}:
             return False
+        if parse_summary_value(text, f"{prefix}_review_scope") != "full_draft":
+            return False
         if not parse_boolish(text, f"{prefix}_real_submission"):
             return False
         if parse_summary_value(text, f"{prefix}_review_run_id") != run_dir.name:

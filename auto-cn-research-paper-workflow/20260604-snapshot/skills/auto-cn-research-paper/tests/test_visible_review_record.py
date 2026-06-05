@@ -95,6 +95,7 @@ def test_visible_review_record_updates_one_lane_but_not_final_pass() -> None:
     assert "- gpt_pro_review_status: pass" in text
     assert "- gpt_pro_review_channel: web_session" in text
     assert "- gpt_pro_real_submission: true" in text
+    assert "- gpt_pro_review_scope: unspecified" in text
     assert f"- gpt_pro_review_run_id: {run_dir.name}" in text
     assert "- gpt_pro_review_recorded_at:" in text
     assert f"- gpt_pro_raw_record: {raw.resolve()}" in text
@@ -120,6 +121,8 @@ def test_visible_review_record_allows_final_gate_only_after_both_visible_passes(
             "web_session",
             "--raw-record",
             str(gpt_raw),
+            "--review-scope",
+            "full_draft",
         ]
     )
     assert first.returncode == 1, first.stdout
@@ -136,6 +139,8 @@ def test_visible_review_record_allows_final_gate_only_after_both_visible_passes(
             "app_session",
             "--raw-record",
             str(claude_raw),
+            "--review-scope",
+            "full_draft",
         ]
     )
     assert second.returncode == 0, second.stdout
@@ -168,6 +173,8 @@ def test_external_review_rejects_cross_run_visible_records() -> None:
                 channel,
                 "--raw-record",
                 str(raw),
+                "--review-scope",
+                "full_draft",
             ]
         )
         if lane == "gpt_pro":
@@ -184,11 +191,64 @@ def test_external_review_rejects_cross_run_visible_records() -> None:
     assert "review run_id mismatch" in audit.stdout
 
 
+def test_visible_review_record_supplemental_pass_does_not_close_gate() -> None:
+    run_dir = make_run_dir()
+    gpt_raw = run_dir / "gpt_visible_review.md"
+    claude_raw = run_dir / "claude_page_spotcheck.md"
+    gpt_raw.write_text("verdict: PASS\nreview_scope: full_draft\n", encoding="utf-8")
+    claude_raw.write_text("verdict: PASS\nreview_scope: citation_page_spotcheck\n", encoding="utf-8")
+
+    first = run_script(
+        [
+            str(VISIBLE_REVIEW),
+            str(run_dir),
+            "--lane",
+            "gpt_pro",
+            "--status",
+            "pass",
+            "--channel",
+            "web_session",
+            "--raw-record",
+            str(gpt_raw),
+            "--review-scope",
+            "full_draft",
+        ]
+    )
+    assert first.returncode == 1, first.stdout
+
+    second = run_script(
+        [
+            str(VISIBLE_REVIEW),
+            str(run_dir),
+            "--lane",
+            "claude_opus",
+            "--status",
+            "pass",
+            "--channel",
+            "app_session",
+            "--raw-record",
+            str(claude_raw),
+            "--review-scope",
+            "citation_page_spotcheck",
+        ]
+    )
+    assert second.returncode == 1, second.stdout
+
+    text = (run_dir / "15_外部评审与迭代计划.md").read_text(encoding="utf-8")
+    assert "- external_review_passed: no" in text
+    assert "- claude_opus_review_scope: citation_page_spotcheck" in text
+
+    audit = run_script([str(RUN_AUDIT), str(run_dir), "--min-fulltext", "0", "--require-external-review"])
+    assert audit.returncode == 1, audit.stdout
+    assert "review scope is not full_draft" in audit.stdout
+
+
 def main() -> int:
     tests = [
         test_visible_review_record_updates_one_lane_but_not_final_pass,
         test_visible_review_record_allows_final_gate_only_after_both_visible_passes,
         test_external_review_rejects_cross_run_visible_records,
+        test_visible_review_record_supplemental_pass_does_not_close_gate,
     ]
     for test in tests:
         try:
@@ -199,6 +259,7 @@ def main() -> int:
     print("PASS test_visible_review_record_updates_one_lane_but_not_final_pass")
     print("PASS test_visible_review_record_allows_final_gate_only_after_both_visible_passes")
     print("PASS test_external_review_rejects_cross_run_visible_records")
+    print("PASS test_visible_review_record_supplemental_pass_does_not_close_gate")
     return 0
 
 

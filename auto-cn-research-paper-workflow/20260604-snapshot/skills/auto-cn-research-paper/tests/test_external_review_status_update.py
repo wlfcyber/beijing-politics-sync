@@ -40,12 +40,14 @@ def test_update_status_records_real_submission_metadata() -> None:
             "status": "pass",
             "channel": "web_session",
             "real_submission": True,
+            "review_scope": "full_draft",
             "raw_record": ".codex/advisor-runs/claude_raw.json",
         },
         "gpt_pro": {
             "status": "pass",
             "channel": "cli_or_api_real_call",
             "real_submission": True,
+            "review_scope": "full_draft",
             "raw_record": ".codex/advisor-runs/gpt_raw.json",
         },
     }
@@ -57,10 +59,12 @@ def test_update_status_records_real_submission_metadata() -> None:
     assert "- claude_opus_review_status: pass" in text
     assert "- claude_opus_review_channel: web_session" in text
     assert "- claude_opus_real_submission: true" in text
+    assert "- claude_opus_review_scope: full_draft" in text
     assert "- claude_opus_raw_record: .codex/advisor-runs/claude_raw.json" in text
     assert "- gpt_pro_review_status: pass" in text
     assert "- gpt_pro_review_channel: cli_or_api_real_call" in text
     assert "- gpt_pro_real_submission: true" in text
+    assert "- gpt_pro_review_scope: full_draft" in text
     assert "- gpt_pro_raw_record: .codex/advisor-runs/gpt_raw.json" in text
 
 

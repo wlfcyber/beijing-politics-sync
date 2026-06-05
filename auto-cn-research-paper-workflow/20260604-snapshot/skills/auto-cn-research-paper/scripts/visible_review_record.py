@@ -15,6 +15,13 @@ LANES = {
 }
 VISIBLE_CHANNELS = {"web_session", "app_session"}
 STATUSES = {"pass", "conditional_pass", "revise", "pending"}
+REVIEW_SCOPES = {
+    "full_draft",
+    "revision_delta",
+    "citation_page_spotcheck",
+    "preflight_or_handoff",
+    "unspecified",
+}
 
 
 def read(path: Path) -> str:
@@ -43,6 +50,7 @@ def lane_ready(text: str, lane: str) -> bool:
         parse_summary_value(text, f"{lane}_review_status") == "pass"
         and parse_summary_value(text, f"{lane}_review_channel") in VISIBLE_CHANNELS
         and parse_boolish(text, f"{lane}_real_submission")
+        and parse_summary_value(text, f"{lane}_review_scope") == "full_draft"
         and parse_summary_value(text, f"{lane}_review_run_id") != "unknown"
         and parse_summary_value(text, f"{lane}_review_recorded_at") != "unknown"
         and parse_summary_value(text, f"{lane}_raw_record") not in {"unknown", "", "omitted"}
@@ -58,6 +66,7 @@ def append_record_note(
     lane: str,
     status: str,
     channel: str,
+    review_scope: str,
     raw_record: str,
     review_url: str,
     note: str,
@@ -71,6 +80,7 @@ def append_record_note(
         f"- lane_label: {LANES[lane]}",
         f"- status: {status}",
         f"- channel: {channel}",
+        f"- review_scope: {review_scope}",
         f"- raw_record: {raw_record}",
     ]
     if review_url:
@@ -87,6 +97,12 @@ def main() -> int:
     parser.add_argument("--lane", choices=sorted(LANES), required=True)
     parser.add_argument("--status", choices=sorted(STATUSES), required=True)
     parser.add_argument("--channel", choices=sorted(VISIBLE_CHANNELS), required=True)
+    parser.add_argument(
+        "--review-scope",
+        choices=sorted(REVIEW_SCOPES),
+        default="unspecified",
+        help="Use full_draft only when the visible model reviewed the full paper package.",
+    )
     parser.add_argument("--raw-record", required=True, help="Path to pasted review transcript, screenshot note, or exported visible-session evidence.")
     parser.add_argument("--review-url", default="", help="Optional visible web/app conversation URL or share link.")
     parser.add_argument("--note", default="")
@@ -108,6 +124,7 @@ def main() -> int:
     text = upsert_summary_line(text, f"{prefix}_review_status", args.status)
     text = upsert_summary_line(text, f"{prefix}_review_channel", args.channel)
     text = upsert_summary_line(text, f"{prefix}_real_submission", "true")
+    text = upsert_summary_line(text, f"{prefix}_review_scope", args.review_scope)
     text = upsert_summary_line(text, f"{prefix}_review_run_id", run_dir.name)
     text = upsert_summary_line(text, f"{prefix}_review_recorded_at", recorded_at)
     text = upsert_summary_line(text, f"{prefix}_raw_record", str(raw_record_resolved))
@@ -116,6 +133,7 @@ def main() -> int:
         lane=args.lane,
         status=args.status,
         channel=args.channel,
+        review_scope=args.review_scope,
         raw_record=str(raw_record_resolved),
         review_url=args.review_url,
         note=args.note,
@@ -126,6 +144,7 @@ def main() -> int:
     print(f"lane={args.lane}")
     print(f"lane_status={args.status}")
     print(f"channel={args.channel}")
+    print(f"review_scope={args.review_scope}")
     print(f"external_review_passed={'yes' if external_ready(text) else 'no'}")
     print(f"out={status_path}")
     return 0 if external_ready(text) else 1

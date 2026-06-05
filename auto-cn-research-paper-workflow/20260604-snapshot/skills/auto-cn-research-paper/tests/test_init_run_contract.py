@@ -32,13 +32,16 @@ def test_init_run_creates_external_review_contract() -> None:
     assert "- claude_opus_review_status: pending" in text
     assert "- claude_opus_review_channel: unknown" in text
     assert "- claude_opus_real_submission: false" in text
+    assert "- claude_opus_review_scope: unspecified" in text
     assert "- claude_opus_review_run_id: unknown" in text
     assert "- claude_opus_review_recorded_at: unknown" in text
     assert "- gpt_pro_review_status: pending" in text
     assert "- gpt_pro_review_channel: unknown" in text
     assert "- gpt_pro_real_submission: false" in text
+    assert "- gpt_pro_review_scope: unspecified" in text
     assert "- gpt_pro_review_run_id: unknown" in text
     assert "- gpt_pro_review_recorded_at: unknown" in text
+    assert "review_scope=full_draft" in text
 
 
 def main() -> int:

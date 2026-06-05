@@ -151,6 +151,8 @@ def advisor_gate_passed(summary: dict[str, object]) -> bool:
             return False
         if item.get("channel") not in {"web_session", "app_session"}:
             return False
+        if item.get("review_scope") != "full_draft":
+            return False
         if item.get("real_submission") is not True:
             return False
         if not item.get("review_run_id"):
@@ -188,6 +190,8 @@ def write_external_review_status_from_summary(run_dir: Path, summary: dict[str, 
                 f"{prefix}_real_submission",
                 "true" if item.get("real_submission") is True else "false",
             )
+        if item.get("review_scope"):
+            text = upsert_summary_line(text, f"{prefix}_review_scope", str(item.get("review_scope")))
         if item.get("review_run_id"):
             text = upsert_summary_line(text, f"{prefix}_review_run_id", str(item.get("review_run_id")))
         if item.get("recorded_at"):
@@ -200,9 +204,11 @@ def write_external_review_status_from_summary(run_dir: Path, summary: dict[str, 
         f"- run_folder: `{run_folder}`\n"
         f"- claude_opus_review_status: {claude.get('status', 'unchanged')}\n"
         f"- claude_opus_review_channel: {claude.get('channel', 'unknown')}\n"
+        f"- claude_opus_review_scope: {claude.get('review_scope', 'unknown')}\n"
         f"- claude_opus_real_submission: {claude.get('real_submission', False)}\n"
         f"- gpt_pro_review_status: {gpt.get('status', 'unchanged')}\n"
         f"- gpt_pro_review_channel: {gpt.get('channel', 'unknown')}\n"
+        f"- gpt_pro_review_scope: {gpt.get('review_scope', 'unknown')}\n"
         f"- gpt_pro_real_submission: {gpt.get('real_submission', False)}\n"
     )
     if "## 最新外部评审编排记录" in text:
