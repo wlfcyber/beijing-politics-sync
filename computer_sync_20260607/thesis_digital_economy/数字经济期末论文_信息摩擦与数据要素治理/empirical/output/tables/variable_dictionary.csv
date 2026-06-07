@@ -1,0 +1,19 @@
+﻿variable,definition,source_indicator
+NY.GDP.PCAP.KD,gdp_pc_const2015,NY.GDP.PCAP.KD
+SL.GDP.PCAP.EM.KD,gdp_per_worker_const2021ppp,SL.GDP.PCAP.EM.KD
+IT.NET.USER.ZS,internet_users_pct,IT.NET.USER.ZS
+IT.NET.BBND.P2,fixed_broadband_per100,IT.NET.BBND.P2
+IT.CEL.SETS.P2,mobile_subs_per100,IT.CEL.SETS.P2
+NE.GDI.TOTL.ZS,gross_capital_formation_pct_gdp,NE.GDI.TOTL.ZS
+NE.TRD.GNFS.ZS,trade_pct_gdp,NE.TRD.GNFS.ZS
+SP.URB.TOTL.IN.ZS,urban_pop_pct,SP.URB.TOTL.IN.ZS
+SE.TER.ENRR,tertiary_enrollment_gross_pct,SE.TER.ENRR
+TX.VAL.TECH.MF.ZS,hightech_exports_pct_manufactured,TX.VAL.TECH.MF.ZS
+SP.POP.TOTL,population_total,SP.POP.TOTL
+NY.GDP.TOTL.RT.ZS,natural_resource_rents_pct_gdp,NY.GDP.TOTL.RT.ZS
+ln_gdp_pc,"Log of GDP per capita, constant 2015 US dollars",
+ln_gdp_per_worker,"Log of GDP per person employed, constant 2021 PPP dollars",
+L1_ln_broadband,One-year lag of log(1 + fixed broadband subscriptions per 100 people),
+L1_internet_10pct,"One-year lag of internet users share, scaled by 10 percentage points",
+L1_ln_mobile,One-year lag of log(1 + mobile cellular subscriptions per 100 people),
+is_high_income,World Bank high-income economy dummy,

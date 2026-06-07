@@ -1,0 +1,5 @@
+| step | observations | reason |
+| --- | --- | --- |
+| raw_country_year | 3038 | all non-aggregate WDI country-year observations |
+| baseline_complete_cases | 2067 | complete cases for baseline FE regression |
+| baseline_countries | 179 | number of countries in baseline sample |

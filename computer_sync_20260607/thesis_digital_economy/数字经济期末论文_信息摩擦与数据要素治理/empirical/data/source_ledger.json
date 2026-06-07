@@ -1,0 +1,44 @@
+{
+  "downloaded_at_local": "2026-06-06 03:45:24",
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "source_urls": {
+    "WDI country metadata": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "WDI indicator API": "https://api.worldbank.org/v2/country/all/indicator/{indicator}?format=json&per_page=20000"
+  },
+  "indicators": {
+    "NY.GDP.PCAP.KD": "gdp_pc_const2015",
+    "SL.GDP.PCAP.EM.KD": "gdp_per_worker_const2021ppp",
+    "IT.NET.USER.ZS": "internet_users_pct",
+    "IT.NET.BBND.P2": "fixed_broadband_per100",
+    "IT.CEL.SETS.P2": "mobile_subs_per100",
+    "NE.GDI.TOTL.ZS": "gross_capital_formation_pct_gdp",
+    "NE.TRD.GNFS.ZS": "trade_pct_gdp",
+    "SP.URB.TOTL.IN.ZS": "urban_pop_pct",
+    "SE.TER.ENRR": "tertiary_enrollment_gross_pct",
+    "TX.VAL.TECH.MF.ZS": "hightech_exports_pct_manufactured",
+    "SP.POP.TOTL": "population_total",
+    "NY.GDP.TOTL.RT.ZS": "natural_resource_rents_pct_gdp"
+  },
+  "notes": [
+    "World Bank WDI country-year panel excludes aggregate regions.",
+    "Key digital variables are lagged by one year before regression.",
+    "Regressions include country and year fixed effects and cluster standard errors by country.",
+    "Reported significance stars use Student-t p-values with country-cluster degrees of freedom.",
+    "The design is associational fixed-effects evidence, not a definitive causal estimate."
+  ]
+}

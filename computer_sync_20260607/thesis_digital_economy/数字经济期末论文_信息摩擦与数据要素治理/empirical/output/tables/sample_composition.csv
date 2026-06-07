@@ -1,0 +1,3 @@
+﻿group,observations,countries,high_income_share,median_gdp_pc,median_fixed_broadband_per100,median_internet_users_pct,median_population
+baseline_sample,2067,179,0.37155297532656023,6075.03399972737,9.841693027075225,61.9433977593088,9605074.0
+excluded_from_baseline,971,217,0.4490216271884655,7308.31758516508,6.72203506060227,37.97370148,537000.0
