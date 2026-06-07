@@ -1,0 +1,536 @@
+{
+  "pdf": "delivery\\选必三逻辑与思维_推理宝典_终极版_20260606.pdf",
+  "page_count": 97,
+  "marker_counts": {
+    "【题目材料】": 83,
+    "【判断依据】": 83,
+    "【满分作答示范】": 83,
+    "【采分点对照】": 83
+  },
+  "optional_marker_counts": {
+    "【设问】": 20
+  },
+  "forbidden_counts": {
+    "回源": 0,
+    "底座": 0,
+    "汇编": 0,
+    "答案落点": 0,
+    "学生化": 0,
+    "细则要点": 0,
+    "材料触发点": 0,
+    "/Users": 0,
+    "C:\\": 0,
+    "source_extracted": 0,
+    "OCR": 0,
+    "**• **": 0,
+    "本题应围绕": 0,
+    "本题考查": 0,
+    "本题应": 0,
+    "高三政治": 0,
+    "成沟": 0,
+    "供训练使用": 0,
+    "材料栏": 0,
+    "不作为完整真题": 0,
+    "【这道题考什么】": 0,
+    "【怎么想到的】": 0,
+    "【本类怎么做】": 0,
+    "【本类常见坑】": 0
+  },
+  "blank_pages": [],
+  "min_text_chars_on_page": 189,
+  "min_nonwhite_ratio": 0.03484,
+  "sample_outputs": [
+    "qa\\pdf_render_qa\\sample_page_001.png",
+    "qa\\pdf_render_qa\\sample_page_048.png",
+    "qa\\pdf_render_qa\\sample_page_097.png"
+  ],
+  "contact_sheet": "qa\\pdf_render_qa\\all_pages_contact_sheet.png",
+  "pass": true,
+  "page_stats": [
+    {
+      "page": 1,
+      "text_chars": 2289,
+      "nonwhite_ratio": 0.10495
+    },
+    {
+      "page": 2,
+      "text_chars": 3378,
+      "nonwhite_ratio": 0.10953
+    },
+    {
+      "page": 3,
+      "text_chars": 3380,
+      "nonwhite_ratio": 0.11082
+    },
+    {
+      "page": 4,
+      "text_chars": 3278,
+      "nonwhite_ratio": 0.11363
+    },
+    {
+      "page": 5,
+      "text_chars": 3533,
+      "nonwhite_ratio": 0.10496
+    },
+    {
+      "page": 6,
+      "text_chars": 3521,
+      "nonwhite_ratio": 0.10645
+    },
+    {
+      "page": 7,
+      "text_chars": 2166,
+      "nonwhite_ratio": 0.06208
+    },
+    {
+      "page": 8,
+      "text_chars": 712,
+      "nonwhite_ratio": 0.10764
+    },
+    {
+      "page": 9,
+      "text_chars": 891,
+      "nonwhite_ratio": 0.1475
+    },
+    {
+      "page": 10,
+      "text_chars": 937,
+      "nonwhite_ratio": 0.1592
+    },
+    {
+      "page": 11,
+      "text_chars": 883,
+      "nonwhite_ratio": 0.14382
+    },
+    {
+      "page": 12,
+      "text_chars": 976,
+      "nonwhite_ratio": 0.16991
+    },
+    {
+      "page": 13,
+      "text_chars": 810,
+      "nonwhite_ratio": 0.13234
+    },
+    {
+      "page": 14,
+      "text_chars": 972,
+      "nonwhite_ratio": 0.16289
+    },
+    {
+      "page": 15,
+      "text_chars": 1088,
+      "nonwhite_ratio": 0.17577
+    },
+    {
+      "page": 16,
+      "text_chars": 871,
+      "nonwhite_ratio": 0.14441
+    },
+    {
+      "page": 17,
+      "text_chars": 715,
+      "nonwhite_ratio": 0.11318
+    },
+    {
+      "page": 18,
+      "text_chars": 740,
+      "nonwhite_ratio": 0.11812
+    },
+    {
+      "page": 19,
+      "text_chars": 719,
+      "nonwhite_ratio": 0.11995
+    },
+    {
+      "page": 20,
+      "text_chars": 1030,
+      "nonwhite_ratio": 0.1711
+    },
+    {
+      "page": 21,
+      "text_chars": 887,
+      "nonwhite_ratio": 0.14787
+    },
+    {
+      "page": 22,
+      "text_chars": 912,
+      "nonwhite_ratio": 0.16035
+    },
+    {
+      "page": 23,
+      "text_chars": 876,
+      "nonwhite_ratio": 0.15006
+    },
+    {
+      "page": 24,
+      "text_chars": 976,
+      "nonwhite_ratio": 0.16395
+    },
+    {
+      "page": 25,
+      "text_chars": 817,
+      "nonwhite_ratio": 0.13366
+    },
+    {
+      "page": 26,
+      "text_chars": 881,
+      "nonwhite_ratio": 0.14875
+    },
+    {
+      "page": 27,
+      "text_chars": 959,
+      "nonwhite_ratio": 0.16884
+    },
+    {
+      "page": 28,
+      "text_chars": 861,
+      "nonwhite_ratio": 0.14508
+    },
+    {
+      "page": 29,
+      "text_chars": 922,
+      "nonwhite_ratio": 0.15985
+    },
+    {
+      "page": 30,
+      "text_chars": 803,
+      "nonwhite_ratio": 0.13119
+    },
+    {
+      "page": 31,
+      "text_chars": 827,
+      "nonwhite_ratio": 0.13893
+    },
+    {
+      "page": 32,
+      "text_chars": 666,
+      "nonwhite_ratio": 0.10883
+    },
+    {
+      "page": 33,
+      "text_chars": 779,
+      "nonwhite_ratio": 0.13301
+    },
+    {
+      "page": 34,
+      "text_chars": 920,
+      "nonwhite_ratio": 0.16117
+    },
+    {
+      "page": 35,
+      "text_chars": 940,
+      "nonwhite_ratio": 0.1525
+    },
+    {
+      "page": 36,
+      "text_chars": 812,
+      "nonwhite_ratio": 0.13389
+    },
+    {
+      "page": 37,
+      "text_chars": 850,
+      "nonwhite_ratio": 0.14095
+    },
+    {
+      "page": 38,
+      "text_chars": 933,
+      "nonwhite_ratio": 0.15535
+    },
+    {
+      "page": 39,
+      "text_chars": 1070,
+      "nonwhite_ratio": 0.17185
+    },
+    {
+      "page": 40,
+      "text_chars": 886,
+      "nonwhite_ratio": 0.15085
+    },
+    {
+      "page": 41,
+      "text_chars": 802,
+      "nonwhite_ratio": 0.13484
+    },
+    {
+      "page": 42,
+      "text_chars": 686,
+      "nonwhite_ratio": 0.10839
+    },
+    {
+      "page": 43,
+      "text_chars": 810,
+      "nonwhite_ratio": 0.13379
+    },
+    {
+      "page": 44,
+      "text_chars": 882,
+      "nonwhite_ratio": 0.14315
+    },
+    {
+      "page": 45,
+      "text_chars": 894,
+      "nonwhite_ratio": 0.14672
+    },
+    {
+      "page": 46,
+      "text_chars": 940,
+      "nonwhite_ratio": 0.14626
+    },
+    {
+      "page": 47,
+      "text_chars": 959,
+      "nonwhite_ratio": 0.15686
+    },
+    {
+      "page": 48,
+      "text_chars": 1015,
+      "nonwhite_ratio": 0.16868
+    },
+    {
+      "page": 49,
+      "text_chars": 870,
+      "nonwhite_ratio": 0.14458
+    },
+    {
+      "page": 50,
+      "text_chars": 884,
+      "nonwhite_ratio": 0.15498
+    },
+    {
+      "page": 51,
+      "text_chars": 971,
+      "nonwhite_ratio": 0.15688
+    },
+    {
+      "page": 52,
+      "text_chars": 688,
+      "nonwhite_ratio": 0.11406
+    },
+    {
+      "page": 53,
+      "text_chars": 865,
+      "nonwhite_ratio": 0.13272
+    },
+    {
+      "page": 54,
+      "text_chars": 984,
+      "nonwhite_ratio": 0.16859
+    },
+    {
+      "page": 55,
+      "text_chars": 796,
+      "nonwhite_ratio": 0.13588
+    },
+    {
+      "page": 56,
+      "text_chars": 865,
+      "nonwhite_ratio": 0.14461
+    },
+    {
+      "page": 57,
+      "text_chars": 1000,
+      "nonwhite_ratio": 0.17204
+    },
+    {
+      "page": 58,
+      "text_chars": 752,
+      "nonwhite_ratio": 0.12148
+    },
+    {
+      "page": 59,
+      "text_chars": 872,
+      "nonwhite_ratio": 0.15003
+    },
+    {
+      "page": 60,
+      "text_chars": 956,
+      "nonwhite_ratio": 0.16413
+    },
+    {
+      "page": 61,
+      "text_chars": 785,
+      "nonwhite_ratio": 0.13337
+    },
+    {
+      "page": 62,
+      "text_chars": 961,
+      "nonwhite_ratio": 0.15994
+    },
+    {
+      "page": 63,
+      "text_chars": 742,
+      "nonwhite_ratio": 0.12449
+    },
+    {
+      "page": 64,
+      "text_chars": 944,
+      "nonwhite_ratio": 0.1513
+    },
+    {
+      "page": 65,
+      "text_chars": 864,
+      "nonwhite_ratio": 0.14254
+    },
+    {
+      "page": 66,
+      "text_chars": 1001,
+      "nonwhite_ratio": 0.16837
+    },
+    {
+      "page": 67,
+      "text_chars": 608,
+      "nonwhite_ratio": 0.09684
+    },
+    {
+      "page": 68,
+      "text_chars": 724,
+      "nonwhite_ratio": 0.11633
+    },
+    {
+      "page": 69,
+      "text_chars": 937,
+      "nonwhite_ratio": 0.1531
+    },
+    {
+      "page": 70,
+      "text_chars": 849,
+      "nonwhite_ratio": 0.14105
+    },
+    {
+      "page": 71,
+      "text_chars": 970,
+      "nonwhite_ratio": 0.16471
+    },
+    {
+      "page": 72,
+      "text_chars": 816,
+      "nonwhite_ratio": 0.13601
+    },
+    {
+      "page": 73,
+      "text_chars": 878,
+      "nonwhite_ratio": 0.15071
+    },
+    {
+      "page": 74,
+      "text_chars": 902,
+      "nonwhite_ratio": 0.14966
+    },
+    {
+      "page": 75,
+      "text_chars": 602,
+      "nonwhite_ratio": 0.09455
+    },
+    {
+      "page": 76,
+      "text_chars": 725,
+      "nonwhite_ratio": 0.12274
+    },
+    {
+      "page": 77,
+      "text_chars": 934,
+      "nonwhite_ratio": 0.15354
+    },
+    {
+      "page": 78,
+      "text_chars": 1027,
+      "nonwhite_ratio": 0.17046
+    },
+    {
+      "page": 79,
+      "text_chars": 789,
+      "nonwhite_ratio": 0.12992
+    },
+    {
+      "page": 80,
+      "text_chars": 893,
+      "nonwhite_ratio": 0.15041
+    },
+    {
+      "page": 81,
+      "text_chars": 715,
+      "nonwhite_ratio": 0.11579
+    },
+    {
+      "page": 82,
+      "text_chars": 760,
+      "nonwhite_ratio": 0.12477
+    },
+    {
+      "page": 83,
+      "text_chars": 862,
+      "nonwhite_ratio": 0.13829
+    },
+    {
+      "page": 84,
+      "text_chars": 877,
+      "nonwhite_ratio": 0.14634
+    },
+    {
+      "page": 85,
+      "text_chars": 906,
+      "nonwhite_ratio": 0.14432
+    },
+    {
+      "page": 86,
+      "text_chars": 922,
+      "nonwhite_ratio": 0.14887
+    },
+    {
+      "page": 87,
+      "text_chars": 906,
+      "nonwhite_ratio": 0.15161
+    },
+    {
+      "page": 88,
+      "text_chars": 988,
+      "nonwhite_ratio": 0.15215
+    },
+    {
+      "page": 89,
+      "text_chars": 825,
+      "nonwhite_ratio": 0.13332
+    },
+    {
+      "page": 90,
+      "text_chars": 827,
+      "nonwhite_ratio": 0.14181
+    },
+    {
+      "page": 91,
+      "text_chars": 829,
+      "nonwhite_ratio": 0.13754
+    },
+    {
+      "page": 92,
+      "text_chars": 838,
+      "nonwhite_ratio": 0.13049
+    },
+    {
+      "page": 93,
+      "text_chars": 708,
+      "nonwhite_ratio": 0.11002
+    },
+    {
+      "page": 94,
+      "text_chars": 631,
+      "nonwhite_ratio": 0.1023
+    },
+    {
+      "page": 95,
+      "text_chars": 1177,
+      "nonwhite_ratio": 0.19509
+    },
+    {
+      "page": 96,
+      "text_chars": 189,
+      "nonwhite_ratio": 0.03484
+    },
+    {
+      "page": 97,
+      "text_chars": 730,
+      "nonwhite_ratio": 0.11622
+    }
+  ]
+}

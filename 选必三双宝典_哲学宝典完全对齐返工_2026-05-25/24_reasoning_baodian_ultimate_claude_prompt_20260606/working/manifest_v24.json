@@ -1,0 +1,1828 @@
+[
+  {
+    "index": 1,
+    "anchor": "2024朝阳一模 第20题第（1）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "有效式：肯定前件或否定后件，方向要走对",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 2,
+    "anchor": "2026通州期末 第19题第（2）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "有效式：肯定前件或否定后件，方向要走对",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 3,
+    "anchor": "2026东城期末 第17题第（2）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "陷阱：后件为真不能倒推前件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 4,
+    "anchor": "2025西城二模 第16题第（2）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "陷阱：后件为真不能倒推前件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 5,
+    "anchor": "2026海淀期末 第20题第（1）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "陷阱：后件为真不能倒推前件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 6,
+    "anchor": "2024丰台一模 第19题第（1）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "判断构造：把条件补成能推出结果的前件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 7,
+    "anchor": "2025丰台二模 第19题第（1）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "陷阱一：重要条件不等于充分条件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 8,
+    "anchor": "2024丰台二模 第18题第（2）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "陷阱一：重要条件不等于充分条件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 9,
+    "anchor": "2025东城二模 第18题第（2）问（主观题）",
+    "major": "一、充分条件假言推理与判断",
+    "subtype": "陷阱二：形式像对，前提未必真",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 10,
+    "anchor": "2024朝阳一模 第20题第（2）问（主观题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "有效式：少了它不行，结果成立就要回找它",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 11,
+    "anchor": "2026丰台一模 第18题第（2）问（主观题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "有效式：少了它不行，结果成立就要回找它",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 12,
+    "anchor": "2025朝阳一模 第17题第（1）问（主观题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "陷阱：有了必要条件不等于结果必然成",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 13,
+    "anchor": "2026通州期末 第19题第（2）问（主观题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "陷阱：有了必要条件不等于结果必然成",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 14,
+    "anchor": "2024顺义二模 第7题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "必要条件的文字信号",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 15,
+    "anchor": "2024丰台一模 第11题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "必要条件与结论边界",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 16,
+    "anchor": "2026海淀二模 第5题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "必要条件与结论边界",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 17,
+    "anchor": "2026石景山一模 第6题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "必要条件与定义边界",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 18,
+    "anchor": "2026朝阳二模 第6题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "除非、否则与双重否定",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 19,
+    "anchor": "2026海淀二模 第6题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "必要条件与选言边界",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 20,
+    "anchor": "2026西城二模 第5题（选择题）",
+    "major": "二、必要条件假言推理与判断",
+    "subtype": "相容选言里不要误排斥",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 21,
+    "anchor": "2026东城期末 第17题第（2）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "先看三项：大项、小项、中项",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 22,
+    "anchor": "2026丰台一模 第18题第（2）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "先看三项：大项、小项、中项",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 23,
+    "anchor": "2026顺义一模 第19题第（1）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "三段论形式正确，前提仍要真实",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 24,
+    "anchor": "2026东城期末 第6题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "补大前提：把省略规则说出来",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 25,
+    "anchor": "2026西城一模 第19题第（3）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "四概念：同一个词前后换了对象",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 26,
+    "anchor": "2025顺义一模 第7题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "大项扩大：结论说得比前提更满",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 27,
+    "anchor": "2024朝阳二模 第7题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "小项扩大：主语范围被偷偷放大",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 28,
+    "anchor": "2025房山一模 第16题第（2）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "构造三段论：先定中项桥梁",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 29,
+    "anchor": "2024丰台二模 第18题第（1）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "构造三段论：先定中项桥梁",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 30,
+    "anchor": "2025朝阳期末 第19题（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "有效结构：形式有效还要看前提",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 31,
+    "anchor": "2024东城一模 第7题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "有效形式与真实前提要分开",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 32,
+    "anchor": "2024丰台一模 第7题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "周延性：看概念有没有被说尽",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 33,
+    "anchor": "2024海淀二模 第6题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "换位边界：不是每句话都能倒过来",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 34,
+    "anchor": "2026门头沟一模 第6题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "类比与换位换质不要混判",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 35,
+    "anchor": "2026石景山一模 第5题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "换质位：变形不能变意思",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 36,
+    "anchor": "2025丰台二模 第16题第（2）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "构建论证：让结论从共同前提长出来",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 37,
+    "anchor": "2026海淀二模 第20题第（1）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "构建论证：让结论从共同前提长出来",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 38,
+    "anchor": "2025西城期末 第17题第（2）问（主观题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "构建论证：让结论从共同前提长出来",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 39,
+    "anchor": "2026丰台二模 第8题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "综合辨析：换位、三段论、外延分开看",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 40,
+    "anchor": "2026东城二模 第12题（选择题）",
+    "major": "三、三段论、性质判断周延与换质位",
+    "subtype": "省略前提：把隐藏的大前提补回来",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 41,
+    "anchor": "2026朝阳一模 第17题第（1）问前半（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 42,
+    "anchor": "2024.11朝阳期中 第18题（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 43,
+    "anchor": "2026石景山一模 第7题（选择题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 44,
+    "anchor": "2026海淀二模 第7题（选择题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 45,
+    "anchor": "2025朝阳二模 第17题（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理可靠程度",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 46,
+    "anchor": "2024海淀一模 第18题第（2）问（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理可靠程度",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 47,
+    "anchor": "2026海淀一模 第17题第（2）问（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理可靠程度",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 48,
+    "anchor": "2025石景山一模 第19题（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "不完全归纳推理可靠程度",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 49,
+    "anchor": "2024西城二模 第18题第（1）问（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "科学归纳推理与不完全归纳推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 50,
+    "anchor": "2024海淀二模 第5题（选择题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "探求因果联系中的求异法",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 51,
+    "anchor": "2024东城二模 第17题第（2）问（主观题）",
+    "major": "四、归纳推理与探求因果联系",
+    "subtype": "科学归纳、求异法与类比推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 52,
+    "anchor": "2024.11朝阳期中 第18题（主观题）",
+    "major": "五、类比推理",
+    "subtype": "类比推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 53,
+    "anchor": "2026顺义一模 第4题（选择题）",
+    "major": "五、类比推理",
+    "subtype": "类比推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 54,
+    "anchor": "2024朝阳二模 第19题第（1）问（主观题）",
+    "major": "五、类比推理",
+    "subtype": "类比推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 55,
+    "anchor": "2026东城二模 第18题（主观题）",
+    "major": "五、类比推理",
+    "subtype": "类比推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 56,
+    "anchor": "2026海淀一模 第17题第（1）问（主观题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "概念划分规则",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 57,
+    "anchor": "2026西城一模 第19题第（3）问（主观题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "同一律与偷换概念",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 58,
+    "anchor": "2026顺义一模 第2题（选择题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "概念外延关系错项辨析",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 59,
+    "anchor": "2024西城一模 第19题第（2）问（主观题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "定义构成与属加种差定义",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 60,
+    "anchor": "2024西城一模 第19题第（3）问（主观题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "概念外延中的相容关系与属种关系",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 61,
+    "anchor": "2024石景山一模 第7题（选择题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "概念外延关系图示辨析",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 62,
+    "anchor": "2026朝阳二模 第19题第（1）问（主观题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "定义方法与种差加属概念",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 63,
+    "anchor": "2026石景山二模 第7题（选择题）",
+    "major": "六、概念、定义、外延关系与划分",
+    "subtype": "同一律与概念确定性",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 64,
+    "anchor": "2026海淀一模 第17题第（1）问（主观题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "选言判断",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 65,
+    "anchor": "2026西城一模 第19题第（3）问（主观题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "反对关系与联言判断",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 66,
+    "anchor": "2025海淀一模 第21题第（1）问（主观题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "不相容选言推理（有效式）",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 67,
+    "anchor": "2025丰台期末 第9题（选择题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "不相容选言推理无效式辨析",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 68,
+    "anchor": "2024东城一模 第8题（选择题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "复合假言与选言推理链",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 69,
+    "anchor": "2024海淀一模 第6题（选择题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "选言推理与逆向思维复合辨析",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 70,
+    "anchor": "2024海淀一模 第7题（选择题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "联言判断类型识别",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 71,
+    "anchor": "2024朝阳二模 第19题第（2）问（主观题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "联言判断真值条件",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 72,
+    "anchor": "2024顺义二模 第6题（选择题）",
+    "major": "七、选言推理、联言判断与复合判断",
+    "subtype": "复合判断识别与逻辑规则辨析",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 73,
+    "anchor": "2026东城期末 第17题第（2）问（主观题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "矛盾律",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 74,
+    "anchor": "2026东城期末 第7题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "矛盾关系与真假判断",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 75,
+    "anchor": "2024朝阳一模 第6题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "形式逻辑综合选择题",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 76,
+    "anchor": "2026朝阳一模 第5题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "关系判断与非传递关系",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 77,
+    "anchor": "2025丰台二模 第13题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "关系判断与非传递关系",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 78,
+    "anchor": "2025朝阳期末 第19题（主观题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "排中律与两不可错误",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 79,
+    "anchor": "2025朝阳期末 第19题（主观题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "矛盾律与自相矛盾错误",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 80,
+    "anchor": "2024东城一模 第6题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "逻辑规则综合选择",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 81,
+    "anchor": "2024西城一模 第11题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "枚举概括与同一对象替换",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 82,
+    "anchor": "2026丰台二模 第9题（选择题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "真假话约束推理",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  },
+  {
+    "index": 83,
+    "anchor": "2026顺义二模 第18题第（1）问（主观题）",
+    "major": "八、真假关系、逻辑规律与关系判断",
+    "subtype": "矛盾律与一致性要求",
+    "old_fields_present": {
+      "题目材料信息": true,
+      "材料触发点": true,
+      "设问/选项": true,
+      "细则要点": true,
+      "为什么能想到": true,
+      "考生优秀答案": true
+    },
+    "new_fields_present": {
+      "题目材料": true,
+      "设问": true,
+      "判断依据": true,
+      "满分作答示范": true,
+      "采分点对照": true
+    },
+    "defect_flags": []
+  }
+]

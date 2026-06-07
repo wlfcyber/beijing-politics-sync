@@ -1,0 +1,4 @@
+pdf=C:\Users\Administrator\Desktop\选必二法律与生活_满分宝典_v7_0606_A轴细则版.pdf
+pages=75
+spot_pages_rendered=7,8,59,64,73,74,75
+stone_page_fix=page 73 now contains title, source image, and material start; no isolated image heading page in final spot check
