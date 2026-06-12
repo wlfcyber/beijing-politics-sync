@@ -1,0 +1,11 @@
+suite_id,year,district,stage,file_path,file_type,source_type,question_range,status,notes
+HANDOFF-PACKAGE,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612,directory,archive-copy,all,included,"桌面迁移包根目录，大小约 9.8M"
+HANDOFF-README,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/交接说明.md,md,handoff-note,all,included,"SHA256 262b54ba84afc8d2b246263bbba41fa84ac33b2975da9adbdf2c88a1239c23c2"
+HANDOFF-V9,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/成品各版本/哲学宝典-飞哥正志讲堂 v9（终稿）.docx,docx,final-student-artifact,all,included,"主交接 Word；SHA256 795a3f3cd4e146d1ff7f8deb3a77ed7aa5b761a1552cf84fb128f99fd3ae51ad"
+HANDOFF-INDEX,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/成品各版本/哲学宝典-三年题目总索引（最新版）.xlsx,xlsx,index,all,included,"工作簿含 三年哲学题总索引 / 各卷收录统计；SHA256 b181eac2976732a47e61c9cdde52f70fe7c2ce453c340557655f3913955c89d3"
+HANDOFF-SECTIONS,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/sections,directory,content-source,all,included,"35 个知识点 Markdown，1159 个成书条目，后续修改应以此为唯一内容源"
+HANDOFF-INVENTORY,2024-2026,ALL,ALL,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/inventory,directory,transcribed-source-cache,all,included,"63 套卷哲学题转录，作为本包答案忠实性依据；不是当前线程重新逐页源审计"
+HANDOFF-QASSIGNED,2024-2026,ALL,ALL,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/q_assigned.json,json,assignment-ledger,341 questions,included,"341 题基础分配表；主观 142，选择 199；SHA256 947ee0b2fa9ce77b3ba3d953315ef3c54566a24f54c5b2a2c9ac12dce50d111c"
+HANDOFF-AUDIT-V1,2024-2026,ALL,ALL,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/audit.json,json,audit-index,v1 audit,reference-only,"v1 审计差距索引，不得当成 v9 最终覆盖矩阵；SHA256 a2317bbb13bf21637e136453bae329f1dfbc87b042e6b7eaa7c63efbf85876a9"
+HANDOFF-BUILDER,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/build_docx_v3.py,py,builder,all,included,"由 sections 生成 DOCX；迁移到新机器需先改脚本 WORK 路径；SHA256 e756114bd2e910d55c149ed96be42aa87efd94495ac9bd166dbb0ea893c545e7"
+HANDOFF-RENDER-QA,2026,ALL,0612,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/00_control/render_qa/v9,directory,render-validation,v9,included,"v9 渲染 QA：880 张 PNG，1 个 PDF，自动空白页检测 0"

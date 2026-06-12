@@ -1,0 +1,10 @@
+suite_id,question,book_module,question_type,evidence_source,status,artifact_location,decision_reason,next_action
+HANDOFF-PACKAGE,N/A,必修四哲学,package,交接说明.md,included,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/交接说明.md,"迁移包已有项目脉络、用户标准、数据坑与重建方法","后续线程先读此文件"
+HANDOFF-SECTIONS,N/A,必修四哲学,content-source,工作底稿/sections,included,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/sections,"35 个知识点 Markdown 是全书唯一内容源","改正文时只改 sections 后重建 docx"
+HANDOFF-INVENTORY,N/A,必修四哲学,source-cache,工作底稿/inventory,included,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/inventory,"63 套卷转录用于迁移接手和快速定位","若要做源审计，回到原始三年模拟题文件夹逐项复核"
+HANDOFF-QASSIGNED,341,必修四哲学,assignment-ledger,q_assigned.json,included,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/工作底稿/q_assigned.json,"基础口径是 341 道题、715 topic assignment，不是 v9 成书条目数","统计成书条目时改用 sections"
+HANDOFF-DOCX-V9,all,必修四哲学,student-docx,成品各版本/哲学宝典-飞哥正志讲堂 v9（终稿）.docx,included,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/成品各版本/哲学宝典-飞哥正志讲堂 v9（终稿）.docx,"主交接成品，渲染成功","用户查看和后续分发优先使用 v9"
+HANDOFF-RENDER,880,必修四哲学,render-qa,render_qa/v9,included,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/00_control/render_qa/v9,"导出 880 页 PNG 与 PDF，自动空白页检测 0，人工抽查 1/2/440/880 页","若改 Word，重新渲染"
+HANDOFF-OLD-VERSIONS,v2-v8,必修四哲学,version-history,成品各版本,reference-only,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/成品各版本,"旧版本用于追溯改版过程，本次未重新渲染","不要把旧版当当前主交付"
+HANDOFF-EVIDENCE-BOUNDARY,推断/第三方/冲突/边缘,必修四哲学,boundary-note,交接说明.md + sections,reference-only,/Users/wanglifei/Desktop/哲学宝典迁移包_20260612/交接说明.md,"包内已有证据边界标注，当前交接不升级证据等级","后续源审计须回到原始卷和细则"
+HANDOFF-GITHUB,N/A,必修四哲学,sync,beyond-scope,blocked,N/A,"本次用户指定桌面迁移包，未要求 GitHub 推送或原始源同步","如需跨机同步，另开 GitHub/云盘同步步骤"
