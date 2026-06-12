@@ -1,0 +1,12 @@
+source_id,path,role,status,notes
+desktop_docx,/Users/wanglifei/Desktop/选必三思维宝典-飞哥正志讲堂.docx,target,backed_up,Current student-facing Word file before rubric-boundary re-audit.
+desktop_pdf,/Users/wanglifei/Desktop/选必三思维宝典-飞哥正志讲堂.pdf,target,backed_up,Current student-facing PDF before rubric-boundary re-audit.
+input_docx,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/inputs/选必三思维宝典-飞哥正志讲堂_回查前.docx,input,copied,Backup before source-boundary audit.
+input_pdf,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/inputs/选必三思维宝典-飞哥正志讲堂_回查前.pdf,input,copied,Backup before source-boundary audit.
+haidian2026_paper,/Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026海淀二模/试卷/2026北京海淀高三二模政治（教师版）.docx,source,opened,Contains paper plus reference answer / answer-and-scoring-reference text.
+haidian2026_review,/Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026海淀二模/细则/26海淀高三政治二模讲评.pdf,source,found,Folder-labeled as 细则 but filename/content is讲评; needs boundary demotion for Q18(1).
+haidian2026_q18_1_user_rubric_screenshot,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/inputs/user_screenshots/2026海淀二模18_1_评分标准截图_20260605.png,user_supplied_rubric,checked,Actual scoring standard: three material dimensions market research / reduced-configuration experiment / pre-listing test, each 2 points.
+shunyi2026_rubric,/Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026顺义一模/细则/细则.pptx,source,checked,Q19(2) slide is labeled reference answer but includes three scientific-thinking features with 2-point allocation.
+fengtai2026_rubric,/Users/wanglifei/Desktop/2026模拟题/2026各区二模/2026丰台二模/细则/2026丰台区二模主观题阅卷细则(1).pptx,source,checked,Q21 has local marking material for innovation-thinking methods and boundary notes.
+shijingshan2024_rubric,/Users/wanglifei/Desktop/2024模拟题/石景山一模/细则/细则.pptx,source,checked,Q19(3) states 4-point optional paths including analysis-synthesis and dialectical negation.
+category2024_compilation,/Users/wanglifei/Desktop/2024模拟题/202404各区一模试题分类（按模块）/2024届各区一模试题分类汇编选必3.doc,source,checked,Compilation/reference-answer source only for the simulated-CPPCC entry; no independent district formal rubric locked.

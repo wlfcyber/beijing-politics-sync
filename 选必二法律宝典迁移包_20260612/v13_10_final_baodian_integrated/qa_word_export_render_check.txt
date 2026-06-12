@@ -1,0 +1,1 @@
+not passed / not claimed: 2026-05-24 rerun confirmed Word COM can open the v13.10 DOCX read-only (55 pages / 1684 paragraphs), but both ExportAsFixedFormat and Microsoft Print to PDF hung without producing a QA PDF. LibreOffice/soffice is still unavailable, so DOCX visual-render QA remains caveated.

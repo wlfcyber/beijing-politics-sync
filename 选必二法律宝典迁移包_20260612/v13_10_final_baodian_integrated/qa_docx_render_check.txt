@@ -1,0 +1,37 @@
+not passed: render_docx failed; LibreOffice/soffice unavailable on this machine. python.exe : Traceback (most recent call last):
+At line:7 char:1
++ & $python $renderer $docx --output_dir $outdir *> $log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+  File "C:\Users\Administrator\.codex\plugins\cache\openai-primary-runtime\documents\26.521.10419\skills\documents\rend
+er_docx.py", line 422, in <module>
+    main()
+  File "C:\Users\Administrator\.codex\plugins\cache\openai-primary-runtime\documents\26.521.10419\skills\documents\rend
+er_docx.py", line 417, in main
+    rasterize(input_path, out_dir, dpi, verbose=args.verbose, emit_pdf=args.emit_pdf)
+  File "C:\Users\Administrator\.codex\plugins\cache\openai-primary-runtime\documents\26.521.10419\skills\documents\rend
+er_docx.py", line 300, in rasterize
+    pdf_path, debug = convert_to_pdf(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.codex\plugins\cache\openai-primary-runtime\documents\26.521.10419\skills\documents\rend
+er_docx.py", line 188, in convert_to_pdf
+    proc = _run_cmd(cmd_pdf, env=env, verbose=verbose)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.codex\plugins\cache\openai-primary-runtime\documents\26.521.10419\skills\documents\rend
+er_docx.py", line 122, in _run_cmd
+    proc = subprocess.run(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line
+ 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line
+ 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line
+ 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] ϵͳ�Ҳ���ָ�����ļ���

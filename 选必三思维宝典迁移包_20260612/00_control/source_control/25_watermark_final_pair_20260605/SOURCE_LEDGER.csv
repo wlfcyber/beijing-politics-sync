@@ -1,0 +1,9 @@
+source_id,path,role,status,notes
+desktop_docx,/Users/wanglifei/Desktop/选必三思维宝典-飞哥正志讲堂.docx,target,backed_up,Local Word file requested by user.
+desktop_pdf,/Users/wanglifei/Desktop/选必三思维宝典-飞哥正志讲堂.pdf,target,backed_up,Local PDF file requested by user.
+input_docx,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/inputs/选必三思维宝典-飞哥正志讲堂.docx,input,copied,Backup before watermark.
+input_pdf,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/inputs/选必三思维宝典-飞哥正志讲堂.pdf,input,copied,Backup before watermark.
+delivery_docx,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/delivery/选必三思维宝典-飞哥正志讲堂_带水印.docx,output,created,Watermarked Word file with opacity .42.
+delivery_pdf,/Users/wanglifei/Desktop/北京高考政治/选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/rendered/final_v3/选必三思维宝典-飞哥正志讲堂_带水印.pdf,output,created,Rendered watermarked PDF; 81 pages and 130 link targets.
+desktop_docx_final,/Users/wanglifei/Desktop/选必三思维宝典-飞哥正志讲堂.docx,target,replaced,Final desktop DOCX now includes watermark.
+desktop_pdf_final,/Users/wanglifei/Desktop/选必三思维宝典-飞哥正志讲堂.pdf,target,replaced,Final desktop PDF now includes watermark.
