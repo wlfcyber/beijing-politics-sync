@@ -1,0 +1,11 @@
+doc_order,entry_id,question_title,source_kind,source_file,selected_lines,source_status,notes
+201,Q0201,2025海淀期中Q16(2),exam,SRC_EXAM_2025_HAIDIAN_QIZHONG_Q16_2.txt,180-193,REUSED_FROM_SLICE_036,Same raw source as Q0180; source content is Q16(2) coffee-enterprise overseas question.
+201,Q0201,2025海淀期中Q16(2),rubric,SRC_RUBRIC_2025_HAIDIAN_QIZHONG_Q16_2.txt,1-8,REUSED_FROM_SLICE_036,Line 6 contains the full answer chain: enterprise strategy, resource/support, and trade-friction/rules layers.
+202,Q0202,2025西城期末Q20(2),exam,SRC_EXAM_2025_XICHENG_QIMO_Q20_2.txt,307-317;413-418,REUSED_FROM_SLICE_039,Same source as Q0195; this row reviews the market-diversification layer.
+202,Q0202,2025西城期末Q20(2),rubric,SRC_RUBRIC_2025_XICHENG_QIMO_Q20_2.txt,167-190,REUSED_FROM_SLICE_039,Lines 184-185 support the export-market diversification / single-market-dependence layer.
+203,Q0203,2024石景山一模Q19(2),exam,SRC_EXAM_2024_SHIJINGSHAN_YIMO_Q19_2.txt,161-164,REUSED_FROM_SLICE_037,Question and teacher/reference answer support the Hungary comparative-advantage layer.
+203,Q0203,2024石景山一模Q19(2),rubric,SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2.txt,539-544,REUSED_FROM_SLICE_037,Corrected PPTX answer excerpt; no detailed point-by-point rubric beyond the semicolon answer chain.
+204,Q0204,2026西城一模Q20(2),exam,SRC_EXAM_2026_XICHENG_YIMO_Q20_2.txt,148-157,REUSED_FROM_SLICE_020,Formal exam prompt and material for China-ASEAN FTA 3.0.
+204,Q0204,2026西城一模Q20(2),rubric,SRC_RUBRIC_2026_XICHENG_YIMO_Q20_2.txt,63-80,REUSED_FROM_SLICE_020,Lines 73-76 include the industry-chain/supply-chain layer, including comparative advantage and international division of labor.
+205,Q0205,2025海淀期中Q16(2),exam,SRC_EXAM_2025_HAIDIAN_QIZHONG_Q16_2.txt,180-193,REUSED_FROM_SLICE_036,Same raw source as Q0201; this row reviews the global-governance/rules layer.
+205,Q0205,2025海淀期中Q16(2),rubric,SRC_RUBRIC_2025_HAIDIAN_QIZHONG_Q16_2.txt,1-8,REUSED_FROM_SLICE_036,Line 6 directly supports international organization rights, global economic governance, and rules formulation.

@@ -1,0 +1,4 @@
+scope,total_count,reviewed_count,structure_scanned_count,remaining_source_review_count,evidence
+question_entries,561,220,561,341,03_audit/QUESTION_AUDIT_LEDGER.csv
+field_checks,4488,1760,2442,2728,03_audit/QUESTION_AUDIT_LEDGER.csv
+normalized_question_groups,127,0,127,127,03_audit/UNIQUE_QUESTION_INVENTORY.csv

@@ -1,0 +1,13 @@
+SOURCE_ID: SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2
+TITLE: 2024石景山一模Q19(2) 细则/答案
+ORIGINAL_SOURCE_PATH: /Users/wanglifei/Desktop/2024模拟题/石景山一模/细则/细则.pptx
+TEXT_EXTRACT_PATH: /Users/wanglifei/Desktop/北京高考政治/reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/05_source_backcheck/slice_021/SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2.txt
+TEXT_EXTRACT_SOURCE: /Users/wanglifei/Desktop/北京高考政治/claude_zero_run/extracted/f887d1b620c6__细则.txt
+
+## selected source lines 537-542
+537: 国际经济主要答题点
+538: 
+539: ===== SLIDE 45 =====
+540: 我国新时代对外开放的措施
+541: 
+542: ===== SLIDE 46 =====

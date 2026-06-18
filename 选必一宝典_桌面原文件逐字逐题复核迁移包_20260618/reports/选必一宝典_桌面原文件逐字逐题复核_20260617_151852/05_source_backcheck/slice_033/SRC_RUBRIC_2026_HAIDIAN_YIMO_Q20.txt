@@ -1,0 +1,13 @@
+SOURCE_ID: SRC_RUBRIC_2026_HAIDIAN_YIMO_Q20
+TITLE: 2026海淀一模Q20 参考答案/细则
+ORIGINAL_SOURCE_PATH: /Users/wanglifei/Desktop/2026模拟题/2026各区一模/2026海淀一模/细则/细则.pdf
+ORIGINAL_SHA256: 9b5ac8fd0cfe59cb5dd47ea200078c3342a8cfc212be1cbe8a8f13044a540111
+ORIGINAL_SIZE_BYTES: 2405986
+TEXT_EXTRACT_PATH: /Users/wanglifei/Desktop/北京高考政治/选必二重做_2026-04-30/claudecode_lane_B_full_rerun_2026-05-04/source_inventory/extracted/2026/2026海淀一模/2026各区一模__2026海淀一模__细则__细则.pdf.txt
+
+## answer/rubric lines 85-89
+85: 20.（8分）
+86: 扩大制度型开放，增强我国产品、服务乃至产业链在全球的竞争力，推进高水平对外开放，更好利
+87: 用国内国际两个市场、两种资源，推动构建新发展格局；我国在低碳能源、人工智能等领域推动贡
+88: 献国际标准，促进全球范围内标准共通、技术共享，推动全球技术创新与绿色转型，同时，我国积
+89: 极参与全球经济治理和规则制定，推动全球治理体制向着更加公正合理方向发展。

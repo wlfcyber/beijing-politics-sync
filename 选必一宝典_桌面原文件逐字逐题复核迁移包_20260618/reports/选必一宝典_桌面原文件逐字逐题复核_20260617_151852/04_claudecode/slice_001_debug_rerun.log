@@ -1,0 +1,16 @@
+2026-06-17T07:25:38.606Z [DEBUG] MDM settings load completed in 0ms
+2026-06-17T07:25:38.651Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/wanglifei/Desktop/北京高考政治/.claude/settings.json
+2026-06-17T07:25:38.652Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/wanglifei/Desktop/北京高考政治/.claude/settings.local.json
+2026-06-17T07:25:38.652Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-06-17T07:25:38.652Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: HTTP_PROXY,HTTPS_PROXY,ALL_PROXY,http_proxy,https_proxy,all_proxy,NO_PROXY,no_proxy
+2026-06-17T07:25:38.652Z [DEBUG] [init] configureGlobalMTLS starting
+2026-06-17T07:25:38.652Z [DEBUG] [init] configureGlobalMTLS complete
+2026-06-17T07:25:38.652Z [DEBUG] [init] configureGlobalAgents starting
+2026-06-17T07:25:38.653Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-06-17T07:25:38.653Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-06-17T07:25:38.662Z [DEBUG] CA certs: Loaded 3 system CA certificates
+2026-06-17T07:25:38.662Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-06-17T07:25:38.663Z [DEBUG] [init] configureGlobalAgents complete
+2026-06-17T07:25:38.663Z [DEBUG] Error log sink initialized
+2026-06-17T07:25:38.674Z [DEBUG] Git remote URL: null
+2026-06-17T07:25:38.675Z [DEBUG] No git remote URL found

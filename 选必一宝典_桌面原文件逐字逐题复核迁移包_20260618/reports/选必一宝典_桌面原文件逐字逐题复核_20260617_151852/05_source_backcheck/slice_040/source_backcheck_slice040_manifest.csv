@@ -1,0 +1,11 @@
+doc_order,entry_id,source_file,extract_path,line_range,exists,note
+196,Q0196,SRC_EXAM_2026_FANGSHAN_YIMO_Q19.txt,05_source_backcheck/slice_040/SRC_EXAM_2026_FANGSHAN_YIMO_Q19.txt,300-342,True,selected from slice_037 source; one-line/two-line distinction and 3D-printer tax-saving fact
+196,Q0196,SRC_RUBRIC_2026_FANGSHAN_YIMO_Q19.txt,05_source_backcheck/slice_040/SRC_RUBRIC_2026_FANGSHAN_YIMO_Q19.txt,58-65,True,selected from slice_037 formal rubric; production layer line 62 supports tech/competition
+197,Q0197,SRC_EXAM_2026_CHAOYANG_QIZHONG_Q17.txt,05_source_backcheck/slice_040/SRC_EXAM_2026_CHAOYANG_QIZHONG_Q17.txt,148-170;243-245,True,selected from slice_038 source; AI relationships prompt and teacher answer
+197,Q0197,SRC_RUBRIC_2026_CHAOYANG_QIZHONG_Q17.txt,05_source_backcheck/slice_040/SRC_RUBRIC_2026_CHAOYANG_QIZHONG_Q17.txt,14-30,True,selected from slice_038 formal rubric; first layer supports core technology/self-reliance and opening
+198,Q0198,SRC_EXAM_2024_XICHENG_YIMO_Q19.txt,05_source_backcheck/slice_040/SRC_EXAM_2024_XICHENG_YIMO_Q19.txt,197-204,True,selected from slice_036 source; future-industry Q19(6) prompt
+198,Q0198,SRC_RUBRIC_2024_XICHENG_YIMO_Q19.txt,05_source_backcheck/slice_040/SRC_RUBRIC_2024_XICHENG_YIMO_Q19.txt,85-101,True,"selected from slice_036 rubric; card-neck difficulty, product/service competitiveness and rule voice"
+199,Q0199,SRC_EXAM_2025_XICHENG_YIMO_Q18.txt,05_source_backcheck/slice_040/SRC_EXAM_2025_XICHENG_YIMO_Q18.txt,221-234;342-345,True,selected from slice_036 source; two-fish prompt and reference answer
+199,Q0199,SRC_RUBRIC_2025_XICHENG_YIMO_Q18.txt,05_source_backcheck/slice_040/SRC_RUBRIC_2025_XICHENG_YIMO_Q18.txt,65-78,True,selected from slice_036 rubric; industry advantage/material conditions/market layers
+200,Q0200,SRC_EXAM_2026_HAIDIAN_YIMO_Q20.txt,05_source_backcheck/slice_040/SRC_EXAM_2026_HAIDIAN_YIMO_Q20.txt,339-355,True,copied compact source from slice_033
+200,Q0200,SRC_RUBRIC_2026_HAIDIAN_YIMO_Q20.txt,05_source_backcheck/slice_040/SRC_RUBRIC_2026_HAIDIAN_YIMO_Q20.txt,85-89,True,copied compact rubric from slice_033

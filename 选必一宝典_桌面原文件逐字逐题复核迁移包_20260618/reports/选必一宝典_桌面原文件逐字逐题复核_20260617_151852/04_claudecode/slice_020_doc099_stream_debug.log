@@ -1,0 +1,138 @@
+2026-06-17T13:06:00.434Z [DEBUG] MDM settings load completed in 0ms
+2026-06-17T13:06:00.492Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/wanglifei/Desktop/北京高考政治/.claude/settings.json
+2026-06-17T13:06:00.492Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/wanglifei/Desktop/北京高考政治/.claude/settings.local.json
+2026-06-17T13:06:00.492Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-06-17T13:06:00.492Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: HTTP_PROXY,HTTPS_PROXY,ALL_PROXY,http_proxy,https_proxy,all_proxy,NO_PROXY,no_proxy
+2026-06-17T13:06:00.493Z [DEBUG] [init] configureGlobalMTLS starting
+2026-06-17T13:06:00.493Z [DEBUG] [init] configureGlobalMTLS complete
+2026-06-17T13:06:00.493Z [DEBUG] [init] configureGlobalAgents starting
+2026-06-17T13:06:00.493Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-06-17T13:06:00.493Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-06-17T13:06:00.502Z [DEBUG] CA certs: Loaded 3 system CA certificates
+2026-06-17T13:06:00.502Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-06-17T13:06:00.503Z [DEBUG] [init] configureGlobalAgents complete
+2026-06-17T13:06:00.503Z [DEBUG] Error log sink initialized
+2026-06-17T13:06:00.506Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-06-17T13:06:00.508Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-06-17T13:06:00.510Z [DEBUG] [STARTUP] Running setup()...
+2026-06-17T13:06:00.511Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-06-17T13:06:00.511Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/wanglifei/Desktop/北京高考政治/.claude/settings.json
+2026-06-17T13:06:00.511Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/wanglifei/Desktop/北京高考政治/.claude/settings.local.json
+2026-06-17T13:06:00.511Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/wanglifei/.claude/skills, project=[]
+2026-06-17T13:06:00.511Z [DEBUG] Error log sink initialized
+2026-06-17T13:06:00.512Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-06-17T13:06:00.514Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-06-17T13:06:00.515Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-06-17T13:06:00.515Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-06-17T13:06:00.515Z [DEBUG] Total plugin workflows loaded: 0
+2026-06-17T13:06:00.515Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-06-17T13:06:00.515Z [DEBUG] Total plugin skills loaded: 0
+2026-06-17T13:06:00.515Z [DEBUG] Total plugin commands loaded: 0
+2026-06-17T13:06:00.515Z [DEBUG] Acquired PID lock for 2.1.154 (PID 37521)
+2026-06-17T13:06:00.516Z [DEBUG] Acquired PID lock on running version: /Users/wanglifei/.local/share/claude/versions/2.1.154
+2026-06-17T13:06:00.516Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/commands: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/commands'
+2026-06-17T13:06:00.516Z [DEBUG] Failed to stat directory /Users/wanglifei/.claude/commands: ENOENT: no such file or directory, stat '/Users/wanglifei/.claude/commands'
+2026-06-17T13:06:00.516Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-06-17T13:06:00.516Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 15 bundled skills, 0 builtin plugin skills
+2026-06-17T13:06:00.517Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/agents: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/agents'
+2026-06-17T13:06:00.517Z [DEBUG] Failed to stat directory /Users/wanglifei/.claude/agents: ENOENT: no such file or directory, stat '/Users/wanglifei/.claude/agents'
+2026-06-17T13:06:00.517Z [DEBUG] Total plugin agents loaded: 0
+2026-06-17T13:06:00.518Z [DEBUG] [STARTUP] setup() completed in 8ms
+2026-06-17T13:06:00.518Z [DEBUG] Cleared CA certificates cache
+2026-06-17T13:06:00.518Z [DEBUG] Cleared mTLS configuration cache
+2026-06-17T13:06:00.518Z [DEBUG] Cleared proxy agent cache
+2026-06-17T13:06:00.519Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-06-17T13:06:00.519Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-06-17T13:06:00.519Z [DEBUG] CA certs: Loaded 3 system CA certificates
+2026-06-17T13:06:00.519Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-06-17T13:06:00.519Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-06-17T13:06:00.520Z [DEBUG] [STARTUP] Commands and agents loaded in 1ms
+2026-06-17T13:06:00.520Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-06-17T13:06:00.520Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-06-17T13:06:00.520Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-06-17T13:06:00.520Z [DEBUG] Starting background startup prefetches
+2026-06-17T13:06:00.520Z [DEBUG] [Bootstrap] Fetching
+2026-06-17T13:06:00.520Z [DEBUG] Passes: Using fresh cached eligibility data
+2026-06-17T13:06:00.520Z [DEBUG] [STARTUP] MCP configs resolved in 7ms (awaited at +12ms)
+2026-06-17T13:06:00.521Z [DEBUG] Cleared CA certificates cache
+2026-06-17T13:06:00.521Z [DEBUG] Cleared mTLS configuration cache
+2026-06-17T13:06:00.521Z [DEBUG] Cleared proxy agent cache
+2026-06-17T13:06:00.521Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-06-17T13:06:00.521Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-06-17T13:06:00.521Z [DEBUG] CA certs: Loaded 3 system CA certificates
+2026-06-17T13:06:00.521Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-06-17T13:06:00.521Z [DEBUG] Total LSP servers loaded: 0
+2026-06-17T13:06:00.522Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-06-17T13:06:00.524Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:00.524Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-06-17T13:06:00.524Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-06-17T13:06:00.524Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-06-17T13:06:00.524Z [DEBUG] LSP manager initialized with 0 servers
+2026-06-17T13:06:00.524Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-06-17T13:06:00.524Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-06-17T13:06:00.525Z [DEBUG] LSP server manager initialized successfully
+2026-06-17T13:06:00.525Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-06-17T13:06:00.529Z [DEBUG] Grove: Using fresh cached config
+2026-06-17T13:06:00.532Z [DEBUG] Git remote URL: null
+2026-06-17T13:06:00.533Z [DEBUG] No git remote URL found
+2026-06-17T13:06:00.533Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/Users/wanglifei/.local/share/claude/versions/2.1.154)
+2026-06-17T13:06:00.533Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: /Users/wanglifei/.claude/plugins/cache: IO error for operation on /Users/wanglifei/.claude/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+2026-06-17T13:06:00.565Z [DEBUG] Watching for changes in setting files /Users/wanglifei/.claude/settings.json...
+2026-06-17T13:06:02.370Z [ERROR] Failed to fetch MCP registry: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()
+2026-06-17T13:06:02.935Z [ERROR] Failed to fetch org fast mode status, defaulting to disabled (network_error): Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()
+2026-06-17T13:06:03.531Z [DEBUG] Failed to fetch Grove notice config: AxiosError: timeout of 3000ms exceeded
+2026-06-17T13:06:05.192Z [DEBUG] [claudeai-mcp] Fetched 0 servers
+2026-06-17T13:06:05.514Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=opt-in disabledBySettings=false model=claude-opus-4-8 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-06-17T13:06:05.523Z [DEBUG] [Bootstrap] Fetch failed: ECONNABORTED
+2026-06-17T13:06:05.523Z [ERROR] [Bootstrap] fetchBootstrapData failed: AxiosError: timeout of 5000ms exceeded
+2026-06-17T13:06:06.547Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-06-17T13:06:06.549Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-06-17T13:06:06.549Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.154.1ec; cc_entrypoint=sdk-cli; cch=00000;
+2026-06-17T13:06:06.549Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.550Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.550Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-06-17T13:06:06.550Z [DEBUG] [API:auth] OAuth token check starting
+2026-06-17T13:06:06.551Z [DEBUG] installPluginsForHeadless: starting
+2026-06-17T13:06:06.551Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-06-17T13:06:06.552Z [DEBUG] [API:auth] OAuth token check complete
+2026-06-17T13:06:06.552Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.552Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-4-5-20251001
+2026-06-17T13:06:06.553Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=5777b226-afd4-49a0-95f5-aae7e5e9f988 source=generate_session_title
+2026-06-17T13:06:06.553Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/output-styles: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/output-styles'
+2026-06-17T13:06:06.553Z [DEBUG] Failed to stat directory /Users/wanglifei/.claude/output-styles: ENOENT: no such file or directory, stat '/Users/wanglifei/.claude/output-styles'
+2026-06-17T13:06:06.553Z [DEBUG] Total plugin output styles loaded: 0
+2026-06-17T13:06:06.554Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-06-17T13:06:06.554Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-06-17T13:06:06.554Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-06-17T13:06:06.555Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.556Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-06-17T13:06:06.556Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.154.67e; cc_entrypoint=sdk-cli; cch=00000;
+2026-06-17T13:06:06.556Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.556Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.556Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-06-17T13:06:06.556Z [DEBUG] [API:auth] OAuth token check starting
+2026-06-17T13:06:06.556Z [DEBUG] [API:auth] OAuth token check complete
+2026-06-17T13:06:06.557Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:06.557Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-4-8
+2026-06-17T13:06:06.557Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=d91ef43b-8213-484f-bd10-8041c1069918 source=sdk
+2026-06-17T13:06:08.584Z [ERROR] API error (attempt 1/11): undefined Connection error.
+2026-06-17T13:06:09.179Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-06-17T13:06:09.181Z [DEBUG] [API:auth] OAuth token check starting
+2026-06-17T13:06:09.182Z [DEBUG] [API:auth] OAuth token check complete
+2026-06-17T13:06:09.182Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:09.182Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-4-5-20251001
+2026-06-17T13:06:09.183Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=6f6d84e1-48a8-44f2-b013-ff10731926ab source=generate_session_title
+2026-06-17T13:06:11.021Z [ERROR] API error (attempt 2/11): undefined Connection error.
+2026-06-17T13:06:12.047Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-06-17T13:06:12.049Z [DEBUG] [API:auth] OAuth token check starting
+2026-06-17T13:06:12.049Z [DEBUG] [API:auth] OAuth token check complete
+2026-06-17T13:06:12.050Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:06:12.050Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-4-5-20251001
+2026-06-17T13:06:12.051Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=5ce259b7-2b52-4488-856f-039af57d8acc source=generate_session_title
+2026-06-17T13:06:12.540Z [DEBUG] Stream started - received first chunk
+2026-06-17T13:06:12.542Z [DEBUG] [API:timing] first byte after 5985ms
+2026-06-17T13:06:17.027Z [DEBUG] Stream started - received first chunk
+2026-06-17T13:06:17.029Z [DEBUG] [API:timing] first byte after 4979ms
+2026-06-17T13:08:31.285Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-06-17T13:08:31.289Z [DEBUG] LSP server manager shut down successfully
+2026-06-17T13:08:31.794Z [DEBUG] Released PID lock for 2.1.154

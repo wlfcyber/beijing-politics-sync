@@ -1,0 +1,6 @@
+doc_order,entry_id,question_title,exam_source,rubric_source,source_ledger_status,line_evidence
+211,Q0211,2026海淀一模Q20中国标准与全球经济治理参与,SRC_EXAM_2026_HAIDIAN_YIMO_Q20.txt,SRC_RUBRIC_2026_HAIDIAN_YIMO_Q20.txt,reused_registered,"exam lines 339-355 and rubric lines 85-89"
+212,Q0212,2025昌平二模Q21稳外资行动提升全球经济治理话语权,SRC_EXAM_2025_CHANGPING_ERMO_Q21.txt,SRC_RUBRIC_2025_CHANGPING_ERMO_Q21.txt,reused_registered,"exam lines 255-266 and rubric lines 125-143"
+213,Q0213,2026东城一模Q19(3),SRC_EXAM_2026_DONGCHENG_YIMO_Q19_3.txt,SRC_RUBRIC_2026_DONGCHENG_YIMO_Q19_3.txt,reused_registered,"exam lines 218-227 and rubric lines 8-28"
+214,Q0214,2025西城期末Q20(2),SRC_EXAM_2025_XICHENG_QIMO_Q20_2.txt,SRC_RUBRIC_2025_XICHENG_QIMO_Q20_2.txt,reused_registered,"exam lines 307-317,413-418 and rubric lines 167-190"
+215,Q0215,2025海淀期中Q16(2),SRC_EXAM_2025_HAIDIAN_QIZHONG_Q16_2.txt,SRC_RUBRIC_2025_HAIDIAN_QIZHONG_Q16_2.txt,reused_registered,"exam lines 180-193 and rubric lines 1-8"

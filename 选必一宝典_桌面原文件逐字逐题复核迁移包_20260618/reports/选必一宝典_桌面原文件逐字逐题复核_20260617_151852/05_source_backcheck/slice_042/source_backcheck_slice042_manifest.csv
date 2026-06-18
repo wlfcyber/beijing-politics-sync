@@ -1,0 +1,6 @@
+doc_order,entry_id,question_title,exam_source,rubric_source,source_ledger_status,line_evidence
+206,Q0206,2026东城一模Q19(3),SRC_EXAM_2026_DONGCHENG_YIMO_Q19_3.txt,SRC_RUBRIC_2026_DONGCHENG_YIMO_Q19_3.txt,reused_registered,"exam lines 218-227 and rubric lines 7-28"
+207,Q0207,2024西城一模Q19(6),SRC_EXAM_2024_XICHENG_YIMO_Q19.txt,SRC_RUBRIC_2024_XICHENG_YIMO_Q19.txt,reused_registered,"exam selected lines 197-204 and rubric selected lines 85-101"
+208,Q0208,2026海淀一模Q20,SRC_EXAM_2026_HAIDIAN_YIMO_Q20.txt,SRC_RUBRIC_2026_HAIDIAN_YIMO_Q20.txt,reused_registered,"exam lines 339-355 and rubric lines 85-89"
+209,Q0209,2025昌平二模Q21,SRC_EXAM_2025_CHANGPING_ERMO_Q21.txt,SRC_RUBRIC_2025_CHANGPING_ERMO_Q21.txt,reused_registered,"exam lines 255-266 and rubric lines 125-142"
+210,Q0210,2024西城一模Q19(6),SRC_EXAM_2024_XICHENG_YIMO_Q19.txt plus SRC_EXAM_2024_XICHENG_YIMO_Q19_FULLER_TEXTUTIL.txt,SRC_RUBRIC_2024_XICHENG_YIMO_Q19.txt,reused_registered,"exam selected lines 197-204 plus textutil lines 216-242 and 290-297; rubric selected lines 85-101"

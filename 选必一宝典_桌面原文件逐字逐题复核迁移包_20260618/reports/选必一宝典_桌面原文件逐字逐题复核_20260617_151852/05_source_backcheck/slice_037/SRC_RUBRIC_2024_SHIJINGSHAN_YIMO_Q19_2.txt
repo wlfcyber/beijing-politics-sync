@@ -1,0 +1,13 @@
+SOURCE_ID: SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2
+TITLE: 2024石景山一模Q19(2) 细则/答案（slice037 corrected excerpt）
+ORIGINAL_SOURCE_PATH: /Users/wanglifei/Desktop/2024模拟题/石景山一模/细则/细则.pptx
+TEXT_EXTRACT_PATH: reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/05_source_backcheck/slice_037/SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2.txt
+TEXT_EXTRACT_SOURCE: /Users/wanglifei/Desktop/北京高考政治/claude_zero_run/extracted/f887d1b620c6__细则.txt
+
+## selected source lines 539-544 (Python splitlines numbering; includes Slide 46 answer)
+539: ===== SLIDE 45 =====
+540: 我国新时代对外开放的措施
+541: 
+542: ===== SLIDE 46 =====
+543: （2）（8分）新能源车企顺应经济全球化趋势，依靠技术创新引领，生产优质产品，满足国际市场需求；利用当地比较优势，优化资源配置，降低生产贸易成本，打造国际竞争新优势；通过技术交流与资源共享，带动当地经济、社会发展，创设良好的生产贸易环境，实现合作共赢。
+544: （3）（4分）可从分析与综合的方法、辩证否定观等角度作答。如从其他角度回答，符合题意，亦可酌情给分。

@@ -1,0 +1,11 @@
+doc_order,entry_id,source_file,extract_path,line_range,exists,note
+191,Q0191,SRC_EXAM_2025_HAIDIAN_YIMO_Q21_2.txt,05_source_backcheck/slice_039/SRC_EXAM_2025_HAIDIAN_YIMO_Q21_2.txt,222-234,True,copied from slice_019 verified source package; line numbers are embedded original-source lines
+191,Q0191,SRC_RUBRIC_2025_HAIDIAN_YIMO_Q21_2.txt,05_source_backcheck/slice_039/SRC_RUBRIC_2025_HAIDIAN_YIMO_Q21_2.txt,71-93,True,copied from slice_019 verified source package; line numbers are embedded original-source lines
+192,Q0192,SRC_EXAM_2026_DONGCHENG_ERMO_Q20_3.txt,05_source_backcheck/slice_039/SRC_EXAM_2026_DONGCHENG_ERMO_Q20_3.txt,119-127;151-154,True,copied from slice_019 verified source package; teacher reference answer keeps full wording
+192,Q0192,SRC_RUBRIC_2026_DONGCHENG_ERMO_Q20_3.txt,05_source_backcheck/slice_039/SRC_RUBRIC_2026_DONGCHENG_ERMO_Q20_3.txt,16-39,True,copied from slice_019 verified source package; rubric extract line 39 visibly truncates 机遇 but teacher answer supplies full line
+193,Q0193,SRC_EXAM_2026_DONGCHENG_ERMO_Q20_3.txt,05_source_backcheck/slice_039/SRC_EXAM_2026_DONGCHENG_ERMO_Q20_3.txt,119-127;151-154,True,same-source excerpt for UQ0046 first-layer market-advantage row
+193,Q0193,SRC_RUBRIC_2026_DONGCHENG_ERMO_Q20_3.txt,05_source_backcheck/slice_039/SRC_RUBRIC_2026_DONGCHENG_ERMO_Q20_3.txt,16-39,True,same-source excerpt for UQ0046 first-layer market-advantage row
+194,Q0194,SRC_EXAM_2026_DONGCHENG_ERMO_Q20_3.txt,05_source_backcheck/slice_039/SRC_EXAM_2026_DONGCHENG_ERMO_Q20_3.txt,119-127;151-154,True,same-source excerpt for UQ0046 global-factor-agglomeration row
+194,Q0194,SRC_RUBRIC_2026_DONGCHENG_ERMO_Q20_3.txt,05_source_backcheck/slice_039/SRC_RUBRIC_2026_DONGCHENG_ERMO_Q20_3.txt,16-39,True,same-source excerpt for UQ0046 global-factor-agglomeration row
+195,Q0195,SRC_EXAM_2025_XICHENG_QIMO_Q20_2.txt,05_source_backcheck/slice_039/SRC_EXAM_2025_XICHENG_QIMO_Q20_2.txt,307-317;413-418,True,newly registered from desktop original PDF/text cache; do not confuse with 2026西城期末
+195,Q0195,SRC_RUBRIC_2025_XICHENG_QIMO_Q20_2.txt,05_source_backcheck/slice_039/SRC_RUBRIC_2025_XICHENG_QIMO_Q20_2.txt,167-190,True,newly registered formal rubric from desktop original PDF/text cache; 3 of 4 angles each 2分

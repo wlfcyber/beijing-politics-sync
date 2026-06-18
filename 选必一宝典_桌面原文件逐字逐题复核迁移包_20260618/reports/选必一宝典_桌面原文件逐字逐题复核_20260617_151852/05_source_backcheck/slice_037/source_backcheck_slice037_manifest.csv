@@ -1,0 +1,11 @@
+doc_order,entry_id,source_file,extract_path,line_range,exists,note
+181,Q0181,SRC_EXAM_2024_FENGTAI_YIMO_Q20.txt,05_source_backcheck/slice_037/SRC_EXAM_2024_FENGTAI_YIMO_Q20.txt,242-253;370-373,True,copied from earlier verified slice-local source package
+181,Q0181,SRC_RUBRIC_2024_FENGTAI_YIMO_Q20.txt,05_source_backcheck/slice_037/SRC_RUBRIC_2024_FENGTAI_YIMO_Q20.txt,110-116,True,copied from earlier verified slice-local source package
+182,Q0182,SRC_EXAM_2024_SHIJINGSHAN_YIMO_Q19_2.txt,05_source_backcheck/slice_037/SRC_EXAM_2024_SHIJINGSHAN_YIMO_Q19_2.txt,161-164,True,copied from earlier verified slice-local source package
+183,Q0183,SRC_EXAM_2025_XICHENG_YIMO_Q18.txt,05_source_backcheck/slice_037/SRC_EXAM_2025_XICHENG_YIMO_Q18.txt,221-234;342-345,True,copied from earlier verified slice-local source package
+183,Q0183,SRC_RUBRIC_2025_XICHENG_YIMO_Q18.txt,05_source_backcheck/slice_037/SRC_RUBRIC_2025_XICHENG_YIMO_Q18.txt,65-78,True,copied from earlier verified slice-local source package
+184,Q0184,SRC_EXAM_2026_FANGSHAN_YIMO_Q19.txt,05_source_backcheck/slice_037/SRC_EXAM_2026_FANGSHAN_YIMO_Q19.txt,300-342,True,copied from earlier verified slice-local source package
+184,Q0184,SRC_RUBRIC_2026_FANGSHAN_YIMO_Q19.txt,05_source_backcheck/slice_037/SRC_RUBRIC_2026_FANGSHAN_YIMO_Q19.txt,58-64,True,copied from earlier verified slice-local source package
+185,Q0185,SRC_EXAM_2025_FENGTAI_YIMO_Q20.txt,05_source_backcheck/slice_037/SRC_EXAM_2025_FENGTAI_YIMO_Q20.txt,206-220;287-289,True,slice037 selected excerpt only; trimmed after interrupted attempt1 hung on full exam text
+185,Q0185,SRC_RUBRIC_2025_FENGTAI_YIMO_Q20.txt,05_source_backcheck/slice_037/SRC_RUBRIC_2025_FENGTAI_YIMO_Q20.txt,13-14,True,slice037 selected excerpt only; trimmed to Q20 TABLE4 rows 13-14
+182,Q0182,SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2.txt,05_source_backcheck/slice_037/SRC_RUBRIC_2024_SHIJINGSHAN_YIMO_Q19_2.txt,539-544,True,corrected slice037 excerpt from PPTX text cache; includes Slide 46 answer line
