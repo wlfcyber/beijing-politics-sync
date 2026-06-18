@@ -1,0 +1,20 @@
+# 2026朝阳期末细则.pdf
+
+## Source Metadata
+
+- source_path: `C:\Users\Administrator\Desktop\2026各区模拟题\2026各区期末和期中\2026朝阳期末\细则\2026朝阳期末细则.pdf`
+- source_root: `C:\Users\Administrator\Desktop\2026各区模拟题`
+- relative_path: `2026各区期末和期中\2026朝阳期末\细则\2026朝阳期末细则.pdf`
+- suffix: `.pdf`
+- sha256: `487b2d15b3a3ac2b14567989edfb4195dd3f776437ec0853a7bd39a5a700859a`
+- status: `rendered-ocr-needed`
+- method: `pdf-text+render`
+- chars: `0`
+- text_path: ``
+- render_dir: `C:\Users\Administrator\Desktop\beijing_politics_research\data\preprocessed_corpus\renders\487b2d15b3a3ac2b`
+- rendered_pages: `4`
+- notes: rendered 4 page(s)
+
+## GPT-Readable Text
+
+No reliable text layer was extracted. Use the cached rendered page images in `render_dir` for OCR or visual reading.

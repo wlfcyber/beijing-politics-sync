@@ -1,0 +1,20 @@
+# 2025朝阳期末细则.pdf
+
+## Source Metadata
+
+- source_path: `C:\Users\Administrator\Desktop\2025各区模拟题\2025各区期末\2025朝阳期末\细则\2025朝阳期末细则.pdf`
+- source_root: `C:\Users\Administrator\Desktop\2025各区模拟题`
+- relative_path: `2025各区期末\2025朝阳期末\细则\2025朝阳期末细则.pdf`
+- suffix: `.pdf`
+- sha256: `953eaee3f98d8598c4fb28ddc0c3a2196d78fb03b0f83b5682ab995ada697ab1`
+- status: `rendered-ocr-needed`
+- method: `pdf-text+render`
+- chars: `0`
+- text_path: ``
+- render_dir: `C:\Users\Administrator\Desktop\beijing_politics_research\data\preprocessed_corpus\renders\953eaee3f98d8598`
+- rendered_pages: `6`
+- notes: rendered 6 page(s)
+
+## GPT-Readable Text
+
+No reliable text layer was extracted. Use the cached rendered page images in `render_dir` for OCR or visual reading.

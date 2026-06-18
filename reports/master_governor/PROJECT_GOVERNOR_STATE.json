@@ -1,13 +1,465 @@
 {
-  "generated_at": "2026-06-03T20:07:20+08:00",
+  "generated_at": "2026-06-17T18:23:42+08:00",
   "workspace": "/Users/wanglifei/Desktop/北京高考政治",
   "lanes": [
+    {
+      "root": "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852",
+      "last_update": 1781691815.3594198,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "BLOCKED",
+        "未完成",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/GOVERNOR.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/DEVELOPMENT_PLAN.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/PROGRESS.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/DECISION_LOG.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/TASK_BRIEF.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/QUESTION_COVERAGE_MATRIX.csv",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/00_control/SOURCE_LEDGER.csv"
+      ]
+    },
+    {
+      "root": "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance",
+      "last_update": 1781691806.6556568,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "BLOCKED"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance/GOVERNOR.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance/PROGRESS.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance/ACCEPTANCE_CRITERIA.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/governor",
+      "last_update": 1781691793.2430184,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/governor/GOVERNOR.md",
+        "reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/governor/PROGRESS.md"
+      ]
+    },
+    {
+      "root": "reports/必修二三与必修四文化_题源分类准备_20260617_1301",
+      "last_update": 1781691047.0875094,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "oversized_control:reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/COVERAGE_MATRIX.csv",
+        "possible_false_closure"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "缺",
+        "无法",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/FINAL_ACCEPTANCE_REPORT.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/SOURCE_LEDGER.csv",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/DEVELOPMENT_PLAN.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/PROGRESS.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/GOVERNOR_CHECKLIST.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/COVERAGE_MATRIX.csv",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/USER_FRAMEWORK.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/DECISION_LOG.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "reports/必修二三与必修四文化_题源分类准备_20260617_1301/05_reports",
+      "last_update": 1781677598.0951362,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [
+        "blocked",
+        "待",
+        "无法"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/05_reports/twenty_question_structure_acceptance_report.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/05_reports/twenty_question_structure_acceptance_audit.csv"
+      ]
+    },
+    {
+      "root": "reports/必修二三与必修四文化_题源分类准备_20260617_1301/role_reports",
+      "last_update": 1781674907.3341482,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "blocked"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/role_reports/PROGRESS.md",
+        "reports/必修二三与必修四文化_题源分类准备_20260617_1301/role_reports/governor_initial_review_20260617.md"
+      ]
+    },
+    {
+      "root": "reports/选必三宝典_迁移包_coverage_audit_20260617_100638",
+      "last_update": 1781662554.3346844,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [],
+      "risk_hits": [
+        "blocked",
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/SOURCE_LEDGER.csv",
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/DEVELOPMENT_PLAN.md",
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/PROGRESS.md",
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/COVERAGE_MATRIX.csv",
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/DECISION_LOG.md",
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/GOVERNOR_CHECK.md",
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/00_control/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/03_reports",
+      "last_update": 1781662554.333735,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress",
+        "missing_governor",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "create or align PROGRESS.md before executing",
+      "controls": [
+        "reports/选必三宝典_迁移包_coverage_audit_20260617_100638/03_reports/FINAL_ACCEPTANCE_REPORT.md"
+      ]
+    },
+    {
+      "root": "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704",
+      "last_update": 1781521913.5116453,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/FINAL_ACCEPTANCE_REPORT.md",
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/SOURCE_LEDGER.csv",
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/DEVELOPMENT_PLAN.md",
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/PROGRESS.md",
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/GOVERNOR_CHECKLIST.md",
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/DECISION_LOG.md",
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/00_control/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/02_analysis",
+      "last_update": 1781521870.6528928,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "missing_progress",
+        "missing_governor"
+      ],
+      "risk_hits": [
+        "待",
+        "缺",
+        "无法"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/02_analysis/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605",
+      "last_update": 1780644861.3984473,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必二重做_2026-04-30/v32_student_audit_fix_20260605",
+      "last_update": 1780641951.4845235,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "pending"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必二重做_2026-04-30/v32_student_audit_fix_20260605/GOVERNOR.md",
+        "选必二重做_2026-04-30/v32_student_audit_fix_20260605/DEVELOPMENT_PLAN.md",
+        "选必二重做_2026-04-30/v32_student_audit_fix_20260605/PROGRESS.md",
+        "选必二重做_2026-04-30/v32_student_audit_fix_20260605/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605",
+      "last_update": 1780624345.1224706,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605",
+      "last_update": 1780603080.6757457,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605",
+      "last_update": 1780601568.9132717,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605",
+      "last_update": 1780599942.923956,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d",
+        "acceptance_without_coverage"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604",
+      "last_update": 1780589787.2378016,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "待"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/TASK_BRIEF.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604",
+      "last_update": 1780588014.5673013,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [],
+      "next_action": "verify final report against live artifacts",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/FINAL_ACCEPTANCE_REPORT.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/TASK_BRIEF.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604",
+      "last_update": 1780587107.8866696,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [],
+      "next_action": "refresh lane state and register next step",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/DECISION_LOG.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/TASK_BRIEF.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604",
+      "last_update": 1780586661.6614568,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [],
+      "next_action": "refresh lane state and register next step",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/SOURCE_LEDGER.csv",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/DECISION_LOG.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/TASK_BRIEF.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604/QUESTION_COVERAGE_MATRIX.csv"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604",
+      "last_update": 1780581739.2052412,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "缺"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604",
+      "last_update": 1780579292.5517328,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [],
+      "next_action": "refresh lane state and register next step",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604/TASK_BRIEF.md"
+      ]
+    },
+    {
+      "root": "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604",
+      "last_update": 1780572486.145801,
+      "completed_steps": 0,
+      "pending_steps": 0,
+      "flags": [
+        "stale>7d"
+      ],
+      "risk_hits": [
+        "待"
+      ],
+      "next_action": "resolve visible blockers before content production",
+      "controls": [
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604/GOVERNOR.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604/DEVELOPMENT_PLAN.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604/PROGRESS.md",
+        "选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604/TASK_BRIEF.md"
+      ]
+    },
     {
       "root": "选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor",
       "last_update": 1780390451.24382,
       "completed_steps": 0,
       "pending_steps": 0,
       "flags": [
+        "stale>7d",
         "missing_progress"
       ],
       "risk_hits": [
@@ -26,6 +478,7 @@
       "completed_steps": 0,
       "pending_steps": 0,
       "flags": [
+        "stale>7d",
         "missing_progress",
         "missing_governor",
         "acceptance_without_coverage"
@@ -47,6 +500,7 @@
       "pending_steps": 0,
       "flags": [
         "oversized_control:选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv",
+        "stale>7d",
         "missing_governor"
       ],
       "risk_hits": [
@@ -70,7 +524,9 @@
       "last_update": 1780294838.2992864,
       "completed_steps": 0,
       "pending_steps": 0,
-      "flags": [],
+      "flags": [
+        "stale>7d"
+      ],
       "risk_hits": [
         "BLOCKED",
         "blocked",
@@ -102,7 +558,9 @@
       "last_update": 1780246432.5665438,
       "completed_steps": 0,
       "pending_steps": 0,
-      "flags": [],
+      "flags": [
+        "stale>7d"
+      ],
       "risk_hits": [
         "缺"
       ],
@@ -119,7 +577,9 @@
       "last_update": 1780245887.9889808,
       "completed_steps": 0,
       "pending_steps": 0,
-      "flags": [],
+      "flags": [
+        "stale>7d"
+      ],
       "risk_hits": [
         "pending"
       ],
@@ -136,7 +596,9 @@
       "last_update": 1780243934.8210917,
       "completed_steps": 0,
       "pending_steps": 0,
-      "flags": [],
+      "flags": [
+        "stale>7d"
+      ],
       "risk_hits": [
         "缺"
       ],
@@ -153,7 +615,9 @@
       "last_update": 1780222102.363757,
       "completed_steps": 0,
       "pending_steps": 0,
-      "flags": [],
+      "flags": [
+        "stale>7d"
+      ],
       "risk_hits": [
         "未完成"
       ],
@@ -171,6 +635,7 @@
       "completed_steps": 0,
       "pending_steps": 0,
       "flags": [
+        "stale>7d",
         "missing_progress",
         "missing_governor",
         "acceptance_without_coverage"
@@ -187,6 +652,7 @@
       "completed_steps": 0,
       "pending_steps": 0,
       "flags": [
+        "stale>7d",
         "missing_progress"
       ],
       "risk_hits": [
@@ -205,6 +671,7 @@
       "completed_steps": 0,
       "pending_steps": 0,
       "flags": [
+        "stale>7d",
         "missing_progress",
         "missing_governor",
         "acceptance_without_coverage"
@@ -224,7 +691,9 @@
       "last_update": 1780029106.2264562,
       "completed_steps": 0,
       "pending_steps": 0,
-      "flags": [],
+      "flags": [
+        "stale>7d"
+      ],
       "risk_hits": [
         "待",
         "缺",

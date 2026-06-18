@@ -1,6 +1,6 @@
 # Worker Daily Orders
 
-- generated_at: 2026-06-03T20:07:20+08:00
+- generated_at: 2026-06-17T18:23:42+08:00
 - rule: 每个分项AI每天先读本文件，再读自己的 lane 控制文件。
 
 ## Global Orders
@@ -13,76 +13,214 @@
 
 ## Lane Orders
 
-### 选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor
-
-- next_action: resolve visible blockers before content production
-- flags: missing_progress
-- risk_hits: blocked; 待; pending
-
-### 选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/07_acceptance
-
-- next_action: resolve visible blockers before content production
-- flags: missing_progress; missing_governor; acceptance_without_coverage
-- risk_hits: blocked; 待; pending
-
-### 选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02
-
-- next_action: resolve visible blockers before content production
-- flags: oversized_control:选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv; missing_governor
-- risk_hits: blocked; 待; 缺; pending
-
-### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25
+### reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852
 
 - next_action: resolve visible blockers before content production
 - flags: none
-- risk_hits: BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more
+- risk_hits: BLOCKED; 未完成; pending
 
-### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601
+### reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance
 
 - next_action: resolve visible blockers before content production
 - flags: none
-- risk_hits: 缺
+- risk_hits: BLOCKED
 
-### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601
+### reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/governor
 
 - next_action: resolve visible blockers before content production
 - flags: none
 - risk_hits: pending
 
-### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531
+### reports/必修二三与必修四文化_题源分类准备_20260617_1301
+
+- next_action: resolve visible blockers before content production
+- flags: oversized_control:reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/COVERAGE_MATRIX.csv; possible_false_closure
+- risk_hits: blocked; 待; 缺; 无法; pending
+
+### reports/必修二三与必修四文化_题源分类准备_20260617_1301/05_reports
+
+- next_action: resolve visible blockers before content production
+- flags: missing_progress; missing_governor; acceptance_without_coverage
+- risk_hits: blocked; 待; 无法
+
+### reports/必修二三与必修四文化_题源分类准备_20260617_1301/role_reports
 
 - next_action: resolve visible blockers before content production
 - flags: none
-- risk_hits: 缺
+- risk_hits: blocked
 
-### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531
+### reports/选必三宝典_迁移包_coverage_audit_20260617_100638
 
 - next_action: resolve visible blockers before content production
 - flags: none
-- risk_hits: 未完成
+- risk_hits: blocked; pending
 
-### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/final_delivery_ultimate_20260531
+### reports/选必三宝典_迁移包_coverage_audit_20260617_100638/03_reports
 
 - next_action: create or align PROGRESS.md before executing
 - flags: missing_progress; missing_governor; acceptance_without_coverage
 - risk_hits: none
 
+### reports/必修四哲学宝典_v10_coverage_audit_20260615_190704
+
+- next_action: verify final report against live artifacts
+- flags: acceptance_without_coverage
+- risk_hits: none
+
+### reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/02_analysis
+
+- next_action: resolve visible blockers before content production
+- flags: missing_progress; missing_governor
+- risk_hits: 待; 缺; 无法
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 缺
+
+### 选必二重做_2026-04-30/v32_student_audit_fix_20260605
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: pending
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605
+
+- next_action: verify final report against live artifacts
+- flags: stale>7d; acceptance_without_coverage
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605
+
+- next_action: verify final report against live artifacts
+- flags: stale>7d; acceptance_without_coverage
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605
+
+- next_action: verify final report against live artifacts
+- flags: stale>7d; acceptance_without_coverage
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605
+
+- next_action: verify final report against live artifacts
+- flags: stale>7d; acceptance_without_coverage
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 待
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604
+
+- next_action: verify final report against live artifacts
+- flags: stale>7d
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604
+
+- next_action: refresh lane state and register next step
+- flags: stale>7d
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604
+
+- next_action: refresh lane state and register next step
+- flags: stale>7d
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 缺
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604
+
+- next_action: refresh lane state and register next step
+- flags: stale>7d
+- risk_hits: none
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 待
+
+### 选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d; missing_progress
+- risk_hits: blocked; 待; pending
+
+### 选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/07_acceptance
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d; missing_progress; missing_governor; acceptance_without_coverage
+- risk_hits: blocked; 待; pending
+
+### 选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02
+
+- next_action: resolve visible blockers before content production
+- flags: oversized_control:选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv; stale>7d; missing_governor
+- risk_hits: blocked; 待; 缺; pending
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 缺
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: pending
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 缺
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531
+
+- next_action: resolve visible blockers before content production
+- flags: stale>7d
+- risk_hits: 未完成
+
+### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/final_delivery_ultimate_20260531
+
+- next_action: create or align PROGRESS.md before executing
+- flags: stale>7d; missing_progress; missing_governor; acceptance_without_coverage
+- risk_hits: none
+
 ### 选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/06_governor
 
 - next_action: resolve visible blockers before content production
-- flags: missing_progress
+- flags: stale>7d; missing_progress
 - risk_hits: blocked; 缺; pending
 
 ### 选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/07_acceptance
 
 - next_action: resolve visible blockers before content production
-- flags: missing_progress; missing_governor; acceptance_without_coverage
+- flags: stale>7d; missing_progress; missing_governor; acceptance_without_coverage
 - risk_hits: 待; 缺; pending
 
 ### 选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29
 
 - next_action: resolve visible blockers before content production
-- flags: none
+- flags: stale>7d
 - risk_hits: 待; 缺; pending
 
 ### 选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance

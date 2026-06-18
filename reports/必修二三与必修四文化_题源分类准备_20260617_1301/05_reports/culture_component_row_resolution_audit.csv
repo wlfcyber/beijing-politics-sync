@@ -1,0 +1,6 @@
+suite_id,question,operation,prior_book_module,prior_status,new_book_module,new_status,rule_id,matched_terms,basis
+2024_丰台_二模,21,close_parent_remainder,UNKNOWN_OR_MIXED,blocked,B4_PHILOSOPHY_EXCLUDED,module-boundary-excluded,CULTURE_COMPONENT_EXTRACTED_REMAINDER_PHILOSOPHY_B1,,culture component extracted; parent remainder is non-culture
+2024_海淀_一模,16,close_parent_remainder,UNKNOWN_OR_MIXED,blocked,B4_PHILOSOPHY_EXCLUDED,module-boundary-excluded,CULTURE_COMPONENT_EXTRACTED_REMAINDER_PHILOSOPHY,,culture component extracted; parent remainder is non-culture
+2024_海淀_期中,16,close_parent_remainder,UNKNOWN_OR_MIXED,blocked,B4_PHILOSOPHY_EXCLUDED,module-boundary-excluded,CULTURE_COMPONENT_EXTRACTED_REMAINDER_PHILOSOPHY,,culture component extracted; parent remainder is non-culture
+2026_西城_二模,2,resolve_original_row,B4_PHILOSOPHY_EXCLUDED,module-boundary-excluded,B4_CULTURE,included,CULTURE_FULL_OBJECTIVE_MILU_CULTURAL_SYMBOL,"中华文化主体性,文化自信,中华优秀传统文化,文化基因",objective row is culture-dominant after applying user rule
+2026_顺义_一模,2,resolve_original_row,UNKNOWN_OR_MIXED,blocked,B4_CULTURE,included,CULTURE_FULL_OBJECTIVE_BEIJING_THEATRE_INNOVATION,"北京题材,创新文化呈现方式,建都历史,文化表达",objective row is culture-dominant after applying user rule

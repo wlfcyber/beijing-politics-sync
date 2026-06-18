@@ -1,0 +1,20 @@
+# 2026海淀一模 试卷扫描版_去水印.pdf
+
+## Source Metadata
+
+- source_path: `C:\Users\Administrator\Desktop\2026各区模拟题\2026各区一模\2026海淀一模\试卷\2026海淀一模 试卷扫描版_去水印.pdf`
+- source_root: `C:\Users\Administrator\Desktop\2026各区模拟题`
+- relative_path: `2026各区一模\2026海淀一模\试卷\2026海淀一模 试卷扫描版_去水印.pdf`
+- suffix: `.pdf`
+- sha256: `03e0412bb80579d817c36d81a80cbe3caaf6ba114b5ff7272a9ec5582696b547`
+- status: `rendered-ocr-needed`
+- method: `pdf-text+render`
+- chars: `0`
+- text_path: ``
+- render_dir: `C:\Users\Administrator\Desktop\beijing_politics_research\data\preprocessed_corpus\renders\03e0412bb80579d8`
+- rendered_pages: `8`
+- notes: rendered 8 page(s)
+
+## GPT-Readable Text
+
+No reliable text layer was extracted. Use the cached rendered page images in `render_dir` for OCR or visual reading.

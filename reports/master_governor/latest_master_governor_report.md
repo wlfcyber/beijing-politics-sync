@@ -1,13 +1,13 @@
 # Beijing Politics Master Governor Report
 
-- generated_at: 2026-06-03T20:07:20+08:00
+- generated_at: 2026-06-17T18:23:42+08:00
 - workspace: `/Users/wanglifei/Desktop/北京高考政治`
 - sync_root: `/Users/wanglifei/GaokaoPolitics/beijing-politics-sync`
 - context_threshold_bytes: 1000000
-- lane_count: 88
-- flagged_lanes: 88
-- stale_lanes: 76
-- possible_false_closure_lanes: 16
+- lane_count: 111
+- flagged_lanes: 111
+- stale_lanes: 101
+- possible_false_closure_lanes: 17
 
 ## Mandatory Three-Layer SOP
 
@@ -19,6 +19,7 @@ No worker may touch project code, sources, rubrics, generated teaching files, or
 
 ## Critical Alerts
 
+- `reports/必修二三与必修四文化_题源分类准备_20260617_1301`: possible false closure. Risk hits: blocked; 待; 缺; 无法; pending
 - `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance`: possible false closure. Risk hits: BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more
 - `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review`: possible false closure. Risk hits: BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more
 - `claude_zero_run`: possible false closure. Risk hits: blocked; 待; 缺; pending
@@ -40,18 +41,41 @@ No worker may touch project code, sources, rubrics, generated teaching files, or
 
 | Lane | Last update | Steps x/pending | Control flags | Risk hits | Next action |
 | --- | --- | ---: | --- | --- | --- |
-| `选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor` | 2026-06-02 16:54 | 0/0 | missing_progress | blocked; 待; pending | resolve visible blockers before content production |
-| `选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/07_acceptance` | 2026-06-02 16:53 | 0/0 | missing_progress; missing_governor; acceptance_without_coverage | blocked; 待; pending | resolve visible blockers before content production |
-| `选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02` | 2026-06-02 16:53 | 0/0 | oversized_control:选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv; missing_governor | blocked; 待; 缺; pending | resolve visible blockers before content production |
-| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25` | 2026-06-01 14:20 | 0/0 | none | BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more | resolve visible blockers before content production |
-| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601` | 2026-06-01 00:53 | 0/0 | none | 缺 | resolve visible blockers before content production |
-| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601` | 2026-06-01 00:44 | 0/0 | none | pending | resolve visible blockers before content production |
-| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531` | 2026-06-01 00:12 | 0/0 | none | 缺 | resolve visible blockers before content production |
-| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531` | 2026-05-31 18:08 | 0/0 | none | 未完成 | resolve visible blockers before content production |
-| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/final_delivery_ultimate_20260531` | 2026-05-31 14:30 | 0/0 | missing_progress; missing_governor; acceptance_without_coverage | none | create or align PROGRESS.md before executing |
-| `选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/06_governor` | 2026-05-29 12:32 | 0/0 | missing_progress | blocked; 缺; pending | resolve visible blockers before content production |
-| `选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/07_acceptance` | 2026-05-29 12:32 | 0/0 | missing_progress; missing_governor; acceptance_without_coverage | 待; 缺; pending | resolve visible blockers before content production |
-| `选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29` | 2026-05-29 12:31 | 0/0 | none | 待; 缺; pending | resolve visible blockers before content production |
+| `reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852` | 2026-06-17 18:23 | 0/0 | none | BLOCKED; 未完成; pending | resolve visible blockers before content production |
+| `reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/acceptance` | 2026-06-17 18:23 | 0/0 | none | BLOCKED | resolve visible blockers before content production |
+| `reports/选必一宝典_桌面原文件逐字逐题复核_20260617_151852/governor` | 2026-06-17 18:23 | 0/0 | none | pending | resolve visible blockers before content production |
+| `reports/必修二三与必修四文化_题源分类准备_20260617_1301` | 2026-06-17 18:10 | 0/0 | oversized_control:reports/必修二三与必修四文化_题源分类准备_20260617_1301/00_control/COVERAGE_MATRIX.csv; possible_false_closure | blocked; 待; 缺; 无法; pending | resolve visible blockers before content production |
+| `reports/必修二三与必修四文化_题源分类准备_20260617_1301/05_reports` | 2026-06-17 14:26 | 0/0 | missing_progress; missing_governor; acceptance_without_coverage | blocked; 待; 无法 | resolve visible blockers before content production |
+| `reports/必修二三与必修四文化_题源分类准备_20260617_1301/role_reports` | 2026-06-17 13:41 | 0/0 | none | blocked | resolve visible blockers before content production |
+| `reports/选必三宝典_迁移包_coverage_audit_20260617_100638` | 2026-06-17 10:15 | 0/0 | none | blocked; pending | resolve visible blockers before content production |
+| `reports/选必三宝典_迁移包_coverage_audit_20260617_100638/03_reports` | 2026-06-17 10:15 | 0/0 | missing_progress; missing_governor; acceptance_without_coverage | none | create or align PROGRESS.md before executing |
+| `reports/必修四哲学宝典_v10_coverage_audit_20260615_190704` | 2026-06-15 19:11 | 0/0 | acceptance_without_coverage | none | verify final report against live artifacts |
+| `reports/必修四哲学宝典_v10_coverage_audit_20260615_190704/02_analysis` | 2026-06-15 19:11 | 0/0 | missing_progress; missing_governor | 待; 缺; 无法 | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/27_formal_rubric_reaudit_after_haidian_20260605` | 2026-06-05 15:34 | 0/0 | stale>7d | 缺 | resolve visible blockers before content production |
+| `选必二重做_2026-04-30/v32_student_audit_fix_20260605` | 2026-06-05 14:45 | 0/0 | stale>7d | pending | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/26_remove_subjective_label_20260605` | 2026-06-05 09:52 | 0/0 | stale>7d; acceptance_without_coverage | none | verify final report against live artifacts |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/25_watermark_final_pair_20260605` | 2026-06-05 03:58 | 0/0 | stale>7d; acceptance_without_coverage | none | verify final report against live artifacts |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/24_final_student_surface_cleanup_20260605` | 2026-06-05 03:32 | 0/0 | stale>7d; acceptance_without_coverage | none | verify final report against live artifacts |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/23_toc_hyperlinks_20260605` | 2026-06-05 03:05 | 0/0 | stale>7d; acceptance_without_coverage | none | verify final report against live artifacts |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/22_accuracy_completeness_clean_pass_20260604` | 2026-06-05 00:16 | 0/0 | stale>7d | 待 | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/21_downloads_final_beautify_20260604` | 2026-06-04 23:46 | 0/0 | stale>7d | none | verify final report against live artifacts |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/20_downloads_claude_beautified_audit_20260604` | 2026-06-04 23:31 | 0/0 | stale>7d | none | refresh lane state and register next step |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/19_claude_beautified_full_accuracy_audit_20260604` | 2026-06-04 23:24 | 0/0 | stale>7d | none | refresh lane state and register next step |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/18_same_question_group_closure_20260604` | 2026-06-04 22:02 | 0/0 | stale>7d | 缺 | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/17_second_round_precision_patch_20260604` | 2026-06-04 21:21 | 0/0 | stale>7d | none | refresh lane state and register next step |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/16_claudeopus48_thinking_content_audit_patch_20260604` | 2026-06-04 19:28 | 0/0 | stale>7d | 待 | resolve visible blockers before content production |
+| `选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/06_governor` | 2026-06-02 16:54 | 0/0 | stale>7d; missing_progress | blocked; 待; pending | resolve visible blockers before content production |
+| `选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/07_acceptance` | 2026-06-02 16:53 | 0/0 | stale>7d; missing_progress; missing_governor; acceptance_without_coverage | blocked; 待; pending | resolve visible blockers before content production |
+| `选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02` | 2026-06-02 16:53 | 0/0 | oversized_control:选必二重做_2026-04-30/raw_exam_subjective_compilation_2026-06-02/00_control/SOURCE_LEDGER.csv; stale>7d; missing_governor | blocked; 待; 缺; pending | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25` | 2026-06-01 14:20 | 0/0 | stale>7d | BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/15_reasoning_direct_compilation_20260601` | 2026-06-01 00:53 | 0/0 | stale>7d | 缺 | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/14_reasoning_baodian_rebuild_after_v87_20260601` | 2026-06-01 00:44 | 0/0 | stale>7d | pending | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/13_reasoning_clean_redo_20260531` | 2026-06-01 00:12 | 0/0 | stale>7d | 缺 | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/12_reasoning_exercise_compilation_20260531` | 2026-05-31 18:08 | 0/0 | stale>7d | 未完成 | resolve visible blockers before content production |
+| `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_candidate_audit/final_delivery_ultimate_20260531` | 2026-05-31 14:30 | 0/0 | stale>7d; missing_progress; missing_governor; acceptance_without_coverage | none | create or align PROGRESS.md before executing |
+| `选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/06_governor` | 2026-05-29 12:32 | 0/0 | stale>7d; missing_progress | blocked; 缺; pending | resolve visible blockers before content production |
+| `选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29/07_acceptance` | 2026-05-29 12:32 | 0/0 | stale>7d; missing_progress; missing_governor; acceptance_without_coverage | 待; 缺; pending | resolve visible blockers before content production |
+| `选必二重做_2026-04-30/opus48_dynamic_workflow_subjective_compilation_2026-05-29` | 2026-05-29 12:31 | 0/0 | stale>7d | 待; 缺; pending | resolve visible blockers before content production |
 | `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/10_acceptance` | 2026-05-26 22:26 | 0/0 | stale>7d; acceptance_without_coverage; possible_false_closure | BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more | resolve visible blockers before content production |
 | `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/06_governor_confucius` | 2026-05-26 22:25 | 0/0 | stale>7d | real_call_pending; 缺; 未完成; pending | resolve visible blockers before content production |
 | `选必三双宝典_哲学宝典完全对齐返工_2026-05-25/09_external_review` | 2026-05-26 13:47 | 0/0 | stale>7d; possible_false_closure | BLOCKED; blocked; real_call_pending; blocked_advisor; 待; 缺; +3 more | resolve visible blockers before content production |

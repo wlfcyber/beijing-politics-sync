@@ -1,0 +1,22 @@
+suite_id,missing_after_raw_marker_review,resolved_by_raw_marker_review,prior_triage_status
+2024_东城_一模,,,paper_or_ocr_missing_but_auxiliary_present
+2024_朝阳_二模,21,,likely_actual_20_question_paper
+2024_朝阳_期中,21,,likely_actual_20_question_paper
+2024_海淀_一模,21,,likely_actual_20_question_paper
+2024_海淀_期中,21,,likely_actual_20_question_paper
+2024_石景山_一模,21,,likely_actual_20_question_paper
+2024_西城_一模,5 20 21,,source_or_ocr_missing_no_candidate
+2024_西城_二模,15 20 21,1 4,paper_or_ocr_missing_but_auxiliary_present
+2024_顺义_二模,6 9 14 20 21,,paper_or_ocr_missing_but_auxiliary_present
+2025_房山_一模,21,,likely_actual_20_question_paper
+2025_西城_二模,21,,likely_actual_20_question_paper
+2026_东城_一模,21,,likely_actual_20_question_paper
+2026_丰台_一模,5 7 9,14,paper_or_ocr_missing_but_auxiliary_present
+2026_丰台_二模,15,,source_or_ocr_missing_no_candidate
+2026_丰台_期末,2 6 7 9 12,,paper_or_ocr_missing_but_auxiliary_present
+2026_延庆_一模,21,,likely_actual_20_question_paper
+2026_房山_一模,5 8 17 21,1,paper_or_ocr_missing_but_auxiliary_present
+2026_石景山_二模,21,,likely_actual_20_question_paper
+2026_西城_一模,12 14,,source_or_ocr_missing_no_candidate
+2026_西城_二模,21,,likely_actual_20_question_paper
+2026_西城_期末,9,15,source_or_ocr_missing_no_candidate
